@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Throne of Heroes - Toros -->
+<instance id="365" maxWorlds="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/instance.xsd">
+	<time duration="60" empty="0" />
+	<locations>
+		<enter type="FIXED">
+			<location x="11722" y="-85014" z="-10972" heading="52300" /> <!-- battle location -->
+		</enter>
+		<exit type="ORIGIN" />
+	</locations>
+	<conditions>
+		<!-- Change CommandChannel to Party if you want to allow small party groups -->
+		<condition type="CommandChannel" showMessageAndHtml="true">
+			<param name="html" value="condNoGroup.html" />
+		</condition>
+		<!-- Change CommandChannelLeaderSameClan to PartyLeaderSameClan if you want to allow small party groups -->
+		<condition type="CommandChannelLeaderSameClan">
+			<param name="html" value="condNotSameClan.html" />
+		</condition>
+		<condition type="GroupMin">
+			<param name="limit" value="2" />
+		</condition>
+		<condition type="GroupMax">
+			<param name="html" value="condBigGroup.html" />
+			<param name="limit" value="100" />
+		</condition>
+		<condition type="Level" showMessageAndHtml="true">
+			<param name="html" value="condNoLevel.html" />
+			<param name="min" value="100" />
+		</condition>
+		<condition type="Distance" />
+		<condition type="Reenter" />
+	</conditions>
+	<reenter apply="ON_FINISH">
+		<reset day="SATURDAY" hour="6" minute="30" />
+	</reenter>
+	<spawnlist>
+		<group name="TOROS" spawnByDefault="false">
+			<npc id="29451" x="11756" y="-86499" z="-10944" heading="0" /> <!-- Toros -->
+		</group>
+		<group name="TOROS_CLONES" spawnByDefault="false">
+			<npc id="29452" x="11797" y="-86046" z="-10964" heading="0" /> <!-- Toros Clone 1 -->
+			<npc id="29453" x="11359" y="-86492" z="-10964" heading="0" /> <!-- Toros Clone 2 -->
+			<npc id="29454" x="11708" y="-86857" z="-10964" heading="0" /> <!-- Toros Clone 3 -->
+		</group>
+	</spawnlist>
+</instance>

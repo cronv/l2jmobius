@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<project name="L2J_Mobius_14.3_Throne" default="cleanup" basedir=".">
+	<description>
+		Copyright (c) 2013 L2jMobius
+		 
+		Permission is hereby granted, free of charge, to any person obtaining a copy
+		of this software and associated documentation files (the "Software"), to deal
+		in the Software without restriction, including without limitation the rights
+		to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+		copies of the Software, and to permit persons to whom the Software is
+		furnished to do so, subject to the following conditions:
+		 
+		The above copyright notice and this permission notice shall be
+		included in all copies or substantial portions of the Software.
+		 
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+		IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+		FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+		AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+		WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+		IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	</description>
+
+	<property name="build" location="../build" />
+	<property name="build.bin" location="${build}/bin" />
+	<property name="build.dist" location="${build}/dist" />
+	<property name="build.dist.libs" location="${build.dist}/libs" />
+	<property name="build.dist.databaseinstaller" location="${build.dist}/db_installer" />
+	<property name="datapack" location="dist" />
+	<property name="libs" location="${datapack}/libs" />
+	<property name="src" location="java" />
+
+	<path id="classpath">
+		<fileset dir="${libs}">
+			<include name="*.jar" />
+			<exclude name="**/*-sources.jar" />
+		</fileset>
+	</path>
+
+	<pathconvert property="manifest.libs" pathsep=" ">
+		<path refid="classpath" />
+		<mapper>
+			<chainedmapper>
+				<flattenmapper />
+				<globmapper from="*.jar" to="../libs/*.jar" />
+			</chainedmapper>
+		</mapper>
+	</pathconvert>
+
+	<target name="checkRequirements" description="Check Requirements.">
+		<fail message="Ant 1.8.2 is required. But your version is ${ant.version} and if you are using Eclipse probably is outdated.">
+			<condition>
+				<not>
+					<antversion atleast="1.8.2" />
+				</not>
+			</condition>
+		</fail>
+		<available classname="java.util.stream.Stream" property="JDK25.present" />
+		<fail unless="JDK25.present" message="Java 25 is required. But your version is Java ${ant.java.version} and probably JDK is not installed." />
+	</target>
+
+	<target name="init" depends="checkRequirements" description="Create the output directories.">
+		<delete dir="${build.bin}" quiet="true" />
+		<mkdir dir="${build.bin}" />
+	</target>
+
+	<target name="compile" depends="init" description="Compile the source.">
+		<javac srcdir="${src}" classpathref="classpath" destdir="${build.bin}" compiler="modern" debug="true" debuglevel="lines,vars,source" includeantruntime="false" source="25" target="25" encoding="UTF-8" />
+	</target>
+
+	<target name="jar" depends="compile" description="Create the jar files.">
+		<tstamp>
+			<format property="time.stamp" pattern="yyyy-MM-dd HH:mm:ss z" />
+		</tstamp>
+
+		<jar destfile="${build.dist.libs}/LoginServer.jar" level="9">
+			<fileset dir="${build.bin}">
+				<exclude name="**/gameserver/**" />
+				<exclude name="**/tools/dashboard/**" />
+				<exclude name="**/tools/dashboard/database/**" />
+				<exclude name="**/tools/DatabaseInstaller**" />
+				<exclude name="**/tools/Search**" />
+				<exclude name="**/tools/MapExtractor**" />
+				<exclude name="**/tools/editor/DropEditor**" />
+				<exclude name="**/tools/editor/drop/**" />
+				<exclude name="**/tools/editor/NpcEditor**" />
+				<exclude name="**/tools/editor/npc/**" />
+				<exclude name="**/tools/editor/**" />
+				<exclude name="**/tools/map/**" />
+			</fileset>
+			<fileset dir="${build.bin}">
+				<include name="org/l2jmobius/tools/dashboard/bridge/**" />
+			</fileset>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${time.stamp}" />
+				<attribute name="Implementation-URL" value="http://www.l2jmobius.org/" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Main-Class" value="org.l2jmobius.loginserver.LoginServer" />
+			</manifest>
+		</jar>
+		<jar destfile="${build.dist.libs}/GameServer.jar" level="9">
+			<fileset dir="${build.bin}">
+				<exclude name="**/loginserver/**" />
+				<exclude name="**/tools/dashboard/**" />
+				<exclude name="**/tools/dashboard/database/**" />
+				<exclude name="**/tools/AccountManager**" />
+				<exclude name="**/tools/DatabaseInstaller**" />
+				<exclude name="**/tools/GameServerRegister**" />
+			</fileset>
+			<fileset dir="${build.bin}">
+				<include name="org/l2jmobius/tools/dashboard/bridge/**" />
+			</fileset>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${time.stamp}" />
+				<attribute name="Implementation-URL" value="http://www.l2jmobius.org/" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Main-Class" value="org.l2jmobius.gameserver.GameServer" />
+			</manifest>
+		</jar>
+		<jar destfile="${build.dist.libs}/Dashboard.jar" level="9">
+			<fileset dir="${build.bin}">
+				<include name="org/l2jmobius/tools/dashboard/**" />
+				<include name="org/l2jmobius/tools/dashboard/database/**" />
+				<include name="org/l2jmobius/commons/time/TimeUtil**" />
+				<include name="org/l2jmobius/commons/ui/**" />
+				<include name="org/l2jmobius/commons/util/ConfigReader**" />
+				<include name="org/l2jmobius/tools/editor/drop/**" />
+				<include name="org/l2jmobius/tools/editor/**" />
+				<include name="org/l2jmobius/tools/editor/npc/**" />
+				<include name="org/l2jmobius/tools/map/**" />
+				<exclude name="org/l2jmobius/tools/map/GeoLos*" />
+			</fileset>
+			<zipfileset dir="${datapack}/images" prefix="org/l2jmobius/tools/dashboard/ui/images">
+				<include name="l2jmobius_16x16.png" />
+				<include name="l2jmobius_32x32.png" />
+				<include name="l2jmobius_64x64.png" />
+				<include name="l2jmobius_128x128.png" />
+				<include name="splash.png" />
+			</zipfileset>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${time.stamp}" />
+				<attribute name="Implementation-URL" value="http://www.l2jmobius.org/" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Main-Class" value="org.l2jmobius.tools.dashboard.ControlCenterApplication" />
+				<attribute name="SplashScreen-Image" value="org/l2jmobius/tools/dashboard/ui/images/splash.png" />
+			</manifest>
+		</jar>
+		<jar destfile="${build.dist.databaseinstaller}/DatabaseInstaller.jar" level="9">
+			<fileset dir="${build.bin}">
+				<include name="**/commons/config/DatabaseConfig**" />
+				<include name="**/commons/config/InterfaceConfig**" />
+				<include name="**/commons/database/DatabaseFactory**" />
+				<include name="**/commons/ui/**" />
+				<include name="**/commons/util/ConfigReader**" />
+				<include name="**/tools/DatabaseInstaller**" />
+			</fileset>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${time.stamp}" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Implementation-URL" value="http://www.l2jmobius.org/" />
+				<attribute name="Main-Class" value="org.l2jmobius.tools.DatabaseInstaller" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="adding-core" depends="jar" description="Adding the compiled jars to the Zip file.">
+		<zip destfile="${build}/L2J_Mobius_14.3_Throne.zip" basedir="${build.dist}" level="9" />
+	</target>
+
+	<target name="adding-datapack" depends="adding-core" description="Updating the Zip file with datapack content.">
+		<zip destfile="${build}/L2J_Mobius_14.3_Throne.zip" basedir="${datapack}" excludes="**/*-sources.jar" update="true" level="9" />
+	</target>
+
+	<target name="adding-readme" depends="adding-datapack" description="Adding readme.txt to the Zip file.">
+		<zip destfile="${build}/L2J_Mobius_14.3_Throne.zip" basedir="." includes="readme.txt" update="true" level="9" />
+	</target>
+
+	<target name="cleanup" depends="adding-readme" description="Cleaning the build folder.">
+		<delete dir="${build.dist}" />
+	</target>
+</project>

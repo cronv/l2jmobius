@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/RouteData.xsd">
+	<!-- Octavis -->
+	<route name="octabis_superpoint" repeat="true" repeatStyle="cycle">
+		<point X="208020" Y="120576" Z="-10017" delay="0" run="true" />
+		<point X="207992" Y="120906" Z="-10017" delay="0" run="true" />
+		<point X="207518" Y="121378" Z="-10017" delay="0" run="true" />
+		<point X="206857" Y="121375" Z="-10017" delay="0" run="true" />
+		<point X="206389" Y="120899" Z="-10017" delay="0" run="true" />
+		<point X="206391" Y="120246" Z="-10017" delay="0" run="true" />
+		<point X="206869" Y="119769" Z="-10017" delay="0" run="true" />
+		<point X="207526" Y="119774" Z="-10017" delay="0" run="true" />
+		<point X="207992" Y="120246" Z="-10017" delay="0" run="true" />
+	</route>
+</routes>

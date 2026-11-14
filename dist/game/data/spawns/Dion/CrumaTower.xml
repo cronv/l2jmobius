@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_01" minZ="-12128" maxZ="-11928">
+				<node x="13843" y="116579" />
+				<node x="15156" y="116580" />
+				<node x="15180" y="117980" />
+				<node x="13856" y="117997" />
+			</territory>
+		</territories>
+		<npc id="20213" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Porta -->
+		<npc id="20214" count="8" respawnTime="41sec" respawnRandom="15sec" /> <!-- Excuro -->
+		<npc id="21035" count="8" respawnTime="41sec" respawnRandom="15sec" /> <!-- Catherok -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_03" minZ="-12121" maxZ="-11891">
+				<node x="13393" y="120257" />
+				<node x="15415" y="120265" />
+				<node x="15414" y="120822" />
+				<node x="13398" y="120825" />
+			</territory>
+		</territories>
+		<npc id="20213" count="5" respawnTime="34sec" respawnRandom="10sec" /> <!-- Porta -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_04" minZ="-12133" maxZ="-11903">
+				<node x="12419" y="117313" />
+				<node x="12944" y="117307" />
+				<node x="12987" y="119942" />
+				<node x="12414" y="119929" />
+			</territory>
+		</territories>
+		<npc id="20213" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Porta -->
+		<npc id="20214" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Excuro -->
+		<npc id="20215" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Mordeo -->
+		<npc id="21035" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Catherok -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_05" minZ="-12134" maxZ="-11904">
+				<node x="11030" y="119065" />
+				<node x="12027" y="119068" />
+				<node x="12020" y="120808" />
+				<node x="11033" y="120807" />
+			</territory>
+		</territories>
+		<npc id="20213" count="1" respawnTime="41sec" respawnRandom="15sec" /> <!-- Porta -->
+		<npc id="20214" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Excuro -->
+		<npc id="21035" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Catherok -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_06" minZ="-12134" maxZ="-11904">
+				<node x="11025" y="116445" />
+				<node x="12020" y="116447" />
+				<node x="12029" y="118182" />
+				<node x="11057" y="118189" />
+			</territory>
+		</territories>
+		<npc id="20213" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Porta -->
+		<npc id="20214" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Excuro -->
+		<npc id="20215" count="1" respawnTime="41sec" respawnRandom="15sec" /> <!-- Mordeo -->
+		<npc id="21035" count="1" respawnTime="41sec" respawnRandom="15sec" /> <!-- Catherok -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_07" minZ="-12131" maxZ="-11901">
+				<node x="13872" y="110333" />
+				<node x="15128" y="110330" />
+				<node x="15143" y="111820" />
+				<node x="13854" y="111821" />
+			</territory>
+		</territories>
+		<npc id="20216" count="5" respawnTime="41sec" respawnRandom="15sec" /> <!-- Ricenseo -->
+		<npc id="20217" count="1" respawnTime="41sec" respawnRandom="15sec" /> <!-- Krator -->
+		<npc id="21035" count="1" respawnTime="41sec" respawnRandom="15sec" /> <!-- Catherok -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_08" minZ="-12133" maxZ="-11903">
+				<node x="13021" y="107948" />
+				<node x="13034" y="111161" />
+				<node x="12805" y="111167" />
+				<node x="12806" y="109955" />
+				<node x="11772" y="109915" />
+				<node x="11776" y="109356" />
+				<node x="12774" y="109332" />
+				<node x="12804" y="107948" />
+			</territory>
+		</territories>
+		<npc id="20216" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Ricenseo -->
+		<npc id="20217" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Krator -->
+		<npc id="21035" count="1" respawnTime="41sec" respawnRandom="15sec" /> <!-- Catherok -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_09" minZ="-12130" maxZ="-11900">
+				<node x="14360" y="109355" />
+				<node x="14365" y="109965" />
+				<node x="13401" y="109948" />
+				<node x="13381" y="111182" />
+				<node x="13061" y="111175" />
+				<node x="13053" y="107944" />
+				<node x="13405" y="107947" />
+				<node x="13418" y="109353" />
+			</territory>
+		</territories>
+		<npc id="20216" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Ricenseo -->
+		<npc id="20751" count="2" respawnTime="45sec" respawnRandom="15sec" /> <!-- Snipe -->
+		<npc id="21035" count="1" respawnTime="41sec" respawnRandom="15sec" /> <!-- Catherok -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_12" minZ="-12121" maxZ="-11891">
+				<node x="13730" y="107457" />
+				<node x="14875" y="107452" />
+				<node x="14903" y="108963" />
+				<node x="13734" y="108966" />
+			</territory>
+		</territories>
+		<npc id="20216" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Ricenseo -->
+		<npc id="20218" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Premo -->
+		<npc id="20751" count="1" respawnTime="45sec" respawnRandom="15sec" /> <!-- Snipe -->
+		<npc id="21036" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Shindebarn -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_13" minZ="-12121" maxZ="-11891">
+				<node x="11248" y="110563" />
+				<node x="12243" y="110556" />
+				<node x="12243" y="111637" />
+				<node x="11245" y="111640" />
+			</territory>
+		</territories>
+		<npc id="20216" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Ricenseo -->
+		<npc id="20218" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Premo -->
+		<npc id="21036" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Shindebarn -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_14" minZ="-12128" maxZ="-11898">
+				<node x="11062" y="107478" />
+				<node x="12431" y="107474" />
+				<node x="12414" y="108947" />
+				<node x="11035" y="108960" />
+			</territory>
+		</territories>
+		<npc id="20216" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Ricenseo -->
+		<npc id="20217" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Krator -->
+		<npc id="20751" count="1" respawnTime="45sec" respawnRandom="15sec" /> <!-- Snipe -->
+		<npc id="21036" count="4" respawnTime="41sec" respawnRandom="15sec" /> <!-- Shindebarn -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_15" minZ="-12131" maxZ="-11901">
+				<node x="20259" y="110309" />
+				<node x="21571" y="110268" />
+				<node x="21572" y="111691" />
+				<node x="20293" y="111699" />
+			</territory>
+		</territories>
+		<npc id="20216" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Ricenseo -->
+		<npc id="20217" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Krator -->
+		<npc id="21035" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Catherok -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_16" minZ="-12121" maxZ="-11891">
+				<node x="20077" y="107473" />
+				<node x="21638" y="107472" />
+				<node x="21645" y="109264" />
+				<node x="20068" y="109271" />
+			</territory>
+		</territories>
+		<npc id="20216" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Ricenseo -->
+		<npc id="20217" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Krator -->
+		<npc id="20751" count="1" respawnTime="45sec" respawnRandom="15sec" /> <!-- Snipe -->
+		<npc id="21036" count="4" respawnTime="41sec" respawnRandom="15sec" /> <!-- Shindebarn -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_17" minZ="-12133" maxZ="-11903">
+				<node x="22084" y="108308" />
+				<node x="22567" y="108313" />
+				<node x="22549" y="110939" />
+				<node x="22099" y="110936" />
+			</territory>
+		</territories>
+		<npc id="20216" count="1" respawnTime="41sec" respawnRandom="15sec" /> <!-- Ricenseo -->
+		<npc id="20217" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Krator -->
+		<npc id="20751" count="1" respawnTime="45sec" respawnRandom="15sec" /> <!-- Snipe -->
+		<npc id="21036" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Shindebarn -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_18" minZ="-12129" maxZ="-11899">
+				<node x="23076" y="107462" />
+				<node x="24410" y="107456" />
+				<node x="24406" y="109199" />
+				<node x="23058" y="109192" />
+			</territory>
+		</territories>
+		<npc id="20216" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Ricenseo -->
+		<npc id="20217" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Krator -->
+		<npc id="20218" count="1" respawnTime="41sec" respawnRandom="15sec" /> <!-- Premo -->
+		<npc id="20751" count="1" respawnTime="45sec" respawnRandom="15sec" /> <!-- Snipe -->
+		<npc id="21036" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Shindebarn -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_19" minZ="-12130" maxZ="-11900">
+				<node x="23071" y="110088" />
+				<node x="24415" y="110085" />
+				<node x="24415" y="111839" />
+				<node x="23036" y="111829" />
+			</territory>
+		</territories>
+		<npc id="20216" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Ricenseo -->
+		<npc id="20217" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Krator -->
+		<npc id="20218" count="1" respawnTime="41sec" respawnRandom="15sec" /> <!-- Premo -->
+		<npc id="20751" count="1" respawnTime="45sec" respawnRandom="15sec" /> <!-- Snipe -->
+		<npc id="21036" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Shindebarn -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_20" minZ="-12131" maxZ="-11901">
+				<node x="20286" y="116601" />
+				<node x="21567" y="116603" />
+				<node x="21573" y="118040" />
+				<node x="20282" y="118041" />
+			</territory>
+		</territories>
+		<npc id="20213" count="11" respawnTime="41sec" respawnRandom="15sec" /> <!-- Porta -->
+		<npc id="20214" count="14" respawnTime="41sec" respawnRandom="15sec" /> <!-- Excuro -->
+		<npc id="21035" count="14" respawnTime="41sec" respawnRandom="15sec" /> <!-- Catherok -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_21" minZ="-12133" maxZ="-11903">
+				<node x="22184" y="117231" />
+				<node x="22651" y="117244" />
+				<node x="22660" y="119913" />
+				<node x="22205" y="119911" />
+			</territory>
+		</territories>
+		<npc id="20213" count="1" respawnTime="41sec" respawnRandom="15sec" /> <!-- Porta -->
+		<npc id="20214" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Excuro -->
+		<npc id="20215" count="1" respawnTime="41sec" respawnRandom="15sec" /> <!-- Mordeo -->
+		<npc id="21035" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Catherok -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_22" minZ="-12130" maxZ="-11900">
+				<node x="23112" y="116437" />
+				<node x="24426" y="116425" />
+				<node x="24419" y="118256" />
+				<node x="23106" y="118264" />
+			</territory>
+		</territories>
+		<npc id="20213" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Porta -->
+		<npc id="20214" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Excuro -->
+		<npc id="20215" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Mordeo -->
+		<npc id="21035" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Catherok -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_23" minZ="-12130" maxZ="-11900">
+				<node x="23095" y="119126" />
+				<node x="24427" y="119138" />
+				<node x="24433" y="120846" />
+				<node x="23103" y="120851" />
+			</territory>
+		</territories>
+		<npc id="20213" count="2" respawnTime="41sec" respawnRandom="15sec" /> <!-- Porta -->
+		<npc id="20214" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Excuro -->
+		<npc id="20215" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Mordeo -->
+		<npc id="21035" count="4" respawnTime="41sec" respawnRandom="15sec" /> <!-- Catherok -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion18_2021_24" minZ="-12131" maxZ="-11901">
+				<node x="20016" y="119026" />
+				<node x="21216" y="119017" />
+				<node x="21209" y="120853" />
+				<node x="20024" y="120856" />
+			</territory>
+		</territories>
+		<npc id="20213" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Porta -->
+		<npc id="20214" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Excuro -->
+		<npc id="20215" count="1" respawnTime="41sec" respawnRandom="15sec" /> <!-- Mordeo -->
+		<npc id="21035" count="3" respawnTime="41sec" respawnRandom="15sec" /> <!-- Catherok -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion19_2021_01" minZ="-9098" maxZ="-8698">
+				<node x="14801" y="108703" />
+				<node x="15470" y="108698" />
+				<node x="15474" y="110167" />
+				<node x="14808" y="110163" />
+			</territory>
+		</territories>
+		<npc id="20219" count="3" respawnTime="45sec" respawnRandom="20sec" /> <!-- Validus -->
+		<npc id="20220" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Dicor -->
+		<npc id="20221" count="1" respawnTime="45sec" respawnRandom="20sec" /> <!-- Perum -->
+		<npc id="20753" count="2" respawnTime="45sec" respawnRandom="15sec" /> <!-- Dark Lord -->
+		<npc id="21038" count="1" respawnTime="45sec" respawnRandom="20sec" /> <!-- Liangma -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion19_2021_02" minZ="-9098" maxZ="-8798">
+				<node x="11957" y="108859" />
+				<node x="13677" y="108854" />
+				<node x="13676" y="111079" />
+				<node x="11967" y="111088" />
+			</territory>
+		</territories>
+		<npc id="20136" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Death Knight -->
+		<npc id="20219" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Validus -->
+		<npc id="20221" count="1" respawnTime="45sec" respawnRandom="20sec" /> <!-- Perum -->
+		<npc id="20222" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Torfe -->
+		<npc id="20753" count="2" respawnTime="60sec" respawnRandom="20sec" /> <!-- Dark Lord -->
+		<npc id="21038" count="3" respawnTime="35sec" respawnRandom="15sec" /> <!-- Liangma -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion19_2021_03" minZ="-9098" maxZ="-8798">
+				<node x="13551" y="113402" />
+				<node x="13832" y="113400" />
+				<node x="13813" y="116190" />
+				<node x="13554" y="116196" />
+			</territory>
+		</territories>
+		<npc id="20136" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Death Knight -->
+		<npc id="20221" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Perum -->
+		<npc id="20222" count="2" respawnTime="45sec" respawnRandom="20sec" /> <!-- Torfe -->
+		<npc id="20753" count="2" respawnTime="60sec" respawnRandom="20sec" /> <!-- Dark Lord -->
+		<npc id="21037" count="2" respawnTime="45sec" respawnRandom="20sec" /> <!-- Ossiud -->
+		<npc id="21038" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Liangma -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion19_2021_04" minZ="-9098" maxZ="-8798">
+				<node x="11655" y="112066" />
+				<node x="11937" y="112064" />
+				<node x="11900" y="114819" />
+				<node x="11658" y="114833" />
+			</territory>
+		</territories>
+		<npc id="23153" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Achelando -->
+		<npc id="23154" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Styrindo -->
+		<npc id="23155" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Ashende -->
+		<npc id="23156" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Meforde -->
+		<npc id="23157" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Rorka -->
+		<npc id="23158" count="2" respawnTime="60sec" respawnRandom="20sec" /> <!-- Shumerun -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion19_2021_05" minZ="-9098" maxZ="-8798">
+				<node x="11719" y="117182" />
+				<node x="13438" y="117176" />
+				<node x="13437" y="119402" />
+				<node x="11728" y="119411" />
+			</territory>
+		</territories>
+		<npc id="23153" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Achelando -->
+		<npc id="23154" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Styrindo -->
+		<npc id="23155" count="3" respawnTime="35sec" respawnRandom="15sec" /> <!-- Ashende -->
+		<npc id="23156" count="3" respawnTime="35sec" respawnRandom="15sec" /> <!-- Meforde -->
+		<npc id="23157" count="4" respawnTime="45sec" respawnRandom="20sec" /> <!-- Rorka -->
+		<npc id="23158" count="1" respawnTime="60sec" respawnRandom="20sec" /> <!-- Shumerun -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion19_2021_06" minZ="-9098" maxZ="-8698">
+				<node x="14795" y="118316" />
+				<node x="15463" y="118311" />
+				<node x="15467" y="119780" />
+				<node x="14802" y="119775" />
+			</territory>
+		</territories>
+		<npc id="23153" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Achelando -->
+		<npc id="23154" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Styrindo -->
+		<npc id="23155" count="1" respawnTime="35sec" respawnRandom="10sec" /> <!-- Ashende -->
+		<npc id="23156" count="1" respawnTime="45sec" respawnRandom="20sec" /> <!-- Meforde -->
+		<npc id="23157" count="1" respawnTime="60sec" respawnRandom="20sec" /> <!-- Rorka -->
+		<npc id="23158" count="1" respawnTime="60sec" respawnRandom="20sec" /> <!-- Shumerun -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion19_2021_07" minZ="-9098" maxZ="-8698">
+				<node x="19984" y="118324" />
+				<node x="20652" y="118319" />
+				<node x="20656" y="119788" />
+				<node x="19990" y="119784" />
+			</territory>
+		</territories>
+		<npc id="23153" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Achelando -->
+		<npc id="23154" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Styrindo -->
+		<npc id="23155" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Ashende -->
+		<npc id="23156" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Meforde -->
+		<npc id="23157" count="1" respawnTime="45sec" respawnRandom="20sec" /> <!-- Rorka -->
+		<npc id="23158" count="1" respawnTime="60sec" respawnRandom="20sec" /> <!-- Shumerun -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion19_2021_08" minZ="-9098" maxZ="-8698">
+				<node x="21478" y="117002" />
+				<node x="22196" y="117002" />
+				<node x="22206" y="118566" />
+				<node x="21483" y="118585" />
+			</territory>
+		</territories>
+		<npc id="23153" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Achelando -->
+		<npc id="23154" count="4" respawnTime="35sec" respawnRandom="15sec" /> <!-- Styrindo -->
+		<npc id="23155" count="4" respawnTime="35sec" respawnRandom="15sec" /> <!-- Ashende -->
+		<npc id="23156" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Meforde -->
+		<npc id="23157" count="2" respawnTime="45sec" respawnRandom="20sec" /> <!-- Rorka -->
+		<npc id="23158" count="2" respawnTime="60sec" respawnRandom="20sec" /> <!-- Shumerun -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion19_2021_10" minZ="-9098" maxZ="-8698">
+				<node x="21471" y="113312" />
+				<node x="23891" y="113309" />
+				<node x="23891" y="115003" />
+				<node x="21458" y="114976" />
+			</territory>
+		</territories>
+		<npc id="20136" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Death Knight -->
+		<npc id="20221" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Perum -->
+		<npc id="20222" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Torfe -->
+		<npc id="20753" count="2" respawnTime="60sec" respawnRandom="20sec" /> <!-- Dark Lord -->
+		<npc id="21038" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Liangma -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion19_2021_11" minZ="-9098" maxZ="-8698">
+				<node x="23154" y="109677" />
+				<node x="23872" y="109678" />
+				<node x="23882" y="111241" />
+				<node x="23159" y="111261" />
+			</territory>
+		</territories>
+		<npc id="20221" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Perum -->
+		<npc id="20222" count="2" respawnTime="35sec" respawnRandom="20sec" /> <!-- Torfe -->
+		<npc id="20753" count="2" respawnTime="60sec" respawnRandom="15sec" /> <!-- Dark Lord -->
+		<npc id="21037" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Ossiud -->
+		<npc id="21038" count="1" respawnTime="45sec" respawnRandom="20sec" /> <!-- Liangma -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion19_2021_12" minZ="-9098" maxZ="-8798">
+				<node x="21428" y="109109" />
+				<node x="21694" y="109107" />
+				<node x="21694" y="111205" />
+				<node x="21420" y="111203" />
+			</territory>
+		</territories>
+		<npc id="20136" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Death Knight -->
+		<npc id="20221" count="1" respawnTime="45sec" respawnRandom="20sec" /> <!-- Perum -->
+		<npc id="20222" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Torfe -->
+		<npc id="20753" count="2" respawnTime="60sec" respawnRandom="15sec" /> <!-- Dark Lord -->
+		<npc id="21037" count="2" respawnTime="35sec" respawnRandom="15sec" /> <!-- Ossiud -->
+		<npc id="21038" count="1" respawnTime="35sec" respawnRandom="15sec" /> <!-- Liangma -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion19_2021_13" minZ="-9098" maxZ="-8698">
+				<node x="19974" y="108473" />
+				<node x="20642" y="108468" />
+				<node x="20646" y="109937" />
+				<node x="19981" y="109933" />
+			</territory>
+		</territories>
+		<npc id="20219" count="8" respawnTime="45sec" respawnRandom="20sec" /> <!-- Validus -->
+		<npc id="20220" count="4" respawnTime="35sec" respawnRandom="15sec" /> <!-- Dicor -->
+		<npc id="20221" count="2" respawnTime="45sec" respawnRandom="20sec" /> <!-- Perum -->
+	</spawn>
+	<spawn name="CrumaTower">
+		<group>
+			<npc id="18545" x="14560" y="117280" z="-12088" heading="0" respawnTime="60sec" /> <!-- Ancient Giants' Experiment - Event Monster -->
+			<npc id="18550" x="21842" y="117949" z="-9048" heading="0" respawnTime="60sec" /> <!-- Cruma Phantom - Event Monster -->
+			<npc id="29007" x="17469" y="110365" z="-6648" heading="15473" respawnTime="60sec" /> <!-- Death Knight -->
+			<npc id="29007" x="17635" y="109936" z="-6648" heading="13212" respawnTime="60sec" /> <!-- Death Knight -->
+			<npc id="29007" x="17690" y="109955" z="-6648" heading="11258" respawnTime="60sec" /> <!-- Death Knight -->
+			<npc id="29007" x="17825" y="110320" z="-6648" heading="62793" respawnTime="60sec" /> <!-- Death Knight -->
+			<npc id="29007" x="17953" y="110340" z="-6648" heading="61945" respawnTime="60sec" /> <!-- Death Knight -->
+			<npc id="29007" x="18129" y="110073" z="-6648" heading="6241" respawnTime="60sec" /> <!-- Death Knight -->
+			<npc id="29007" x="18232" y="109598" z="-6576" heading="35091" respawnTime="60sec" /> <!-- Death Knight -->
+			<npc id="29007" x="18238" y="110057" z="-6648" heading="26900" respawnTime="60sec" /> <!-- Death Knight -->
+			<npc id="29007" x="18386" y="110182" z="-6648" heading="3355" respawnTime="60sec" /> <!-- Death Knight -->
+			<npc id="29007" x="18487" y="110307" z="-6648" heading="58250" respawnTime="60sec" /> <!-- Death Knight -->
+			<npc id="29008" x="17260" y="110131" z="-6648" heading="39190" respawnTime="60sec" /> <!-- Doom Wraith -->
+			<npc id="29008" x="17673" y="110249" z="-6648" heading="27931" respawnTime="60sec" /> <!-- Doom Wraith -->
+			<npc id="29009" x="17004" y="113224" z="-6584" heading="32441" respawnTime="60sec" /> <!-- Dicor -->
+			<npc id="29009" x="17102" y="112904" z="-6584" heading="25437" respawnTime="60sec" /> <!-- Dicor -->
+			<npc id="29009" x="17293" y="112658" z="-6584" heading="999" respawnTime="60sec" /> <!-- Dicor -->
+			<npc id="29009" x="17391" y="112699" z="-6584" heading="29761" respawnTime="60sec" /> <!-- Dicor -->
+			<npc id="29009" x="17579" y="112644" z="-6584" heading="35187" respawnTime="60sec" /> <!-- Dicor -->
+			<npc id="29009" x="17579" y="112644" z="-6584" heading="36259" respawnTime="60sec" /> <!-- Dicor -->
+			<npc id="29009" x="17579" y="112644" z="-6584" heading="65374" respawnTime="60sec" /> <!-- Dicor -->
+			<npc id="29009" x="17933" y="112516" z="-6584" heading="47087" respawnTime="60sec" /> <!-- Dicor -->
+			<npc id="29009" x="18127" y="111975" z="-6584" heading="62815" respawnTime="60sec" /> <!-- Dicor -->
+			<npc id="29010" x="18146" y="112612" z="-6584" heading="45750" respawnTime="60sec" /> <!-- Validus -->
+			<npc id="29010" x="18412" y="112953" z="-6584" heading="20259" respawnTime="60sec" /> <!-- Validus -->
+			<npc id="29010" x="18987" y="112804" z="-6584" heading="46706" respawnTime="60sec" /> <!-- Validus -->
+			<npc id="29011" x="17793" y="112711" z="-6584" heading="11547" respawnTime="60sec" /> <!-- Susceptor -->
+			<npc id="29011" x="17811" y="108303" z="-6488" heading="45309" respawnTime="60sec" /> <!-- Susceptor -->
+			<npc id="29011" x="17841" y="108492" z="-6480" heading="21607" respawnTime="60sec" /> <!-- Susceptor -->
+			<npc id="29011" x="17861" y="109120" z="-6472" heading="62793" respawnTime="60sec" /> <!-- Susceptor -->
+			<npc id="29011" x="17905" y="112663" z="-6584" heading="50907" respawnTime="60sec" /> <!-- Susceptor -->
+			<npc id="29011" x="17909" y="108925" z="-6472" heading="19367" respawnTime="60sec" /> <!-- Susceptor -->
+			<npc id="29011" x="17911" y="112632" z="-6584" heading="386" respawnTime="60sec" /> <!-- Susceptor -->
+			<npc id="29011" x="17936" y="112596" z="-6584" heading="55633" respawnTime="60sec" /> <!-- Susceptor -->
+			<npc id="29012" x="16527" y="112785" z="-6584" heading="46816" respawnTime="60sec" /> <!-- Perum -->
+			<npc id="29012" x="17547" y="113223" z="-6584" heading="34598" respawnTime="60sec" /> <!-- Perum -->
+			<npc id="29012" x="17753" y="112126" z="-6584" heading="51518" respawnTime="60sec" /> <!-- Perum -->
+			<npc id="29013" x="18145" y="112725" z="-6584" heading="3147" respawnTime="60sec" /> <!-- Premo -->
+			<npc id="29013" x="19056" y="113121" z="-6584" heading="27518" respawnTime="60sec" /> <!-- Premo -->
+			<npc id="30483" x="17289" y="114112" z="-3440" heading="33224" respawnTime="60sec" /> <!-- Carsus - Ivory Tower Wizard -->
+			<npc id="30484" x="17636" y="114744" z="-11680" heading="6843" respawnTime="60sec" /> <!-- Janssen - Ivory Tower Wizard -->
+			<npc id="30485" x="17725" y="108220" z="-9056" heading="16384" respawnTime="60sec" /> <!-- Belkadhi - Ivory Tower Wizard -->
+			<npc id="30486" x="17722" y="119749" z="-9064" heading="49152" respawnTime="60sec" /> <!-- Ian - Ivory Tower Wizard -->
+			<npc id="30487" x="17811" y="114750" z="-11680" heading="25785" respawnTime="60sec" /> <!-- Rombel - Ivory Tower Wizard -->
+			<npc id="30622" x="15433" y="119727" z="-12080" heading="25728" respawnTime="60sec" /> <!-- Giants' Box -->
+			<npc id="31843" x="17719" y="115430" z="-6584" heading="0" respawnTime="60sec" /> <!-- Teleportation Cubic -->
+			<npc id="32366" x="16416" y="113360" z="-9064" heading="49756" respawnTime="60sec" /> <!-- Destroyed Device -->
+			<npc id="33157" x="16098" y="115166" z="-11976" heading="17118" respawnTime="60sec" /> <!-- Teleport Device -->
+			<npc id="33157" x="16112" y="113120" z="-11984" heading="45938" respawnTime="60sec" /> <!-- Teleport Device -->
+			<npc id="33157" x="16406" y="114771" z="-9064" heading="49472" respawnTime="60sec" /> <!-- Teleport Device -->
+			<npc id="33157" x="16688" y="112528" z="-11976" heading="32466" respawnTime="60sec" /> <!-- Teleport Device -->
+			<npc id="33157" x="16704" y="115768" z="-11848" heading="34376" respawnTime="60sec" /> <!-- Teleport Device -->
+			<npc id="33157" x="18746" y="115768" z="-11848" heading="65411" respawnTime="60sec" /> <!-- Teleport Device -->
+			<npc id="33157" x="18748" y="112525" z="-11976" heading="0" respawnTime="60sec" /> <!-- Teleport Device -->
+			<npc id="33157" x="19024" y="114784" z="-9064" heading="49199" respawnTime="60sec" /> <!-- Teleport Device -->
+			<npc id="33157" x="19040" y="113392" z="-9064" heading="16338" respawnTime="60sec" /> <!-- Teleport Device -->
+			<npc id="33157" x="19344" y="115167" z="-11976" heading="16655" respawnTime="60sec" /> <!-- Teleport Device -->
+			<npc id="33157" x="19360" y="113120" z="-11984" heading="49401" respawnTime="60sec" /> <!-- Teleport Device -->
+			<npc id="33158" x="13975" y="117139" z="-12088" heading="46347" respawnTime="60sec" /> <!-- Hidden Cruma Device -->
+			<npc id="33163" x="17135" y="114834" z="-3440" heading="55244" respawnTime="60sec" /> <!-- Linkes -->
+			<npc id="33302" x="17052" y="114758" z="-3440" heading="55336" respawnTime="60sec" /> <!-- Ridenbag -->
+			<npc id="33990" x="11469" y="109536" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="11472" y="109728" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="11854" y="109970" z="-12080" heading="49112" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="11862" y="109303" z="-12080" heading="16180" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="12044" y="109299" z="-12080" heading="17572" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="12047" y="109973" z="-12080" heading="49320" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="12368" y="119552" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="12384" y="118960" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="12400" y="117712" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="12400" y="118320" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="12595" y="116544" z="-12080" heading="16984" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="12598" y="120758" z="-12080" heading="49528" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="12768" y="120755" z="-12080" heading="48904" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="12772" y="116544" z="-12080" heading="16352" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="12999" y="107379" z="-12080" heading="16916" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13002" y="118933" z="-12080" heading="33220" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13006" y="117080" z="-12080" heading="32852" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13006" y="117689" z="-12080" heading="32436" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13013" y="118302" z="-12080" heading="32804" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13194" y="107378" z="-12080" heading="16688" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13303" y="119992" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13307" y="119680" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13403" y="108003" z="-12080" heading="33204" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13405" y="107804" z="-12080" heading="32500" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13408" y="108400" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13408" y="108576" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13408" y="110858" z="-12080" heading="33104" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13410" y="110656" z="-12080" heading="32220" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13410" y="111278" z="-12080" heading="32964" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13414" y="111489" z="-12080" heading="33044" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="13850" y="119696" z="-12080" heading="16540" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="14145" y="109315" z="-12080" heading="16132" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="14224" y="118656" z="-12080" heading="32776" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="14224" y="119264" z="-12080" heading="32628" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="14320" y="119712" z="-12080" heading="16668" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="14334" y="109315" z="-12080" heading="17136" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="14903" y="109965" z="-12080" heading="49036" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="14911" y="120019" z="-12080" heading="49228" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="15102" y="109967" z="-12080" heading="48556" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="15320" y="120014" z="-12080" heading="48328" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="15432" y="109745" z="-12080" heading="33028" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="15437" y="109534" z="-12080" heading="32632" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="20080" y="118774" z="-12080" heading="49744" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="20558" y="118784" z="-12080" heading="49440" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="21254" y="109534" z="-12080" heading="15736" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="21359" y="118434" z="-12080" heading="15580" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="21436" y="120833" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="21447" y="120357" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="21580" y="109536" z="-12080" heading="17388" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="21767" y="118426" z="-12080" heading="16740" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="21816" y="120832" z="-12080" heading="32980" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="21824" y="120352" z="-12080" heading="32488" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22016" y="109280" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22030" y="111155" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22031" y="110517" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22032" y="109904" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22033" y="108668" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22112" y="118320" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22112" y="119552" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22120" y="117721" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22128" y="117104" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22128" y="118960" z="-12080" heading="0" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22244" y="111765" z="-12080" heading="48728" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22248" y="107526" z="-12080" heading="16508" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22340" y="120768" z="-12080" heading="49048" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22341" y="116526" z="-12080" heading="16660" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22448" y="107531" z="-12080" heading="16476" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22448" y="111776" z="-12080" heading="48092" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22528" y="120768" z="-12080" heading="49180" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22534" y="116529" z="-12080" heading="16428" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22672" y="108144" z="-12080" heading="32396" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22672" y="108752" z="-12080" heading="32236" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22672" y="110528" z="-12080" heading="32688" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22674" y="111150" z="-12080" heading="32220" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22736" y="118960" z="-12080" heading="32920" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22749" y="118342" z="-12080" heading="32568" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22757" y="117716" z="-12080" heading="32852" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+			<npc id="33990" x="22759" y="119580" z="-12080" heading="32616" respawnTime="60sec" /> <!-- Hidden Crusher - Magic Device -->
+		</group>
+	</spawn>
+</list>

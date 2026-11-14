@@ -1,0 +1,52 @@
+/*
+ * Copyright (c) 2013 L2jMobius
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+ * IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+package org.l2jmobius.gameserver.network.clientpackets.mablegame;
+
+import org.l2jmobius.gameserver.data.xml.MableGameData;
+import org.l2jmobius.gameserver.entity.actor.Player;
+import org.l2jmobius.gameserver.network.clientpackets.ClientPacket;
+
+/**
+ * Handles the request from a client to close the {@code MableGame} instance.<br>
+ * This packet is used to terminate the game session and return the player to the normal state.
+ */
+public class ExRequestMableGameClose extends ClientPacket
+{
+	@Override
+	public void readImpl()
+	{
+	}
+	
+	@Override
+	public void runImpl()
+	{
+		final Player player = getClient().getPlayer();
+		if (player == null)
+		{
+			return;
+		}
+		
+		final MableGameData.MableGamePlayerState playerState = MableGameData.getInstance().getPlayerState(player.getAccountName());
+		playerState.setMoved(false);
+		playerState.setPendingCellIdPopup(-1);
+		playerState.setPendingReward(null);
+	}
+}

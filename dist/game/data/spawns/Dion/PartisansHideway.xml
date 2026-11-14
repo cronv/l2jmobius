@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_02" minZ="-3768" maxZ="-3568">
+				<node x="52016" y="127249" />
+				<node x="51524" y="127878" />
+				<node x="50762" y="127899" />
+				<node x="50317" y="127602" />
+				<node x="51002" y="127146" />
+			</territory>
+		</territories>
+		<npc id="20063" count="1" respawnTime="60sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20547" count="4" respawnTime="60sec" /> <!-- Ol Mahum Support Troop -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_03" minZ="-3768" maxZ="-2768">
+				<node x="50378" y="129034" />
+				<node x="54160" y="126197" />
+				<node x="54357" y="128180" />
+				<node x="50440" y="129494" />
+			</territory>
+		</territories>
+		<npc id="20063" count="2" respawnTime="60sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20547" count="4" respawnTime="60sec" /> <!-- Ol Mahum Support Troop -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_04" minZ="-3726" maxZ="-2826">
+				<node x="55877" y="123841" />
+				<node x="55545" y="124840" />
+				<node x="52952" y="125856" />
+				<node x="55180" y="123194" />
+			</territory>
+		</territories>
+		<npc id="20063" count="1" respawnTime="60sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20547" count="4" respawnTime="60sec" /> <!-- Ol Mahum Support Troop -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_05" minZ="-3624" maxZ="-2324">
+				<node x="50270" y="118823" />
+				<node x="54388" y="121233" />
+				<node x="53606" y="123429" />
+				<node x="51396" y="124170" />
+				<node x="49641" y="121266" />
+			</territory>
+		</territories>
+		<npc id="20063" count="5" respawnTime="60sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20207" count="7" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20547" count="15" respawnTime="60sec" /> <!-- Ol Mahum Support Troop -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_05s" minZ="-3001" maxZ="-2301">
+				<node x="51433" y="120726" />
+				<node x="52003" y="121776" />
+				<node x="50836" y="122470" />
+				<node x="49771" y="121153" />
+				<node x="50122" y="120280" />
+			</territory>
+		</territories>
+		<npc id="20207" count="3" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20547" count="6" respawnTime="60sec" /> <!-- Ol Mahum Support Troop -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_06" minZ="-3821" maxZ="-2921">
+				<node x="52120" y="124066" />
+				<node x="51573" y="126308" />
+				<node x="47433" y="125979" />
+				<node x="48894" y="124782" />
+			</territory>
+		</territories>
+		<npc id="20063" count="3" respawnTime="60sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20547" count="9" respawnTime="60sec" /> <!-- Ol Mahum Support Troop -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_07" minZ="-2579" maxZ="-1579">
+				<node x="38544" y="122605" />
+				<node x="41831" y="125587" />
+				<node x="42145" y="127669" />
+				<node x="38435" y="127184" />
+				<node x="35719" y="123954" />
+			</territory>
+		</territories>
+		<npc id="20063" count="5" respawnTime="60sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20207" count="10" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20547" count="15" respawnTime="60sec" /> <!-- Ol Mahum Support Troop -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_08" minZ="-2257" maxZ="-1057">
+				<node x="36493" y="118257" />
+				<node x="39933" y="120206" />
+				<node x="38547" y="122435" />
+				<node x="37323" y="123025" />
+				<node x="35111" y="119227" />
+			</territory>
+		</territories>
+		<npc id="20063" count="3" respawnTime="60sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20207" count="4" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20547" count="7" respawnTime="60sec" /> <!-- Ol Mahum Support Troop -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_09" minZ="-2044" maxZ="-844">
+				<node x="36091" y="113112" />
+				<node x="38310" y="114391" />
+				<node x="37578" y="117007" />
+				<node x="35433" y="118627" />
+				<node x="34794" y="114994" />
+			</territory>
+		</territories>
+		<npc id="20063" count="3" respawnTime="60sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20207" count="5" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20208" count="4" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_09s" minZ="-1661" maxZ="-961">
+				<node x="35089" y="115098" />
+				<node x="36498" y="113764" />
+				<node x="37763" y="115089" />
+				<node x="37163" y="116594" />
+			</territory>
+		</territories>
+		<npc id="20063" count="2" respawnTime="60sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20207" count="7" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_10" minZ="-2061" maxZ="-1261">
+				<node x="34733" y="113708" />
+				<node x="35221" y="109796" />
+				<node x="37088" y="109964" />
+				<node x="36267" y="112411" />
+			</territory>
+		</territories>
+		<npc id="20207" count="5" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20208" count="5" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_11" minZ="-1668" maxZ="-868">
+				<node x="37116" y="106244" />
+				<node x="39617" y="106485" />
+				<node x="37194" y="109912" />
+				<node x="36745" y="108076" />
+			</territory>
+		</territories>
+		<npc id="20207" count="5" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20208" count="5" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_12" minZ="-2088" maxZ="-1288">
+				<node x="40412" y="104293" />
+				<node x="41342" y="104023" />
+				<node x="41385" y="105311" />
+				<node x="39030" y="105478" />
+			</territory>
+		</territories>
+		<npc id="20208" count="4" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+		<npc id="20209" count="2" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_14" minZ="-1596" maxZ="-1096">
+				<node x="43014" y="102582" />
+				<node x="44471" y="102087" />
+				<node x="44875" y="102751" />
+				<node x="43017" y="103897" />
+				<node x="42469" y="103384" />
+			</territory>
+		</territories>
+		<npc id="20210" count="4" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+		<npc id="20211" count="3" respawnTime="60sec" /> <!-- Ol Mahum Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_15" minZ="-3284" maxZ="-1384">
+				<node x="41431" y="119745" />
+				<node x="42260" y="119560" />
+				<node x="44476" y="124060" />
+				<node x="43980" y="125025" />
+				<node x="40913" y="122702" />
+			</territory>
+		</territories>
+		<npc id="20063" count="3" respawnTime="60sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20207" count="6" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20208" count="5" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_17" minZ="-2443" maxZ="-1443">
+				<node x="42690" y="116410" />
+				<node x="44885" y="117384" />
+				<node x="45941" y="119298" />
+				<node x="43155" y="120023" />
+				<node x="41802" y="117708" />
+			</territory>
+		</territories>
+		<npc id="20207" count="8" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20208" count="8" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+		<npc id="20209" count="2" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_18" minZ="-2257" maxZ="-1957">
+				<node x="41982" y="118724" />
+				<node x="41871" y="119345" />
+				<node x="40694" y="119696" />
+				<node x="40919" y="118877" />
+				<node x="41335" y="118429" />
+			</territory>
+		</territories>
+		<npc id="20063" count="1" respawnTime="60sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20207" count="3" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_19" minZ="-2251" maxZ="-1451">
+				<node x="40158" y="114878" />
+				<node x="42564" y="116319" />
+				<node x="41530" y="117890" />
+				<node x="39272" y="117895" />
+				<node x="39043" y="116519" />
+			</territory>
+		</territories>
+		<npc id="20207" count="6" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20208" count="6" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+		<npc id="20209" count="3" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_20" minZ="-2429" maxZ="-1629">
+				<node x="46263" y="115406" />
+				<node x="46891" y="116091" />
+				<node x="46790" y="116779" />
+				<node x="45574" y="116748" />
+				<node x="45064" y="116211" />
+			</territory>
+		</territories>
+		<npc id="20208" count="4" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+		<npc id="20209" count="1" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_21" minZ="-2050" maxZ="-1250">
+				<node x="45654" y="114804" />
+				<node x="44627" y="115727" />
+				<node x="41514" y="114707" />
+				<node x="41039" y="113463" />
+				<node x="45605" y="113969" />
+			</territory>
+		</territories>
+		<npc id="20209" count="2" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+		<npc id="20210" count="5" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+		<npc id="20211" count="3" respawnTime="60sec" /> <!-- Ol Mahum Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_22" minZ="-2131" maxZ="-1831">
+				<node x="39458" y="113077" />
+				<node x="40605" y="113485" />
+				<node x="40610" y="114211" />
+				<node x="39553" y="114355" />
+				<node x="38907" y="113724" />
+			</territory>
+		</territories>
+		<npc id="20208" count="5" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+		<npc id="20209" count="2" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+		<npc id="20210" count="1" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_23" minZ="-1957" maxZ="-1657">
+				<node x="44295" y="111711" />
+				<node x="45208" y="112687" />
+				<node x="44768" y="113252" />
+				<node x="43808" y="113160" />
+				<node x="43569" y="112209" />
+			</territory>
+		</territories>
+		<npc id="20210" count="3" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+		<npc id="20211" count="2" respawnTime="60sec" /> <!-- Ol Mahum Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_24" minZ="-1755" maxZ="-355">
+				<node x="43921" y="110652" />
+				<node x="42462" y="113068" />
+				<node x="37997" y="112188" />
+				<node x="37893" y="110743" />
+				<node x="38743" y="109392" />
+			</territory>
+		</territories>
+		<npc id="20209" count="5" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+		<npc id="20210" count="6" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+		<npc id="20211" count="3" respawnTime="60sec" /> <!-- Ol Mahum Captain -->
+		<npc id="20549" count="2" respawnTime="60sec" /> <!-- Ol Mahum Lord -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_24s" minZ="-1650" maxZ="-650">
+				<node x="40147" y="109887" />
+				<node x="40713" y="110858" />
+				<node x="40467" y="111955" />
+				<node x="38600" y="111318" />
+				<node x="38666" y="109945" />
+			</territory>
+		</territories>
+		<npc id="20210" count="4" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+		<npc id="20211" count="4" respawnTime="60sec" /> <!-- Ol Mahum Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_25" minZ="-1738" maxZ="-38">
+				<node x="43328" y="107161" />
+				<node x="41378" y="110023" />
+				<node x="38832" y="109229" />
+				<node x="39849" y="107291" />
+				<node x="41538" y="106149" />
+			</territory>
+		</territories>
+		<npc id="20209" count="3" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+		<npc id="20210" count="5" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+		<npc id="20211" count="5" respawnTime="60sec" /> <!-- Ol Mahum Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_25s" minZ="-1131" maxZ="-131">
+				<node x="41328" y="107611" />
+				<node x="42325" y="107390" />
+				<node x="42915" y="107602" />
+				<node x="41563" y="109605" />
+				<node x="40981" y="108682" />
+			</territory>
+		</territories>
+		<npc id="20210" count="2" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_26" minZ="-1708" maxZ="-1308">
+				<node x="42412" y="105188" />
+				<node x="43497" y="104877" />
+				<node x="43421" y="105940" />
+				<node x="42599" y="106330" />
+				<node x="41837" y="105940" />
+			</territory>
+		</territories>
+		<npc id="20209" count="1" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+		<npc id="20210" count="2" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+		<npc id="20211" count="1" respawnTime="60sec" /> <!-- Ol Mahum Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_27" minZ="-1738" maxZ="-538">
+				<node x="47586" y="104562" />
+				<node x="47399" y="107731" />
+				<node x="45764" y="107906" />
+				<node x="43653" y="106117" />
+				<node x="44530" y="104342" />
+			</territory>
+		</territories>
+		<npc id="20210" count="8" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+		<npc id="20211" count="6" respawnTime="60sec" /> <!-- Ol Mahum Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_27s" minZ="-1207" maxZ="-607">
+				<node x="45671" y="105287" />
+				<node x="47105" y="105600" />
+				<node x="47154" y="106830" />
+				<node x="46014" y="107213" />
+				<node x="45115" y="106206" />
+			</territory>
+		</territories>
+		<npc id="20549" count="1" respawnTime="60sec" /> <!-- Ol Mahum Lord -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_28" minZ="-1794" maxZ="-794">
+				<node x="51050" y="106484" />
+				<node x="51061" y="109961" />
+				<node x="49047" y="109820" />
+				<node x="47913" y="107682" />
+				<node x="48076" y="104961" />
+			</territory>
+		</territories>
+		<npc id="20210" count="9" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+		<npc id="20211" count="7" respawnTime="60sec" /> <!-- Ol Mahum Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_29" minZ="-2157" maxZ="-1857">
+				<node x="46995" y="108393" />
+				<node x="47919" y="108664" />
+				<node x="48152" y="109535" />
+				<node x="47725" y="110291" />
+				<node x="46391" y="109380" />
+			</territory>
+		</territories>
+		<npc id="20210" count="2" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+		<npc id="20211" count="1" respawnTime="60sec" /> <!-- Ol Mahum Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_30" minZ="-1859" maxZ="-659">
+				<node x="56114" y="106426" />
+				<node x="53325" y="107409" />
+				<node x="48375" y="104009" />
+				<node x="51094" y="102233" />
+			</territory>
+		</territories>
+		<npc id="20209" count="8" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+		<npc id="20210" count="12" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_31" minZ="-1946" maxZ="-746">
+				<node x="56250" y="106502" />
+				<node x="57639" y="110391" />
+				<node x="52749" y="110701" />
+				<node x="53283" y="107701" />
+			</territory>
+		</territories>
+		<npc id="20208" count="7" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+		<npc id="20209" count="3" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+		<npc id="20210" count="7" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_31s" minZ="-1507" maxZ="-757">
+				<node x="55055" y="108926" />
+				<node x="56245" y="109653" />
+				<node x="55291" y="111929" />
+				<node x="53352" y="111149" />
+				<node x="53555" y="109687" />
+			</territory>
+		</territories>
+		<npc id="20209" count="2" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+		<npc id="20210" count="9" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_32" minZ="-2149" maxZ="-949">
+				<node x="57465" y="110499" />
+				<node x="57895" y="113597" />
+				<node x="54884" y="113891" />
+				<node x="52564" y="110907" />
+			</territory>
+		</territories>
+		<npc id="20207" count="5" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20208" count="8" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+		<npc id="20209" count="4" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_32s" minZ="-1918" maxZ="-1218">
+				<node x="57359" y="111384" />
+				<node x="57744" y="113119" />
+				<node x="57215" y="113643" />
+				<node x="55789" y="113022" />
+				<node x="56257" y="111883" />
+			</territory>
+		</territories>
+		<npc id="20207" count="2" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20208" count="3" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_33" minZ="-1552" maxZ="-1302">
+				<node x="56548" y="104902" />
+				<node x="57407" y="105289" />
+				<node x="57710" y="105962" />
+				<node x="57399" y="106509" />
+				<node x="56145" y="105167" />
+			</territory>
+		</territories>
+		<npc id="20210" count="3" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+		<npc id="20211" count="2" respawnTime="60sec" /> <!-- Ol Mahum Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_34" minZ="-1912" maxZ="-1312">
+				<node x="59696" y="110517" />
+				<node x="59853" y="111128" />
+				<node x="59100" y="112346" />
+				<node x="58345" y="111335" />
+				<node x="58740" y="110038" />
+			</territory>
+		</territories>
+		<npc id="20208" count="3" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+		<npc id="20210" count="2" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+		<npc id="20211" count="1" respawnTime="60sec" /> <!-- Ol Mahum Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_35" minZ="-2112" maxZ="-1812">
+				<node x="48882" y="111848" />
+				<node x="50326" y="111644" />
+				<node x="50280" y="112248" />
+				<node x="49709" y="112699" />
+				<node x="48640" y="112433" />
+			</territory>
+		</territories>
+		<npc id="20209" count="1" respawnTime="60sec" /> <!-- Ol Mahum Sniper -->
+		<npc id="20210" count="3" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+		<npc id="20211" count="1" respawnTime="60sec" /> <!-- Ol Mahum Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_36" minZ="-1898" maxZ="-898">
+				<node x="51971" y="114764" />
+				<node x="50772" y="115816" />
+				<node x="48281" y="113674" />
+				<node x="51300" y="112677" />
+			</territory>
+		</territories>
+		<npc id="20207" count="6" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20208" count="9" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_37" minZ="-2115" maxZ="-1815">
+				<node x="52264" y="112861" />
+				<node x="53648" y="114229" />
+				<node x="53107" y="114456" />
+				<node x="52362" y="114377" />
+				<node x="51986" y="113819" />
+			</territory>
+		</territories>
+		<npc id="20208" count="4" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+		<npc id="20210" count="1" respawnTime="60sec" /> <!-- Ol Mahum Lieutenant -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_38" minZ="-2239" maxZ="-1239">
+				<node x="54980" y="114996" />
+				<node x="54424" y="117789" />
+				<node x="51585" y="115902" />
+				<node x="52275" y="115105" />
+			</territory>
+		</territories>
+		<npc id="20207" count="6" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20208" count="7" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_39" minZ="-2783" maxZ="-1383">
+				<node x="56737" y="115971" />
+				<node x="57639" y="117683" />
+				<node x="54589" y="117675" />
+				<node x="54991" y="115586" />
+			</territory>
+		</territories>
+		<npc id="20063" count="3" respawnTime="60sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20207" count="7" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+		<npc id="20208" count="3" respawnTime="60sec" /> <!-- Ol Mahum Raider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_40" minZ="-3375" maxZ="-1475">
+				<node x="55777" y="117833" />
+				<node x="57245" y="120487" />
+				<node x="55298" y="121050" />
+				<node x="54857" y="117825" />
+			</territory>
+		</territories>
+		<npc id="20063" count="3" respawnTime="60sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20207" count="7" respawnTime="60sec" /> <!-- Ol Mahum Guerilla -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_p21" minZ="-2050" maxZ="-1250">
+				<node x="45654" y="114804" />
+				<node x="44627" y="115727" />
+				<node x="41514" y="114707" />
+				<node x="41039" y="113463" />
+				<node x="45605" y="113969" />
+			</territory>
+		</territories>
+		<npc id="20755" count="1" respawnTime="80sec" /> <!-- Talakin Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_p24" minZ="-1755" maxZ="-355">
+				<node x="43921" y="110652" />
+				<node x="42462" y="113068" />
+				<node x="37997" y="112188" />
+				<node x="37893" y="110743" />
+				<node x="38743" y="109392" />
+			</territory>
+		</territories>
+		<npc id="20755" count="2" respawnTime="80sec" /> <!-- Talakin Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_p24s" minZ="-1650" maxZ="-650">
+				<node x="40147" y="109887" />
+				<node x="40713" y="110858" />
+				<node x="40467" y="111955" />
+				<node x="38600" y="111318" />
+				<node x="38666" y="109945" />
+			</territory>
+		</territories>
+		<npc id="20755" count="2" respawnTime="80sec" /> <!-- Talakin Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_p25" minZ="-1738" maxZ="-38">
+				<node x="43613" y="107320" />
+				<node x="41378" y="110023" />
+				<node x="38832" y="109229" />
+				<node x="39849" y="107291" />
+				<node x="41538" y="106149" />
+			</territory>
+		</territories>
+		<npc id="20755" count="3" respawnTime="80sec" /> <!-- Talakin Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_p25s" minZ="-1131" maxZ="-131">
+				<node x="41328" y="107611" />
+				<node x="42776" y="107512" />
+				<node x="43009" y="107851" />
+				<node x="41563" y="109605" />
+				<node x="40981" y="108682" />
+			</territory>
+		</territories>
+		<npc id="20755" count="1" respawnTime="80sec" /> <!-- Talakin Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_p27" minZ="-1738" maxZ="-538">
+				<node x="47586" y="104562" />
+				<node x="47399" y="107731" />
+				<node x="45764" y="107906" />
+				<node x="43653" y="106117" />
+				<node x="44530" y="104342" />
+			</territory>
+		</territories>
+		<npc id="20755" count="3" respawnTime="80sec" /> <!-- Talakin Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_p27s" minZ="-1207" maxZ="-607">
+				<node x="45671" y="105287" />
+				<node x="47105" y="105600" />
+				<node x="47154" y="106830" />
+				<node x="46014" y="107213" />
+				<node x="45115" y="106206" />
+			</territory>
+		</territories>
+		<npc id="20755" count="2" respawnTime="80sec" /> <!-- Talakin Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_p28" minZ="-1794" maxZ="-794">
+				<node x="51050" y="106484" />
+				<node x="51061" y="109961" />
+				<node x="49047" y="109820" />
+				<node x="47913" y="107682" />
+				<node x="48076" y="104961" />
+			</territory>
+		</territories>
+		<npc id="20755" count="3" respawnTime="80sec" /> <!-- Talakin Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_p28s" minZ="-1503" maxZ="-903">
+				<node x="49587" y="106250" />
+				<node x="50687" y="106790" />
+				<node x="50471" y="108723" />
+				<node x="49641" y="109162" />
+				<node x="49037" y="108025" />
+			</territory>
+		</territories>
+		<npc id="20755" count="2" respawnTime="80sec" /> <!-- Talakin Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_p29" minZ="-2157" maxZ="-1857">
+				<node x="46995" y="108393" />
+				<node x="47919" y="108664" />
+				<node x="48152" y="109535" />
+				<node x="47725" y="110291" />
+				<node x="46391" y="109380" />
+			</territory>
+		</territories>
+		<npc id="20755" count="1" respawnTime="80sec" /> <!-- Talakin Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_p30" minZ="-1859" maxZ="-659">
+				<node x="56114" y="106426" />
+				<node x="53325" y="107409" />
+				<node x="48375" y="104009" />
+				<node x="51094" y="102233" />
+			</territory>
+		</territories>
+		<npc id="20755" count="1" respawnTime="80sec" /> <!-- Talakin Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_p301s" minZ="-1241" maxZ="-641">
+				<node x="51151" y="102858" />
+				<node x="52004" y="103559" />
+				<node x="51969" y="104652" />
+				<node x="50704" y="104726" />
+				<node x="50034" y="103675" />
+			</territory>
+		</territories>
+		<npc id="20755" count="1" respawnTime="80sec" /> <!-- Talakin Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion03_2121_p302s" minZ="-1859" maxZ="-1359">
+				<node x="52187" y="105370" />
+				<node x="53448" y="105683" />
+				<node x="53878" y="106868" />
+				<node x="52894" y="107234" />
+				<node x="51321" y="105870" />
+			</territory>
+		</territories>
+		<npc id="20755" count="2" respawnTime="80sec" /> <!-- Talakin Commander -->
+	</spawn>
+	<spawn name="PartisansHideway">
+		<group>
+			<npc id="20549" x="40951" y="111575" z="-808" heading="0" respawnTime="60sec" /> <!-- Ol Mahum Lord -->
+			<npc id="20549" x="41532" y="107815" z="-816" heading="29031" respawnTime="60sec" /> <!-- Ol Mahum Lord -->
+			<npc id="20549" x="46288" y="106144" z="-856" heading="0" respawnTime="60sec" /> <!-- Ol Mahum Lord -->
+			<npc id="20549" x="50287" y="108091" z="-1104" heading="41361" respawnTime="60sec" /> <!-- Ol Mahum Lord -->
+			<npc id="20756" x="38753" y="111228" z="-1304" heading="0" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="39808" y="112216" z="-1152" heading="0" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="40114" y="107514" z="-1488" heading="0" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="40439" y="111628" z="-856" heading="0" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="40801" y="107811" z="-1088" heading="0" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="40912" y="108482" z="-736" heading="30244" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="41052" y="111817" z="-856" heading="28582" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="41487" y="109217" z="-312" heading="25376" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="44246" y="106316" z="-1120" heading="52562" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="44359" y="106425" z="-1112" heading="60828" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="44838" y="114113" z="-1352" heading="15393" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="45413" y="106161" z="-864" heading="65247" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="46045" y="106378" z="-752" heading="267" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="47014" y="107701" z="-1144" heading="20692" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="47870" y="109906" z="-2008" heading="45541" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="48139" y="107713" z="-1416" heading="47094" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="48473" y="107907" z="-1416" heading="32246" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="48530" y="106230" z="-1312" heading="9552" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="49718" y="108474" z="-992" heading="3968" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="50403" y="108336" z="-1144" heading="52055" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="50640" y="104220" z="-1088" heading="60571" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="51227" y="105845" z="-1568" heading="15471" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="53427" y="106777" z="-1752" heading="59051" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20756" x="53767" y="106630" z="-1720" heading="37241" respawnTime="60sec" /> <!-- Talakin Archer -->
+			<npc id="20757" x="38868" y="111089" z="-1280" heading="22436" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="39899" y="112164" z="-1152" heading="0" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="39937" y="107459" z="-1552" heading="0" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="40336" y="111795" z="-872" heading="0" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="40678" y="107990" z="-1104" heading="0" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="40760" y="108589" z="-752" heading="49144" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="40902" y="111863" z="-856" heading="17538" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="41340" y="109225" z="-384" heading="42442" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="44316" y="106337" z="-1112" heading="43326" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="44488" y="106278" z="-1104" heading="57686" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="44944" y="114156" z="-1344" heading="14201" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="45559" y="106031" z="-864" heading="46407" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="46128" y="106524" z="-688" heading="13086" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="46969" y="107594" z="-1128" heading="10629" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="47180" y="108761" z="-2000" heading="11572" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="48076" y="107813" z="-1456" heading="18614" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="48424" y="106274" z="-1272" heading="10850" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="48579" y="107863" z="-1408" heading="58088" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="49788" y="108520" z="-1000" heading="42575" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="50509" y="108293" z="-1176" heading="5299" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="50681" y="104393" z="-1112" heading="39066" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="51053" y="105804" z="-1560" heading="40047" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="53530" y="106628" z="-1752" heading="55819" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="20757" x="53778" y="106469" z="-1712" heading="11961" respawnTime="60sec" /> <!-- Talakin Raider -->
+			<npc id="30596" x="43996" y="108998" z="-2032" heading="61440" respawnTime="60sec" /> <!-- Harkel - Partisan Gatekeeper -->
+			<npc id="35382" x="50343" y="111282" z="-1976" heading="0" respawnTime="60sec" /> <!-- Brakel - Partisan Herald -->
+			<npc id="35383" x="43662" y="109133" z="-1984" heading="43744" respawnTime="60sec" /> <!-- Tamutak - Ol Mahum Steward -->
+		</group>
+	</spawn>
+</list>

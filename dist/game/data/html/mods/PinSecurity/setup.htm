@@ -1,0 +1,16 @@
+<html><body><center>
+<font color="LEVEL">Create Security PIN</font><br>
+<font color="B09878">Account protection is required before playing.</font><br>
+<table width=280 bgcolor=131210>
+<tr><td align=center>%message%</td></tr>
+</table><br1>
+PIN length: <font color="LEVEL">%min% to %max%</font> digits.<br>
+<font color="999999">Use numbers only. Do not share this PIN.</font><br>
+<table width=260>
+<tr><td width=95>New PIN:</td><td><edit type="password" var="pin1" width=100 height=15></td></tr>
+<tr><td width=95>Confirm PIN:</td><td><edit type="password" var="pin2" width=100 height=15></td></tr>
+</table><br1>
+<table width=260>
+<tr><td align=center><button value="Create" action="bypass -h pinsecurity_setup $pin1 $pin2" width=80 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+</table>
+</center></body></html>

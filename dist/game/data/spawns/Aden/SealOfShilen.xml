@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="aden06_2518_06" minZ="-2776" maxZ="-2576">
+				<node x="180192" y="5712" />
+				<node x="181252" y="5704" />
+				<node x="181676" y="6208" />
+				<node x="181632" y="9020" />
+				<node x="179936" y="9036" />
+				<node x="179692" y="8768" />
+				<node x="179720" y="6960" />
+			</territory>
+		</territories>
+		<npc id="23150" count="4" respawnTime="15sec" /> <!-- Hellish Creature -->
+		<npc id="23151" count="6" respawnTime="15sec" /> <!-- Shillien's Messenger -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden06_2518_30" minZ="-3784" maxZ="-3184">
+				<node x="187216" y="17084" />
+				<node x="188904" y="15960" />
+				<node x="190400" y="16356" />
+				<node x="191836" y="21036" />
+				<node x="188032" y="19568" />
+			</territory>
+		</territories>
+		<npc id="23150" count="11" respawnTime="15sec" /> <!-- Hellish Creature -->
+		<npc id="23151" count="7" respawnTime="15sec" /> <!-- Shillien's Messenger -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden06_2518_31" minZ="-3768" maxZ="-3468">
+				<node x="187256" y="22280" />
+				<node x="187724" y="21144" />
+				<node x="191332" y="22760" />
+				<node x="187724" y="24400" />
+			</territory>
+		</territories>
+		<npc id="23150" count="10" respawnTime="15sec" /> <!-- Hellish Creature -->
+		<npc id="23151" count="5" respawnTime="15sec" /> <!-- Shillien's Messenger -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden06_2518_38" minZ="-2796" maxZ="-2396">
+				<node x="181572" y="4164" />
+				<node x="184760" y="4872" />
+				<node x="186044" y="6308" />
+				<node x="184864" y="9172" />
+				<node x="182684" y="9200" />
+			</territory>
+		</territories>
+		<npc id="23150" count="5" respawnTime="15sec" /> <!-- Hellish Creature -->
+		<npc id="23151" count="3" respawnTime="15sec" /> <!-- Shillien's Messenger -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden06_2518_46" minZ="-3732" maxZ="-3532">
+				<node x="188004" y="24516" />
+				<node x="191724" y="22848" />
+				<node x="193000" y="23412" />
+				<node x="188156" y="25572" />
+			</territory>
+		</territories>
+		<npc id="23150" count="5" respawnTime="15sec" /> <!-- Hellish Creature -->
+		<npc id="23151" count="4" respawnTime="15sec" /> <!-- Shillien's Messenger -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden06_2518_47" minZ="-3720" maxZ="-3520">
+				<node x="190956" y="17436" />
+				<node x="191992" y="16712" />
+				<node x="193592" y="21832" />
+				<node x="192348" y="21248" />
+			</territory>
+		</territories>
+		<npc id="23150" count="7" respawnTime="15sec" /> <!-- Hellish Creature -->
+		<npc id="23151" count="6" respawnTime="15sec" /> <!-- Shillien's Messenger -->
+	</spawn>
+	<spawn name="SealOfShilen">
+		<group>
+			<npc id="33165" x="185732" y="20407" z="-3344" respawnTime="60sec" /> <!-- Aden Vanguard Member -->
+			<npc id="33405" x="193353" y="22608" z="-3624" heading="36900" respawnTime="60sec" /> <!-- Rotating Dimensional Door -->
+			<npc id="33407" x="186170" y="20336" z="-3368" respawnTime="60sec" /> <!-- Quartermaster - Aden Vanguard -->
+			<npc id="33408" x="186109" y="20176" z="-3368" respawnTime="60sec" /> <!-- Backup Soldier - Aden Vanguard -->
+			<npc id="33409" x="186154" y="20480" z="-3368" respawnTime="60sec" /> <!-- Backup Soldier - Aden Vanguard -->
+			<npc id="33567" x="187542" y="20693" z="-3616" heading="43672" respawnTime="60sec" /> <!-- Hermuncus' Minion - Dimension Keeper -->
+		</group>
+	</spawn>
+</list>

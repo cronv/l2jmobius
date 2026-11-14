@@ -1,0 +1,69 @@
+/*
+ * Copyright (c) 2013 L2jMobius
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+ * IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+package handlers.skill.effects;
+
+import org.l2jmobius.gameserver.entity.actor.Creature;
+import org.l2jmobius.gameserver.mechanics.effects.AbstractEffect;
+import org.l2jmobius.gameserver.mechanics.effects.EffectFlag;
+import org.l2jmobius.gameserver.mechanics.skill.Skill;
+import org.l2jmobius.gameserver.util.StatSet;
+
+/**
+ * Handles the effects associated with the {@code DuelistFury} skill.<br>
+ * This class manages how the skill impacts creatures and their statistics.
+ * @author kiwimen
+ */
+public class DuelistFury extends AbstractEffect
+{
+	/**
+	 * Creates a new instance of {@code DuelistFury}.<br>
+	 * This constructor initializes the effect using the provided statistics.
+	 * @param params The {@code StatSet} containing the values for this effect.
+	 */
+	public DuelistFury(StatSet params)
+	{
+	}
+	
+	/**
+	 * Retrieves the bitmask for this effect.<br>
+	 * It returns the value associated with {@code EffectFlag.DUELIST_FURY}.
+	 * @return The long value representing the effect flags.
+	 */
+	@Override
+	public long getEffectFlags()
+	{
+		return EffectFlag.DUELIST_FURY.getMask();
+	}
+	
+	/**
+	 * Checks if the effect can be applied to a target.<br>
+	 * This method verifies if the {@code effected} creature is a player.
+	 * @param effector The creature performing the action.
+	 * @param effected The creature receiving the effect.
+	 * @param skill The skill being used.
+	 * @return {@code true} if the target is a player, otherwise {@code false}.
+	 */
+	@Override
+	public boolean canStart(Creature effector, Creature effected, Skill skill)
+	{
+		return effected.isPlayer();
+	}
+}

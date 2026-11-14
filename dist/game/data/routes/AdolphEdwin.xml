@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/RouteData.xsd">
+	<!-- Adolph, Edwin -->
+	<route name="running_boy" repeat="true" repeatStyle="back">
+		<target id="32070" spawnX="84460" spawnY="-144052" spawnZ="-1530" /> <!-- Adolph -->
+		<target id="32072" spawnX="84460" spawnY="-144052" spawnZ="-1530" /> <!-- Edwin -->
+		<point X="84416" Y="-144052" Z="-1528" delay="5" run="true" />
+		<point X="84460" Y="-142495" Z="-1536" delay="0" run="true" />
+		<point X="85242" Y="-140949" Z="-1536" delay="0" run="true" />
+		<point X="87362" Y="-140059" Z="-1536" delay="5" run="true" />
+		<point X="89350" Y="-140750" Z="-1536" delay="0" run="true" />
+		<point X="90607" Y="-143176" Z="-1536" delay="0" run="true" />
+		<point X="90267" Y="-143883" Z="-1536" delay="5" run="true" />
+	</route>
+</routes>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="gludio37_1823_01" minZ="-3380" maxZ="-2680">
+				<node x="-45052" y="168004" />
+				<node x="-43344" y="170296" />
+				<node x="-43192" y="173748" />
+				<node x="-46292" y="175120" />
+				<node x="-47520" y="173816" />
+				<node x="-46884" y="168600" />
+			</territory>
+		</territories>
+		<npc id="21011" count="6" respawnTime="25sec" /> <!-- Ol Mahum Van Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio37_1823_02" minZ="-3384" maxZ="-2884">
+				<node x="-43200" y="170220" />
+				<node x="-38456" y="169480" />
+				<node x="-38888" y="171836" />
+				<node x="-41020" y="174064" />
+				<node x="-43052" y="173716" />
+			</territory>
+		</territories>
+		<npc id="21011" count="6" respawnTime="25sec" /> <!-- Ol Mahum Van Soldier -->
+	</spawn>
+	<spawn name="WindManor">
+		<group>
+			<npc id="30412" x="-41452" y="167329" z="-3560" heading="12288" respawnTime="60sec" /> <!-- Wind Sylph -->
+		</group>
+	</spawn>
+</list>

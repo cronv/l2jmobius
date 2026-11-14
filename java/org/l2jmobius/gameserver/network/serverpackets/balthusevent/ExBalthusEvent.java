@@ -1,0 +1,79 @@
+/*
+ * Copyright (c) 2013 L2jMobius
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+ * IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+package org.l2jmobius.gameserver.network.serverpackets.balthusevent;
+
+import org.l2jmobius.commons.network.buffer.WriteBuffer;
+import org.l2jmobius.gameserver.entity.actor.Player;
+import org.l2jmobius.gameserver.managers.events.BalthusEventManager;
+import org.l2jmobius.gameserver.mechanics.variables.PlayerVariables;
+import org.l2jmobius.gameserver.network.GameClient;
+import org.l2jmobius.gameserver.network.ServerPackets;
+import org.l2jmobius.gameserver.network.serverpackets.ServerPacket;
+
+/**
+ * This packet handles the data for the Balthus event.<br>
+ * It is used to send information regarding consolation prizes and rewards to the client.
+ * @author Index
+ */
+public class ExBalthusEvent extends ServerPacket
+{
+	private final int _currentState;
+	private final int _rewardItemId;
+	private final int _currentProgress;
+	private final int _rewardTokenCount;
+	private final int _consolationCount;
+	private final boolean _isParticipant;
+	private final boolean _isRunning;
+	private final int _hour;
+	
+	/**
+	 * Creates a new {@code ExBalthusEvent} for a specific player.<br>
+	 * This constructor initializes the event data from the {@code BalthusEventManager}.<br>
+	 * It sets up values like current progress, reward items, and participant status.
+	 * @param player The {@code Player} object used to fetch personal variables.
+	 */
+	public ExBalthusEvent(Player player)
+	{
+		final BalthusEventManager manager = BalthusEventManager.getInstance();
+		_currentState = manager.getCurrentState();
+		_rewardItemId = manager.getCurrRewardItem();
+		_currentProgress = manager.getCurrentProgress() * 20;
+		_rewardTokenCount = player.getVariables().getInt(PlayerVariables.BALTHUS_REWARD, 0);
+		_consolationCount = (int) Math.min(manager.getConsolation().getCount(), Integer.MAX_VALUE);
+		_isParticipant = manager.isPlayerParticipant(player);
+		_isRunning = !manager.isRunning();
+		_hour = manager.getTime();
+	}
+	
+	@Override
+	public void writeImpl(GameClient client, WriteBuffer buffer)
+	{
+		ServerPackets.EX_BALTHUS_EVENT.writeId(this, buffer);
+		buffer.writeInt(_currentState);
+		buffer.writeInt(_currentProgress);
+		buffer.writeInt(_rewardItemId);
+		buffer.writeInt(_rewardTokenCount); // Current items for withdraw (available rewards).
+		buffer.writeInt(_consolationCount);
+		buffer.writeInt(_isParticipant);
+		buffer.writeByte(_isRunning);
+		buffer.writeInt(_hour);
+	}
+}

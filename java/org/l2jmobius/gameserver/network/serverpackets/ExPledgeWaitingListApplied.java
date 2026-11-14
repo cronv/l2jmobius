@@ -1,0 +1,65 @@
+/*
+ * This file is part of the L2J Mobius project.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package org.l2jmobius.gameserver.network.serverpackets;
+
+import org.l2jmobius.commons.network.buffer.WriteBuffer;
+import org.l2jmobius.gameserver.entity.clan.Clan;
+import org.l2jmobius.gameserver.entity.clan.entry.PledgeApplicantInfo;
+import org.l2jmobius.gameserver.entity.clan.entry.PledgeRecruitInfo;
+import org.l2jmobius.gameserver.managers.ClanEntryManager;
+import org.l2jmobius.gameserver.network.GameClient;
+import org.l2jmobius.gameserver.network.ServerPackets;
+
+/**
+ * This packet is sent to the client when a player has been successfully added to a clan's pledge waiting list.<br>
+ * It informs the user that their application for joining the {@code Clan} is now being processed.
+ * @author Sdw
+ */
+public class ExPledgeWaitingListApplied extends ServerPacket
+{
+	private final PledgeApplicantInfo _pledgePlayerRecruitInfo;
+	private final PledgeRecruitInfo _pledgeRecruitInfo;
+	
+	/**
+	 * This packet is sent when a player applies to join a clan.<br>
+	 * It retrieves the application and clan information from {@code ClanEntryManager}.
+	 * @param clanId The unique identifier of the clan.
+	 * @param playerId The unique identifier of the player.
+	 */
+	public ExPledgeWaitingListApplied(int clanId, int playerId)
+	{
+		_pledgePlayerRecruitInfo = ClanEntryManager.getInstance().getPlayerApplication(clanId, playerId);
+		_pledgeRecruitInfo = ClanEntryManager.getInstance().getClanById(clanId);
+	}
+	
+	@Override
+	public void writeImpl(GameClient client, WriteBuffer buffer)
+	{
+		ServerPackets.EX_PLEDGE_WAITING_LIST_APPLIED.writeId(this, buffer);
+		
+		final Clan clan = _pledgeRecruitInfo.getClan();
+		buffer.writeInt(clan.getId());
+		buffer.writeString(clan.getName());
+		buffer.writeString(clan.getLeaderName());
+		buffer.writeInt(clan.getLevel());
+		buffer.writeInt(clan.getMembersCount());
+		
+		buffer.writeInt(_pledgeRecruitInfo.getKarma());
+		buffer.writeString(_pledgeRecruitInfo.getInformation());
+		buffer.writeString(_pledgePlayerRecruitInfo.getMessage());
+	}
+}

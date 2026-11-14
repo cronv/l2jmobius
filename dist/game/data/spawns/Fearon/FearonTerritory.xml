@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="benon_1725_01" minZ="-3766" maxZ="-3466">
+				<node x="-81804" y="244049" />
+				<node x="-80342" y="244003" />
+				<node x="-80493" y="245029" />
+				<node x="-81433" y="244993" />
+			</territory>
+		</territories>
+		<npc id="23450" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Ratel -->
+		<npc id="23451" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Robust Ratel -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_02" minZ="-3777" maxZ="-3477">
+				<node x="-80307" y="244006" />
+				<node x="-79031" y="243524" />
+				<node x="-78767" y="245053" />
+				<node x="-79052" y="245404" />
+				<node x="-80428" y="245045" />
+			</territory>
+		</territories>
+		<npc id="23449" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Keen Floato -->
+		<npc id="23450" count="3" respawnTime="10sec" chaseRange="2500" /> <!-- Ratel -->
+		<npc id="23451" count="3" respawnTime="10sec" chaseRange="2500" /> <!-- Robust Ratel -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_03" minZ="-3761" maxZ="-3461">
+				<node x="-78254" y="243962" />
+				<node x="-77526" y="243715" />
+				<node x="-77274" y="244706" />
+				<node x="-78703" y="245064" />
+				<node x="-78998" y="243380" />
+				<node x="-78792" y="243048" />
+			</territory>
+		</territories>
+		<npc id="23448" count="4" respawnTime="10sec" chaseRange="2500" /> <!-- Floato -->
+		<npc id="23449" count="4" respawnTime="10sec" chaseRange="2500" /> <!-- Keen Floato -->
+		<npc id="23450" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Ratel -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_04" minZ="-3769" maxZ="-3469">
+				<node x="-77410" y="243749" />
+				<node x="-76355" y="242674" />
+				<node x="-74445" y="242712" />
+				<node x="-74338" y="243153" />
+				<node x="-75726" y="243419" />
+				<node x="-77188" y="244712" />
+			</territory>
+		</territories>
+		<npc id="23448" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Floato -->
+		<npc id="23449" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Keen Floato -->
+		<npc id="23451" count="3" respawnTime="10sec" chaseRange="2500" /> <!-- Robust Ratel -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_05" minZ="-3746" maxZ="-3346">
+				<node x="-85462" y="245806" />
+				<node x="-83371" y="245638" />
+				<node x="-83877" y="246871" />
+				<node x="-84766" y="247216" />
+			</territory>
+		</territories>
+		<npc id="23448" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Floato -->
+		<npc id="23450" count="3" respawnTime="10sec" chaseRange="2500" /> <!-- Ratel -->
+		<npc id="23451" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Robust Ratel -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_06" minZ="-3725" maxZ="-3325">
+				<node x="-84497" y="244389" />
+				<node x="-83233" y="244197" />
+				<node x="-83378" y="245549" />
+				<node x="-85421" y="245719" />
+			</territory>
+		</territories>
+		<npc id="23448" count="3" respawnTime="10sec" chaseRange="2500" /> <!-- Floato -->
+		<npc id="23449" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Keen Floato -->
+		<npc id="23450" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Ratel -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest01" minZ="-3600" maxZ="-3300">
+				<node x="-80474" y="241193" />
+				<node x="-79696" y="241690" />
+				<node x="-81404" y="242622" />
+				<node x="-81358" y="242156" />
+			</territory>
+		</territories>
+		<npc id="23452" count="13" respawnTime="25sec" chaseRange="2500" /> <!-- Honeybee -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest02" minZ="-3616" maxZ="-3316">
+				<node x="-79577" y="239494" />
+				<node x="-78393" y="240493" />
+				<node x="-79745" y="241552" />
+				<node x="-80379" y="241144" />
+			</territory>
+		</territories>
+		<npc id="23452" count="8" respawnTime="10sec" chaseRange="2500" /> <!-- Honeybee -->
+		<npc id="23484" count="8" respawnTime="10sec" chaseRange="2500" /> <!-- Robust Honeybee -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest03" minZ="-3591" maxZ="-3291">
+				<node x="-79499" y="239440" />
+				<node x="-78796" y="238711" />
+				<node x="-78081" y="239319" />
+				<node x="-78489" y="239719" />
+				<node x="-78633" y="240204" />
+			</territory>
+		</territories>
+		<npc id="23453" count="10" respawnTime="10sec" chaseRange="2500" /> <!-- Kiku -->
+		<npc id="23484" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Robust Honeybee -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest04" minZ="-3607" maxZ="-3307">
+				<node x="-78452" y="237797" />
+				<node x="-77924" y="238005" />
+				<node x="-78048" y="239265" />
+				<node x="-78765" y="238685" />
+			</territory>
+		</territories>
+		<npc id="23453" count="10" respawnTime="25sec" chaseRange="2500" /> <!-- Kiku -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest05" minZ="-3432" maxZ="-3132">
+				<node x="-81160" y="236643" />
+				<node x="-79684" y="236644" />
+				<node x="-79549" y="236999" />
+				<node x="-79903" y="237124" />
+				<node x="-80586" y="237298" />
+			</territory>
+		</territories>
+		<npc id="23454" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Robust Kiku -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest06" minZ="-3400" maxZ="-3100">
+				<node x="-82127" y="236176" />
+				<node x="-81533" y="235386" />
+				<node x="-81120" y="235858" />
+				<node x="-82073" y="236781" />
+			</territory>
+		</territories>
+		<npc id="23485" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Evolved Kiku -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest07" minZ="-3428" maxZ="-3128">
+				<node x="-81967" y="236955" />
+				<node x="-81445" y="236527" />
+				<node x="-80534" y="237365" />
+				<node x="-81443" y="237875" />
+			</territory>
+		</territories>
+		<npc id="23454" count="4" respawnTime="10sec" chaseRange="2500" /> <!-- Robust Kiku -->
+		<npc id="23455" count="4" respawnTime="10sec" chaseRange="2500" /> <!-- Growler -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest08" minZ="-3433" maxZ="-2983">
+				<node x="-82502" y="236972" />
+				<node x="-82297" y="236637" />
+				<node x="-81531" y="237974" />
+				<node x="-82496" y="238571" />
+				<node x="-82951" y="237601" />
+				<node x="-82427" y="237370" />
+			</territory>
+		</territories>
+		<npc id="23455" count="8" respawnTime="10sec" chaseRange="2500" /> <!-- Growler -->
+		<npc id="23486" count="6" respawnTime="10sec" chaseRange="2500" /> <!-- Robust Growler -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest09" minZ="-3438" maxZ="-3138">
+				<node x="-83298" y="237086" />
+				<node x="-83071" y="237599" />
+				<node x="-82845" y="238313" />
+				<node x="-83592" y="238089" />
+				<node x="-83937" y="237524" />
+			</territory>
+		</territories>
+		<npc id="23455" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Growler -->
+		<npc id="23486" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Robust Growler -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest10" minZ="-3396" maxZ="-3196">
+				<node x="-83528" y="235792" />
+				<node x="-83563" y="236591" />
+				<node x="-83336" y="237024" />
+				<node x="-83933" y="237405" />
+				<node x="-84070" y="236425" />
+				<node x="-84006" y="235677" />
+			</territory>
+		</territories>
+		<npc id="23455" count="3" respawnTime="10sec" chaseRange="2500" /> <!-- Growler -->
+		<npc id="23486" count="8" respawnTime="10sec" chaseRange="2500" /> <!-- Robust Growler -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest11" minZ="-3063" maxZ="-2763">
+				<node x="-86217" y="234131" />
+				<node x="-85498" y="234392" />
+				<node x="-85667" y="234770" />
+				<node x="-86221" y="235253" />
+				<node x="-86908" y="234379" />
+			</territory>
+		</territories>
+		<npc id="23457" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Treant -->
+		<npc id="23458" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Leafie -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest12" minZ="-3008" maxZ="-2708">
+				<node x="-87843" y="235376" />
+				<node x="-86926" y="234429" />
+				<node x="-86278" y="235309" />
+				<node x="-86354" y="235914" />
+				<node x="-87478" y="235713" />
+			</territory>
+		</territories>
+		<npc id="23457" count="6" respawnTime="10sec" chaseRange="2500" /> <!-- Treant -->
+		<npc id="23458" count="6" respawnTime="10sec" chaseRange="2500" /> <!-- Leafie -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest13" minZ="-2998" maxZ="-2598">
+				<node x="-87710" y="235724" />
+				<node x="-86388" y="235984" />
+				<node x="-86452" y="237057" />
+				<node x="-87658" y="236893" />
+				<node x="-87551" y="236522" />
+			</territory>
+		</territories>
+		<npc id="23457" count="6" respawnTime="10sec" chaseRange="2500" /> <!-- Treant -->
+		<npc id="23458" count="6" respawnTime="10sec" chaseRange="2500" /> <!-- Leafie -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest14" minZ="-2973" maxZ="-2573">
+				<node x="-87694" y="236957" />
+				<node x="-86465" y="237186" />
+				<node x="-86551" y="237759" />
+				<node x="-87329" y="237661" />
+			</territory>
+		</territories>
+		<npc id="23457" count="6" respawnTime="10sec" chaseRange="2500" /> <!-- Treant -->
+		<npc id="23458" count="5" respawnTime="10sec" chaseRange="2500" /> <!-- Leafie -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest1401" minZ="-2668" maxZ="-2168">
+				<node x="-88728" y="238454" />
+				<node x="-87985" y="238182" />
+				<node x="-87127" y="238623" />
+				<node x="-87280" y="238996" />
+				<node x="-88993" y="238779" />
+			</territory>
+		</territories>
+		<npc id="23457" count="3" respawnTime="10sec" chaseRange="2500" /> <!-- Treant -->
+		<npc id="23458" count="3" respawnTime="10sec" chaseRange="2500" /> <!-- Leafie -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="benon_1725_forest15" minZ="-2975" maxZ="-2675">
+				<node x="-88818" y="240023" />
+				<node x="-88045" y="239912" />
+				<node x="-87565" y="240343" />
+				<node x="-87481" y="241234" />
+				<node x="-88280" y="241332" />
+				<node x="-88744" y="240995" />
+			</territory>
+		</territories>
+		<npc id="23457" count="10" respawnTime="10sec" chaseRange="2500" /> <!-- Treant -->
+	</spawn>
+	<spawn name="FearonTerritory">
+		<group>
+			<npc id="33951" x="-81776" y="245431" z="-3720" heading="41215" respawnTime="60sec" /> <!-- Sivanthe - Forest Patrol -->
+			<npc id="33952" x="-78080" y="237343" z="-3536" heading="23740" respawnTime="60sec" /> <!-- Leira - Forest Patrol -->
+			<npc id="33953" x="-82832" y="237181" z="-3272" heading="16836" respawnTime="60sec" /> <!-- Milone - Forest Patrol -->
+			<npc id="33954" x="-88352" y="237472" z="-2880" respawnTime="60sec" /> <!-- Dolkin - Maestro -->
+			<npc id="33995" x="-81213" y="237970" z="-3272" respawnTime="60sec"> <!-- Kiku's Cave -->
+				<parameters>
+					<param name="caveId" value="0" />
+				</parameters>
+			</npc>
+			<npc id="33995" x="-80109" y="237540" z="-3272" respawnTime="60sec"> <!-- Kiku's Cave -->
+				<parameters>
+					<param name="caveId" value="1" />
+				</parameters>
+			</npc>
+			<npc id="33995" x="-80336" y="237504" z="-3272" respawnTime="60sec"> <!-- Kiku's Cave -->
+				<parameters>
+					<param name="caveId" value="2" />
+				</parameters>
+			</npc>
+		</group>
+	</spawn>
+</list>

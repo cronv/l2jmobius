@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="62400" toLevel="3" name="Lineage 2 Birthday Party">
+		<!-- We congratulate you with the birthday of Lineage 2, and wish you luck and happiness!. In 1 h., grants Lineage 2 Birthday Commemorative Coin (22 pcs.) and Maple Sunset Cake (1 pc.). Note!. The gift cannot be obtained if you are dead or have no free slots in the inventory. -->
+		<icon>icon.ev_17th_logo_2</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62401" toLevel="1" name="For Presentation - Precious Jewelry">
+		<!-- Shimmer for town NPC display -->
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62402" toLevel="4" name="Unholy Strike">
+		<!-- Common P. Skill -->
+		<icon>icon.skill4426</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>80</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62403" toLevel="4" name="Unholy Energy Ball">
+		<!-- Common Attack M. Skill -->
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>1100</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="62404" toLevel="4" name="Dark Buster">
+		<!-- Attack M. Skill -->
+		<icon>icon.skill1242</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<castRange>1100</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-700</effectPoint>
+		<mpConsume>1</mpConsume>
+	</skill>
+	<skill id="62405" toLevel="4" name="Unholy Strike">
+		<!-- Common P. Skill -->
+		<icon>icon.skill4426</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>80</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62406" toLevel="4" name="Unholy Punishment">
+		<!-- Common P. Skill -->
+		<icon>icon.skill0476</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62407" toLevel="1" name="Baluan's Focus Reduction">
+		<!-- For 5 sec., the target's Skill Critical Rate -50%. Inflicted status: Debilitation. -->
+		<icon>icon.skill1248</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>1000</castRange>
+		<trait>DEBILITATION</trait>
+	</skill>
+	<skill id="62408" toLevel="1" name="Baluan's Cooldown Increase">
+		<!-- For 5 sec., the target's skill cooldown +100%. Inflicted status: Debilitation. -->
+		<icon>icon.skill1242</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<castRange>1000</castRange>
+		<trait>DEBILITATION</trait>
+	</skill>
+	<skill id="62409" toLevel="1" name="Baluan's Power Shot">
+		<!-- For 5 sec., the target's all Critical Rate -50%. Inflicted status: Debilitation. -->
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<trait>DEBILITATION</trait>
+	</skill>
+	<skill id="62410" toLevel="1" name="Baluan's Spike">
+		<!-- For 5 sec., the target's skill cooldown +100%. Inflicted status: Debilitation. -->
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>600</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-115</effectPoint>
+		<trait>DEBILITATION</trait>
+	</skill>
+	<skill id="62411" toLevel="1" name="Baluan's Bomber">
+		<!-- For 5 sec., the target's all Critical Rate -50%. Inflicted status: Debilitation. -->
+		<operateType>A1</operateType>
+		<castRange>80</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<trait>DEBILITATION</trait>
+	</skill>
+	<skill id="62412" toLevel="1" name="Baluan's Spike">
+		<!-- For 5 sec., the target's skill cooldown +100%. Inflicted status: Debilitation. -->
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>600</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-115</effectPoint>
+		<trait>DEBILITATION</trait>
+	</skill>
+	<skill id="62413" toLevel="1" name="Baluan's Power Attack">
+		<!-- For 5 sec., the target's all Critical Rate -50%. Inflicted status: Debilitation. -->
+		<operateType>A1</operateType>
+		<castRange>80</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-115</effectPoint>
+		<trait>DEBILITATION</trait>
+	</skill>
+	<skill id="62414" toLevel="1" name="Demon of Dissent Baluan">
+		<!-- No one knows why Baluan has returned, but there are rumors that those who dare fight him will have to pass a special challenge. <Bonus stats>. Received damage limit: 22,222. Received damage limit from basic attacks with dual swords/ dual daggers/ dual blunt weapons/ fist weapons: 11,111. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62415" toLevel="1" name="Baluan's Destruction">
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>1000</castRange>
+		<hitTime>1500</hitTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62416" toLevel="1" name="Baluan's Thrust">
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>2000</castRange>
+		<hitTime>500</hitTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62417" toLevel="1" name="Baluan's Fire Wave">
+		<!-- For 10 sec., the target's all Critical Rate -50%. Inflicted status: Debilitation. -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>3000</hitTime>
+		<effectPoint>-700</effectPoint>
+		<trait>DEBILITATION</trait>
+	</skill>
+	<skill id="62418" toLevel="1" name="Baluan's Frost Dispel">
+		<!-- For 10 sec., the target's skill cooldown +100%. Inflicted status: Debilitation. -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>3000</hitTime>
+		<effectPoint>-700</effectPoint>
+		<trait>DEBILITATION</trait>
+	</skill>
+	<skill id="62419" toLevel="1" name="Baluan's Inner Flame Explosion">
+		<icon>icon.skill32100</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>3000</hitTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62420" toLevel="1" name="Baluan's Outer Frost Zone">
+		<icon>icon.skill32100</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>3000</hitTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62421" toLevel="1" name="Baluan's De-spawn">
+		<!-- Presentation Skill. -->
+		<icon>icon.skill10516</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>2000</hitTime>
+	</skill>
+	<skill id="62422" toLevel="1" name="Baluan's Appearance">
+		<!-- Presentation skill for finishing teleportation. -->
+		<icon>icon.skill10516</icon>
+		<operateType>A1</operateType>
+		<hitTime>4000</hitTime>
+	</skill>
+	<skill id="62423" toLevel="1" name="Baluan's Fire Shroud">
+		<!-- An unpenetrable shroud created by Baluan. To remove it, you have to deal the certain number of hits while having the Force of Fire Shroud Destruction that can be obtained at the Altar of Dissent affected by Cold Energy. -->
+		<icon>icon.skill32540</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62424" toLevel="1" name="Baluan's Ice Shroud">
+		<!-- An unpenetrable shroud created by Baluan. To remove it, you have to deal the certain number of hits while having the Force of Ice Shroud Destruction that can be obtained at the Altar of Dissent affected by Fire Energy. -->
+		<icon>icon.skill34807</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+	</skill>
+	<skill id="62425" toLevel="1" name="Force of Fire Shroud Destruction">
+		<!-- Can be obtained at the Altar of Dissent affected by Cold Energy. Can be used for destroying Baluan's Fire Shroud. The effect does not stack with Force of Cold Shroud Destruction. -->
+		<icon>icon.skill34807</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+	</skill>
+	<skill id="62426" toLevel="1" name="Force of Ice Shroud Destruction">
+		<!-- Can be obtained at the Altar of Dissent affected by Fire Energy. Can be used for destroying Baluan's Ice Shroud. The effect does not stack with Force of Fire Shroud Destruction. -->
+		<icon>icon.skill32540</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+	</skill>
+	<skill id="62427" toLevel="5" name="Kamael Fighter">
+		<!-- Level 1: <font color="ECECEC"><Passive skill - Workout></font>. Hard training and patience let the warrior achieve the state of free mind. On a basic attack, deals additional damage to the target equal to 100% of your P. Atk. -->
+		<!-- Level 2: <font color="ECECEC"><Passive skill - Workout></font>. Hard training and patience let the warrior achieve the state of free mind. On a basic attack, deals additional damage to the target equal to 100% of your P. Atk. -->
+		<!-- Level 3: <font color="ECECEC"><Passive skill - Workout></font>. Hard training and patience let the warrior achieve the state of free mind. On a basic attack, deals additional damage to the target equal to 100% of your P. Atk. -->
+		<!-- Level 4: <font color="ECECEC"><Passive skill - Workout></font>. Hard training and patience let the warrior achieve the state of free mind. On a basic attack, deals additional damage to the target equal to 100% of your P. Atk. -->
+		<!-- Level 5: <font color="ECECEC"><Passive skill - Workout></font>. Hard training and patience let the warrior free his mind. On a basic attack, deals additional damage equal to 100% of P. Atk. to the target. <font color="ECECEC"><Passive skill - Fundamental Teaching></font>. Control over your mind opens the way to true mastery. When using Full Twist, triggers Pole of Mental Power. Also, when using Walk in Monster Woods, triggers Embodiment. <font color="ECECEC"><Pole of Mental Power></font>. Makes you immune to damage and debuffs. <font color="ECECEC"><Embodiment></font>. Changes Battojutsu to Perception (no cooldown) that deals damage equal to 300% of P. Atk. -->
+		<icon>icon.s_crow_weapon_mastery</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62428" toLevel="2" name="Activation - Single Flash">
+		<!-- Level 1: Basic animation of the attack and additional damage. -->
+		<!-- Level 2: Animation of the range attack and additional damage. Omen visual effect. -->
+		<icon>icon.s_crow_slash</icon>
+		<operateType>A1</operateType>
+		<targetType>TARGET</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>-100</effectPoint>
+		<effectRange>400</effectRange>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62429" toLevel="1" name="Maneuver">
+		<!-- Samurai's sword does not hit the enemy, it opens the way. A basic attack. Charges toward the target stunning enemies in the skill area for 3 sec. Deals damage equal to 180% of P. Atk. to the target and nearby enemies. Base success rate: 60%. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). Requires a one-handed sword. -->
+		<icon>icon.s_crow_dash</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<castRange>600</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>3000</reuseDelay>
+		<effectPoint>-704</effectPoint>
+		<trait>CONFUSION</trait>
+	</skill>
+	<skill id="62430" toLevel="1" name="Pursuit">
+		<!-- Samurai's resilience manifests not in waiting, but in moving forward relentlessly. A basic attack. Charges toward the target stunning them for 3 sec. Deals damage equal to 180% of P. Atk. Resets the Maneuver's cooldown. Base success rate: 70%. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). Requires a one-handed sword. Consumes 1 Soulstone. -->
+		<icon>icon.s_crow_pursuit</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<castRange>600</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>3000</reuseDelay>
+		<effectPoint>-669</effectPoint>
+		<trait>CONFUSION</trait>
+	</skill>
+	<skill id="62431" toLevel="1" name="Clever Maneuver">
+		<!-- Samurai's sword does not hit the enemy, it opens the way. <font color="ECECEC"><Maneuver (ranged)></font>. A basic attack. Charges toward the target stunning them for 3 sec. Deals damage equal to 120% of P. Atk. to the target and nearby enemies. Base success rate: 60%. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). <font color="ECECEC"><Clever Maneuver (melee)></font>. A basic attack. Deals damage equal to 120% of P. Atk. to nearby enemies. The enemies' received Critical Rate from basic attacks +10%. Base success rate: 60%. Inflicted status: Debilitation. -->
+		<icon>icon.s_crow_rush</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>3000</reuseDelay>
+		<effectPoint>-507</effectPoint>
+		<trait>CONFUSION</trait>
+	</skill>
+	<skill id="62432" toLevel="1" name="Strike">
+		<!-- Samurai's resilience manifests not in waiting, but in moving forward relentlessly. <font color="ECECEC"><Strike (ranged)></font>. A basic attack. Charges toward the target stunning them for 3 sec. Deals damage equal to 120% of P. Atk. Resets the Maneuver's cooldown. Base success rate: 70%. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). <font color="ECECEC"><Strke (melee)></font>. A basic attack. Deals damage equal to 220% of P. Atk. Resets the Maneuver's cooldown. Base success rate: 60%. Inflicted status: Debilitation. -->
+		<icon>icon.s_crow_pursuit</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<castRange>100</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>3000</reuseDelay>
+		<effectPoint>-669</effectPoint>
+		<trait>CONFUSION</trait>
+	</skill>
+	<skill id="62433" toLevel="1" name="Thousand Wounds">
+		<!-- Death awaits those who choose the way of the sword. A basic attack. Attacks the target and enemies in front of them and behind them, dealing damage equal to 200% of your P. Atk. The damage increases in accordance with the number of affected enemies. Requires a one-handed sword. -->
+		<icon>icon.s_crow_grinding</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>600</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>5000</reuseDelay>
+		<effectPoint>-716</effectPoint>
+	</skill>
+	<skill id="62434" toLevel="1" name="Advent">
+		<!-- Control the sword with your heart and not with your hand, only then will you achieve the perfection. A basic attack. For 7 sec., P. Accuracy +15, Atk. Spd. +10%, Critical Damage for basic attacks +15%. When using basic attacks and attack skills, deals additional damage equal to 100% of your P. Atk. to nearby enemies. Requires a one-handed sword. Consumes 15 Soulstones. -->
+		<icon>icon.s_oni_has_come2</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>687</effectPoint>
+	</skill>
+	<skill id="62435" toLevel="1" name="Activation - Advent">
+		<!-- Basic animation of the attack and additional damage. -->
+		<icon>icon.s_crow_slash</icon>
+		<operateType>A1</operateType>
+		<targetType>TARGET</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<effectPoint>-100</effectPoint>
+		<effectRange>400</effectRange>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62436" toLevel="1" name="Full Twist">
+		<!-- It is better to die for your honor than to live in disgrace. A basic attack. Attacks nearby enemies thrice, dealing damage equal to 250% of your P. Atk. While using the skill, you are unable to move. Requires a one-handed sword. -->
+		<icon>icon.s_crow_range_replace</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>2000</hitTime>
+		<reuseDelay>12000</reuseDelay>
+		<effectPoint>-716</effectPoint>
+	</skill>
+	<skill id="62437" toLevel="1" name="Full Twist">
+		<!-- Visual effect of a strike and damage. -->
+		<icon>icon.s_crow_range_replace</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62438" toLevel="1" name="Battojutsu">
+		<!-- A true sword master directs the blade with their heart and not with their hand. A basic attack. Pierces the target and enemies in front of them and behind them, dealing damage equal to 250% of P. Atk. Requires a one-handed sword. Consumes 3 Soulstones. -->
+		<icon>icon.s_drawing1</icon>
+		<operateType>DA6</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SQUARE</affectScope>
+		<castRange>800</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-669</effectPoint>
+		<effectRange>1400</effectRange>
+		<fanRange>75;0;1400;75</fanRange>
+		<hitTime>500</hitTime>
+		<itemConsumeCount>3</itemConsumeCount>
+		<itemConsumeId>1785</itemConsumeId> <!-- Soulstone -->
+		<reuseDelay>10000</reuseDelay>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62439" toLevel="1" name="Perception">
+		<!-- A true sword master directs the blade with their heart and not with their hand. A basic attack. Pierces the target and enemies in front of them and behind them, dealing damage equal to 300% of P. Atk. Requires a one-handed sword. Consumes 3 Soulstones. -->
+		<icon>icon.s_drawing2</icon>
+		<operateType>DA6</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SQUARE</affectScope>
+		<castRange>800</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-669</effectPoint>
+		<effectRange>1400</effectRange>
+		<fanRange>75;0;1400;75</fanRange>
+		<hitTime>500</hitTime>
+		<itemConsumeCount>3</itemConsumeCount>
+		<itemConsumeId>1785</itemConsumeId> <!-- Soulstone -->
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62440" toLevel="1" name="Walk in Monster Woods">
+		<!-- Greed chains the heart and takes freedom from the sword. A basic attack. Attacks nearby enemies dealing damage equal to 250% of your P. Atk. Cancels the enemies' targets preventing them from targeting for 3 sec. Base success rate: 60%. Inflicted status: Obstruction (Disarm, Hold, Blind, Block, Aggression, Silence, Banishment, Bluff, Stealth). Requires a one-handed sword. Consumes 3 Soulstones. -->
+		<icon>icon.s_crow_oni</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>45000</reuseDelay>
+		<effectPoint>-114</effectPoint>
+		<trait>OBSTRUCTION</trait>
+	</skill>
+	<skill id="62441" toLevel="1" name="Omen">
+		<!-- Changes come when your senses know the truth. For 7 sec., P. Atk. +30%, Critical Damage for basic attacks +15%. When using a one-handed sword, greatly increases basic attack range. Requires a one-handed sword. Consumes 15 Soulstones. -->
+		<icon>icon.s_avowed_pledge</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>707</effectPoint>
+	</skill>
+	<skill id="62442" toLevel="1" name="Maneuver Cooldown Reset">
+		<!-- Resets the cooldown of Maneuver. -->
+		<icon>icon.s_find_weakness</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>-100</effectPoint>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<effects>
+			<effect name="ReuseSkillById">
+				<skillId>31536</skillId> <!-- Maneuver -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62443" toLevel="1" name="Pole of Mental Power">
+		<!-- Feel the breath of absolute tranquillity. Invincible against basic attacks, skills, and debuffs. -->
+		<icon>icon.s_fighting_spirit</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>1</abnormalTime>
+		<coolTime>500</coolTime>
+		<effectPoint>673</effectPoint>
+		<isMagic>0</isMagic>
+		<effects>
+			<effect name="DebuffBlock" />
+			<effect name="DispelByCategory">
+				<slot>DEBUFF</slot>
+				<rate>100</rate>
+				<max>50</max>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>-100</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62444" toLevel="1" name="Path of the Samurai">
+		<!-- Those who have chosen the Path of the Samurai have a special power. Greatly increases Max HP/ MP/ CP and weight limit. -->
+		<icon>icon.skill0150</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62445" toLevel="1" name="Embodiment">
+		<!-- For 5 sec., changes Battojutsu to Perception. <font color="ECECEC"><Perception></font>. A basic attack. Pierces the target and enemies in front of them and behind them, dealing damage equal to 300% of P. Atk. Instant cooldown. -->
+		<icon>icon.s_crow_fire</icon>
+		<operateType>A1</operateType>
+		<effectPoint>669</effectPoint>
+	</skill>
+	<skill id="62446" toLevel="1" name="Fallen Cherry Blossom">
+		<!-- In 5 sec., removes active buffs and recovers 100% HP/ MP/ CP. -->
+		<icon>icon.s_item_ev_2023_whiteday_box1</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62447" toLevel="1" name="Fallen Cherry Blossom - Recovery">
+		<!-- HP/ MP/ CP Recovery -->
+		<icon>icon.s_find_weakness</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62448" toLevel="2" name="Yokai's Focus Reduction">
+		<!-- Level 1: For 5 sec., the target's Critical Rate for basic attacks and P./ M. skills -50%. Inflicted status: Debilitation. -->
+		<!-- Level 2: For 5 sec., the target's Critical Rate for basic attacks and P./ M. skills -50%. The effect cannot be removed. Inflicted status: Debilitation. -->
+		<icon>icon.skill1248</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>1000</castRange>
+		<trait>DEBILITATION</trait>
+	</skill>
+	<skill id="62449" toLevel="2" name="Yokai's Cooldown Increase">
+		<!-- Level 1: For 5 sec., the target's P./ M. Skill Cooldown +100%. Inflicted status: Debilitation. -->
+		<!-- Level 2: For 5 sec., the target's P./ M. Skill Cooldown +100%. The effect cannot be removed. Inflicted status: Debilitation. -->
+		<icon>icon.skill1242</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<castRange>1000</castRange>
+		<trait>DEBILITATION</trait>
+	</skill>
+	<skill id="62450" toLevel="1" name="Kitsune's Fireball">
+		<!-- A basic magic AoE attack. -->
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>600</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-115</effectPoint>
+	</skill>
+	<skill id="62451" toLevel="1" name="Yokai's Fatal Shot">
+		<!-- A basic ranged physical attack. -->
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62452" toLevel="1" name="Yokai's Slash">
+		<!-- A melee physical AoE attack. -->
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62453" toLevel="1" name="Yokai's Smash">
+		<!-- The boss' ranged attack. -->
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62454" toLevel="1" name="Yokai's Spike">
+		<!-- The boss' AoE attack. -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>4000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62455" toLevel="1" name="Yokai's Vortex">
+		<!-- The boss' melee attack. -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62456" toLevel="1" name="Minions' Protection">
+		<!-- The minions protect Yokai General from any harm. To remove the invincibility, kill 100 minions. -->
+		<icon>icon.skill32522</icon>
+		<operateType>A2</operateType>
+		<hitTime>500</hitTime>
+		<mpConsume>1</mpConsume>
+		<isMagic>1</isMagic>
+		<abnormalType>INVINCIBILITY</abnormalType>
+		<basicProperty>NONE</basicProperty>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>-1</abnormalTime>
+		<abnormalVisualEffect>V_ULTIMATE_DEFENCE_FORTRESS_AVE</abnormalVisualEffect>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="DebuffBlock" />
+			<effect name="ResistDispelByCategory">
+				<amount>-100</amount>
+				<slot>ALL</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62457" toLevel="3" name="Yokai General">
+		<!-- Level 1: Yokai are former Kamael warriors who broke down from rigorous training and lost the way of Samurai. With time, they harnessed dark powers. Bearing a grudge against their brethren and Mother Nornil, Yokai General and his minions invaded Sakura Isle. <Bonus stats>. With a certain chance, applies Debilitation on the target. Yokai's Spike applies Debilitation on the target ignoring immunity to anomalies. The effect cannot be removed. -->
+		<!-- Level 2: Yokai are former Kamael warriors who broke down from rigorous training and lost the way of Samurai. With time, they harnessed dark powers. Bearing a grudge against their brethren and Mother Nornil, Yokai General and his minions invaded Sakura Isle. <Bonus stats>. P./ M. Accuracy +100, P./ M. Evasion +100. With a certain chance, applies Debilitation on the target. Yokai's Spike applies Debilitation on the target ignoring immunity to anomalies. The effect cannot be removed. -->
+		<!-- Level 3: Yokai are former Kamael warriors who broke down from rigorous training and lost the way of Samurai. With time, they harnessed dark powers. Bearing a grudge against their brethren and Mother Nornil, Yokai General and his minions invaded Sakura Isle. <Bonus stats>. P./ M. Accuracy +100, P./ M. Evasion +100. With a certain chance, applies Debilitation on the target. Yokai's Spike applies Debilitation on the target ignoring immunity to anomalies. The effect cannot be removed. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62458" toLevel="3" name="Yokai">
+		<!-- Level 1: Yokai are former Kamael warriors who broke down from rigorous training and lost the way of Samurai. -->
+		<!-- Level 2: Yokai are former Kamael warriors who broke down from rigorous training and lost the way of Samurai. <Bonus stats>. P./ M. Accuracy +100, P./ M. Evasion +100. With a certain chance, applies Debilitation on the target. -->
+		<!-- Level 3: Yokai are former Kamael warriors who broke down from rigorous training and lost the way of Samurai. <Bonus stats>. P./ M. Accuracy +100, P./ M. Evasion +100. With a certain chance, applies Debilitation on the target. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62459" toLevel="1" name="Yokai's Debuff Resistance">
+		<!-- Debilitation Resistance +500. Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +1000 -->
+		<icon>icon.skill0335</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62460" toLevel="1" name="Get Gift">
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62461" toLevel="3" name="Happy New Year!">
+		<!-- <font color="FED7A0">Happy New Year!</font> Ruby's congratulations make you warm from inside. You can get Ruby's Coin (2 pcs.) in 1 h. Note!. Cannot be obtained if you are dead or have no free slots in your inventory. -->
+		<icon>icon.s_npc_ev_2026_newyear</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62462" toLevel="1" name="Fighting the Cold">
+		<!-- <font color="FED7A0">Let's drive away the cold that bound Aden!</font>. After defeating Cold that hid among monsters, you feel a nice warmth coursing through your body. For 2 min., all Critical Rate +10%, all attack power +10%, P./ M. Def. +10%, damage +10%, acquired XP/ SP +20%, Vitality bonus +30%, received damage -10%. The effect remains after death, after switching to a dual class, or entering instance zones. Removed when entering the Olympiad or the Ceremony of Chaos. -->
+		<icon>icon.skill0436</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="62463" toLevel="1" name="Fighting the Cold - Demonstration">
+		<!-- Fighting the Cold - Demonstration -->
+		<operateType>A1</operateType>
+		<castRange>1500</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62464" toLevel="2" name="Chaos Core's Focus Reduction">
+		<!-- Level 1: For 5 sec., the target's Critical Rate for basic attacks and P./ M. skills -50%. Inflicted status: Debilitation. -->
+		<!-- Level 2: For 5 sec., the target's Critical Rate for basic attacks and P./ M. skills -50%. The effect cannot be removed. Inflicted status: Debilitation. -->
+		<icon>icon.skill1248</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>1000</castRange>
+		<trait>DEBILITATION</trait>
+	</skill>
+	<skill id="62465" toLevel="2" name="Chaos Core's Cooldown Increase">
+		<!-- Level 1: For 5 sec., the target's P./ M. Skill Cooldown +100%. Inflicted status: Debilitation. -->
+		<!-- Level 2: For 5 sec., the target's P./ M. Skill Cooldown +100%. The effect cannot be removed. Inflicted status: Debilitation. -->
+		<icon>icon.skill1242</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<castRange>1000</castRange>
+		<trait>DEBILITATION</trait>
+	</skill>
+	<skill id="62466" toLevel="1" name="Chaos' Shot">
+		<!-- A basic magic AoE attack. -->
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>600</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-115</effectPoint>
+	</skill>
+	<skill id="62467" toLevel="1" name="Chaos' Fatal Shot">
+		<!-- A basic ranged physical attack. -->
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62468" toLevel="1" name="Chaos' Slash">
+		<!-- A melee physical AoE attack. -->
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62469" toLevel="1" name="Chaos' Slash">
+		<!-- A melee physical AoE attack. -->
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62470" toLevel="3" name="Chaos' Air Fortress Legion">
+		<!-- Level 1: Dr. Chaos imbued the ancient Dwarven technologies from the Sky Wagon Relic with the Chaos power, and created the Chaos Core that powers his flying fortress. -->
+		<!-- Level 2: Dr. Chaos imbued the ancient Dwarven technologies from the Sky Wagon Relic with the Chaos power, and created the Chaos Core that powers his flying fortress. <Bonus stats>. P./ M. Accuracy +100, P./ M. Evasion +100. With a certain chance, applies a Debilitation-type debuff on the target. -->
+		<!-- Level 3: Dr. Chaos imbued the ancient Dwarven technologies from the Sky Wagon Relic with the Chaos power, and created the Chaos Core that powers his flying fortress. <Bonus stats>. P./ M. Accuracy +100, P./ M. Evasion +100. With a certain chance, applies a Debilitation-type debuff on the target. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62471" toLevel="1" name="Chaos' Fortress Debuff Resistance">
+		<!-- Debilitation Resistance +500. Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +1000 -->
+		<icon>icon.skill0335</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62472" toLevel="3" name="Chaos' Fortress Golem">
+		<!-- Level 1: A sturdy mechanic golem enhanced with the Chaos Core, the energy source created by Dr. Chaos. It combines the Chaos power with ancient Dwarven technologies. Chaos' Fortress Golems are stronger than any other of Dr. Chaos' creatures. <Bonus stats>. With a certain chance, applies Debilitation on the target. Hammer Swing applies Debilitation on the target ignoring their immunity to anomalies. The effect cannot be removed. -->
+		<!-- Level 2: A sturdy mechanic golem enhanced with the Chaos Core, the energy source created by Dr. Chaos. It combines the Chaos power with ancient Dwarven technologies. Chaos' Fortress Golems are stronger than any other of Dr. Chaos' creatures. <Bonus stats>. P./ M. Accuracy +100, P./ M. Evasion +100. With a certain chance, applies a Debilitation-type debuff on the target. Hammer Swing applies Debilitation on the target ignoring their immunity to anomalies. The effect cannot be removed. -->
+		<!-- Level 3: A sturdy mechanic golem enhanced with the Chaos Core, the energy source created by Dr. Chaos. It combines the Chaos power with ancient Dwarven technologies. Chaos' Fortress Golems are stronger than any other of Dr. Chaos' creatures. <Bonus stats>. P./ M. Accuracy +100, P./ M. Evasion +100. With a certain chance, applies a Debilitation-type debuff on the target. Hammer Swing applies Debilitation on the target ignoring their immunity to anomalies. The effect cannot be removed. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62473" toLevel="1" name="Hammer Strike">
+		<!-- Deals P. damage to the target and nearby enemies stunning them for 1 sec. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill0100</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>100</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-2</effectPoint>
+		<trait>CONFUSION</trait>
+	</skill>
+	<skill id="62474" toLevel="1" name="Punch">
+		<!-- Makes a powerful punch at the target knocking them down for 1 sec. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill16869</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>100</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<trait>CONFUSION</trait>
+	</skill>
+	<skill id="62475" toLevel="1" name="Hammertime">
+		<!-- Attacks nearby enemies knocking them down for 3 sec. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill10012</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1378</effectPoint>
+		<trait>CONFUSION</trait>
+	</skill>
+	<skill id="62476" toLevel="1" name="Hammer Swing">
+		<!-- A wide hammer strike that deals P. damage to enemies in a fan-shaped area in front of you. -->
+		<operateType>A1</operateType>
+		<castRange>100</castRange>
+		<hitTime>5000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<mpConsume>61</mpConsume>
+	</skill>
+	<skill id="62477" toLevel="1" name="Intruder Alert">
+		<!-- For Chaos' Air Fortress demonstration. Icons are not displayed. -->
+		<icon>icon.s_ev_22nd_green_buff</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>1500</castRange>
+		<effectPoint>-1</effectPoint>
+	</skill>
+	<skill id="62478" toLevel="1" name="Generator's Load Stabilizer">
+		<!-- An attack's max damage is limited by the Load Stabilizer that protects the Generator from abrupt shutdowns caused by external influence. <Bonus stats>. Received damage limit: 9999. Received damage limit from basic attacks with dual swords/ dual daggers/ dual blunt weapons/ fist weapons: 4999. -->
+		<icon>icon.skillraid</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="GetDamageLimit">
+				<amount>9999</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62479" toLevel="1" name="Neutral State: Attack Limit">
+		<!-- Gainak Arena's neutral state. Attacks and attack skills are unavailable. -->
+		<icon>icon.skill1336</icon>
+		<operateType>A1</operateType>
+		<targetType>TARGET</targetType>
+		<abnormalTime>5</abnormalTime>
+		<effectPoint>-100</effectPoint>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<effects>
+			<effect name="PhysicalDamageMute" />
+			<effect name="BlockSkill">
+				<magicTypes>0;1</magicTypes>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62480" toLevel="1" name="Plague Executioner Kajan">
+		<!-- Kajan believed the plague to be sent by the Gods to cleanse humankind, so he did his best to infect everyone in his village with this dreadful illness. When they died, he set out to preach his beliefs to nearby settlements, and after a while his mission led him to Gainak Arena. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62481" toLevel="1" name="Plague Executioner Lidakin">
+		<!-- Lidakin believed the plague to be sent by the Gods to cleanse humankind, so he did his best to infect everyone in his village with this dreadful illness. When they died, he set out to preach his beliefs to nearby settlements, and after a while his mission led him to Gainak Arena. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62482" toLevel="1" name="Plague Executioner Belfus">
+		<!-- Belfus believed the plague to be sent by the Gods to cleanse humankind, so he did his best to infect everyone in his village with this dreadful illness. When they died, he set out to preach his beliefs to nearby settlements, and after a while his mission led him to Gainak Arena. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62483" toLevel="1" name="Sinister Messenger Grabol">
+		<!-- Once Grabol was a soldier, but after his brothers-in-arms died because of his cowardice, he was forced to defect in disgrace. However, he was unable to escape punishment, as his comrades' dying curses turned him into a fearsome monster. Wherever he went, he brought only death and destruction, until, at last, his curse led him to Gainak Arena. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62484" toLevel="1" name="Sinister Messenger Talgor">
+		<!-- Once Talgor was a soldier, but after his brothers-in-arms died because of his cowardice, he was forced to defect in disgrace. However, he was unable to escape punishment, as his comrades' dying curses turned him into a fearsome monster. Wherever he went, he brought only death and destruction, until, at last, his curse led him to Gainak Arena. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62485" toLevel="1" name="Sinister Messenger Galatan">
+		<!-- Once Galatan was a soldier, but after his brothers-in-arms died because of his cowardice, he was forced to defect in disgrace. However, he was unable to escape punishment, as his comrades' dying curses turned him into a fearsome monster. Wherever he went, he brought only death and destruction, until, at last, his curse led him to Gainak Arena. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62486" toLevel="1" name="Ghost Knight Vexus">
+		<!-- There was nothing more pleasing for Knight Vexus than the sight of a battlefield covered with his enemies' corpses. His bloodlust was so overpowering that when his weakening hands were unable to hold the sword any longer, he struck a deal with the Darkness to become the Ghost Knight after his death and return to the world of the living to kill his enemies. After a while, this insatiable desire for endless battle led him to Gainak Arena. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62487" toLevel="1" name="Ghost Knight Sindrick">
+		<!-- There was nothing more pleasing for Knight Sindrick than the sight of a battlefield covered with his enemies' corpses. His bloodlust was so overpowering that when his weakening hands were unable to hold the sword any longer, he struck a deal with the Darkness to become the Ghost Knight after his death and return to the world of the living to kill his enemies. After a while, this insatiable desire for endless battle led him to Gainak Arena. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62488" toLevel="1" name="Ghost Knight Godiak">
+		<!-- There was nothing more pleasing for Knight Godiak than the sight of a battlefield covered with his enemies' corpses. His bloodlust was so overpowering that when his weakening hands were unable to hold the sword any longer, he struck a deal with the Darkness to become the Ghost Knight after his death and return to the world of the living to kill his enemies. After a while, this insatiable desire for endless battle led him to Gainak Arena. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62489" toLevel="1" name="Decay Strike">
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>FAN</affectScope>
+		<castRange>1300</castRange>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;0;1300;90</fanRange> <!-- Unconfirmed -->
+		<hitTime>1500</hitTime>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62490" toLevel="1" name="Forced Isolation">
+		<!-- Knocks nearby enemies a long way back. -->
+		<icon>icon.skill1184</icon>
+		<operateType>A1</operateType>
+		<abnormalTime>4</abnormalTime>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange> <!-- Unconfirmed -->
+		<affectScope>POINT_BLANK</affectScope>
+		<effectPoint>-100</effectPoint>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>6</isMagic>
+		<trait>CONFUSION</trait>
+		<effects>
+			<effect name="KnockBack">
+				<distance>500</distance>
+				<speed>400</speed>
+				<knockDown>true</knockDown>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62491" toLevel="1" name="Plague Recipe">
+		<icon>icon.skill10522</icon>
+		<operateType>A1</operateType>
+		<castRange>1300</castRange>
+		<hitTime>4000</hitTime>
+	</skill>
+	<skill id="62492" toLevel="1" name="Disease Area">
+		<!-- The disease invades your body dealing massive damage over time. -->
+		<icon>icon.skill1167</icon>
+		<operateType>A1</operateType>
+		<abnormalTime>3</abnormalTime>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange> <!-- Unconfirmed -->
+		<affectScope>POINT_BLANK</affectScope>
+		<effectPoint>-707</effectPoint>
+		<isDebuff>true</isDebuff>
+		<mpConsume>1</mpConsume>
+		<effects>
+			<effect name="DamOverTime">
+				<power>999</power> <!-- Unconfirmed -->
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62493" toLevel="1" name="Plague Diffusion">
+		<icon>icon.baium_thunder_brake1</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>5000</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62494" toLevel="1" name="Tainted Burst">
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>FAN</affectScope>
+		<castRange>1300</castRange>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;0;1300;90</fanRange> <!-- Unconfirmed -->
+		<hitTime>1500</hitTime>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62495" toLevel="1" name="Chain of Fate">
+		<!-- Strikes with a chain pulling the target to you. Inflicted status: Pull. -->
+		<icon>icon.skill10262</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>1</abnormalTime>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>FAN</affectScope>
+		<castRange>1300</castRange>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;0;1300;90</fanRange> <!-- Unconfirmed -->
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<trait>PULL</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PullBack">
+				<speed>90</speed>
+				<delay>600</delay>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62496" toLevel="1" name="Merciless Frenzy">
+		<!-- Speed decreased temporarily. -->
+		<operateType>A1</operateType>
+		<abnormalTime>3</abnormalTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="Speed">
+				<amount>-30</amount> <!-- Unconfirmed -->
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62497" toLevel="1" name="Seal of Fate">
+		<!-- Deals P. damage that is increased based on the number of affected targets. Cannot be removed. -->
+		<icon>icon.skill1064</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>2000</hitTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62498" toLevel="1" name="Cry of Destiny - Explosion">
+		<!-- Deals P. damage that is increased based on the number of affected targets. Cannot be removed. -->
+		<icon>icon.skill1064</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange> <!-- Unconfirmed -->
+		<affectScope>RANGE</affectScope>
+		<castRange>1300</castRange>
+		<effectPoint>-100</effectPoint>
+		<hitTime>5000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62499" toLevel="1" name="Blight Blockade">
+		<icon>icon.skill10516</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>4000</hitTime>
+		<coolTime>1000</coolTime>
+	</skill>
+</list>

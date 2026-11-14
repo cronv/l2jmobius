@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Rim Kamaloka - Normal Level 120 -->
+<instance id="49" maxWorlds="200" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/instance.xsd">
+	<time duration="10" empty="1" />
+	<locations>
+		<enter type="FIXED">
+			<location x="42504" y="-220554" z="-8752" heading="0" />
+		</enter>
+		<exit type="ORIGIN" />
+	</locations>
+	<conditions>
+		<condition type="Reenter" showMessageAndHtml="true">
+			<param name="html" value="condNoEnter.htm" />
+		</condition>
+		<condition type="Level" showMessageAndHtml="true">
+			<param name="html" value="condNoLevel.htm" />
+			<param name="min" value="105" />
+		</condition>
+	</conditions>
+	<reenter apply="NONE">
+		<reset day="MONDAY" hour="6" minute="30" />
+		<reset day="TUESDAY" hour="6" minute="30" />
+		<reset day="WEDNESDAY" hour="6" minute="30" />
+		<reset day="THURSDAY" hour="6" minute="30" />
+		<reset day="FRIDAY" hour="6" minute="30" />
+		<reset day="SATURDAY" hour="6" minute="30" />
+		<reset day="SUNDAY" hour="6" minute="30" />
+	</reenter>
+</instance>

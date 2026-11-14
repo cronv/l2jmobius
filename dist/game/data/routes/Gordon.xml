@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/RouteData.xsd">
+	<!-- Gordon -->
+	<route name="gordon" repeat="true" repeatStyle="cycle">
+		<target id="29095" spawnX="147408" spawnY="-43552" spawnZ="-2328" />
+		<point X="147408" Y="-43552" Z="-2296" delay="0" run="false" />
+		<point X="147927" Y="-43264" Z="-2296" delay="0" run="false" />
+		<point X="148668" Y="-43435" Z="-2312" delay="0" run="false" />
+		<point X="149308" Y="-43910" Z="-2464" delay="0" run="false" />
+		<point X="150447" Y="-44190" Z="-2608" delay="0" run="false" />
+		<point X="151346" Y="-44070" Z="-2736" delay="4" run="false" />
+		<point X="152074" Y="-43362" Z="-2816" delay="0" run="false" />
+		<point X="152721" Y="-42632" Z="-2824" delay="0" run="false" />
+		<point X="153326" Y="-41826" Z="-2936" delay="0" run="false" />
+		<point X="153733" Y="-41173" Z="-3000" delay="0" run="false" />
+		<point X="154295" Y="-40347" Z="-3112" delay="4" run="false" />
+		<point X="154700" Y="-39687" Z="-3200" delay="0" run="false" />
+		<point X="155474" Y="-39961" Z="-3272" delay="0" run="false" />
+		<point X="155882" Y="-40436" Z="-3296" delay="0" run="false" />
+		<point X="156629" Y="-41452" Z="-3472" delay="0" run="false" />
+		<point X="156846" Y="-42484" Z="-3600" delay="4" run="false" />
+		<point X="156786" Y="-44059" Z="-3760" delay="0" run="false" />
+		<point X="157820" Y="-45121" Z="-3544" delay="0" run="false" />
+		<point X="158808" Y="-45454" Z="-3464" delay="0" run="false" />
+		<point X="159675" Y="-46178" Z="-3544" delay="0" run="false" />
+		<point X="160320" Y="-46947" Z="-3648" delay="4" run="false" />
+		<point X="159841" Y="-47765" Z="-3656" delay="0" run="false" />
+		<point X="158963" Y="-48596" Z="-3648" delay="0" run="false" />
+		<point X="159399" Y="-49889" Z="-3632" delay="0" run="false" />
+		<point X="159433" Y="-51854" Z="-3392" delay="0" run="false" />
+		<point X="159280" Y="-53297" Z="-3240" delay="4" run="false" />
+		<point X="159946" Y="-54651" Z="-3080" delay="0" run="false" />
+		<point X="160696" Y="-55985" Z="-2856" delay="0" run="false" />
+		<point X="160991" Y="-57416" Z="-2704" delay="0" run="false" />
+		<point X="160936" Y="-58715" Z="-2616" delay="0" run="false" />
+		<point X="160371" Y="-59892" Z="-2640" delay="4" run="false" />
+		<point X="158884" Y="-60114" Z="-2672" delay="0" run="false" />
+		<point X="157476" Y="-59727" Z="-2648" delay="0" run="false" />
+		<point X="155709" Y="-59670" Z="-2616" delay="0" run="false" />
+		<point X="155076" Y="-59988" Z="-2640" delay="0" run="false" />
+		<point X="154278" Y="-60389" Z="-2688" delay="4" run="false" />
+		<point X="153611" Y="-61611" Z="-2816" delay="0" run="false" />
+		<point X="153553" Y="-62292" Z="-2832" delay="0" run="false" />
+		<point X="153104" Y="-63694" Z="-2968" delay="0" run="false" />
+		<point X="151460" Y="-64204" Z="-3144" delay="0" run="false" />
+		<point X="149179" Y="-64630" Z="-3280" delay="4" run="false" />
+		<point X="147461" Y="-64792" Z="-3432" delay="0" run="false" />
+		<point X="145659" Y="-64514" Z="-3360" delay="0" run="false" />
+		<point X="144096" Y="-64402" Z="-3392" delay="0" run="false" />
+		<point X="141323" Y="-62083" Z="-3144" delay="0" run="false" />
+		<point X="140157" Y="-61442" Z="-3064" delay="4" run="false" />
+		<point X="138438" Y="-61664" Z="-3040" delay="0" run="false" />
+		<point X="138168" Y="-61294" Z="-3000" delay="0" run="false" />
+		<point X="138402" Y="-60920" Z="-3056" delay="0" run="false" />
+		<point X="138656" Y="-59869" Z="-3280" delay="0" run="false" />
+		<point X="138910" Y="-58621" Z="-3440" delay="4" run="false" />
+		<point X="138096" Y="-57667" Z="-3504" delay="0" run="false" />
+		<point X="138096" Y="-56967" Z="-3504" delay="0" run="false" />
+		<point X="138878" Y="-56655" Z="-3456" delay="0" run="false" />
+		<point X="139660" Y="-56120" Z="-3288" delay="0" run="false" />
+		<point X="139101" Y="-54466" Z="-3216" delay="4" run="false" />
+		<point X="139848" Y="-52589" Z="-2832" delay="0" run="false" />
+		<point X="139222" Y="-51369" Z="-2688" delay="0" run="false" />
+		<point X="139705" Y="-50039" Z="-2496" delay="0" run="false" />
+		<point X="139959" Y="-48987" Z="-2256" delay="0" run="false" />
+		<point X="140283" Y="-47506" Z="-2208" delay="4" run="false" />
+		<point X="140162" Y="-46243" Z="-2336" delay="0" run="false" />
+		<point X="142508" Y="-45584" Z="-2416" delay="0" run="false" />
+		<point X="143183" Y="-44563" Z="-2392" delay="0" run="false" />
+		<point X="144382" Y="-43528" Z="-2344" delay="0" run="false" />
+		<point X="145382" Y="-43318" Z="-2296" delay="4" run="false" />
+		<point X="147265" Y="-43588" Z="-2296" delay="0" run="false" />
+	</route>
+</routes>

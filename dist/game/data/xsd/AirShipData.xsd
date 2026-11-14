@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="airship" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="start">
+								<xs:complexType>
+									<xs:attribute name="x" type="xs:integer" use="required" />
+									<xs:attribute name="y" type="xs:integer" use="required" />
+									<xs:attribute name="z" type="xs:integer" use="required" />
+									<xs:attribute name="heading" type="xs:integer" />
+								</xs:complexType>
+							</xs:element>
+							<xs:choice minOccurs="0" maxOccurs="unbounded">
+								<xs:element name="point">
+									<xs:complexType>
+										<xs:attribute name="x" type="xs:integer" use="required" />
+										<xs:attribute name="y" type="xs:integer" use="required" />
+										<xs:attribute name="z" type="xs:integer" use="required" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="teleport">
+									<xs:complexType>
+										<xs:attribute name="x" type="xs:integer" use="required" />
+										<xs:attribute name="y" type="xs:integer" use="required" />
+										<xs:attribute name="z" type="xs:integer" use="required" />
+										<xs:attribute name="heading" type="xs:integer" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="port">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="oust">
+												<xs:complexType>
+													<xs:attribute name="x" type="xs:integer" use="required" />
+													<xs:attribute name="y" type="xs:integer" use="required" />
+													<xs:attribute name="z" type="xs:integer" use="required" />
+												</xs:complexType>
+											</xs:element>
+										</xs:sequence>
+										<xs:attribute name="x" type="xs:integer" use="required" />
+										<xs:attribute name="y" type="xs:integer" use="required" />
+										<xs:attribute name="z" type="xs:integer" use="required" />
+										<xs:attribute name="dockId" type="xs:positiveInteger" use="required" />
+										<xs:attribute name="stopover" type="xs:nonNegativeInteger" use="required" />
+										<xs:attribute name="announcerNpcId" type="xs:positiveInteger" use="required" />
+										<xs:attribute name="arriveNpcStringId" type="xs:positiveInteger" use="required" />
+										<xs:attribute name="departNpcStringId" type="xs:positiveInteger" use="required" />
+									</xs:complexType>
+								</xs:element>
+							</xs:choice>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:nonNegativeInteger" use="required" />
+						<xs:attribute name="moveSpeed" type="xs:positiveInteger" use="required" />
+						<xs:attribute name="rotationSpeed" type="xs:positiveInteger" use="required" />
+						<xs:attribute name="initialDelay" type="xs:nonNegativeInteger" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

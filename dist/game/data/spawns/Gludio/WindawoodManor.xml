@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="gludio39_1822_04" minZ="-3604" maxZ="-3204">
+				<node x="-35564" y="137000" />
+				<node x="-32924" y="136932" />
+				<node x="-33032" y="138336" />
+				<node x="-34660" y="139348" />
+				<node x="-36584" y="138812" />
+			</territory>
+		</territories>
+		<npc id="20059" count="4" respawnTime="20sec" /> <!-- Monster Eye Patrol -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio39_1822_05" minZ="-3640" maxZ="-2840">
+				<node x="-36708" y="138852" />
+				<node x="-34552" y="139456" />
+				<node x="-34724" y="142524" />
+				<node x="-37092" y="143216" />
+				<node x="-37660" y="141280" />
+			</territory>
+		</territories>
+		<npc id="20059" count="5" respawnTime="20sec" /> <!-- Monster Eye Patrol -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio39_1822_06" minZ="-4044" maxZ="-3544">
+				<node x="-34064" y="140216" />
+				<node x="-32976" y="139084" />
+				<node x="-33024" y="143220" />
+				<node x="-34272" y="142336" />
+			</territory>
+		</territories>
+		<npc id="20059" count="6" respawnTime="20sec" /> <!-- Monster Eye Patrol -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio39_1822_07" minZ="-3596" maxZ="-2796">
+				<node x="-34696" y="142696" />
+				<node x="-33628" y="143836" />
+				<node x="-33860" y="146544" />
+				<node x="-34964" y="148104" />
+				<node x="-35736" y="148220" />
+				<node x="-36804" y="143332" />
+			</territory>
+		</territories>
+		<npc id="20059" count="5" respawnTime="20sec" /> <!-- Monster Eye Patrol -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio39_1822_08" minZ="-4076" maxZ="-3576">
+				<node x="-32984" y="146960" />
+				<node x="-33028" y="148804" />
+				<node x="-34824" y="150568" />
+				<node x="-34908" y="148860" />
+			</territory>
+		</territories>
+		<npc id="20059" count="5" respawnTime="20sec" /> <!-- Monster Eye Patrol -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio39_1922_04" minZ="-4012" maxZ="-3212">
+				<node x="-32690" y="139240" />
+				<node x="-30580" y="138935" />
+				<node x="-31848" y="141432" />
+				<node x="-32676" y="141812" />
+			</territory>
+		</territories>
+		<npc id="20059" count="4" respawnTime="20sec" /> <!-- Monster Eye Patrol -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio39_1922_05" minZ="-4104" maxZ="-3304">
+				<node x="-32692" y="142105" />
+				<node x="-31428" y="141249" />
+				<node x="-29733" y="143502" />
+				<node x="-30068" y="146738" />
+				<node x="-31171" y="148371" />
+				<node x="-32678" y="147970" />
+			</territory>
+		</territories>
+		<npc id="20055" count="4" respawnTime="20sec" /> <!-- Monster Eye Watchman -->
+		<npc id="20059" count="6" respawnTime="20sec" /> <!-- Monster Eye Patrol -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio40_1922_01" minZ="-3676" maxZ="-2376">
+				<node x="-24308" y="155436" />
+				<node x="-23536" y="157640" />
+				<node x="-25728" y="158832" />
+				<node x="-27792" y="159040" />
+				<node x="-29382" y="157478" />
+				<node x="-26160" y="154880" />
+			</territory>
+		</territories>
+		<npc id="20058" count="4" respawnTime="20sec" /> <!-- Ol Mahum Guard -->
+		<npc id="20059" count="3" respawnTime="20sec" /> <!-- Monster Eye Patrol -->
+		<npc id="20547" count="3" respawnTime="20sec" /> <!-- Ol Mahum Support Troop -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio40_1922_02" minZ="-3632" maxZ="-2332">
+				<node x="-29568" y="157448" />
+				<node x="-27876" y="159096" />
+				<node x="-27748" y="163428" />
+				<node x="-32580" y="163488" />
+				<node x="-32634" y="159927" />
+			</territory>
+		</territories>
+		<npc id="20058" count="4" respawnTime="20sec" /> <!-- Ol Mahum Guard -->
+		<npc id="20059" count="5" respawnTime="20sec" /> <!-- Monster Eye Patrol -->
+		<npc id="20063" count="3" respawnTime="20sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20547" count="5" respawnTime="20sec" /> <!-- Ol Mahum Support Troop -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio40_1922_03" minZ="-2821" maxZ="-2321">
+				<node x="-25674" y="159077" />
+				<node x="-25026" y="160681" />
+				<node x="-25715" y="161684" />
+				<node x="-27012" y="161666" />
+				<node x="-27843" y="160431" />
+				<node x="-27284" y="159147" />
+			</territory>
+		</territories>
+		<npc id="20058" count="2" respawnTime="20sec" /> <!-- Ol Mahum Guard -->
+		<npc id="20063" count="1" respawnTime="20sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20066" count="1" respawnTime="20sec" /> <!-- Ol Mahum Officer -->
+		<npc id="20547" count="2" respawnTime="20sec" /> <!-- Ol Mahum Support Troop -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio40_1922_04" minZ="-3468" maxZ="-2168">
+				<node x="-25600" y="158948" />
+				<node x="-23388" y="157756" />
+				<node x="-23716" y="161552" />
+				<node x="-24924" y="161412" />
+			</territory>
+		</territories>
+		<npc id="20058" count="2" respawnTime="20sec" /> <!-- Ol Mahum Guard -->
+		<npc id="20063" count="2" respawnTime="20sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20547" count="2" respawnTime="20sec" /> <!-- Ol Mahum Support Troop -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio40_1922_05" minZ="-3328" maxZ="-2128">
+				<node x="-27700" y="161612" />
+				<node x="-23812" y="162048" />
+				<node x="-23480" y="163628" />
+				<node x="-27632" y="163488" />
+			</territory>
+		</territories>
+		<npc id="20059" count="2" respawnTime="20sec" /> <!-- Monster Eye Patrol -->
+		<npc id="20063" count="2" respawnTime="20sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20066" count="1" respawnTime="20sec" /> <!-- Ol Mahum Officer -->
+		<npc id="20547" count="1" respawnTime="20sec" /> <!-- Ol Mahum Support Troop -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio40_1923_01" minZ="-3382" maxZ="-2682">
+				<node x="-32575" y="163982" />
+				<node x="-25445" y="163960" />
+				<node x="-27638" y="166855" />
+				<node x="-32659" y="166573" />
+			</territory>
+		</territories>
+		<npc id="20059" count="3" respawnTime="20sec" /> <!-- Monster Eye Patrol -->
+		<npc id="20063" count="2" respawnTime="20sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20066" count="2" respawnTime="20sec" /> <!-- Ol Mahum Officer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio40_1923_02" minZ="-3363" maxZ="-2563">
+				<node x="-26025" y="164965" />
+				<node x="-22748" y="167243" />
+				<node x="-24804" y="168760" />
+				<node x="-27540" y="166909" />
+			</territory>
+		</territories>
+		<npc id="20059" count="2" respawnTime="20sec" /> <!-- Monster Eye Patrol -->
+		<npc id="20063" count="3" respawnTime="20sec" /> <!-- Ol Mahum Shooter -->
+		<npc id="20066" count="1" respawnTime="20sec" /> <!-- Ol Mahum Officer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio41_1922_03" minZ="-2884" maxZ="-1684">
+				<node x="-20116" y="161788" />
+				<node x="-12640" y="162444" />
+				<node x="-12552" y="163580" />
+				<node x="-21140" y="163668" />
+			</territory>
+		</territories>
+		<npc id="20063" count="1" respawnTime="20sec" /> <!-- Ol Mahum Shooter -->
+	</spawn>
+	<spawn name="WindawoodManor">
+		<group>
+			<npc id="20066" x="-24815" y="161569" z="-2744" heading="58836" respawnTime="60sec" /> <!-- Ol Mahum Officer -->
+			<npc id="20066" x="-24975" y="160318" z="-2752" heading="56707" respawnTime="60sec" /> <!-- Ol Mahum Officer -->
+		</group>
+	</spawn>
+</list>

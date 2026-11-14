@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_002" minZ="-3281" maxZ="-2681">
+				<node x="151437" y="147934" />
+				<node x="151663" y="147729" />
+				<node x="151658" y="147514" />
+				<node x="151797" y="147400" />
+				<node x="151837" y="147217" />
+				<node x="153092" y="147241" />
+				<node x="152924" y="148306" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_003" minZ="-3303" maxZ="-2703">
+				<node x="154174" y="148105" />
+				<node x="154159" y="148319" />
+				<node x="153904" y="148364" />
+				<node x="152929" y="148309" />
+				<node x="153098" y="147244" />
+				<node x="153931" y="147218" />
+				<node x="154130" y="147802" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_004" minZ="-3317" maxZ="-2717">
+				<node x="151715" y="148835" />
+				<node x="151634" y="148402" />
+				<node x="151417" y="148273" />
+				<node x="151391" y="148109" />
+				<node x="151448" y="147938" />
+				<node x="152920" y="148312" />
+				<node x="151551" y="149456" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_005" minZ="-3427" maxZ="-2727">
+				<node x="152925" y="148314" />
+				<node x="153196" y="149554" />
+				<node x="151667" y="149786" />
+				<node x="151497" y="149597" />
+				<node x="151541" y="149471" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_006" minZ="-3401" maxZ="-2801">
+				<node x="154307" y="148882" />
+				<node x="154194" y="149158" />
+				<node x="154534" y="149199" />
+				<node x="153197" y="149541" />
+				<node x="152927" y="148313" />
+				<node x="154469" y="148366" />
+				<node x="154304" y="148531" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_007" minZ="-3481" maxZ="-2781">
+				<node x="153202" y="149558" />
+				<node x="153108" y="150498" />
+				<node x="151610" y="150685" />
+				<node x="151455" y="150412" />
+				<node x="151667" y="149792" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_008" minZ="-3499" maxZ="-2899">
+				<node x="154536" y="149204" />
+				<node x="154439" y="149312" />
+				<node x="154596" y="149854" />
+				<node x="153113" y="150502" />
+				<node x="153211" y="149543" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_009" minZ="-3630" maxZ="-3030">
+				<node x="152944" y="151227" />
+				<node x="152550" y="151646" />
+				<node x="151905" y="151463" />
+				<node x="151675" y="151075" />
+				<node x="151606" y="150698" />
+				<node x="153106" y="150510" />
+				<node x="153322" y="151473" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_010" minZ="-3717" maxZ="-2817">
+				<node x="154225" y="150397" />
+				<node x="154365" y="151121" />
+				<node x="153839" y="151597" />
+				<node x="153295" y="151438" />
+				<node x="153115" y="150509" />
+				<node x="154554" y="149836" />
+			</territory>
+		</territories>
+		<npc id="22263" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_011" minZ="-3961" maxZ="-3061">
+				<node x="156363" y="149768" />
+				<node x="155231" y="149587" />
+				<node x="155218" y="149073" />
+				<node x="155233" y="148737" />
+				<node x="156413" y="148564" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_012" minZ="-3732" maxZ="-2832">
+				<node x="156979" y="148943" />
+				<node x="157280" y="149927" />
+				<node x="156368" y="149781" />
+				<node x="156399" y="148627" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_013" minZ="-3827" maxZ="-3027">
+				<node x="157596" y="150852" />
+				<node x="155109" y="150818" />
+				<node x="155475" y="150243" />
+				<node x="155226" y="149595" />
+				<node x="157275" y="149935" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_014" minZ="-3861" maxZ="-3061">
+				<node x="155087" y="150825" />
+				<node x="155895" y="150839" />
+				<node x="155651" y="152569" />
+				<node x="154356" y="152307" />
+				<node x="153850" y="151663" />
+				<node x="154691" y="150852" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_015" minZ="-3805" maxZ="-3005">
+				<node x="155900" y="150839" />
+				<node x="157622" y="150859" />
+				<node x="158290" y="151589" />
+				<node x="155662" y="152593" />
+			</territory>
+		</territories>
+		<npc id="22263" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_016" minZ="-3751" maxZ="-2851">
+				<node x="157575" y="151869" />
+				<node x="157592" y="153485" />
+				<node x="156682" y="153353" />
+				<node x="156546" y="153157" />
+				<node x="155678" y="152598" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_017" minZ="-3578" maxZ="-2878">
+				<node x="158887" y="153505" />
+				<node x="158278" y="153625" />
+				<node x="157606" y="153513" />
+				<node x="157580" y="151871" />
+				<node x="158372" y="151564" />
+				<node x="158927" y="151534" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_018" minZ="-3624" maxZ="-2924">
+				<node x="160969" y="151474" />
+				<node x="160783" y="152915" />
+				<node x="158895" y="153461" />
+				<node x="158935" y="151537" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+		<npc id="22266" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_020" minZ="-3741" maxZ="-3141">
+				<node x="154337" y="153550" />
+				<node x="154082" y="153783" />
+				<node x="153704" y="153929" />
+				<node x="153694" y="154114" />
+				<node x="153414" y="154241" />
+				<node x="153419" y="154558" />
+				<node x="152311" y="153666" />
+				<node x="153252" y="153560" />
+				<node x="153305" y="153334" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22265" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_021" minZ="-3921" maxZ="-3221">
+				<node x="155026" y="154794" />
+				<node x="154889" y="154560" />
+				<node x="154963" y="154305" />
+				<node x="154467" y="153564" />
+				<node x="155239" y="153622" />
+				<node x="155748" y="154293" />
+			</territory>
+		</territories>
+		<npc id="22263" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22265" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_022" minZ="-3887" maxZ="-3287">
+				<node x="153296" y="154599" />
+				<node x="152648" y="155384" />
+				<node x="151087" y="154216" />
+				<node x="151436" y="154214" />
+				<node x="152281" y="153832" />
+			</territory>
+		</territories>
+		<npc id="22263" count="3" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22265" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_023" minZ="-3743" maxZ="-3143">
+				<node x="152648" y="155394" />
+				<node x="151965" y="156096" />
+				<node x="151124" y="155772" />
+				<node x="150394" y="155012" />
+				<node x="150866" y="154150" />
+			</territory>
+		</territories>
+		<npc id="22263" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22265" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_024" minZ="-3888" maxZ="-3288">
+				<node x="153701" y="155830" />
+				<node x="153079" y="156327" />
+				<node x="152556" y="156540" />
+				<node x="152024" y="156129" />
+				<node x="153327" y="154694" />
+				<node x="153473" y="155255" />
+			</territory>
+		</territories>
+		<npc id="22263" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_025" minZ="-3764" maxZ="-3164">
+				<node x="154954" y="154812" />
+				<node x="154713" y="156363" />
+				<node x="154483" y="156022" />
+				<node x="153707" y="155836" />
+				<node x="153912" y="155224" />
+				<node x="154416" y="155220" />
+			</territory>
+		</territories>
+		<npc id="22263" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22265" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_026" minZ="-3838" maxZ="-3138">
+				<node x="154957" y="154821" />
+				<node x="156327" y="156069" />
+				<node x="154717" y="156363" />
+			</territory>
+		</territories>
+		<npc id="22264" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22266" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_027" minZ="-3803" maxZ="-3103">
+				<node x="156145" y="154626" />
+				<node x="156599" y="154788" />
+				<node x="156329" y="156060" />
+				<node x="154959" y="154822" />
+				<node x="156140" y="154538" />
+			</territory>
+		</territories>
+		<npc id="22264" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22266" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_028" minZ="-3884" maxZ="-3184">
+				<node x="158094" y="156037" />
+				<node x="157135" y="155908" />
+				<node x="156339" y="156062" />
+				<node x="156591" y="154851" />
+				<node x="157940" y="154992" />
+			</territory>
+		</territories>
+		<npc id="22264" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22266" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_029" minZ="-3866" maxZ="-3166">
+				<node x="159061" y="155887" />
+				<node x="158590" y="155823" />
+				<node x="158103" y="156039" />
+				<node x="157943" y="154969" />
+				<node x="158428" y="154825" />
+				<node x="158575" y="154946" />
+				<node x="159123" y="154638" />
+			</territory>
+		</territories>
+		<npc id="22264" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22266" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_030" minZ="-3877" maxZ="-3177">
+				<node x="159815" y="155675" />
+				<node x="159423" y="155659" />
+				<node x="159066" y="155896" />
+				<node x="159128" y="154666" />
+				<node x="159796" y="154458" />
+				<node x="161130" y="154348" />
+				<node x="160633" y="155625" />
+				<node x="160225" y="155369" />
+			</territory>
+		</territories>
+		<npc id="22264" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22266" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_031" minZ="-3820" maxZ="-3220">
+				<node x="153202" y="156525" />
+				<node x="153490" y="157732" />
+				<node x="152619" y="158237" />
+				<node x="151952" y="157609" />
+				<node x="152330" y="156693" />
+			</territory>
+		</territories>
+		<npc id="22263" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22265" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_032" minZ="-3822" maxZ="-3122">
+				<node x="155874" y="157644" />
+				<node x="155052" y="157563" />
+				<node x="154761" y="156982" />
+				<node x="154752" y="156375" />
+				<node x="156521" y="156348" />
+			</territory>
+		</territories>
+		<npc id="22264" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22266" count="3" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_033" minZ="-3745" maxZ="-3045">
+				<node x="157799" y="157556" />
+				<node x="157229" y="158538" />
+				<node x="155800" y="158076" />
+				<node x="156764" y="156305" />
+				<node x="157471" y="156626" />
+				<node x="158275" y="156587" />
+				<node x="158553" y="156897" />
+			</territory>
+		</territories>
+		<npc id="22264" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22266" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Pythia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_034" minZ="-3517" maxZ="-2917">
+				<node x="152568" y="158339" />
+				<node x="150863" y="158633" />
+				<node x="150655" y="158877" />
+				<node x="150445" y="158256" />
+				<node x="150849" y="157681" />
+				<node x="151902" y="157566" />
+			</territory>
+		</territories>
+		<npc id="22263" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+		<npc id="22265" count="1" respawnTime="30sec" respawnRandom="15sec" /> <!-- Chrysocolla -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_035" minZ="-3380" maxZ="-2880">
+				<node x="150617" y="158820" />
+				<node x="149872" y="159699" />
+				<node x="149459" y="159990" />
+				<node x="149586" y="159419" />
+				<node x="150473" y="158381" />
+			</territory>
+		</territories>
+		<npc id="22263" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril18_2422_036" minZ="-3316" maxZ="-2816">
+				<node x="149569" y="159425" />
+				<node x="149446" y="160014" />
+				<node x="149203" y="160456" />
+				<node x="148568" y="160116" />
+				<node x="149214" y="159522" />
+			</territory>
+		</territories>
+		<npc id="22263" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Sonneratia -->
+		<npc id="22264" count="2" respawnTime="30sec" respawnRandom="15sec" /> <!-- Castalia -->
+	</spawn>
+	<spawn name="ChromaticHighlandsMonsters">
+		<group>
+			<npc id="22263" x="158282" y="147608" z="-3152" heading="35324" respawnTime="60sec" /> <!-- Sonneratia -->
+			<npc id="22267" x="152864" y="155936" z="-3680" heading="33339" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="152487" y="157607" z="-3472" heading="12051" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="151248" y="155216" z="-3680" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="153248" y="153792" z="-3656" heading="38253" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="152160" y="154496" z="-3680" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="154224" y="155600" z="-3680" heading="10900" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="155104" y="154144" z="-3664" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="155152" y="155904" z="-3704" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="156911" y="157989" z="-3528" heading="45282" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="155696" y="156944" z="-3664" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="155888" y="155280" z="-3760" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="157264" y="155472" z="-3760" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="158544" y="155424" z="-3752" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="160064" y="155056" z="-3752" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="158640" y="152672" z="-3464" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="160080" y="152320" z="-3448" heading="29922" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="157136" y="152800" z="-3536" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="156752" y="149344" z="-3616" heading="29450" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="155648" y="148800" z="-3736" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="156800" y="151504" z="-3632" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="156272" y="150288" z="-3648" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="153792" y="148912" z="-3320" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="153728" y="147872" z="-3224" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="153952" y="150800" z="-3472" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="153888" y="149744" z="-3352" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="154988" y="151821" z="-3704" heading="2805" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="152464" y="149216" z="-3304" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="151888" y="148528" z="-3208" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="152272" y="147728" z="-3208" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="152464" y="151104" z="-3480" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+			<npc id="22267" x="152336" y="150096" z="-3408" respawnTime="310sec" /> <!-- Dark Water Dragon -->
+		</group>
+	</spawn>
+</list>

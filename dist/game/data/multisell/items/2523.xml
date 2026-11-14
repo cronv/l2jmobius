@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+	<npcs>
+		<npc>-1</npc> <!-- Item Multisell -->
+	</npcs>
+	<!-- Augmenting Stone Exchange Coupon -->
+	<item>
+		<ingredient id="83736" count="1" /> <!-- Augmenting Stone Exchange Coupon -->
+		<production id="28485" count="1" /> <!-- Augmenting Stone: Brooch -->
+	</item>
+	<item>
+		<ingredient id="83736" count="1" /> <!-- Augmenting Stone Exchange Coupon -->
+		<production id="48215" count="1" /> <!-- Augmenting Stone: Circlet -->
+	</item>
+	<item>
+		<ingredient id="83736" count="1" /> <!-- Augmenting Stone Exchange Coupon -->
+		<production id="81931" count="1" /> <!-- Augmenting Stone: Shirt -->
+	</item>
+	<item>
+		<ingredient id="83736" count="1" /> <!-- Augmenting Stone Exchange Coupon -->
+		<production id="82186" count="1" /> <!-- Augmenting Stone: Kaliel's Bracelet -->
+	</item>
+	<item>
+		<ingredient id="83736" count="1" /> <!-- Augmenting Stone Exchange Coupon -->
+		<production id="82309" count="1" /> <!-- Augmenting Stone: Superior Seed Bracelet -->
+	</item>
+	<item>
+		<ingredient id="83736" count="1" /> <!-- Augmenting Stone Exchange Coupon -->
+		<production id="82343" count="1" /> <!-- Augmenting Stone: Artifact Book -->
+	</item>
+	<item>
+		<ingredient id="83736" count="1" /> <!-- Augmenting Stone Exchange Coupon -->
+		<production id="82391" count="1" /> <!-- Augmenting Stone: Mask -->
+	</item>
+	<item>
+		<ingredient id="83736" count="1" /> <!-- Augmenting Stone Exchange Coupon -->
+		<production id="81729" count="1" /> <!-- Augmenting Stone: Accessory -->
+	</item>
+</list>

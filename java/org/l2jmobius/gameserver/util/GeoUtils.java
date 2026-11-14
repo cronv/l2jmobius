@@ -1,0 +1,320 @@
+/*
+ * Copyright (c) 2013 L2jMobius
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+ * IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+package org.l2jmobius.gameserver.util;
+
+import java.awt.Color;
+
+import org.l2jmobius.gameserver.entity.actor.Player;
+import org.l2jmobius.gameserver.geoengine.GeoEngine;
+import org.l2jmobius.gameserver.geoengine.regions.Region;
+import org.l2jmobius.gameserver.geoengine.util.GridLineIterator2D;
+import org.l2jmobius.gameserver.geoengine.util.GridLineIterator3D;
+import org.l2jmobius.gameserver.network.serverpackets.ExServerPrimitive;
+
+/**
+ * Utility methods for geodata debug visualization and coordinate direction calculations.
+ * @author HorridoJoho, Mobius
+ */
+public class GeoUtils
+{
+	/**
+	 * Sends a 2D debug line and its grid points to a player at a fixed height.
+	 * @param player recipient of the debug packet
+	 * @param x starting x-coordinate
+	 * @param y starting y-coordinate
+	 * @param tx target x-coordinate
+	 * @param ty target y-coordinate
+	 * @param z constant z-coordinate for the line
+	 */
+	public static void debug2DLine(Player player, int x, int y, int tx, int ty, int z)
+	{
+		final int gx = GeoEngine.getGeoX(x);
+		final int gy = GeoEngine.getGeoY(y);
+		final int tgx = GeoEngine.getGeoX(tx);
+		final int tgy = GeoEngine.getGeoY(ty);
+		
+		final ExServerPrimitive prim = new ExServerPrimitive("Debug2DLine", x, y, z);
+		prim.addLine(Color.BLUE, GeoEngine.getWorldX(gx), GeoEngine.getWorldY(gy), z, GeoEngine.getWorldX(tgx), GeoEngine.getWorldY(tgy), z);
+		
+		final GridLineIterator2D iter = new GridLineIterator2D(gx, gy, tgx, tgy);
+		while (iter.next())
+		{
+			final int wx = GeoEngine.getWorldX(iter.x());
+			final int wy = GeoEngine.getWorldY(iter.y());
+			prim.addPoint(Color.RED, wx, wy, z);
+		}
+		
+		player.sendPacket(prim);
+	}
+	
+	/**
+	 * Sends a 3D debug line between two points to a player.
+	 * @param player recipient of the debug line
+	 * @param x starting x-coordinate
+	 * @param y starting y-coordinate
+	 * @param z starting z-coordinate
+	 * @param tx target x-coordinate
+	 * @param ty target y-coordinate
+	 * @param tz target z-coordinate
+	 */
+	public static void debug3DLine(Player player, int x, int y, int z, int tx, int ty, int tz)
+	{
+		final int gx = GeoEngine.getGeoX(x);
+		final int gy = GeoEngine.getGeoY(y);
+		final int tgx = GeoEngine.getGeoX(tx);
+		final int tgy = GeoEngine.getGeoY(ty);
+		
+		final ExServerPrimitive prim = new ExServerPrimitive("Debug3DLine", x, y, z);
+		prim.addLine(Color.BLUE, GeoEngine.getWorldX(gx), GeoEngine.getWorldY(gy), z, GeoEngine.getWorldX(tgx), GeoEngine.getWorldY(tgy), tz);
+		
+		final GridLineIterator3D iter = new GridLineIterator3D(gx, gy, z, tgx, tgy, tz);
+		iter.next();
+		int prevX = iter.x();
+		int prevY = iter.y();
+		int wx = GeoEngine.getWorldX(prevX);
+		int wy = GeoEngine.getWorldY(prevY);
+		int wz = iter.z();
+		prim.addPoint(Color.RED, wx, wy, wz);
+		
+		while (iter.next())
+		{
+			final int curX = iter.x();
+			final int curY = iter.y();
+			
+			if ((curX != prevX) || (curY != prevY))
+			{
+				wx = GeoEngine.getWorldX(curX);
+				wy = GeoEngine.getWorldY(curY);
+				wz = iter.z();
+				
+				prim.addPoint(Color.RED, wx, wy, wz);
+				
+				prevX = curX;
+				prevY = curY;
+			}
+		}
+		
+		player.sendPacket(prim);
+	}
+	
+	/**
+	 * Returns green when the position matches the nearest NSWE direction, otherwise red.
+	 * @param x x-coordinate of the position
+	 * @param y y-coordinate of the position
+	 * @param z z-coordinate of the position
+	 * @param nswe NSWE direction value to check
+	 * @return the {@code Color} representing the direction status
+	 */
+	private static Color getDirectionColor(int x, int y, int z, int nswe)
+	{
+		if (GeoEngine.getInstance().checkNearestNswe(x, y, z, nswe))
+		{
+			return Color.GREEN;
+		}
+		
+		return Color.RED;
+	}
+	
+	/**
+	 * Sends a debug grid visualizing world coordinates and cardinal directions around a player.
+	 * @param player recipient of the debug grid
+	 */
+	public static void debugGrid(Player player)
+	{
+		final int geoRadius = 20;
+		final int blocksPerPacket = 40;
+		
+		int iBlock = blocksPerPacket;
+		int iPacket = 0;
+		
+		ExServerPrimitive exsp = null;
+		final int playerGx = GeoEngine.getGeoX(player.getX());
+		final int playerGy = GeoEngine.getGeoY(player.getY());
+		for (int dx = -geoRadius; dx <= geoRadius; ++dx)
+		{
+			for (int dy = -geoRadius; dy <= geoRadius; ++dy)
+			{
+				if (iBlock >= blocksPerPacket)
+				{
+					iBlock = 0;
+					if (exsp != null)
+					{
+						++iPacket;
+						player.sendPacket(exsp);
+					}
+					
+					exsp = new ExServerPrimitive("DebugGrid_" + iPacket, player.getX(), player.getY(), -16000);
+				}
+				
+				if (exsp == null)
+				{
+					throw new IllegalStateException();
+				}
+				
+				final int gx = playerGx + dx;
+				final int gy = playerGy + dy;
+				
+				final int x = GeoEngine.getWorldX(gx);
+				final int y = GeoEngine.getWorldY(gy);
+				final int z = GeoEngine.getInstance().getNearestZ(gx, gy, player.getZ());
+				
+				// north arrow
+				Color col = getDirectionColor(gx, gy, z, Region.NSWE_NORTH);
+				exsp.addLine(col, x - 1, y - 7, z, x + 1, y - 7, z);
+				exsp.addLine(col, x - 2, y - 6, z, x + 2, y - 6, z);
+				exsp.addLine(col, x - 3, y - 5, z, x + 3, y - 5, z);
+				exsp.addLine(col, x - 4, y - 4, z, x + 4, y - 4, z);
+				
+				// east arrow
+				col = getDirectionColor(gx, gy, z, Region.NSWE_EAST);
+				exsp.addLine(col, x + 7, y - 1, z, x + 7, y + 1, z);
+				exsp.addLine(col, x + 6, y - 2, z, x + 6, y + 2, z);
+				exsp.addLine(col, x + 5, y - 3, z, x + 5, y + 3, z);
+				exsp.addLine(col, x + 4, y - 4, z, x + 4, y + 4, z);
+				
+				// south arrow
+				col = getDirectionColor(gx, gy, z, Region.NSWE_SOUTH);
+				exsp.addLine(col, x - 1, y + 7, z, x + 1, y + 7, z);
+				exsp.addLine(col, x - 2, y + 6, z, x + 2, y + 6, z);
+				exsp.addLine(col, x - 3, y + 5, z, x + 3, y + 5, z);
+				exsp.addLine(col, x - 4, y + 4, z, x + 4, y + 4, z);
+				
+				col = getDirectionColor(gx, gy, z, Region.NSWE_WEST);
+				exsp.addLine(col, x - 7, y - 1, z, x - 7, y + 1, z);
+				exsp.addLine(col, x - 6, y - 2, z, x - 6, y + 2, z);
+				exsp.addLine(col, x - 5, y - 3, z, x - 5, y + 3, z);
+				exsp.addLine(col, x - 4, y - 4, z, x - 4, y + 4, z);
+				
+				++iBlock;
+			}
+		}
+		
+		player.sendPacket(exsp);
+	}
+	
+	/**
+	 * Clears the previously sent debug grid for a player.
+	 * @param player player for whom the grid is hidden
+	 */
+	public static void hideDebugGrid(Player player)
+	{
+		final int geoRadius = 20;
+		final int blocksPerPacket = 40;
+		
+		int iBlock = blocksPerPacket;
+		int iPacket = 0;
+		
+		ExServerPrimitive exsp = null;
+		final int playerGx = GeoEngine.getGeoX(player.getX());
+		final int playerGy = GeoEngine.getGeoY(player.getY());
+		for (int dx = -geoRadius; dx <= geoRadius; ++dx)
+		{
+			for (int dy = -geoRadius; dy <= geoRadius; ++dy)
+			{
+				if (iBlock >= blocksPerPacket)
+				{
+					iBlock = 0;
+					if (exsp != null)
+					{
+						++iPacket;
+						player.sendPacket(exsp);
+					}
+					
+					exsp = new ExServerPrimitive("DebugGrid_" + iPacket, player.getX(), player.getY(), -16000);
+				}
+				
+				if (exsp == null)
+				{
+					throw new IllegalStateException();
+				}
+				
+				final int gx = playerGx + dx;
+				final int gy = playerGy + dy;
+				
+				final int x = GeoEngine.getWorldX(gx);
+				final int y = GeoEngine.getWorldY(gy);
+				
+				// Nothing.
+				exsp.addLine(Color.BLACK, x, y, -16000, x, y, -16000);
+				++iBlock;
+			}
+		}
+		
+		player.sendPacket(exsp);
+	}
+	
+	/**
+	 * Computes the cardinal NSWE direction constant of movement between two points.
+	 * @param lastX previous x-coordinate
+	 * @param lastY previous y-coordinate
+	 * @param x current x-coordinate
+	 * @param y current y-coordinate
+	 * @return the {@code Cell} direction constant
+	 */
+	public static int computeNswe(int lastX, int lastY, int x, int y)
+	{
+		if (x > lastX) // east
+		{
+			if (y > lastY)
+			{
+				return Region.NSWE_SOUTH_EAST;
+			}
+			else if (y < lastY)
+			{
+				return Region.NSWE_NORTH_EAST;
+			}
+			else
+			{
+				return Region.NSWE_EAST;
+			}
+		}
+		else if (x < lastX) // west
+		{
+			if (y > lastY)
+			{
+				return Region.NSWE_SOUTH_WEST;
+			}
+			else if (y < lastY)
+			{
+				return Region.NSWE_NORTH_WEST;
+			}
+			else
+			{
+				return Region.NSWE_WEST;
+			}
+		}
+		else // unchanged x
+		{
+			if (y > lastY)
+			{
+				return Region.NSWE_SOUTH;
+			}
+			else if (y < lastY)
+			{
+				return Region.NSWE_NORTH;
+			}
+			else
+			{
+				throw new RuntimeException();
+			}
+		}
+	}
+}

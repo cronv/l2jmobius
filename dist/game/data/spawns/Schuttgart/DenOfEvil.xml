@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="DenOfEvil">
+		<group>
+			<npc id="19543" x="70260" y="-112278" z="-1740" respawnTime="60sec" /> <!-- Invisible Kekropus NPC -->
+		</group>
+	</spawn>
+	<spawn name="schuttgart16_2214_01m1">
+		<parameters>
+			<param name="GroupNum" value="1" />
+			<param name="my_trr" value="22_14_camp_01" />
+			<param name="my_area" value="22_14_camp_01" />
+			<param name="Spot1_x" value="71544" />
+			<param name="Spot1_y" value="-129400" />
+			<param name="Spot1_z" value="-3376" />
+			<param name="Spot1_dir" value="16472" />
+			<param name="Spot2_x" value="70954" />
+			<param name="Spot2_y" value="-128854" />
+			<param name="Spot2_z" value="-3376" />
+			<param name="Spot2_dir" value="16" />
+			<param name="Spot3_x" value="72145" />
+			<param name="Spot3_y" value="-128847" />
+			<param name="Spot3_z" value="-3376" />
+			<param name="Spot3_dir" value="32832" />
+			<param name="Spot4_x" value="71573" />
+			<param name="Spot4_y" value="-128309" />
+			<param name="Spot4_z" value="-3376" />
+			<param name="Spot4_dir" value="49152" />
+		</parameters>
+		<npc id="32656" x="71553" y="-128855" z="-3376" heading="16" /> <!-- Nest Controller -->
+	</spawn>
+	<spawn name="schuttgart16_2214_02m1">
+		<parameters>
+			<param name="GroupNum" value="2" />
+			<param name="my_trr" value="22_14_camp_02" />
+			<param name="my_area" value="22_14_camp_02" />
+			<param name="Spot1_x" value="76147" />
+			<param name="Spot1_y" value="-128372" />
+			<param name="Spot1_z" value="-3168" />
+			<param name="Spot1_dir" value="16152" />
+			<param name="Spot2_x" value="75211" />
+			<param name="Spot2_y" value="-127441" />
+			<param name="Spot2_z" value="-3168" />
+			<param name="Spot2_dir" value="0" />
+			<param name="Spot3_x" value="77005" />
+			<param name="Spot3_y" value="-127406" />
+			<param name="Spot3_z" value="-3168" />
+			<param name="Spot3_dir" value="32784" />
+			<param name="Spot4_x" value="75965" />
+			<param name="Spot4_y" value="-126486" />
+			<param name="Spot4_z" value="-3168" />
+			<param name="Spot4_dir" value="49120" />
+		</parameters>
+		<npc id="32656" x="76154" y="-127437" z="-3168" heading="744" /> <!-- Nest Controller -->
+	</spawn>
+	<spawn name="schuttgart16_2214_03m1">
+		<parameters>
+			<param name="GroupNum" value="3" />
+			<param name="my_trr" value="22_14_camp_03" />
+			<param name="my_area" value="22_14_camp_03" />
+			<param name="Spot1_x" value="70972" />
+			<param name="Spot1_y" value="-126429" />
+			<param name="Spot1_z" value="-3024" />
+			<param name="Spot1_dir" value="19208" />
+			<param name="Spot2_x" value="69916" />
+			<param name="Spot2_y" value="-125838" />
+			<param name="Spot2_z" value="-3024" />
+			<param name="Spot2_dir" value="2840" />
+			<param name="Spot3_x" value="71658" />
+			<param name="Spot3_y" value="-125459" />
+			<param name="Spot3_z" value="-3024" />
+			<param name="Spot3_dir" value="35136" />
+			<param name="Spot4_x" value="70605" />
+			<param name="Spot4_y" value="-124646" />
+			<param name="Spot4_z" value="-3024" />
+			<param name="Spot4_dir" value="52104" />
+		</parameters>
+		<npc id="32656" x="70821" y="-125606" z="-3024" heading="0" /> <!-- Nest Controller -->
+	</spawn>
+	<spawn name="schuttgart16_2214_04m1">
+		<parameters>
+			<param name="GroupNum" value="4" />
+			<param name="my_trr" value="22_14_camp_04" />
+			<param name="my_area" value="22_14_camp_04" />
+			<param name="Spot1_x" value="67283" />
+			<param name="Spot1_y" value="-123237" />
+			<param name="Spot1_z" value="-2928" />
+			<param name="Spot1_dir" value="12376" />
+			<param name="Spot2_x" value="66736" />
+			<param name="Spot2_y" value="-122007" />
+			<param name="Spot2_z" value="-2928" />
+			<param name="Spot2_dir" value="60576" />
+			<param name="Spot3_x" value="67894" />
+			<param name="Spot3_y" value="-121491" />
+			<param name="Spot3_z" value="-2928" />
+			<param name="Spot3_dir" value="43872" />
+			<param name="Spot4_x" value="68383" />
+			<param name="Spot4_y" value="-122754" />
+			<param name="Spot4_z" value="-2928" />
+			<param name="Spot4_dir" value="27904" />
+		</parameters>
+		<npc id="32656" x="67540" y="-122330" z="-2928" heading="0" /> <!-- Nest Controller -->
+	</spawn>
+	<spawn name="schuttgart16_2214_05m1">
+		<parameters>
+			<param name="GroupNum" value="5" />
+			<param name="my_trr" value="22_14_camp_05" />
+			<param name="my_area" value="22_14_camp_05" />
+			<param name="Spot1_x" value="74137" />
+			<param name="Spot1_y" value="-122733" />
+			<param name="Spot1_z" value="-3040" />
+			<param name="Spot1_dir" value="13272" />
+			<param name="Spot2_x" value="73289" />
+			<param name="Spot2_y" value="-121769" />
+			<param name="Spot2_z" value="-3040" />
+			<param name="Spot2_dir" value="1024" />
+			<param name="Spot3_x" value="75530" />
+			<param name="Spot3_y" value="-121477" />
+			<param name="Spot3_z" value="-3040" />
+			<param name="Spot3_dir" value="34424" />
+			<param name="Spot4_x" value="74117" />
+			<param name="Spot4_y" value="-120459" />
+			<param name="Spot4_z" value="-3040" />
+			<param name="Spot4_dir" value="52344" />
+		</parameters>
+		<npc id="32656" x="74378" y="-121639" z="-3040" heading="0" /> <!-- Nest Controller -->
+	</spawn>
+	<spawn name="schuttgart16_2214_06m1">
+		<parameters>
+			<param name="GroupNum" value="6" />
+			<param name="my_trr" value="22_14_camp_06" />
+			<param name="my_area" value="22_14_camp_06" />
+			<param name="Spot1_x" value="69731" />
+			<param name="Spot1_y" value="-119823" />
+			<param name="Spot1_z" value="-2528" />
+			<param name="Spot1_dir" value="16656" />
+			<param name="Spot2_x" value="69080" />
+			<param name="Spot2_y" value="-118977" />
+			<param name="Spot2_z" value="-2528" />
+			<param name="Spot2_dir" value="0" />
+			<param name="Spot3_x" value="71014" />
+			<param name="Spot3_y" value="-119027" />
+			<param name="Spot3_z" value="-2528" />
+			<param name="Spot3_dir" value="31904" />
+			<param name="Spot4_x" value="70300" />
+			<param name="Spot4_y" value="-117942" />
+			<param name="Spot4_z" value="-2528" />
+			<param name="Spot4_dir" value="46208" />
+		</parameters>
+		<npc id="32656" x="70076" y="-118960" z="-2528" heading="0" /> <!-- Nest Controller -->
+	</spawn>
+	<spawn name="schuttgart16_2214_07m1">
+		<parameters>
+			<param name="GroupNum" value="7" />
+			<param name="my_trr" value="22_14_camp_07" />
+			<param name="my_area" value="22_14_camp_07" />
+			<param name="Spot1_x" value="74312" />
+			<param name="Spot1_y" value="-117583" />
+			<param name="Spot1_z" value="-2288" />
+			<param name="Spot1_dir" value="15280" />
+			<param name="Spot2_x" value="73758" />
+			<param name="Spot2_y" value="-116945" />
+			<param name="Spot2_z" value="-2288" />
+			<param name="Spot2_dir" value="0" />
+			<param name="Spot3_x" value="74475" />
+			<param name="Spot3_y" value="-116260" />
+			<param name="Spot3_z" value="-2288" />
+			<param name="Spot3_dir" value="47456" />
+			<param name="Spot4_x" value="75058" />
+			<param name="Spot4_y" value="-116966" />
+			<param name="Spot4_z" value="-2288" />
+			<param name="Spot4_dir" value="30872" />
+		</parameters>
+		<npc id="32656" x="74373" y="-116917" z="-2288" heading="0" /> <!-- Nest Controller -->
+	</spawn>
+	<spawn name="schuttgart16_2214_08m1">
+		<parameters>
+			<param name="GroupNum" value="8" />
+			<param name="my_trr" value="22_14_camp_08" />
+			<param name="my_area" value="22_14_camp_08" />
+			<param name="Spot1_x" value="68104" />
+			<param name="Spot1_y" value="-117192" />
+			<param name="Spot1_z" value="-2176" />
+			<param name="Spot1_dir" value="15888" />
+			<param name="Spot2_x" value="69140" />
+			<param name="Spot2_y" value="-116464" />
+			<param name="Spot2_z" value="-2176" />
+			<param name="Spot2_dir" value="28952" />
+			<param name="Spot3_x" value="67311" />
+			<param name="Spot3_y" value="-116374" />
+			<param name="Spot3_z" value="-2152" />
+			<param name="Spot3_dir" value="1280" />
+			<param name="Spot4_x" value="68333" />
+			<param name="Spot4_y" value="-115015" />
+			<param name="Spot4_z" value="-2176" />
+			<param name="Spot4_dir" value="45136" />
+		</parameters>
+		<npc id="32656" x="68120" y="-116111" z="-2176" heading="0" /> <!-- Nest Controller -->
+	</spawn>
+	<spawn name="schuttgart16_2214_09m1">
+		<parameters>
+			<param name="GroupNum" value="9" />
+			<param name="my_trr" value="22_14_camp_09" />
+			<param name="my_area" value="22_14_camp_09" />
+			<param name="Spot1_x" value="68280" />
+			<param name="Spot1_y" value="-108129" />
+			<param name="Spot1_z" value="-1184" />
+			<param name="Spot1_dir" value="17992" />
+			<param name="Spot2_x" value="67062" />
+			<param name="Spot2_y" value="-107125" />
+			<param name="Spot2_z" value="-1184" />
+			<param name="Spot2_dir" value="64008" />
+			<param name="Spot3_x" value="67838" />
+			<param name="Spot3_y" value="-106143" />
+			<param name="Spot3_z" value="-1184" />
+			<param name="Spot3_dir" value="51232" />
+			<param name="Spot4_x" value="68893" />
+			<param name="Spot4_y" value="-106954" />
+			<param name="Spot4_z" value="-1184" />
+			<param name="Spot4_dir" value="36704" />
+		</parameters>
+		<npc id="32656" x="68089" y="-107238" z="-1184" heading="0" /> <!-- Nest Controller -->
+	</spawn>
+	<spawn name="schuttgart16_2114_01m1">
+		<parameters>
+			<param name="GroupNum" value="10" />
+			<param name="my_trr" value="22_14_camp10_announce" />
+			<param name="my_area" value="22_14_camp_10" />
+			<param name="Spot1_x" value="61715" />
+			<param name="Spot1_y" value="-116623" />
+			<param name="Spot1_z" value="-3088" />
+			<param name="Spot1_dir" value="59888" />
+			<param name="Spot2_x" value="62261" />
+			<param name="Spot2_y" value="-118263" />
+			<param name="Spot2_z" value="-3072" />
+			<param name="Spot2_dir" value="12888" />
+			<param name="Spot3_x" value="63276" />
+			<param name="Spot3_y" value="-117409" />
+			<param name="Spot3_z" value="-3064" />
+			<param name="Spot3_dir" value="24760" />
+			<param name="Spot4_x" value="62459" />
+			<param name="Spot4_y" value="-116370" />
+			<param name="Spot4_z" value="-3088" />
+			<param name="Spot4_dir" value="48624" />
+		</parameters>
+		<npc id="32656" x="62440" y="-117169" z="-3088" heading="0" /> <!-- Nest Controller -->
+	</spawn>
+	<spawn name="schuttgart16_2114_02m1">
+		<parameters>
+			<param name="GroupNum" value="11" />
+			<param name="my_trr" value="22_14_camp11_announce" />
+			<param name="my_area" value="22_14_camp_11" />
+			<param name="Spot1_x" value="62372" />
+			<param name="Spot1_y" value="-106514" />
+			<param name="Spot1_z" value="-2400" />
+			<param name="Spot1_dir" value="0" />
+			<param name="Spot2_x" value="62905" />
+			<param name="Spot2_y" value="-106109" />
+			<param name="Spot2_z" value="-2384" />
+			<param name="Spot2_dir" value="51288" />
+			<param name="Spot3_x" value="62983" />
+			<param name="Spot3_y" value="-107259" />
+			<param name="Spot3_z" value="-2384" />
+			<param name="Spot3_dir" value="12552" />
+			<param name="Spot4_x" value="63848" />
+			<param name="Spot4_y" value="-106771" />
+			<param name="Spot4_z" value="-2384" />
+			<param name="Spot4_dir" value="32784" />
+		</parameters>
+		<npc id="32656" x="63089" y="-106595" z="-2400" heading="0" /> <!-- Nest Controller -->
+	</spawn>
+</list>

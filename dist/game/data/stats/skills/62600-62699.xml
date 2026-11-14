@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="62600" toLevel="1" name="Soul Rift">
+		<icon>icon.skill1064</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>4000</hitTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62601" toLevel="1" name="Return to the Starting Point">
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="62602" toLevel="1" name="Corruption Wave - Melee">
+		<icon>icon.baium_thunder_splash1</icon>
+		<operateType>A1</operateType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange> <!-- Unconfirmed -->
+		<affectScope>POINT_BLANK</affectScope>
+		<effectPoint>-100</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62603" toLevel="1" name="Corruption Wave - Midrange">
+		<icon>icon.baium_thunder_splash2</icon>
+		<operateType>A1</operateType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>600</affectRange> <!-- Unconfirmed -->
+		<affectScope>POINT_BLANK</affectScope>
+		<effectPoint>-100</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62604" toLevel="1" name="Corruption Wave - Long Range">
+		<icon>icon.baium_thunder_splash2</icon>
+		<operateType>A1</operateType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange> <!-- Unconfirmed -->
+		<affectScope>POINT_BLANK</affectScope>
+		<effectPoint>-100</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62605" toLevel="1" name="Corruption Wave">
+		<!-- Presentation Skill. -->
+		<icon>icon.skill10516</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>6000</hitTime>
+		<coolTime>1000</coolTime>
+	</skill>
+	<skill id="62606" toLevel="1" name="Bloody Chain">
+		<icon>icon.blood_link</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<castRange>2000</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62607" toLevel="2" name="Celestial Might">
+		<!-- Level 1: The Ritual of Light makes Ferion stronger. Damage +50%. P./ M. Accuracy and Evasion +50. Received damage -20% -->
+		<!-- Level 2: Ferion has fully restored his health due to the Ritual of Light. Damage +150%. P./ M. Accuracy and Evasion +100. Received damage -90% -->
+		<icon>
+			<value level="1">icon.s_npc_throne_raid_perion_buff1</value>
+			<value level="2">icon.s_npc_throne_raid_perion_buff2</value>
+		</icon>
+		<operateType>A1</operateType>
+		<abnormalTime>-1</abnormalTime>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">150</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">150</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">150</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">150</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">150</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">150</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalEvasion">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalEvasion">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">-20</value>
+					<value level="2">-90</value>
+				</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">-20</value>
+					<value level="2">-90</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62608" toLevel="3" name="Demon's Statue">
+		<!-- Received damage limit: 666. Received damage limit from basic attacks with dual swords/ dual daggers/ dual blunt weapons/ fist weapons: 333. -->
+		<icon>icon.skillraid</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="GetDamageLimit">
+				<amount>666</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62609" toLevel="1" name="Friendly Family Blessing">
+		<!-- Feel the homely warmth!. Killing monsters in the following hunting zones, you can obtain the <font color="FF6666">Heartfelt Messages Box</font>:. Solo, party and improved hunting zones Lv. 106 and higher. Fioren's Crystal Prison. Jamoa's Camp. Pantheon's Museum. Ravaged Innadril. Time Rift. Spirit Forest. Conquest Zones. Conquest. Tower of Insolence -->
+		<icon>icon.s_npc_ev_family_area_buff</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62610" toLevel="1" name="Friendly Family Blessing - Reward">
+		<!-- Effect on receiving the item_self -->
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62611" toLevel="1" name="Demon of Dissent Baluan">
+		<!-- Having absorbed the power of Chaos, Baluan returned to his throne. His power has grown significantly. Anyone who stands in his way will become another sacrifice on the altar of his might. <Additional features>. Received damage from basic attacks -30% -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62612" toLevel="1" name="Baluan's Destruction">
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>FAN</affectScope>
+		<castRange>2000</castRange>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;0;2000;90</fanRange> <!-- Unconfirmed -->
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62613" toLevel="1" name="Baluan's Thrust">
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<castRange>2000</castRange>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62614" toLevel="1" name="Baluan's Fire Wave">
+		<operateType>A1</operateType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>600</affectRange> <!-- Unconfirmed -->
+		<affectScope>POINT_BLANK</affectScope>
+		<effectPoint>-700</effectPoint>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>62625</skillId> <!-- Fire Dissent -->
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62615" toLevel="1" name="Baluan's Frost Dispel">
+		<operateType>A1</operateType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>600</affectRange> <!-- Unconfirmed -->
+		<affectScope>POINT_BLANK</affectScope>
+		<effectPoint>-700</effectPoint>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>62626</skillId> <!-- Frost Dissent -->
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62616" toLevel="1" name="Baluan's Inner Flame Explosion">
+		<icon>icon.skill32100</icon>
+		<operateType>A1</operateType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange> <!-- Unconfirmed -->
+		<affectScope>POINT_BLANK</affectScope>
+		<effectPoint>-100</effectPoint>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>62625</skillId> <!-- Fire Dissent -->
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62617" toLevel="1" name="Baluan's Outer Frost Zone">
+		<icon>icon.skill32100</icon>
+		<operateType>A1</operateType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange> <!-- Unconfirmed -->
+		<affectScope>RING_RANGE</affectScope>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;0;300;0</fanRange> <!-- Unconfirmed, RING_RANGE reads the third value as the inner radius -->
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>62626</skillId> <!-- Frost Dissent -->
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62618" toLevel="1" name="Baluan's Absolute Danger Zone">
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>7000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62619" toLevel="1" name="Baluan's Frost Danger Zone">
+		<!-- Zone created by Baluan where ice attribute prevails. Due to unbearable cold, P. Atk. is greatly decreased here. -->
+		<icon>icon.skill0115</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<reuseDelay>5000</reuseDelay>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>-50</amount> <!-- Unconfirmed -->
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62620" toLevel="1" name="Baluan's Fire Danger Zone">
+		<!-- Zone created by Baluan where fire attribute prevails. Inside this zone, unbearable heat deals damage over time. -->
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="DamOverTime">
+				<power>999</power> <!-- Unconfirmed -->
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62621" toLevel="1" name="Light Blast - Test">
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>600</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1</effectPoint>
+	</skill>
+	<skill id="62622" toLevel="1" name="Baluan's Fire and Frost Protection">
+		<!-- Baluan is protected by Altars of Dissent. To remove the protection, these should be destroyed. -->
+		<icon>icon.skill32522</icon>
+		<operateType>A1</operateType>
+		<targetType>TARGET</targetType>
+		<abnormalTime>-1</abnormalTime>
+		<castRange>1500</castRange>
+		<coolTime>500</coolTime>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<effects>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62623" toLevel="1" name="Baluan's Flame Breath">
+		<!-- A curse that is triggered when you destroy a fiery Altar of Dissent protecting Baluan. -->
+		<icon>icon.s_blood_dance</icon>
+		<operateType>A1</operateType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange> <!-- Unconfirmed -->
+		<affectScope>POINT_BLANK</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>62625</skillId> <!-- Fire Dissent -->
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62624" toLevel="1" name="Baluan's Freezing Breath">
+		<!-- A curse that is triggered when you destroy a frosty Altar of Dissent protecting Baluan. -->
+		<icon>icon.s_blood_dance</icon>
+		<operateType>A1</operateType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange> <!-- Unconfirmed -->
+		<affectScope>POINT_BLANK</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>62626</skillId> <!-- Frost Dissent -->
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62625" toLevel="3" name="Fire Dissent">
+		<!-- A fire curse. Weapon P./ M. Atk. decreased, received damage greatly increased. When hit by Baluan's or Altar of Dissent's fiery attack, the effect stacks. Replaced by Frost Dissent when hit by Baluan's or Altar of Dissent's frost attack. -->
+		<icon>icon.skill1045</icon>
+		<operateType>A1</operateType>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+		</abnormalLevel>
+		<abnormalTime>60</abnormalTime>
+		<effectPoint>1</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">-20</value>
+					<value level="2">-40</value>
+					<value level="3">-60</value>
+				</amount> <!-- Unconfirmed -->
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">-20</value>
+					<value level="2">-40</value>
+					<value level="3">-60</value>
+				</amount> <!-- Unconfirmed -->
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">60</value>
+					<value level="3">90</value>
+				</amount> <!-- Unconfirmed -->
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">60</value>
+					<value level="3">90</value>
+				</amount> <!-- Unconfirmed -->
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62626" toLevel="3" name="Frost Dissent">
+		<!-- A frost curse. Armor P./ M. Def. decreased, received damage greatly increased. When hit by Baluan's or Altar of Dissent's frost attack, the effect stacks. Replaced by Fire Dissent when hit by Baluan's or Altar of Dissent's fiery attack. -->
+		<icon>icon.skill1048</icon>
+		<operateType>A1</operateType>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+		</abnormalLevel>
+		<abnormalTime>60</abnormalTime>
+		<effectPoint>1</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">-20</value>
+					<value level="2">-40</value>
+					<value level="3">-60</value>
+				</amount> <!-- Unconfirmed -->
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">-20</value>
+					<value level="2">-40</value>
+					<value level="3">-60</value>
+				</amount> <!-- Unconfirmed -->
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">60</value>
+					<value level="3">90</value>
+				</amount> <!-- Unconfirmed -->
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">60</value>
+					<value level="3">90</value>
+				</amount> <!-- Unconfirmed -->
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="62627" toLevel="1" name="Abyss Spawn">
+		<!-- Evil creatures born in Gran Kain's Abyss are immune to curses of men. No debuffs can harm them. -->
+		<icon>icon.s_fighting_spirit</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DebuffBlock" />
+		</effects>
+	</skill>
+	<skill id="62628" toLevel="1" name="Altar of Dissent">
+		<!-- Flaming altar protecting Baluan. When destroyed, attacks all the enemies in Baluan's Throne by fire and applies Fire Dissent effect to all the affected targets. <Fire Dissent>. While Fire Dissent effect is active, its level is increased when hit by Baluan's or Altar of Dissent's fiery attack. When hit by frost attack, Fire Dissent is replaced by Frost Dissent. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62629" toLevel="1" name="Altar of Dissent">
+		<!-- Frost altar protecting Baluan. When destroyed, attacks all the enemies in Baluan's Throne by frost and applies Frost Dissent effect to all the affected targets. <Frost Dissent>. While Frost Dissent effect is active, its level is increased when hit by Baluan's or Altar of Dissent's frost attack. When hit by fiery attack, Frost Dissent is replaced by Fire Dissent. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62630" toLevel="3" name="Fire Dissent_test">
+		<!-- A fire curse. Weapon P./ M. Atk. decreased, received damage greatly increased. When hit by Baluan's or Altar of Dissent's fiery attack, the effect stacks. Replaced by Frost Dissent when hit by Baluan's or Altar of Dissent's frost attack. -->
+		<icon>icon.skill1045</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62631" toLevel="3" name="Frost Dissent_test">
+		<!-- A frost curse. Armor P./ M. Def. decreased, received damage greatly increased. When hit by Baluan's or Altar of Dissent's frost attack, the effect stacks. Replaced by Fire Dissent when hit by Baluan's or Altar of Dissent's fiery attack. -->
+		<icon>icon.skill1048</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>1</effectPoint>
+	</skill>
+</list>

@@ -1,0 +1,10 @@
+Custom items folder.
+
+Place custom item XML files here, using the same format as the files in data/stats/items.
+They are loaded after the default item files, only when CustomItemsLoad = True in config/General.ini.
+An item with the same id as a default item replaces it, so this folder can also be used to override retail items
+without editing the original files.
+
+Each file starts with:
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">

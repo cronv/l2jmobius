@@ -1,0 +1,49 @@
+Route XML documentation
+=======================
+
+Each XML file in this folder defines walking routes loaded by RouteData and driven by the WalkingManager.
+Routes are grouped in one file per area, or per NPC when the area is unknown.
+
+Route element
+-------------
+<route name="..." repeat="..." repeatStyle="...">
+
+name        - Unique route name.
+repeat      - true to repeat the walk after the last point.
+repeatStyle - back:     NPC moves from first point to last point, then moves back through last point but one, and so on to the first point.
+              cycle:    NPC moves from first point to last point, then moves directly to the first point.
+              conveyor: NPC moves from first point to last point, then teleports directly to the first point.
+              random:   NPC randomly moves between points.
+              none:     NPC stops after the last point.
+
+Target element
+--------------
+<target id="..." spawnX="..." spawnY="..." spawnZ="..." rhand="..." lhand="..." />
+
+Attaches the route to the NPC with the given id spawned at the given spawn coordinates.
+rhand / lhand - Optional item ids displayed in the walker hands.
+
+Follower element
+----------------
+<follower id="..." position="..." distance="..." rhand="..." lhand="..." />
+
+Spawns the NPC with the given id next to the route target NPC. No spawn entry is needed for followers.
+The follower always walks to the point its leader walks to, shifted to the given position relative to the leader movement direction.
+Followers run to catch up when left behind more than 1.5 times the distance, and the leader waits while walking and at every point until its followers have adjusted their position and distance for the next direction.
+
+position - FRONT, FRONT_RIGHT, RIGHT, BACK_RIGHT, BACK (default), BACK_LEFT, LEFT, FRONT_LEFT.
+distance - Distance in units kept from the leader destination. Default 40.
+rhand / lhand - Optional item ids displayed in the follower hands.
+
+Point element
+-------------
+<point X="..." Y="..." Z="..." delay="..." run="..." />
+
+X, Y, Z - Coordinates of the point.
+delay   - Wait time in seconds at this point.
+run     - true to run to this point, false to walk.
+
+Chat attributes said on arrival at the point:
+npcStringId - String id from client NpcString-e.dat.
+string      - Simple text, as used on older branches where NpcStringId does not exist. Example: string="Hello World"
+talkerNpcId - Optional NPC id of the follower saying the line. Without it the route walker itself speaks.

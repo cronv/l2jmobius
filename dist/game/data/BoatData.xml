@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/BoatData.xsd">
+	<!-- Gludin - Rune ferry -->
+	<boat id="3" name="rune_glu_ship" heading="16723" initialDelay="180000">
+		<broadcastPoint x="34381" y="-37680" z="-3610" />
+		<broadcastPoint x="-95686" y="150514" z="-3610" />
+		<station x="-95686" y="150514" z="-3610" dockId="2" moveSpeed="150" rotationSpeed="800" departDelay="10000" busyMessageId="1619">
+			<kick x="-95254" y="150551" z="-3624" />
+			<action sound="itemsound.ship_arrival_departure" messageId="986" messageId2="1625" wait="300000" />
+			<action sound="itemsound.ship_5min" messageId="1626" wait="240000" />
+			<action sound="itemsound.ship_1min" messageId="1627" wait="40000" />
+			<action sound="itemsound.ship_1min" messageId="1628" wait="20000" />
+			<action sound="itemsound.ship_arrival_departure" messageId="1629" />
+			<ticket itemId="7905" x="-95254" y="150551" z="-3624" />
+		</station>
+		<station x="-95686" y="155514" z="-3610" moveSpeed="180" rotationSpeed="800" busyMessageId="1619" />
+		<station x="-98112" y="159040" z="-3610" moveSpeed="200" rotationSpeed="1800" busyMessageId="1619" />
+		<station x="-104192" y="160608" z="-3610" moveSpeed="250" rotationSpeed="1800" busyMessageId="1619" />
+		<station x="-109952" y="159616" z="-3610" moveSpeed="290" rotationSpeed="1800" busyMessageId="1619" />
+		<station x="-112768" y="154784" z="-3610" moveSpeed="290" rotationSpeed="1800" busyMessageId="1619" />
+		<station x="-114688" y="139040" z="-3610" dockId="26" moveSpeed="290" rotationSpeed="1800" busyMessageId="1619" />
+		<station x="-115232" y="134368" z="-3610" moveSpeed="290" rotationSpeed="1800" busyMessageId="1619" />
+		<station x="-113888" y="121696" z="-3610" moveSpeed="290" rotationSpeed="1800" busyMessageId="1619" />
+		<station x="-107808" y="104928" z="-3610" moveSpeed="290" rotationSpeed="800" busyMessageId="1619">
+			<action messageId="1634" />
+		</station>
+		<station x="-97152" y="75520" z="-3610" moveSpeed="290" rotationSpeed="1800" busyMessageId="1619" />
+		<station x="-85536" y="67264" z="-3610" moveSpeed="290" rotationSpeed="1800" busyMessageId="1619" />
+		<station x="-64640" y="55840" z="-3610" moveSpeed="290" rotationSpeed="1800" busyMessageId="1619">
+			<action messageId="1635" />
+		</station>
+		<station x="-60096" y="44672" z="-3610" moveSpeed="290" rotationSpeed="1800" busyMessageId="1619" />
+		<station x="-52672" y="37440" z="-3610" moveSpeed="290" rotationSpeed="1800" busyMessageId="1619" />
+		<station x="-46144" y="33184" z="-3610" moveSpeed="290" rotationSpeed="1800" busyMessageId="1619" />
+		<station x="-36096" y="24928" z="-3610" moveSpeed="290" rotationSpeed="1800" busyMessageId="1619" />
+		<station x="-33792" y="8448" z="-3610" moveSpeed="290" rotationSpeed="1000" busyMessageId="1619" />
+		<station x="-23776" y="3424" z="-3610" moveSpeed="290" rotationSpeed="1000" busyMessageId="1619" />
+		<station x="-12000" y="-1760" z="-3610" moveSpeed="290" rotationSpeed="1800" busyMessageId="1619">
+			<action messageId="1636" />
+		</station>
+		<station x="672" y="480" z="-3610" moveSpeed="290" rotationSpeed="1000" busyMessageId="1619" />
+		<station x="15488" y="200" z="-3610" moveSpeed="290" rotationSpeed="1000" busyMessageId="1619">
+			<action messageId="1636" />
+		</station>
+		<station x="24736" y="164" z="-3610" moveSpeed="290" rotationSpeed="1000" busyMessageId="1619" />
+		<station x="32192" y="-1156" z="-3610" moveSpeed="270" rotationSpeed="1000" busyMessageId="1619" />
+		<station x="39200" y="-8032" z="-3610" moveSpeed="270" rotationSpeed="1000" busyMessageId="1619" />
+		<station x="44320" y="-25152" z="-3610" dockId="28" moveSpeed="250" rotationSpeed="800" busyMessageId="1619">
+			<action messageId="1637" />
+		</station>
+		<station x="40576" y="-31616" z="-3610" moveSpeed="200" rotationSpeed="800" busyMessageId="1619" />
+		<station x="34381" y="-37680" z="-3610" dockId="4" moveSpeed="150" rotationSpeed="800" departDelay="10000" busyMessageId="1618">
+			<kick x="34513" y="-38009" z="-3610" />
+			<action sound="itemsound.ship_arrival_departure" messageId="1620" messageId2="980" wait="300000" />
+			<action sound="itemsound.ship_5min" messageId="1621" wait="240000" />
+			<action sound="itemsound.ship_1min" messageId="1622" wait="40000" />
+			<action sound="itemsound.ship_1min" messageId="1623" wait="20000" />
+			<action sound="itemsound.ship_arrival_departure" messageId="1624" />
+			<ticket itemId="7904" x="34513" y="-38009" z="-3610" />
+		</station>
+		<station x="32750" y="-39300" z="-3610" moveSpeed="180" rotationSpeed="1000" busyMessageId="1618" />
+		<station x="27440" y="-39328" z="-3610" moveSpeed="200" rotationSpeed="1000" busyMessageId="1618" />
+		<station x="21456" y="-34272" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1618">
+			<action messageId="1630" />
+		</station>
+		<station x="6608" y="-29520" z="-3610" moveSpeed="270" rotationSpeed="800" busyMessageId="1618" />
+		<station x="4160" y="-27828" z="-3610" dockId="27" moveSpeed="270" rotationSpeed="1000" busyMessageId="1618" />
+		<station x="2432" y="-25472" z="-3610" moveSpeed="220" rotationSpeed="1000" busyMessageId="1618" />
+		<station x="-8000" y="-16272" z="-3610" moveSpeed="290" rotationSpeed="800" busyMessageId="1618" />
+		<station x="-18976" y="-9760" z="-3610" moveSpeed="290" rotationSpeed="800" busyMessageId="1618" />
+		<station x="-23776" y="3408" z="-3610" moveSpeed="290" rotationSpeed="800" busyMessageId="1618" />
+		<station x="-33792" y="8432" z="-3610" moveSpeed="290" rotationSpeed="800" busyMessageId="1618" />
+		<station x="-36096" y="24912" z="-3610" moveSpeed="290" rotationSpeed="800" busyMessageId="1618">
+			<action messageId="1631" />
+		</station>
+		<station x="-46144" y="33184" z="-3610" moveSpeed="290" rotationSpeed="800" busyMessageId="1618" />
+		<station x="-52688" y="37440" z="-3610" moveSpeed="290" rotationSpeed="800" busyMessageId="1618" />
+		<station x="-60096" y="44672" z="-3610" moveSpeed="290" rotationSpeed="800" busyMessageId="1618" />
+		<station x="-64640" y="55840" z="-3610" moveSpeed="290" rotationSpeed="800" busyMessageId="1618" />
+		<station x="-85552" y="67248" z="-3610" moveSpeed="290" rotationSpeed="800" busyMessageId="1618">
+			<action messageId="1632" />
+		</station>
+		<station x="-97168" y="85264" z="-3610" moveSpeed="290" rotationSpeed="800" busyMessageId="1618" />
+		<station x="-107824" y="104912" z="-3610" moveSpeed="290" rotationSpeed="800" busyMessageId="1618" />
+		<station x="-102151" y="135704" z="-3610" dockId="25" moveSpeed="290" rotationSpeed="800" busyMessageId="1618">
+			<action messageId="1633" />
+		</station>
+		<station x="-96686" y="140595" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1618" />
+		<station x="-95686" y="147718" z="-3610" moveSpeed="200" rotationSpeed="800" busyMessageId="1618" />
+		<station x="-95686" y="148218" z="-3610" moveSpeed="180" rotationSpeed="800" busyMessageId="1618" />
+	</boat>
+	<!-- Innadril pleasure boat -->
+	<boat id="4" name="innadrile_tour_ship" heading="32768" initialDelay="180000">
+		<broadcastPoint x="111384" y="226232" z="-3610" />
+		<broadcastPoint x="111384" y="226232" z="-3610" />
+		<station x="111384" y="226232" z="-3610" moveSpeed="150" rotationSpeed="800" departDelay="10000" busyMessageId="1489">
+			<kick x="111553" y="225748" z="-3600" />
+			<action sound="itemsound.ship_arrival_departure" messageId="998" wait="300000" />
+			<action sound="itemsound.ship_5min" messageId="999" wait="240000" />
+			<action sound="itemsound.ship_arrival_departure" messageId="1002" />
+		</station>
+		<station x="105448" y="226232" z="-3610" moveSpeed="150" rotationSpeed="800" busyMessageId="1489" />
+		<station x="92248" y="238200" z="-3610" moveSpeed="180" rotationSpeed="800" busyMessageId="1489">
+			<action messageId="1171" />
+		</station>
+		<station x="75896" y="238200" z="-3610" moveSpeed="180" rotationSpeed="800" busyMessageId="1489" />
+		<station x="68648" y="235576" z="-3610" moveSpeed="180" rotationSpeed="800" busyMessageId="1489" />
+		<station x="63672" y="230920" z="-3610" moveSpeed="200" rotationSpeed="800" busyMessageId="1489" />
+		<station x="62008" y="225208" z="-3610" moveSpeed="200" rotationSpeed="800" busyMessageId="1489" />
+		<station x="62008" y="222240" z="-3610" dockId="23" moveSpeed="200" rotationSpeed="800" busyMessageId="1489">
+			<action messageId="1172" />
+		</station>
+		<station x="62008" y="203608" z="-3610" moveSpeed="200" rotationSpeed="800" busyMessageId="1489" />
+		<station x="59557" y="198238" z="-3610" moveSpeed="200" rotationSpeed="800" busyMessageId="1489" />
+		<station x="54640" y="195466" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1489" />
+		<station x="41088" y="196256" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1489" />
+		<station x="36785" y="199386" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1489" />
+		<station x="35684" y="204618" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1489" />
+		<station x="35684" y="221994" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1489" />
+		<station x="36288" y="224576" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1489" />
+		<station x="37760" y="226442" z="-3610" dockId="24" moveSpeed="250" rotationSpeed="800" busyMessageId="1489">
+			<action messageId="1173" />
+		</station>
+		<station x="42593" y="229210" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1489" />
+		<station x="60656" y="233594" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1489" />
+		<station x="74176" y="245050" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1489" />
+		<station x="80928" y="249866" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1489" />
+		<station x="101312" y="249866" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1489">
+			<action messageId="1174" />
+		</station>
+		<station x="106048" y="254666" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1489" />
+		<station x="111936" y="256634" z="-3610" moveSpeed="250" rotationSpeed="800" busyMessageId="1489" />
+		<station x="121264" y="256634" z="-3610" moveSpeed="200" rotationSpeed="800" busyMessageId="1489" />
+		<station x="125536" y="255050" z="-3610" moveSpeed="200" rotationSpeed="800" busyMessageId="1489" />
+		<station x="128048" y="251354" z="-3610" moveSpeed="200" rotationSpeed="800" busyMessageId="1489" />
+		<station x="128672" y="238506" z="-3610" moveSpeed="180" rotationSpeed="1800" busyMessageId="1489" />
+		<station x="128368" y="236634" z="-3610" moveSpeed="180" rotationSpeed="1800" busyMessageId="1489" />
+		<station x="127104" y="235306" z="-3610" moveSpeed="180" rotationSpeed="1800" busyMessageId="1489" />
+		<station x="125008" y="234730" z="-3610" moveSpeed="180" rotationSpeed="1800" busyMessageId="1489" />
+		<station x="122320" y="234730" z="-3610" moveSpeed="180" rotationSpeed="1800" busyMessageId="1489" />
+		<station x="120544" y="234426" z="-3610" moveSpeed="180" rotationSpeed="1800" busyMessageId="1489">
+			<action messageId="1175" />
+		</station>
+		<station x="119104" y="233674" z="-3610" moveSpeed="180" rotationSpeed="1800" busyMessageId="1489" />
+		<station x="118288" y="231466" z="-3610" moveSpeed="180" rotationSpeed="1800" busyMessageId="1489" />
+		<station x="117840" y="229210" z="-3610" moveSpeed="150" rotationSpeed="1800" busyMessageId="1489" />
+		<station x="116320" y="226518" z="-3610" moveSpeed="150" rotationSpeed="1800" busyMessageId="1489" />
+		<station x="114024" y="226232" z="-3610" moveSpeed="150" rotationSpeed="800" busyMessageId="1489" />
+	</boat>
+</list>

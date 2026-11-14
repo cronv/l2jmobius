@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_01" minZ="-3460" maxZ="-3160">
+				<node x="109723" y="-85857" />
+				<node x="111082" y="-85862" />
+				<node x="111083" y="-84827" />
+				<node x="109724" y="-84828" />
+			</territory>
+		</territories>
+		<npc id="22789" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_02" minZ="-3460" maxZ="-3160">
+				<node x="109648" y="-84512" />
+				<node x="110224" y="-84505" />
+				<node x="110233" y="-83902" />
+				<node x="109638" y="-83901" />
+			</territory>
+		</territories>
+		<npc id="22789" count="3" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_03" minZ="-3460" maxZ="-3160">
+				<node x="109622" y="-83676" />
+				<node x="109856" y="-83681" />
+				<node x="109872" y="-81862" />
+				<node x="109618" y="-81867" />
+			</territory>
+		</territories>
+		<npc id="22789" count="3" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22791" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_04" minZ="-3460" maxZ="-3160">
+				<node x="109645" y="-81855" />
+				<node x="112361" y="-81856" />
+				<node x="112363" y="-81644" />
+				<node x="109641" y="-81645" />
+			</territory>
+		</territories>
+		<npc id="22789" count="3" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22791" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_05" minZ="-3610" maxZ="-3310">
+				<node x="109118" y="-80548" />
+				<node x="110243" y="-80551" />
+				<node x="110241" y="-79971" />
+				<node x="109116" y="-79963" />
+			</territory>
+		</territories>
+		<npc id="22789" count="3" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_06" minZ="-3610" maxZ="-3310">
+				<node x="110977" y="-80746" />
+				<node x="111818" y="-80749" />
+				<node x="111818" y="-79859" />
+				<node x="110984" y="-79858" />
+			</territory>
+		</territories>
+		<npc id="18909" count="9" respawnTime="90sec" respawnRandom="15sec" chaseRange="1500" /> <!-- Solina Knights -->
+		<npc id="18910" count="5" respawnTime="90sec" respawnRandom="15sec" chaseRange="1500" /> <!-- Solina Knight Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_07" minZ="-3460" maxZ="-3160">
+				<node x="112664" y="-82217" />
+				<node x="113191" y="-82214" />
+				<node x="113194" y="-81747" />
+				<node x="112671" y="-81752" />
+			</territory>
+		</territories>
+		<npc id="22793" count="3" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_08" minZ="-3460" maxZ="-3160">
+				<node x="111933" y="-83544" />
+				<node x="113079" y="-83546" />
+				<node x="113081" y="-82645" />
+				<node x="111935" y="-82643" />
+			</territory>
+		</territories>
+		<npc id="22789" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_09" minZ="-3460" maxZ="-3160">
+				<node x="111514" y="-84517" />
+				<node x="112030" y="-84527" />
+				<node x="112027" y="-83962" />
+				<node x="111510" y="-83966" />
+			</territory>
+		</territories>
+		<npc id="22791" count="3" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_10" minZ="-3460" maxZ="-3160">
+				<node x="112401" y="-85563" />
+				<node x="113377" y="-85565" />
+				<node x="113376" y="-84393" />
+				<node x="112400" y="-84389" />
+			</territory>
+		</territories>
+		<npc id="22789" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_11" minZ="-3460" maxZ="-3160">
+				<node x="113199" y="-87450" />
+				<node x="113739" y="-87452" />
+				<node x="113742" y="-87014" />
+				<node x="113201" y="-87007" />
+			</territory>
+		</territories>
+		<npc id="22793" count="4" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_12" minZ="-3587" maxZ="-3287">
+				<node x="114292" y="-89446" />
+				<node x="116549" y="-89443" />
+				<node x="116557" y="-89293" />
+				<node x="114300" y="-89283" />
+			</territory>
+		</territories>
+		<npc id="22789" count="4" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_13" minZ="-3583" maxZ="-3283">
+				<node x="114292" y="-88446" />
+				<node x="116550" y="-88443" />
+				<node x="116558" y="-88293" />
+				<node x="114300" y="-88283" />
+			</territory>
+		</territories>
+		<npc id="22789" count="4" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_14" minZ="-3464" maxZ="-3114">
+				<node x="115692" y="-85165" />
+				<node x="116193" y="-85182" />
+				<node x="116185" y="-84801" />
+				<node x="115709" y="-84802" />
+			</territory>
+		</territories>
+		<npc id="22789" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22793" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_15" minZ="-3464" maxZ="-3114">
+				<node x="115582" y="-84413" />
+				<node x="116262" y="-84428" />
+				<node x="116258" y="-83572" />
+				<node x="115578" y="-83569" />
+			</territory>
+		</territories>
+		<npc id="22789" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_16" minZ="-3464" maxZ="-3114">
+				<node x="115606" y="-86505" />
+				<node x="116283" y="-86510" />
+				<node x="116282" y="-85730" />
+				<node x="115602" y="-85727" />
+			</territory>
+		</territories>
+		<npc id="22789" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_17" minZ="-3464" maxZ="-3114">
+				<node x="115614" y="-82911" />
+				<node x="116290" y="-82917" />
+				<node x="116289" y="-82137" />
+				<node x="115609" y="-82134" />
+			</territory>
+		</territories>
+		<npc id="22789" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_18" minZ="-3464" maxZ="-3114">
+				<node x="115703" y="-81594" />
+				<node x="116184" y="-81595" />
+				<node x="116189" y="-81216" />
+				<node x="115703" y="-81213" />
+			</territory>
+		</territories>
+		<npc id="22789" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22793" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_19" minZ="-3464" maxZ="-3114">
+				<node x="115593" y="-80828" />
+				<node x="116270" y="-80834" />
+				<node x="116269" y="-80054" />
+				<node x="115589" y="-80051" />
+			</territory>
+		</territories>
+		<npc id="22789" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_20" minZ="-3458" maxZ="-3158">
+				<node x="115185" y="-78911" />
+				<node x="115759" y="-78884" />
+				<node x="115761" y="-78440" />
+				<node x="115166" y="-78439" />
+			</territory>
+		</territories>
+		<npc id="22793" count="3" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_21" minZ="-3458" maxZ="-3158">
+				<node x="116096" y="-78230" />
+				<node x="116713" y="-78235" />
+				<node x="116717" y="-76950" />
+				<node x="116092" y="-76950" />
+			</territory>
+		</territories>
+		<npc id="22789" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_22" minZ="-3458" maxZ="-3158">
+				<node x="116820" y="-78234" />
+				<node x="117444" y="-78232" />
+				<node x="117461" y="-76947" />
+				<node x="116808" y="-76944" />
+			</territory>
+		</territories>
+		<npc id="22789" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_23" minZ="-3458" maxZ="-3158">
+				<node x="118532" y="-77187" />
+				<node x="119606" y="-77186" />
+				<node x="119596" y="-75931" />
+				<node x="118523" y="-75944" />
+			</territory>
+		</territories>
+		<npc id="22789" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_24" minZ="-3597" maxZ="-3297">
+				<node x="118503" y="-79011" />
+				<node x="119379" y="-79009" />
+				<node x="119384" y="-78114" />
+				<node x="118504" y="-78119" />
+			</territory>
+		</territories>
+		<npc id="22789" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_25" minZ="-3163" maxZ="-2813">
+				<node x="118371" y="-84390" />
+				<node x="119149" y="-84393" />
+				<node x="119145" y="-82565" />
+				<node x="118372" y="-82560" />
+			</territory>
+		</territories>
+		<npc id="22789" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_26" minZ="-2332" maxZ="-1982">
+				<node x="116298" y="-80693" />
+				<node x="117061" y="-80699" />
+				<node x="117069" y="-78803" />
+				<node x="116302" y="-78809" />
+			</territory>
+		</territories>
+		<npc id="22794" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Judge -->
+		<npc id="22795" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Manager -->
+		<npc id="22796" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Supervisor -->
+		<npc id="22797" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Worshiper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_27" minZ="-1695" maxZ="-1345">
+				<node x="114559" y="-81269" />
+				<node x="115394" y="-81274" />
+				<node x="115393" y="-79370" />
+				<node x="114553" y="-79366" />
+			</territory>
+		</territories>
+		<npc id="22794" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Judge -->
+		<npc id="22795" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Manager -->
+		<npc id="22796" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Supervisor -->
+		<npc id="22797" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Worshiper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_28" minZ="-1695" maxZ="-1345">
+				<node x="112335" y="-81456" />
+				<node x="113850" y="-81458" />
+				<node x="113855" y="-80492" />
+				<node x="112331" y="-80496" />
+			</territory>
+		</territories>
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_29" minZ="-1695" maxZ="-1345">
+				<node x="110712" y="-81447" />
+				<node x="112333" y="-81452" />
+				<node x="112337" y="-80486" />
+				<node x="110708" y="-80490" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_30" minZ="-1695" maxZ="-1345">
+				<node x="112428" y="-80145" />
+				<node x="113943" y="-80147" />
+				<node x="113947" y="-79182" />
+				<node x="112424" y="-79185" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="1" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_31" minZ="-1695" maxZ="-1345">
+				<node x="110734" y="-80141" />
+				<node x="112419" y="-80146" />
+				<node x="112423" y="-79181" />
+				<node x="110740" y="-79194" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_32" minZ="-1158" maxZ="-808">
+				<node x="108022" y="-79088" />
+				<node x="109904" y="-79104" />
+				<node x="109929" y="-78273" />
+				<node x="108011" y="-78269" />
+			</territory>
+		</territories>
+		<npc id="22794" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Judge -->
+		<npc id="22795" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Manager -->
+		<npc id="22796" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Supervisor -->
+		<npc id="22797" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Worshiper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_33" minZ="-1184" maxZ="-834">
+				<node x="107882" y="-77664" />
+				<node x="108811" y="-77683" />
+				<node x="108812" y="-76055" />
+				<node x="107888" y="-76058" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_34" minZ="-1184" maxZ="-834">
+				<node x="107883" y="-76050" />
+				<node x="108813" y="-76068" />
+				<node x="108813" y="-74441" />
+				<node x="107889" y="-74443" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_35" minZ="-1184" maxZ="-834">
+				<node x="109156" y="-77663" />
+				<node x="110085" y="-77682" />
+				<node x="110086" y="-76054" />
+				<node x="109162" y="-76057" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_36" minZ="-1184" maxZ="-834">
+				<node x="109157" y="-76045" />
+				<node x="110086" y="-76064" />
+				<node x="110087" y="-74436" />
+				<node x="109163" y="-74439" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_37" minZ="-644" maxZ="-294">
+				<node x="110205" y="-73644" />
+				<node x="111039" y="-73648" />
+				<node x="111038" y="-71745" />
+				<node x="110198" y="-71741" />
+			</territory>
+		</territories>
+		<npc id="22794" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Judge -->
+		<npc id="22795" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Manager -->
+		<npc id="22796" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Supervisor -->
+		<npc id="22797" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Worshiper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_38" minZ="-685" maxZ="-335">
+				<node x="111658" y="-73829" />
+				<node x="113173" y="-73831" />
+				<node x="113177" y="-72866" />
+				<node x="111654" y="-72869" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_39" minZ="-685" maxZ="-335">
+				<node x="113171" y="-73828" />
+				<node x="114833" y="-73824" />
+				<node x="114834" y="-72868" />
+				<node x="113167" y="-72868" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_40" minZ="-685" maxZ="-335">
+				<node x="111655" y="-72543" />
+				<node x="113170" y="-72546" />
+				<node x="113175" y="-71580" />
+				<node x="111651" y="-71584" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_41" minZ="-685" maxZ="-335">
+				<node x="113175" y="-72539" />
+				<node x="114837" y="-72535" />
+				<node x="114838" y="-71579" />
+				<node x="113172" y="-71579" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_42" minZ="-139" maxZ="211">
+				<node x="115672" y="-74733" />
+				<node x="117554" y="-74748" />
+				<node x="117579" y="-73918" />
+				<node x="115661" y="-73913" />
+			</territory>
+		</territories>
+		<npc id="22794" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Judge -->
+		<npc id="22795" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Manager -->
+		<npc id="22796" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Supervisor -->
+		<npc id="22797" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Worshiper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_43" minZ="-144" maxZ="206">
+				<node x="115500" y="-76978" />
+				<node x="116430" y="-76996" />
+				<node x="116430" y="-75368" />
+				<node x="115506" y="-75371" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_44" minZ="-144" maxZ="206">
+				<node x="115499" y="-78595" />
+				<node x="116428" y="-78613" />
+				<node x="116429" y="-76985" />
+				<node x="115505" y="-76988" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_45" minZ="-144" maxZ="206">
+				<node x="116782" y="-76943" />
+				<node x="117711" y="-76961" />
+				<node x="117711" y="-75333" />
+				<node x="116788" y="-75336" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_46" minZ="-144" maxZ="206">
+				<node x="116780" y="-78560" />
+				<node x="117710" y="-78578" />
+				<node x="117710" y="-76950" />
+				<node x="116786" y="-76953" />
+			</territory>
+		</territories>
+		<npc id="22798" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Protector -->
+		<npc id="22799" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		<npc id="22800" count="2" respawnTime="100sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Divine Magus -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_47" minZ="-137" maxZ="213">
+				<node x="115719" y="-81339" />
+				<node x="117597" y="-81330" />
+				<node x="117588" y="-80510" />
+				<node x="115723" y="-80517" />
+			</territory>
+		</territories>
+		<npc id="22794" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Judge -->
+		<npc id="22795" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Manager -->
+		<npc id="22796" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Supervisor -->
+		<npc id="22797" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Worshiper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_48" minZ="-137" maxZ="213">
+				<node x="114311" y="-81062" />
+				<node x="115108" y="-81081" />
+				<node x="115109" y="-79223" />
+				<node x="114305" y="-79226" />
+			</territory>
+		</territories>
+		<npc id="22794" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Judge -->
+		<npc id="22795" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Manager -->
+		<npc id="22796" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Supervisor -->
+		<npc id="22797" count="1" respawnTime="500sec" respawnRandom="50sec" chaseRange="2500" /> <!-- Divine Worshiper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_52" minZ="-1416" maxZ="-1216">
+				<node x="108854" y="-80460" />
+				<node x="109438" y="-80471" />
+				<node x="109444" y="-79758" />
+				<node x="108848" y="-79783" />
+			</territory>
+		</territories>
+		<npc id="22797" count="3" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Divine Worshiper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_53" minZ="-892" maxZ="-692">
+				<node x="108811" y="-73241" />
+				<node x="109331" y="-73260" />
+				<node x="109343" y="-72467" />
+				<node x="108805" y="-72479" />
+			</territory>
+		</territories>
+		<npc id="22797" count="3" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Divine Worshiper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_54" minZ="-371" maxZ="-171">
+				<node x="116174" y="-73286" />
+				<node x="116721" y="-73306" />
+				<node x="116737" y="-72539" />
+				<node x="116176" y="-72524" />
+			</territory>
+		</territories>
+		<npc id="22797" count="3" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Divine Worshiper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_55" minZ="-2256" maxZ="-2056">
+				<node x="115603" y="-80560" />
+				<node x="116025" y="-80560" />
+				<node x="116025" y="-78792" />
+				<node x="115603" y="-78792" />
+			</territory>
+		</territories>
+		<npc id="22797" count="3" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Divine Worshiper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_56" minZ="-3604" maxZ="-3304">
+				<node x="117089" y="-87708" />
+				<node x="117618" y="-87714" />
+				<node x="117623" y="-87309" />
+				<node x="117103" y="-87309" />
+			</territory>
+		</territories>
+		<npc id="22793" count="4" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_57" minZ="-3427" maxZ="-3227">
+				<node x="116661" y="-85765" />
+				<node x="116853" y="-85499" />
+				<node x="116868" y="-84614" />
+				<node x="116654" y="-84283" />
+			</territory>
+		</territories>
+		<npc id="22789" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="2" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_58" minZ="-3433" maxZ="-3233">
+				<node x="114992" y="-85429" />
+				<node x="115206" y="-85721" />
+				<node x="115205" y="-84321" />
+				<node x="120005" y="-84595" />
+			</territory>
+		</territories>
+		<npc id="22789" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22793" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_59" minZ="-3437" maxZ="-3237">
+				<node x="115020" y="-81932" />
+				<node x="115220" y="-82209" />
+				<node x="115220" y="-80702" />
+				<node x="115020" y="-81085" />
+			</territory>
+		</territories>
+		<npc id="22789" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune13_2315_60" minZ="-3427" maxZ="-3227">
+				<node x="116668" y="-82115" />
+				<node x="116868" y="-81826" />
+				<node x="116868" y="-80995" />
+				<node x="116668" y="-80741" />
+			</territory>
+		</territories>
+		<npc id="22789" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Guide -->
+		<npc id="22790" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Seeker -->
+		<npc id="22791" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Savior -->
+		<npc id="22793" count="1" respawnTime="25sec" respawnRandom="10sec" chaseRange="2500" /> <!-- Solina Ascetic -->
+	</spawn>
+	<spawn name="MonasteryOfSilenceMonsters">
+		<group>
+			<npc id="18912" x="111239" y="-80113" z="-3512" heading="11792" respawnTime="60sec" /> <!-- Scarecrow -->
+			<npc id="18912" x="111583" y="-80189" z="-3512" heading="17736" respawnTime="60sec" /> <!-- Scarecrow -->
+			<npc id="18912" x="111605" y="-80545" z="-3512" heading="9600" respawnTime="60sec" /> <!-- Scarecrow -->
+			<npc id="18912" x="111192" y="-80578" z="-3512" heading="52128" respawnTime="60sec" /> <!-- Scarecrow -->
+			<npc id="18913" x="110560" y="-82415" z="-1584" heading="23222" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="110566" y="-82250" z="-1584" heading="26213" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="110568" y="-82092" z="-1584" heading="20745" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="110413" y="-82410" z="-1584" heading="10885" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="110413" y="-82252" z="-1584" heading="42180" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="110414" y="-82091" z="-1584" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="110236" y="-82097" z="-1584" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="110240" y="-82406" z="-1584" heading="11547" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="110238" y="-82249" z="-1584" heading="63715" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="114585" y="-70972" z="-544" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="114398" y="-70968" z="-544" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="114583" y="-70784" z="-544" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="114398" y="-70781" z="-544" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="114587" y="-70596" z="-544" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="114399" y="-70596" z="-544" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="114767" y="-70974" z="-544" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="114769" y="-70786" z="-544" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18913" x="114772" y="-70595" z="-544" respawnTime="60sec" /> <!-- Furnace -->
+			<npc id="18915" x="113696" y="-77393" z="56" respawnTime="60sec" /> <!-- Divine Furnace -->
+			<npc id="18915" x="113632" y="-75616" z="56" respawnTime="60sec" /> <!-- Divine Furnace -->
+			<npc id="18915" x="111904" y="-77424" z="56" respawnTime="60sec" /> <!-- Divine Furnace -->
+			<npc id="18915" x="111904" y="-75616" z="56" respawnTime="60sec" /> <!-- Divine Furnace -->
+			<npc id="22798" x="113946" y="-80967" z="-1600" heading="2677" respawnTime="60sec" chaseRange="2000" /> <!-- Divine Protector -->
+			<npc id="22798" x="113956" y="-80928" z="-1600" heading="64785" respawnTime="60sec" chaseRange="2000" /> <!-- Divine Protector -->
+			<npc id="22799" x="114118" y="-79637" z="-1600" heading="64747" respawnTime="60sec" chaseRange="2000" /> <!-- Divine Fighter -->
+		</group>
+	</spawn>
+</list>

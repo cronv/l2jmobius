@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f001" minZ="-10274" maxZ="-10074">
+				<node x="84316" y="192184" />
+				<node x="84801" y="192189" />
+				<node x="84816" y="193603" />
+				<node x="84256" y="193593" />
+			</territory>
+		</territories>
+		<npc id="23774" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Bathus -->
+		<npc id="23775" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f002" minZ="-10272" maxZ="-10072">
+				<node x="82909" y="191351" />
+				<node x="84806" y="191420" />
+				<node x="84813" y="191913" />
+				<node x="82912" y="191907" />
+			</territory>
+		</territories>
+		<npc id="23774" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Bathus -->
+		<npc id="23775" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f003" minZ="-10272" maxZ="-10072">
+				<node x="82946" y="189143" />
+				<node x="83521" y="189138" />
+				<node x="83533" y="191122" />
+				<node x="82942" y="191133" />
+			</territory>
+		</territories>
+		<npc id="23774" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Bathus -->
+		<npc id="23775" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+		<npc id="23776" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Kshana -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f004" minZ="-10256" maxZ="-9956">
+				<node x="82923" y="186019" />
+				<node x="83522" y="186000" />
+				<node x="83508" y="188824" />
+				<node x="82984" y="188813" />
+			</territory>
+		</territories>
+		<npc id="23774" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Bathus -->
+		<npc id="23775" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+		<npc id="23776" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Kshana -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f005" minZ="-10267" maxZ="-10067">
+				<node x="84089" y="188811" />
+				<node x="85952" y="188807" />
+				<node x="85948" y="189440" />
+				<node x="84085" y="189425" />
+			</territory>
+		</territories>
+		<npc id="23774" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Bathus -->
+		<npc id="23775" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+		<npc id="23776" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Kshana -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f006" minZ="-10229" maxZ="-10029">
+				<node x="86350" y="188807" />
+				<node x="88312" y="188812" />
+				<node x="88320" y="189414" />
+				<node x="86348" y="189434" />
+			</territory>
+		</territories>
+		<npc id="23774" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Bathus -->
+		<npc id="23775" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+		<npc id="23776" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Kshana -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f007" minZ="-10269" maxZ="-10069">
+				<node x="87391" y="192188" />
+				<node x="87919" y="192178" />
+				<node x="87896" y="193586" />
+				<node x="87364" y="193547" />
+			</territory>
+		</territories>
+		<npc id="23774" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Bathus -->
+		<npc id="23775" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+		<npc id="23776" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Kshana -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f008" minZ="-10260" maxZ="-10060">
+				<node x="87434" y="191387" />
+				<node x="89269" y="191358" />
+				<node x="89265" y="191874" />
+				<node x="87423" y="191914" />
+			</territory>
+		</territories>
+		<npc id="23775" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f009" minZ="-10276" maxZ="-10076">
+				<node x="88675" y="189102" />
+				<node x="89223" y="189098" />
+				<node x="89246" y="191106" />
+				<node x="88679" y="191119" />
+			</territory>
+		</territories>
+		<npc id="23774" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Bathus -->
+		<npc id="23775" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+		<npc id="23776" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Kshana -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f010" minZ="-10190" maxZ="-9990">
+				<node x="88675" y="186010" />
+				<node x="89241" y="186005" />
+				<node x="89222" y="188749" />
+				<node x="88722" y="188819" />
+			</territory>
+		</territories>
+		<npc id="23774" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Bathus -->
+		<npc id="23775" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+		<npc id="23776" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Kshana -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f011" minZ="-10121" maxZ="-9921">
+				<node x="78039" y="185380" />
+				<node x="78583" y="185367" />
+				<node x="78583" y="187246" />
+				<node x="78024" y="187254" />
+			</territory>
+		</territories>
+		<npc id="23777" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f012" minZ="-10126" maxZ="-9926">
+				<node x="78905" y="185990" />
+				<node x="82338" y="186043" />
+				<node x="82347" y="186570" />
+				<node x="78892" y="186588" />
+			</territory>
+		</territories>
+		<npc id="23777" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f013" minZ="-10125" maxZ="-9925">
+				<node x="79653" y="183857" />
+				<node x="80247" y="183863" />
+				<node x="80241" y="185716" />
+				<node x="79680" y="185719" />
+			</territory>
+		</territories>
+		<npc id="23777" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f014" minZ="-10123" maxZ="-9923">
+				<node x="93614" y="185355" />
+				<node x="94158" y="185342" />
+				<node x="94158" y="187221" />
+				<node x="93599" y="187228" />
+			</territory>
+		</territories>
+		<npc id="23777" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f015" minZ="-10124" maxZ="-9924">
+				<node x="89947" y="186053" />
+				<node x="93333" y="186059" />
+				<node x="93342" y="186586" />
+				<node x="89945" y="186583" />
+			</territory>
+		</territories>
+		<npc id="23777" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f016" minZ="-10129" maxZ="-9929">
+				<node x="91875" y="183861" />
+				<node x="92469" y="183867" />
+				<node x="92463" y="185720" />
+				<node x="91902" y="185723" />
+			</territory>
+		</territories>
+		<npc id="23777" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f017" minZ="-10140" maxZ="-9940">
+				<node x="82148" y="178676" />
+				<node x="84277" y="178701" />
+				<node x="84292" y="179276" />
+				<node x="82127" y="179283" />
+			</territory>
+		</territories>
+		<npc id="23780" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar Colonel -->
+		<npc id="23781" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Sharpshooter -->
+		<npc id="23782" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Archmage -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_f018" minZ="-10126" maxZ="-9926">
+				<node x="87852" y="178712" />
+				<node x="90068" y="178712" />
+				<node x="90086" y="179269" />
+				<node x="87852" y="179276" />
+			</territory>
+		</territories>
+		<npc id="23780" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar Colonel -->
+		<npc id="23781" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Sharpshooter -->
+		<npc id="23782" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Archmage -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r001" minZ="-10270" maxZ="-10070">
+				<node x="82958" y="192173" />
+				<node x="83924" y="192149" />
+				<node x="83974" y="193118" />
+				<node x="82968" y="193108" />
+			</territory>
+		</territories>
+		<npc id="23774" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Bathus -->
+		<npc id="23775" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+		<npc id="23776" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Kshana -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r002" minZ="-10271" maxZ="-10071">
+				<node x="88237" y="192155" />
+				<node x="89221" y="192164" />
+				<node x="89222" y="193143" />
+				<node x="88223" y="193118" />
+			</territory>
+		</territories>
+		<npc id="23774" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Bathus -->
+		<npc id="23775" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+		<npc id="23776" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Kshana -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r003" minZ="-10280" maxZ="-10080">
+				<node x="84311" y="189717" />
+				<node x="85375" y="189710" />
+				<node x="85385" y="190686" />
+				<node x="84314" y="190690" />
+			</territory>
+		</territories>
+		<npc id="23775" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+		<npc id="23776" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Kshana -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r004" minZ="-10263" maxZ="-10063">
+				<node x="85633" y="189732" />
+				<node x="86575" y="189732" />
+				<node x="86565" y="190735" />
+				<node x="85629" y="190714" />
+			</territory>
+		</territories>
+		<npc id="23774" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Bathus -->
+		<npc id="23775" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+		<npc id="23776" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Kshana -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r005" minZ="-10269" maxZ="-10069">
+				<node x="86798" y="189693" />
+				<node x="87871" y="189679" />
+				<node x="87869" y="190680" />
+				<node x="86825" y="190684" />
+			</territory>
+		</territories>
+		<npc id="23774" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Bathus -->
+		<npc id="23775" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Krakos -->
+		<npc id="23776" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Delta Kshana -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r006" minZ="-10196" maxZ="-9996">
+				<node x="80917" y="188637" />
+				<node x="82260" y="188637" />
+				<node x="82246" y="189760" />
+				<node x="80906" y="189801" />
+			</territory>
+		</territories>
+		<npc id="23777" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r007" minZ="-10196" maxZ="-9996">
+				<node x="80906" y="186936" />
+				<node x="82249" y="186922" />
+				<node x="82268" y="188252" />
+				<node x="80911" y="188246" />
+			</territory>
+		</territories>
+		<npc id="23777" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r008" minZ="-10196" maxZ="-9996">
+				<node x="77655" y="187713" />
+				<node x="79007" y="187710" />
+				<node x="79004" y="188933" />
+				<node x="77652" y="188930" />
+			</territory>
+		</territories>
+		<npc id="23777" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r009" minZ="-10196" maxZ="-9996">
+				<node x="77646" y="183658" />
+				<node x="78995" y="183661" />
+				<node x="78998" y="184916" />
+				<node x="77655" y="184907" />
+			</territory>
+		</territories>
+		<npc id="23777" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r010" minZ="-10196" maxZ="-9996">
+				<node x="80562" y="183936" />
+				<node x="81844" y="183937" />
+				<node x="81843" y="185245" />
+				<node x="80561" y="185257" />
+			</territory>
+		</territories>
+		<npc id="23777" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r011" minZ="-10134" maxZ="-9934">
+				<node x="80609" y="182308" />
+				<node x="81906" y="182303" />
+				<node x="81906" y="183642" />
+				<node x="80603" y="183645" />
+			</territory>
+		</territories>
+		<npc id="23777" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r012" minZ="-10196" maxZ="-9996">
+				<node x="89936" y="188592" />
+				<node x="91273" y="188595" />
+				<node x="91287" y="189756" />
+				<node x="89933" y="189748" />
+			</territory>
+		</territories>
+		<npc id="23777" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r013" minZ="-10196" maxZ="-9996">
+				<node x="89928" y="186893" />
+				<node x="91292" y="186893" />
+				<node x="91292" y="188210" />
+				<node x="89933" y="188204" />
+			</territory>
+		</territories>
+		<npc id="23777" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r014" minZ="-10128" maxZ="-9928">
+				<node x="93195" y="187698" />
+				<node x="94528" y="187702" />
+				<node x="94545" y="188949" />
+				<node x="93184" y="188959" />
+			</territory>
+		</territories>
+		<npc id="23777" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r015" minZ="-10131" maxZ="-9931">
+				<node x="93194" y="183663" />
+				<node x="94548" y="183661" />
+				<node x="94556" y="184891" />
+				<node x="93213" y="184885" />
+			</territory>
+		</territories>
+		<npc id="23777" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r016" minZ="-10128" maxZ="-9928">
+				<node x="90318" y="183926" />
+				<node x="91584" y="183916" />
+				<node x="91567" y="185217" />
+				<node x="90324" y="185244" />
+			</territory>
+		</territories>
+		<npc id="23777" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r017" minZ="-10196" maxZ="-9996">
+				<node x="90266" y="182288" />
+				<node x="91567" y="182288" />
+				<node x="91577" y="183606" />
+				<node x="90273" y="183613" />
+			</territory>
+		</territories>
+		<npc id="23777" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar -->
+		<npc id="23778" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Shooter -->
+		<npc id="23779" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r018" minZ="-10133" maxZ="-9933">
+				<node x="83228" y="182124" />
+				<node x="84821" y="182144" />
+				<node x="84844" y="183717" />
+				<node x="83243" y="183727" />
+			</territory>
+		</territories>
+		<npc id="23780" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar Colonel -->
+		<npc id="23781" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Sharpshooter -->
+		<npc id="23782" count="5" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Archmage -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r019" minZ="-10196" maxZ="-9996">
+				<node x="87355" y="182212" />
+				<node x="88908" y="182209" />
+				<node x="88924" y="183746" />
+				<node x="87346" y="183754" />
+			</territory>
+		</territories>
+		<npc id="23780" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar Colonel -->
+		<npc id="23781" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Sharpshooter -->
+		<npc id="23782" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Archmage -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r020" minZ="-10128" maxZ="-9928">
+				<node x="83318" y="180134" />
+				<node x="84852" y="180148" />
+				<node x="84856" y="181778" />
+				<node x="83286" y="181760" />
+			</territory>
+		</territories>
+		<npc id="23780" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar Colonel -->
+		<npc id="23781" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Sharpshooter -->
+		<npc id="23782" count="5" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Archmage -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r021" minZ="-10124" maxZ="-9924">
+				<node x="87319" y="180189" />
+				<node x="88896" y="180148" />
+				<node x="88906" y="181792" />
+				<node x="87331" y="181786" />
+			</territory>
+		</territories>
+		<npc id="23780" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar Colonel -->
+		<npc id="23781" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Sharpshooter -->
+		<npc id="23782" count="5" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Archmage -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r022" minZ="-10196" maxZ="-9996">
+				<node x="80232" y="178222" />
+				<node x="81799" y="178244" />
+				<node x="81825" y="179746" />
+				<node x="80177" y="179781" />
+			</territory>
+		</territories>
+		<npc id="23780" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar Colonel -->
+		<npc id="23781" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Sharpshooter -->
+		<npc id="23782" count="5" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Archmage -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="giran23_2223_r023" minZ="-10196" maxZ="-9996">
+				<node x="90402" y="178198" />
+				<node x="91977" y="178209" />
+				<node x="91974" y="179713" />
+				<node x="90397" y="179732" />
+			</territory>
+		</territories>
+		<npc id="23780" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Templar Colonel -->
+		<npc id="23781" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Sharpshooter -->
+		<npc id="23782" count="5" respawnTime="45sec" respawnRandom="15sec" chaseRange="2500" /> <!-- Royal Archmage -->
+	</spawn>
+	<spawn name="SuperionFortress">
+		<group>
+			<npc id="34243" x="80041" y="152731" z="2304" heading="61174" respawnTime="30sec" /> <!-- Histie -->
+			<npc id="23774" x="85200" y="189688" z="-10230" heading="43670" respawnTime="30sec" chaseRange="2500" /> <!-- Delta Bathus -->
+			<npc id="23774" x="88515" y="191368" z="-10230" heading="3071" respawnTime="30sec" chaseRange="2500" /> <!-- Delta Bathus -->
+			<npc id="23776" x="83752" y="191336" z="-10230" heading="39963" respawnTime="30sec" chaseRange="2500" /> <!-- Delta Kshana -->
+			<npc id="23776" x="84748" y="192183" z="-10230" heading="22926" respawnTime="30sec" chaseRange="2500" /> <!-- Delta Kshana -->
+			<npc id="23776" x="85664" y="189711" z="-10230" heading="37966" respawnTime="30sec" chaseRange="2500" /> <!-- Delta Kshana -->
+			<npc id="23776" x="89067" y="191314" z="-10230" heading="43784" respawnTime="30sec" chaseRange="2500" /> <!-- Delta Kshana -->
+			<npc id="23778" x="90390" y="188579" z="-10094" heading="7682" respawnTime="30sec" chaseRange="2500" /> <!-- Royal Shooter -->
+			<npc id="23783" x="85872" y="176386" z="-10086" heading="16384" respawnTime="30sec" chaseRange="2000" /> <!-- Royal Gatekeeper -->
+			<npc id="23783" x="86680" y="176390" z="-10086" heading="16384" respawnTime="30sec" chaseRange="2000" /> <!-- Royal Gatekeeper -->
+			<npc id="19648" x="86327" y="169757" z="-10465" heading="15229" respawnTime="30sec" /> <!-- Ramona -->
+			<npc id="19643" x="85923" y="174680" z="-10453" heading="15887" respawnTime="30sec" />
+		</group>
+	</spawn>
+</list>

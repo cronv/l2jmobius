@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="rune03_2116_vampire_verise_001" minZ="-3411" maxZ="-1911">
+				<node x="51228" y="-61755" />
+				<node x="52942" y="-60469" />
+				<node x="53771" y="-59919" />
+				<node x="54013" y="-58972" />
+				<node x="53128" y="-59012" />
+				<node x="52394" y="-59452" />
+				<node x="51994" y="-59863" />
+				<node x="51617" y="-60448" />
+				<node x="49723" y="-60482" />
+				<node x="50143" y="-61472" />
+			</territory>
+		</territories>
+		<npc id="27530" count="2" respawnTime="20sec" respawnRandom="10sec" /> <!-- Vampiric Berise - Quest Monster -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune03_2116_vampire_verise_002" minZ="-3376" maxZ="-1876">
+				<node x="50636" y="-59354" />
+				<node x="51631" y="-58552" />
+				<node x="52296" y="-58305" />
+				<node x="52682" y="-57839" />
+				<node x="52442" y="-57706" />
+				<node x="51742" y="-57682" />
+				<node x="51139" y="-57890" />
+				<node x="50672" y="-58188" />
+				<node x="49891" y="-58484" />
+				<node x="49957" y="-58954" />
+			</territory>
+		</territories>
+		<npc id="27530" count="10" respawnTime="20sec" respawnRandom="10sec" /> <!-- Vampiric Berise - Quest Monster -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune03_2116_vampire_verise_003" minZ="-2853" maxZ="-1353">
+				<node x="48599" y="-57559" />
+				<node x="49743" y="-57081" />
+				<node x="50374" y="-56967" />
+				<node x="50228" y="-56044" />
+				<node x="50326" y="-55647" />
+				<node x="49705" y="-55887" />
+				<node x="48940" y="-55619" />
+				<node x="48527" y="-56004" />
+				<node x="47854" y="-56689" />
+				<node x="47920" y="-57159" />
+			</territory>
+		</territories>
+		<npc id="27530" count="10" respawnTime="20sec" respawnRandom="10sec" /> <!-- Vampiric Berise - Quest Monster -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune03_2116_vampire_verise_004" minZ="-3586" maxZ="-2086">
+				<node x="54000" y="-56587" />
+				<node x="55144" y="-56109" />
+				<node x="55775" y="-55995" />
+				<node x="55629" y="-55072" />
+				<node x="55727" y="-54675" />
+				<node x="55106" y="-54915" />
+				<node x="54341" y="-54647" />
+				<node x="53928" y="-55032" />
+				<node x="53255" y="-55717" />
+				<node x="53321" y="-56187" />
+			</territory>
+		</territories>
+		<npc id="27530" count="10" respawnTime="20sec" respawnRandom="10sec" /> <!-- Vampiric Berise - Quest Monster -->
+	</spawn>
+	<spawn name="ForestOfTheDead" ai="DayNightSpawns">
+		<group>
+			<npc id="19543" x="52107" y="-54328" z="-3152" respawnTime="60sec" /> <!-- Invisible Kekropus NPC -->
+			<npc id="31526" x="51995" y="-51265" z="-3096" respawnTime="60sec" /> <!-- Broken Bookshelf -->
+			<npc id="31522" x="51878" y="-54796" z="-3160" heading="22912" respawnTime="60sec" /> <!-- Mysterious Wizard -->
+			<npc id="31523" x="51475" y="-54596" z="-3152" heading="11040" respawnTime="60sec" /> <!-- Tombstone -->
+			<npc id="31533" x="47059" y="-35982" z="-1632" respawnTime="60sec" /> <!-- Broken Bookshelf -->
+			<npc id="31534" x="49952" y="-46960" z="-3392" respawnTime="60sec" /> <!-- Broken Bookshelf -->
+			<npc id="31535" x="59753" y="-47648" z="-2720" respawnTime="60sec" /> <!-- Broken Bookshelf -->
+			<npc id="31531" x="60162" y="-35900" z="-672" heading="19944" respawnTime="60sec" /> <!-- Tombstone -->
+			<npc id="31530" x="56393" y="-47191" z="-2984" respawnTime="60sec" /> <!-- Box -->
+		</group>
+		<group name="dayTime" spawnByDefault="false">
+			<npc id="31386" x="59618" y="-42774" z="-3000" respawnTime="240sec" /> <!-- Violette - Grocer -->
+			<npc id="31387" x="58790" y="-42646" z="-3000" respawnTime="240sec" /> <!-- Kurstin -->
+			<npc id="31388" x="59626" y="-41684" z="-3000" respawnTime="240sec" /> <!-- Mina -->
+			<npc id="31389" x="60161" y="-42086" z="-3000" respawnTime="240sec" /> <!-- Dorian -->
+		</group>
+	</spawn>
+</list>

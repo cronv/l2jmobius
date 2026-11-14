@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+	<npcs>
+		<npc>-1</npc> <!-- Item Multisell -->
+	</npcs>
+	<!-- Blessed Enchant Scroll Coupon -->
+	<item>
+		<ingredient id="83735" count="1" /> <!-- Blessed Enchant Scroll Coupon -->
+		<production id="48211" count="3" /> <!-- Blessed Scroll: Enchant Circlet -->
+	</item>
+	<item>
+		<ingredient id="83735" count="1" /> <!-- Blessed Enchant Scroll Coupon -->
+		<production id="48498" count="3" /> <!-- Blessed Scroll: Enchant Dragon Leather Shirt -->
+	</item>
+	<item>
+		<ingredient id="83735" count="1" /> <!-- Blessed Enchant Scroll Coupon -->
+		<production id="80838" count="3" /> <!-- Blessed Scroll: Enchant Kaliel's Bracelet -->
+	</item>
+	<item>
+		<ingredient id="83735" count="1" /> <!-- Blessed Enchant Scroll Coupon -->
+		<production id="81361" count="3" /> <!-- Blessed Scroll: Enchant Brooch -->
+	</item>
+	<item>
+		<ingredient id="83735" count="1" /> <!-- Blessed Enchant Scroll Coupon -->
+		<production id="81694" count="3" /> <!-- Blessed Scroll: Enchant Artifact Book -->
+	</item>
+	<item>
+		<ingredient id="83735" count="1" /> <!-- Blessed Enchant Scroll Coupon -->
+		<production id="81706" count="3" /> <!-- Scroll: Enchant Superior Seed Bracelet -->
+	</item>
+</list>

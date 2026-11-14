@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Chaos' Air Fortress -->
+<instance id="362" maxWorlds="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/instance.xsd">
+	<time duration="60" empty="0" />
+	<locations>
+		<enter type="FIXED">
+			<location x="177316" y="96186" z="-12816" heading="57343" />
+		</enter>
+		<exit type="FIXED">
+			<location x="146981" y="26877" z="-2208" />
+		</exit>
+	</locations>
+	<conditions>
+		<condition type="Party" showMessageAndHtml="true">
+			<param name="html" value="condNoEnter.html" />
+		</condition>
+		<condition type="PartyLeader" showMessageAndHtml="true">
+			<param name="html" value="condNoEnter.html" />
+		</condition>
+		<condition type="GroupMin">
+			<param name="html" value="condNoEnter.html" />
+			<param name="limit" value="2" />
+		</condition>
+		<condition type="GroupMax">
+			<param name="limit" value="7" />
+		</condition>
+		<condition type="Level" showMessageAndHtml="true">
+			<param name="html" value="condNoEnter.html" />
+			<param name="min" value="105" />
+		</condition>
+		<condition type="Distance" />
+		<condition type="Reenter" />
+	</conditions>
+	<reenter apply="ON_FINISH">
+		<reset day="MONDAY" hour="6" minute="30" />
+		<reset day="TUESDAY" hour="6" minute="30" />
+		<reset day="WEDNESDAY" hour="6" minute="30" />
+		<reset day="THURSDAY" hour="6" minute="30" />
+		<reset day="FRIDAY" hour="6" minute="30" />
+		<reset day="SATURDAY" hour="6" minute="30" />
+		<reset day="SUNDAY" hour="6" minute="30" />
+	</reenter>
+	<doorlist>
+		<door id="25200106"> <!-- 185381 90641 -12915 -->
+			<openStatus default="close" />
+		</door>
+		<door id="25200234"> <!-- 176149 84720 -13394 -->
+			<openStatus default="close" />
+		</door>
+		<door id="25200104"> <!-- 183903 81221 -13385 -->
+			<openStatus default="close" />
+		</door>
+		<door id="25200834"> <!-- 176467 81227 -13385 -->
+			<openStatus default="close" />
+		</door>
+		<door id="25200102"> <!-- 183904 80465 -13701 -->
+			<openStatus default="close" />
+		</door>
+		<door id="25200034"> <!-- 176468 80471 -13701 -->
+			<openStatus default="close" />
+		</door>
+	</doorlist>
+	<spawnlist>
+		<group name="BENUSTA" spawnByDefault="false">
+			<npc id="31462" x="177715" y="95953" z="-12816" heading="26168" /> <!-- Benusta -->
+		</group>
+		<!-- Lv. 110 -->
+		<group name="ZONE_1_110" spawnByDefault="false"> <!-- Upper Deck -->
+			<npc id="26623" x="178261" y="95335" z="-12816" heading="23095" /> <!-- Chaos Golems War Machine -->
+			<npc id="26623" x="178433" y="93776" z="-12816" heading="6437" /> <!-- Chaos Golems War Machine -->
+			<npc id="26620" x="178685" y="95316" z="-12816" heading="31385" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="178690" y="95006" z="-12816" heading="32767" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="178733" y="93898" z="-12816" heading="20310" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="178043" y="94387" z="-12816" heading="11273" /> <!-- Chaos Golem Gunner -->
+			<npc id="26622" x="178550" y="94782" z="-12816" heading="30096" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26622" x="178529" y="94906" z="-12816" heading="34360" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26621" x="178347" y="94774" z="-12816" heading="37196" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="23906" x="178445" y="94834" z="-12816" heading="29554" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26621" x="177889" y="94581" z="-12816" heading="6796" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26622" x="177757" y="94600" z="-12816" heading="2470" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26622" x="177859" y="94699" z="-12816" heading="1981" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="177818" y="94598" z="-12816" heading="45129" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="178686" y="93735" z="-12816" heading="15229" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26622" x="178649" y="93642" z="-12816" heading="17078" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26622" x="178786" y="93703" z="-12816" heading="4369" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26621" x="178594" y="93864" z="-12816" heading="25489" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26623" x="177919" y="93264" z="-12816" heading="41654" /> <!-- Chaos Golems War Machine -->
+			<npc id="26621" x="177743" y="93330" z="-12816" heading="57730" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="177626" y="93252" z="-12816" heading="38901" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="177469" y="93135" z="-12816" heading="39447" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="177545" y="93615" z="-12816" heading="55621" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26622" x="177365" y="93697" z="-12816" heading="55410" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="177484" y="93382" z="-12816" heading="61173" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26622" x="177366" y="93367" z="-12816" heading="35178" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26622" x="177252" y="93345" z="-12816" heading="34756" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26621" x="177315" y="93329" z="-12816" heading="62941" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26620" x="177430" y="92692" z="-12816" heading="40768" /> <!-- Chaos Golem Gunner -->
+			<npc id="26622" x="178035" y="92953" z="-12816" heading="49522" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26621" x="177962" y="92869" z="-12816" heading="41689" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="178132" y="92831" z="-12816" heading="22343" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="178235" y="92638" z="-12816" heading="21220" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="23906" x="178335" y="92777" z="-12816" heading="20065" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26622" x="177092" y="92895" z="-12816" heading="2201" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26622" x="176997" y="92786" z="-12816" heading="41674" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="177259" y="92586" z="-12816" heading="40738" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="177596" y="92608" z="-12816" heading="29591" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="177471" y="92288" z="-12816" heading="45267" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="177255" y="92302" z="-12816" heading="41064" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26622" x="177647" y="92492" z="-12816" heading="3528" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26622" x="177132" y="92399" z="-12816" heading="34620" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26622" x="177388" y="92148" z="-12816" heading="57277" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26622" x="177980" y="92261" z="-12816" heading="54262" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="177989" y="92019" z="-12816" heading="49539" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26621" x="178090" y="92330" z="-12816" heading="16798" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="177296" y="91999" z="-12816" heading="35461" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="177218" y="92168" z="-12816" heading="26906" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26623" x="177820" y="92051" z="-12816" heading="16383" /> <!-- Chaos Golems War Machine -->
+			<npc id="26620" x="177998" y="91935" z="-12816" heading="15887" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="177625" y="91938" z="-12816" heading="9297" /> <!-- Chaos Golem Gunner -->
+			<npc id="26623" x="177492" y="91322" z="-12816" heading="15061" /> <!-- Chaos Golems War Machine -->
+			<npc id="26620" x="178815" y="91821" z="-12816" heading="27188" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="178834" y="91542" z="-12816" heading="30971" /> <!-- Chaos Golem Gunner -->
+		</group>
+		<group name="ZONE_2_110" spawnByDefault="false"> <!-- Upper Deck -->
+			<npc id="26620" x="181560" y="91476" z="-12816" heading="718" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="181557" y="91653" z="-12816" heading="1140" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="181561" y="91838" z="-12816" heading="2926" /> <!-- Chaos Golem Gunner -->
+			<npc id="26621" x="181560" y="91294" z="-12816" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26622" x="181687" y="91398" z="-12816" heading="42194" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26622" x="181784" y="91538" z="-12816" heading="11769" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26621" x="181778" y="91829" z="-12816" heading="14349" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="182045" y="91907" z="-12816" heading="34969" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="23906" x="181657" y="92088" z="-12816" heading="50632" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26622" x="182633" y="91307" z="-12816" heading="32767" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26622" x="182599" y="90985" z="-12816" heading="29960" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26621" x="182338" y="91700" z="-12816" heading="231" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="182800" y="91531" z="-12816" heading="61878" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="23906" x="183459" y="91809" z="-12816" heading="30342" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="182639" y="92622" z="-12816" heading="33568" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26622" x="183419" y="92859" z="-12816" heading="35751" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26621" x="182816" y="92844" z="-12816" heading="34932" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="182519" y="92970" z="-12816" heading="42835" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26623" x="183670" y="91477" z="-12816" heading="32294" /> <!-- Chaos Golems War Machine -->
+			<npc id="26620" x="183847" y="91229" z="-12816" heading="30758" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="183913" y="91623" z="-12816" heading="33380" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="184178" y="91884" z="-12816" heading="38225" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="183665" y="92464" z="-12816" heading="41053" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="182601" y="93566" z="-12816" heading="52729" /> <!-- Chaos Golem Gunner -->
+			<npc id="26622" x="181734" y="92621" z="-12816" heading="48655" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26621" x="182170" y="92800" z="-12816" heading="37919" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26622" x="182759" y="93322" z="-12816" heading="42073" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26622" x="182633" y="93458" z="-12816" heading="41115" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26621" x="182875" y="93486" z="-12816" heading="38643" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="182786" y="93591" z="-12816" heading="23717" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26623" x="183576" y="91079" z="-12816" heading="26298" /> <!-- Chaos Golems War Machine -->
+			<npc id="26623" x="181939" y="95445" z="-12816" heading="41130" /> <!-- Chaos Golems War Machine -->
+			<npc id="26620" x="181544" y="95614" z="-12816" heading="416" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="181531" y="95326" z="-12816" heading="63943" /> <!-- Chaos Golem Gunner -->
+			<npc id="26623" x="181807" y="94604" z="-12816" heading="33127" /> <!-- Chaos Golems War Machine -->
+			<npc id="26620" x="181953" y="94439" z="-12816" heading="31470" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="181971" y="94796" z="-12816" heading="28357" /> <!-- Chaos Golem Gunner -->
+		</group>
+		<group name="ZONE_3_110" spawnByDefault="false"> <!-- Lower Deck -->
+			<npc id="26620" x="185584" y="87239" z="-13360" heading="19102" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="184708" y="86124" z="-13360" heading="13096" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="184614" y="86758" z="-13360" heading="4572" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="184460" y="88151" z="-13360" heading="48058" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="184063" y="88168" z="-13360" heading="48194" /> <!-- Chaos Golem Gunner -->
+			<npc id="26623" x="184267" y="88147" z="-13360" heading="47822" /> <!-- Chaos Golems War Machine -->
+			<npc id="23906" x="183859" y="85695" z="-13360" heading="48863" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="183765" y="84592" z="-13360" heading="13828" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="184301" y="83722" z="-13360" heading="53365" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26622" x="184391" y="87593" z="-13360" heading="39266" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26622" x="184050" y="86991" z="-13360" heading="43776" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="184535" y="87326" z="-13360" heading="15640" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="184880" y="86890" z="-13360" heading="46905" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26623" x="184159" y="85268" z="-13360" heading="15281" /> <!-- Chaos Golems War Machine -->
+			<npc id="26621" x="184016" y="85257" z="-13360" heading="14137" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26622" x="184025" y="84905" z="-13360" heading="6894" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26623" x="184489" y="84523" z="-13360" heading="50973" /> <!-- Chaos Golems War Machine -->
+			<npc id="23906" x="184476" y="84100" z="-13360" heading="48831" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="184761" y="83163" z="-13360" heading="16383" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="183224" y="82812" z="-13360" heading="1382" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26620" x="184338" y="83411" z="-13360" heading="15792" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="184793" y="83426" z="-13360" heading="17923" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="183737" y="83381" z="-13360" heading="12872" /> <!-- Chaos Golem Gunner -->
+			<npc id="26622" x="183155" y="82826" z="-13360" heading="780" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26620" x="184032" y="83713" z="-13360" heading="12160" /> <!-- Chaos Golem Gunner -->
+			<npc id="26622" x="183885" y="83783" z="-13360" heading="65119" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26621" x="183827" y="83647" z="-13360" heading="14053" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26622" x="183954" y="83596" z="-13360" heading="61553" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26621" x="184120" y="83572" z="-13360" heading="23095" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="184584" y="83401" z="-13360" heading="16822" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26622" x="183419" y="82374" z="-13360" heading="41336" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26622" x="184329" y="82073" z="-13360" heading="21728" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26623" x="183880" y="81883" z="-13360" heading="16749" /> <!-- Chaos Golems War Machine -->
+			<npc id="26620" x="184048" y="81731" z="-13360" heading="10662" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="184137" y="81899" z="-13360" heading="17078" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="183671" y="81721" z="-13360" heading="12309" /> <!-- Chaos Golem Gunner -->
+			<npc id="26620" x="183612" y="81931" z="-13360" heading="13129" /> <!-- Chaos Golem Gunner -->
+			<npc id="26623" x="183627" y="81531" z="-13360" heading="14084" /> <!-- Chaos Golems War Machine -->
+			<npc id="26622" x="183567" y="82045" z="-13360" heading="5938" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26621" x="183094" y="82978" z="-13360" heading="30786" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="183106" y="82646" z="-13360" heading="3742" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26621" x="182916" y="82815" z="-13360" heading="63881" /> <!-- Chaos Dwarf Guardian -->
+		</group>
+		<group name="UPPER_GENERATOR_110" spawnByDefault="false">
+			<npc id="18044" x="177823" y="91753" z="-12816" heading="14053" /> <!-- Upper Deck Generator 1 -->
+			<npc id="18044" x="183979" y="91397" z="-12816" heading="27131" /> <!-- Upper Deck Generator -->
+			<npc id="18044" x="182156" y="94613" z="-12816" heading="48588" /> <!-- Upper Deck Generator -->
+		</group>
+		<group name="LOWER_GENERATOR_110" spawnByDefault="false">
+			<npc id="18045" x="184281" y="88360" z="-13360" heading="65001" /> <!-- Lower Deck Generator -->
+			<npc id="18045" x="183878" y="81641" z="-13360" heading="15893" /> <!-- Lower Deck Generator -->
+		</group>
+		<group name="RAID_110" spawnByDefault="false">
+			<npc id="26624" x="183913" y="79251" z="-13616" heading="15054" /> <!-- Chaos Fortress Golem -->
+		</group>
+		<!-- Lv. 120 -->
+		<group name="ZONE_1_120" spawnByDefault="false"> <!-- Upper Deck -->
+			<npc id="26628" x="178261" y="95335" z="-12816" heading="23095" /> <!-- Chaos Golems War Machine -->
+			<npc id="26628" x="178433" y="93776" z="-12816" heading="6437" /> <!-- Chaos Golems War Machine -->
+			<npc id="26625" x="178685" y="95316" z="-12816" heading="31385" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="178690" y="95006" z="-12816" heading="32767" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="178733" y="93898" z="-12816" heading="20310" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="178043" y="94387" z="-12816" heading="11273" /> <!-- Chaos Golem Gunner -->
+			<npc id="26627" x="178550" y="94782" z="-12816" heading="30096" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26627" x="178529" y="94906" z="-12816" heading="34360" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26626" x="178347" y="94774" z="-12816" heading="37196" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="23906" x="178445" y="94834" z="-12816" heading="29554" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26626" x="177889" y="94581" z="-12816" heading="6796" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26627" x="177757" y="94600" z="-12816" heading="2470" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26627" x="177859" y="94699" z="-12816" heading="1981" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="177818" y="94598" z="-12816" heading="45129" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="178686" y="93735" z="-12816" heading="15229" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26627" x="178649" y="93642" z="-12816" heading="17078" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26627" x="178786" y="93703" z="-12816" heading="4369" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26626" x="178594" y="93864" z="-12816" heading="25489" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26628" x="177919" y="93264" z="-12816" heading="41654" /> <!-- Chaos Golems War Machine -->
+			<npc id="26626" x="177743" y="93330" z="-12816" heading="57730" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="177626" y="93252" z="-12816" heading="38901" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="177469" y="93135" z="-12816" heading="39447" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="177545" y="93615" z="-12816" heading="55621" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26627" x="177365" y="93697" z="-12816" heading="55410" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="177484" y="93382" z="-12816" heading="61173" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26627" x="177366" y="93367" z="-12816" heading="35178" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26627" x="177252" y="93345" z="-12816" heading="34756" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26626" x="177315" y="93329" z="-12816" heading="62941" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26625" x="177430" y="92692" z="-12816" heading="40768" /> <!-- Chaos Golem Gunner -->
+			<npc id="26627" x="178035" y="92953" z="-12816" heading="49522" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26626" x="177962" y="92869" z="-12816" heading="41689" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="178132" y="92831" z="-12816" heading="22343" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="178235" y="92638" z="-12816" heading="21220" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="23906" x="178335" y="92777" z="-12816" heading="20065" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26627" x="177092" y="92895" z="-12816" heading="2201" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26627" x="176997" y="92786" z="-12816" heading="41674" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="177259" y="92586" z="-12816" heading="40738" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="177596" y="92608" z="-12816" heading="29591" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="177471" y="92288" z="-12816" heading="45267" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="177255" y="92302" z="-12816" heading="41064" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26627" x="177647" y="92492" z="-12816" heading="3528" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26627" x="177132" y="92399" z="-12816" heading="34620" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26627" x="177388" y="92148" z="-12816" heading="57277" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26627" x="177980" y="92261" z="-12816" heading="54262" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="177989" y="92019" z="-12816" heading="49539" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26626" x="178090" y="92330" z="-12816" heading="16798" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="177296" y="91999" z="-12816" heading="35461" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="177218" y="92168" z="-12816" heading="26906" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26628" x="177820" y="92051" z="-12816" heading="16383" /> <!-- Chaos Golems War Machine -->
+			<npc id="26625" x="177998" y="91935" z="-12816" heading="15887" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="177625" y="91938" z="-12816" heading="9297" /> <!-- Chaos Golem Gunner -->
+			<npc id="26628" x="177492" y="91322" z="-12816" heading="15061" /> <!-- Chaos Golems War Machine -->
+			<npc id="26625" x="178815" y="91821" z="-12816" heading="27188" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="178834" y="91542" z="-12816" heading="30971" /> <!-- Chaos Golem Gunner -->
+		</group>
+		<group name="ZONE_2_120" spawnByDefault="false"> <!-- Upper Deck -->
+			<npc id="26625" x="181560" y="91476" z="-12816" heading="718" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="181557" y="91653" z="-12816" heading="1140" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="181561" y="91838" z="-12816" heading="2926" /> <!-- Chaos Golem Gunner -->
+			<npc id="26626" x="181560" y="91294" z="-12816" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26627" x="181687" y="91398" z="-12816" heading="42194" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26627" x="181784" y="91538" z="-12816" heading="11769" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26626" x="181778" y="91829" z="-12816" heading="14349" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="182045" y="91907" z="-12816" heading="34969" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="23906" x="181657" y="92088" z="-12816" heading="50632" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26627" x="182633" y="91307" z="-12816" heading="32767" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26627" x="182599" y="90985" z="-12816" heading="29960" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26626" x="182338" y="91700" z="-12816" heading="231" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="182800" y="91531" z="-12816" heading="61878" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="23906" x="183459" y="91809" z="-12816" heading="30342" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="182639" y="92622" z="-12816" heading="33568" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26627" x="183419" y="92859" z="-12816" heading="35751" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26626" x="182816" y="92844" z="-12816" heading="34932" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="182519" y="92970" z="-12816" heading="42835" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26628" x="183670" y="91477" z="-12816" heading="32294" /> <!-- Chaos Golems War Machine -->
+			<npc id="26625" x="183847" y="91229" z="-12816" heading="30758" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="183913" y="91623" z="-12816" heading="33380" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="184178" y="91884" z="-12816" heading="38225" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="183665" y="92464" z="-12816" heading="41053" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="182601" y="93566" z="-12816" heading="52729" /> <!-- Chaos Golem Gunner -->
+			<npc id="26627" x="181734" y="92621" z="-12816" heading="48655" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26626" x="182170" y="92800" z="-12816" heading="37919" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26627" x="182759" y="93322" z="-12816" heading="42073" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26627" x="182633" y="93458" z="-12816" heading="41115" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26626" x="182875" y="93486" z="-12816" heading="38643" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="182786" y="93591" z="-12816" heading="23717" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26628" x="183576" y="91079" z="-12816" heading="26298" /> <!-- Chaos Golems War Machine -->
+			<npc id="26628" x="181939" y="95445" z="-12816" heading="41130" /> <!-- Chaos Golems War Machine -->
+			<npc id="26625" x="181544" y="95614" z="-12816" heading="416" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="181531" y="95326" z="-12816" heading="63943" /> <!-- Chaos Golem Gunner -->
+			<npc id="26628" x="181807" y="94604" z="-12816" heading="33127" /> <!-- Chaos Golems War Machine -->
+			<npc id="26625" x="181953" y="94439" z="-12816" heading="31470" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="181971" y="94796" z="-12816" heading="28357" /> <!-- Chaos Golem Gunner -->
+		</group>
+		<group name="ZONE_3_120" spawnByDefault="false"> <!-- Lower Deck -->
+			<npc id="26625" x="185584" y="87239" z="-13360" heading="19102" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="184708" y="86124" z="-13360" heading="13096" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="184614" y="86758" z="-13360" heading="4572" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="184460" y="88151" z="-13360" heading="48058" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="184063" y="88168" z="-13360" heading="48194" /> <!-- Chaos Golem Gunner -->
+			<npc id="26628" x="184267" y="88147" z="-13360" heading="47822" /> <!-- Chaos Golems War Machine -->
+			<npc id="23906" x="183859" y="85695" z="-13360" heading="48863" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="183765" y="84592" z="-13360" heading="13828" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="184301" y="83722" z="-13360" heading="53365" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26627" x="184391" y="87593" z="-13360" heading="39266" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26627" x="184050" y="86991" z="-13360" heading="43776" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="184535" y="87326" z="-13360" heading="15640" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="184880" y="86890" z="-13360" heading="46905" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26628" x="184159" y="85268" z="-13360" heading="15281" /> <!-- Chaos Golems War Machine -->
+			<npc id="26626" x="184016" y="85257" z="-13360" heading="14137" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26627" x="184025" y="84905" z="-13360" heading="6894" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26628" x="184489" y="84523" z="-13360" heading="50973" /> <!-- Chaos Golems War Machine -->
+			<npc id="23906" x="184476" y="84100" z="-13360" heading="48831" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="184761" y="83163" z="-13360" heading="16383" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="183224" y="82812" z="-13360" heading="1382" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26625" x="184338" y="83411" z="-13360" heading="15792" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="184793" y="83426" z="-13360" heading="17923" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="183737" y="83381" z="-13360" heading="12872" /> <!-- Chaos Golem Gunner -->
+			<npc id="26627" x="183155" y="82826" z="-13360" heading="780" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26625" x="184032" y="83713" z="-13360" heading="12160" /> <!-- Chaos Golem Gunner -->
+			<npc id="26627" x="183885" y="83783" z="-13360" heading="65119" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26626" x="183827" y="83647" z="-13360" heading="14053" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26627" x="183954" y="83596" z="-13360" heading="61553" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26626" x="184120" y="83572" z="-13360" heading="23095" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="184584" y="83401" z="-13360" heading="16822" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26627" x="183419" y="82374" z="-13360" heading="41336" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26627" x="184329" y="82073" z="-13360" heading="21728" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26628" x="183880" y="81883" z="-13360" heading="16749" /> <!-- Chaos Golems War Machine -->
+			<npc id="26625" x="184048" y="81731" z="-13360" heading="10662" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="184137" y="81899" z="-13360" heading="17078" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="183671" y="81721" z="-13360" heading="12309" /> <!-- Chaos Golem Gunner -->
+			<npc id="26625" x="183612" y="81931" z="-13360" heading="13129" /> <!-- Chaos Golem Gunner -->
+			<npc id="26628" x="183627" y="81531" z="-13360" heading="14084" /> <!-- Chaos Golems War Machine -->
+			<npc id="26627" x="183567" y="82045" z="-13360" heading="5938" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26626" x="183094" y="82978" z="-13360" heading="30786" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="183106" y="82646" z="-13360" heading="3742" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26626" x="182916" y="82815" z="-13360" heading="63881" /> <!-- Chaos Dwarf Guardian -->
+		</group>
+		<group name="UPPER_GENERATOR_120" spawnByDefault="false">
+			<npc id="18046" x="177823" y="91753" z="-12816" heading="14053" /> <!-- Upper Deck Generator 1 -->
+			<npc id="18046" x="183979" y="91397" z="-12816" heading="27131" /> <!-- Upper Deck Generator -->
+			<npc id="18046" x="182156" y="94613" z="-12816" heading="48588" /> <!-- Upper Deck Generator -->
+		</group>
+		<group name="LOWER_GENERATOR_120" spawnByDefault="false">
+			<npc id="18047" x="184281" y="88360" z="-13360" heading="65001" /> <!-- Lower Deck Generator -->
+			<npc id="18047" x="183878" y="81641" z="-13360" heading="15893" /> <!-- Lower Deck Generator -->
+		</group>
+		<group name="RAID_120" spawnByDefault="false">
+			<npc id="26629" x="183913" y="79251" z="-13616" heading="15054" /> <!-- Chaos Fortress Golem -->
+		</group>
+		<!-- Lv. 130 -->
+		<group name="ZONE_1_130" spawnByDefault="false"> <!-- Upper Deck -->
+			<npc id="26633" x="178261" y="95335" z="-12816" heading="23095" /> <!-- Chaos Golems War Machine -->
+			<npc id="26633" x="178433" y="93776" z="-12816" heading="6437" /> <!-- Chaos Golems War Machine -->
+			<npc id="26630" x="178685" y="95316" z="-12816" heading="31385" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="178690" y="95006" z="-12816" heading="32767" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="178733" y="93898" z="-12816" heading="20310" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="178043" y="94387" z="-12816" heading="11273" /> <!-- Chaos Golem Gunner -->
+			<npc id="26632" x="178550" y="94782" z="-12816" heading="30096" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26632" x="178529" y="94906" z="-12816" heading="34360" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26631" x="178347" y="94774" z="-12816" heading="37196" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="23906" x="178445" y="94834" z="-12816" heading="29554" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26631" x="177889" y="94581" z="-12816" heading="6796" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26632" x="177757" y="94600" z="-12816" heading="2470" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26632" x="177859" y="94699" z="-12816" heading="1981" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="177818" y="94598" z="-12816" heading="45129" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="178686" y="93735" z="-12816" heading="15229" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26632" x="178649" y="93642" z="-12816" heading="17078" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26632" x="178786" y="93703" z="-12816" heading="4369" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26631" x="178594" y="93864" z="-12816" heading="25489" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26633" x="177919" y="93264" z="-12816" heading="41654" /> <!-- Chaos Golems War Machine -->
+			<npc id="26631" x="177743" y="93330" z="-12816" heading="57730" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="177626" y="93252" z="-12816" heading="38901" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="177469" y="93135" z="-12816" heading="39447" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="177545" y="93615" z="-12816" heading="55621" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26632" x="177365" y="93697" z="-12816" heading="55410" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="177484" y="93382" z="-12816" heading="61173" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26632" x="177366" y="93367" z="-12816" heading="35178" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26632" x="177252" y="93345" z="-12816" heading="34756" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26631" x="177315" y="93329" z="-12816" heading="62941" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26630" x="177430" y="92692" z="-12816" heading="40768" /> <!-- Chaos Golem Gunner -->
+			<npc id="26632" x="178035" y="92953" z="-12816" heading="49522" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26631" x="177962" y="92869" z="-12816" heading="41689" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="178132" y="92831" z="-12816" heading="22343" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="178235" y="92638" z="-12816" heading="21220" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="23906" x="178335" y="92777" z="-12816" heading="20065" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26632" x="177092" y="92895" z="-12816" heading="2201" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26632" x="176997" y="92786" z="-12816" heading="41674" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="177259" y="92586" z="-12816" heading="40738" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="177596" y="92608" z="-12816" heading="29591" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="177471" y="92288" z="-12816" heading="45267" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="177255" y="92302" z="-12816" heading="41064" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26632" x="177647" y="92492" z="-12816" heading="3528" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26632" x="177132" y="92399" z="-12816" heading="34620" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26632" x="177388" y="92148" z="-12816" heading="57277" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26632" x="177980" y="92261" z="-12816" heading="54262" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="177989" y="92019" z="-12816" heading="49539" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26631" x="178090" y="92330" z="-12816" heading="16798" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="177296" y="91999" z="-12816" heading="35461" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="177218" y="92168" z="-12816" heading="26906" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26633" x="177820" y="92051" z="-12816" heading="16383" /> <!-- Chaos Golems War Machine -->
+			<npc id="26630" x="177998" y="91935" z="-12816" heading="15887" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="177625" y="91938" z="-12816" heading="9297" /> <!-- Chaos Golem Gunner -->
+			<npc id="26633" x="177492" y="91322" z="-12816" heading="15061" /> <!-- Chaos Golems War Machine -->
+			<npc id="26630" x="178815" y="91821" z="-12816" heading="27188" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="178834" y="91542" z="-12816" heading="30971" /> <!-- Chaos Golem Gunner -->
+		</group>
+		<group name="ZONE_2_130" spawnByDefault="false"> <!-- Upper Deck -->
+			<npc id="26630" x="181560" y="91476" z="-12816" heading="718" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="181557" y="91653" z="-12816" heading="1140" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="181561" y="91838" z="-12816" heading="2926" /> <!-- Chaos Golem Gunner -->
+			<npc id="26631" x="181560" y="91294" z="-12816" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26632" x="181687" y="91398" z="-12816" heading="42194" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26632" x="181784" y="91538" z="-12816" heading="11769" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26631" x="181778" y="91829" z="-12816" heading="14349" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="182045" y="91907" z="-12816" heading="34969" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="23906" x="181657" y="92088" z="-12816" heading="50632" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26632" x="182633" y="91307" z="-12816" heading="32767" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26632" x="182599" y="90985" z="-12816" heading="29960" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26631" x="182338" y="91700" z="-12816" heading="231" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="182800" y="91531" z="-12816" heading="61878" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="23906" x="183459" y="91809" z="-12816" heading="30342" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="182639" y="92622" z="-12816" heading="33568" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26632" x="183419" y="92859" z="-12816" heading="35751" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26631" x="182816" y="92844" z="-12816" heading="34932" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="182519" y="92970" z="-12816" heading="42835" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26633" x="183670" y="91477" z="-12816" heading="32294" /> <!-- Chaos Golems War Machine -->
+			<npc id="26630" x="183847" y="91229" z="-12816" heading="30758" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="183913" y="91623" z="-12816" heading="33380" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="184178" y="91884" z="-12816" heading="38225" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="183665" y="92464" z="-12816" heading="41053" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="182601" y="93566" z="-12816" heading="52729" /> <!-- Chaos Golem Gunner -->
+			<npc id="26632" x="181734" y="92621" z="-12816" heading="48655" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26631" x="182170" y="92800" z="-12816" heading="37919" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26632" x="182759" y="93322" z="-12816" heading="42073" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26632" x="182633" y="93458" z="-12816" heading="41115" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26631" x="182875" y="93486" z="-12816" heading="38643" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="182786" y="93591" z="-12816" heading="23717" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26633" x="183576" y="91079" z="-12816" heading="26298" /> <!-- Chaos Golems War Machine -->
+			<npc id="26633" x="181939" y="95445" z="-12816" heading="41130" /> <!-- Chaos Golems War Machine -->
+			<npc id="26630" x="181544" y="95614" z="-12816" heading="416" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="181531" y="95326" z="-12816" heading="63943" /> <!-- Chaos Golem Gunner -->
+			<npc id="26633" x="181807" y="94604" z="-12816" heading="33127" /> <!-- Chaos Golems War Machine -->
+			<npc id="26630" x="181953" y="94439" z="-12816" heading="31470" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="181971" y="94796" z="-12816" heading="28357" /> <!-- Chaos Golem Gunner -->
+		</group>
+		<group name="ZONE_3_130" spawnByDefault="false"> <!-- Lower Deck -->
+			<npc id="26630" x="185584" y="87239" z="-13360" heading="19102" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="184708" y="86124" z="-13360" heading="13096" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="184614" y="86758" z="-13360" heading="4572" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="184460" y="88151" z="-13360" heading="48058" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="184063" y="88168" z="-13360" heading="48194" /> <!-- Chaos Golem Gunner -->
+			<npc id="26633" x="184267" y="88147" z="-13360" heading="47822" /> <!-- Chaos Golems War Machine -->
+			<npc id="23906" x="183859" y="85695" z="-13360" heading="48863" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="183765" y="84592" z="-13360" heading="13828" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="184301" y="83722" z="-13360" heading="53365" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26632" x="184391" y="87593" z="-13360" heading="39266" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26632" x="184050" y="86991" z="-13360" heading="43776" /> <!-- Chaos Dwarf Defender -->
+			<npc id="23906" x="184535" y="87326" z="-13360" heading="15640" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="184880" y="86890" z="-13360" heading="46905" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26633" x="184159" y="85268" z="-13360" heading="15281" /> <!-- Chaos Golems War Machine -->
+			<npc id="26631" x="184016" y="85257" z="-13360" heading="14137" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26632" x="184025" y="84905" z="-13360" heading="6894" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26633" x="184489" y="84523" z="-13360" heading="50973" /> <!-- Chaos Golems War Machine -->
+			<npc id="23906" x="184476" y="84100" z="-13360" heading="48831" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="184761" y="83163" z="-13360" heading="16383" /> <!-- Chaos Dwarf Walker -->
+			<npc id="23906" x="183224" y="82812" z="-13360" heading="1382" /> <!-- Chaos Dwarf Walker -->
+			<npc id="26630" x="184338" y="83411" z="-13360" heading="15792" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="184793" y="83426" z="-13360" heading="17923" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="183737" y="83381" z="-13360" heading="12872" /> <!-- Chaos Golem Gunner -->
+			<npc id="26632" x="183155" y="82826" z="-13360" heading="780" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26630" x="184032" y="83713" z="-13360" heading="12160" /> <!-- Chaos Golem Gunner -->
+			<npc id="26632" x="183885" y="83783" z="-13360" heading="65119" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26631" x="183827" y="83647" z="-13360" heading="14053" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26632" x="183954" y="83596" z="-13360" heading="61553" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26631" x="184120" y="83572" z="-13360" heading="23095" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="184584" y="83401" z="-13360" heading="16822" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26632" x="183419" y="82374" z="-13360" heading="41336" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26632" x="184329" y="82073" z="-13360" heading="21728" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26633" x="183880" y="81883" z="-13360" heading="16749" /> <!-- Chaos Golems War Machine -->
+			<npc id="26630" x="184048" y="81731" z="-13360" heading="10662" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="184137" y="81899" z="-13360" heading="17078" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="183671" y="81721" z="-13360" heading="12309" /> <!-- Chaos Golem Gunner -->
+			<npc id="26630" x="183612" y="81931" z="-13360" heading="13129" /> <!-- Chaos Golem Gunner -->
+			<npc id="26633" x="183627" y="81531" z="-13360" heading="14084" /> <!-- Chaos Golems War Machine -->
+			<npc id="26632" x="183567" y="82045" z="-13360" heading="5938" /> <!-- Chaos Dwarf Defender -->
+			<npc id="26631" x="183094" y="82978" z="-13360" heading="30786" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="183106" y="82646" z="-13360" heading="3742" /> <!-- Chaos Dwarf Guardian -->
+			<npc id="26631" x="182916" y="82815" z="-13360" heading="63881" /> <!-- Chaos Dwarf Guardian -->
+		</group>
+		<group name="UPPER_GENERATOR_130" spawnByDefault="false">
+			<npc id="18048" x="177823" y="91753" z="-12816" heading="14053" /> <!-- Upper Deck Generator 1 -->
+			<npc id="18048" x="183979" y="91397" z="-12816" heading="27131" /> <!-- Upper Deck Generator -->
+			<npc id="18048" x="182156" y="94613" z="-12816" heading="48588" /> <!-- Upper Deck Generator -->
+		</group>
+		<group name="LOWER_GENERATOR_130" spawnByDefault="false">
+			<npc id="18049" x="184281" y="88360" z="-13360" heading="65001" /> <!-- Lower Deck Generator -->
+			<npc id="18049" x="183878" y="81641" z="-13360" heading="15893" /> <!-- Lower Deck Generator -->
+		</group>
+		<group name="RAID_130" spawnByDefault="false">
+			<npc id="26634" x="183913" y="79251" z="-13616" heading="15054" /> <!-- Chaos Fortress Golem -->
+		</group>
+	</spawnlist>
+</instance>

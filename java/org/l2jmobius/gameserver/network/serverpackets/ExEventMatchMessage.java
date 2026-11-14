@@ -1,0 +1,53 @@
+/*
+ * This file is part of the L2J Mobius project.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package org.l2jmobius.gameserver.network.serverpackets;
+
+import org.l2jmobius.commons.network.buffer.WriteBuffer;
+import org.l2jmobius.gameserver.network.GameClient;
+import org.l2jmobius.gameserver.network.ServerPackets;
+
+/**
+ * This class handles the {@code ExEventMatchMessage} packet sent from the server to the client.<br>
+ * It informs the player about a match result for an event.<br>
+ * Use this class when you need to notify clients of specific event outcomes.
+ * @author janiii
+ */
+public class ExEventMatchMessage extends ServerPacket
+{
+	private final int _type;
+	private final String _message;
+	
+	/**
+	 * Creates a new {@code ExEventMatchMessage} object.<br>
+	 * This constructor initializes the event type and the display message.
+	 * @param type The integer code representing the match state.
+	 * @param message The text to display to the user if the type is 0.
+	 */
+	public ExEventMatchMessage(int type, String message)
+	{
+		_type = type;
+		_message = message;
+	}
+	
+	@Override
+	public void writeImpl(GameClient client, WriteBuffer buffer)
+	{
+		ServerPackets.EX_EVENT_MATCH_MESSAGE.writeId(this, buffer);
+		buffer.writeByte(_type);
+		buffer.writeString(_message);
+	}
+}

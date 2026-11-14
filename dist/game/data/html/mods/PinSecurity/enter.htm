@@ -1,0 +1,13 @@
+<html><body><center>
+<font color="LEVEL">Security PIN</font><br1>
+<font color="B09878">This character is protected.</font><br>
+<table width=280 bgcolor=131210>
+<tr><td align=center>%message%</td></tr>
+</table><br1>
+PIN length: <font color="LEVEL">%min% to %max%</font> digits.<br>
+<table width=240>
+<tr><td align=center><edit type="password" var="pin" width=100 height=15></td></tr>
+<tr><td align=center><button value="Unlock" action="bypass -h pinsecurity_enter $pin" width=80 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+</table>
+<font color="999999">Restart and exit are allowed while locked.</font><br>
+</center></body></html>

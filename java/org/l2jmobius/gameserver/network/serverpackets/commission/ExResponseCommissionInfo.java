@@ -1,0 +1,80 @@
+/*
+ * This file is part of the L2J Mobius project.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package org.l2jmobius.gameserver.network.serverpackets.commission;
+
+import org.l2jmobius.commons.network.buffer.WriteBuffer;
+import org.l2jmobius.gameserver.network.GameClient;
+import org.l2jmobius.gameserver.network.ServerPackets;
+import org.l2jmobius.gameserver.network.serverpackets.ServerPacket;
+
+/**
+ * This packet is sent to the client to provide information about a commission.<br>
+ * It contains the necessary data for the client to display commission details.
+ * @author NosBit
+ */
+public class ExResponseCommissionInfo extends ServerPacket
+{
+	public static final ExResponseCommissionInfo EMPTY = new ExResponseCommissionInfo();
+	
+	private final int _result;
+	private final int _itemId;
+	private final long _presetPricePerUnit;
+	private final long _presetAmount;
+	private final int _presetDurationType;
+	
+	/**
+	 * Private constructor for the {@code ExResponseCommissionInfo} class.<br>
+	 * It initializes all fields to their default values.<br>
+	 * This constructor is used to create the {@code EMPTY} constant.
+	 */
+	private ExResponseCommissionInfo()
+	{
+		_result = 0;
+		_itemId = 0;
+		_presetPricePerUnit = 0;
+		_presetAmount = 0;
+		_presetDurationType = -1;
+	}
+	
+	/**
+	 * Creates a new {@code ExResponseCommissionInfo} packet.<br>
+	 * This constructor initializes the commission data with specific values.
+	 * @param itemId The unique identifier for the item.
+	 * @param presetPricePerUnit The price assigned to each unit of the item.
+	 * @param presetAmount The total quantity of the item.
+	 * @param presetDurationType The type of duration applied to the commission.
+	 */
+	public ExResponseCommissionInfo(int itemId, long presetPricePerUnit, long presetAmount, int presetDurationType)
+	{
+		_result = 1;
+		_itemId = itemId;
+		_presetPricePerUnit = presetPricePerUnit;
+		_presetAmount = presetAmount;
+		_presetDurationType = presetDurationType;
+	}
+	
+	@Override
+	public void writeImpl(GameClient client, WriteBuffer buffer)
+	{
+		ServerPackets.EX_RESPONSE_COMMISSION_INFO.writeId(this, buffer);
+		buffer.writeInt(_result);
+		buffer.writeInt(_itemId);
+		buffer.writeLong(_presetPricePerUnit);
+		buffer.writeLong(_presetAmount);
+		buffer.writeInt(_presetDurationType);
+	}
+}

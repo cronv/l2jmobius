@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_08" minZ="-3804" maxZ="-3104">
+				<node x="107196" y="-2376" />
+				<node x="109720" y="-2056" />
+				<node x="111072" y="-416" />
+				<node x="105516" y="-356" />
+			</territory>
+		</territories>
+		<npc id="20956" count="3" respawnTime="37sec" respawnRandom="10sec" /> <!-- Knight of the Past -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_09" minZ="-4008" maxZ="-3508">
+				<node x="110088" y="-1580" />
+				<node x="115112" y="-1520" />
+				<node x="114804" y="-280" />
+				<node x="111060" y="-404" />
+			</territory>
+		</territories>
+		<npc id="20956" count="2" respawnTime="37sec" respawnRandom="10sec" /> <!-- Knight of the Past -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_10" minZ="-3892" maxZ="-3492">
+				<node x="115144" y="-1512" />
+				<node x="117840" y="-2588" />
+				<node x="119344" y="-368" />
+				<node x="114836" y="-332" />
+			</territory>
+		</territories>
+		<npc id="20956" count="4" respawnTime="37sec" respawnRandom="10sec" /> <!-- Knight of the Past -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_11" minZ="-4100" maxZ="-3200">
+				<node x="118952" y="-4504" />
+				<node x="120612" y="-4952" />
+				<node x="122356" y="-444" />
+				<node x="119372" y="-392" />
+				<node x="117856" y="-2632" />
+			</territory>
+		</territories>
+		<npc id="20956" count="2" respawnTime="37sec" respawnRandom="10sec" /> <!-- Knight of the Past -->
+		<npc id="20963" count="2" respawnTime="37sec" respawnRandom="10sec" /> <!-- Bloody Lord -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_11s" minZ="-3892" maxZ="-3492">
+				<node x="118544" y="-2648" />
+				<node x="120260" y="-3540" />
+				<node x="120544" y="-732" />
+				<node x="119456" y="-608" />
+			</territory>
+		</territories>
+		<npc id="20956" count="1" respawnTime="37sec" respawnRandom="10sec" /> <!-- Knight of the Past -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_12" minZ="-3876" maxZ="-2976">
+				<node x="120696" y="-4916" />
+				<node x="122176" y="-5392" />
+				<node x="123396" y="-2736" />
+				<node x="122284" y="-644" />
+			</territory>
+		</territories>
+		<npc id="20963" count="2" respawnTime="37sec" respawnRandom="10sec" /> <!-- Bloody Lord -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_13" minZ="-3832" maxZ="-2932">
+				<node x="122280" y="-5120" />
+				<node x="124432" y="-6468" />
+				<node x="125172" y="-3724" />
+				<node x="123412" y="-2760" />
+			</territory>
+		</territories>
+		<npc id="20963" count="1" respawnTime="37sec" respawnRandom="10sec" /> <!-- Bloody Lord -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_14" minZ="-2772" maxZ="-1872">
+				<node x="126012" y="-2848" />
+				<node x="127032" y="-2084" />
+				<node x="127176" y="-492" />
+				<node x="125740" y="-308" />
+				<node x="124092" y="-996" />
+			</territory>
+		</territories>
+		<npc id="20959" count="1" respawnTime="37sec" respawnRandom="10sec" /> <!-- Dark Guard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_15" minZ="-2956" maxZ="-1956">
+				<node x="127732" y="-3684" />
+				<node x="130308" y="-4796" />
+				<node x="129412" y="-1052" />
+				<node x="127068" y="-2128" />
+			</territory>
+		</territories>
+		<npc id="20963" count="1" respawnTime="37sec" respawnRandom="10sec" /> <!-- Bloody Lord -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_16" minZ="-3472" maxZ="-2472">
+				<node x="130128" y="-6580" />
+				<node x="130360" y="-4892" />
+				<node x="127656" y="-3760" />
+				<node x="126192" y="-4744" />
+				<node x="126880" y="-6088" />
+			</territory>
+		</territories>
+		<npc id="20959" count="1" respawnTime="37sec" respawnRandom="10sec" /> <!-- Dark Guard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_18" minZ="-3852" maxZ="-3552">
+				<node x="127544" y="-13308" />
+				<node x="130800" y="-13504" />
+				<node x="130740" y="-11212" />
+				<node x="128376" y="-10380" />
+				<node x="126412" y="-10592" />
+			</territory>
+		</territories>
+		<npc id="20959" count="2" respawnTime="37sec" respawnRandom="10sec" /> <!-- Dark Guard -->
+		<npc id="20963" count="2" respawnTime="37sec" respawnRandom="10sec" /> <!-- Bloody Lord -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_18s" minZ="-3792" maxZ="-3592">
+				<node x="127960" y="-11872" />
+				<node x="129176" y="-12456" />
+				<node x="129652" y="-11288" />
+				<node x="128240" y="-10736" />
+			</territory>
+		</territories>
+		<npc id="20959" count="2" respawnTime="37sec" respawnRandom="10sec" /> <!-- Dark Guard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_21" minZ="-3484" maxZ="-2984">
+				<node x="119140" y="-9600" />
+				<node x="120500" y="-8996" />
+				<node x="121508" y="-6688" />
+				<node x="120236" y="-6580" />
+				<node x="119324" y="-7388" />
+			</territory>
+		</territories>
+		<npc id="20963" count="2" respawnTime="37sec" respawnRandom="10sec" /> <!-- Bloody Lord -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_23" minZ="-3664" maxZ="-3364">
+				<node x="118428" y="-8156" />
+				<node x="119704" y="-7008" />
+				<node x="118980" y="-6692" />
+				<node x="117380" y="-7060" />
+				<node x="117024" y="-8164" />
+			</territory>
+		</territories>
+		<npc id="20963" count="1" respawnTime="37sec" respawnRandom="10sec" /> <!-- Bloody Lord -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden21_2317_25" minZ="-3884" maxZ="-3084">
+				<node x="113872" y="-5892" />
+				<node x="114756" y="-4500" />
+				<node x="113384" y="-2896" />
+				<node x="111164" y="-2948" />
+			</territory>
+		</territories>
+		<npc id="20956" count="1" respawnTime="37sec" respawnRandom="10sec" /> <!-- Knight of the Past -->
+		<npc id="20963" count="1" respawnTime="37sec" respawnRandom="10sec" /> <!-- Bloody Lord -->
+	</spawn>
+	<spawn name="AncientBattlegroundMonsters">
+		<group>
+			<npc id="20956" x="120616" y="-4952" z="-4000" respawnTime="37sec" /> <!-- Knight of the Past -->
+			<npc id="20956" x="121916" y="-5392" z="-3776" respawnTime="37sec" /> <!-- Knight of the Past -->
+			<npc id="20956" x="123020" y="-6468" z="-3732" respawnTime="37sec" /> <!-- Knight of the Past -->
+			<npc id="20956" x="119750" y="-9600" z="-3384" respawnTime="37sec" /> <!-- Knight of the Past -->
+			<npc id="20956" x="118070" y="-10108" z="-3248" respawnTime="37sec" /> <!-- Knight of the Past -->
+			<npc id="20956" x="117984" y="-8164" z="-3564" respawnTime="37sec" /> <!-- Knight of the Past -->
+			<npc id="20956" x="114966" y="-8048" z="-3436" respawnTime="37sec" /> <!-- Knight of the Past -->
+			<npc id="20956" x="113524" y="-5522" z="-3784" respawnTime="37sec" /> <!-- Knight of the Past -->
+			<npc id="20956" x="109677" y="-3" z="-3584" heading="13159" respawnTime="37sec" /> <!-- Knight of the Past -->
+			<npc id="20959" x="126711" y="-3499" z="-3016" heading="18124" respawnTime="37sec" /> <!-- Dark Guard -->
+			<npc id="20959" x="129734" y="-7742" z="-3872" heading="55835" respawnTime="37sec" /> <!-- Dark Guard -->
+			<npc id="20959" x="126499" y="-7972" z="-3800" heading="24953" respawnTime="37sec" /> <!-- Dark Guard -->
+			<npc id="20959" x="128015" y="-13504" z="-3752" respawnTime="37sec" /> <!-- Dark Guard -->
+			<npc id="20959" x="124862" y="-10414" z="-3808" respawnTime="37sec" /> <!-- Dark Guard -->
+			<npc id="20963" x="120717" y="-4774" z="-4000" respawnTime="37sec" /> <!-- Bloody Lord -->
+			<npc id="20963" x="122617" y="-6112" z="-3732" respawnTime="37sec" /> <!-- Bloody Lord -->
+			<npc id="20963" x="125609" y="-2492" z="-2672" respawnTime="37sec" /> <!-- Bloody Lord -->
+			<npc id="20963" x="126355" y="-4239" z="-3208" heading="28063" respawnTime="37sec" /> <!-- Bloody Lord -->
+			<npc id="20963" x="130917" y="-6675" z="-3552" heading="1535" respawnTime="37sec" /> <!-- Bloody Lord -->
+			<npc id="20963" x="127612" y="-13504" z="-3752" respawnTime="37sec" /> <!-- Bloody Lord -->
+			<npc id="20963" x="124560" y="-10592" z="-3808" respawnTime="37sec" /> <!-- Bloody Lord -->
+			<npc id="20963" x="118070" y="-9752" z="-3256" respawnTime="37sec" /> <!-- Bloody Lord -->
+			<npc id="20963" x="114865" y="-7514" z="-3436" respawnTime="37sec" /> <!-- Bloody Lord -->
+			<npc id="20963" x="115167" y="-8048" z="-3436" respawnTime="37sec" /> <!-- Bloody Lord -->
+		</group>
+	</spawn>
+</list>

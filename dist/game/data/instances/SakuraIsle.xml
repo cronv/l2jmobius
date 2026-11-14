@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sakura Isle -->
+<instance id="361" maxWorlds="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/instance.xsd">
+	<time duration="60" empty="0" />
+	<locations>
+		<enter type="FIXED">
+			<location x="148743" y="214129" z="-2032" />
+		</enter>
+		<exit type="RANDOM">
+			<location x="146918" y="26920" z="-2200" />
+		</exit>
+	</locations>
+	<conditions>
+		<condition type="Party" showMessageAndHtml="true">
+			<param name="html" value="condNoEnter.html" />
+		</condition>
+		<condition type="PartyLeader" showMessageAndHtml="true">
+			<param name="html" value="condNoEnter.html" />
+		</condition>
+		<condition type="GroupMin">
+			<param name="html" value="condNoEnter.html" />
+			<param name="limit" value="2" />
+		</condition>
+		<condition type="GroupMax">
+			<param name="limit" value="7" />
+		</condition>
+		<condition type="Level" showMessageAndHtml="true">
+			<param name="html" value="condNoEnter.html" />
+			<param name="min" value="105" />
+		</condition>
+		<condition type="Distance" />
+		<condition type="Reenter" />
+	</conditions>
+	<reenter apply="ON_FINISH">
+		<reset day="MONDAY" hour="6" minute="30" />
+		<reset day="TUESDAY" hour="6" minute="30" />
+		<reset day="WEDNESDAY" hour="6" minute="30" />
+		<reset day="THURSDAY" hour="6" minute="30" />
+		<reset day="FRIDAY" hour="6" minute="30" />
+		<reset day="SATURDAY" hour="6" minute="30" />
+		<reset day="SUNDAY" hour="6" minute="30" />
+	</reenter>
+	<spawnlist>
+		<group name="BENUSTA" spawnByDefault="false">
+			<npc id="31461" x="148936" y="214421" z="-1952" heading="42177" /> <!-- Benusta -->
+		</group>
+		<group name="GROUP_110" spawnByDefault="false">
+			<npc id="26610" x="148188" y="213144" z="-2160" heading="11164" /> <!-- Yokai Fighter -->
+			<npc id="26609" x="148347" y="213077" z="-2160" heading="11988" /> <!-- Yokai Shooter -->
+			<npc id="26608" x="148030" y="213226" z="-2160" heading="11865" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="146795" y="213470" z="-2160" /> <!-- Yokai Fighter -->
+			<npc id="26609" x="146755" y="213317" z="-2144" heading="62846" /> <!-- Yokai Shooter -->
+			<npc id="26608" x="146824" y="213620" z="-2160" heading="62463" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="145865" y="214678" z="-2160" heading="42321" /> <!-- Yokai Fighter -->
+			<npc id="26609" x="145771" y="214754" z="-2144" heading="43474" /> <!-- Yokai Shooter -->
+			<npc id="26608" x="145984" y="214629" z="-2160" heading="44315" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="146313" y="215426" z="-2144" heading="43018" /> <!-- Yokai Fighter -->
+			<npc id="26609" x="146169" y="215535" z="-2144" heading="43615" /> <!-- Yokai Shooter -->
+			<npc id="26608" x="146433" y="215295" z="-2144" heading="42296" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="146615" y="216022" z="-2096" heading="36991" /> <!-- Yokai Fighter -->
+			<npc id="26609" x="146483" y="216099" z="-2080" heading="44418" /> <!-- Yokai Shooter -->
+			<npc id="26608" x="146750" y="215935" z="-2096" heading="42682" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="146901" y="216662" z="-2016" heading="44132" /> <!-- Yokai Fighter -->
+			<npc id="26609" x="146768" y="216738" z="-2000" heading="46365" /> <!-- Yokai Shooter -->
+			<npc id="26608" x="147045" y="216611" z="-2016" heading="34826" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="147457" y="217563" z="-1904" heading="44354" /> <!-- Yokai Fighter -->
+			<npc id="26609" x="147314" y="217619" z="-1888" heading="44832" /> <!-- Yokai Shooter -->
+			<npc id="26608" x="147578" y="217506" z="-1904" heading="45688" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="147943" y="218433" z="-1648" heading="43663" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="148098" y="218374" z="-1632" heading="43130" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="147805" y="218499" z="-1648" heading="44769" /> <!-- Yokai Shooter -->
+			<npc id="26609" x="148584" y="219182" z="-1408" heading="41426" /> <!-- Yokai Shooter -->
+			<npc id="26608" x="148450" y="219314" z="-1392" heading="42014" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="148291" y="219435" z="-1392" heading="40549" /> <!-- Yokai Fighter -->
+			<npc id="26610" x="149963" y="219490" z="-1152" heading="31493" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="149985" y="219687" z="-1136" heading="32489" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="149951" y="219296" z="-1152" heading="32271" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="150642" y="219330" z="-1040" heading="29727" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="150715" y="219515" z="-1040" heading="28784" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="150611" y="219152" z="-1040" heading="29545" /> <!-- Yokai Shooter -->
+			<npc id="26608" x="151020" y="219416" z="-976" heading="29746" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="150926" y="219239" z="-1008" heading="29849" /> <!-- Yokai Fighter -->
+			<npc id="26609" x="150834" y="219073" z="-1008" heading="27559" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="151347" y="219076" z="-928" heading="29801" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="151403" y="219264" z="-928" heading="29664" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="151260" y="218903" z="-944" heading="27874" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="151654" y="218940" z="-880" heading="28799" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="151722" y="219138" z="-880" heading="28264" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="151583" y="218770" z="-880" heading="25151" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="152008" y="218787" z="-800" heading="29412" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="152085" y="218946" z="-800" heading="28190" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="151946" y="218611" z="-800" heading="26283" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="152322" y="218677" z="-736" heading="29412" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="152374" y="218846" z="-736" heading="29505" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="152206" y="218515" z="-736" heading="27076" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="152683" y="218527" z="-672" heading="27056" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="152773" y="218709" z="-656" heading="28375" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="152603" y="218374" z="-672" heading="26587" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="153025" y="218349" z="-608" heading="28626" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="153128" y="218562" z="-608" heading="29496" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="152940" y="218196" z="-608" heading="27081" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="153351" y="218226" z="-544" heading="28032" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="153463" y="218411" z="-544" heading="29190" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="153289" y="218021" z="-528" heading="23421" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="153666" y="218096" z="-496" heading="27001" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="153759" y="218296" z="-480" heading="28490" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="153542" y="217918" z="-480" heading="25029" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="153983" y="217961" z="-416" heading="28475" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="154095" y="218161" z="-400" heading="29273" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="153901" y="217769" z="-400" heading="28476" /> <!-- Yokai Shooter -->
+			<npc id="26608" x="154596" y="217714" z="-272" heading="27722" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="154660" y="217874" z="-272" heading="26529" /> <!-- Yokai Fighter -->
+			<npc id="26609" x="154531" y="217603" z="-272" heading="27059" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="155469" y="219067" z="-80" heading="54313" /> <!-- Yokai Fighter -->
+			<npc id="26609" x="155331" y="218983" z="-80" heading="53120" /> <!-- Yokai Shooter -->
+			<npc id="26608" x="155595" y="219139" z="-80" heading="52623" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="155081" y="219535" z="-80" heading="53120" /> <!-- Yokai Fighter -->
+			<npc id="26609" x="154958" y="219443" z="-80" heading="56442" /> <!-- Yokai Shooter -->
+			<npc id="26608" x="155205" y="219617" z="-80" heading="56825" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="154567" y="219988" z="-80" heading="52981" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="154750" y="220102" z="-80" heading="54566" /> <!-- Yokai Fighter -->
+			<npc id="26610" x="153952" y="220470" z="-80" heading="57166" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="154094" y="220646" z="-80" heading="55967" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="153142" y="221063" z="-80" heading="59524" /> <!-- Yokai Fighter -->
+			<npc id="26609" x="153329" y="221214" z="-96" heading="57618" /> <!-- Yokai Shooter -->
+			<npc id="26608" x="152284" y="221379" z="-64" heading="61681" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="152395" y="221588" z="-80" heading="60958" /> <!-- Yokai Fighter -->
+			<npc id="26609" x="151469" y="221774" z="-64" heading="56778" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="151598" y="221935" z="-80" heading="62495" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="150925" y="222393" z="-96" heading="59580" /> <!-- Yokai Kitsune -->
+			<npc id="26610" x="150827" y="222212" z="-80" heading="59989" /> <!-- Yokai Fighter -->
+			<npc id="26610" x="151104" y="223967" z="16" heading="44380" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="150931" y="224012" z="0" heading="47093" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="151270" y="223934" z="32" heading="43290" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="151166" y="224171" z="16" heading="45676" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="150986" y="224226" z="16" heading="48991" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="151329" y="224121" z="32" heading="46408" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="151207" y="224326" z="32" heading="46624" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="151018" y="224380" z="16" heading="49322" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="151366" y="224265" z="32" heading="42747" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="151659" y="225516" z="64" heading="45483" /> <!-- Yokai Fighter -->
+			<npc id="26610" x="151694" y="225703" z="64" heading="44741" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="151729" y="225852" z="64" heading="47930" /> <!-- Yokai Kitsune -->
+			<npc id="26608" x="151730" y="225995" z="64" heading="46147" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="151754" y="226135" z="64" heading="44808" /> <!-- Yokai Shooter -->
+			<npc id="26610" x="151936" y="225404" z="64" heading="44394" /> <!-- Yokai Fighter -->
+			<npc id="26610" x="152000" y="225603" z="64" heading="45452" /> <!-- Yokai Fighter -->
+			<npc id="26608" x="152052" y="225776" z="64" heading="44866" /> <!-- Yokai Kitsune -->
+			<npc id="26608" x="152097" y="225933" z="64" heading="43907" /> <!-- Yokai Kitsune -->
+			<npc id="26609" x="152136" y="226065" z="64" heading="41781" /> <!-- Yokai Shooter -->
+			<npc id="26611" x="152869" y="226901" z="64" heading="42900" /> <!-- Ao Oni - Yokai General -->
+		</group>
+		<group name="GROUP_120" spawnByDefault="false">
+			<npc id="26614" x="148188" y="213144" z="-2160" heading="11164" /> <!-- Yokai Fighter -->
+			<npc id="26613" x="148347" y="213077" z="-2160" heading="11988" /> <!-- Yokai Shooter -->
+			<npc id="26612" x="148030" y="213226" z="-2160" heading="11865" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="146795" y="213470" z="-2160" /> <!-- Yokai Fighter -->
+			<npc id="26613" x="146755" y="213317" z="-2144" heading="62846" /> <!-- Yokai Shooter -->
+			<npc id="26612" x="146824" y="213620" z="-2160" heading="62463" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="145865" y="214678" z="-2160" heading="42321" /> <!-- Yokai Fighter -->
+			<npc id="26613" x="145771" y="214754" z="-2144" heading="43474" /> <!-- Yokai Shooter -->
+			<npc id="26612" x="145984" y="214629" z="-2160" heading="44315" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="146313" y="215426" z="-2144" heading="43018" /> <!-- Yokai Fighter -->
+			<npc id="26613" x="146169" y="215535" z="-2144" heading="43615" /> <!-- Yokai Shooter -->
+			<npc id="26612" x="146433" y="215295" z="-2144" heading="42296" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="146615" y="216022" z="-2096" heading="36991" /> <!-- Yokai Fighter -->
+			<npc id="26613" x="146483" y="216099" z="-2080" heading="44418" /> <!-- Yokai Shooter -->
+			<npc id="26612" x="146750" y="215935" z="-2096" heading="42682" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="146901" y="216662" z="-2016" heading="44132" /> <!-- Yokai Fighter -->
+			<npc id="26613" x="146768" y="216738" z="-2000" heading="46365" /> <!-- Yokai Shooter -->
+			<npc id="26612" x="147045" y="216611" z="-2016" heading="34826" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="147457" y="217563" z="-1904" heading="44354" /> <!-- Yokai Fighter -->
+			<npc id="26613" x="147314" y="217619" z="-1888" heading="44832" /> <!-- Yokai Shooter -->
+			<npc id="26612" x="147578" y="217506" z="-1904" heading="45688" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="147943" y="218433" z="-1648" heading="43663" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="148098" y="218374" z="-1632" heading="43130" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="147805" y="218499" z="-1648" heading="44769" /> <!-- Yokai Shooter -->
+			<npc id="26613" x="148584" y="219182" z="-1408" heading="41426" /> <!-- Yokai Shooter -->
+			<npc id="26612" x="148450" y="219314" z="-1392" heading="42014" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="148291" y="219435" z="-1392" heading="40549" /> <!-- Yokai Fighter -->
+			<npc id="26614" x="149963" y="219490" z="-1152" heading="31493" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="149985" y="219687" z="-1136" heading="32489" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="149951" y="219296" z="-1152" heading="32271" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="150642" y="219330" z="-1040" heading="29727" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="150715" y="219515" z="-1040" heading="28784" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="150611" y="219152" z="-1040" heading="29545" /> <!-- Yokai Shooter -->
+			<npc id="26612" x="151020" y="219416" z="-976" heading="29746" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="150926" y="219239" z="-1008" heading="29849" /> <!-- Yokai Fighter -->
+			<npc id="26613" x="150834" y="219073" z="-1008" heading="27559" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="151347" y="219076" z="-928" heading="29801" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="151403" y="219264" z="-928" heading="29664" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="151260" y="218903" z="-944" heading="27874" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="151654" y="218940" z="-880" heading="28799" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="151722" y="219138" z="-880" heading="28264" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="151583" y="218770" z="-880" heading="25151" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="152008" y="218787" z="-800" heading="29412" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="152085" y="218946" z="-800" heading="28190" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="151946" y="218611" z="-800" heading="26283" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="152322" y="218677" z="-736" heading="29412" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="152374" y="218846" z="-736" heading="29505" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="152206" y="218515" z="-736" heading="27076" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="152683" y="218527" z="-672" heading="27056" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="152773" y="218709" z="-656" heading="28375" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="152603" y="218374" z="-672" heading="26587" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="153025" y="218349" z="-608" heading="28626" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="153128" y="218562" z="-608" heading="29496" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="152940" y="218196" z="-608" heading="27081" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="153351" y="218226" z="-544" heading="28032" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="153463" y="218411" z="-544" heading="29190" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="153289" y="218021" z="-528" heading="23421" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="153666" y="218096" z="-496" heading="27001" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="153759" y="218296" z="-480" heading="28490" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="153542" y="217918" z="-480" heading="25029" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="153983" y="217961" z="-416" heading="28475" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="154095" y="218161" z="-400" heading="29273" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="153901" y="217769" z="-400" heading="28476" /> <!-- Yokai Shooter -->
+			<npc id="26612" x="154596" y="217714" z="-272" heading="27722" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="154660" y="217874" z="-272" heading="26529" /> <!-- Yokai Fighter -->
+			<npc id="26613" x="154531" y="217603" z="-272" heading="27059" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="155469" y="219067" z="-80" heading="54313" /> <!-- Yokai Fighter -->
+			<npc id="26613" x="155331" y="218983" z="-80" heading="53120" /> <!-- Yokai Shooter -->
+			<npc id="26612" x="155595" y="219139" z="-80" heading="52623" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="155081" y="219535" z="-80" heading="53120" /> <!-- Yokai Fighter -->
+			<npc id="26613" x="154958" y="219443" z="-80" heading="56442" /> <!-- Yokai Shooter -->
+			<npc id="26612" x="155205" y="219617" z="-80" heading="56825" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="154567" y="219988" z="-80" heading="52981" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="154750" y="220102" z="-80" heading="54566" /> <!-- Yokai Fighter -->
+			<npc id="26614" x="153952" y="220470" z="-80" heading="57166" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="154094" y="220646" z="-80" heading="55967" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="153142" y="221063" z="-80" heading="59524" /> <!-- Yokai Fighter -->
+			<npc id="26613" x="153329" y="221214" z="-96" heading="57618" /> <!-- Yokai Shooter -->
+			<npc id="26612" x="152284" y="221379" z="-64" heading="61681" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="152395" y="221588" z="-80" heading="60958" /> <!-- Yokai Fighter -->
+			<npc id="26613" x="151469" y="221774" z="-64" heading="56778" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="151598" y="221935" z="-80" heading="62495" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="150925" y="222393" z="-96" heading="59580" /> <!-- Yokai Kitsune -->
+			<npc id="26614" x="150827" y="222212" z="-80" heading="59989" /> <!-- Yokai Fighter -->
+			<npc id="26614" x="151104" y="223967" z="16" heading="44380" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="150931" y="224012" z="0" heading="47093" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="151270" y="223934" z="32" heading="43290" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="151166" y="224171" z="16" heading="45676" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="150986" y="224226" z="16" heading="48991" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="151329" y="224121" z="32" heading="46408" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="151207" y="224326" z="32" heading="46624" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="151018" y="224380" z="16" heading="49322" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="151366" y="224265" z="32" heading="42747" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="151659" y="225516" z="64" heading="45483" /> <!-- Yokai Fighter -->
+			<npc id="26614" x="151694" y="225703" z="64" heading="44741" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="151729" y="225852" z="64" heading="47930" /> <!-- Yokai Kitsune -->
+			<npc id="26612" x="151730" y="225995" z="64" heading="46147" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="151754" y="226135" z="64" heading="44808" /> <!-- Yokai Shooter -->
+			<npc id="26614" x="151936" y="225404" z="64" heading="44394" /> <!-- Yokai Fighter -->
+			<npc id="26614" x="152000" y="225603" z="64" heading="45452" /> <!-- Yokai Fighter -->
+			<npc id="26612" x="152052" y="225776" z="64" heading="44866" /> <!-- Yokai Kitsune -->
+			<npc id="26612" x="152097" y="225933" z="64" heading="43907" /> <!-- Yokai Kitsune -->
+			<npc id="26613" x="152136" y="226065" z="64" heading="41781" /> <!-- Yokai Shooter -->
+			<npc id="26615" x="152869" y="226901" z="64" heading="42900" /> <!-- Kuro Oni - Yokai General -->
+		</group>
+		<group name="GROUP_130" spawnByDefault="false">
+			<npc id="26618" x="148188" y="213144" z="-2160" heading="11164" /> <!-- Yokai Fighter -->
+			<npc id="26617" x="148347" y="213077" z="-2160" heading="11988" /> <!-- Yokai Shooter -->
+			<npc id="26616" x="148030" y="213226" z="-2160" heading="11865" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="146795" y="213470" z="-2160" /> <!-- Yokai Fighter -->
+			<npc id="26617" x="146755" y="213317" z="-2144" heading="62846" /> <!-- Yokai Shooter -->
+			<npc id="26616" x="146824" y="213620" z="-2160" heading="62463" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="145865" y="214678" z="-2160" heading="42321" /> <!-- Yokai Fighter -->
+			<npc id="26617" x="145771" y="214754" z="-2144" heading="43474" /> <!-- Yokai Shooter -->
+			<npc id="26616" x="145984" y="214629" z="-2160" heading="44315" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="146313" y="215426" z="-2144" heading="43018" /> <!-- Yokai Fighter -->
+			<npc id="26617" x="146169" y="215535" z="-2144" heading="43615" /> <!-- Yokai Shooter -->
+			<npc id="26616" x="146433" y="215295" z="-2144" heading="42296" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="146615" y="216022" z="-2096" heading="36991" /> <!-- Yokai Fighter -->
+			<npc id="26617" x="146483" y="216099" z="-2080" heading="44418" /> <!-- Yokai Shooter -->
+			<npc id="26616" x="146750" y="215935" z="-2096" heading="42682" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="146901" y="216662" z="-2016" heading="44132" /> <!-- Yokai Fighter -->
+			<npc id="26617" x="146768" y="216738" z="-2000" heading="46365" /> <!-- Yokai Shooter -->
+			<npc id="26616" x="147045" y="216611" z="-2016" heading="34826" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="147457" y="217563" z="-1904" heading="44354" /> <!-- Yokai Fighter -->
+			<npc id="26617" x="147314" y="217619" z="-1888" heading="44832" /> <!-- Yokai Shooter -->
+			<npc id="26616" x="147578" y="217506" z="-1904" heading="45688" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="147943" y="218433" z="-1648" heading="43663" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="148098" y="218374" z="-1632" heading="43130" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="147805" y="218499" z="-1648" heading="44769" /> <!-- Yokai Shooter -->
+			<npc id="26617" x="148584" y="219182" z="-1408" heading="41426" /> <!-- Yokai Shooter -->
+			<npc id="26616" x="148450" y="219314" z="-1392" heading="42014" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="148291" y="219435" z="-1392" heading="40549" /> <!-- Yokai Fighter -->
+			<npc id="26618" x="149963" y="219490" z="-1152" heading="31493" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="149985" y="219687" z="-1136" heading="32489" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="149951" y="219296" z="-1152" heading="32271" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="150642" y="219330" z="-1040" heading="29727" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="150715" y="219515" z="-1040" heading="28784" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="150611" y="219152" z="-1040" heading="29545" /> <!-- Yokai Shooter -->
+			<npc id="26616" x="151020" y="219416" z="-976" heading="29746" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="150926" y="219239" z="-1008" heading="29849" /> <!-- Yokai Fighter -->
+			<npc id="26617" x="150834" y="219073" z="-1008" heading="27559" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="151347" y="219076" z="-928" heading="29801" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="151403" y="219264" z="-928" heading="29664" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="151260" y="218903" z="-944" heading="27874" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="151654" y="218940" z="-880" heading="28799" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="151722" y="219138" z="-880" heading="28264" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="151583" y="218770" z="-880" heading="25151" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="152008" y="218787" z="-800" heading="29412" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="152085" y="218946" z="-800" heading="28190" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="151946" y="218611" z="-800" heading="26283" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="152322" y="218677" z="-736" heading="29412" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="152374" y="218846" z="-736" heading="29505" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="152206" y="218515" z="-736" heading="27076" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="152683" y="218527" z="-672" heading="27056" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="152773" y="218709" z="-656" heading="28375" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="152603" y="218374" z="-672" heading="26587" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="153025" y="218349" z="-608" heading="28626" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="153128" y="218562" z="-608" heading="29496" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="152940" y="218196" z="-608" heading="27081" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="153351" y="218226" z="-544" heading="28032" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="153463" y="218411" z="-544" heading="29190" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="153289" y="218021" z="-528" heading="23421" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="153666" y="218096" z="-496" heading="27001" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="153759" y="218296" z="-480" heading="28490" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="153542" y="217918" z="-480" heading="25029" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="153983" y="217961" z="-416" heading="28475" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="154095" y="218161" z="-400" heading="29273" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="153901" y="217769" z="-400" heading="28476" /> <!-- Yokai Shooter -->
+			<npc id="26616" x="154596" y="217714" z="-272" heading="27722" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="154660" y="217874" z="-272" heading="26529" /> <!-- Yokai Fighter -->
+			<npc id="26617" x="154531" y="217603" z="-272" heading="27059" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="155469" y="219067" z="-80" heading="54313" /> <!-- Yokai Fighter -->
+			<npc id="26617" x="155331" y="218983" z="-80" heading="53120" /> <!-- Yokai Shooter -->
+			<npc id="26616" x="155595" y="219139" z="-80" heading="52623" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="155081" y="219535" z="-80" heading="53120" /> <!-- Yokai Fighter -->
+			<npc id="26617" x="154958" y="219443" z="-80" heading="56442" /> <!-- Yokai Shooter -->
+			<npc id="26616" x="155205" y="219617" z="-80" heading="56825" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="154567" y="219988" z="-80" heading="52981" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="154750" y="220102" z="-80" heading="54566" /> <!-- Yokai Fighter -->
+			<npc id="26618" x="153952" y="220470" z="-80" heading="57166" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="154094" y="220646" z="-80" heading="55967" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="153142" y="221063" z="-80" heading="59524" /> <!-- Yokai Fighter -->
+			<npc id="26617" x="153329" y="221214" z="-96" heading="57618" /> <!-- Yokai Shooter -->
+			<npc id="26616" x="152284" y="221379" z="-64" heading="61681" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="152395" y="221588" z="-80" heading="60958" /> <!-- Yokai Fighter -->
+			<npc id="26617" x="151469" y="221774" z="-64" heading="56778" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="151598" y="221935" z="-80" heading="62495" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="150925" y="222393" z="-96" heading="59580" /> <!-- Yokai Kitsune -->
+			<npc id="26618" x="150827" y="222212" z="-80" heading="59989" /> <!-- Yokai Fighter -->
+			<npc id="26618" x="151104" y="223967" z="16" heading="44380" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="150931" y="224012" z="0" heading="47093" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="151270" y="223934" z="32" heading="43290" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="151166" y="224171" z="16" heading="45676" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="150986" y="224226" z="16" heading="48991" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="151329" y="224121" z="32" heading="46408" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="151207" y="224326" z="32" heading="46624" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="151018" y="224380" z="16" heading="49322" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="151366" y="224265" z="32" heading="42747" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="151659" y="225516" z="64" heading="45483" /> <!-- Yokai Fighter -->
+			<npc id="26618" x="151694" y="225703" z="64" heading="44741" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="151729" y="225852" z="64" heading="47930" /> <!-- Yokai Kitsune -->
+			<npc id="26616" x="151730" y="225995" z="64" heading="46147" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="151754" y="226135" z="64" heading="44808" /> <!-- Yokai Shooter -->
+			<npc id="26618" x="151936" y="225404" z="64" heading="44394" /> <!-- Yokai Fighter -->
+			<npc id="26618" x="152000" y="225603" z="64" heading="45452" /> <!-- Yokai Fighter -->
+			<npc id="26616" x="152052" y="225776" z="64" heading="44866" /> <!-- Yokai Kitsune -->
+			<npc id="26616" x="152097" y="225933" z="64" heading="43907" /> <!-- Yokai Kitsune -->
+			<npc id="26617" x="152136" y="226065" z="64" heading="41781" /> <!-- Yokai Shooter -->
+			<npc id="26619" x="152869" y="226901" z="64" heading="42900" /> <!-- Aka Oni - Yokai General -->
+		</group>
+	</spawnlist>
+</instance>

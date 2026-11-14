@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="aden07_2519_o01" minZ="-5016" maxZ="-4516">
+				<node x="172672" y="41556" />
+				<node x="174836" y="42040" />
+				<node x="175084" y="44648" />
+				<node x="172776" y="43968" />
+			</territory>
+		</territories>
+		<npc id="20647" count="11" respawnTime="20sec" respawnRandom="5sec" /> <!-- Yintzu -->
+		<npc id="20648" count="14" respawnTime="20sec" respawnRandom="5sec" /> <!-- Paliote -->
+		<npc id="20649" count="9" respawnTime="20sec" respawnRandom="5sec" /> <!-- Hamrut -->
+		<npc id="20650" count="14" respawnTime="20sec" respawnRandom="5sec" /> <!-- Kranrot -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden07_2519_o02" minZ="-5016" maxZ="-4516">
+				<node x="170464" y="41148" />
+				<node x="171688" y="41528" />
+				<node x="171908" y="43920" />
+				<node x="170848" y="43584" />
+			</territory>
+		</territories>
+		<npc id="20647" count="2" respawnTime="20sec" respawnRandom="5sec" /> <!-- Yintzu -->
+		<npc id="20648" count="2" respawnTime="20sec" respawnRandom="5sec" /> <!-- Paliote -->
+		<npc id="20649" count="2" respawnTime="20sec" respawnRandom="5sec" /> <!-- Hamrut -->
+		<npc id="20650" count="2" respawnTime="20sec" respawnRandom="5sec" /> <!-- Kranrot -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden22_2519_01" minZ="-4044" maxZ="-3544">
+				<node x="165860" y="33740" />
+				<node x="167020" y="34432" />
+				<node x="168032" y="36124" />
+				<node x="167468" y="36736" />
+				<node x="167000" y="36704" />
+				<node x="165840" y="34896" />
+			</territory>
+		</territories>
+		<npc id="20679" count="3" respawnTime="27sec" /> <!-- Marsh Stalker -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden22_2519_02" minZ="-3832" maxZ="-3232">
+				<node x="163932" y="38340" />
+				<node x="166888" y="38216" />
+				<node x="167236" y="38952" />
+				<node x="166684" y="41752" />
+				<node x="165228" y="41804" />
+				<node x="163960" y="41568" />
+			</territory>
+		</territories>
+		<npc id="20679" count="10" respawnTime="27sec" /> <!-- Marsh Stalker -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden22_2519_03" minZ="-3804" maxZ="-3204">
+				<node x="164072" y="42384" />
+				<node x="166584" y="42176" />
+				<node x="166688" y="44096" />
+				<node x="163980" y="45784" />
+			</territory>
+		</territories>
+		<npc id="20679" count="6" respawnTime="27sec" /> <!-- Marsh Stalker -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden22_2519_04" minZ="-3860" maxZ="-3060">
+				<node x="163944" y="45916" />
+				<node x="166488" y="44228" />
+				<node x="168092" y="45724" />
+				<node x="167156" y="48180" />
+				<node x="163912" y="46896" />
+			</territory>
+		</territories>
+		<npc id="20679" count="6" respawnTime="27sec" /> <!-- Marsh Stalker -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden22_2519_05" minZ="-3924" maxZ="-3524">
+				<node x="168096" y="45832" />
+				<node x="169904" y="46720" />
+				<node x="170416" y="47984" />
+				<node x="169632" y="49344" />
+				<node x="167196" y="48172" />
+			</territory>
+		</territories>
+		<npc id="20679" count="6" respawnTime="27sec" /> <!-- Marsh Stalker -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden22_2519_07" minZ="-3844" maxZ="-3244">
+				<node x="163928" y="51916" />
+				<node x="164816" y="51716" />
+				<node x="165248" y="53408" />
+				<node x="165176" y="55716" />
+				<node x="163948" y="55884" />
+			</territory>
+		</territories>
+		<npc id="20679" count="3" respawnTime="27sec" /> <!-- Marsh Stalker -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden22_2519_08" minZ="-4168" maxZ="-3368">
+				<node x="163960" y="56092" />
+				<node x="165016" y="55956" />
+				<node x="166272" y="60084" />
+				<node x="165224" y="60168" />
+				<node x="163948" y="59128" />
+			</territory>
+		</territories>
+		<npc id="20679" count="2" respawnTime="27sec" /> <!-- Marsh Stalker -->
+	</spawn>
+	<spawn name="ForsakenPlains">
+		<group name="NPCs">
+			<npc id="19543" x="174470" y="40112" z="-4144" respawnTime="60sec" /> <!-- Invisible Kekropus NPC -->
+			<npc id="33961" x="169793" y="42442" z="-4816" respawnTime="60sec" /> <!-- Magic Circle Control Device -->
+			<npc id="33961" x="170516" y="42161" z="-4864" respawnTime="60sec" /> <!-- Magic Circle Control Device -->
+			<npc id="33961" x="170778" y="42851" z="-4832" respawnTime="60sec" /> <!-- Magic Circle Control Device -->
+			<npc id="33961" x="170103" y="43163" z="-4792" respawnTime="60sec" /> <!-- Magic Circle Control Device -->
+		</group>
+		<group name="Monsters">
+		</group>
+	</spawn>
+</list>

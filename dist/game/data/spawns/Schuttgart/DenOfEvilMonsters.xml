@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_01_n" minZ="-3509" maxZ="-2909">
+				<node x="72163" y="-129099" />
+				<node x="72200" y="-128690" />
+				<node x="71550" y="-128840" />
+				<node x="70954" y="-129129" />
+				<node x="71326" y="-129461" />
+				<node x="71909" y="-129402" />
+			</territory>
+		</territories>
+		<npc id="22691" count="1" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc - Spirit Infested -->
+		<npc id="22693" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Hero - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_01_s" minZ="-3486" maxZ="-2886">
+				<node x="70897" y="-128711" />
+				<node x="70943" y="-129119" />
+				<node x="71526" y="-128784" />
+				<node x="72202" y="-128683" />
+				<node x="71839" y="-128254" />
+				<node x="71328" y="-128257" />
+			</territory>
+		</territories>
+		<npc id="22691" count="2" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc - Spirit Infested -->
+		<npc id="22698" count="1" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Archer - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_02_n" minZ="-3354" maxZ="-2754">
+				<node x="76496" y="-128540" />
+				<node x="77056" y="-128044" />
+				<node x="77180" y="-127184" />
+				<node x="76792" y="-126540" />
+				<node x="75512" y="-128380" />
+			</territory>
+		</territories>
+		<npc id="22691" count="1" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc - Spirit Infested -->
+		<npc id="22697" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Priest - Spirit Infested -->
+		<npc id="22699" count="1" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Sniper - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_02_s" minZ="-3274" maxZ="-2674">
+				<node x="75056" y="-127536" />
+				<node x="75492" y="-128372" />
+				<node x="76768" y="-126528" />
+				<node x="75916" y="-126304" />
+				<node x="75164" y="-126692" />
+			</territory>
+		</territories>
+		<npc id="22691" count="1" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc - Spirit Infested -->
+		<npc id="22692" count="2" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Warrior - Spirit Infested -->
+		<npc id="22695" count="1" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+		<npc id="22699" count="1" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Sniper - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_03_n" minZ="-3242" maxZ="-2642">
+				<node x="70550" y="-126682" />
+				<node x="71467" y="-126371" />
+				<node x="71799" y="-125481" />
+				<node x="69797" y="-125977" />
+			</territory>
+		</territories>
+		<npc id="22691" count="3" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_03_s" minZ="-3242" maxZ="-2642">
+				<node x="69781" y="-125974" />
+				<node x="71808" y="-125461" />
+				<node x="71436" y="-124709" />
+				<node x="70572" y="-124477" />
+				<node x="69896" y="-125121" />
+			</territory>
+		</territories>
+		<npc id="22691" count="2" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc - Spirit Infested -->
+		<npc id="22698" count="2" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Archer - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_04_n" minZ="-3102" maxZ="-2502">
+				<node x="67237" y="-123405" />
+				<node x="68005" y="-123297" />
+				<node x="68520" y="-122769" />
+				<node x="68443" y="-121718" />
+				<node x="66568" y="-122945" />
+			</territory>
+		</territories>
+		<npc id="22692" count="3" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Warrior - Spirit Infested -->
+		<npc id="22693" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Hero - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_04_s" minZ="-3102" maxZ="-2502">
+				<node x="66555" y="-122928" />
+				<node x="68435" y="-121713" />
+				<node x="67705" y="-121202" />
+				<node x="66854" y="-121362" />
+				<node x="66414" y="-122160" />
+			</territory>
+		</territories>
+		<npc id="22692" count="1" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Warrior - Spirit Infested -->
+		<npc id="22695" count="1" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+		<npc id="22696" count="3" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Shaman - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_05_n" minZ="-3182" maxZ="-2582">
+				<node x="74350" y="-121545" />
+				<node x="72888" y="-122054" />
+				<node x="74092" y="-122942" />
+				<node x="75235" y="-122483" />
+				<node x="75900" y="-121410" />
+			</territory>
+		</territories>
+		<npc id="22692" count="3" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Warrior - Spirit Infested -->
+		<npc id="22693" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Hero - Spirit Infested -->
+		<npc id="22696" count="2" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Shaman - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_05_s" minZ="-3182" maxZ="-2582">
+				<node x="72986" y="-121007" />
+				<node x="72868" y="-122042" />
+				<node x="74281" y="-121534" />
+				<node x="75911" y="-121398" />
+				<node x="75145" y="-120613" />
+				<node x="74048" y="-120182" />
+			</territory>
+		</territories>
+		<npc id="22695" count="1" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+		<npc id="22696" count="2" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Shaman - Spirit Infested -->
+		<npc id="22697" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Priest - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_06_n" minZ="-2758" maxZ="-2158">
+				<node x="69206" y="-119762" />
+				<node x="70093" y="-120105" />
+				<node x="71008" y="-119318" />
+				<node x="71154" y="-118851" />
+				<node x="70863" y="-117843" />
+			</territory>
+		</territories>
+		<npc id="22692" count="2" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Warrior - Spirit Infested -->
+		<npc id="22693" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Hero - Spirit Infested -->
+		<npc id="22696" count="1" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Shaman - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_06_s" minZ="-2758" maxZ="-2158">
+				<node x="69197" y="-119756" />
+				<node x="70851" y="-117835" />
+				<node x="69438" y="-117958" />
+				<node x="68901" y="-118972" />
+			</territory>
+		</territories>
+		<npc id="22691" count="2" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc - Spirit Infested -->
+		<npc id="22692" count="1" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Warrior - Spirit Infested -->
+		<npc id="22695" count="1" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_07_n" minZ="-2430" maxZ="-1830">
+				<node x="74535" y="-117611" />
+				<node x="75105" y="-117044" />
+				<node x="74823" y="-116307" />
+				<node x="74332" y="-116902" />
+				<node x="73950" y="-117572" />
+			</territory>
+		</territories>
+		<npc id="22693" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Hero - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_07_s" minZ="-2430" maxZ="-1830">
+				<node x="74347" y="-116858" />
+				<node x="74819" y="-116304" />
+				<node x="74296" y="-116209" />
+				<node x="73741" y="-116477" />
+				<node x="73742" y="-117094" />
+				<node x="73945" y="-117559" />
+			</territory>
+		</territories>
+		<npc id="22692" count="3" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Warrior - Spirit Infested -->
+		<npc id="22695" count="1" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+		<npc id="22699" count="2" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Sniper - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_08_n" minZ="-2298" maxZ="-1698">
+				<node x="67749" y="-117307" />
+				<node x="68779" y="-117115" />
+				<node x="69321" y="-116311" />
+				<node x="68943" y="-115338" />
+				<node x="67023" y="-116766" />
+			</territory>
+		</territories>
+		<npc id="22692" count="3" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Warrior - Spirit Infested -->
+		<npc id="22693" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Hero - Spirit Infested -->
+		<npc id="22694" count="1" respawnTime="80sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Commander - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_08_s" minZ="-2298" maxZ="-1698">
+				<node x="67009" y="-116748" />
+				<node x="68941" y="-115328" />
+				<node x="68243" y="-114868" />
+				<node x="67503" y="-114976" />
+				<node x="66927" y="-115897" />
+			</territory>
+		</territories>
+		<npc id="22693" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Hero - Spirit Infested -->
+		<npc id="22697" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Priest - Spirit Infested -->
+		<npc id="22699" count="2" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Sniper - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_09_n" minZ="-1326" maxZ="-726">
+				<node x="69061" y="-107164" />
+				<node x="68839" y="-106768" />
+				<node x="67974" y="-107271" />
+				<node x="67063" y="-107817" />
+				<node x="67702" y="-108273" />
+				<node x="68665" y="-108073" />
+			</territory>
+		</territories>
+		<npc id="22692" count="2" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Warrior - Spirit Infested -->
+		<npc id="22693" count="2" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Hero - Spirit Infested -->
+		<npc id="22694" count="1" respawnTime="80sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Commander - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_09_s" minZ="-1326" maxZ="-726">
+				<node x="68634" y="-106361" />
+				<node x="67754" y="-106040" />
+				<node x="67104" y="-106621" />
+				<node x="66922" y="-107145" />
+				<node x="67051" y="-107803" />
+				<node x="68832" y="-106753" />
+			</territory>
+		</territories>
+		<npc id="22693" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Hero - Spirit Infested -->
+		<npc id="22697" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Priest - Spirit Infested -->
+		<npc id="22699" count="1" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Sniper - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_21" minZ="-3686" maxZ="-3086">
+				<node x="72392" y="-130748" />
+				<node x="74528" y="-130836" />
+				<node x="73812" y="-128676" />
+				<node x="71166" y="-129881" />
+			</territory>
+		</territories>
+		<npc id="22701" count="5" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_22" minZ="-3664" maxZ="-3064">
+				<node x="71075" y="-129853" />
+				<node x="73795" y="-128646" />
+				<node x="73389" y="-127626" />
+				<node x="70089" y="-128476" />
+				<node x="70412" y="-129242" />
+			</territory>
+		</territories>
+		<npc id="22701" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_23" minZ="-3612" maxZ="-3012">
+				<node x="70059" y="-128459" />
+				<node x="73381" y="-127607" />
+				<node x="73273" y="-126518" />
+				<node x="69730" y="-127185" />
+			</territory>
+		</territories>
+		<npc id="22701" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_24" minZ="-3534" maxZ="-2934">
+				<node x="69688" y="-127172" />
+				<node x="73312" y="-126428" />
+				<node x="71320" y="-123764" />
+				<node x="68800" y="-125760" />
+			</territory>
+		</territories>
+		<npc id="22701" count="4" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_25" minZ="-3478" maxZ="-2878">
+				<node x="68748" y="-125792" />
+				<node x="71300" y="-123760" />
+				<node x="71092" y="-121800" />
+				<node x="66688" y="-124148" />
+			</territory>
+		</territories>
+		<npc id="22701" count="4" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_26" minZ="-3494" maxZ="-2894">
+				<node x="66644" y="-124140" />
+				<node x="71116" y="-121742" />
+				<node x="71235" y="-120431" />
+				<node x="65691" y="-120474" />
+				<node x="65690" y="-123190" />
+			</territory>
+		</territories>
+		<npc id="22701" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_27" minZ="-3154" maxZ="-2554">
+				<node x="65732" y="-120336" />
+				<node x="71252" y="-120364" />
+				<node x="71356" y="-118612" />
+				<node x="70584" y="-116812" />
+				<node x="65869" y="-118536" />
+			</territory>
+		</territories>
+		<npc id="22701" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="2" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_28" minZ="-2582" maxZ="-1982">
+				<node x="68316" y="-117616" />
+				<node x="70500" y="-116728" />
+				<node x="68260" y="-114188" />
+				<node x="67104" y="-114472" />
+				<node x="66692" y="-117104" />
+			</territory>
+		</territories>
+		<npc id="22701" count="4" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="1" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_29" minZ="-2622" maxZ="-2022">
+				<node x="65596" y="-114984" />
+				<node x="68252" y="-114208" />
+				<node x="67480" y="-112500" />
+				<node x="67952" y="-110900" />
+				<node x="65600" y="-111780" />
+			</territory>
+		</territories>
+		<npc id="22701" count="4" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_30" minZ="-3606" maxZ="-3006">
+				<node x="74992" y="-130844" />
+				<node x="76136" y="-130872" />
+				<node x="76152" y="-129764" />
+				<node x="75004" y="-129180" />
+			</territory>
+		</territories>
+		<npc id="22701" count="4" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_31" minZ="-3574" maxZ="-2974">
+				<node x="75036" y="-129200" />
+				<node x="75900" y="-129616" />
+				<node x="76448" y="-128860" />
+				<node x="74412" y="-127932" />
+			</territory>
+		</territories>
+		<npc id="22701" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_32" minZ="-3470" maxZ="-2870">
+				<node x="76432" y="-128816" />
+				<node x="77260" y="-128596" />
+				<node x="77580" y="-127136" />
+				<node x="77084" y="-126096" />
+				<node x="74471" y="-126444" />
+				<node x="74419" y="-127926" />
+				<node x="74419" y="-127926" />
+			</territory>
+		</territories>
+		<npc id="22701" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_33" minZ="-3474" maxZ="-2874">
+				<node x="75012" y="-124796" />
+				<node x="76504" y="-124756" />
+				<node x="77256" y="-122572" />
+				<node x="72088" y="-122396" />
+			</territory>
+		</territories>
+		<npc id="22701" count="4" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_34" minZ="-3374" maxZ="-2774">
+				<node x="72196" y="-122328" />
+				<node x="77108" y="-122464" />
+				<node x="76580" y="-120584" />
+				<node x="72690" y="-119928" />
+			</territory>
+		</territories>
+		<npc id="22701" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_35" minZ="-3070" maxZ="-2470">
+				<node x="73658" y="-119430" />
+				<node x="76513" y="-119830" />
+				<node x="76335" y="-118498" />
+				<node x="75987" y="-117743" />
+				<node x="72854" y="-117829" />
+			</territory>
+		</territories>
+		<npc id="22701" count="4" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_36" minZ="-2626" maxZ="-2026">
+				<node x="72558" y="-116865" />
+				<node x="73096" y="-117765" />
+				<node x="76016" y="-117706" />
+				<node x="75336" y="-116408" />
+				<node x="73933" y="-115824" />
+				<node x="73933" y="-115824" />
+				<node x="71514" y="-116057" />
+			</territory>
+		</territories>
+		<npc id="22701" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_37" minZ="-2394" maxZ="-1794">
+				<node x="71484" y="-116029" />
+				<node x="73928" y="-115744" />
+				<node x="72912" y="-114000" />
+				<node x="70212" y="-114856" />
+			</territory>
+		</territories>
+		<npc id="22701" count="4" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_38" minZ="-1918" maxZ="-1318">
+				<node x="66080" y="-109772" />
+				<node x="68164" y="-109308" />
+				<node x="69412" y="-107596" />
+				<node x="66200" y="-108120" />
+			</territory>
+		</territories>
+		<npc id="22701" count="3" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="4" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_39" minZ="-1262" maxZ="-662">
+				<node x="66328" y="-108032" />
+				<node x="69388" y="-107596" />
+				<node x="70108" y="-105900" />
+				<node x="66484" y="-105788" />
+			</territory>
+		</territories>
+		<npc id="22701" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="1" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_40" minZ="-1222" maxZ="-622">
+				<node x="66616" y="-105804" />
+				<node x="70088" y="-105912" />
+				<node x="70660" y="-105216" />
+				<node x="67932" y="-104412" />
+			</territory>
+		</territories>
+		<npc id="22701" count="3" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="3" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_41" minZ="-1426" maxZ="-826">
+				<node x="70176" y="-107716" />
+				<node x="71544" y="-107424" />
+				<node x="71868" y="-105552" />
+				<node x="70636" y="-105172" />
+			</territory>
+		</territories>
+		<npc id="22701" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_42" minZ="-1122" maxZ="-522">
+				<node x="69552" y="-104920" />
+				<node x="71856" y="-105580" />
+				<node x="72316" y="-104112" />
+				<node x="71112" y="-103256" />
+			</territory>
+		</territories>
+		<npc id="22701" count="3" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="1" respawnTime="45sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_61" minZ="-3519" maxZ="-2919">
+				<node x="72168" y="-129117" />
+				<node x="72204" y="-128685" />
+				<node x="71840" y="-128240" />
+				<node x="71324" y="-128244" />
+				<node x="70896" y="-128712" />
+				<node x="70944" y="-129100" />
+				<node x="71348" y="-129452" />
+				<node x="71900" y="-129400" />
+			</territory>
+		</territories>
+		<npc id="18807" count="1" respawnTime="15min" respawnRandom="5min" chaseRange="1500" /> <!-- Frightened Ragna Orc -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_62" minZ="-3342" maxZ="-2742">
+				<node x="77184" y="-127180" />
+				<node x="76764" y="-126524" />
+				<node x="75916" y="-126308" />
+				<node x="75176" y="-126700" />
+				<node x="75072" y="-127552" />
+				<node x="75484" y="-128376" />
+				<node x="76492" y="-128520" />
+				<node x="77052" y="-128036" />
+			</territory>
+		</territories>
+		<npc id="18807" count="1" respawnTime="15min" respawnRandom="5min" chaseRange="1500" /> <!-- Frightened Ragna Orc -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_63" minZ="-3242" maxZ="-2642">
+				<node x="71464" y="-126372" />
+				<node x="71788" y="-125476" />
+				<node x="71416" y="-124724" />
+				<node x="70552" y="-124492" />
+				<node x="69876" y="-125136" />
+				<node x="69776" y="-125980" />
+				<node x="70556" y="-126688" />
+			</territory>
+		</territories>
+		<npc id="18807" count="1" respawnTime="15min" respawnRandom="5min" chaseRange="1500" /> <!-- Frightened Ragna Orc -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_64" minZ="-3102" maxZ="-2502">
+				<node x="68524" y="-122780" />
+				<node x="68444" y="-121724" />
+				<node x="67708" y="-121192" />
+				<node x="66844" y="-121364" />
+				<node x="66404" y="-122176" />
+				<node x="66568" y="-122952" />
+				<node x="67232" y="-123400" />
+				<node x="68012" y="-123296" />
+			</territory>
+		</territories>
+		<npc id="18807" count="1" respawnTime="15min" respawnRandom="5min" chaseRange="1500" /> <!-- Frightened Ragna Orc -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_65" minZ="-3202" maxZ="-2602">
+				<node x="75916" y="-121416" />
+				<node x="75136" y="-120628" />
+				<node x="74040" y="-120200" />
+				<node x="72960" y="-121040" />
+				<node x="72864" y="-122056" />
+				<node x="74087" y="-122960" />
+				<node x="75231" y="-122500" />
+			</territory>
+		</territories>
+		<npc id="18807" count="1" respawnTime="15min" respawnRandom="5min" chaseRange="1500" /> <!-- Frightened Ragna Orc -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_66" minZ="-2758" maxZ="-2158">
+				<node x="69187" y="-119774" />
+				<node x="70093" y="-120120" />
+				<node x="71017" y="-119331" />
+				<node x="71171" y="-118853" />
+				<node x="70857" y="-117824" />
+				<node x="69432" y="-117941" />
+				<node x="68884" y="-118969" />
+			</territory>
+		</territories>
+		<npc id="18807" count="1" respawnTime="15min" respawnRandom="5min" chaseRange="1500" /> <!-- Frightened Ragna Orc -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_67" minZ="-2466" maxZ="-1866">
+				<node x="75116" y="-117044" />
+				<node x="74824" y="-116300" />
+				<node x="74292" y="-116200" />
+				<node x="73732" y="-116476" />
+				<node x="73736" y="-117096" />
+				<node x="73952" y="-117580" />
+				<node x="74524" y="-117616" />
+			</territory>
+		</territories>
+		<npc id="18807" count="1" respawnTime="15min" respawnRandom="5min" chaseRange="1500" /> <!-- Frightened Ragna Orc -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_68" minZ="-2298" maxZ="-1698">
+				<node x="69332" y="-116324" />
+				<node x="68952" y="-115328" />
+				<node x="68240" y="-114852" />
+				<node x="67500" y="-114968" />
+				<node x="66908" y="-115888" />
+				<node x="67004" y="-116766" />
+				<node x="67740" y="-117315" />
+				<node x="68774" y="-117127" />
+			</territory>
+		</territories>
+		<npc id="18807" count="1" respawnTime="15min" respawnRandom="5min" chaseRange="1500" /> <!-- Frightened Ragna Orc -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2214_69" minZ="-1302" maxZ="-702">
+				<node x="68656" y="-108107" />
+				<node x="69063" y="-107170" />
+				<node x="68628" y="-106337" />
+				<node x="67744" y="-106032" />
+				<node x="67090" y="-106616" />
+				<node x="66910" y="-107145" />
+				<node x="67038" y="-107810" />
+				<node x="67700" y="-108282" />
+			</territory>
+		</territories>
+		<npc id="18807" count="1" respawnTime="15min" respawnRandom="5min" chaseRange="1500" /> <!-- Frightened Ragna Orc -->
+	</spawn>
+	<spawn name="DenOfEvilMonsters">
+		<group>
+			<npc id="22692" x="67528" y="-115892" z="-2168" heading="3225" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Warrior - Spirit Infested -->
+			<npc id="22694" x="68348" y="-107022" z="-1160" heading="3742" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Commander - Spirit Infested -->
+			<npc id="22694" x="74120" y="-116594" z="-2216" heading="57104" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Commander - Spirit Infested -->
+			<npc id="22694" x="74582" y="-117195" z="-2216" heading="20476" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Commander - Spirit Infested -->
+			<npc id="22694" x="74497" y="-121033" z="-3024" heading="42878" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Commander - Spirit Infested -->
+			<npc id="22694" x="74045" y="-122301" z="-3024" heading="44315" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Commander - Spirit Infested -->
+			<npc id="22694" x="76085" y="-126794" z="-3144" heading="53796" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Commander - Spirit Infested -->
+			<npc id="22694" x="75867" y="-127647" z="-3144" heading="12160" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Commander - Spirit Infested -->
+			<npc id="22695" x="67743" y="-107933" z="-1168" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+			<npc id="22695" x="67768" y="-117000" z="-2168" heading="62807" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+			<npc id="22695" x="67964" y="-116916" z="-2168" heading="17922" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+			<npc id="22695" x="74741" y="-116656" z="-2216" heading="15162" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+			<npc id="22695" x="71122" y="-129050" z="-3360" heading="29000" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+			<npc id="22695" x="68107" y="-107494" z="-1160" heading="42156" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+			<npc id="22695" x="67589" y="-106492" z="-1160" heading="612" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+			<npc id="22695" x="70249" y="-119145" z="-2528" heading="5753" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+			<npc id="22695" x="67139" y="-122627" z="-2912" heading="29990" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+			<npc id="22695" x="74698" y="-121733" z="-3024" heading="49151" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+			<npc id="22695" x="68015" y="-116050" z="-2168" heading="5546" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+			<npc id="22696" x="68200" y="-107114" z="-1160" heading="33042" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Shaman - Spirit Infested -->
+			<npc id="22696" x="69496" y="-119222" z="-2528" heading="53923" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Shaman - Spirit Infested -->
+			<npc id="22696" x="70697" y="-125799" z="-3016" heading="15616" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Shaman - Spirit Infested -->
+			<npc id="22697" x="67826" y="-116840" z="-2168" heading="7300" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Priest - Spirit Infested -->
+			<npc id="22697" x="70580" y="-125684" z="-3016" heading="5875" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Priest - Spirit Infested -->
+			<npc id="22699" x="74164" y="-121322" z="-3024" heading="2410" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Sniper - Spirit Infested -->
+			<npc id="22699" x="74412" y="-121543" z="-3024" heading="23140" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Sniper - Spirit Infested -->
+			<npc id="22699" x="74871" y="-116894" z="-2216" heading="3014" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Sniper - Spirit Infested -->
+			<npc id="22699" x="68053" y="-116806" z="-2168" heading="62890" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Sniper - Spirit Infested -->
+			<npc id="22699" x="67710" y="-107534" z="-1160" heading="21576" respawnTime="60sec" chaseRange="2000" /> <!-- Ragna Orc Sniper - Spirit Infested -->
+			<npc id="22701" x="70744" y="-129643" z="-3424" heading="1796" respawnTime="60sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+			<npc id="22701" x="76553" y="-128871" z="-3352" heading="33906" respawnTime="60sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+			<npc id="22702" x="69061" y="-114954" z="-2184" heading="9672" respawnTime="60sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+		</group>
+	</spawn>
+</list>

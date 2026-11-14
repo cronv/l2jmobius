@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="oren06_2120_04" minZ="-3700" maxZ="-3200">
+				<node x="53316" y="74393" />
+				<node x="54333" y="74550" />
+				<node x="55121" y="75617" />
+				<node x="53217" y="75174" />
+			</territory>
+		</territories>
+		<npc id="20013" count="2" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren06_2120_05" minZ="-3748" maxZ="-3248">
+				<node x="55978" y="77971" />
+				<node x="57532" y="77210" />
+				<node x="59052" y="80286" />
+				<node x="56261" y="79679" />
+			</territory>
+		</territories>
+		<npc id="20013" count="3" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren06_2120_06" minZ="-3760" maxZ="-3260">
+				<node x="56917" y="82638" />
+				<node x="57718" y="83510" />
+				<node x="56735" y="84849" />
+				<node x="54852" y="85111" />
+				<node x="55620" y="83715" />
+			</territory>
+		</territories>
+		<npc id="20013" count="3" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren06_2120_07" minZ="-3812" maxZ="-3312">
+				<node x="54901" y="85087" />
+				<node x="56548" y="84867" />
+				<node x="56490" y="87879" />
+				<node x="54520" y="87832" />
+				<node x="55152" y="86055" />
+			</territory>
+		</territories>
+		<npc id="20013" count="2" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn name="IrisLake">
+		<group>
+			<npc id="30423" x="28928" y="74248" z="-3776" heading="8192" respawnTime="60sec" /> <!-- Northwind -->
+			<npc id="31033" x="38768" y="73517" z="-3584" heading="10165" respawnTime="60sec" /> <!-- Sentinel -->
+			<npc id="31033" x="45611" y="89381" z="-3528" heading="22872" respawnTime="60sec" /> <!-- Sentinel -->
+			<npc id="31033" x="53565" y="76038" z="-3632" heading="61917" respawnTime="60sec" /> <!-- Sentinel -->
+			<npc id="31033" x="56324" y="82933" z="-3624" heading="25247" respawnTime="60sec" /> <!-- Sentinel -->
+			<npc id="30371" x="51210" y="82474" z="-3280" heading="6000" respawnTime="60sec" /> <!-- Thalia -->
+			<npc id="30749" x="63906" y="74711" z="-3760" heading="57344" respawnTime="60sec" /> <!-- Zwov - Drake -->
+			<npc id="31033" x="35872" y="78095" z="-3608" respawnTime="60sec" /> <!-- Sentinel -->
+		</group>
+	</spawn>
+</list>

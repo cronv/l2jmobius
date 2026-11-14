@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_03" minZ="-4688" maxZ="-4488">
+				<node x="84564" y="-43260" />
+				<node x="84964" y="-42420" />
+				<node x="84320" y="-41936" />
+				<node x="83596" y="-42256" />
+				<node x="83512" y="-42876" />
+			</territory>
+		</territories>
+		<npc id="22617" count="3" respawnTime="40sec" respawnRandom="30sec" chaseRange="1000" /> <!-- Spiked Stakato -->
+		<npc id="22621" count="2" respawnTime="40sec" respawnRandom="30sec" chaseRange="1000" /> <!-- Male Spiked Stakato -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_05" minZ="-5172" maxZ="-4972">
+				<node x="80148" y="-46176" />
+				<node x="80720" y="-46104" />
+				<node x="80824" y="-44060" />
+				<node x="79132" y="-43928" />
+				<node x="78868" y="-45260" />
+				<node x="79536" y="-45960" />
+			</territory>
+		</territories>
+		<npc id="22617" count="5" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato -->
+		<npc id="22621" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Male Spiked Stakato -->
+		<npc id="22625" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Cannibalistic Stakato Leader -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_07" minZ="-5176" maxZ="-4976">
+				<node x="77944" y="-48068" />
+				<node x="78328" y="-46804" />
+				<node x="77828" y="-45868" />
+				<node x="76692" y="-46284" />
+				<node x="76780" y="-47976" />
+			</territory>
+		</territories>
+		<npc id="22617" count="4" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato -->
+		<npc id="22621" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Male Spiked Stakato -->
+		<npc id="22625" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Cannibalistic Stakato Leader -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_09" minZ="-5180" maxZ="-4980">
+				<node x="76480" y="-42756" />
+				<node x="78092" y="-43092" />
+				<node x="78080" y="-42132" />
+				<node x="76384" y="-41972" />
+			</territory>
+		</territories>
+		<npc id="22618" count="3" respawnTime="40sec" respawnRandom="30sec" chaseRange="1000" /> <!-- Spiked Stakato Worker -->
+		<npc id="22621" count="3" respawnTime="40sec" respawnRandom="30sec" chaseRange="1000" /> <!-- Male Spiked Stakato -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_11" minZ="-5180" maxZ="-4980">
+				<node x="74848" y="-47572" />
+				<node x="75516" y="-47708" />
+				<node x="75932" y="-46532" />
+				<node x="75084" y="-46164" />
+				<node x="74672" y="-46456" />
+			</territory>
+		</territories>
+		<npc id="22621" count="3" respawnTime="40sec" respawnRandom="30sec" chaseRange="1000" /> <!-- Male Spiked Stakato -->
+		<npc id="22623" count="2" respawnTime="40sec" respawnRandom="30sec" chaseRange="1000" /> <!-- Spiked Stakato Wizard -->
+		<npc id="22628" count="2" respawnTime="40sec" respawnRandom="30sec" chaseRange="1000" /> <!-- Spiked Stakato Drone -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_13" minZ="-5680" maxZ="-5480">
+				<node x="78328" y="-52580" />
+				<node x="78308" y="-50448" />
+				<node x="77280" y="-49604" />
+				<node x="76452" y="-50796" />
+				<node x="76348" y="-52264" />
+			</territory>
+		</territories>
+		<npc id="22617" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato -->
+		<npc id="22621" count="4" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Male Spiked Stakato -->
+		<npc id="22625" count="4" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Cannibalistic Stakato Leader -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_15" minZ="-5676" maxZ="-5476">
+				<node x="76026" y="-55322" />
+				<node x="76244" y="-54344" />
+				<node x="75312" y="-53280" />
+				<node x="74096" y="-53928" />
+				<node x="74628" y="-55148" />
+			</territory>
+		</territories>
+		<npc id="22621" count="2" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Male Spiked Stakato -->
+		<npc id="22625" count="4" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Cannibalistic Stakato Leader -->
+		<npc id="22627" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Spiked Stakato Soldier -->
+		<npc id="22633" count="2" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Spiked Stakato Shaman -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_17" minZ="-6180" maxZ="-5980">
+				<node x="79444" y="-56776" />
+				<node x="80744" y="-56596" />
+				<node x="80996" y="-54912" />
+				<node x="78596" y="-54004" />
+				<node x="78396" y="-55772" />
+			</territory>
+		</territories>
+		<npc id="22617" count="2" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato -->
+		<npc id="22618" count="2" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato Worker -->
+		<npc id="22623" count="2" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato Wizard -->
+		<npc id="22627" count="2" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Spiked Stakato Soldier -->
+		<npc id="22628" count="2" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato Drone -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_19" minZ="-5652" maxZ="-5452">
+				<node x="80845" y="-51880" />
+				<node x="81474" y="-52038" />
+				<node x="81374" y="-51246" />
+				<node x="80327" y="-50762" />
+				<node x="80444" y="-51162" />
+			</territory>
+		</territories>
+		<npc id="22630" count="2" respawnTime="100sec" respawnRandom="100sec" chaseRange="1000" /> <!-- Spiked Stakato Nurse -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_19_e" minZ="-5684" maxZ="-5484">
+				<node x="80380" y="-52669" />
+				<node x="81150" y="-52462" />
+				<node x="80886" y="-51156" />
+				<node x="80086" y="-51235" />
+				<node x="80070" y="-52022" />
+			</territory>
+		</territories>
+		<npc id="18795" count="2" respawnTime="30min" respawnRandom="30min" chaseRange="1000" /> <!-- Bizarre Cocoon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_21" minZ="-5164" maxZ="-4964">
+				<node x="79079" y="-49383" />
+				<node x="79424" y="-49804" />
+				<node x="79917" y="-48397" />
+				<node x="79784" y="-48048" />
+				<node x="79320" y="-48324" />
+			</territory>
+		</territories>
+		<npc id="22630" count="2" respawnTime="100sec" respawnRandom="100sec" chaseRange="1000" /> <!-- Spiked Stakato Nurse -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_21_e" minZ="-5196" maxZ="-4996">
+				<node x="79925" y="-48781" />
+				<node x="80721" y="-48762" />
+				<node x="80602" y="-48473" />
+				<node x="80065" y="-48089" />
+				<node x="79341" y="-48731" />
+				<node x="79401" y="-49613" />
+				<node x="79925" y="-49728" />
+			</territory>
+		</territories>
+		<npc id="18798" count="2" respawnTime="30min" respawnRandom="30min" chaseRange="1000" /> <!-- Bizarre Cocoon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_23" minZ="-4704" maxZ="-4504">
+				<node x="82096" y="-45784" />
+				<node x="83340" y="-45936" />
+				<node x="83716" y="-44312" />
+				<node x="82288" y="-44060" />
+				<node x="81872" y="-45008" />
+			</territory>
+		</territories>
+		<npc id="22617" count="5" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato -->
+		<npc id="22623" count="2" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato Wizard -->
+		<npc id="22625" count="4" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Cannibalistic Stakato Leader -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_25" minZ="-4688" maxZ="-4488">
+				<node x="86792" y="-47416" />
+				<node x="86860" y="-46108" />
+				<node x="85368" y="-45256" />
+				<node x="84800" y="-46184" />
+				<node x="85144" y="-47640" />
+			</territory>
+		</territories>
+		<npc id="22617" count="4" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato -->
+		<npc id="22625" count="4" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Cannibalistic Stakato Leader -->
+		<npc id="22628" count="4" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato Drone -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_27" minZ="-5204" maxZ="-5004">
+				<node x="86268" y="-50896" />
+				<node x="86312" y="-49524" />
+				<node x="85512" y="-49188" />
+				<node x="84720" y="-49468" />
+				<node x="85020" y="-51372" />
+			</territory>
+		</territories>
+		<npc id="22625" count="4" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Cannibalistic Stakato Leader -->
+		<npc id="22627" count="4" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Spiked Stakato Soldier -->
+		<npc id="22628" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato Drone -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_29" minZ="-4684" maxZ="-4484">
+				<node x="81836" y="-49468" />
+				<node x="82912" y="-50216" />
+				<node x="83452" y="-49544" />
+				<node x="83164" y="-48208" />
+				<node x="81880" y="-48232" />
+			</territory>
+		</territories>
+		<npc id="22618" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato Worker -->
+		<npc id="22625" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Cannibalistic Stakato Leader -->
+		<npc id="22628" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato Drone -->
+		<npc id="22633" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Spiked Stakato Shaman -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_31" minZ="-4692" maxZ="-4492">
+				<node x="81868" y="-53240" />
+				<node x="82276" y="-54020" />
+				<node x="83240" y="-53600" />
+				<node x="83052" y="-52636" />
+				<node x="82428" y="-52544" />
+			</territory>
+		</territories>
+		<npc id="22618" count="2" respawnTime="40sec" respawnRandom="30sec" chaseRange="1000" /> <!-- Spiked Stakato Worker -->
+		<npc id="22621" count="2" respawnTime="40sec" respawnRandom="30sec" chaseRange="1000" /> <!-- Male Spiked Stakato -->
+		<npc id="22633" count="2" respawnTime="40sec" respawnRandom="30sec" chaseRange="3000" /> <!-- Spiked Stakato Shaman -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_33" minZ="-5192" maxZ="-4992">
+				<node x="84276" y="-53828" />
+				<node x="85084" y="-54488" />
+				<node x="86140" y="-53728" />
+				<node x="85940" y="-52480" />
+				<node x="84892" y="-52304" />
+			</territory>
+		</territories>
+		<npc id="22625" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Cannibalistic Stakato Leader -->
+		<npc id="22627" count="5" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Spiked Stakato Soldier -->
+		<npc id="22633" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Spiked Stakato Shaman -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_35" minZ="-5180" maxZ="-4980">
+				<node x="88552" y="-51396" />
+				<node x="89704" y="-50452" />
+				<node x="89032" y="-49292" />
+				<node x="87860" y="-49564" />
+				<node x="87524" y="-50644" />
+			</territory>
+		</territories>
+		<npc id="22623" count="5" respawnTime="64sec" respawnRandom="20sec" chaseRange="1000" /> <!-- Spiked Stakato Wizard -->
+		<npc id="22625" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Cannibalistic Stakato Leader -->
+		<npc id="22627" count="3" respawnTime="64sec" respawnRandom="20sec" chaseRange="3000" /> <!-- Spiked Stakato Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_37" minZ="-5140" maxZ="-4940">
+				<node x="88701" y="-53878" />
+				<node x="89021" y="-53358" />
+				<node x="88544" y="-52331" />
+				<node x="88476" y="-52425" />
+				<node x="88410" y="-52699" />
+			</territory>
+		</territories>
+		<npc id="22630" count="2" respawnTime="100sec" respawnRandom="100sec" chaseRange="1000" /> <!-- Spiked Stakato Nurse -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_37_e" minZ="-5172" maxZ="-4972">
+				<node x="88765" y="-53660" />
+				<node x="87924" y="-53330" />
+				<node x="87883" y="-52470" />
+				<node x="87286" y="-52707" />
+				<node x="87294" y="-53446" />
+				<node x="87501" y="-53820" />
+				<node x="88064" y="-53772" />
+				<node x="88363" y="-54097" />
+				<node x="88663" y="-54019" />
+			</territory>
+		</territories>
+		<npc id="18798" count="2" respawnTime="30min" respawnRandom="30min" chaseRange="1000" /> <!-- Bizarre Cocoon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rune15_2216_39_e" minZ="-4684" maxZ="-4484">
+				<node x="89474" y="-47122" />
+				<node x="89547" y="-46783" />
+				<node x="89327" y="-46145" />
+				<node x="88439" y="-45911" />
+				<node x="88154" y="-46515" />
+				<node x="88976" y="-46648" />
+				<node x="89055" y="-47209" />
+			</territory>
+		</territories>
+		<npc id="18798" count="1" respawnTime="2hour" respawnRandom="2hour" chaseRange="1000" /> <!-- Bizarre Cocoon -->
+	</spawn>
+	<spawn name="StakatoNestMonsters">
+		<group>
+			<npc id="18793" x="80955" y="-51686" z="-5640" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+			<npc id="18793" x="80400" y="-51558" z="-5640" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+			<npc id="18794" x="80825" y="-51839" z="-5640" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+			<npc id="18794" x="80284" y="-51703" z="-5640" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+			<npc id="18796" x="79751" y="-49352" z="-5128" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+			<npc id="18796" x="80321" y="-48669" z="-5120" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+			<npc id="18796" x="87932" y="-53200" z="-5128" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+			<npc id="18796" x="88438" y="-53545" z="-5128" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+			<npc id="18796" x="88908" y="-46416" z="-4640" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+			<npc id="18797" x="79628" y="-49458" z="-5128" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+			<npc id="18797" x="80181" y="-48835" z="-5128" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+			<npc id="18797" x="87795" y="-53365" z="-5120" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+			<npc id="18797" x="88329" y="-53683" z="-5120" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+			<npc id="18797" x="88790" y="-46568" z="-4640" respawnTime="60sec" /> <!-- Bizarre Cocoon -->
+		</group>
+	</spawn>
+</list>

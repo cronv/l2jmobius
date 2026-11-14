@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Throne of Heroes - Ferion -->
+<instance id="364" maxWorlds="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/instance.xsd">
+	<time duration="60" empty="0" />
+	<locations>
+		<enter type="FIXED">
+			<location x="11722" y="-85014" z="-10972" heading="52300" /> <!-- battle location -->
+		</enter>
+		<exit type="ORIGIN" />
+	</locations>
+	<conditions>
+		<!-- Change CommandChannel to Party if you want to allow small party groups -->
+		<condition type="CommandChannel" showMessageAndHtml="true">
+			<param name="html" value="condNoGroup.html" />
+		</condition>
+		<!-- Change CommandChannelLeaderSameClan to PartyLeaderSameClan if you want to allow small party groups -->
+		<condition type="CommandChannelLeaderSameClan">
+			<param name="html" value="condNotSameClan.html" />
+		</condition>
+		<condition type="GroupMin">
+			<param name="limit" value="2" />
+		</condition>
+		<condition type="GroupMax">
+			<param name="html" value="condBigGroup.html" />
+			<param name="limit" value="100" />
+		</condition>
+		<condition type="Level" showMessageAndHtml="true">
+			<param name="html" value="condNoLevel.html" />
+			<param name="min" value="100" />
+		</condition>
+		<condition type="Distance" />
+		<condition type="Reenter" />
+	</conditions>
+	<reenter apply="ON_FINISH">
+		<reset day="SATURDAY" hour="6" minute="30" />
+	</reenter>
+	<spawnlist>
+		<group name="FERION" spawnByDefault="false">
+			<npc id="29448" x="11756" y="-86499" z="-10944" heading="0" /> <!-- Ferion -->
+		</group>
+		<group name="FERION_MINION_PRAETORIANS" spawnByDefault="false">
+			<npc id="29449" x="11565" y="-85929" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			<npc id="29449" x="11715" y="-85929" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			<npc id="29449" x="11877" y="-85929" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			
+			<npc id="29449" x="12020" y="-85985" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			<npc id="29449" x="12217" y="-86163" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			
+			<npc id="29449" x="12239" y="-86311" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			<npc id="29449" x="12239" y="-86491" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			<npc id="29449" x="12239" y="-86649" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			
+			<npc id="29449" x="12215" y="-86801" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			<npc id="29449" x="12030" y="-86986" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+				
+			<npc id="29449" x="11894" y="-87034" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			<npc id="29449" x="11707" y="-87034" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			<npc id="29449" x="11526" y="-87034" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+				
+			<npc id="29449" x="11370" y="-86994" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			<npc id="29449" x="11211" y="-86830" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			
+			<npc id="29449" x="11160" y="-86671" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			<npc id="29449" x="11160" y="-86491" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			<npc id="29449" x="11160" y="-86300" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			
+			<npc id="29449" x="11222" y="-85984" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+			<npc id="29449" x="11374" y="-85984" z="-10960" heading="0" /> <!-- Ferion Praetorian -->
+		</group>
+	</spawnlist>
+</instance>

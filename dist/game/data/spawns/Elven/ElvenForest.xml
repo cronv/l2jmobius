@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_02" minZ="-3760" maxZ="-3360">
+				<node x="24708" y="48192" />
+				<node x="29288" y="49288" />
+				<node x="29812" y="50876" />
+				<node x="26996" y="53284" />
+				<node x="23660" y="53552" />
+				<node x="22228" y="49220" />
+			</territory>
+		</territories>
+		<npc id="20013" count="4" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_02s" minZ="-3621" maxZ="-3321">
+				<node x="23468" y="49748" />
+				<node x="25588" y="50092" />
+				<node x="26440" y="51980" />
+				<node x="24172" y="51904" />
+			</territory>
+		</territories>
+		<npc id="20013" count="1" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_03" minZ="-3744" maxZ="-3444">
+				<node x="22100" y="42756" />
+				<node x="24808" y="44356" />
+				<node x="24660" y="48212" />
+				<node x="21160" y="49704" />
+				<node x="19580" y="45916" />
+			</territory>
+		</territories>
+		<npc id="20013" count="3" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_03s" minZ="-3728" maxZ="-3528">
+				<node x="22492" y="45432" />
+				<node x="23736" y="46732" />
+				<node x="22692" y="48136" />
+				<node x="21628" y="46656" />
+			</territory>
+		</territories>
+		<npc id="20013" count="2" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_07" minZ="-3768" maxZ="-3568">
+				<node x="16564" y="42492" />
+				<node x="17236" y="41280" />
+				<node x="22060" y="42780" />
+				<node x="19560" y="45904" />
+			</territory>
+		</territories>
+		<npc id="20013" count="2" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_07s" minZ="-3772" maxZ="-3572">
+				<node x="18060" y="42996" />
+				<node x="18964" y="42428" />
+				<node x="20436" y="43088" />
+				<node x="19040" y="44252" />
+			</territory>
+		</territories>
+		<npc id="20013" count="2" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_08" minZ="-3784" maxZ="-3534">
+				<node x="19556" y="45892" />
+				<node x="16660" y="42540" />
+				<node x="15300" y="42092" />
+				<node x="14240" y="44720" />
+				<node x="15880" y="47620" />
+				<node x="21168" y="49744" />
+			</territory>
+		</territories>
+		<npc id="20013" count="2" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_08s" minZ="-3764" maxZ="-3364">
+				<node x="16536" y="44676" />
+				<node x="18188" y="45872" />
+				<node x="17952" y="47556" />
+				<node x="16056" y="46308" />
+			</territory>
+		</territories>
+		<npc id="20013" count="2" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_09" minZ="-3804" maxZ="-3604">
+				<node x="15888" y="47640" />
+				<node x="19988" y="49284" />
+				<node x="19172" y="51720" />
+				<node x="15188" y="50072" />
+			</territory>
+		</territories>
+		<npc id="20013" count="3" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_10" minZ="-3804" maxZ="-3504">
+				<node x="15196" y="50020" />
+				<node x="20712" y="52396" />
+				<node x="22032" y="54148" />
+				<node x="13700" y="54884" />
+				<node x="12552" y="53080" />
+				<node x="13200" y="51224" />
+			</territory>
+		</territories>
+		<npc id="20013" count="4" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_11" minZ="-3744" maxZ="-3344">
+				<node x="9728" y="53812" />
+				<node x="12460" y="53076" />
+				<node x="14072" y="55428" />
+				<node x="11040" y="59600" />
+				<node x="8452" y="58332" />
+			</territory>
+		</territories>
+		<npc id="20308" count="5" respawnTime="15sec" /> <!-- Hook Spider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_12" minZ="-3700" maxZ="-3300">
+				<node x="2780" y="59360" />
+				<node x="6188" y="57296" />
+				<node x="11072" y="59652" />
+				<node x="6224" y="63080" />
+			</territory>
+		</territories>
+		<npc id="20308" count="3" respawnTime="15sec" /> <!-- Hook Spider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_12s" minZ="-3716" maxZ="-3516">
+				<node x="4508" y="59844" />
+				<node x="6308" y="58356" />
+				<node x="7456" y="60412" />
+				<node x="6108" y="61564" />
+			</territory>
+		</territories>
+		<npc id="20308" count="3" respawnTime="15sec" /> <!-- Hook Spider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_14" minZ="-3792" maxZ="-3192">
+				<node x="6352" y="55148" />
+				<node x="6140" y="57332" />
+				<node x="2832" y="59312" />
+				<node x="1072" y="58400" />
+				<node x="1696" y="55320" />
+				<node x="3428" y="52980" />
+			</territory>
+		</territories>
+		<npc id="20308" count="3" respawnTime="15sec" /> <!-- Hook Spider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_15" minZ="-3776" maxZ="-3376">
+				<node x="6464" y="49776" />
+				<node x="10336" y="52268" />
+				<node x="5956" y="54748" />
+				<node x="3424" y="52924" />
+			</territory>
+		</territories>
+		<npc id="20308" count="3" respawnTime="15sec" /> <!-- Hook Spider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_16" minZ="-3784" maxZ="-3484">
+				<node x="10056" y="46604" />
+				<node x="11616" y="48148" />
+				<node x="10756" y="52484" />
+				<node x="6492" y="49696" />
+			</territory>
+		</territories>
+		<npc id="20013" count="3" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_17" minZ="-3788" maxZ="-3488">
+				<node x="12828" y="46232" />
+				<node x="14452" y="48260" />
+				<node x="13596" y="50068" />
+				<node x="10068" y="46632" />
+				<node x="10640" y="45128" />
+			</territory>
+		</territories>
+		<npc id="20013" count="2" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_20" minZ="-3668" maxZ="-3168">
+				<node x="15564" y="55744" />
+				<node x="23220" y="55496" />
+				<node x="21412" y="58540" />
+				<node x="13952" y="58876" />
+				<node x="12616" y="58324" />
+			</territory>
+		</territories>
+		<npc id="20013" count="1" respawnTime="15sec" /> <!-- Dryad -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_21" minZ="-3676" maxZ="-3276">
+				<node x="12588" y="58332" />
+				<node x="13904" y="58872" />
+				<node x="12968" y="61688" />
+				<node x="11192" y="60712" />
+			</territory>
+		</territories>
+		<npc id="20308" count="2" respawnTime="15sec" /> <!-- Hook Spider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_22" minZ="-3844" maxZ="-3444">
+				<node x="7516" y="62884" />
+				<node x="11188" y="60736" />
+				<node x="12948" y="61712" />
+				<node x="10568" y="65244" />
+				<node x="5868" y="65212" />
+			</territory>
+		</territories>
+		<npc id="20308" count="3" respawnTime="15sec" /> <!-- Hook Spider -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren04_2019_22s" minZ="-3756" maxZ="-3456">
+				<node x="9200" y="62864" />
+				<node x="10076" y="62928" />
+				<node x="10280" y="63780" />
+				<node x="9448" y="64308" />
+				<node x="8876" y="63800" />
+			</territory>
+		</territories>
+		<npc id="20308" count="2" respawnTime="15sec" /> <!-- Hook Spider -->
+	</spawn>
+	<spawn name="ElvenForest">
+		<group>
+			<npc id="31033" x="13991" y="42670" z="-3848" heading="34292" respawnTime="60sec" /> <!-- Sentinel -->
+			<npc id="31033" x="19395" y="43958" z="-3696" heading="34397" respawnTime="60sec" /> <!-- Sentinel -->
+			<npc id="31033" x="28249" y="39013" z="-3624" heading="10837" respawnTime="60sec" /> <!-- Sentinel -->
+			<npc id="31033" x="4980" y="55628" z="-3568" heading="42171" respawnTime="60sec" /> <!-- Sentinel -->
+			<npc id="31848" x="17632" y="42144" z="-3680" heading="20049" respawnTime="60sec" /> <!-- Fairy -->
+			<npc id="31848" x="25660" y="43228" z="-3624" heading="49265" respawnTime="60sec" /> <!-- Fairy -->
+			<npc id="31851" x="14318" y="52640" z="-3480" heading="62373" respawnTime="60sec" /> <!-- Treant -->
+			<npc id="31851" x="18264" y="47842" z="-3504" heading="8517" respawnTime="60sec" /> <!-- Treant -->
+			<npc id="31851" x="21382" y="47002" z="-3456" heading="47736" respawnTime="60sec" /> <!-- Treant -->
+		</group>
+	</spawn>
+</list>

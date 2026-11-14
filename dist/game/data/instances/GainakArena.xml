@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Gainak Arena -->
+<instance id="363" maxWorlds="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/instance.xsd">
+	<time duration="61" empty="0" />
+	<locations>
+		<enter type="FIXED">
+			<location x="25723" y="-125717" z="-840" heading="51210" />
+		</enter>
+		<exit type="FIXED">
+			<location x="146981" y="26877" z="-2208" />
+		</exit>
+	</locations>
+	<conditions>
+		<condition type="Party" showMessageAndHtml="true">
+			<param name="html" value="condNoEnter.html" />
+		</condition>
+		<condition type="PartyLeader" showMessageAndHtml="true">
+			<param name="html" value="condNoEnter.html" />
+		</condition>
+		<condition type="GroupMin">
+			<param name="html" value="condNoEnter.html" />
+			<param name="limit" value="2" />
+		</condition>
+		<condition type="GroupMax">
+			<param name="limit" value="7" />
+		</condition>
+		<condition type="Level" showMessageAndHtml="true">
+			<param name="html" value="condNoEnter.html" />
+			<param name="min" value="105" />
+		</condition>
+		<condition type="Distance" />
+		<condition type="Reenter" />
+	</conditions>
+	<reenter apply="ON_FINISH">
+		<reset day="MONDAY" hour="6" minute="30" />
+		<reset day="TUESDAY" hour="6" minute="30" />
+		<reset day="WEDNESDAY" hour="6" minute="30" />
+		<reset day="THURSDAY" hour="6" minute="30" />
+		<reset day="FRIDAY" hour="6" minute="30" />
+		<reset day="SATURDAY" hour="6" minute="30" />
+		<reset day="SUNDAY" hour="6" minute="30" />
+	</reenter>
+	<spawnlist>
+		<group name="BENUSTA" spawnByDefault="false">
+			<npc id="31463" x="25706" y="-125968" z="-720" heading="16383" /> <!-- Benusta -->
+		</group>
+		<!-- Lvl 110 -->
+		<group name="FIRST_RAID_110" spawnByDefault="false">
+			<npc id="26635" x="25722" y="-126318" z="-704" heading="16383" spawnAnimation="true" /> <!-- Kadzan -->
+		</group>
+		<group name="SECOND_RAID_110" spawnByDefault="false">
+			<npc id="26636" x="25722" y="-126318" z="-704" heading="16383" spawnAnimation="true" /> <!-- Grabol -->
+		</group>
+		<group name="THIRD_RAID_110" spawnByDefault="false">
+			<npc id="26637" x="25722" y="-126318" z="-704" heading="16383" spawnAnimation="true" /> <!-- Vexus -->
+		</group>
+		<!-- Lvl 120 -->
+		<group name="FIRST_RAID_120" spawnByDefault="false">
+			<npc id="26638" x="25722" y="-126318" z="-704" heading="16383" spawnAnimation="true" /> <!-- Lidakin -->
+		</group>
+		<group name="SECOND_RAID_120" spawnByDefault="false">
+			<npc id="26639" x="25722" y="-126318" z="-704" heading="16383" spawnAnimation="true" /> <!-- Talgor -->
+		</group>
+		<group name="THIRD_RAID_120" spawnByDefault="false">
+			<npc id="26640" x="25722" y="-126318" z="-704" heading="16383" spawnAnimation="true" /> <!-- Sindric -->
+		</group>
+		<!-- Lvl 130 -->
+		<group name="FIRST_RAID_130" spawnByDefault="false">
+			<npc id="26641" x="25722" y="-126318" z="-704" heading="16383" spawnAnimation="true" /> <!-- Belfus -->
+		</group>
+		<group name="SECOND_RAID_130" spawnByDefault="false">
+			<npc id="26642" x="25722" y="-126318" z="-704" heading="16383" spawnAnimation="true" /> <!-- Galatan -->
+		</group>
+		<group name="THIRD_RAID_130" spawnByDefault="false">
+			<npc id="26643" x="25722" y="-126318" z="-704" heading="16383" spawnAnimation="true" /> <!-- Godiak -->
+		</group>
+	</spawnlist>
+</instance>

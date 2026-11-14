@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/RouteData.xsd">
+	<!-- Gludio Airship -->
+	<route name="gludio_airport1" repeat="true" repeatStyle="back">
+		<target id="32628" spawnX="-148777" spawnY="254544" spawnZ="-186" />
+		<point X="-149268" Y="254124" Z="-184" delay="0" run="false" />
+		<point X="-148700" Y="254399" Z="-184" delay="0" run="false" />
+		<point X="-148313" Y="254841" Z="-184" delay="0" run="false" />
+		<point X="-148256" Y="255338" Z="-184" delay="0" run="false" />
+	</route>
+	<route name="gludio_airport2" repeat="true" repeatStyle="back">
+		<target id="32628" spawnX="-148804" spawnY="254521" spawnZ="-187" />
+		<point X="-149239" Y="254100" Z="-184" delay="0" run="false" />
+		<point X="-148671" Y="254375" Z="-184" delay="0" run="false" />
+		<point X="-148284" Y="254817" Z="-184" delay="0" run="false" />
+		<point X="-148227" Y="255314" Z="-184" delay="0" run="false" />
+	</route>
+	<route name="gludio_airport3" repeat="true" repeatStyle="back">
+		<target id="32629" spawnX="-149929" spawnY="254543" spawnZ="-187" />
+		<point X="-149469" Y="254124" Z="-184" delay="0" run="false" />
+		<point X="-150054" Y="254373" Z="-184" delay="0" run="false" />
+		<point X="-150431" Y="254837" Z="-184" delay="0" run="false" />
+		<point X="-150473" Y="255335" Z="-184" delay="0" run="false" />
+	</route>
+	<route name="gludio_airport4" repeat="true" repeatStyle="back">
+		<target id="32629" spawnX="-149909" spawnY="254506" spawnZ="-187" />
+		<point X="-149499" Y="254101" Z="-184" delay="0" run="false" />
+		<point X="-150085" Y="254350" Z="-184" delay="0" run="false" />
+		<point X="-150462" Y="254813" Z="-184" delay="0" run="false" />
+		<point X="-150504" Y="255312" Z="-184" delay="0" run="false" />
+	</route>
+</routes>

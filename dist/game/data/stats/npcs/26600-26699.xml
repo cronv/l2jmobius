@@ -1,0 +1,2614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="26600" level="110" type="Monster" name="Ronin Warrior">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="22711" /> <!-- Japanese Sword -->
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="97963.04074" hpRegen="12.4" mp="3190" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="5" critical="8" accuracy="0" attackSpeed="633" type="BOW" range="600" distance="10" width="0" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="11.7" />
+			<height normal="30.8" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skillList>
+	</npc>
+	<npc id="26601" level="110" type="Monster" name="Ronin Warrior">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="22711" /> <!-- Japanese Sword -->
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="97963.04074" hpRegen="12.4" mp="3190" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="5" critical="8" accuracy="0" attackSpeed="633" type="BOW" range="600" distance="10" width="0" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="11.7" />
+			<height normal="30.8" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skillList>
+	</npc>
+	<npc id="26602" level="110" type="Monster" name="Elite Ronin Warrior">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="22715" /> <!-- Japanese Great Spear -->
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="97963.04074" hpRegen="12.4" mp="3190" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="5" critical="8" accuracy="0" attackSpeed="633" type="BOW" range="600" distance="10" width="0" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="14.3" />
+			<height normal="37.3" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skillList>
+	</npc>
+	<npc id="26603" level="110" type="Monster" name="Elite Ronin Warrior">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="22715" /> <!-- Japanese Great Spear -->
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="97963.04074" hpRegen="12.4" mp="3190" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="5" critical="8" accuracy="0" attackSpeed="633" type="BOW" range="600" distance="10" width="0" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="14.3" />
+			<height normal="37.3" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skillList>
+	</npc>
+	<npc id="26604" level="110" type="Monster" name="Kunoichi">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="22723" /> <!-- Japanese Dual Daggers -->
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="97963.04074" hpRegen="12.4" mp="3190" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="5" critical="8" accuracy="0" attackSpeed="633" type="BOW" range="600" distance="10" width="0" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="100" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="10.4" />
+			<height normal="31.45" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skillList>
+	</npc>
+	<npc id="26605" level="110" type="Monster" name="Kunoichi">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="22723" /> <!-- Japanese Dual Daggers -->
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="97963.04074" hpRegen="12.4" mp="3190" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="5" critical="8" accuracy="0" attackSpeed="633" type="BOW" range="600" distance="10" width="0" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="100" />
+				<run ground="190" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="10.4" />
+			<height normal="31.45" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skillList>
+	</npc>
+	<npc id="26606" level="110" type="Monster" name="Ninja">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="22714" /> <!-- Japanese Fist Weapon -->
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="97963.04074" hpRegen="12.4" mp="3190" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="5" critical="8" accuracy="0" attackSpeed="633" type="BOW" range="600" distance="10" width="0" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="100" />
+				<run ground="190" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="11.7" />
+			<height normal="30.8" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skillList>
+	</npc>
+	<npc id="26607" level="110" type="Monster" name="Ninja">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="22714" /> <!-- Japanese Fist Weapon -->
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="97963.04074" hpRegen="12.4" mp="3190" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="5" critical="8" accuracy="0" attackSpeed="633" type="BOW" range="600" distance="10" width="0" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="11.7" />
+			<height normal="30.8" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skillList>
+	</npc>
+	<npc id="26608" level="110" type="Monster" name="Yokai Kitsune">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="575076" sp="517" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="684487.1902561949" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1000" />
+				<defence fire="1150" water="1150" wind="1150" earth="1150" holy="1100" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62458" level="1" /> <!-- Yokai -->
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="39.9" />
+		</collision>
+	</npc>
+	<npc id="26609" level="110" type="Monster" name="Yokai Shooter">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) -->
+		<acquire exp="575076" sp="517" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="684487.1902561949" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1000" />
+				<defence fire="1150" water="1150" wind="1150" earth="1150" holy="1100" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62458" level="1" /> <!-- Yokai -->
+		</skillList>
+		<collision>
+			<radius normal="16.9" />
+			<height normal="52.9" />
+		</collision>
+	</npc>
+	<npc id="26610" level="110" type="Monster" name="Yokai Fighter">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="575076" sp="517" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="684487.1902561949" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1000" />
+				<defence fire="1150" water="1150" wind="1150" earth="1150" holy="1100" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62458" level="1" /> <!-- Yokai -->
+		</skillList>
+		<collision>
+			<radius normal="16.9" />
+			<height normal="52.9" />
+		</collision>
+	</npc>
+	<npc id="26611" level="110" type="RaidBoss" name="Ao Oni" title="Yokai General">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1380184080" sp="1242165" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="12560800" hpRegen="12.4" mp="59126" mpRegen="30" />
+			<attack physical="591196" magical="52224" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="353024" magical="132104" />
+			<speed>
+				<walk ground="120" />
+				<run ground="360" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1200" />
+				<defence fire="1300" water="1300" wind="1300" earth="1300" holy="1250" dark="1300" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62457" level="1" /> <!-- Yokai General -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="30" />
+			<height normal="89" />
+		</collision>
+	</npc>
+	<npc id="26612" level="120" type="Monster" name="Yokai Kitsune">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1346292" sp="1211" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="874926" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1750" />
+				<defence fire="1900" water="1900" wind="1900" earth="1900" holy="1850" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62458" level="2" /> <!-- Yokai -->
+			<skill id="62459" level="1" /> <!-- Yokai's Debuff Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="39.9" />
+		</collision>
+	</npc>
+	<npc id="26613" level="120" type="Monster" name="Yokai Shooter">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) -->
+		<acquire exp="1346292" sp="1211" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="874926" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1750" />
+				<defence fire="1900" water="1900" wind="1900" earth="1900" holy="1850" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62458" level="2" /> <!-- Yokai -->
+			<skill id="62459" level="1" /> <!-- Yokai's Debuff Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="16.9" />
+			<height normal="52.9" />
+		</collision>
+	</npc>
+	<npc id="26614" level="120" type="Monster" name="Yokai Fighter">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1346292" sp="1211" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="874926" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1750" />
+				<defence fire="1900" water="1900" wind="1900" earth="1900" holy="1850" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62458" level="2" /> <!-- Yokai -->
+			<skill id="62459" level="1" /> <!-- Yokai's Debuff Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="16.9" />
+			<height normal="52.9" />
+		</collision>
+	</npc>
+	<npc id="26615" level="120" type="RaidBoss" name="Kuro Oni" title="Yokai General">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="3231100800" sp="2907990" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15654042.774566473" hpRegen="13.4" mp="59126" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="120" />
+				<run ground="360" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1950" />
+				<defence fire="2050" water="2050" wind="2050" earth="2050" holy="2000" dark="2050" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62457" level="2" /> <!-- Yokai General -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="30" />
+			<height normal="89" />
+		</collision>
+	</npc>
+	<npc id="26616" level="130" type="Monster" name="Yokai Kitsune">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="3108146" sp="2797" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3357302" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2500" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2600" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62458" level="3" /> <!-- Yokai -->
+			<skill id="62459" level="1" /> <!-- Yokai's Debuff Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="39.9" />
+		</collision>
+	</npc>
+	<npc id="26617" level="130" type="Monster" name="Yokai Shooter">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) -->
+		<acquire exp="3108146" sp="2797" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3357302" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2500" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2600" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62458" level="3" /> <!-- Yokai -->
+			<skill id="62459" level="1" /> <!-- Yokai's Debuff Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="16.9" />
+			<height normal="52.9" />
+		</collision>
+	</npc>
+	<npc id="26618" level="130" type="Monster" name="Yokai Fighter">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="3108146" sp="2797" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3357302" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2500" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2600" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62458" level="3" /> <!-- Yokai -->
+			<skill id="62459" level="1" /> <!-- Yokai's Debuff Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="16.9" />
+			<height normal="52.9" />
+		</collision>
+	</npc>
+	<npc id="26619" level="130" type="RaidBoss" name="Aka Oni" title="Yokai General">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="7459551840" sp="6713596" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="64689154.9132948" hpRegen="13.4" mp="59126" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="120" />
+				<run ground="360" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2700" />
+				<defence fire="2800" water="2800" wind="2800" earth="2800" holy="2750" dark="2800" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62457" level="3" /> <!-- Yokai General -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="30" />
+			<height normal="89" />
+		</collision>
+	</npc>
+	<npc id="26620" level="110" type="Monster" name="Chaos Golem Gunner">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="575076" sp="517" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="684487.1902561949" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="80" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="1000" />
+				<defence fire="1150" water="1150" wind="1100" earth="1150" holy="1150" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62470" level="1" /> <!-- Chaos' Air Fortress Legion -->
+		</skillList>
+		<collision>
+			<radius normal="25.1" />
+			<height normal="63.3" />
+		</collision>
+	</npc>
+	<npc id="26621" level="110" type="Monster" name="Chaos Dwarf Guardian">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15304" /> <!-- Transparent Crossbow (NPC) -->
+		<acquire exp="575076" sp="517" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="684487.1902561949" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="CROSSBOW" range="900" distance="10" width="0" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="1000" />
+				<defence fire="1150" water="1150" wind="1100" earth="1150" holy="1150" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="18" /> <!-- Dwarves -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62470" level="1" /> <!-- Chaos' Air Fortress Legion -->
+		</skillList>
+		<collision>
+			<radius normal="10.8" />
+			<height normal="24.6" />
+		</collision>
+	</npc>
+	<npc id="26622" level="110" type="Monster" name="Chaos Dwarf Defender">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<acquire exp="575076" sp="517" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="684487.1902561949" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="35" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="1000" />
+				<defence fire="1150" water="1150" wind="1100" earth="1150" holy="1150" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="18" /> <!-- Dwarves -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62470" level="1" /> <!-- Chaos' Air Fortress Legion -->
+		</skillList>
+		<collision>
+			<radius normal="14.4" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="26623" level="110" type="Monster" name="Chaos Golems' War Machine">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="575076" sp="517" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="684487.1902561949" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="87" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="1000" />
+				<defence fire="1150" water="1150" wind="1100" earth="1150" holy="1150" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62470" level="1" /> <!-- Chaos' Air Fortress Legion -->
+		</skillList>
+		<collision>
+			<radius normal="35.2" />
+			<height normal="65.3" />
+		</collision>
+	</npc>
+	<npc id="26624" level="110" type="RaidBoss" name="Chaos' Fortress Golem 1" title="New Ultimate Weapon">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1380184080" sp="1242165" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="12560800" hpRegen="12.4" mp="59126" mpRegen="30" />
+			<attack physical="591196" magical="52224" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="353024" magical="132104" />
+			<speed>
+				<walk ground="120" />
+				<run ground="240" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="1200" />
+				<defence fire="1300" water="1300" wind="1250" earth="1300" holy="1300" dark="1300" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62472" level="1" /> <!-- Chaos' Fortress Golem -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="52.5" />
+			<height normal="126" />
+		</collision>
+	</npc>
+	<npc id="26625" level="120" type="Monster" name="Chaos Golem Gunner">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1346292" sp="1211" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="874926" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="80" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="1750" />
+				<defence fire="1900" water="1900" wind="1850" earth="1900" holy="1900" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62470" level="2" /> <!-- Chaos' Air Fortress Legion -->
+			<skill id="62471" level="1" /> <!-- Chaos' Fortress Debuff Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="25.1" />
+			<height normal="63.3" />
+		</collision>
+	</npc>
+	<npc id="26626" level="120" type="Monster" name="Chaos Dwarf Guardian">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15304" /> <!-- Transparent Crossbow (NPC) -->
+		<acquire exp="1346292" sp="1211" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="874926" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="CROSSBOW" range="900" distance="10" width="0" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="1750" />
+				<defence fire="1900" water="1900" wind="1850" earth="1900" holy="1900" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="18" /> <!-- Dwarves -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62470" level="2" /> <!-- Chaos' Air Fortress Legion -->
+			<skill id="62471" level="1" /> <!-- Chaos' Fortress Debuff Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="10.8" />
+			<height normal="24.6" />
+		</collision>
+	</npc>
+	<npc id="26627" level="120" type="Monster" name="Chaos Dwarf Defender">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1346292" sp="1211" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="874926" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="35" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="1750" />
+				<defence fire="1900" water="1900" wind="1850" earth="1900" holy="1900" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="18" /> <!-- Dwarves -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62470" level="2" /> <!-- Chaos' Air Fortress Legion -->
+			<skill id="62471" level="1" /> <!-- Chaos' Fortress Debuff Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="14.4" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="26628" level="120" type="Monster" name="Chaos Golems' War Machine">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1346292" sp="1211" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="874926" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="87" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="1750" />
+				<defence fire="1900" water="1900" wind="1850" earth="1900" holy="1900" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62470" level="2" /> <!-- Chaos' Air Fortress Legion -->
+			<skill id="62471" level="1" /> <!-- Chaos' Fortress Debuff Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="35.2" />
+			<height normal="65.3" />
+		</collision>
+	</npc>
+	<npc id="26629" level="120" type="RaidBoss" name="Chaos' Fortress Golem 2" title="New Ultimate Weapon">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="3231100800" sp="2907990" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15654042.774566473" hpRegen="13.4" mp="59126" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="120" />
+				<run ground="240" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="1950" />
+				<defence fire="2050" water="2050" wind="2000" earth="2050" holy="2050" dark="2050" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62472" level="2" /> <!-- Chaos' Fortress Golem -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="52.5" />
+			<height normal="126" />
+		</collision>
+	</npc>
+	<npc id="26630" level="130" type="Monster" name="Chaos Golem Gunner">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="3108146" sp="2797" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3357302" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="80" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="2500" />
+				<defence fire="2650" water="2650" wind="2600" earth="2650" holy="2650" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62470" level="3" /> <!-- Chaos' Air Fortress Legion -->
+			<skill id="62471" level="1" /> <!-- Chaos' Fortress Debuff Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="25.1" />
+			<height normal="63.3" />
+		</collision>
+	</npc>
+	<npc id="26631" level="130" type="Monster" name="Chaos Dwarf Guardian">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15304" /> <!-- Transparent Crossbow (NPC) -->
+		<acquire exp="3108146" sp="2797" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3357302" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="CROSSBOW" range="900" distance="10" width="0" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="2500" />
+				<defence fire="2650" water="2650" wind="2600" earth="2650" holy="2650" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="18" /> <!-- Dwarves -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62470" level="3" /> <!-- Chaos' Air Fortress Legion -->
+			<skill id="62471" level="1" /> <!-- Chaos' Fortress Debuff Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="10.8" />
+			<height normal="24.6" />
+		</collision>
+	</npc>
+	<npc id="26632" level="130" type="Monster" name="Chaos Dwarf Defender">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<acquire exp="3108146" sp="2797" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3357302" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="35" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="2500" />
+				<defence fire="2650" water="2650" wind="2600" earth="2650" holy="2650" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="18" /> <!-- Dwarves -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62470" level="3" /> <!-- Chaos' Air Fortress Legion -->
+			<skill id="62471" level="1" /> <!-- Chaos' Fortress Debuff Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="14.4" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="26633" level="130" type="Monster" name="Chaos Golems' War Machine">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="3108146" sp="2797" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3357302" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="87" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="2500" />
+				<defence fire="2650" water="2650" wind="2600" earth="2650" holy="2650" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62470" level="3" /> <!-- Chaos' Air Fortress Legion -->
+			<skill id="62471" level="1" /> <!-- Chaos' Fortress Debuff Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="35.2" />
+			<height normal="65.3" />
+		</collision>
+	</npc>
+	<npc id="26634" level="130" type="RaidBoss" name="Chaos' Fortress Golem 3" title="New Ultimate Weapon">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="7459551840" sp="6713596" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="64689154.9132948" hpRegen="13.4" mp="59126" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="120" />
+				<run ground="240" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="2700" />
+				<defence fire="2800" water="2800" wind="2750" earth="2800" holy="2800" dark="2800" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62472" level="3" /> <!-- Chaos' Fortress Golem -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="52.5" />
+			<height normal="126" />
+		</collision>
+	</npc>
+	<npc id="26635" level="110" type="RaidBoss" name="Kadzan" title="Plague Executioner">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="345046020" sp="310541" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="12560800" hpRegen="12.4" mp="59126" mpRegen="30" />
+			<attack physical="591196" magical="52224" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="353024" magical="132104" />
+			<speed>
+				<walk ground="75" />
+				<run ground="210" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1200" />
+				<defence fire="1300" water="1300" wind="1300" earth="1300" holy="1250" dark="1300" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62480" level="1" /> <!-- Plague Executioner Kajan -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="18" />
+			<height normal="60" />
+		</collision>
+	</npc>
+	<npc id="26636" level="110" type="RaidBoss" name="Grabol" title="Sinister Messenger">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="345046020" sp="310541" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="12560800" hpRegen="12.4" mp="59126" mpRegen="30" />
+			<attack physical="591196" magical="52224" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="353024" magical="132104" />
+			<speed>
+				<walk ground="45" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="1200" />
+				<defence fire="1300" water="1300" wind="1250" earth="1300" holy="1300" dark="1300" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62483" level="1" /> <!-- Sinister Messenger Grabol -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="22.5" />
+			<height normal="66" />
+		</collision>
+	</npc>
+	<npc id="26637" level="110" type="RaidBoss" name="Vexus" title="Ghost Knight">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="690092040" sp="621082" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="12560800" hpRegen="12.4" mp="59126" mpRegen="30" />
+			<attack physical="591196" magical="52224" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="353024" magical="132104" />
+			<speed>
+				<walk ground="100" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1200" />
+				<defence fire="1300" water="1300" wind="1300" earth="1300" holy="1250" dark="1300" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62486" level="1" /> <!-- Ghost Knight Vexus -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="42" />
+			<height normal="93" />
+		</collision>
+	</npc>
+	<npc id="26638" level="120" type="RaidBoss" name="Lidakin" title="Plague Executioner">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="807775200" sp="726997" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15654042.774566473" hpRegen="13.4" mp="59126" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="75" />
+				<run ground="210" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1950" />
+				<defence fire="2050" water="2050" wind="2050" earth="2050" holy="2000" dark="2050" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62481" level="1" /> <!-- Plague Executioner Lidakin -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="18" />
+			<height normal="60" />
+		</collision>
+	</npc>
+	<npc id="26639" level="120" type="RaidBoss" name="Talgor" title="Sinister Messenger">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="807775200" sp="726997" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15654042.774566473" hpRegen="13.4" mp="59126" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="68" />
+				<run ground="230" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="1950" />
+				<defence fire="2050" water="2050" wind="2000" earth="2050" holy="2050" dark="2050" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62484" level="1" /> <!-- Sinister Messenger Talgor -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="22.5" />
+			<height normal="66" />
+		</collision>
+	</npc>
+	<npc id="26640" level="120" type="RaidBoss" name="Sindric" title="Ghost Knight">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1615550400" sp="1453995" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15654042.774566473" hpRegen="13.4" mp="59126" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="135" />
+				<run ground="270" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1950" />
+				<defence fire="2050" water="2050" wind="2050" earth="2050" holy="2000" dark="2050" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62487" level="1" /> <!-- Ghost Knight Sindrick -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="42" />
+			<height normal="93" />
+		</collision>
+	</npc>
+	<npc id="26641" level="130" type="RaidBoss" name="Belfus" title="Plague Executioner">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1864887960" sp="1678399" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="64689154.9132948" hpRegen="13.4" mp="59126" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="75" />
+				<run ground="210" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2700" />
+				<defence fire="2800" water="2800" wind="2800" earth="2800" holy="2750" dark="2800" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62482" level="1" /> <!-- Plague Executioner Belfus -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="18" />
+			<height normal="60" />
+		</collision>
+	</npc>
+	<npc id="26642" level="130" type="RaidBoss" name="Galatan" title="Sinister Messenger">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1864887960" sp="1678399" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="64689154.9132948" hpRegen="13.4" mp="59126" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="68" />
+				<run ground="230" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="2700" />
+				<defence fire="2800" water="2800" wind="2750" earth="2800" holy="2800" dark="2800" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62485" level="1" /> <!-- Sinister Messenger Galatan -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="22.5" />
+			<height normal="66" />
+		</collision>
+	</npc>
+	<npc id="26643" level="130" type="RaidBoss" name="Godiak" title="Ghost Knight">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="3729775920" sp="3356798" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="64689154.9132948" hpRegen="13.4" mp="59126" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="135" />
+				<run ground="270" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2700" />
+				<defence fire="2800" water="2800" wind="2800" earth="2800" holy="2750" dark="2800" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62488" level="1" /> <!-- Ghost Knight Godiak -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="42" />
+			<height normal="93" />
+		</collision>
+	</npc>
+	<npc id="26644" level="110" type="Monster" name="Einhasad's Statue" title="Blood Seal">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="57507670" sp="51756" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="276076.4384712306" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="5" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62608" level="1" /> <!-- Demon's Statue -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="96" />
+			<height normal="183.4" />
+		</collision>
+	</npc>
+	<npc id="26645" level="110" type="Monster" name="Einhasad's Statue" title="Gnosis Seal">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="57507670" sp="51756" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="276076.4384712306" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="5" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62608" level="1" /> <!-- Demon's Statue -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="96" />
+			<height normal="183.4" />
+		</collision>
+	</npc>
+	<npc id="26646" level="110" type="Monster" name="Einhasad's Statue" title="Radiance Seal">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="57507670" sp="51756" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="276076.4384712306" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="5" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62608" level="1" /> <!-- Demon's Statue -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="96" />
+			<height normal="183.4" />
+		</collision>
+	</npc>
+	<npc id="26647" level="110" type="Monster" name="Einhasad's Statue" title="Restoration Seal">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="57507670" sp="51756" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="276076.4384712306" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="5" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62608" level="1" /> <!-- Demon's Statue -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="96" />
+			<height normal="183.4" />
+		</collision>
+	</npc>
+	<npc id="26648" level="110" type="Monster" name="Velkir" title="Fallen Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<sex>FEMALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="456324.6535069299" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1000" />
+				<defence fire="1150" water="1150" wind="1150" earth="1150" holy="1100" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skillList>
+		<collision>
+			<radius normal="33" />
+			<height normal="171" />
+		</collision>
+	</npc>
+	<npc id="26649" level="110" type="Monster" name="Grand Temple's Guardian">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="456324.6535069299" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1000" />
+				<defence fire="1150" water="1150" wind="1150" earth="1150" holy="1100" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="16" />
+			<height normal="32.5" />
+		</collision>
+	</npc>
+	<npc id="26650" level="110" type="Monster" name="Temple Executor">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="456324.6535069299" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1000" />
+				<defence fire="1150" water="1150" wind="1150" earth="1150" holy="1100" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="16.5" />
+			<height normal="48" />
+		</collision>
+	</npc>
+	<npc id="26651" level="110" type="Monster" name="Priest of Blood" title="Blood Seal Keeper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="456324.6535069299" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1000" />
+				<defence fire="1150" water="1150" wind="1150" earth="1150" holy="1100" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="14" />
+			<height normal="34.5" />
+		</collision>
+	</npc>
+	<npc id="26652" level="110" type="Monster" name="Judge of Gnosis" title="Gnosis Seal Keeper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="456324.6535069299" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1000" />
+				<defence fire="1150" water="1150" wind="1150" earth="1150" holy="1100" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="14" />
+			<height normal="41" />
+		</collision>
+	</npc>
+	<npc id="26653" level="110" type="Monster" name="Death Messenger" title="Radiance Seal Keeper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="456324.6535069299" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1000" />
+				<defence fire="1150" water="1150" wind="1150" earth="1150" holy="1100" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="14" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="26654" level="110" type="Monster" name="Zealot of Restoration" title="Restoration Seal Keeper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="456324.6535069299" hpRegen="12.4" mp="2781" mpRegen="30" />
+			<attack physical="147799" magical="13056" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="88256" magical="33026" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1000" />
+				<defence fire="1150" water="1150" wind="1150" earth="1150" holy="1100" dark="1150" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="22" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="26655" level="110" type="RaidBoss" name="Velkir" title="Corrupted High Priest">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1150153400" sp="1035138" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="12560800" hpRegen="12.4" mp="59126" mpRegen="30" />
+			<attack physical="591196" magical="52224" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="353024" magical="132104" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1200" />
+				<defence fire="1300" water="1300" wind="1300" earth="1300" holy="1250" dark="1300" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62574" level="1" /> <!-- Corrupted High Priest Velkir -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="33" />
+			<height normal="91.5" />
+		</collision>
+	</npc>
+	<npc id="26656" level="120" type="Monster" name="Einhasad's Statue" title="Blood Seal">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="134629200" sp="121166" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="380155" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="5" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62608" level="2" /> <!-- Demon's Statue -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="96" />
+			<height normal="183.4" />
+		</collision>
+	</npc>
+	<npc id="26657" level="120" type="Monster" name="Einhasad's Statue" title="Gnosis Seal">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="134629200" sp="121166" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="380155" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="5" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62608" level="2" /> <!-- Demon's Statue -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="96" />
+			<height normal="183.4" />
+		</collision>
+	</npc>
+	<npc id="26658" level="120" type="Monster" name="Einhasad's Statue" title="Radiance Seal">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="134629200" sp="121166" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="380155" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="5" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62608" level="2" /> <!-- Demon's Statue -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="96" />
+			<height normal="183.4" />
+		</collision>
+	</npc>
+	<npc id="26659" level="120" type="Monster" name="Einhasad's Statue" title="Restoration Seal">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="134629200" sp="121166" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="380155" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="5" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62608" level="2" /> <!-- Demon's Statue -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="96" />
+			<height normal="183.4" />
+		</collision>
+	</npc>
+	<npc id="26660" level="120" type="Monster" name="Radiges" title="Fallen Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="577451" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1750" />
+				<defence fire="1900" water="1900" wind="1900" earth="1900" holy="1850" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skillList>
+		<collision>
+			<radius normal="33" />
+			<height normal="171" />
+		</collision>
+	</npc>
+	<npc id="26661" level="120" type="Monster" name="Grand Temple's Guardian">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="577451" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1750" />
+				<defence fire="1900" water="1900" wind="1900" earth="1900" holy="1850" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="16" />
+			<height normal="32.5" />
+		</collision>
+	</npc>
+	<npc id="26662" level="120" type="Monster" name="Temple Executor">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="577451" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1750" />
+				<defence fire="1900" water="1900" wind="1900" earth="1900" holy="1850" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="16.5" />
+			<height normal="48" />
+		</collision>
+	</npc>
+	<npc id="26663" level="120" type="Monster" name="Priest of Blood" title="Blood Seal Keeper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="577451" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1750" />
+				<defence fire="1900" water="1900" wind="1900" earth="1900" holy="1850" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="14" />
+			<height normal="34.5" />
+		</collision>
+	</npc>
+	<npc id="26664" level="120" type="Monster" name="Judge of Gnosis" title="Gnosis Seal Keeper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="577451" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1750" />
+				<defence fire="1900" water="1900" wind="1900" earth="1900" holy="1850" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="14" />
+			<height normal="41" />
+		</collision>
+	</npc>
+	<npc id="26665" level="120" type="Monster" name="Death Messenger" title="Radiance Seal Keeper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="577451" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1750" />
+				<defence fire="1900" water="1900" wind="1900" earth="1900" holy="1850" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="14" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="26666" level="120" type="Monster" name="Zealot of Restoration" title="Restoration Seal Keeper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="577451" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1750" />
+				<defence fire="1900" water="1900" wind="1900" earth="1900" holy="1850" dark="1900" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="22" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="26667" level="120" type="RaidBoss" name="Radiges" title="Corrupted High Priest">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="2692584000" sp="2423325" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15654042.774566473" hpRegen="13.4" mp="59126" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1950" />
+				<defence fire="2050" water="2050" wind="2050" earth="2050" holy="2000" dark="2050" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62574" level="2" /> <!-- Corrupted High Priest Radiges -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="33" />
+			<height normal="91.5" />
+		</collision>
+	</npc>
+	<npc id="26668" level="130" type="Monster" name="Einhasad's Statue" title="Blood Seal">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="310814660" sp="279733" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="380046" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="5" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62608" level="3" /> <!-- Demon's Statue -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="96" />
+			<height normal="183.4" />
+		</collision>
+	</npc>
+	<npc id="26669" level="130" type="Monster" name="Einhasad's Statue" title="Gnosis Seal">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="310814660" sp="279733" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="380046" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="5" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62608" level="3" /> <!-- Demon's Statue -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="96" />
+			<height normal="183.4" />
+		</collision>
+	</npc>
+	<npc id="26670" level="130" type="Monster" name="Einhasad's Statue" title="Radiance Seal">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="310814660" sp="279733" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="380046" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="5" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62608" level="3" /> <!-- Demon's Statue -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="96" />
+			<height normal="183.4" />
+		</collision>
+	</npc>
+	<npc id="26671" level="130" type="Monster" name="Einhasad's Statue" title="Restoration Seal">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="310814660" sp="279733" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="380046" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="5" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62608" level="3" /> <!-- Demon's Statue -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="96" />
+			<height normal="183.4" />
+		</collision>
+	</npc>
+	<npc id="26672" level="130" type="Monster" name="Aquilon" title="Fallen Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2215819" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2500" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2600" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skillList>
+		<collision>
+			<radius normal="33" />
+			<height normal="171" />
+		</collision>
+	</npc>
+	<npc id="26673" level="130" type="Monster" name="Grand Temple's Guardian">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2215819" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2500" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2600" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="16" />
+			<height normal="32.5" />
+		</collision>
+	</npc>
+	<npc id="26674" level="130" type="Monster" name="Temple Executor">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2215819" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2500" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2600" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="16.5" />
+			<height normal="48" />
+		</collision>
+	</npc>
+	<npc id="26675" level="130" type="Monster" name="Priest of Blood" title="Blood Seal Keeper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2215819" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2500" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2600" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="14" />
+			<height normal="34.5" />
+		</collision>
+	</npc>
+	<npc id="26676" level="130" type="Monster" name="Judge of Gnosis" title="Gnosis Seal Keeper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2215819" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2500" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2600" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="14" />
+			<height normal="41" />
+		</collision>
+	</npc>
+	<npc id="26677" level="130" type="Monster" name="Death Messenger" title="Radiance Seal Keeper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2215819" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2500" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2600" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="14" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="26678" level="130" type="Monster" name="Zealot of Restoration" title="Restoration Seal Keeper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2215819" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2500" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2600" dark="2650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="22" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="26679" level="130" type="RaidBoss" name="Aquilon" title="Corrupted High Priest">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="6216293200" sp="5594663" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="64689154.9132948" hpRegen="13.4" mp="59126" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2700" />
+				<defence fire="2800" water="2800" wind="2800" earth="2800" holy="2750" dark="2800" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62574" level="3" /> <!-- Corrupted High Priest Aquilon -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="33" />
+			<height normal="91.5" />
+		</collision>
+	</npc>
+</list>

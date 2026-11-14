@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="schttgart08_2311_15" minZ="-3808" maxZ="-2808">
+				<node x="123484" y="-208632" />
+				<node x="125984" y="-210224" />
+				<node x="127916" y="-209260" />
+				<node x="129044" y="-206980" />
+				<node x="128756" y="-204184" />
+				<node x="126228" y="-203480" />
+				<node x="123676" y="-206980" />
+			</territory>
+		</territories>
+		<npc id="20510" count="4" respawnTime="20sec" /> <!-- Crystal Puma -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart08_2311_16" minZ="-3752" maxZ="-3352">
+				<node x="125012" y="-201904" />
+				<node x="127460" y="-203176" />
+				<node x="128956" y="-202672" />
+				<node x="129532" y="-201404" />
+				<node x="129168" y="-200504" />
+				<node x="126440" y="-199616" />
+				<node x="124764" y="-199364" />
+				<node x="124180" y="-200764" />
+			</territory>
+		</territories>
+		<npc id="20510" count="3" respawnTime="20sec" /> <!-- Crystal Puma -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart08_2311_18" minZ="-3716" maxZ="-3266">
+				<node x="127908" y="-198784" />
+				<node x="130840" y="-199616" />
+				<node x="130836" y="-196868" />
+				<node x="127176" y="-196864" />
+			</territory>
+		</territories>
+		<npc id="20521" count="2" respawnTime="20sec" /> <!-- Whinstone Golem -->
+		<npc id="20526" count="3" respawnTime="20sec" /> <!-- Obsidian Golem -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart08_2312_16" minZ="-3656" maxZ="-3256">
+				<node x="127204" y="-196508" />
+				<node x="130792" y="-196468" />
+				<node x="130804" y="-193928" />
+				<node x="128092" y="-193376" />
+				<node x="126812" y="-194924" />
+			</territory>
+		</territories>
+		<npc id="20521" count="3" respawnTime="20sec" /> <!-- Whinstone Golem -->
+		<npc id="20526" count="3" respawnTime="20sec" /> <!-- Obsidian Golem -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart08_2312_17" minZ="-3452" maxZ="-2852">
+				<node x="125416" y="-194164" />
+				<node x="126752" y="-194856" />
+				<node x="128036" y="-193360" />
+				<node x="126860" y="-192676" />
+				<node x="125428" y="-193556" />
+			</territory>
+		</territories>
+		<npc id="20521" count="1" respawnTime="20sec" /> <!-- Whinstone Golem -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart08_2312_18" minZ="-3552" maxZ="-3152">
+				<node x="128048" y="-193280" />
+				<node x="130808" y="-193816" />
+				<node x="130808" y="-190528" />
+				<node x="128104" y="-190396" />
+				<node x="126980" y="-192544" />
+			</territory>
+		</territories>
+		<npc id="20521" count="3" respawnTime="20sec" /> <!-- Whinstone Golem -->
+		<npc id="20526" count="3" respawnTime="20sec" /> <!-- Obsidian Golem -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart08_2312_19" minZ="-3456" maxZ="-2856">
+				<node x="128080" y="-190324" />
+				<node x="130732" y="-190440" />
+				<node x="130716" y="-187988" />
+				<node x="128852" y="-186272" />
+				<node x="126800" y="-188820" />
+			</territory>
+		</territories>
+		<npc id="20521" count="3" respawnTime="20sec" /> <!-- Whinstone Golem -->
+		<npc id="20526" count="3" respawnTime="20sec" /> <!-- Obsidian Golem -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart08_2411_01" minZ="-3712" maxZ="-3112">
+				<node x="131244" y="-199788" />
+				<node x="132364" y="-200060" />
+				<node x="133772" y="-199960" />
+				<node x="134412" y="-196972" />
+				<node x="131312" y="-196984" />
+			</territory>
+		</territories>
+		<npc id="20521" count="2" respawnTime="20sec" /> <!-- Whinstone Golem -->
+		<npc id="20526" count="3" respawnTime="20sec" /> <!-- Obsidian Golem -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart08_2411_02" minZ="-3748" maxZ="-3148">
+				<node x="131244" y="-207064" />
+				<node x="133204" y="-206512" />
+				<node x="134956" y="-204996" />
+				<node x="135220" y="-203776" />
+				<node x="133360" y="-201068" />
+				<node x="131204" y="-201136" />
+			</territory>
+		</territories>
+		<npc id="20510" count="3" respawnTime="20sec" /> <!-- Crystal Puma -->
+	</spawn>
+</list>

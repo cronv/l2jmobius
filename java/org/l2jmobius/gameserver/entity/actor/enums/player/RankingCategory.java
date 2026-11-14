@@ -1,0 +1,71 @@
+/*
+ * Copyright (c) 2013 L2jMobius
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+ * IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+package org.l2jmobius.gameserver.entity.actor.enums.player;
+
+import static org.l2jmobius.gameserver.entity.actor.enums.player.RankingScope.ALL;
+import static org.l2jmobius.gameserver.entity.actor.enums.player.RankingScope.SELF;
+import static org.l2jmobius.gameserver.entity.actor.enums.player.RankingScope.TOP_100;
+import static org.l2jmobius.gameserver.entity.actor.enums.player.RankingScope.TOP_150;
+
+/**
+ * Defines the different categories used for player rankings.<br>
+ * This enum helps organize how players are grouped and sorted in the ranking system.
+ * @author Berezkin Nikolay
+ */
+public enum RankingCategory
+{
+	SERVER,
+	RACE,
+	CLASS,
+	CLAN,
+	FRIEND;
+	
+	/**
+	 * Retrieves the {@code RankingScope} based on the group type and a specific ID.<br>
+	 * This method determines how rankings are filtered for different categories.
+	 * @param id The unique identifier used to determine the scope.
+	 * @return The corresponding {@code RankingScope} or {@code null} if no match is found.
+	 */
+	public RankingScope getScopeByGroup(int id)
+	{
+		switch (this)
+		{
+			case SERVER:
+			{
+				return id == 0 ? TOP_150 : SELF;
+			}
+			case RACE:
+			case CLASS:
+			{
+				return id == 0 ? TOP_100 : SELF;
+			}
+			case CLAN:
+			case FRIEND:
+			{
+				return ALL;
+			}
+			default:
+			{
+				return null;
+			}
+		}
+	}
+}

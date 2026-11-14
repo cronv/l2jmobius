@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_05" minZ="-3715" maxZ="-2915">
+				<node x="18835" y="136795" />
+				<node x="21989" y="137845" />
+				<node x="22021" y="139966" />
+				<node x="19414" y="140687" />
+				<node x="17408" y="139360" />
+			</territory>
+		</territories>
+		<npc id="20062" count="2" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_07" minZ="-3289" maxZ="-2489">
+				<node x="25435" y="135929" />
+				<node x="29046" y="134625" />
+				<node x="30512" y="136326" />
+				<node x="26279" y="136646" />
+			</territory>
+		</territories>
+		<npc id="20062" count="1" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+		<npc id="20205" count="2" respawnTime="24sec" /> <!-- Dire Wolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_08" minZ="-3237" maxZ="-2537">
+				<node x="29087" y="134594" />
+				<node x="31029" y="133256" />
+				<node x="32066" y="133765" />
+				<node x="30590" y="136240" />
+			</territory>
+		</territories>
+		<npc id="20062" count="3" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_09" minZ="-3280" maxZ="-2680">
+				<node x="30475" y="137105" />
+				<node x="32576" y="134728" />
+				<node x="32484" y="139815" />
+				<node x="31555" y="139893" />
+			</territory>
+		</territories>
+		<npc id="20062" count="2" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+		<npc id="20205" count="2" respawnTime="24sec" /> <!-- Dire Wolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_10" minZ="-3335" maxZ="-2835">
+				<node x="31537" y="139996" />
+				<node x="32502" y="139884" />
+				<node x="32520" y="143531" />
+				<node x="30580" y="143553" />
+			</territory>
+		</territories>
+		<npc id="20205" count="1" respawnTime="24sec" /> <!-- Dire Wolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_11" minZ="-3335" maxZ="-2535">
+				<node x="28269" y="141141" />
+				<node x="31458" y="139969" />
+				<node x="30500" y="143533" />
+				<node x="27985" y="144857" />
+			</territory>
+		</territories>
+		<npc id="20062" count="2" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_12" minZ="-3335" maxZ="-2635">
+				<node x="27233" y="137465" />
+				<node x="30407" y="137097" />
+				<node x="31479" y="139940" />
+				<node x="28216" y="141043" />
+			</territory>
+		</territories>
+		<npc id="20062" count="5" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+		<npc id="20205" count="4" respawnTime="24sec" /> <!-- Dire Wolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_14" minZ="-3520" maxZ="-2520">
+				<node x="24887" y="142179" />
+				<node x="28159" y="141174" />
+				<node x="27872" y="144883" />
+				<node x="24318" y="145875" />
+			</territory>
+		</territories>
+		<npc id="20062" count="3" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_15" minZ="-3466" maxZ="-2666">
+				<node x="22160" y="143428" />
+				<node x="24808" y="142152" />
+				<node x="24266" y="145855" />
+				<node x="22707" y="145732" />
+			</territory>
+		</territories>
+		<npc id="20203" count="2" respawnTime="24sec" /> <!-- Dion Grizzly -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_16" minZ="-3531" maxZ="-2731">
+				<node x="21684" y="141553" />
+				<node x="23675" y="139994" />
+				<node x="24787" y="142103" />
+				<node x="22162" y="143372" />
+			</territory>
+		</territories>
+		<npc id="20203" count="1" respawnTime="24sec" /> <!-- Dion Grizzly -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_17" minZ="-3531" maxZ="-2731">
+				<node x="18320" y="148268" />
+				<node x="19491" y="146777" />
+				<node x="21960" y="147275" />
+				<node x="19135" y="149598" />
+			</territory>
+		</territories>
+		<npc id="20203" count="1" respawnTime="24sec" /> <!-- Dion Grizzly -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_18" minZ="-3450" maxZ="-2450">
+				<node x="20490" y="149104" />
+				<node x="22566" y="146716" />
+				<node x="27676" y="146173" />
+				<node x="25976" y="149544" />
+			</territory>
+		</territories>
+		<npc id="20062" count="5" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_19" minZ="-3334" maxZ="-2534">
+				<node x="26574" y="155654" />
+				<node x="20812" y="149386" />
+				<node x="26556" y="149717" />
+				<node x="27751" y="151791" />
+			</territory>
+		</territories>
+		<npc id="20062" count="2" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+		<npc id="20205" count="1" respawnTime="24sec" /> <!-- Dire Wolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion15_2022_20" minZ="-3246" maxZ="-2446">
+				<node x="30750" y="157297" />
+				<node x="27076" y="154608" />
+				<node x="27873" y="151778" />
+				<node x="31918" y="152428" />
+			</territory>
+		</territories>
+		<npc id="20205" count="6" respawnTime="24sec" /> <!-- Dire Wolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion16_2022_08" minZ="-3766" maxZ="-2666">
+				<node x="7448" y="156371" />
+				<node x="9109" y="160944" />
+				<node x="5419" y="161502" />
+				<node x="3906" y="156495" />
+			</territory>
+		</territories>
+		<npc id="21105" count="1" respawnTime="30sec" /> <!-- Delu Lizardman Special Agent -->
+		<npc id="21106" count="5" respawnTime="30sec" /> <!-- Cursed Watchman -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion16_2022_09" minZ="-3732" maxZ="-2632">
+				<node x="13163" y="159551" />
+				<node x="13108" y="162755" />
+				<node x="9373" y="161171" />
+				<node x="8465" y="158834" />
+			</territory>
+		</territories>
+		<npc id="21105" count="3" respawnTime="30sec" /> <!-- Delu Lizardman Special Agent -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion16_2022_12" minZ="-3261" maxZ="-2061">
+				<node x="12751" y="153619" />
+				<node x="13189" y="159415" />
+				<node x="8434" y="158683" />
+				<node x="7582" y="156346" />
+				<node x="10132" y="153421" />
+			</territory>
+		</territories>
+		<npc id="21105" count="3" respawnTime="30sec" /> <!-- Delu Lizardman Special Agent -->
+		<npc id="21106" count="2" respawnTime="30sec" /> <!-- Cursed Watchman -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="dion16_2022_13" minZ="-3843" maxZ="-3143">
+				<node x="8538" y="161948" />
+				<node x="12050" y="163548" />
+				<node x="6846" y="163534" />
+				<node x="5983" y="162252" />
+			</territory>
+		</territories>
+		<npc id="21105" count="2" respawnTime="30sec" /> <!-- Delu Lizardman Special Agent -->
+	</spawn>
+	<spawn name="DionHills">
+		<group>
+			<npc id="20062" x="16235" y="136834" z="-3288" heading="30472" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="17706" y="138656" z="-3304" heading="37160" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="22710" y="133083" z="-2304" heading="43748" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="25015" y="132152" z="-1584" heading="49872" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="20240" y="132797" z="-2496" heading="36396" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="24749" y="135050" z="-2872" heading="22806" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="26334" y="132690" z="-1792" heading="8724" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="27959" y="132878" z="-2384" heading="51328" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="29322" y="134000" z="-2800" heading="46977" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="28917" y="137097" z="-3152" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="25660" y="140996" z="-3000" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="25156" y="141530" z="-3056" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="25761" y="141530" z="-2958" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="27490" y="148998" z="-2688" heading="29907" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="21202" y="149386" z="-3234" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="21064" y="151650" z="-3152" heading="3696" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="21202" y="150098" z="-3248" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="18695" y="150688" z="-3192" heading="16089" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="20062" x="24578" y="149484" z="-3136" heading="60517" respawnTime="24sec" /> <!-- Tumran Bugbear -->
+			<npc id="21105" x="6941" y="155159" z="-3235" heading="46434" respawnTime="30sec" /> <!-- Delu Lizardman Special Agent -->
+			<npc id="21105" x="14265" y="158784" z="-3294" heading="14331" respawnTime="30sec" /> <!-- Delu Lizardman Special Agent -->
+			<npc id="21105" x="13803" y="163675" z="-3624" heading="49597" respawnTime="30sec" /> <!-- Delu Lizardman Special Agent -->
+			<npc id="21105" x="15096" y="163697" z="-3688" heading="64871" respawnTime="30sec" /> <!-- Delu Lizardman Special Agent -->
+			<npc id="21105" x="16048" y="162116" z="-3576" heading="39538" respawnTime="30sec" /> <!-- Delu Lizardman Special Agent -->
+			<npc id="21106" x="6783" y="163361" z="-3576" heading="35650" respawnTime="30sec" /> <!-- Cursed Watchman -->
+			<npc id="21106" x="11670" y="161577" z="-3608" heading="55804" respawnTime="30sec" /> <!-- Cursed Watchman -->
+			<npc id="21106" x="12909" y="163270" z="-3672" respawnTime="30sec" /> <!-- Cursed Watchman -->
+			<npc id="21106" x="28923" y="163131" z="-3328" heading="53256" respawnTime="30sec" /> <!-- Cursed Watchman -->
+			<npc id="20203" x="21700" y="142373" z="-3440" heading="8622" respawnTime="24sec" /> <!-- Dion Grizzly -->
+			<npc id="20203" x="20544" y="139791" z="-3528" heading="42276" respawnTime="24sec" /> <!-- Dion Grizzly -->
+			<npc id="20203" x="21628" y="139476" z="-3544" heading="61667" respawnTime="24sec" /> <!-- Dion Grizzly -->
+			<npc id="20203" x="23092" y="140431" z="-3400" heading="36350" respawnTime="24sec" /> <!-- Dion Grizzly -->
+			<npc id="20203" x="22199" y="140706" z="-3456" respawnTime="24sec" /> <!-- Dion Grizzly -->
+			<npc id="20206" x="1480" y="162434" z="-3560" heading="48801" respawnTime="29sec" /> <!-- Cardiff Werewolf -->
+			<npc id="20206" x="1065" y="163136" z="-3488" heading="21304" respawnTime="29sec" /> <!-- Cardiff Werewolf -->
+			<npc id="20206" x="80" y="161534" z="-3136" heading="44906" respawnTime="29sec" /> <!-- Cardiff Werewolf -->
+			<npc id="35402" x="17677" y="145282" z="-3048" heading="22500" respawnTime="60sec" /> <!-- Borna - Clan Hall Gatekeeper -->
+			<npc id="20205" x="26827" y="134379" z="-2600" heading="19012" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="25641" y="134436" z="-2424" heading="45379" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="30329" y="133612" z="-2984" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="30328" y="133256" z="-2992" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="29630" y="133634" z="-2792" heading="35641" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="32657" y="135396" z="-3180" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="29335" y="134917" z="-3000" heading="45354" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="32663" y="137441" z="-3120" heading="27139" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="32603" y="141374" z="-3208" heading="11975" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="19371" y="151033" z="-3200" heading="25815" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="20632" y="149074" z="-3168" heading="43103" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="25192" y="148166" z="-3032" heading="31897" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="22168" y="148551" z="-3184" heading="30731" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="20419" y="150166" z="-3224" heading="58331" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="20827" y="152239" z="-3104" heading="12147" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="20205" x="466" y="162866" z="-3320" heading="44047" respawnTime="24sec" /> <!-- Dire Wolf -->
+			<npc id="21107" x="20192" y="163766" z="-3424" respawnTime="30sec" /> <!-- Delu Lizardman Commander -->
+			<npc id="21107" x="17793" y="162100" z="-3504" heading="41955" respawnTime="30sec" /> <!-- Delu Lizardman Commander -->
+			<npc id="21107" x="25527" y="163820" z="-3304" respawnTime="30sec" /> <!-- Delu Lizardman Commander -->
+			<npc id="30627" x="10133" y="157155" z="-2384" respawnTime="60sec" /> <!-- Tree -->
+		</group>
+	</spawn>
+</list>

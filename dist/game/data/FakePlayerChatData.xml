@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Use lowercase for searchText and answers. -->
+<!-- You can use specific fpcName or ALL to use with all fpcs. -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/FakePlayerChatData.xsd">
+	<fakePlayerChat fpcName="ALL" method="EQUALS" text="hi" answers="hello;hi;hi there;hello there" />
+	<fakePlayerChat fpcName="ALL" method="EQUALS" text="hey" answers="hey hey;hey;hey there" />
+	<fakePlayerChat fpcName="ALL" method="EQUALS" text="hello" answers="hello;hi;hi there;hello there" />
+	<fakePlayerChat fpcName="ALL" method="EQUALS" text="here?" answers="yes;busy;i look for something" />
+	<fakePlayerChat fpcName="ALL" method="EQUALS" text="whats up?" answers="good;busy;i look for something" />
+	<fakePlayerChat fpcName="ALL" method="EQUALS" text="what?" answers="something :P;something for me" />
+	<fakePlayerChat fpcName="ALL" method="EQUALS" text="why?" answers="because;i don't know;what?" />
+	<fakePlayerChat fpcName="ALL" method="EQUALS" text="really" answers="really;yes;of course" />
+	<fakePlayerChat fpcName="ALL" method="EQUALS" text="thanks" answers=":);:D;:*" />
+	<fakePlayerChat fpcName="ALL" method="EQUALS" text="thank you" answers=":);:D;:*" />
+	<fakePlayerChat fpcName="ALL" method="STARTS_WITH" text="how are you" answers="fine;good;busy" />
+	<fakePlayerChat fpcName="ALL" method="STARTS_WITH" text="do you know" answers="nope;no sorry;nope, i don't" />
+	<fakePlayerChat fpcName="ALL" method="STARTS_WITH" text="where can i" answers="i don't know;no clue;ask someone else :P" />
+	<fakePlayerChat fpcName="ALL" method="STARTS_WITH" text="can i ask you" answers="yes;what?;tell me" />
+	<fakePlayerChat fpcName="ALL" method="CONTAINS" text="server;ha;problem" answers="it's good;i don't know;i don't think so..." />
+	<fakePlayerChat fpcName="ALL" method="CONTAINS" text="server;ha;bug" answers="it's good;i don't know;i don't think so..." />
+	<fakePlayerChat fpcName="ALL" method="CONTAINS" text="is th;server;good" answers="it's good :D;i like it :P;yes it is :)" />
+	<fakePlayerChat fpcName="ALL" method="CONTAINS" text="where;you;go;?" answers="i look for something;checking stuff;looking for curius people :P" />
+	<fakePlayerChat fpcName="ALL" method="CONTAINS" text="are;you;kidding" answers="^^;:D;:P" />
+	<!-- Random talk: proactive lines a fake player says at random intervals. -->
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="plz buff me im lvl 20 and dv mobs eat me alive" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="WHO KS MY MOB I SWEAR I REPORT U TO GM" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="adena adena adena my kingdom for adena" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="ss off again im poor send help" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="lag spike i dc brb dont pull" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="where is gk in aden i walk 10 min already" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="reset skill npc where?? i clicked wrong skill" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="anyone selling top D dagger cheap pm me offer" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="enchant fail 3 to 4 BOOM my heart is broken" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="bishop AFK again we all die gg" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="cp lf 1 healer for oly bring buffs" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="party wipe on raid no re gg" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="wtb soulshot D 100 each i pay fast" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="why cruma tower always full of pk ffs" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="spoil plz i beg i need mats for craft" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="omg i just found a moral crystal so LUCKY" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="anyone doing bee quest? i need honey lol" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="box buffer where r u buff the main plz" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="my mana zero send recharge i love u" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="noob dont train mobs on me i lose exp" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="top B set +6 wts add adena for another B set" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="run RUN the pk is coming to cruma" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="cov and might plz i sit here 5 min already" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="haha we survived that train gg wp" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="brb food dont move party stay" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="this exp rate garbage need mage party aoe" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="if we wipe baium again i log off for real" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="wts LOA key pm me serious buyers only" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="anyone know good spot for lvl 40 solo?" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="my cat sit on keyboard sorry afk" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="rec me plz i rec u back promise" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="omg lag i teleport back 3 times" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="who has spare ress scroll i die too much" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="new player here what class best for pvp?" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="selling full buff 100k sit stay no afk" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="we need 3 more for RB party ready just need tank" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="i love this server old school vibe" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="pk at village dont go he camp the gk" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="adena drop nerfed?? i farm 1 hour nothing" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="dont ninja loot the RB drop i tank it" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="where enchant npc i want +16 or cry trying" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="full party lets aoe till we drop" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="gg no re im done for tonight bb" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="can someone port me to hunters village plz" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="my ss my sps all gone im broke af" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="giran is dead these days remember the old days" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="that RB train was insane haha never again" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="brb doorbell dont wipe without me" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Buff party at the fountain plz, need cov and might!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Selling full buffs 100k, sit and stay, no afk!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Can someone toss me a recharg? My mana is zero." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="LFM Healer and DD for Varka, must have full buffs!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Who is the box buffer? Get over here and buff the main!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Soulshots are off, I'm going broke. Can we drop some spoils?" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="FFS, who pulled that extra mob?! I lost 5% exp!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="I'm out of blessed scrolls, does anyone have a spare ress?" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Bishop, where were you?! I was tanking and you were auto-following!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="PK at the entrance, don't go to the cruma tower, he's griefing." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Why did you KS my RB? You want to go PvP?" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Get your clan here now, the enemies are camping the teleport." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="That's it, you're flagged. Come to the arena if you have the balls." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="WTS Top B-grade bow +12, enchant failed twice but still good, PM me offer." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="WTB Enchant weapon scrolls, paying adena fast, need them now." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Selling spoil mats in bulk, whisper me your price or don't bother." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Trading my B-grade heavy set for light set + add adena, only serious offers." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Buying all soulshots C-grade, 20a each, send me a trade request." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="We need 3 more for the raid boss, party is ready, just need a tank." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Who has a spare clan hall? We need to place our flag." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Where is the class change NPC? I walked all the way to Dion and can't find it." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="What is the best class for solo farming? I don't have a clan." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Does anyone have a spare newbie weapon? I literally have no adena." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Guys, what does 'full buff' even mean? I'm new here." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="afk 5 mins, doorbell." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="brb, my cat is on fire." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Hold on, I'm smoking, don't pull without me." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Sorry, my kid woke up. Gotta go bb, thanks for the party." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="I'm tabbed out, just follow the tank till I get back." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="This exp rate is garbage, we need a full party of mages to aoe farm." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="If we wipe on Baium again, I'm quitting for the day." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="No way we survived that train, haha. GG." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="Alright, I'm out, ty for party, bb." />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="anyone remember their first char name? mine was so bad lol" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="stuck on quest again, killed 20 mobs 0 drops rip" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="tank pull slower pls healer oom already" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="who else here since day 1 raise hand" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="omw omw sry was afk trading" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="dropped my target again this UI is cursed" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="finally hit next level only took 3 hours lol" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="anyone else lag near the aqueduct or just me" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="need 1 more for party spot open lvl 30+" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="my inventory is full again brb selling junk" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="does anyone still do the orc quest chain?" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="thanks for the heal that was close one" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="stop pulling extra we are not ready ffs" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="anyone know the fastest way to farm adena early game" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="this mob hits like a truck someone tank pls" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="finally got my class change so hyped rn" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="afk bio brb dont leave without me" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="anyone selling spirit ore i need for craft" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="lost my sub weapon in a trade mistake sad life" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="who is farming here i was here first lol jk" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="new patch notes anyone read them yet" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="brb bathroom dont pull the boss yet" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="can we get a mystic muse in party pls" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="finally soloed that quest mob took forever" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="who keeps training mobs on the party pls stop" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="anyone else here remember the old exp rates haha" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="need a shield user for tanking anyone free" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="my hands are shaking almost got the enchant +10" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_GENERAL" text="server pop feels good today lots of people out" />
+	<!-- Random shout: proactive lines said in the shout channel. -->
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS Top B-grade bow +12, PM me your offer!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB blessed enchant weapon scrolls, paying top adena fast!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LFM full party for Baium, need healer and tank, buffs ready!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Recruiting active players for daily sieges and pvp, PM me!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTT my B-grade heavy set for a light set, will add adena!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Selling full buffs at giran, sit and stay, cheap!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB all soulshots C-grade in bulk, send trade!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Anyone selling enchant armor scrolls? Buying a lot!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="PK squad at cruma, bring your clan, we push back!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS Blessed Enchant Weapon B-grade, PM your best offer!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB Top B-grade weapon any type, paying full adena!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS Blue Wolf set +6, all parts, cheap for quick sale!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTT a B-grade bow for a B-grade dagger plus adena!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS Life Stones high grade in bulk, PM me fast!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB spellbooks, buying all you have!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS Zaken earring, best price on the server!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS raid boss jewels, several to choose, PM me!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB a B-grade earring, name your price!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS full Avadon set freshly made, PM offers!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS enchant weapon scrolls B-grade, stacks ready!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB Enchant Armor scrolls B-grade, buying 100 plus!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS crystals up to B grade, cheapest on market!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTT a B-grade bow plus adena for a B-grade sword!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS SA crystals all types, whisper me for the list!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB soul crystals red and blue, buying all of them!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Adena for sale cheap, safe trade only, PM me!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Selling my whole inventory, quitting game, all cheap!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS newbie starter pack, help a new player, cheap!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Manufacture service, I craft any recipe you bring!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Spoiling service ready, bring me to your farm spot!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Selling full buffs plus Prophet at giran, sit and stay!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Buffing service ready, cov might and wind walk, cheap!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LF box buffer for my party, will pay adena hourly!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LF clan active in sieges and daily pvp, PM officer!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Recruiting all levels, we help you gear up, PM me!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB clan level 5 or higher, paying real adena!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Clan LF alliance for sunday siege, PM the leader!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LFM for Frintezza, need bard and healer, buffs ready!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LF party for Zaken, we have tank and healer!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Need 2 more DD for Antharas command channel!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LFM Valakas CC, full buffs and pots required!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Who wants to duel for adena? 100k a round!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Free for all at the arena, come test your pvp!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="PK on the loose near dion, watch your back!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Selling a castle shop spot, prime location, PM!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Looking for a clan hall to rent, PM me the price!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Anyone know when the next raid boss respawns?" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS full Doom set +4, PM your offer!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB Blue Wolf armor any part, paying well!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Selling recipes B-grade, whisper me the list you need!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LF mentor to teach me pvp basics, will pay adena!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS common items bulk cheap, clearing inventory!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Taxi service to hunting zones, cheap fare, PM me!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB a clan crest design, will pay for good work!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LFM static party for daily grind, all classes welcome!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS dyes all stats, cheap prices, come check!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Anyone selling a Zaken weapon? Name your price!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Newbie here, any clan taking new players?" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB top D or C weapon, just started, cheap pls!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Free buffs for new players at giran, come by!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LFM for Core raid, need healer and 2 DD!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LFM Orfen raid, tank and healer ready, need DD!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Siege loot for sale, rare drops, PM serious buyers!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Clan recruiting for weekend siege push, PM leader!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Who wants to farm adena together? Split 50/50!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Selling my clan hall furniture, moving out, cheap!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS Doom set full +6, PM your best offer!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB Tallum set any part, paying good adena!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS Nightmare weapon B-grade, freshly enchanted!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB a Vesper accessory, name your price pls!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Selling top scrolls of resurrection, cheap bulk!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB CP potions in bulk, paying above market!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS mammon summon scrolls, cheapest around!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Buying attribute stones all elements, PM your stock!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS common recipes bulk, clearing warehouse!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LF crafter to make B-grade gear, will pay mats plus fee!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Enchant service here, bring your gear and scrolls!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Identify service ready, bring your unided items!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Warehouse mule for rent, cheap storage, PM me!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Free rez scrolls for new players, come get some!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LFM for Antharas prep run, bring your buffs!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LFM for Valakas, need CP healers, meet at lair!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LFM Fafurion channel, tanks and healers needed!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Need 4 more for Queen Ant, party almost full!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Duel me for fun, no bets, just testing my build!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Anyone up for a friendly TvT, 5v5, meet at arena!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Class change quest help offered, PM if you're stuck!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Second class quest carry service, bring your items!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Subclass quest help, know the whole thing, PM me!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Noblesse quest carry available, meet at entrance!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LF guide for newbies, ask me anything in pm!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Selling starter weapon and armor set, super cheap!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Giving away old gear to new players, first come first serve!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB soulshots and spiritshots in bulk, all grades!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS potions bulk, healing and cp, cheap rate!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB arrows and bolts in bulk, quick trade!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Anyone else online from launch week? Say hi!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="This server community is the best, love you all!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS full Zubei set +5, PM your offer!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB a B-grade dagger, paying good adena!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Selling shots bulk, C and B grade, cheap!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB summon crystals, all types, PM me!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Selling my sub class weapon, barely used!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="LF trustworthy trader for a big item swap!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB blank scrolls for crafting, bulk buy!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Farming buddy wanted, split drops evenly!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTS spare inventory slots worth of junk, cheap!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="Anyone want to trade duplicate quest items?" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="WTB a good shield, light or heavy, name price!" />
+	<fakePlayerChat fpcName="ALL" method="RANDOM_SHOUT" text="This game still hits different after all these years." />
+</list>

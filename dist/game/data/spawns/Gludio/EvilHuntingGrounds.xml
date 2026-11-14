@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="gludio38_1921_01" minZ="-3832" maxZ="-3032">
+				<node x="-20928" y="98480" />
+				<node x="-15540" y="98376" />
+				<node x="-17040" y="102480" />
+				<node x="-19416" y="101496" />
+			</territory>
+		</territories>
+		<npc id="20028" count="5" respawnTime="30sec" /> <!-- Pincher -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio38_1921_02" minZ="-3632" maxZ="-2232">
+				<node x="-15440" y="98408" />
+				<node x="-12488" y="98384" />
+				<node x="-13264" y="102632" />
+				<node x="-16636" y="101676" />
+			</territory>
+		</territories>
+		<npc id="20028" count="4" respawnTime="30sec" /> <!-- Pincher -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio38_1921_04" minZ="-3796" maxZ="-2296">
+				<node x="-7564" y="116652" />
+				<node x="-2776" y="115216" />
+				<node x="-5656" y="121756" />
+				<node x="-6296" y="121904" />
+			</territory>
+		</territories>
+		<npc id="20358" count="2" respawnTime="30sec" /> <!-- Ratman Hunter -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio38_1921_06" minZ="-3916" maxZ="-2516">
+				<node x="-6888" y="102688" />
+				<node x="-5968" y="101288" />
+				<node x="-3816" y="100204" />
+				<node x="-192" y="102464" />
+				<node x="-196" y="103664" />
+				<node x="-5328" y="104428" />
+			</territory>
+		</territories>
+		<npc id="20358" count="7" respawnTime="30sec" /> <!-- Ratman Hunter -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio38_1921_07" minZ="-4064" maxZ="-2564">
+				<node x="-5264" y="104808" />
+				<node x="-316" y="103952" />
+				<node x="-380" y="108424" />
+				<node x="-6756" y="108288" />
+			</territory>
+		</territories>
+		<npc id="20358" count="5" respawnTime="30sec" /> <!-- Ratman Hunter -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio38_1921_08" minZ="-3972" maxZ="-2472">
+				<node x="-6760" y="108756" />
+				<node x="-560" y="108744" />
+				<node x="-548" y="114180" />
+				<node x="-7600" y="116580" />
+				<node x="-8472" y="114620" />
+			</territory>
+		</territories>
+		<npc id="20358" count="12" respawnTime="30sec" /> <!-- Ratman Hunter -->
+	</spawn>
+	<spawn name="EvilHuntingGrounds">
+		<group>
+			<npc id="27528" x="-4091" y="117129" z="-3344" heading="11873" respawnTime="60sec" /> <!-- Skeleton Warrior - Quest Monster -->
+			<npc id="27528" x="-4461" y="116953" z="-3344" heading="25467" respawnTime="60sec" /> <!-- Skeleton Warrior - Quest Monster -->
+			<npc id="27528" x="-5041" y="117306" z="-3344" heading="19209" respawnTime="60sec" /> <!-- Skeleton Warrior - Quest Monster -->
+			<npc id="27528" x="-4863" y="116991" z="-3336" heading="65172" respawnTime="60sec" /> <!-- Skeleton Warrior - Quest Monster -->
+			<npc id="27528" x="-4272" y="116672" z="-3344" respawnTime="60sec" /> <!-- Skeleton Warrior - Quest Monster -->
+			<npc id="27528" x="-5088" y="116576" z="-3344" respawnTime="60sec" /> <!-- Skeleton Warrior - Quest Monster -->
+			<npc id="27528" x="-4404" y="116112" z="-3344" heading="25762" respawnTime="60sec" /> <!-- Skeleton Warrior - Quest Monster -->
+			<npc id="27528" x="-4125" y="116565" z="-3344" heading="20251" respawnTime="60sec" /> <!-- Skeleton Warrior - Quest Monster -->
+			<npc id="27528" x="-4396" y="116724" z="-3344" heading="22779" respawnTime="60sec" /> <!-- Skeleton Warrior - Quest Monster -->
+			<npc id="27528" x="-3776" y="116560" z="-3344" respawnTime="60sec" /> <!-- Skeleton Warrior - Quest Monster -->
+			<npc id="27529" x="-4648" y="117294" z="-3344" heading="43182" respawnTime="60sec" /> <!-- Skeleton Archer - Quest Monster -->
+			<npc id="27529" x="-4381" y="117492" z="-3344" heading="65120" respawnTime="60sec" /> <!-- Skeleton Archer - Quest Monster -->
+			<npc id="27529" x="-4769" y="117562" z="-3344" heading="28001" respawnTime="60sec" /> <!-- Skeleton Archer - Quest Monster -->
+			<npc id="27529" x="-4445" y="117555" z="-3344" heading="19905" respawnTime="60sec" /> <!-- Skeleton Archer - Quest Monster -->
+			<npc id="27529" x="-4966" y="117241" z="-3344" heading="60192" respawnTime="60sec" /> <!-- Skeleton Archer - Quest Monster -->
+			<npc id="27529" x="-4560" y="116416" z="-3344" respawnTime="60sec" /> <!-- Skeleton Archer - Quest Monster -->
+			<npc id="27529" x="-4761" y="116718" z="-3344" heading="52838" respawnTime="60sec" /> <!-- Skeleton Archer - Quest Monster -->
+			<npc id="27529" x="-4289" y="116565" z="-3344" heading="22788" respawnTime="60sec" /> <!-- Skeleton Archer - Quest Monster -->
+			<npc id="27529" x="-4984" y="116442" z="-3344" heading="26525" respawnTime="60sec" /> <!-- Skeleton Archer - Quest Monster -->
+			<npc id="27529" x="-3984" y="116733" z="-3344" heading="6075" respawnTime="60sec" /> <!-- Skeleton Archer - Quest Monster -->
+		</group>
+	</spawn>
+</list>

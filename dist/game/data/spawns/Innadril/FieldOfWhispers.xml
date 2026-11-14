@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_101" minZ="-3874" maxZ="-3374">
+				<node x="79839" y="224452" />
+				<node x="80063" y="224530" />
+				<node x="80184" y="224660" />
+				<node x="80254" y="224828" />
+				<node x="80202" y="225043" />
+				<node x="80077" y="225155" />
+				<node x="79869" y="225243" />
+				<node x="79640" y="225188" />
+				<node x="79480" y="225040" />
+				<node x="79434" y="224845" />
+				<node x="79480" y="224657" />
+				<node x="79614" y="224529" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_102" minZ="-3874" maxZ="-3374">
+				<node x="82091" y="223279" />
+				<node x="82314" y="223357" />
+				<node x="82435" y="223487" />
+				<node x="82506" y="223655" />
+				<node x="82453" y="223869" />
+				<node x="82328" y="223982" />
+				<node x="82121" y="224070" />
+				<node x="81892" y="224015" />
+				<node x="81732" y="223867" />
+				<node x="81686" y="223672" />
+				<node x="81732" y="223484" />
+				<node x="81865" y="223356" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24306" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_103" minZ="-3874" maxZ="-3374">
+				<node x="84244" y="222462" />
+				<node x="84467" y="222540" />
+				<node x="84589" y="222670" />
+				<node x="84659" y="222838" />
+				<node x="84606" y="223053" />
+				<node x="84481" y="223165" />
+				<node x="84274" y="223253" />
+				<node x="84045" y="223198" />
+				<node x="83885" y="223050" />
+				<node x="83839" y="222856" />
+				<node x="83885" y="222668" />
+				<node x="84019" y="222539" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_104" minZ="-3874" maxZ="-3374">
+				<node x="83964" y="224941" />
+				<node x="84187" y="225019" />
+				<node x="84309" y="225149" />
+				<node x="84379" y="225316" />
+				<node x="84326" y="225531" />
+				<node x="84201" y="225644" />
+				<node x="83994" y="225732" />
+				<node x="83765" y="225677" />
+				<node x="83605" y="225528" />
+				<node x="83559" y="225334" />
+				<node x="83605" y="225146" />
+				<node x="83739" y="225018" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_105" minZ="-3874" maxZ="-3374">
+				<node x="85722" y="226627" />
+				<node x="85945" y="226705" />
+				<node x="86067" y="226835" />
+				<node x="86137" y="227003" />
+				<node x="86084" y="227217" />
+				<node x="85959" y="227330" />
+				<node x="85752" y="227418" />
+				<node x="85523" y="227363" />
+				<node x="85363" y="227215" />
+				<node x="85317" y="227020" />
+				<node x="85363" y="226832" />
+				<node x="85497" y="226704" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_112" minZ="-3874" maxZ="-3374">
+				<node x="86277" y="221206" />
+				<node x="86501" y="221284" />
+				<node x="86622" y="221414" />
+				<node x="86692" y="221581" />
+				<node x="86640" y="221796" />
+				<node x="86515" y="221909" />
+				<node x="86307" y="221997" />
+				<node x="86078" y="221942" />
+				<node x="85918" y="221793" />
+				<node x="85872" y="221599" />
+				<node x="85918" y="221411" />
+				<node x="86052" y="221283" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_113" minZ="-3874" maxZ="-3374">
+				<node x="80314" y="222038" />
+				<node x="80538" y="222115" />
+				<node x="80659" y="222245" />
+				<node x="80729" y="222413" />
+				<node x="80676" y="222628" />
+				<node x="80552" y="222740" />
+				<node x="80344" y="222828" />
+				<node x="80115" y="222773" />
+				<node x="79955" y="222625" />
+				<node x="79909" y="222431" />
+				<node x="79955" y="222243" />
+				<node x="80089" y="222115" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_114" minZ="-3874" maxZ="-3374">
+				<node x="82557" y="220759" />
+				<node x="82780" y="220837" />
+				<node x="82901" y="220967" />
+				<node x="82971" y="221135" />
+				<node x="82919" y="221349" />
+				<node x="82794" y="221462" />
+				<node x="82586" y="221550" />
+				<node x="82357" y="221495" />
+				<node x="82197" y="221347" />
+				<node x="82151" y="221152" />
+				<node x="82197" y="220964" />
+				<node x="82331" y="220836" />
+			</territory>
+		</territories>
+		<npc id="24306" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_115" minZ="-3874" maxZ="-3374">
+				<node x="80526" y="219508" />
+				<node x="80749" y="219586" />
+				<node x="80870" y="219716" />
+				<node x="80941" y="219883" />
+				<node x="80888" y="220098" />
+				<node x="80763" y="220211" />
+				<node x="80555" y="220299" />
+				<node x="80326" y="220244" />
+				<node x="80166" y="220095" />
+				<node x="80120" y="219901" />
+				<node x="80166" y="219713" />
+				<node x="80300" y="219585" />
+			</territory>
+		</territories>
+		<npc id="24306" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_116" minZ="-3874" maxZ="-3374">
+				<node x="78204" y="219262" />
+				<node x="78428" y="219340" />
+				<node x="78549" y="219470" />
+				<node x="78619" y="219638" />
+				<node x="78567" y="219852" />
+				<node x="78442" y="219965" />
+				<node x="78234" y="220053" />
+				<node x="78005" y="219998" />
+				<node x="77845" y="219850" />
+				<node x="77799" y="219655" />
+				<node x="77845" y="219467" />
+				<node x="77979" y="219339" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_121" minZ="-3874" maxZ="-3374">
+				<node x="78775" y="217207" />
+				<node x="78998" y="217284" />
+				<node x="79120" y="217414" />
+				<node x="79190" y="217582" />
+				<node x="79137" y="217797" />
+				<node x="79012" y="217910" />
+				<node x="78805" y="217997" />
+				<node x="78576" y="217943" />
+				<node x="78416" y="217794" />
+				<node x="78370" y="217600" />
+				<node x="78416" y="217412" />
+				<node x="78550" y="217284" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_122" minZ="-3874" maxZ="-3374">
+				<node x="81035" y="216759" />
+				<node x="81258" y="216837" />
+				<node x="81380" y="216967" />
+				<node x="81450" y="217135" />
+				<node x="81397" y="217349" />
+				<node x="81272" y="217462" />
+				<node x="81065" y="217550" />
+				<node x="80836" y="217495" />
+				<node x="80676" y="217347" />
+				<node x="80630" y="217152" />
+				<node x="80676" y="216964" />
+				<node x="80810" y="216836" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_123" minZ="-3874" maxZ="-3374">
+				<node x="79470" y="214874" />
+				<node x="79693" y="214951" />
+				<node x="79814" y="215081" />
+				<node x="79885" y="215249" />
+				<node x="79832" y="215464" />
+				<node x="79707" y="215576" />
+				<node x="79499" y="215664" />
+				<node x="79270" y="215609" />
+				<node x="79111" y="215461" />
+				<node x="79065" y="215267" />
+				<node x="79110" y="215079" />
+				<node x="79244" y="214950" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_124" minZ="-3874" maxZ="-3374">
+				<node x="77067" y="214889" />
+				<node x="77291" y="214966" />
+				<node x="77412" y="215096" />
+				<node x="77482" y="215264" />
+				<node x="77429" y="215479" />
+				<node x="77305" y="215592" />
+				<node x="77097" y="215679" />
+				<node x="76868" y="215625" />
+				<node x="76708" y="215476" />
+				<node x="76662" y="215282" />
+				<node x="76708" y="215094" />
+				<node x="76842" y="214966" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24306" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_126" minZ="-3874" maxZ="-3374">
+				<node x="82141" y="214329" />
+				<node x="82364" y="214407" />
+				<node x="82486" y="214537" />
+				<node x="82556" y="214705" />
+				<node x="82503" y="214919" />
+				<node x="82378" y="215032" />
+				<node x="82171" y="215120" />
+				<node x="81942" y="215065" />
+				<node x="81782" y="214917" />
+				<node x="81736" y="214722" />
+				<node x="81782" y="214534" />
+				<node x="81916" y="214406" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_127" minZ="-3874" maxZ="-3374">
+				<node x="76379" y="212904" />
+				<node x="76602" y="212982" />
+				<node x="76723" y="213112" />
+				<node x="76794" y="213280" />
+				<node x="76741" y="213495" />
+				<node x="76616" y="213607" />
+				<node x="76409" y="213695" />
+				<node x="76180" y="213640" />
+				<node x="76020" y="213492" />
+				<node x="75974" y="213297" />
+				<node x="76020" y="213110" />
+				<node x="76153" y="212981" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_129" minZ="-3874" maxZ="-3374">
+				<node x="78329" y="211419" />
+				<node x="78552" y="211497" />
+				<node x="78674" y="211627" />
+				<node x="78744" y="211795" />
+				<node x="78691" y="212009" />
+				<node x="78566" y="212122" />
+				<node x="78359" y="212210" />
+				<node x="78130" y="212155" />
+				<node x="77970" y="212007" />
+				<node x="77924" y="211812" />
+				<node x="77970" y="211624" />
+				<node x="78104" y="211496" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_130" minZ="-3874" maxZ="-3374">
+				<node x="80338" y="210113" />
+				<node x="80561" y="210191" />
+				<node x="80683" y="210321" />
+				<node x="80753" y="210488" />
+				<node x="80700" y="210703" />
+				<node x="80575" y="210816" />
+				<node x="80368" y="210904" />
+				<node x="80139" y="210849" />
+				<node x="79979" y="210700" />
+				<node x="79933" y="210506" />
+				<node x="79979" y="210318" />
+				<node x="80113" y="210190" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_132" minZ="-3817" maxZ="-3317">
+				<node x="77379" y="208288" />
+				<node x="77602" y="208366" />
+				<node x="77723" y="208496" />
+				<node x="77794" y="208664" />
+				<node x="77741" y="208878" />
+				<node x="77616" y="208991" />
+				<node x="77408" y="209079" />
+				<node x="77179" y="209024" />
+				<node x="77019" y="208876" />
+				<node x="76973" y="208681" />
+				<node x="77019" y="208493" />
+				<node x="77153" y="208365" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_133" minZ="-3874" maxZ="-3374">
+				<node x="77722" y="206110" />
+				<node x="77945" y="206188" />
+				<node x="78066" y="206318" />
+				<node x="78137" y="206486" />
+				<node x="78084" y="206700" />
+				<node x="77959" y="206813" />
+				<node x="77751" y="206901" />
+				<node x="77522" y="206846" />
+				<node x="77362" y="206698" />
+				<node x="77316" y="206503" />
+				<node x="77362" y="206315" />
+				<node x="77496" y="206187" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_134" minZ="-3874" maxZ="-3374">
+				<node x="81220" y="206367" />
+				<node x="81443" y="206445" />
+				<node x="81565" y="206575" />
+				<node x="81635" y="206743" />
+				<node x="81582" y="206958" />
+				<node x="81457" y="207070" />
+				<node x="81250" y="207158" />
+				<node x="81021" y="207103" />
+				<node x="80861" y="206955" />
+				<node x="80815" y="206760" />
+				<node x="80861" y="206572" />
+				<node x="80995" y="206444" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_135" minZ="-3874" maxZ="-3374">
+				<node x="84230" y="207391" />
+				<node x="84453" y="207469" />
+				<node x="84574" y="207599" />
+				<node x="84645" y="207767" />
+				<node x="84592" y="207981" />
+				<node x="84467" y="208094" />
+				<node x="84260" y="208182" />
+				<node x="84031" y="208127" />
+				<node x="83871" y="207979" />
+				<node x="83825" y="207784" />
+				<node x="83871" y="207596" />
+				<node x="84004" y="207468" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_137" minZ="-3874" maxZ="-3374">
+				<node x="89659" y="207378" />
+				<node x="89882" y="207455" />
+				<node x="90003" y="207586" />
+				<node x="90074" y="207753" />
+				<node x="90021" y="207968" />
+				<node x="89896" y="208081" />
+				<node x="89689" y="208169" />
+				<node x="89460" y="208114" />
+				<node x="89300" y="207965" />
+				<node x="89254" y="207771" />
+				<node x="89299" y="207583" />
+				<node x="89433" y="207455" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_140" minZ="-3874" maxZ="-3374">
+				<node x="91634" y="204358" />
+				<node x="91857" y="204436" />
+				<node x="91978" y="204566" />
+				<node x="92049" y="204734" />
+				<node x="91996" y="204948" />
+				<node x="91871" y="205061" />
+				<node x="91664" y="205149" />
+				<node x="91435" y="205094" />
+				<node x="91275" y="204946" />
+				<node x="91229" y="204751" />
+				<node x="91274" y="204563" />
+				<node x="91408" y="204435" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_142" minZ="-3874" maxZ="-3374">
+				<node x="87007" y="204335" />
+				<node x="87230" y="204412" />
+				<node x="87351" y="204542" />
+				<node x="87422" y="204710" />
+				<node x="87369" y="204925" />
+				<node x="87244" y="205037" />
+				<node x="87037" y="205125" />
+				<node x="86808" y="205070" />
+				<node x="86648" y="204922" />
+				<node x="86602" y="204728" />
+				<node x="86648" y="204540" />
+				<node x="86781" y="204411" />
+			</territory>
+		</territories>
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_143" minZ="-3874" maxZ="-3374">
+				<node x="83931" y="204743" />
+				<node x="84154" y="204821" />
+				<node x="84276" y="204951" />
+				<node x="84346" y="205119" />
+				<node x="84293" y="205334" />
+				<node x="84168" y="205446" />
+				<node x="83961" y="205534" />
+				<node x="83732" y="205479" />
+				<node x="83572" y="205331" />
+				<node x="83526" y="205137" />
+				<node x="83572" y="204949" />
+				<node x="83706" y="204820" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24306" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_144" minZ="-3874" maxZ="-3374">
+				<node x="81436" y="203903" />
+				<node x="81659" y="203980" />
+				<node x="81780" y="204110" />
+				<node x="81851" y="204278" />
+				<node x="81798" y="204493" />
+				<node x="81673" y="204606" />
+				<node x="81465" y="204693" />
+				<node x="81236" y="204639" />
+				<node x="81076" y="204490" />
+				<node x="81031" y="204296" />
+				<node x="81076" y="204108" />
+				<node x="81210" y="203980" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_145" minZ="-3874" maxZ="-3374">
+				<node x="78712" y="204202" />
+				<node x="78935" y="204280" />
+				<node x="79057" y="204410" />
+				<node x="79127" y="204578" />
+				<node x="79074" y="204793" />
+				<node x="78949" y="204905" />
+				<node x="78742" y="204993" />
+				<node x="78513" y="204938" />
+				<node x="78353" y="204790" />
+				<node x="78307" y="204596" />
+				<node x="78353" y="204408" />
+				<node x="78487" y="204279" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_149" minZ="-3874" maxZ="-3374">
+				<node x="84300" y="200212" />
+				<node x="84523" y="200290" />
+				<node x="84644" y="200420" />
+				<node x="84714" y="200588" />
+				<node x="84662" y="200802" />
+				<node x="84537" y="200915" />
+				<node x="84329" y="201003" />
+				<node x="84100" y="200948" />
+				<node x="83940" y="200800" />
+				<node x="83894" y="200605" />
+				<node x="83940" y="200417" />
+				<node x="84074" y="200289" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_151" minZ="-3874" maxZ="-3374">
+				<node x="93413" y="209723" />
+				<node x="93636" y="209801" />
+				<node x="93757" y="209931" />
+				<node x="93828" y="210099" />
+				<node x="93775" y="210314" />
+				<node x="93650" y="210426" />
+				<node x="93443" y="210514" />
+				<node x="93214" y="210459" />
+				<node x="93054" y="210311" />
+				<node x="93008" y="210117" />
+				<node x="93054" y="209929" />
+				<node x="93187" y="209800" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_152" minZ="-3874" maxZ="-3374">
+				<node x="91796" y="211043" />
+				<node x="92020" y="211121" />
+				<node x="92141" y="211251" />
+				<node x="92211" y="211418" />
+				<node x="92159" y="211633" />
+				<node x="92034" y="211746" />
+				<node x="91826" y="211834" />
+				<node x="91597" y="211779" />
+				<node x="91437" y="211631" />
+				<node x="91391" y="211436" />
+				<node x="91437" y="211248" />
+				<node x="91571" y="211120" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_153" minZ="-3874" maxZ="-3374">
+				<node x="89126" y="210008" />
+				<node x="89349" y="210085" />
+				<node x="89471" y="210215" />
+				<node x="89541" y="210383" />
+				<node x="89488" y="210598" />
+				<node x="89363" y="210710" />
+				<node x="89156" y="210798" />
+				<node x="88927" y="210743" />
+				<node x="88767" y="210595" />
+				<node x="88721" y="210401" />
+				<node x="88767" y="210213" />
+				<node x="88901" y="210085" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_154" minZ="-3874" maxZ="-3374">
+				<node x="86539" y="209758" />
+				<node x="86762" y="209835" />
+				<node x="86883" y="209965" />
+				<node x="86954" y="210133" />
+				<node x="86901" y="210348" />
+				<node x="86776" y="210460" />
+				<node x="86568" y="210548" />
+				<node x="86339" y="210493" />
+				<node x="86179" y="210345" />
+				<node x="86133" y="210151" />
+				<node x="86179" y="209963" />
+				<node x="86313" y="209835" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_156" minZ="-3874" maxZ="-3374">
+				<node x="87738" y="211955" />
+				<node x="87961" y="212033" />
+				<node x="88083" y="212163" />
+				<node x="88153" y="212331" />
+				<node x="88100" y="212546" />
+				<node x="87975" y="212658" />
+				<node x="87768" y="212746" />
+				<node x="87539" y="212691" />
+				<node x="87379" y="212543" />
+				<node x="87333" y="212348" />
+				<node x="87379" y="212161" />
+				<node x="87513" y="212032" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_157" minZ="-3874" maxZ="-3374">
+				<node x="92607" y="213881" />
+				<node x="92830" y="213959" />
+				<node x="92952" y="214089" />
+				<node x="93022" y="214257" />
+				<node x="92969" y="214471" />
+				<node x="92844" y="214584" />
+				<node x="92637" y="214672" />
+				<node x="92408" y="214617" />
+				<node x="92248" y="214469" />
+				<node x="92202" y="214274" />
+				<node x="92248" y="214086" />
+				<node x="92382" y="213958" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_158" minZ="-3874" maxZ="-3374">
+				<node x="89956" y="213972" />
+				<node x="90179" y="214049" />
+				<node x="90301" y="214180" />
+				<node x="90371" y="214347" />
+				<node x="90318" y="214562" />
+				<node x="90193" y="214675" />
+				<node x="89986" y="214763" />
+				<node x="89757" y="214708" />
+				<node x="89597" y="214559" />
+				<node x="89551" y="214365" />
+				<node x="89597" y="214177" />
+				<node x="89731" y="214049" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="2" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_159" minZ="-3874" maxZ="-3374">
+				<node x="89913" y="215984" />
+				<node x="90137" y="216062" />
+				<node x="90258" y="216192" />
+				<node x="90328" y="216359" />
+				<node x="90275" y="216574" />
+				<node x="90151" y="216687" />
+				<node x="89943" y="216775" />
+				<node x="89714" y="216720" />
+				<node x="89554" y="216571" />
+				<node x="89508" y="216377" />
+				<node x="89554" y="216189" />
+				<node x="89688" y="216061" />
+			</territory>
+		</territories>
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_160" minZ="-3874" maxZ="-3374">
+				<node x="94019" y="216273" />
+				<node x="94242" y="216351" />
+				<node x="94363" y="216481" />
+				<node x="94434" y="216649" />
+				<node x="94381" y="216864" />
+				<node x="94256" y="216976" />
+				<node x="94049" y="217064" />
+				<node x="93820" y="217009" />
+				<node x="93660" y="216861" />
+				<node x="93614" y="216666" />
+				<node x="93660" y="216478" />
+				<node x="93793" y="216350" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24306" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="innadril04_2224_161" minZ="-3874" maxZ="-3374">
+				<node x="94123" y="218770" />
+				<node x="94346" y="218848" />
+				<node x="94468" y="218978" />
+				<node x="94538" y="219146" />
+				<node x="94485" y="219360" />
+				<node x="94360" y="219473" />
+				<node x="94153" y="219561" />
+				<node x="93924" y="219506" />
+				<node x="93764" y="219358" />
+				<node x="93718" y="219163" />
+				<node x="93764" y="218975" />
+				<node x="93898" y="218847" />
+			</territory>
+		</territories>
+		<npc id="24304" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Kropiora -->
+		<npc id="24305" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotania -->
+		<npc id="24306" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krophy -->
+		<npc id="24307" count="1" respawnTime="10sec" chaseRange="900" /> <!-- Groz Krotany -->
+	</spawn>
+	<spawn name="FieldOfWhispers">
+		<group>
+			<npc id="19543" x="81407" y="226688" z="-3600" heading="27064" respawnTime="30sec" /> <!-- Invisible Kekropus NPC -->
+			<npc id="24304" x="76680" y="219480" z="-3621" heading="27954" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="77608" y="210872" z="-3732" heading="1093" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="78296" y="213432" z="-3772" heading="28533" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="78328" y="209544" z="-3677" heading="8559" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="78360" y="207672" z="-3653" heading="35475" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="79656" y="211960" z="-3772" heading="6020" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="79688" y="205992" z="-3772" heading="18947" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="79880" y="213432" z="-3580" heading="54718" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="80008" y="204040" z="-3773" heading="23894" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="80008" y="207592" z="-3772" heading="49736" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="80264" y="226600" z="-3644" heading="62746" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="80488" y="223896" z="-3772" heading="46457" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="80616" y="219480" z="-3766" heading="62647" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="80776" y="209048" z="-3677" heading="22450" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="81032" y="213000" z="-3652" heading="40399" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="81736" y="207928" z="-3682" heading="31680" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="81848" y="205592" z="-3772" heading="48918" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="82024" y="210968" z="-3629" heading="33953" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="82120" y="202904" z="-3772" heading="59134" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="82136" y="225320" z="-3721" heading="60900" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="82232" y="221400" z="-3766" heading="57586" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="82296" y="222760" z="-3772" heading="32767" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="82552" y="209544" z="-3772" heading="3011" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="82728" y="204152" z="-3543" heading="15924" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="83032" y="211848" z="-3544" heading="29307" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="83144" y="226872" z="-3717" heading="6196" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="83192" y="208392" z="-3745" heading="35302" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="83368" y="210680" z="-3630" heading="38475" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="83464" y="206376" z="-3772" heading="14673" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="83512" y="201400" z="-3673" heading="42153" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="83736" y="224216" z="-3772" heading="33791" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="83752" y="221320" z="-3772" heading="19775" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="83960" y="203176" z="-3579" heading="7725" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="84104" y="228392" z="-3689" heading="4333" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="84616" y="209544" z="-3722" heading="22737" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="84696" y="227064" z="-3772" heading="20112" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="84904" y="202840" z="-3657" heading="8498" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="84952" y="210968" z="-3772" heading="13046" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="85032" y="212520" z="-3688" heading="57265" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="85208" y="224344" z="-3772" heading="9533" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="85240" y="222008" z="-3498" heading="62612" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="85256" y="204136" z="-3580" heading="4240" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="85256" y="208520" z="-3673" heading="22739" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="85272" y="215624" z="-3772" heading="1792" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="85432" y="205800" z="-3772" heading="19472" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="85496" y="214696" z="-3772" heading="20645" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="85688" y="225448" z="-3697" heading="51128" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="85880" y="213368" z="-3772" heading="22086" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="85944" y="202744" z="-3690" heading="57664" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="86328" y="212024" z="-3772" heading="1835" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="86440" y="206866" z="-3680" heading="16227" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="86456" y="208728" z="-3772" heading="24054" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="86904" y="224616" z="-3772" heading="33647" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="86920" y="204328" z="-3690" heading="19262" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="87160" y="226024" z="-3772" heading="54744" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="87224" y="215288" z="-3626" heading="62050" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="87256" y="220408" z="-3688" heading="54524" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="87320" y="205912" z="-3719" heading="26721" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="87432" y="213960" z="-3576" heading="20596" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="87544" y="210856" z="-3772" heading="34178" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="87704" y="208008" z="-3738" heading="50353" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="87864" y="203768" z="-3689" heading="55442" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="87864" y="222120" z="-3772" heading="38805" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="87928" y="223496" z="-3767" heading="2019" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="88200" y="220904" z="-3772" heading="21620" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="88424" y="224888" z="-3772" heading="28963" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="88568" y="217832" z="-3772" heading="17299" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="88584" y="208616" z="-3682" heading="10645" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="88648" y="206968" z="-3702" heading="27575" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="88744" y="204888" z="-3772" heading="48819" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="88798" y="214913" z="-3772" heading="49151" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="88856" y="219416" z="-3772" heading="53044" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="88888" y="216472" z="-3766" heading="64865" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="88920" y="203368" z="-3766" heading="42591" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="89352" y="213208" z="-3772" heading="62316" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="89432" y="223848" z="-3683" heading="62457" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="89480" y="205928" z="-3723" heading="64015" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="89480" y="211752" z="-3772" heading="25185" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="89512" y="222360" z="-3720" heading="4663" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="89624" y="225272" z="-3587" heading="3088" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="89672" y="209176" z="-3640" heading="29559" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="90008" y="203624" z="-3772" heading="35588" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="90200" y="218456" z="-3744" heading="2995" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="90344" y="220088" z="-3576" heading="65259" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="90360" y="216632" z="-3682" heading="11937" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="90456" y="205128" z="-3765" heading="44546" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="90632" y="211128" z="-3772" heading="24956" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="90696" y="207608" z="-3690" heading="53909" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="90856" y="222040" z="-3662" heading="26111" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="91032" y="223912" z="-3772" heading="45005" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="91192" y="208680" z="-3771" heading="14420" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="91288" y="206264" z="-3777" heading="8400" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="91512" y="213336" z="-3772" heading="15071" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="91560" y="218552" z="-3771" heading="18769" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="91704" y="225352" z="-3772" heading="2955" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="91752" y="207704" z="-3692" heading="25088" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="91752" y="220264" z="-3772" heading="2933" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="91880" y="209656" z="-3624" heading="32010" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="92136" y="222280" z="-3772" heading="5339" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="92168" y="216504" z="-3772" heading="41553" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="92376" y="205768" z="-3772" heading="60196" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="92408" y="224216" z="-3772" heading="2706" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="92648" y="207192" z="-3772" heading="15535" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="92776" y="204136" z="-3772" heading="10988" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="92920" y="218744" z="-3722" heading="26947" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="92936" y="221304" z="-3772" heading="10975" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="93016" y="212392" z="-3707" heading="48191" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="93032" y="217544" z="-3772" heading="40777" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="93064" y="223064" z="-3772" heading="48856" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="93208" y="220168" z="-3772" heading="63505" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="93320" y="208600" z="-3772" heading="34677" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="93352" y="215704" z="-3772" heading="58104" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="94024" y="222088" z="-3772" heading="50944" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="94056" y="207016" z="-3772" heading="59737" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="94168" y="213096" z="-3772" heading="17681" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="94520" y="215048" z="-3653" heading="39161" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="94552" y="208904" z="-3772" heading="22197" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="94696" y="217880" z="-3772" heading="61858" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="94728" y="220824" z="-3772" heading="52871" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="95064" y="211656" z="-3772" heading="39198" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24304" x="95384" y="207688" z="-3772" heading="57024" respawnTime="30sec" chaseRange="900" /> <!-- Groz Kropiora -->
+			<npc id="24305" x="76776" y="219512" z="-3626" heading="1360" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="77560" y="215400" z="-3766" heading="64270" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="77608" y="210872" z="-3732" heading="1093" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="78296" y="213432" z="-3772" heading="28533" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="78328" y="209544" z="-3677" heading="8559" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="78360" y="207672" z="-3653" heading="35475" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="79656" y="211960" z="-3772" heading="6020" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="79688" y="205992" z="-3772" heading="18947" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="79880" y="213432" z="-3580" heading="54718" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="80008" y="204040" z="-3773" heading="23894" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="80008" y="207592" z="-3772" heading="49736" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="80264" y="226600" z="-3644" heading="62746" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="80456" y="219368" z="-3766" heading="35048" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="80488" y="223896" z="-3772" heading="46457" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="80776" y="209048" z="-3677" heading="22450" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="81144" y="213064" z="-3660" heading="6469" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="81736" y="207928" z="-3682" heading="31680" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="81752" y="223976" z="-3766" heading="24122" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="81848" y="205592" z="-3772" heading="48918" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="82024" y="210968" z="-3629" heading="33953" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="82088" y="221480" z="-3766" heading="27288" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="82120" y="202904" z="-3772" heading="59134" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="82136" y="225320" z="-3721" heading="60900" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="82296" y="222760" z="-3772" heading="32767" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="82552" y="209544" z="-3772" heading="3011" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="82728" y="204152" z="-3543" heading="15924" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="83064" y="211992" z="-3556" heading="11606" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="83144" y="226872" z="-3717" heading="6196" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="83192" y="208392" z="-3745" heading="35302" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="83368" y="210680" z="-3630" heading="38475" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="83464" y="206376" z="-3772" heading="14673" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="83512" y="201400" z="-3673" heading="42153" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="83736" y="224216" z="-3772" heading="33791" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="83752" y="221320" z="-3772" heading="19775" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="83832" y="203208" z="-3573" heading="30858" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="83864" y="204744" z="-3514" heading="44618" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="84104" y="228392" z="-3689" heading="4333" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="84616" y="209544" z="-3722" heading="22737" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="84696" y="227064" z="-3772" heading="20112" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="84840" y="212600" z="-3672" heading="28630" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="84904" y="202840" z="-3657" heading="8498" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="84952" y="210968" z="-3772" heading="13046" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="85208" y="224344" z="-3772" heading="9533" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="85240" y="222008" z="-3498" heading="62612" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="85256" y="204136" z="-3580" heading="4240" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="85256" y="208520" z="-3673" heading="22739" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="85272" y="215624" z="-3772" heading="1792" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="85432" y="205800" z="-3772" heading="19472" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="85496" y="214696" z="-3772" heading="20645" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="85688" y="225448" z="-3697" heading="51128" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="85880" y="213368" z="-3772" heading="22086" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="85896" y="202600" z="-3690" heading="45337" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="86319" y="207077" z="-3667" heading="29481" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="86328" y="212024" z="-3772" heading="1835" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="86456" y="208728" z="-3772" heading="24054" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="86904" y="224616" z="-3772" heading="33647" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="87160" y="226024" z="-3772" heading="54744" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="87224" y="215288" z="-3626" heading="62050" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="87256" y="220408" z="-3688" heading="54524" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="87320" y="205912" z="-3719" heading="26721" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="87432" y="214120" z="-3594" heading="16633" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="87544" y="210856" z="-3772" heading="34178" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="87704" y="208008" z="-3738" heading="50353" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="87864" y="203768" z="-3689" heading="55442" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="87864" y="222120" z="-3772" heading="38805" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="87928" y="223496" z="-3767" heading="2019" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="88200" y="220904" z="-3772" heading="21620" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="88424" y="224888" z="-3772" heading="28963" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="88568" y="217832" z="-3772" heading="17299" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="88648" y="206968" z="-3702" heading="27575" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="88696" y="208552" z="-3677" heading="56870" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="88744" y="204888" z="-3772" heading="48819" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="88798" y="214913" z="-3772" heading="49151" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="88856" y="219416" z="-3772" heading="53044" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="88888" y="216472" z="-3766" heading="64865" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="88920" y="203368" z="-3766" heading="42591" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="89352" y="213208" z="-3772" heading="62316" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="89432" y="223848" z="-3683" heading="62457" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="89480" y="205928" z="-3723" heading="64015" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="89480" y="211752" z="-3772" heading="25185" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="89512" y="222360" z="-3720" heading="4663" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="89624" y="225272" z="-3587" heading="3088" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="89672" y="209176" z="-3640" heading="29559" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="90008" y="203624" z="-3772" heading="35588" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="90200" y="218456" z="-3744" heading="2995" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="90344" y="220088" z="-3576" heading="65259" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="90456" y="205128" z="-3765" heading="44546" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="90632" y="211128" z="-3772" heading="24956" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="90696" y="207608" z="-3690" heading="53909" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="90856" y="222040" z="-3662" heading="26111" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="91032" y="223912" z="-3772" heading="45005" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="91192" y="208680" z="-3771" heading="14420" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="91288" y="206264" z="-3777" heading="8400" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="91512" y="213336" z="-3772" heading="15071" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="91560" y="218552" z="-3771" heading="18769" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="91704" y="225352" z="-3772" heading="2955" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="91752" y="207704" z="-3692" heading="25088" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="91752" y="220264" z="-3772" heading="2933" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="91880" y="209656" z="-3624" heading="32010" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="92136" y="222280" z="-3772" heading="5339" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="92168" y="216504" z="-3772" heading="41553" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="92376" y="205768" z="-3772" heading="60196" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="92408" y="224216" z="-3772" heading="2706" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="92648" y="207192" z="-3772" heading="15535" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="92776" y="204136" z="-3772" heading="10988" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="92920" y="218744" z="-3722" heading="26947" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="92936" y="221304" z="-3772" heading="10975" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="93016" y="212392" z="-3707" heading="48191" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="93032" y="217544" z="-3772" heading="40777" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="93064" y="223064" z="-3772" heading="48856" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="93208" y="220168" z="-3772" heading="63505" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="93320" y="208600" z="-3772" heading="34677" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="93352" y="215704" z="-3772" heading="58104" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="94024" y="222088" z="-3772" heading="50944" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="94056" y="207016" z="-3772" heading="59737" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="94168" y="213096" z="-3772" heading="17681" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="94232" y="217048" z="-3704" heading="16383" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="94520" y="215048" z="-3653" heading="39161" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="94552" y="208904" z="-3772" heading="22197" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="94696" y="217880" z="-3772" heading="61858" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="94728" y="220824" z="-3772" heading="52871" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="95064" y="211656" z="-3772" heading="39198" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24305" x="95384" y="207688" z="-3772" heading="57024" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotania -->
+			<npc id="24306" x="76840" y="219368" z="-3647" heading="53299" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="76904" y="213272" z="-3766" heading="58623" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="77608" y="210872" z="-3732" heading="1093" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="77624" y="215288" z="-3766" heading="54677" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="78296" y="213432" z="-3772" heading="28533" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="78328" y="209544" z="-3677" heading="8559" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="78360" y="207672" z="-3653" heading="35475" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="79416" y="214872" z="-3672" heading="55900" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="79656" y="211960" z="-3772" heading="6020" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="79688" y="205992" z="-3772" heading="18947" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="79880" y="213432" z="-3580" heading="54718" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="79976" y="225256" z="-3766" heading="3385" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="80008" y="204040" z="-3773" heading="23894" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="80008" y="207592" z="-3772" heading="49736" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="80264" y="226600" z="-3644" heading="62746" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="80392" y="219544" z="-3766" heading="19668" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="80488" y="223896" z="-3772" heading="46457" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="80744" y="210616" z="-3766" heading="1981" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="80776" y="209048" z="-3677" heading="22450" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="81272" y="212968" z="-3662" heading="58428" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="81736" y="207928" z="-3682" heading="31680" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="81848" y="205592" z="-3772" heading="48918" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="81848" y="224024" z="-3766" heading="5344" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="82024" y="210968" z="-3629" heading="33953" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="82120" y="202904" z="-3772" heading="59134" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="82136" y="221576" z="-3766" heading="11466" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="82136" y="225320" z="-3721" heading="60900" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="82296" y="222760" z="-3772" heading="32767" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="82552" y="209544" z="-3772" heading="3011" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="82728" y="204152" z="-3543" heading="15924" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83144" y="226872" z="-3717" heading="6196" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83176" y="211960" z="-3558" heading="62684" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83192" y="208392" z="-3745" heading="35302" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83368" y="210680" z="-3630" heading="38475" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83464" y="206376" z="-3772" heading="14673" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83512" y="201400" z="-3673" heading="42153" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83736" y="224216" z="-3772" heading="33791" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83752" y="221320" z="-3772" heading="19775" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83800" y="204776" z="-3527" heading="27319" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83864" y="203384" z="-3585" heading="7348" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="84104" y="228392" z="-3689" heading="4333" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="84616" y="209544" z="-3722" heading="22737" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="84696" y="227064" z="-3772" heading="20112" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="84840" y="212728" z="-3660" heading="16552" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="84904" y="202840" z="-3657" heading="8498" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="84952" y="210968" z="-3772" heading="13046" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85208" y="224344" z="-3772" heading="9533" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85240" y="222008" z="-3498" heading="62612" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85256" y="204136" z="-3580" heading="4240" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85256" y="208520" z="-3673" heading="22739" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85272" y="215624" z="-3772" heading="1792" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85432" y="205800" z="-3772" heading="19472" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85496" y="214696" z="-3772" heading="20645" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85688" y="225448" z="-3697" heading="51128" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85880" y="213368" z="-3772" heading="22086" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="86104" y="202584" z="-3694" heading="20696" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="86296" y="206920" z="-3669" heading="45059" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="86328" y="212024" z="-3772" heading="1835" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="86456" y="208728" z="-3772" heading="24054" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="86776" y="204392" z="-3706" heading="45949" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="86904" y="224616" z="-3772" heading="33647" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87160" y="226024" z="-3772" heading="54744" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87224" y="215288" z="-3626" heading="62050" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87256" y="220408" z="-3688" heading="54524" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87320" y="205912" z="-3719" heading="26721" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87544" y="210856" z="-3772" heading="34178" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87608" y="214072" z="-3586" heading="63145" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87704" y="208008" z="-3738" heading="50353" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87864" y="203768" z="-3689" heading="55442" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87864" y="222120" z="-3772" heading="38805" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87928" y="223496" z="-3767" heading="2019" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88184" y="212168" z="-3594" heading="3781" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88200" y="220904" z="-3772" heading="21620" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88424" y="224888" z="-3772" heading="28963" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88568" y="217832" z="-3772" heading="17299" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88648" y="206968" z="-3702" heading="27575" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88744" y="204888" z="-3772" heading="48819" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88760" y="208696" z="-3664" heading="12525" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88798" y="214913" z="-3772" heading="49151" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88856" y="219416" z="-3772" heading="53044" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88888" y="216472" z="-3766" heading="64865" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88920" y="203368" z="-3766" heading="42591" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89352" y="213208" z="-3772" heading="62316" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89432" y="223848" z="-3683" heading="62457" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89480" y="205928" z="-3723" heading="64015" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89480" y="211752" z="-3772" heading="25185" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89512" y="222360" z="-3720" heading="4663" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89624" y="225272" z="-3587" heading="3088" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89672" y="209176" z="-3640" heading="29559" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90008" y="203624" z="-3772" heading="35588" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90200" y="218456" z="-3744" heading="2995" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90344" y="220088" z="-3576" heading="65259" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90456" y="205128" z="-3765" heading="44546" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90632" y="211128" z="-3772" heading="24956" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90696" y="207608" z="-3690" heading="53909" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90856" y="222040" z="-3662" heading="26111" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91032" y="223912" z="-3772" heading="45005" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91192" y="208680" z="-3771" heading="14420" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91288" y="206264" z="-3777" heading="8400" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91512" y="213336" z="-3772" heading="15071" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91560" y="218552" z="-3771" heading="18769" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91704" y="225352" z="-3772" heading="2955" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91752" y="207704" z="-3692" heading="25088" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91752" y="220264" z="-3772" heading="2933" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91880" y="209656" z="-3624" heading="32010" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92136" y="222280" z="-3772" heading="5339" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92168" y="216504" z="-3772" heading="41553" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92376" y="205768" z="-3772" heading="60196" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92408" y="224216" z="-3772" heading="2706" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92648" y="207192" z="-3772" heading="15535" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92776" y="204136" z="-3772" heading="10988" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92920" y="218744" z="-3722" heading="26947" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92936" y="221304" z="-3772" heading="10975" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="93016" y="212392" z="-3707" heading="48191" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="93032" y="217544" z="-3772" heading="40777" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="93064" y="223064" z="-3772" heading="48856" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="93208" y="220168" z="-3772" heading="63505" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="93320" y="208600" z="-3772" heading="34677" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="93352" y="215704" z="-3772" heading="58104" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94024" y="222088" z="-3772" heading="50944" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94056" y="207016" z="-3772" heading="59737" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94168" y="213096" z="-3772" heading="17681" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94328" y="217032" z="-3720" heading="63641" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94520" y="215048" z="-3653" heading="39161" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94552" y="208904" z="-3772" heading="22197" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94696" y="217880" z="-3772" heading="61858" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94728" y="220824" z="-3772" heading="52871" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="95064" y="211656" z="-3772" heading="39198" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="95384" y="207688" z="-3772" heading="57024" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24307" x="76744" y="219288" z="-3646" heading="39655" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="76840" y="213176" z="-3766" heading="42944" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="77560" y="215192" z="-3766" heading="43043" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="77608" y="210872" z="-3732" heading="1093" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="78296" y="213432" z="-3772" heading="28533" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="78328" y="209544" z="-3677" heading="8559" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="78360" y="207672" z="-3653" heading="35475" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="79272" y="204808" z="-3766" heading="63719" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="79352" y="214776" z="-3668" heading="42805" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="79656" y="211960" z="-3772" heading="6020" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="79688" y="205992" z="-3772" heading="18947" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="79880" y="213432" z="-3580" heading="54718" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="80008" y="204040" z="-3773" heading="23894" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="80008" y="207592" z="-3772" heading="49736" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="80104" y="225256" z="-3766" heading="65283" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="80264" y="226600" z="-3644" heading="62746" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="80488" y="223896" z="-3772" heading="46457" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="80776" y="209048" z="-3677" heading="22450" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="80792" y="210488" z="-3766" heading="52976" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="81160" y="212824" z="-3661" heading="41890" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="81736" y="207928" z="-3682" heading="31680" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="81848" y="205592" z="-3772" heading="48918" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="82024" y="210968" z="-3629" heading="33953" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="82120" y="202904" z="-3772" heading="59134" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="82136" y="225320" z="-3721" heading="60900" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="82280" y="221608" z="-3766" heading="2465" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="82296" y="222760" z="-3772" heading="32767" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="82552" y="209544" z="-3772" heading="3011" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="82728" y="204152" z="-3543" heading="15924" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="83144" y="226872" z="-3717" heading="6196" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="83192" y="208392" z="-3745" heading="35302" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="83288" y="211864" z="-3559" heading="57859" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="83368" y="210680" z="-3630" heading="38475" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="83464" y="206376" z="-3772" heading="14673" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="83512" y="201400" z="-3673" heading="42153" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="83736" y="224216" z="-3772" heading="33791" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="83752" y="221320" z="-3772" heading="19775" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="83784" y="203320" z="-3579" heading="20261" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="84104" y="228392" z="-3689" heading="4333" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="84616" y="209544" z="-3722" heading="22737" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="84696" y="227064" z="-3772" heading="20112" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="84904" y="202840" z="-3657" heading="8498" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="84952" y="210968" z="-3772" heading="13046" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="84952" y="212760" z="-3663" heading="2280" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="85208" y="224344" z="-3772" heading="9533" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="85240" y="222008" z="-3498" heading="62612" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="85256" y="204136" z="-3580" heading="4240" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="85256" y="208520" z="-3673" heading="22739" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="85272" y="215624" z="-3772" heading="1792" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="85432" y="205800" z="-3772" heading="19472" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="85496" y="214696" z="-3772" heading="20645" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="85688" y="225448" z="-3697" heading="51128" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="85880" y="213368" z="-3772" heading="22086" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="85960" y="202472" z="-3691" heading="39866" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="86264" y="206744" z="-3677" heading="45306" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="86328" y="212024" z="-3772" heading="1835" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="86456" y="208728" z="-3772" heading="24054" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="86840" y="204232" z="-3702" heading="52649" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="86904" y="224616" z="-3772" heading="33647" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="87160" y="226024" z="-3772" heading="54744" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="87224" y="215288" z="-3626" heading="62050" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="87256" y="220408" z="-3688" heading="54524" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="87320" y="205912" z="-3719" heading="26721" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="87544" y="210856" z="-3772" heading="34178" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="87704" y="208008" z="-3738" heading="50353" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="87736" y="213880" z="-3565" heading="43378" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="87864" y="203768" z="-3689" heading="55442" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="87864" y="222120" z="-3772" heading="38805" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="87928" y="223496" z="-3767" heading="2019" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="88152" y="212008" z="-3611" heading="46501" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="88200" y="220904" z="-3772" heading="21620" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="88424" y="224888" z="-3772" heading="28963" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="88568" y="217832" z="-3772" heading="17299" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="88648" y="206968" z="-3702" heading="27575" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="88648" y="208840" z="-3677" heading="23298" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="88744" y="204888" z="-3772" heading="48819" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="88798" y="214913" z="-3772" heading="49151" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="88856" y="219416" z="-3772" heading="53044" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="88888" y="216472" z="-3766" heading="64865" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="88920" y="203368" z="-3766" heading="42591" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="89352" y="213208" z="-3772" heading="62316" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="89432" y="223848" z="-3683" heading="62457" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="89480" y="205928" z="-3723" heading="64015" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="89480" y="211752" z="-3772" heading="25185" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="89512" y="222360" z="-3720" heading="4663" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="89624" y="225272" z="-3587" heading="3088" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="89672" y="209176" z="-3640" heading="29559" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="90008" y="203624" z="-3772" heading="35588" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="90200" y="218456" z="-3744" heading="2995" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="90328" y="216392" z="-3714" heading="62870" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="90344" y="220088" z="-3576" heading="65259" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="90456" y="205128" z="-3765" heading="44546" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="90632" y="211128" z="-3772" heading="24956" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="90696" y="207608" z="-3690" heading="53909" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="90856" y="222040" z="-3662" heading="26111" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="91032" y="223912" z="-3772" heading="45005" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="91192" y="208680" z="-3771" heading="14420" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="91288" y="206264" z="-3777" heading="8400" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="91512" y="213336" z="-3772" heading="15071" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="91560" y="218552" z="-3771" heading="18769" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="91704" y="225352" z="-3772" heading="2955" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="91752" y="207704" z="-3692" heading="25088" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="91752" y="220264" z="-3772" heading="2933" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="91880" y="209656" z="-3624" heading="32010" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="92136" y="222280" z="-3772" heading="5339" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="92168" y="216504" z="-3772" heading="41553" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="92376" y="205768" z="-3772" heading="60196" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="92408" y="224216" z="-3772" heading="2706" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="92648" y="207192" z="-3772" heading="15535" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="92776" y="204136" z="-3772" heading="10988" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="92920" y="218744" z="-3722" heading="26947" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="92936" y="221304" z="-3772" heading="10975" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="93016" y="212392" z="-3707" heading="48191" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="93032" y="217544" z="-3772" heading="40777" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="93064" y="214152" z="-3646" heading="52903" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="93064" y="223064" z="-3772" heading="48856" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="93208" y="220168" z="-3772" heading="63505" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="93320" y="208600" z="-3772" heading="34677" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="93352" y="215704" z="-3772" heading="58104" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="94024" y="222088" z="-3772" heading="50944" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="94056" y="207016" z="-3772" heading="59737" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="94168" y="213096" z="-3772" heading="17681" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="94520" y="215048" z="-3653" heading="39161" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="94552" y="208904" z="-3772" heading="22197" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="94696" y="217880" z="-3772" heading="61858" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="94728" y="220824" z="-3772" heading="52871" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="95064" y="211656" z="-3772" heading="39198" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24307" x="95384" y="207688" z="-3772" heading="57024" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krotany -->
+			<npc id="24306" x="76600" y="219320" z="-3623" heading="31021" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="77608" y="210872" z="-3732" heading="1093" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="78296" y="213432" z="-3772" heading="28533" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="78328" y="209544" z="-3677" heading="8559" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="78360" y="207672" z="-3653" heading="35475" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="79176" y="214808" z="-3681" heading="31171" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="79224" y="204552" z="-3715" heading="43018" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="79656" y="211960" z="-3772" heading="6020" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="79688" y="205992" z="-3772" heading="18947" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="79880" y="213432" z="-3580" heading="54718" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="80008" y="204040" z="-3773" heading="23894" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="80008" y="207592" z="-3772" heading="49736" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="80264" y="226600" z="-3644" heading="62746" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="80488" y="223896" z="-3772" heading="46457" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="80728" y="210312" z="-3766" heading="45423" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="80776" y="209048" z="-3677" heading="22450" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="81000" y="212840" z="-3650" heading="31927" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="81704" y="214776" z="-3766" heading="34435" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="81736" y="207928" z="-3682" heading="31680" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="81848" y="205592" z="-3772" heading="48918" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="82024" y="210968" z="-3629" heading="33953" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="82120" y="202904" z="-3772" heading="59134" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="82136" y="225320" z="-3721" heading="60900" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="82296" y="222760" z="-3772" heading="32767" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="82552" y="209544" z="-3772" heading="3011" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="82728" y="204152" z="-3543" heading="15924" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83144" y="226872" z="-3717" heading="6196" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83176" y="211736" z="-3543" heading="41637" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83192" y="208392" z="-3745" heading="35302" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83368" y="210680" z="-3630" heading="38475" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83464" y="206376" z="-3772" heading="14673" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83512" y="201400" z="-3673" heading="42153" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83736" y="224216" z="-3772" heading="33791" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="83752" y="221320" z="-3772" heading="19775" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="84024" y="203320" z="-3592" heading="61815" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="84104" y="228392" z="-3689" heading="4333" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="84616" y="209544" z="-3722" heading="22737" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="84696" y="227064" z="-3772" heading="20112" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="84904" y="202840" z="-3657" heading="8498" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="84952" y="210968" z="-3772" heading="13046" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85112" y="212664" z="-3684" heading="60003" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85208" y="224344" z="-3772" heading="9533" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85240" y="222008" z="-3498" heading="62612" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85256" y="204136" z="-3580" heading="4240" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85256" y="208520" z="-3673" heading="22739" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85272" y="215624" z="-3772" heading="1792" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85432" y="205800" z="-3772" heading="19472" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85496" y="214696" z="-3772" heading="20645" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85688" y="225448" z="-3697" heading="51128" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85816" y="202456" z="-3692" heading="33922" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="85880" y="213368" z="-3772" heading="22086" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="86088" y="207000" z="-3665" heading="22865" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="86328" y="212024" z="-3772" heading="1835" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="86456" y="208728" z="-3772" heading="24054" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="86904" y="224616" z="-3772" heading="33647" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87064" y="204344" z="-3694" heading="5081" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87160" y="226024" z="-3772" heading="54744" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87224" y="215288" z="-3626" heading="62050" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87256" y="220408" z="-3688" heading="54524" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87320" y="205912" z="-3719" heading="26721" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87464" y="213816" z="-3551" heading="61485" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87544" y="210856" z="-3772" heading="34178" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87704" y="208008" z="-3738" heading="50353" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87864" y="203768" z="-3689" heading="55442" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87864" y="222120" z="-3772" heading="38805" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87928" y="223496" z="-3767" heading="2019" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="87960" y="211912" z="-3633" heading="37671" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88200" y="220904" z="-3772" heading="21620" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88424" y="224888" z="-3772" heading="28963" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88488" y="208744" z="-3709" heading="38268" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88568" y="217832" z="-3772" heading="17299" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88648" y="206968" z="-3702" heading="27575" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88744" y="204888" z="-3772" heading="48819" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88798" y="214913" z="-3772" heading="49151" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88856" y="219416" z="-3772" heading="53044" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88888" y="216472" z="-3766" heading="64865" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="88920" y="203368" z="-3766" heading="42591" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89352" y="213208" z="-3772" heading="62316" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89432" y="223848" z="-3683" heading="62457" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89480" y="205928" z="-3723" heading="64015" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89480" y="211752" z="-3772" heading="25185" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89512" y="222360" z="-3720" heading="4663" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89624" y="225272" z="-3587" heading="3088" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="89672" y="209176" z="-3640" heading="29559" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90008" y="203624" z="-3772" heading="35588" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90200" y="218456" z="-3744" heading="2995" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90344" y="220088" z="-3576" heading="65259" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90440" y="216504" z="-3700" heading="8100" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90456" y="205128" z="-3765" heading="44546" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90632" y="211128" z="-3772" heading="24956" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90696" y="207608" z="-3690" heading="53909" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="90856" y="222040" z="-3662" heading="26111" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91032" y="223912" z="-3772" heading="45005" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91192" y="208680" z="-3771" heading="14420" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91288" y="206264" z="-3777" heading="8400" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91512" y="213336" z="-3772" heading="15071" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91560" y="218552" z="-3771" heading="18769" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91704" y="225352" z="-3772" heading="2955" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91752" y="207704" z="-3692" heading="25088" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91752" y="220264" z="-3772" heading="2933" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="91880" y="209656" z="-3624" heading="32010" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92136" y="222280" z="-3772" heading="5339" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92168" y="216504" z="-3772" heading="41553" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92376" y="205768" z="-3772" heading="60196" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92408" y="224216" z="-3772" heading="2706" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92648" y="207192" z="-3772" heading="15535" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92776" y="204136" z="-3772" heading="10988" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92920" y="218744" z="-3722" heading="26947" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="92936" y="221304" z="-3772" heading="10975" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="93016" y="212392" z="-3707" heading="48191" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="93032" y="217544" z="-3772" heading="40777" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="93064" y="223064" z="-3772" heading="48856" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="93208" y="220168" z="-3772" heading="63505" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="93320" y="208600" z="-3772" heading="34677" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="93352" y="215704" z="-3772" heading="58104" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94024" y="222088" z="-3772" heading="50944" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94056" y="207016" z="-3772" heading="59737" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94168" y="213096" z="-3772" heading="17681" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94520" y="215048" z="-3653" heading="39161" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94520" y="219240" z="-3728" heading="14847" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94552" y="208904" z="-3772" heading="22197" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94696" y="217880" z="-3772" heading="61858" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="94728" y="220824" z="-3772" heading="52871" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="95064" y="211656" z="-3772" heading="39198" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="24306" x="95384" y="207688" z="-3772" heading="57024" respawnTime="30sec" chaseRange="900" /> <!-- Groz Krophy -->
+			<npc id="33383" x="79281" y="209025" z="-3714" heading="32767" respawnTime="30sec" /> <!-- Guard -->
+			<npc id="33383" x="79281" y="209412" z="-3714" heading="34150" respawnTime="30sec" /> <!-- Guard -->
+			<npc id="33383" x="79484" y="208822" z="-3711" heading="48457" respawnTime="30sec" /> <!-- Guard -->
+			<npc id="33383" x="79487" y="209618" z="-3711" heading="17127" respawnTime="30sec" /> <!-- Guard -->
+			<npc id="33383" x="79869" y="208820" z="-3711" heading="49151" respawnTime="30sec" /> <!-- Guard -->
+			<npc id="33383" x="79876" y="209616" z="-3711" heading="14018" respawnTime="30sec" /> <!-- Guard -->
+			<npc id="33383" x="80078" y="209024" z="-3714" heading="945" respawnTime="30sec" /> <!-- Guard -->
+			<npc id="33383" x="80078" y="209413" z="-3711" heading="743" respawnTime="30sec" /> <!-- Guard -->
+			<npc id="34481" x="81320" y="226520" z="-3590" heading="63371" respawnTime="30sec" /> <!-- Ramer - Reed Field Ranger -->
+			<npc id="34710" x="90310" y="213434" z="-3766" heading="10067" respawnTime="60sec" /> <!-- Water Spirit Lian -->
+		</group>
+	</spawn>
+</list>

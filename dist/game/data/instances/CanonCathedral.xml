@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Canon Cathedral -->
+<instance id="366" maxWorlds="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/instance.xsd">
+	<time duration="61" empty="0" />
+	<locations>
+		<enter type="FIXED">
+			<location x="-27976" y="-146804" z="-12552" heading="372" />
+		</enter>
+		<exit type="FIXED">
+			<location x="146981" y="26877" z="-2208" />
+		</exit>
+	</locations>
+	<conditions>
+		<condition type="Party" showMessageAndHtml="true">
+			<param name="html" value="condNoEnter.html" />
+		</condition>
+		<condition type="PartyLeader" showMessageAndHtml="true">
+			<param name="html" value="condNoEnter.html" />
+		</condition>
+		<condition type="GroupMin">
+			<param name="html" value="condNoEnter.html" />
+			<param name="limit" value="2" />
+		</condition>
+		<condition type="GroupMax">
+			<param name="limit" value="7" />
+		</condition>
+		<condition type="Level" showMessageAndHtml="true">
+			<param name="html" value="condNoEnter.html" />
+			<param name="min" value="105" />
+		</condition>
+		<condition type="Distance" />
+		<condition type="Reenter" />
+	</conditions>
+	<reenter apply="ON_FINISH">
+		<reset day="MONDAY" hour="6" minute="30" />
+		<reset day="TUESDAY" hour="6" minute="30" />
+		<reset day="WEDNESDAY" hour="6" minute="30" />
+		<reset day="THURSDAY" hour="6" minute="30" />
+		<reset day="FRIDAY" hour="6" minute="30" />
+		<reset day="SATURDAY" hour="6" minute="30" />
+		<reset day="SUNDAY" hour="6" minute="30" />
+	</reenter>
+	<spawnlist>
+		<group name="BENUSTA" spawnByDefault="false">
+			<npc id="31464" x="-27776" y="-146813" z="-12552" heading="32155" /> <!-- Benusta -->
+		</group>
+		<!-- ===================== Lvl 110 ===================== -->
+		<group name="STATUE_110_RED" spawnByDefault="false">
+			<npc id="26644" x="-11641" y="-151563" z="-12048" heading="64848" /> <!-- Einhasad's Statue Blood Seal -->
+		</group>
+		<group name="STATUE_110_BLUE" spawnByDefault="false">
+			<npc id="26645" x="-20747" y="-143822" z="-11936" heading="402" /> <!-- Einhasad's Statue Gnosis Seal -->
+		</group>
+		<group name="STATUE_110_YELLOW" spawnByDefault="false">
+			<npc id="26646" x="-19993" y="-152345" z="-11927" heading="48788" /> <!-- Einhasad's Statue Radiance Seal -->
+		</group>
+		<group name="STATUE_110_GREEN" spawnByDefault="false">
+			<npc id="26647" x="-11832" y="-143189" z="-11904" heading="49151" /> <!-- Einhasad's Statue Restoration Seal -->
+		</group>
+		<group name="RAID_110_RED" spawnByDefault="false">
+			<npc id="26655" x="-11641" y="-151563" z="-12048" heading="64848" /> <!-- Velkir -->
+		</group>
+		<group name="RAID_110_BLUE" spawnByDefault="false">
+			<npc id="26655" x="-20747" y="-143822" z="-11936" heading="402" /> <!-- Velkir -->
+		</group>
+		<group name="RAID_110_YELLOW" spawnByDefault="false">
+			<npc id="26655" x="-19993" y="-152345" z="-11927" heading="48788" /> <!-- Velkir -->
+		</group>
+		<group name="RAID_110_GREEN" spawnByDefault="false">
+			<npc id="26655" x="-11832" y="-143189" z="-11904" heading="49151" /> <!-- Velkir -->
+		</group>
+		<!-- ===================== Lvl 120 ===================== -->
+		<group name="STATUE_120_RED" spawnByDefault="false">
+			<npc id="26656" x="-11641" y="-151563" z="-12048" heading="64848" /> <!-- Einhasad's Statue Blood Seal -->
+		</group>
+		<group name="STATUE_120_BLUE" spawnByDefault="false">
+			<npc id="26657" x="-20747" y="-143822" z="-11936" heading="402" /> <!-- Einhasad's Statue Gnosis Seal -->
+		</group>
+		<group name="STATUE_120_YELLOW" spawnByDefault="false">
+			<npc id="26658" x="-19993" y="-152345" z="-11927" heading="48788" /> <!-- Einhasad's Statue Radiance Seal -->
+		</group>
+		<group name="STATUE_120_GREEN" spawnByDefault="false">
+			<npc id="26659" x="-11832" y="-143189" z="-11904" heading="49151" /> <!-- Einhasad's Statue Restoration Seal -->
+		</group>
+		<group name="RAID_120_RED" spawnByDefault="false">
+			<npc id="26667" x="-11641" y="-151563" z="-12048" heading="64848" /> <!-- Radiges -->
+		</group>
+		<group name="RAID_120_BLUE" spawnByDefault="false">
+			<npc id="26667" x="-20747" y="-143822" z="-11936" heading="402" /> <!-- Radiges -->
+		</group>
+		<group name="RAID_120_YELLOW" spawnByDefault="false">
+			<npc id="26667" x="-19993" y="-152345" z="-11927" heading="48788" /> <!-- Radiges -->
+		</group>
+		<group name="RAID_120_GREEN" spawnByDefault="false">
+			<npc id="26667" x="-11832" y="-143189" z="-11904" heading="49151" /> <!-- Radiges -->
+		</group>
+		<!-- ===================== Lvl 130 ===================== -->
+		<group name="STATUE_130_RED" spawnByDefault="false">
+			<npc id="26668" x="-11641" y="-151563" z="-12048" heading="64848" /> <!-- Einhasad's Statue Blood Seal -->
+		</group>
+		<group name="STATUE_130_BLUE" spawnByDefault="false">
+			<npc id="26669" x="-20747" y="-143822" z="-11936" heading="402" /> <!-- Einhasad's Statue Gnosis Seal -->
+		</group>
+		<group name="STATUE_130_YELLOW" spawnByDefault="false">
+			<npc id="26670" x="-19993" y="-152345" z="-11927" heading="48788" /> <!-- Einhasad's Statue Radiance Seal -->
+		</group>
+		<group name="STATUE_130_GREEN" spawnByDefault="false">
+			<npc id="26671" x="-11832" y="-143189" z="-11904" heading="49151" /> <!-- Einhasad's Statue Restoration Seal -->
+		</group>
+		<group name="RAID_130_RED" spawnByDefault="false">
+			<npc id="26679" x="-11641" y="-151563" z="-12048" heading="64848" /> <!-- Aquilon -->
+		</group>
+		<group name="RAID_130_BLUE" spawnByDefault="false">
+			<npc id="26679" x="-20747" y="-143822" z="-11936" heading="402" /> <!-- Aquilon -->
+		</group>
+		<group name="RAID_130_YELLOW" spawnByDefault="false">
+			<npc id="26679" x="-19993" y="-152345" z="-11927" heading="48788" /> <!-- Aquilon -->
+		</group>
+		<group name="RAID_130_GREEN" spawnByDefault="false">
+			<npc id="26679" x="-11832" y="-143189" z="-11904" heading="49151" /> <!-- Aquilon -->
+		</group>
+	</spawnlist>
+</instance>

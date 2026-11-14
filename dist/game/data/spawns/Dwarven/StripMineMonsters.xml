@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="schttgart07_2312_05" minZ="-788" maxZ="-438">
+				<node x="113960" y="-173988" />
+				<node x="115772" y="-173068" />
+				<node x="115908" y="-171992" />
+				<node x="115280" y="-172080" />
+				<node x="113908" y="-173304" />
+			</territory>
+		</territories>
+		<npc id="20539" count="1" respawnTime="22sec" /> <!-- Elder Longtail Keltir -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart07_2312_06" minZ="-1064" maxZ="-464">
+				<node x="115448" y="-176280" />
+				<node x="116552" y="-176624" />
+				<node x="117360" y="-176024" />
+				<node x="117468" y="-174448" />
+				<node x="116220" y="-173196" />
+				<node x="114680" y="-174068" />
+				<node x="114668" y="-175000" />
+			</territory>
+		</territories>
+		<npc id="20539" count="4" respawnTime="22sec" /> <!-- Elder Longtail Keltir -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart07_2312_07" minZ="-864" maxZ="36">
+				<node x="117300" y="-174168" />
+				<node x="118968" y="-173696" />
+				<node x="119112" y="-173040" />
+				<node x="118048" y="-171952" />
+				<node x="116416" y="-173184" />
+			</territory>
+		</territories>
+		<npc id="20539" count="2" respawnTime="22sec" /> <!-- Elder Longtail Keltir -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart07_qm2312_00" minZ="-604" maxZ="-304">
+				<node x="108756" y="-175200" />
+				<node x="109716" y="-174268" />
+				<node x="108768" y="-172744" />
+				<node x="107540" y="-173300" />
+			</territory>
+		</territories>
+		<npc id="18342" count="15" respawnTime="15sec" /> <!-- Gremlin -->
+	</spawn>
+</list>

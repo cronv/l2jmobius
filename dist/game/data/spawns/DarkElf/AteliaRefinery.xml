@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_02" minZ="-8760" maxZ="-8560">
+				<node x="-58080" y="50176" />
+				<node x="-57216" y="50176" />
+				<node x="-57215" y="51039" />
+				<node x="-58081" y="51041" />
+			</territory>
+		</territories>
+		<npc id="24144" count="3" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="4" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="3" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_03" minZ="-8756" maxZ="-8556">
+				<node x="-59569" y="50175" />
+				<node x="-58704" y="50175" />
+				<node x="-58703" y="51039" />
+				<node x="-59568" y="51039" />
+			</territory>
+		</territories>
+		<npc id="24144" count="3" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="5" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="2" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_04" minZ="-8761" maxZ="-8561">
+				<node x="-61057" y="50174" />
+				<node x="-60191" y="50176" />
+				<node x="-60191" y="51041" />
+				<node x="-61056" y="51040" />
+			</territory>
+		</territories>
+		<npc id="24144" count="3" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="5" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="3" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_05" minZ="-8762" maxZ="-8562">
+				<node x="-62511" y="49247" />
+				<node x="-61647" y="49247" />
+				<node x="-61646" y="50112" />
+				<node x="-62512" y="50112" />
+			</territory>
+		</territories>
+		<npc id="24144" count="2" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="4" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="3" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_06" minZ="-8764" maxZ="-8564">
+				<node x="-61057" y="48320" />
+				<node x="-60193" y="48320" />
+				<node x="-60192" y="49184" />
+				<node x="-61058" y="49185" />
+			</territory>
+		</territories>
+		<npc id="24144" count="3" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="5" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="3" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_07" minZ="-8761" maxZ="-8561">
+				<node x="-59568" y="48320" />
+				<node x="-58704" y="48320" />
+				<node x="-58703" y="49184" />
+				<node x="-59569" y="49185" />
+			</territory>
+		</territories>
+		<npc id="24144" count="3" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="5" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="3" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_08" minZ="-8763" maxZ="-8563">
+				<node x="-58080" y="48320" />
+				<node x="-57215" y="48320" />
+				<node x="-57214" y="49184" />
+				<node x="-58080" y="49185" />
+			</territory>
+		</territories>
+		<npc id="24144" count="2" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="5" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="3" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_09" minZ="-8760" maxZ="-8560">
+				<node x="-55120" y="50161" />
+				<node x="-54256" y="50161" />
+				<node x="-54255" y="51025" />
+				<node x="-55121" y="51026" />
+			</territory>
+		</territories>
+		<npc id="24144" count="3" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="5" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="3" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_10" minZ="-8761" maxZ="-8561">
+				<node x="-53631" y="50160" />
+				<node x="-52767" y="50160" />
+				<node x="-52766" y="51024" />
+				<node x="-53631" y="51025" />
+			</territory>
+		</territories>
+		<npc id="24144" count="2" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="5" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="2" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_11" minZ="-8760" maxZ="-8560">
+				<node x="-52144" y="50160" />
+				<node x="-51280" y="50160" />
+				<node x="-51279" y="51024" />
+				<node x="-52145" y="51025" />
+			</territory>
+		</territories>
+		<npc id="24144" count="3" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="5" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="2" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_12" minZ="-8765" maxZ="-8565">
+				<node x="-50689" y="49245" />
+				<node x="-49825" y="49245" />
+				<node x="-49824" y="50109" />
+				<node x="-50689" y="50110" />
+			</territory>
+		</territories>
+		<npc id="24144" count="3" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="6" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="3" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_13" minZ="-8764" maxZ="-8564">
+				<node x="-52140" y="48320" />
+				<node x="-51276" y="48320" />
+				<node x="-51275" y="49184" />
+				<node x="-52140" y="49185" />
+			</territory>
+		</territories>
+		<npc id="24144" count="2" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="5" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="3" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_14" minZ="-8763" maxZ="-8563">
+				<node x="-53630" y="48319" />
+				<node x="-52766" y="48319" />
+				<node x="-52765" y="49183" />
+				<node x="-53631" y="49184" />
+			</territory>
+		</territories>
+		<npc id="24144" count="3" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="4" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="2" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_15" minZ="-8763" maxZ="-8563">
+				<node x="-55120" y="48313" />
+				<node x="-54256" y="48313" />
+				<node x="-54255" y="49177" />
+				<node x="-55121" y="49178" />
+			</territory>
+		</territories>
+		<npc id="24144" count="3" respawnTime="1min" chaseRange="1500" /> <!-- Death Rogue -->
+		<npc id="24145" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Death Shooter -->
+		<npc id="24146" count="5" respawnTime="5sec" chaseRange="1500" /> <!-- Death Warrior -->
+		<npc id="24147" count="3" respawnTime="5sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_16" minZ="-8882" maxZ="-8682">
+				<node x="-58080" y="45856" />
+				<node x="-57215" y="45856" />
+				<node x="-57214" y="46720" />
+				<node x="-58080" y="46721" />
+			</territory>
+		</territories>
+		<npc id="24149" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+		<npc id="24152" count="2" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Sinist -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_17" minZ="-8878" maxZ="-8678">
+				<node x="-59576" y="45856" />
+				<node x="-58712" y="45855" />
+				<node x="-58711" y="46720" />
+				<node x="-59577" y="46720" />
+			</territory>
+		</territories>
+		<npc id="24149" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="1" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_18" minZ="-8878" maxZ="-8678">
+				<node x="-61056" y="45861" />
+				<node x="-60191" y="45861" />
+				<node x="-60190" y="46725" />
+				<node x="-61056" y="46725" />
+			</territory>
+		</territories>
+		<npc id="24149" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+		<npc id="24152" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Sinist -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_19" minZ="-8881" maxZ="-8681">
+				<node x="-62496" y="44943" />
+				<node x="-61631" y="44943" />
+				<node x="-61630" y="45807" />
+				<node x="-62496" y="45808" />
+			</territory>
+		</territories>
+		<npc id="24149" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="2" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+		<npc id="24152" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Sinist -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_20" minZ="-8876" maxZ="-8676">
+				<node x="-61057" y="44015" />
+				<node x="-60193" y="44015" />
+				<node x="-60192" y="44879" />
+				<node x="-61057" y="44880" />
+			</territory>
+		</territories>
+		<npc id="24149" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+		<npc id="24152" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Sinist -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_21" minZ="-8873" maxZ="-8673">
+				<node x="-59568" y="44015" />
+				<node x="-58704" y="44015" />
+				<node x="-58703" y="44879" />
+				<node x="-59569" y="44880" />
+			</territory>
+		</territories>
+		<npc id="24149" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+		<npc id="24152" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Sinist -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_22" minZ="-8882" maxZ="-8682">
+				<node x="-58081" y="44016" />
+				<node x="-57217" y="44016" />
+				<node x="-57216" y="44880" />
+				<node x="-58081" y="44881" />
+			</territory>
+		</territories>
+		<npc id="24149" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+		<npc id="24152" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Sinist -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_23" minZ="-8877" maxZ="-8677">
+				<node x="-55120" y="45870" />
+				<node x="-54256" y="45870" />
+				<node x="-54255" y="46735" />
+				<node x="-55121" y="46735" />
+			</territory>
+		</territories>
+		<npc id="24149" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+		<npc id="24152" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Sinist -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_24" minZ="-8879" maxZ="-8679">
+				<node x="-53632" y="45871" />
+				<node x="-52768" y="45871" />
+				<node x="-52767" y="46735" />
+				<node x="-53633" y="46736" />
+			</territory>
+		</territories>
+		<npc id="24149" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+		<npc id="24152" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Sinist -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_25" minZ="-8879" maxZ="-8679">
+				<node x="-52147" y="45868" />
+				<node x="-51283" y="45868" />
+				<node x="-51282" y="46732" />
+				<node x="-52148" y="46733" />
+			</territory>
+		</territories>
+		<npc id="24149" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+		<npc id="24152" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Sinist -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_26" minZ="-8880" maxZ="-8680">
+				<node x="-50718" y="44942" />
+				<node x="-49854" y="44942" />
+				<node x="-49853" y="45806" />
+				<node x="-50719" y="45807" />
+			</territory>
+		</territories>
+		<npc id="24149" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+		<npc id="24152" count="2" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Sinist -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_27" minZ="-8876" maxZ="-8676">
+				<node x="-52145" y="44015" />
+				<node x="-51281" y="44015" />
+				<node x="-51280" y="44879" />
+				<node x="-52146" y="44880" />
+			</territory>
+		</territories>
+		<npc id="24149" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_28" minZ="-8879" maxZ="-8679">
+				<node x="-53633" y="44014" />
+				<node x="-52769" y="44014" />
+				<node x="-52768" y="44878" />
+				<node x="-53634" y="44879" />
+			</territory>
+		</territories>
+		<npc id="24149" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+		<npc id="24152" count="2" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Sinist -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_29" minZ="-8877" maxZ="-8677">
+				<node x="-55122" y="44016" />
+				<node x="-54258" y="44016" />
+				<node x="-54257" y="44880" />
+				<node x="-55122" y="44881" />
+			</territory>
+		</territories>
+		<npc id="24149" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+		<npc id="24150" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demon Warrior -->
+		<npc id="24151" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Guardian -->
+		<npc id="24152" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Devil Sinist -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_30" minZ="-9019" maxZ="-8819">
+				<node x="-58122" y="41571" />
+				<node x="-57257" y="41571" />
+				<node x="-57256" y="42435" />
+				<node x="-58122" y="42436" />
+			</territory>
+		</territories>
+		<npc id="24154" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="3" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_31" minZ="-9013" maxZ="-8813">
+				<node x="-59604" y="41565" />
+				<node x="-58740" y="41565" />
+				<node x="-58739" y="42429" />
+				<node x="-59604" y="42430" />
+			</territory>
+		</territories>
+		<npc id="24154" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="3" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="6" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_32" minZ="-9020" maxZ="-8820">
+				<node x="-61103" y="41567" />
+				<node x="-60239" y="41567" />
+				<node x="-60238" y="42432" />
+				<node x="-61103" y="42432" />
+			</territory>
+		</territories>
+		<npc id="24154" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="3" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="6" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_33" minZ="-9008" maxZ="-8808">
+				<node x="-62541" y="40640" />
+				<node x="-61677" y="40639" />
+				<node x="-61676" y="41504" />
+				<node x="-62542" y="41504" />
+			</territory>
+		</territories>
+		<npc id="24154" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="3" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_34" minZ="-9009" maxZ="-8809">
+				<node x="-61093" y="39711" />
+				<node x="-60228" y="39711" />
+				<node x="-60227" y="40575" />
+				<node x="-61093" y="40576" />
+			</territory>
+		</territories>
+		<npc id="24154" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="3" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="6" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_35" minZ="-9011" maxZ="-8811">
+				<node x="-59607" y="39711" />
+				<node x="-58743" y="39711" />
+				<node x="-58742" y="40576" />
+				<node x="-59607" y="40576" />
+			</territory>
+		</territories>
+		<npc id="24154" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="3" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="6" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_36" minZ="-9009" maxZ="-8809">
+				<node x="-58121" y="39711" />
+				<node x="-57256" y="39711" />
+				<node x="-57255" y="40575" />
+				<node x="-58121" y="40576" />
+			</territory>
+		</territories>
+		<npc id="24154" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="3" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="6" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_37" minZ="-9011" maxZ="-8811">
+				<node x="-55087" y="41567" />
+				<node x="-54223" y="41567" />
+				<node x="-54222" y="42431" />
+				<node x="-55088" y="42432" />
+			</territory>
+		</territories>
+		<npc id="24154" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="3" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="7" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_38" minZ="-9015" maxZ="-8815">
+				<node x="-53594" y="41556" />
+				<node x="-52730" y="41556" />
+				<node x="-52729" y="42421" />
+				<node x="-53594" y="42421" />
+			</territory>
+		</territories>
+		<npc id="24154" count="3" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="2" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="6" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_39" minZ="-9014" maxZ="-8814">
+				<node x="-52106" y="41562" />
+				<node x="-51242" y="41562" />
+				<node x="-51241" y="42426" />
+				<node x="-52107" y="42427" />
+			</territory>
+		</territories>
+		<npc id="24154" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="3" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="6" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_40" minZ="-9011" maxZ="-8811">
+				<node x="-50673" y="40638" />
+				<node x="-49844" y="40637" />
+				<node x="-49843" y="41501" />
+				<node x="-50674" y="41503" />
+			</territory>
+		</territories>
+		<npc id="24154" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="3" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="6" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_41" minZ="-9022" maxZ="-8822">
+				<node x="-52105" y="39712" />
+				<node x="-51240" y="39712" />
+				<node x="-51239" y="40576" />
+				<node x="-52105" y="40577" />
+			</territory>
+		</territories>
+		<npc id="24154" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="3" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="6" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_42" minZ="-9020" maxZ="-8820">
+				<node x="-53593" y="39713" />
+				<node x="-52729" y="39713" />
+				<node x="-52728" y="40577" />
+				<node x="-53594" y="40578" />
+			</territory>
+		</territories>
+		<npc id="24154" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="4" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="3" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="6" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="oren46_1819_43" minZ="-9017" maxZ="-8817">
+				<node x="-55082" y="39711" />
+				<node x="-54218" y="39711" />
+				<node x="-54217" y="40575" />
+				<node x="-55083" y="40576" />
+			</territory>
+		</territories>
+		<npc id="24154" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+		<npc id="24155" count="5" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+		<npc id="24156" count="3" respawnTime="7sec" chaseRange="1750" /> <!-- Demonic Archer -->
+		<npc id="24157" count="6" respawnTime="5sec" chaseRange="1750" /> <!-- Demonic Keras -->
+	</spawn>
+	<spawn name="AteliaRefinery">
+		<group>
+			<npc id="34473" x="-251896" y="178338" z="-8934" heading="527" respawnTime="60sec" /> <!-- Elikia - Verdure Elder -->
+			<npc id="34426" x="-251722" y="178250" z="-8939" heading="16383" respawnTime="60sec" /> <!-- Leona Blackbird - Blackbird Clan Lord -->
+			<npc id="34472" x="-251557" y="178337" z="-8934" heading="32767" respawnTime="60sec" /> <!-- Devianne - Truth Seeker -->
+			<npc id="34441" x="-51676" y="60086" z="-3358" heading="13828" respawnTime="60sec" /> <!-- Atelia Refinery Teleport Device -->
+			<npc id="34441" x="-59891" y="52625" z="-8606" heading="63477" respawnTime="60sec" /> <!-- Atelia Refinery Teleport Device -->
+			<npc id="34427" x="-51560" y="60088" z="-3355" heading="15516" respawnTime="60sec" /> <!-- Devianne - Truth Seeker -->
+			<npc id="34425" x="-51803" y="60088" z="-3355" heading="15516" respawnTime="60sec" /> <!-- Leona Blackbird - Blackbird Clan Leader -->
+			<npc id="34472" x="-251889" y="178337" z="-3355" heading="0" respawnTime="60sec" /> <!-- Devianne - Truth Seeker -->
+			<npc id="34473" x="-251557" y="178337" z="-3355" heading="32767" respawnTime="60sec" /> <!-- Elikia - Verdure Elder -->
+			<npc id="34426" x="-25722" y="178209" z="-8939" heading="15162" respawnTime="60sec" /> <!-- Leona Blackbird - Blackbird Clan Lord -->
+			<npc id="24159" x="-55976" y="51464" z="-8728" heading="16383" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Yuyurina -->
+			<npc id="24160" x="-56305" y="51139" z="-8728" heading="49412" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Popobena -->
+			<npc id="24160" x="-56344" y="50744" z="-8728" heading="46564" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Popobena -->
+			<npc id="24159" x="-55976" y="50680" z="-8728" heading="15301" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Yuyurina -->
+			<npc id="24160" x="-55976" y="49224" z="-8728" heading="17477" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Popobena -->
+			<npc id="24160" x="-55976" y="48216" z="-8729" heading="49396" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Popobena -->
+			<npc id="24159" x="-55976" y="47224" z="-8837" heading="51146" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Yuyurina -->
+			<npc id="24160" x="-55960" y="44936" z="-8847" heading="49251" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Popobena -->
+			<npc id="24160" x="-55992" y="44120" z="-8847" heading="48948" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Popobena -->
+			<npc id="24159" x="-56328" y="44536" z="-8846" heading="13495" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Yuyurina -->
+			<npc id="24159" x="-56328" y="43912" z="-8846" heading="48539" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Yuyurina -->
+			<npc id="24159" x="-55992" y="42680" z="-8965" heading="50550" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Yuyurina -->
+			<npc id="24159" x="-56021" y="41536" z="-8960" heading="42091" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Yuyurina -->
+			<npc id="24160" x="-56344" y="41608" z="-8965" heading="30469" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Popobena -->
+			<npc id="24160" x="-56344" y="42104" z="-8965" heading="16258" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Popobena -->
+			<npc id="24158" x="-54664" y="41944" z="-8963" heading="22178" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24158" x="-54648" y="40136" z="-8963" heading="48516" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24158" x="-53160" y="40168" z="-8963" heading="47170" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24154" x="-53624" y="40120" z="-8964" heading="15051" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+			<npc id="24155" x="-53608" y="40056" z="-8964" heading="47074" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+			<npc id="24158" x="-53168" y="41932" z="-8963" heading="13237" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24154" x="-52728" y="41768" z="-8964" heading="49151" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+			<npc id="24156" x="-52728" y="41864" z="-8964" heading="57905" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Archer -->
+			<npc id="24158" x="-51655" y="41967" z="-8963" heading="17046" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24158" x="-51704" y="40120" z="-8963" heading="49545" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24158" x="-50248" y="41048" z="-8963" heading="42078" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24158" x="-57624" y="40200" z="-8963" heading="49315" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24154" x="-57208" y="39720" z="-8964" heading="56878" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+			<npc id="24158" x="-57688" y="41912" z="-8963" heading="15735" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24155" x="-57256" y="41912" z="-8964" heading="57209" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Warrior -->
+			<npc id="24157" x="-57256" y="42040" z="-8964" heading="56666" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Keras -->
+			<npc id="24158" x="-59192" y="40184" z="-8963" heading="49819" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24154" x="-58712" y="40184" z="-8964" heading="14393" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+			<npc id="24158" x="-59189" y="42012" z="-8962" heading="16564" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24154" x="-59624" y="42152" z="-8964" heading="30999" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+			<npc id="24158" x="-60680" y="40184" z="-8963" heading="49375" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24154" x="-60175" y="39762" z="-8963" heading="60971" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Wizard -->
+			<npc id="24158" x="-60696" y="41992" z="-8963" heading="16960" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24158" x="-62056" y="41048" z="-8963" heading="32828" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Weiss - Atelia Protector -->
+			<npc id="24157" x="-62040" y="40616" z="-8964" heading="61089" respawnTime="60sec" chaseRange="1750" /> <!-- Demonic Keras -->
+			<npc id="24153" x="-57528" y="44360" z="-8845" heading="4937" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24149" x="-58088" y="44744" z="-8846" heading="32549" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24153" x="-57656" y="46216" z="-8845" heading="16699" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24152" x="-57208" y="46664" z="-8846" heading="825" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Sinist -->
+			<npc id="24153" x="-59176" y="46200" z="-8845" heading="17055" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24150" x="-58701" y="46342" z="-8843" heading="42257" respawnTime="60sec" chaseRange="1750" /> <!-- Demon Warrior -->
+			<npc id="24151" x="-59544" y="46776" z="-8846" heading="15540" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Guardian -->
+			<npc id="24151" x="-59176" y="46744" z="-8846" heading="64746" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Guardian -->
+			<npc id="24151" x="-58744" y="46760" z="-8846" heading="268" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Guardian -->
+			<npc id="24151" x="-58696" y="46376" z="-8846" heading="49903" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Guardian -->
+			<npc id="24149" x="-58625" y="46072" z="-8845" heading="65304" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24152" x="-58664" y="46152" z="-8840" heading="14009" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Sinist -->
+			<npc id="24152" x="-58808" y="46776" z="-8846" heading="16026" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Sinist -->
+			<npc id="24152" x="-59592" y="46664" z="-8846" heading="30862" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Sinist -->
+			<npc id="24153" x="-59160" y="44456" z="-8845" heading="48926" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24150" x="-59574" y="44502" z="-8846" heading="14693" respawnTime="60sec" chaseRange="1750" /> <!-- Demon Warrior -->
+			<npc id="24151" x="-59592" y="44248" z="-8846" heading="28037" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Guardian -->
+			<npc id="24149" x="-59624" y="44424" z="-8846" heading="18843" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24153" x="-60648" y="44472" z="-8845" heading="10513" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24151" x="-61064" y="44600" z="-8846" heading="47326" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Guardian -->
+			<npc id="24149" x="-60472" y="43976" z="-8846" heading="36975" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24153" x="-60632" y="46264" z="-8845" heading="14705" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24151" x="-60168" y="46648" z="-8846" heading="64640" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Guardian -->
+			<npc id="24151" x="-60184" y="46184" z="-8846" heading="48856" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Guardian -->
+			<npc id="24149" x="-60696" y="46728" z="-8846" heading="2691" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24149" x="-60166" y="46697" z="-8846" heading="61553" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24153" x="-62029" y="45368" z="-8845" heading="32896" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24153" x="-54696" y="46216" z="-8845" heading="17083" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24149" x="-55128" y="46040" z="-8846" heading="31692" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24149" x="-55128" y="46680" z="-8846" heading="12888" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24153" x="-54692" y="44544" z="-8843" heading="48019" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24151" x="-54232" y="44744" z="-8846" heading="16292" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Guardian -->
+			<npc id="24149" x="-54696" y="44008" z="-8846" heading="33836" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24149" x="-55064" y="44008" z="-8846" heading="32684" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24153" x="-53176" y="46168" z="-8845" heading="15626" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24153" x="-53196" y="44523" z="-8845" heading="50256" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24153" x="-51720" y="46248" z="-8845" heading="18334" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24153" x="-51720" y="44552" z="-8845" heading="48047" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24150" x="-52152" y="44728" z="-8846" heading="17020" respawnTime="60sec" chaseRange="1750" /> <!-- Demon Warrior -->
+			<npc id="24151" x="-52152" y="44728" z="-8846" heading="17020" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Guardian -->
+			<npc id="24149" x="-52152" y="44072" z="-8846" heading="32112" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24149" x="-52168" y="44600" z="-8846" heading="19465" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24152" x="-52168" y="44600" z="-8846" heading="19465" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Sinist -->
+			<npc id="24152" x="-52152" y="44136" z="-8846" heading="49081" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Sinist -->
+			<npc id="24152" x="-52152" y="44136" z="-8846" heading="1689" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Sinist -->
+			<npc id="24153" x="-50296" y="45368" z="-8845" heading="1014" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Varos - Atelia Protector -->
+			<npc id="24150" x="-49848" y="44984" z="-8846" heading="56978" respawnTime="60sec" chaseRange="1750" /> <!-- Demon Warrior -->
+			<npc id="24151" x="-49848" y="44984" z="-8846" heading="56978" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Guardian -->
+			<npc id="24149" x="-49848" y="44984" z="-8846" heading="56978" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24152" x="-49848" y="44984" z="-8846" heading="56978" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Sinist -->
+			<npc id="24150" x="-50488" y="44936" z="-8846" heading="31568" respawnTime="60sec" chaseRange="1750" /> <!-- Demon Warrior -->
+			<npc id="24151" x="-50488" y="44936" z="-8846" heading="31568" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Guardian -->
+			<npc id="24149" x="-50488" y="44936" z="-8846" heading="31568" respawnTime="60sec" chaseRange="1750" /> <!-- Devil Nightmare -->
+			<npc id="24148" x="-50424" y="49656" z="-8727" heading="32116" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24148" x="-51736" y="50616" z="-8727" heading="14590" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24147" x="-51960" y="51048" z="-8728" heading="31771" respawnTime="60sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+			<npc id="24148" x="-51720" y="48760" z="-8727" heading="47214" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24144" x="-51480" y="48296" z="-8728" heading="65300" respawnTime="60sec" chaseRange="1500" /> <!-- Death Rogue -->
+			<npc id="24148" x="-53192" y="48712" z="-8727" heading="51181" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24147" x="-53656" y="48968" z="-8728" heading="19572" respawnTime="60sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+			<npc id="24146" x="-53735" y="48868" z="-8727" heading="31186" respawnTime="60sec" chaseRange="1500" /> <!-- Death Warrior -->
+			<npc id="24148" x="-53203" y="50595" z="-8728" heading="15450" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24144" x="-52760" y="50296" z="-8728" heading="51152" respawnTime="60sec" chaseRange="1500" /> <!-- Death Rogue -->
+			<npc id="24147" x="-52760" y="50296" z="-8728" heading="51152" respawnTime="60sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+			<npc id="24145" x="-52760" y="50296" z="-8728" heading="51152" respawnTime="60sec" chaseRange="1500" /> <!-- Death Shooter -->
+			<npc id="24148" x="-54696" y="48808" z="-8727" heading="49721" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24148" x="-54680" y="50536" z="-8727" heading="17423" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24148" x="-57688" y="48776" z="-8727" heading="48419" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24144" x="-57208" y="48456" z="-8728" heading="3577" respawnTime="60sec" chaseRange="1500" /> <!-- Death Rogue -->
+			<npc id="24145" x="-57208" y="48712" z="-8728" heading="14277" respawnTime="60sec" chaseRange="1500" /> <!-- Death Shooter -->
+			<npc id="24148" x="-57640" y="50536" z="-8727" heading="20065" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24146" x="-58088" y="50680" z="-8728" heading="20268" respawnTime="60sec" chaseRange="1500" /> <!-- Death Warrior -->
+			<npc id="24148" x="-59160" y="48920" z="-8727" heading="49711" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24148" x="-59142" y="50544" z="-8727" heading="16797" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24147" x="-59352" y="51048" z="-8728" heading="4995" respawnTime="60sec" chaseRange="1500" /> <!-- Death Sorcerer -->
+			<npc id="24148" x="-60632" y="48744" z="-8727" heading="50084" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24145" x="-61064" y="48776" z="-8728" heading="17675" respawnTime="60sec" chaseRange="1500" /> <!-- Death Shooter -->
+			<npc id="24148" x="-61048" y="48984" z="-8728" heading="15396" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24148" x="-60616" y="50600" z="-8727" heading="15492" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24148" x="-62024" y="49688" z="-8727" heading="32467" respawnTime="60sec" chaseRange="1500" /> <!-- Death Pondus - Atelia Protector -->
+			<npc id="24144" x="-61640" y="49320" z="-8728" heading="63230" respawnTime="60sec" chaseRange="1500" /> <!-- Death Rogue -->
+			<npc id="24146" x="-61640" y="50088" z="-8728" heading="995" respawnTime="60sec" chaseRange="1500" /> <!-- Death Warrior -->
+			<npc id="24159" x="-56168" y="46360" z="-8846" heading="26996" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Yuyurina -->
+			<npc id="24160" x="-56232" y="46584" z="-8846" heading="57055" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Popobena -->
+			<npc id="24160" x="-56248" y="47416" z="-8804" heading="3081" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Popobena -->
+			<npc id="24159" x="-56152" y="48216" z="-8728" heading="6379" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Yuyurina -->
+			<npc id="24159" x="-56168" y="49016" z="-8728" heading="2956" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Yuyurina -->
+		</group>
+	</spawn>
+</list>

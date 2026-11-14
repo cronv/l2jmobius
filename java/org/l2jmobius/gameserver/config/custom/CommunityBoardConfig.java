@@ -1,0 +1,110 @@
+/*
+ * Copyright (c) 2013 L2jMobius
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+ * IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+package org.l2jmobius.gameserver.config.custom;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.l2jmobius.commons.util.ConfigReader;
+import org.l2jmobius.gameserver.entity.Location;
+
+/**
+ * This class loads all the custom community board related configurations.<br>
+ * It provides access to settings defined in the configuration files for community boards.
+ * @author Mobius
+ */
+public class CommunityBoardConfig
+{
+	// File
+	private static final String COMMUNITY_BOARD_CONFIG_FILE = "./config/Custom/CommunityBoard.ini";
+	
+	// Constants
+	public static boolean CUSTOM_CB_ENABLED;
+	public static int COMMUNITYBOARD_CURRENCY;
+	public static boolean COMMUNITYBOARD_ENABLE_MULTISELLS;
+	public static boolean COMMUNITYBOARD_ENABLE_TELEPORTS;
+	public static boolean COMMUNITYBOARD_ENABLE_BUFFS;
+	public static boolean COMMUNITYBOARD_ENABLE_HEAL;
+	public static boolean COMMUNITYBOARD_ENABLE_DELEVEL;
+	public static boolean COMMUNITYBOARD_DELEVEL_REMOVE_ABILITIES;
+	public static int COMMUNITYBOARD_TELEPORT_PRICE;
+	public static int COMMUNITYBOARD_BUFF_PRICE;
+	public static int COMMUNITYBOARD_HEAL_PRICE;
+	public static int COMMUNITYBOARD_DELEVEL_PRICE;
+	public static boolean COMMUNITYBOARD_PEACE_ONLY;
+	public static boolean COMMUNITYBOARD_COMBAT_DISABLED;
+	public static boolean COMMUNITYBOARD_KARMA_DISABLED;
+	public static boolean COMMUNITYBOARD_CAST_ANIMATIONS;
+	public static boolean COMMUNITY_PREMIUM_SYSTEM_ENABLED;
+	public static int COMMUNITY_PREMIUM_COIN_ID;
+	public static int COMMUNITY_PREMIUM_PRICE_PER_DAY;
+	public static Map<Integer, Integer> COMMUNITY_AVAILABLE_BUFFS;
+	public static Map<String, Location> COMMUNITY_AVAILABLE_TELEPORTS;
+	
+	/**
+	 * Loads the community board configuration from the settings file.<br>
+	 * This method populates all static fields in {@code CommunityBoardConfig}.<br>
+	 * It reads values for prices, enabled features, and available buffs.
+	 */
+	public static void load()
+	{
+		final ConfigReader config = new ConfigReader(COMMUNITY_BOARD_CONFIG_FILE);
+		CUSTOM_CB_ENABLED = config.getBoolean("CustomCommunityBoard", false);
+		COMMUNITYBOARD_CURRENCY = config.getInt("CommunityCurrencyId", 57);
+		COMMUNITYBOARD_ENABLE_MULTISELLS = config.getBoolean("CommunityEnableMultisells", true);
+		COMMUNITYBOARD_ENABLE_TELEPORTS = config.getBoolean("CommunityEnableTeleports", true);
+		COMMUNITYBOARD_ENABLE_BUFFS = config.getBoolean("CommunityEnableBuffs", true);
+		COMMUNITYBOARD_ENABLE_HEAL = config.getBoolean("CommunityEnableHeal", true);
+		COMMUNITYBOARD_ENABLE_DELEVEL = config.getBoolean("CommunityEnableDelevel", false);
+		COMMUNITYBOARD_DELEVEL_REMOVE_ABILITIES = config.getBoolean("DelevelRemoveAbilities", false);
+		COMMUNITYBOARD_TELEPORT_PRICE = config.getInt("CommunityTeleportPrice", 0);
+		COMMUNITYBOARD_BUFF_PRICE = config.getInt("CommunityBuffPrice", 0);
+		COMMUNITYBOARD_HEAL_PRICE = config.getInt("CommunityHealPrice", 0);
+		COMMUNITYBOARD_DELEVEL_PRICE = config.getInt("CommunityDelevelPrice", 0);
+		COMMUNITYBOARD_PEACE_ONLY = config.getBoolean("CommunityBoardPeaceOnly", false);
+		COMMUNITYBOARD_COMBAT_DISABLED = config.getBoolean("CommunityCombatDisabled", true);
+		COMMUNITYBOARD_KARMA_DISABLED = config.getBoolean("CommunityKarmaDisabled", true);
+		COMMUNITYBOARD_CAST_ANIMATIONS = config.getBoolean("CommunityCastAnimations", false);
+		COMMUNITY_PREMIUM_SYSTEM_ENABLED = config.getBoolean("CommunityPremiumSystem", false);
+		COMMUNITY_PREMIUM_COIN_ID = config.getInt("CommunityPremiumBuyCoinId", 57);
+		COMMUNITY_PREMIUM_PRICE_PER_DAY = config.getInt("CommunityPremiumPricePerDay", 1000000);
+		final String[] allowedBuffs = config.getString("CommunityAvailableBuffs", "").split(",");
+		COMMUNITY_AVAILABLE_BUFFS = new HashMap<>(allowedBuffs.length);
+		for (String s : allowedBuffs)
+		{
+			if (s.isEmpty())
+			{
+				continue;
+			}
+			
+			// Each entry is a skill id, optionally "id-level" to restrict to a specific level. Level -1 means any level is allowed.
+			final String[] skillSplit = s.split("-");
+			COMMUNITY_AVAILABLE_BUFFS.put(Integer.parseInt(skillSplit[0]), skillSplit.length > 1 ? Integer.parseInt(skillSplit[1]) : -1);
+		}
+		final String[] availableTeleports = config.getString("CommunityTeleportList", "").split(";");
+		COMMUNITY_AVAILABLE_TELEPORTS = new HashMap<>(availableTeleports.length);
+		for (String s : availableTeleports)
+		{
+			final String[] splitInfo = s.split(",");
+			COMMUNITY_AVAILABLE_TELEPORTS.put(splitInfo[0], new Location(Integer.parseInt(splitInfo[1]), Integer.parseInt(splitInfo[2]), Integer.parseInt(splitInfo[3])));
+		}
+	}
+}

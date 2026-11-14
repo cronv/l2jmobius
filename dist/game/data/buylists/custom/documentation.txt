@@ -1,0 +1,10 @@
+Custom buylists folder.
+
+Place custom buylist XML files here, using the same format as the files in data/buylists.
+They are loaded after the default buylists, only when CustomBuyListLoad = True in config/General.ini.
+The file name is the buylist id (for example 0000001.xml is buylist 1), and a buylist with the same id
+as a default one replaces it.
+
+Each file starts with:
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/buylist.xsd">

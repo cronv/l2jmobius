@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_01B" minZ="-3221" maxZ="-2721">
+				<node x="-48108" y="58390" />
+				<node x="-47453" y="58350" />
+				<node x="-47571" y="59129" />
+				<node x="-48122" y="59278" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_02S" minZ="-3213" maxZ="-2713">
+				<node x="-47113" y="58606" />
+				<node x="-46680" y="58823" />
+				<node x="-46988" y="59405" />
+				<node x="-47199" y="59138" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_03TR" minZ="-3129" maxZ="-2629">
+				<node x="-47778" y="57271" />
+				<node x="-47373" y="57442" />
+				<node x="-47773" y="57854" />
+				<node x="-48209" y="57740" />
+			</territory>
+		</territories>
+		<npc id="23505" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_04TR" minZ="-3194" maxZ="-2694">
+				<node x="-47765" y="56510" />
+				<node x="-47436" y="56583" />
+				<node x="-47277" y="57246" />
+				<node x="-47668" y="57087" />
+			</territory>
+		</territories>
+		<npc id="23505" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_05S" minZ="-3202" maxZ="-2702">
+				<node x="-46773" y="58039" />
+				<node x="-46371" y="58270" />
+				<node x="-46576" y="58648" />
+				<node x="-46983" y="58406" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_06S" minZ="-3211" maxZ="-2711">
+				<node x="-46539" y="57341" />
+				<node x="-46092" y="57591" />
+				<node x="-46361" y="57964" />
+				<node x="-46776" y="57719" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_07S" minZ="-3223" maxZ="-2723">
+				<node x="-46825" y="56576" />
+				<node x="-46522" y="56827" />
+				<node x="-46789" y="57126" />
+				<node x="-47070" y="56819" />
+			</territory>
+		</territories>
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_08B" minZ="-3211" maxZ="-2711">
+				<node x="-46558" y="55956" />
+				<node x="-46103" y="56371" />
+				<node x="-46323" y="56628" />
+				<node x="-46822" y="56243" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_09B" minZ="-3216" maxZ="-2716">
+				<node x="-46957" y="55218" />
+				<node x="-46636" y="55730" />
+				<node x="-46943" y="56043" />
+				<node x="-47407" y="55499" />
+			</territory>
+		</territories>
+		<npc id="23505" count="5" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_10B" minZ="-3190" maxZ="-2690">
+				<node x="-48209" y="55423" />
+				<node x="-47716" y="55787" />
+				<node x="-48136" y="56259" />
+				<node x="-48597" y="55871" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_11S" minZ="-3215" maxZ="-3015">
+				<node x="-47544" y="54538" />
+				<node x="-47274" y="54783" />
+				<node x="-47460" y="55072" />
+				<node x="-47725" y="54698" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_12S" minZ="-3195" maxZ="-2995">
+				<node x="-47841" y="55033" />
+				<node x="-47619" y="55257" />
+				<node x="-47651" y="55567" />
+				<node x="-48043" y="55249" />
+			</territory>
+		</territories>
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_13S" minZ="-3004" maxZ="-2504">
+				<node x="-45500" y="55831" />
+				<node x="-45278" y="55537" />
+				<node x="-45060" y="55810" />
+				<node x="-45371" y="56036" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_14B" minZ="-2992" maxZ="-2792">
+				<node x="-46032" y="54560" />
+				<node x="-45428" y="54757" />
+				<node x="-45649" y="55107" />
+				<node x="-46204" y="54806" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_14S" minZ="-2963" maxZ="-2463">
+				<node x="-45759" y="55518" />
+				<node x="-45543" y="55332" />
+				<node x="-45357" y="55462" />
+				<node x="-45581" y="55750" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_15B" minZ="-3065" maxZ="-2565">
+				<node x="-46977" y="54840" />
+				<node x="-46691" y="54568" />
+				<node x="-46408" y="54811" />
+				<node x="-46883" y="55072" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_16B" minZ="-3012" maxZ="-2512">
+				<node x="-45334" y="56346" />
+				<node x="-44962" y="56066" />
+				<node x="-44916" y="56702" />
+				<node x="-45388" y="56751" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_17B" minZ="-2970" maxZ="-2470">
+				<node x="-44659" y="56151" />
+				<node x="-44449" y="56113" />
+				<node x="-44438" y="56739" />
+				<node x="-44630" y="56820" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_18B" minZ="-2968" maxZ="-2468">
+				<node x="-45026" y="55547" />
+				<node x="-44821" y="55407" />
+				<node x="-44525" y="55860" />
+				<node x="-44700" y="56000" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_19S" minZ="-2977" maxZ="-2477">
+				<node x="-45324" y="55183" />
+				<node x="-45231" y="54946" />
+				<node x="-44905" y="55305" />
+				<node x="-45205" y="55432" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_20B" minZ="-2976" maxZ="-2476">
+				<node x="-45235" y="56988" />
+				<node x="-44704" y="57096" />
+				<node x="-45078" y="57794" />
+				<node x="-45416" y="57999" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_21B" minZ="-2969" maxZ="-2469">
+				<node x="-44774" y="58328" />
+				<node x="-43971" y="57961" />
+				<node x="-43688" y="58379" />
+				<node x="-44556" y="58769" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_22B" minZ="-2918" maxZ="-2418">
+				<node x="-43168" y="56843" />
+				<node x="-42731" y="56934" />
+				<node x="-43423" y="58245" />
+				<node x="-43718" y="57825" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_23B" minZ="-2849" maxZ="-2349">
+				<node x="-43238" y="55183" />
+				<node x="-42790" y="55355" />
+				<node x="-42690" y="56678" />
+				<node x="-43123" y="56547" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_24B" minZ="-2858" maxZ="-2358">
+				<node x="-44287" y="53838" />
+				<node x="-43982" y="53752" />
+				<node x="-43024" y="54903" />
+				<node x="-43386" y="54966" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_01_SP" minZ="-3004" maxZ="37323">
+				<node x="-46080" y="58835" />
+				<node x="-45280" y="58835" />
+				<node x="-45280" y="59635" />
+				<node x="-46080" y="59635" />
+			</territory>
+		</territories>
+		<npc id="23505" count="5" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23537" count="1" chaseRange="1500" /> <!-- Atelia Elite Captain - Atelia Infuser -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_01B" minZ="-2417" maxZ="-1917">
+				<node x="-48604" y="51615" />
+				<node x="-48156" y="51617" />
+				<node x="-48156" y="52157" />
+				<node x="-48609" y="52157" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_02B" minZ="-2414" maxZ="-1914">
+				<node x="-47578" y="51360" />
+				<node x="-46795" y="51265" />
+				<node x="-46682" y="51661" />
+				<node x="-47539" y="52148" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_03B" minZ="-2430" maxZ="-1930">
+				<node x="-48106" y="52593" />
+				<node x="-47588" y="52575" />
+				<node x="-47248" y="52981" />
+				<node x="-48024" y="53040" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_04B" minZ="-2438" maxZ="-1938">
+				<node x="-49650" y="51088" />
+				<node x="-49096" y="50730" />
+				<node x="-48888" y="51151" />
+				<node x="-49567" y="51579" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_05B" minZ="-2418" maxZ="-1918">
+				<node x="-48618" y="50017" />
+				<node x="-48328" y="49665" />
+				<node x="-47756" y="50136" />
+				<node x="-48056" y="50427" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_06S" minZ="-2437" maxZ="-1937">
+				<node x="-48553" y="50875" />
+				<node x="-48323" y="50577" />
+				<node x="-47751" y="50897" />
+				<node x="-48118" y="51152" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_07B" minZ="-2474" maxZ="-1974">
+				<node x="-49382" y="52556" />
+				<node x="-49031" y="52945" />
+				<node x="-49274" y="53558" />
+				<node x="-49871" y="53013" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_08M" minZ="-2434" maxZ="-1934">
+				<node x="-46643" y="50272" />
+				<node x="-46443" y="49844" />
+				<node x="-46025" y="50089" />
+				<node x="-46334" y="50440" />
+			</territory>
+		</territories>
+		<npc id="23505" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_09S" minZ="-2432" maxZ="-1932">
+				<node x="-47059" y="49260" />
+				<node x="-46840" y="49550" />
+				<node x="-47036" y="49747" />
+				<node x="-47349" y="49634" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_10M" minZ="-2434" maxZ="-1934">
+				<node x="-47794" y="48990" />
+				<node x="-47366" y="49028" />
+				<node x="-47527" y="49544" />
+				<node x="-47894" y="49276" />
+			</territory>
+		</territories>
+		<npc id="23505" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_11M" minZ="-2437" maxZ="-1937">
+				<node x="-46864" y="48613" />
+				<node x="-46439" y="48796" />
+				<node x="-46716" y="49122" />
+				<node x="-47151" y="48935" />
+			</territory>
+		</territories>
+		<npc id="23505" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_12B" minZ="-2431" maxZ="-1931">
+				<node x="-46191" y="49237" />
+				<node x="-45769" y="49343" />
+				<node x="-45982" y="49885" />
+				<node x="-46352" y="49682" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_13B" minZ="-2435" maxZ="-2235">
+				<node x="-46652" y="47708" />
+				<node x="-46239" y="47766" />
+				<node x="-46317" y="48623" />
+				<node x="-46742" y="48423" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_14B" minZ="-2435" maxZ="-2235">
+				<node x="-46015" y="47998" />
+				<node x="-45642" y="48171" />
+				<node x="-45634" y="48751" />
+				<node x="-46054" y="48582" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_15B" minZ="-2434" maxZ="-1934">
+				<node x="-45200" y="48919" />
+				<node x="-44977" y="49064" />
+				<node x="-45107" y="49442" />
+				<node x="-45590" y="49187" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_16BB" minZ="-2116" maxZ="-1916">
+				<node x="-43685" y="49159" />
+				<node x="-43066" y="49652" />
+				<node x="-43273" y="50547" />
+				<node x="-44091" y="50322" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_17B" minZ="-2171" maxZ="-1971">
+				<node x="-45289" y="47984" />
+				<node x="-44467" y="47384" />
+				<node x="-44135" y="47662" />
+				<node x="-45147" y="48223" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_18BB" minZ="-2079" maxZ="-1879">
+				<node x="-43619" y="47362" />
+				<node x="-42628" y="47841" />
+				<node x="-43121" y="48733" />
+				<node x="-44129" y="48141" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23506" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_19BB" minZ="-2074" maxZ="-1874">
+				<node x="-42696" y="48836" />
+				<node x="-42325" y="48013" />
+				<node x="-41490" y="48717" />
+				<node x="-42169" y="49574" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_20M" minZ="-2076" maxZ="-1876">
+				<node x="-41470" y="49120" />
+				<node x="-41200" y="49339" />
+				<node x="-41582" y="49988" />
+				<node x="-42020" y="49814" />
+			</territory>
+		</territories>
+		<npc id="23505" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_02_SP" minZ="-2124" maxZ="21378">
+				<node x="-42234" y="50091" />
+				<node x="-41434" y="50091" />
+				<node x="-41434" y="50891" />
+				<node x="-42234" y="50891" />
+			</territory>
+		</territories>
+		<npc id="23507" count="5" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23537" count="1" chaseRange="1500" /> <!-- Atelia Elite Captain - Atelia Infuser -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_01B" minZ="-1499" maxZ="-1299">
+				<node x="-44467" y="44962" />
+				<node x="-43879" y="44925" />
+				<node x="-43884" y="45715" />
+				<node x="-44471" y="45711" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_02M" minZ="-1491" maxZ="-1291">
+				<node x="-43655" y="45161" />
+				<node x="-43220" y="45147" />
+				<node x="-43189" y="45629" />
+				<node x="-43655" y="45671" />
+			</territory>
+		</territories>
+		<npc id="23505" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_03B" minZ="-1490" maxZ="-1290">
+				<node x="-43031" y="45276" />
+				<node x="-42687" y="45112" />
+				<node x="-42526" y="45659" />
+				<node x="-42949" y="45941" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_04B" minZ="-1486" maxZ="-1286">
+				<node x="-42493" y="44589" />
+				<node x="-42153" y="44308" />
+				<node x="-41942" y="44840" />
+				<node x="-42376" y="45141" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_05B" minZ="-1492" maxZ="-1292">
+				<node x="-41948" y="44046" />
+				<node x="-41745" y="43566" />
+				<node x="-41358" y="43891" />
+				<node x="-41722" y="44551" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_06B" minZ="-1561" maxZ="-1361">
+				<node x="-45756" y="45098" />
+				<node x="-45275" y="44563" />
+				<node x="-44892" y="45060" />
+				<node x="-45389" y="45427" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_07B" minZ="-1583" maxZ="-1383">
+				<node x="-46376" y="44505" />
+				<node x="-45895" y="43970" />
+				<node x="-45489" y="44334" />
+				<node x="-46009" y="44834" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_08B" minZ="-1524" maxZ="-1324">
+				<node x="-45483" y="43486" />
+				<node x="-44584" y="44361" />
+				<node x="-44772" y="44627" />
+				<node x="-45776" y="43791" />
+			</territory>
+		</territories>
+		<npc id="23507" count="4" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23512" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia High Priest -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_09B" minZ="-1545" maxZ="-1345">
+				<node x="-46301" y="42782" />
+				<node x="-45776" y="43224" />
+				<node x="-46253" y="43720" />
+				<node x="-46793" y="43291" />
+			</territory>
+		</territories>
+		<npc id="23507" count="4" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23512" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia High Priest -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_10B" minZ="-1604" maxZ="-1404">
+				<node x="-47374" y="42642" />
+				<node x="-46928" y="43049" />
+				<node x="-47357" y="43491" />
+				<node x="-47823" y="43081" />
+			</territory>
+		</territories>
+		<npc id="23507" count="4" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23512" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia High Priest -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_11B" minZ="-1566" maxZ="-1366">
+				<node x="-46708" y="41501" />
+				<node x="-46223" y="41786" />
+				<node x="-46583" y="42658" />
+				<node x="-47036" y="42432" />
+			</territory>
+		</territories>
+		<npc id="23505" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_12M" minZ="-1532" maxZ="-1332">
+				<node x="-46229" y="40554" />
+				<node x="-45857" y="40757" />
+				<node x="-46193" y="41301" />
+				<node x="-46498" y="40910" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_13M" minZ="-1542" maxZ="-1342">
+				<node x="-45582" y="40750" />
+				<node x="-45163" y="40801" />
+				<node x="-45343" y="41384" />
+				<node x="-45871" y="41364" />
+			</territory>
+		</territories>
+		<npc id="23505" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_14M" minZ="-1492" maxZ="-1292">
+				<node x="-45506" y="40265" />
+				<node x="-45082" y="40344" />
+				<node x="-45170" y="40683" />
+				<node x="-45697" y="40571" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_15B" minZ="-1569" maxZ="-1369">
+				<node x="-46993" y="45496" />
+				<node x="-46308" y="45729" />
+				<node x="-46845" y="46656" />
+				<node x="-47394" y="46306" />
+			</territory>
+		</territories>
+		<npc id="23507" count="4" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23512" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia High Priest -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_16B" minZ="-1582" maxZ="-1382">
+				<node x="-48864" y="43664" />
+				<node x="-48316" y="43606" />
+				<node x="-47979" y="44154" />
+				<node x="-48965" y="44305" />
+			</territory>
+		</territories>
+		<npc id="23507" count="4" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_17M" minZ="-1690" maxZ="-1490">
+				<node x="-47901" y="45226" />
+				<node x="-47477" y="45412" />
+				<node x="-47794" y="45960" />
+				<node x="-48257" y="45717" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_18B" minZ="-1636" maxZ="-1436">
+				<node x="-49428" y="44969" />
+				<node x="-48795" y="44954" />
+				<node x="-49195" y="45742" />
+				<node x="-49896" y="45549" />
+			</territory>
+		</territories>
+		<npc id="23507" count="4" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23512" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia High Priest -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_19B" minZ="-1624" maxZ="-1424">
+				<node x="-50026" y="45761" />
+				<node x="-49325" y="45954" />
+				<node x="-49455" y="46659" />
+				<node x="-50291" y="46809" />
+			</territory>
+		</territories>
+		<npc id="23507" count="4" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_20S" minZ="-1760" maxZ="-1560">
+				<node x="-49286" y="47003" />
+				<node x="-48896" y="46827" />
+				<node x="-48842" y="47197" />
+				<node x="-49241" y="47362" />
+			</territory>
+		</territories>
+		<npc id="23507" count="4" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_21M" minZ="-1738" maxZ="-1538">
+				<node x="-49507" y="48258" />
+				<node x="-48860" y="48129" />
+				<node x="-48883" y="48624" />
+				<node x="-49514" y="48750" />
+			</territory>
+		</territories>
+		<npc id="23505" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_21S" minZ="-1794" maxZ="-1594">
+				<node x="-49181" y="47580" />
+				<node x="-48791" y="47404" />
+				<node x="-48737" y="47774" />
+				<node x="-49136" y="47939" />
+			</territory>
+		</territories>
+		<npc id="23507" count="4" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_22M" minZ="-1754" maxZ="-1554">
+				<node x="-50493" y="47706" />
+				<node x="-49858" y="47861" />
+				<node x="-50001" y="48394" />
+				<node x="-50572" y="48258" />
+			</territory>
+		</territories>
+		<npc id="23505" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_03_SP" minZ="-1516" maxZ="22587">
+				<node x="-44977" y="39926" />
+				<node x="-44177" y="39926" />
+				<node x="-44177" y="40726" />
+				<node x="-44977" y="40726" />
+			</territory>
+		</territories>
+		<npc id="23505" count="2" chaseRange="1500" /> <!-- Fortress Raider -->
+		<npc id="23507" count="2" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23509" count="1" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23538" count="1" chaseRange="1500" /> <!-- Atelia High Priest - Atelia Infuser -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_01M" minZ="-1591" maxZ="-1391">
+				<node x="-54690" y="46862" />
+				<node x="-54268" y="46859" />
+				<node x="-54271" y="47259" />
+				<node x="-54693" y="47265" />
+			</territory>
+		</territories>
+		<npc id="23507" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_02M" minZ="-1601" maxZ="-1401">
+				<node x="-55225" y="46038" />
+				<node x="-54775" y="46032" />
+				<node x="-54776" y="46543" />
+				<node x="-55228" y="46546" />
+			</territory>
+		</territories>
+		<npc id="23507" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_03B" minZ="-1693" maxZ="-1493">
+				<node x="-56214" y="46265" />
+				<node x="-55781" y="46093" />
+				<node x="-55599" y="46471" />
+				<node x="-56056" y="46616" />
+			</territory>
+		</territories>
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23509" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23511" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Archon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_04M" minZ="-1715" maxZ="-1515">
+				<node x="-56335" y="45736" />
+				<node x="-55893" y="45434" />
+				<node x="-55692" y="45749" />
+				<node x="-56188" y="45994" />
+			</territory>
+		</territories>
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23510" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23511" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Archon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_05B" minZ="-1703" maxZ="-1503">
+				<node x="-57232" y="45708" />
+				<node x="-56847" y="45823" />
+				<node x="-56849" y="46290" />
+				<node x="-57225" y="46160" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23509" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23511" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Archon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_06B" minZ="-1758" maxZ="-1558">
+				<node x="-58101" y="46471" />
+				<node x="-57589" y="46473" />
+				<node x="-57618" y="47022" />
+				<node x="-58136" y="47026" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23509" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23511" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Archon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_07M" minZ="-1686" maxZ="-1486">
+				<node x="-57945" y="45721" />
+				<node x="-57482" y="45724" />
+				<node x="-57486" y="46235" />
+				<node x="-57954" y="46237" />
+			</territory>
+		</territories>
+		<npc id="23509" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23511" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Archon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_09B" minZ="-2004" maxZ="-1804">
+				<node x="-58350" y="47334" />
+				<node x="-57909" y="47343" />
+				<node x="-57906" y="47755" />
+				<node x="-58365" y="47934" />
+			</territory>
+		</territories>
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_11B" minZ="-2052" maxZ="-1852">
+				<node x="-59120" y="47642" />
+				<node x="-58677" y="47628" />
+				<node x="-58676" y="48097" />
+				<node x="-59112" y="48101" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23509" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23511" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Archon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_13B" minZ="-1734" maxZ="-1534">
+				<node x="-59302" y="47007" />
+				<node x="-58820" y="47011" />
+				<node x="-58691" y="47441" />
+				<node x="-59300" y="47451" />
+			</territory>
+		</territories>
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_15B" minZ="-1668" maxZ="-1468">
+				<node x="-59702" y="45048" />
+				<node x="-59164" y="45239" />
+				<node x="-59370" y="45685" />
+				<node x="-59919" y="45494" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23509" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23511" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Archon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_16B" minZ="-1647" maxZ="-1447">
+				<node x="-59155" y="44307" />
+				<node x="-58786" y="44561" />
+				<node x="-59059" y="44964" />
+				<node x="-59487" y="44737" />
+			</territory>
+		</territories>
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_19M" minZ="-2107" maxZ="-1907">
+				<node x="-58433" y="48180" />
+				<node x="-58149" y="48414" />
+				<node x="-58403" y="48709" />
+				<node x="-58697" y="48459" />
+			</territory>
+		</territories>
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23512" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia High Priest -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_20M" minZ="-2228" maxZ="-2028">
+				<node x="-57918" y="48580" />
+				<node x="-57513" y="48631" />
+				<node x="-57513" y="49111" />
+				<node x="-57890" y="49139" />
+			</territory>
+		</territories>
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_22M" minZ="-2204" maxZ="-2004">
+				<node x="-58766" y="50404" />
+				<node x="-58389" y="50410" />
+				<node x="-58387" y="50783" />
+				<node x="-58764" y="50787" />
+			</territory>
+		</territories>
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23512" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia High Priest -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_23B" minZ="-2211" maxZ="-2011">
+				<node x="-57837" y="49781" />
+				<node x="-57566" y="49621" />
+				<node x="-57569" y="50241" />
+				<node x="-57863" y="50234" />
+			</territory>
+		</territories>
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_24BB" minZ="-2215" maxZ="-2015">
+				<node x="-57368" y="49528" />
+				<node x="-56913" y="49213" />
+				<node x="-56764" y="49492" />
+				<node x="-57241" y="49783" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23509" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23511" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Archon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_25B" minZ="-2200" maxZ="-2000">
+				<node x="-58181" y="51162" />
+				<node x="-57853" y="51319" />
+				<node x="-57980" y="51624" />
+				<node x="-58321" y="51415" />
+			</territory>
+		</territories>
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_26BB" minZ="-2203" maxZ="-2003">
+				<node x="-57157" y="50569" />
+				<node x="-56757" y="50648" />
+				<node x="-56746" y="51363" />
+				<node x="-57154" y="51206" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23512" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia High Priest -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_27BB" minZ="-2243" maxZ="-2043">
+				<node x="-56376" y="50832" />
+				<node x="-55960" y="50621" />
+				<node x="-55794" y="50980" />
+				<node x="-56376" y="51337" />
+			</territory>
+		</territories>
+		<npc id="23507" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_28BB" minZ="-2220" maxZ="-2020">
+				<node x="-56274" y="49587" />
+				<node x="-56096" y="49237" />
+				<node x="-55669" y="49527" />
+				<node x="-56300" y="50159" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23512" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia High Priest -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_29BB" minZ="-2246" maxZ="-2046">
+				<node x="-55214" y="50300" />
+				<node x="-54943" y="50844" />
+				<node x="-55443" y="50860" />
+				<node x="-55632" y="50507" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_30M" minZ="-2234" maxZ="-2034">
+				<node x="-56099" y="50263" />
+				<node x="-55762" y="50014" />
+				<node x="-55632" y="50164" />
+				<node x="-55931" y="50386" />
+			</territory>
+		</territories>
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_31B" minZ="-2219" maxZ="-2019">
+				<node x="-55945" y="49150" />
+				<node x="-55507" y="48884" />
+				<node x="-55233" y="49181" />
+				<node x="-55556" y="49425" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_32M" minZ="-2216" maxZ="-2016">
+				<node x="-55400" y="49746" />
+				<node x="-55212" y="49654" />
+				<node x="-55016" y="49891" />
+				<node x="-55164" y="50031" />
+			</territory>
+		</territories>
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_33BB" minZ="-2204" maxZ="-2004">
+				<node x="-54939" y="50179" />
+				<node x="-54602" y="50029" />
+				<node x="-54234" y="50809" />
+				<node x="-54615" y="50812" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23512" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia High Priest -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_34BB" minZ="-2196" maxZ="-1996">
+				<node x="-54377" y="49930" />
+				<node x="-53742" y="49600" />
+				<node x="-53745" y="50441" />
+				<node x="-53973" y="50679" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Flame Master -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_36S" minZ="-2193" maxZ="-1993">
+				<node x="-54137" y="48874" />
+				<node x="-53909" y="48850" />
+				<node x="-53872" y="49061" />
+				<node x="-54111" y="49176" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="30sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_04_SP" minZ="-1652" maxZ="61437">
+				<node x="-58683" y="43589" />
+				<node x="-58083" y="43589" />
+				<node x="-58083" y="44189" />
+				<node x="-58683" y="44189" />
+			</territory>
+		</territories>
+		<npc id="23507" count="2" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23509" count="1" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23510" count="2" chaseRange="1500" /> <!-- Atelia Flame Master -->
+		<npc id="23538" count="1" chaseRange="1500" /> <!-- Atelia High Priest - Atelia Infuser -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_event_3f01" minZ="-1478" maxZ="28693">
+				<node x="-45064" y="42378" />
+				<node x="-44564" y="42378" />
+				<node x="-44564" y="42878" />
+				<node x="-45064" y="42878" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="1min" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="1min" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="1min" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23512" count="1" respawnTime="1min" chaseRange="1500" /> <!-- Atelia High Priest -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="1819_astatine_event_3f02" minZ="-1478" maxZ="22907">
+				<node x="-43942" y="43464" />
+				<node x="-43442" y="43464" />
+				<node x="-43442" y="43964" />
+				<node x="-43942" y="43964" />
+			</territory>
+		</territories>
+		<npc id="23507" count="3" respawnTime="1min" chaseRange="1500" /> <!-- Atelia Passionate Soldier -->
+		<npc id="23508" count="1" respawnTime="1min" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+		<npc id="23509" count="2" respawnTime="1min" chaseRange="1500" /> <!-- Fortress Dark Wizard -->
+		<npc id="23512" count="1" respawnTime="1min" chaseRange="1500" /> <!-- Atelia High Priest -->
+	</spawn>
+	<spawn name="AteliaFortress">
+		<group>
+			<npc id="34089" x="-50063" y="49439" z="-1695" heading="42326" respawnTime="60sec" /> <!-- Devianne - Truth Seeker -->
+			<npc id="23506" x="-44713" y="43480" z="-1408" heading="63277" respawnTime="60sec" chaseRange="1500" /> <!-- Fortress Guardian Captain -->
+			<npc id="23508" x="-44573" y="43474" z="-1408" heading="49400" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia Elite Captain -->
+			<npc id="23511" x="-44305" y="43387" z="-1384" heading="34645" respawnTime="60sec" chaseRange="1500" /> <!-- Fortress Archon -->
+			<npc id="23512" x="-44409" y="43281" z="-1384" heading="30260" respawnTime="60sec" chaseRange="1500" /> <!-- Atelia High Priest -->
+			<npc id="23539" x="-55740" y="52390" z="-2184" respawnTime="60sec" chaseRange="1600" /> <!-- Atelia Trial Guardian Captain - Trial Guardian -->
+			<npc id="23539" x="-54373" y="52365" z="-2184" respawnTime="60sec" chaseRange="1600" /> <!-- Atelia Trial Guardian Captain - Trial Guardian -->
+			<npc id="23587" x="-44089" y="43017" z="-1384" heading="24393" respawnTime="21600sec" chaseRange="1500" /> <!-- Burnstein - Embryo Commander -->
+			<npc id="23586" x="-47161" y="48642" z="-2400" heading="40340" respawnTime="10800sec" chaseRange="1500" /> <!-- Geork - Embryo Master Artisan -->
+			<npc id="23588" x="-48157" y="55441" z="-3160" heading="13924" respawnTime="10800sec" chaseRange="1500" /> <!-- Hummel - Quartermaster -->
+			<npc id="33583" x="-47243" y="48545" z="-2400" heading="26892" respawnTime="60sec" /> <!-- Miny - Aden Reconstruction Society Member -->
+			<npc id="34052" x="-55805" y="56157" z="-1872" heading="55746" respawnTime="60sec" /> <!-- Teleport Device - Atelia Castle -->
+			<npc id="34137" x="-47475" y="56483" z="-3192" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-46903" y="59349" z="-3184" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-46963" y="59430" z="-3184" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-47084" y="59379" z="-3184" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-47418" y="56620" z="-3192" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-47472" y="56566" z="-3192" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-46119" y="57716" z="-3184" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-46021" y="56542" z="-3184" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-46091" y="57349" z="-3184" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-45623" y="55734" z="-2968" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-46008" y="56349" z="-3184" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-45513" y="56006" z="-2984" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-45361" y="56058" z="-2984" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-47535" y="54523" z="-3184" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-47966" y="57823" z="-3096" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-48080" y="57810" z="-3096" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-48119" y="54908" z="-3160" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-48310" y="54882" z="-3160" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-48476" y="55089" z="-3160" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34137" x="-48533" y="55274" z="-3160" respawnTime="60sec" /> <!-- Embryo Supply Box -->
+			<npc id="34139" x="-48853" y="53439" z="-2360" respawnTime="60sec" /> <!-- Karrod - Captive Blacksmith -->
+			<npc id="34140" x="-46909" y="50991" z="-2376" respawnTime="60sec" /> <!-- Aios - Captive Blacksmith -->
+			<npc id="34142" x="-48128" y="49095" z="-2400" respawnTime="60sec" /> <!-- Brunon - Captive Blacksmith -->
+			<npc id="34143" x="-43718" y="50770" z="-2088" respawnTime="60sec" /> <!-- Sumari - Captive Blacksmith -->
+			<npc id="34144" x="-47233" y="47998" z="-2400" respawnTime="60sec" /> <!-- Lansia - Captive Blacksmith Trainee -->
+			<npc id="34242" x="-46298" y="59665" z="-2960" heading="58000" respawnTime="60sec" /> <!-- Kingdom's Royal Guard Teleport Device -->
+			<npc id="34242" x="-42358" y="51294" z="-2000" heading="56251" respawnTime="60sec" /> <!-- Kingdom's Royal Guard Teleport Device -->
+			<npc id="34242" x="-57184" y="43725" z="-1544" heading="32366" respawnTime="60sec" /> <!-- Kingdom's Royal Guard Teleport Device -->
+			<npc id="34242" x="-43933" y="40312" z="-1416" heading="40793" respawnTime="60sec" /> <!-- Kingdom's Royal Guard Teleport Device -->
+		</group>
+	</spawn>
+</list>

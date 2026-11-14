@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="gludio23_1921_01" minZ="-3872" maxZ="-3172">
+				<node x="-32676" y="98464" />
+				<node x="-24964" y="98476" />
+				<node x="-28564" y="101808" />
+				<node x="-32652" y="101020" />
+			</territory>
+		</territories>
+		<npc id="20923" count="8" respawnTime="32sec" /> <!-- Maille Lizardman Shaman -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio23_1921_02" minZ="-3916" maxZ="-2916">
+				<node x="-32632" y="101244" />
+				<node x="-28680" y="102048" />
+				<node x="-28212" y="104340" />
+				<node x="-30340" y="104448" />
+			</territory>
+		</territories>
+		<npc id="20923" count="6" respawnTime="32sec" /> <!-- Maille Lizardman Shaman -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio23_1921_03" minZ="-3812" maxZ="-2812">
+				<node x="-24496" y="99516" />
+				<node x="-22428" y="99184" />
+				<node x="-22216" y="102032" />
+				<node x="-25112" y="106788" />
+				<node x="-27092" y="103680" />
+				<node x="-26696" y="101300" />
+			</territory>
+		</territories>
+		<npc id="20922" count="9" respawnTime="32sec" /> <!-- Maille Lizardman Warrior -->
+		<npc id="20923" count="8" respawnTime="32sec" /> <!-- Maille Lizardman Shaman -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio23_1921_04s" minZ="-3844" maxZ="-3044">
+				<node x="-25420" y="101812" />
+				<node x="-23660" y="102452" />
+				<node x="-24968" y="104452" />
+				<node x="-25864" y="104436" />
+			</territory>
+		</territories>
+		<npc id="20922" count="6" respawnTime="32sec" /> <!-- Maille Lizardman Warrior -->
+		<npc id="20923" count="5" respawnTime="32sec" /> <!-- Maille Lizardman Shaman -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio23_1921_05" minZ="-3672" maxZ="-2172">
+				<node x="-32548" y="101844" />
+				<node x="-30372" y="104736" />
+				<node x="-30108" y="106612" />
+				<node x="-32568" y="108720" />
+			</territory>
+		</territories>
+		<npc id="20922" count="7" respawnTime="32sec" /> <!-- Maille Lizardman Warrior -->
+		<npc id="20923" count="8" respawnTime="32sec" /> <!-- Maille Lizardman Shaman -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio23_1921_06" minZ="-3848" maxZ="-3048">
+				<node x="-30200" y="104652" />
+				<node x="-27756" y="104484" />
+				<node x="-26500" y="106896" />
+				<node x="-30040" y="106628" />
+			</territory>
+		</territories>
+		<npc id="20922" count="7" respawnTime="32sec" /> <!-- Maille Lizardman Warrior -->
+		<npc id="20923" count="7" respawnTime="32sec" /> <!-- Maille Lizardman Shaman -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio23_1921_07" minZ="-3904" maxZ="-2104">
+				<node x="-30104" y="106948" />
+				<node x="-26280" y="107052" />
+				<node x="-25444" y="112712" />
+				<node x="-32412" y="112012" />
+				<node x="-32424" y="108876" />
+			</territory>
+		</territories>
+		<npc id="20922" count="11" respawnTime="32sec" /> <!-- Maille Lizardman Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio23_1921_08s" minZ="-3928" maxZ="-3228">
+				<node x="-29184" y="108836" />
+				<node x="-28228" y="108788" />
+				<node x="-28220" y="109708" />
+				<node x="-29196" y="109644" />
+			</territory>
+		</territories>
+		<npc id="20922" count="2" respawnTime="32sec" /> <!-- Maille Lizardman Warrior -->
+		<npc id="20923" count="2" respawnTime="32sec" /> <!-- Maille Lizardman Shaman -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio23_1921_09" minZ="-3956" maxZ="-2056">
+				<node x="-32320" y="112076" />
+				<node x="-28296" y="112508" />
+				<node x="-28572" y="115724" />
+				<node x="-32252" y="118104" />
+			</territory>
+		</territories>
+		<npc id="20922" count="7" respawnTime="32sec" /> <!-- Maille Lizardman Warrior -->
+	</spawn>
+</list>

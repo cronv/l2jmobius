@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="29800" toLevel="1" name="Heavenly Summer Slushie">
+		<!-- For 20 min., damage +15%, acquired XP/ SP +20%, received damage -10%. Does not stack with Freya's Charisma Potion, Einhasad's Charisma Potion and Freya's Luck Potion. The effect can be removed with Alt + Left Mouse Button. Cooldown: 5 min. The effect remains after death. Cannot be used in the Olympiad. -->
+		<icon>BranchSys3.icon1.g_ev_sweet_icewater</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="29801" toLevel="2" name="Wind Dragon's Protection">
+		<!-- Acquired XP/ SP +50%. Vitality bonus +50%. P. Atk./ P. Def./ M. Atk./ M. Def. +15%. Power of basic attacks and P./ M. skills +15%. PvP/ PvE damage +10% -->
+		<icon>BranchIcon.icon.g_bm_lindovior_bead</icon>
+		<operateType>A1</operateType>
+		<effectPoint>
+			<value level="1">0</value>
+			<value level="2">1</value>
+		</effectPoint>
+		<isMagic>4</isMagic>
+		<reuseDelay>600000</reuseDelay>
+	</skill>
+	<skill id="29802" toLevel="10" name="Wind Dragon's Rune - Lv. 1">
+		<!-- Level 1: Attribute Resistance +10 -->
+		<!-- Level 2: Attribute Resistance +20 -->
+		<!-- Level 3: Attribute Resistance +30, P. Def. +1% -->
+		<!-- Level 4: Attribute Resistance +40, P. Def. +2% -->
+		<!-- Level 5: Attribute Resistance +50, P. Def. +3%, Skill Power +1% -->
+		<!-- Level 6: Attribute Resistance +60, P. Def. +4%, Skill Power +2%, received PvP/ PvE damage -1% -->
+		<!-- Level 7: Attribute Resistance +70, P. Def. +5%, Skill Power +3%, received PvP/ PvE damage -2%, received damage when immobilized -5% -->
+		<!-- Level 8: Attribute Resistance +80, P. Def. +5%, Skill Power +4%, received PvP/ PvE damage -3%, received damage when immobilized -10% -->
+		<!-- Level 9: Attribute Resistance +90, P. Def. +5%, Skill Power +5%, received PvP/ PvE damage -4%, received damage when immobilized -15% -->
+		<!-- Level 10: Attribute Resistance +100, P. Def. +5%, Skill Power +5%, received PvP/ PvE damage -5%, received damage when immobilized -20% -->
+		<icon>BranchIcon.icon.g_bm_lindovior_rune</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29803" toLevel="1" name="Scroll: Enchant Shining Bladed Weapon">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="29804" toLevel="1" name="Extra Pass: Suspicious Elven Village">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="29805" toLevel="1" name="PA Points">
+		<operateType>A1</operateType>
+		<reuseDelay>2000</reuseDelay>
+	</skill>
+	<skill id="29806" toLevel="1" name="Defensive Configuration">
+		<!-- Damage is limited. -->
+		<icon>BranchIcon.icon.g_npc_maxhp_ratio_damage_limit</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29807" toLevel="3" name="Surpassing the Limit">
+		<!-- A powerful attack that breaks Defensive Configuration. -->
+		<icon>BranchIcon.icon.g_npc_maxhp_ratio_damage_limit_surpass</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<reuseDelay>30000</reuseDelay>
+	</skill>
+	<skill id="29808" toLevel="3" name="Weak Defensive Configuration">
+		<!-- Level 1: Defense is slightly weakened. -->
+		<!-- Level 2: Defense is slightly weakened. -->
+		<!-- Level 3: Defensive Configuration is extremely weakened. The level cannot be increased further. -->
+		<icon>BranchIcon.icon.g_npc_maxhp_ratio_damage_limit</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+	</skill>
+	<skill id="29809" toLevel="1" name="Defensive Configuration">
+		<!-- Damage is limited. -->
+		<icon>BranchIcon.icon.g_npc_maxhp_ratio_damage_limit</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29810" toLevel="3" name="Surpassing the Limit">
+		<!-- A powerful attack that breaks Defensive Configuration. -->
+		<icon>BranchIcon.icon.g_npc_maxhp_ratio_damage_limit_surpass</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<reuseDelay>30000</reuseDelay>
+	</skill>
+	<skill id="29811" toLevel="3" name="Weak Defensive Configuration">
+		<!-- Level 1: Defense is slightly weakened. -->
+		<!-- Level 2: Defense is slightly weakened. -->
+		<!-- Level 3: Defensive Configuration is extremely weakened. The level cannot be increased further. -->
+		<icon>BranchIcon.icon.g_npc_maxhp_ratio_damage_limit</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+	</skill>
+	<skill id="29812" toLevel="1" name="Defensive Configuration">
+		<!-- Damage is limited. -->
+		<icon>BranchIcon.icon.g_npc_maxhp_ratio_damage_limit</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29813" toLevel="3" name="Surpassing the Limit">
+		<!-- A powerful attack that breaks Defensive Configuration. -->
+		<icon>BranchIcon.icon.g_npc_maxhp_ratio_damage_limit_surpass</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<reuseDelay>30000</reuseDelay>
+	</skill>
+	<skill id="29814" toLevel="3" name="Weak Defensive Configuration">
+		<!-- Level 1: Defense is slightly weakened. -->
+		<!-- Level 2: Defense is slightly weakened. -->
+		<!-- Level 3: Defensive Configuration is extremely weakened. The level cannot be increased further. -->
+		<icon>BranchIcon.icon.g_npc_maxhp_ratio_damage_limit</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+	</skill>
+	<skill id="29815" toLevel="1" name="Defensive Configuration">
+		<!-- Damage is limited. -->
+		<icon>BranchIcon.icon.g_npc_maxhp_ratio_damage_limit</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29816" toLevel="3" name="Surpassing the Limit">
+		<!-- A powerful attack that breaks Defensive Configuration. -->
+		<icon>BranchIcon.icon.g_npc_maxhp_ratio_damage_limit_surpass</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<reuseDelay>30000</reuseDelay>
+	</skill>
+	<skill id="29817" toLevel="3" name="Weak Defensive Configuration">
+		<!-- Level 1: Defense is slightly weakened. -->
+		<!-- Level 2: Defense is slightly weakened. -->
+		<!-- Level 3: Defensive Configuration is extremely weakened. The level cannot be increased further. -->
+		<icon>BranchIcon.icon.g_npc_maxhp_ratio_damage_limit</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+	</skill>
+	<skill id="29818" toLevel="1" name="Resolute Warrior's Swift Growth Cookie">
+		<!-- For 30 min., acquired XP +50%. Also, applies the following effects based on your level:. <Lv. 110-119>. Acquired XP/ SP +100%. <Lv. 1-109>. Acquired XP/ SP +300%. The effect remains after death. Cannot be used in the Olympiad. -->
+		<icon>BranchSys.icon.br_valentine_cookie_i00</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29819" toLevel="1" name="Resolute Warrior's Bloody Rune">
+		<!-- When in inventory, received PvE damage -15%. -->
+		<icon>icon.bm_freya_bloody_rune</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29820" toLevel="1" name="Resolute Warrior's Bloody Rune - Lv. 110-119 Bonus Effect">
+		<!-- When in inventory, received PvE damage -10%. -->
+		<icon>icon.bm_freya_bloody_rune</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29821" toLevel="1" name="Resolute Warrior's Bloody Rune - Lv. 1-109 Bonus Effect">
+		<!-- When in inventory, received PvE damage -20%. -->
+		<icon>icon.bm_freya_bloody_rune</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29822" toLevel="1" name="Resolute Warrior's XP Rune">
+		<!-- Acquired XP +50%. Also, applies the following effects based on your level:. <Lv. 110-119>. Acquired XP +75%. <Lv. 1-109>. Acquired XP +150% -->
+		<icon>br_cashtex.skill.br_cash_rune_of_exp_buff_1</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29823" toLevel="1" name="Resolute Warrior's Vitality Rune">
+		<!-- When in inventory, Vitality bonus +50%. -->
+		<icon>icon.bm_freya_vital_rune</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29824" toLevel="1" name="Resolute Warrior's Vitality Rune - Lv. 110-119 Bonus Effect">
+		<!-- When in inventory, Vitality Consumption -15%. -->
+		<icon>icon.bm_freya_vital_rune</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29825" toLevel="1" name="Resolute Warrior's Vitality Rune - Lv. 1-109 Bonus Effect">
+		<!-- When in inventory, sustains Vitality. -->
+		<icon>icon.bm_freya_vital_rune</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29826" toLevel="1" name="Resolute Warrior's Scroll: Enchant Weapon - 10">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="29827" toLevel="1" name="Resolute Warrior's Scroll: Enchant Armor - 8">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="29828" toLevel="1" name="Han Young-hoon's Gratitude">
+		<!-- A buff granted by Han Young-hoon, the lead producer of Lineage 2, from the bottom of his heart. PvE damage +15%. The effect remains after death, after switching to a dual class or entering instance zones. Removed when entering the Olympiad or the Ceremony of Chaos. The effect can be removed with Alt + Left Mouse Button. -->
+		<icon>icon.e_seal_of_disease</icon>
+		<operateType>A1</operateType>
+		<abnormalTime>-1</abnormalTime>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>3000</reuseDelay>
+		<stayAfterDeath>true</stayAfterDeath>
+		<effects>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="29829" toLevel="1" name="Kim Keun-yeong's Gratitude">
+		<!-- A buff granted by Kim Keun-yeong, the global lead manager of Lineage 2, with all his soul. PvP damage +15%. The effect remains after death, after switching to a dual class or entering instance zones. Removed when entering the Olympiad or the Ceremony of Chaos. The effect can be removed with Alt + Left Mouse Button. -->
+		<icon>icon.immolation</icon>
+		<operateType>A1</operateType>
+		<abnormalTime>-1</abnormalTime>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>3000</reuseDelay>
+		<stayAfterDeath>true</stayAfterDeath>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="29830" toLevel="1" name="NPC Large Head">
+		<operateType>A1</operateType>
+		<targetType>TARGET</targetType>
+		<abnormalTime>-1</abnormalTime>
+		<abnormalType>BIG_HEAD</abnormalType>
+		<abnormalVisualEffect>BIG_HEAD</abnormalVisualEffect>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+	</skill>
+	<skill id="29831" toLevel="5" name="Ice Rose - Illusory Equipment">
+		<!-- Level 1: For , Max HP/ MP/ CP +3%, P. Atk./ M. Atk./ P. Def./ M. Def. +3%, Atk. Spd./ Casting Spd. +1%, Speed +2, Attribute Attack/ Resistance +10, damage +1%, all attack power +1%, acquired XP/ SP +3%, received damage -1%. The effect remains after death. The effect can be removed with Alt + Left Mouse Button. For characters Lv. 115 and higher. -->
+		<!-- Level 2: For , Max HP/ MP/ CP +6%, P. Atk./ M. Atk./ P. Def./ M. Def. +6%, Atk. Spd./ Casting Spd. +2%, Speed +4, Attribute Attack/ Resistance +20, damage +2%, all attack power +2%, acquired XP/ SP +6%, received damage -2%. The effect remains after death. The effect can be removed with Alt + Left Mouse Button. For characters Lv. 115 and higher. -->
+		<!-- Level 3: For , Max HP/ MP/ CP +9%, P. Atk./ M. Atk./ P. Def./ M. Def. +9%, Atk. Spd./ Casting Spd. +3%, Speed +6, Attribute Attack/ Resistance +30, damage +3%, all attack power +3%, acquired XP/ SP +9%, received damage -3%. The effect remains after death. The effect can be removed with Alt + Left Mouse Button. For characters Lv. 115 and higher. -->
+		<!-- Level 4: For , Max HP/ MP/ CP +12%, P. Atk./ M. Atk./ P. Def./ M. Def. +12%, Atk. Spd./ Casting Spd. +4%, Speed +8, Attribute Attack/ Resistance +40, damage +4%, all attack power +4%, acquired XP/ SP +12%, received damage -4%. The effect remains after death. The effect can be removed with Alt + Left Mouse Button. For characters Lv. 115 and higher. -->
+		<!-- Level 5: For , Max HP/ MP/ CP +15%, P. Atk./ M. Atk./ P. Def./ M. Def. +15%, Atk. Spd./ Casting Spd. +5%, Speed +10, Attribute Attack/ Resistance +50, damage +5%, all attack power +5%, acquired XP/ SP +15%, received damage -5%. The effect remains after death. The effect can be removed with Alt + Left Mouse Button. For characters Lv. 115 and higher. -->
+		<icon>icon.bm_freya_ice_rose</icon>
+		<operateType>A2</operateType>
+		<abnormalTime>-1</abnormalTime>
+		<coolTime>500</coolTime>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<stayAfterDeath>true</stayAfterDeath>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+					<value level="5">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+					<value level="5">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxCp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+					<value level="5">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+					<value level="5">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+					<value level="5">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+					<value level="5">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+					<value level="5">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+					<value level="4">40</value>
+					<value level="5">50</value>
+				</amount>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+					<value level="4">40</value>
+					<value level="5">50</value>
+				</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+					<value level="4">40</value>
+					<value level="5">50</value>
+				</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+					<value level="4">40</value>
+					<value level="5">50</value>
+				</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+					<value level="4">40</value>
+					<value level="5">50</value>
+				</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+					<value level="4">40</value>
+					<value level="5">50</value>
+				</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+					<value level="4">40</value>
+					<value level="5">50</value>
+				</amount>
+				<attribute>DARK</attribute>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-3</value>
+					<value level="4">-4</value>
+					<value level="5">-5</value>
+				</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-3</value>
+					<value level="4">-4</value>
+					<value level="5">-5</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+			<effect name="ExpModify">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+					<value level="5">15</value>
+				</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+					<value level="5">15</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="29832" toLevel="1" name="Yandex Protective Rune">
+		<!-- When in inventory, Vitality bonus +30%. -->
+		<icon>BranchIcon.icon.g_bm_Yandex_2</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>30</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="29833" toLevel="1" name="Illusory Equipment Points - 100">
+		<operateType>A1</operateType>
+		<reuseDelay>1000</reuseDelay>
+	</skill>
+	<skill id="29834" toLevel="1" name="Rough Estimation">
+		<!-- Tactical calculations are performed to ensure the safety of civilians and houses in the trade district. If Pushkin's orders are not followed, damage to monsters is limited to 1000. -->
+		<icon>icon.skill0485</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+	</skill>
+	<skill id="29835" toLevel="1" name="Knock and Rock">
+		<!-- To repair a device like this, you should knock it thoroughly. However, a Dwarf inside won't like it for sure. Damage to Anniversary Golem is limited: max 22. -->
+		<icon>BranchSys3.icon1.g_rune_of_flint_will</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+	</skill>
+	<skill id="29836" toLevel="1" name="Anniversary Festive Gas">
+		<icon>icon.skill5008_psycho</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<hitTime>5000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1</effectPoint>
+	</skill>
+	<skill id="29837" toLevel="1" name="Anniversary Festive Gas">
+		<!-- Anniversary Golem has blown a cloud of laughing gas, and everyone is ready to dance now!. For 10 sec., your body and head become larger, and your legs dance against your will. -->
+		<icon>icon.skill5008_psycho</icon>
+		<operateType>A1</operateType>
+		<abnormalTime>10</abnormalTime>
+		<abnormalVisualEffect>BIG_HEAD;BIG_BODY;DANCE_STUN</abnormalVisualEffect>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange> <!-- Unconfirmed -->
+		<affectScope>POINT_BLANK</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>-1</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="Root" />
+		</effects>
+	</skill>
+	<skill id="29838" toLevel="1" name="Anniversary Exploding Firecracker">
+		<icon>icon.skill0788</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<hitTime>5000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1</effectPoint>
+	</skill>
+	<skill id="29839" toLevel="1" name="Anniversary Exploding Firecracker">
+		<!-- The festive firecracker is so loud that its sound wave knocks you down!. You are knocked down and cannot stand up for 5 sec. -->
+		<icon>icon.skill0788</icon>
+		<operateType>A1</operateType>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange> <!-- Unconfirmed -->
+		<affectScope>POINT_BLANK</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>-1</effectPoint>
+		<isDebuff>true</isDebuff>
+		<trait>CONFUSION</trait>
+		<effects>
+			<effect name="KnockBack">
+				<distance>50</distance>
+				<speed>400</speed>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+</list>

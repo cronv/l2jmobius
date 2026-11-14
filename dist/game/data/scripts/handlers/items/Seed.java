@@ -1,0 +1,113 @@
+/*
+ * This file is part of the L2J Mobius project.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package handlers.items;
+
+import java.util.List;
+
+import org.l2jmobius.gameserver.config.GeneralConfig;
+import org.l2jmobius.gameserver.entity.WorldObject;
+import org.l2jmobius.gameserver.entity.actor.Playable;
+import org.l2jmobius.gameserver.entity.actor.Player;
+import org.l2jmobius.gameserver.entity.actor.instance.Chest;
+import org.l2jmobius.gameserver.entity.actor.instance.Monster;
+import org.l2jmobius.gameserver.entity.item.enums.ItemSkillType;
+import org.l2jmobius.gameserver.entity.item.holders.ItemSkillHolder;
+import org.l2jmobius.gameserver.entity.item.instance.Item;
+import org.l2jmobius.gameserver.handler.IItemHandler;
+import org.l2jmobius.gameserver.managers.CastleManorManager;
+import org.l2jmobius.gameserver.mechanics.siege.Castle;
+import org.l2jmobius.gameserver.network.SystemMessageId;
+import org.l2jmobius.gameserver.network.serverpackets.ActionFailed;
+
+/**
+ * Handles the logic and interactions for {@code Seed} items.<br>
+ * This class manages how players interact with seeds in the game world.
+ * @author l3x
+ */
+public class Seed implements IItemHandler
+{
+	/**
+	 * Handles the logic for using a seed on a target monster.<br>
+	 * Checks if the action is allowed and valid for the current location.<br>
+	 * Executes the seeding process and triggers any associated skills.
+	 * @param playable The {@code Playable} entity attempting to use the item.
+	 * @param item The {@code Item} being used by the player.
+	 * @param forceUse A boolean indicating if the use is forced.
+	 * @return {@code true} if the seed was successfully sown, {@code false} otherwise.
+	 */
+	@Override
+	public boolean onItemUse(Playable playable, Item item, boolean forceUse)
+	{
+		if (!GeneralConfig.ALLOW_MANOR)
+		{
+			return false;
+		}
+		else if (!playable.isPlayer())
+		{
+			playable.sendPacket(SystemMessageId.THIS_ITEM_CANNOT_BE_TRANSFERRED_TO_A_PET);
+			return false;
+		}
+		
+		final WorldObject tgt = playable.getTarget();
+		if ((tgt == null) || !tgt.isNpc())
+		{
+			playable.sendPacket(SystemMessageId.INVALID_TARGET);
+			return false;
+		}
+		else if (!tgt.isMonster() || tgt.asMonster().isRaid() || (tgt instanceof Chest))
+		{
+			playable.sendPacket(SystemMessageId.THE_TARGET_IS_UNAVAILABLE_FOR_SEEDING);
+			return false;
+		}
+		
+		final Monster target = tgt.asMonster();
+		if (target.isDead())
+		{
+			playable.sendPacket(SystemMessageId.INVALID_TARGET);
+			return false;
+		}
+		else if (target.isSeeded())
+		{
+			playable.sendPacket(ActionFailed.STATIC_PACKET);
+			return false;
+		}
+		
+		final org.l2jmobius.gameserver.mechanics.siege.manor.Seed seed = CastleManorManager.getInstance().getSeed(item.getId());
+		if (seed == null)
+		{
+			return false;
+		}
+		
+		final Castle taxCastle = target.getTaxCastle();
+		if ((taxCastle == null) || (seed.getCastleId() != taxCastle.getResidenceId()))
+		{
+			playable.sendPacket(SystemMessageId.THIS_SEED_MAY_NOT_BE_SOWN_HERE);
+			return false;
+		}
+		
+		final Player player = playable.asPlayer();
+		target.setSeeded(seed, player);
+		
+		final List<ItemSkillHolder> skills = item.getTemplate().getSkills(ItemSkillType.NORMAL);
+		if (skills != null)
+		{
+			skills.forEach(holder -> player.useMagic(holder.getSkill(), item, false, false));
+		}
+		
+		return true;
+	}
+}

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="schttgart09_2411_22" minZ="-3804" maxZ="-3404">
+				<node x="157424" y="-211716" />
+				<node x="158340" y="-211820" />
+				<node x="159492" y="-210300" />
+				<node x="159324" y="-208908" />
+				<node x="156380" y="-209644" />
+			</territory>
+		</territories>
+		<npc id="21125" count="2" respawnTime="20sec" /> <!-- Northern Trimden -->
+		<npc id="21126" count="2" respawnTime="20sec" /> <!-- Kerope Werewolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart09_2411_23" minZ="-3812" maxZ="-3412">
+				<node x="158600" y="-215100" />
+				<node x="160316" y="-214308" />
+				<node x="161348" y="-213132" />
+				<node x="160672" y="-211972" />
+				<node x="157624" y="-211992" />
+				<node x="156788" y="-214636" />
+				<node x="157580" y="-214992" />
+			</territory>
+		</territories>
+		<npc id="21125" count="2" respawnTime="20sec" /> <!-- Northern Trimden -->
+		<npc id="21126" count="2" respawnTime="20sec" /> <!-- Kerope Werewolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart09_2411_24" minZ="-3768" maxZ="-3168">
+				<node x="155644" y="-219308" />
+				<node x="158572" y="-219180" />
+				<node x="159476" y="-216236" />
+				<node x="155356" y="-215548" />
+			</territory>
+		</territories>
+		<npc id="21125" count="3" respawnTime="20sec" /> <!-- Northern Trimden -->
+		<npc id="21126" count="2" respawnTime="20sec" /> <!-- Kerope Werewolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart09_2411_25" minZ="-3792" maxZ="-3392">
+				<node x="156588" y="-221328" />
+				<node x="159044" y="-220764" />
+				<node x="158968" y="-219320" />
+				<node x="155684" y="-219348" />
+				<node x="155912" y="-220568" />
+			</territory>
+		</territories>
+		<npc id="21125" count="2" respawnTime="20sec" /> <!-- Northern Trimden -->
+		<npc id="21126" count="2" respawnTime="20sec" /> <!-- Kerope Werewolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart09_2411_26" minZ="-3768" maxZ="-3368">
+				<node x="159152" y="-220772" />
+				<node x="160864" y="-220944" />
+				<node x="161796" y="-218864" />
+				<node x="159816" y="-217432" />
+				<node x="159100" y="-218708" />
+			</territory>
+		</territories>
+		<npc id="21125" count="2" respawnTime="20sec" /> <!-- Northern Trimden -->
+		<npc id="21126" count="2" respawnTime="20sec" /> <!-- Kerope Werewolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart09_2411_27" minZ="-3792" maxZ="-3392">
+				<node x="161488" y="-218548" />
+				<node x="163572" y="-217208" />
+				<node x="163640" y="-215356" />
+				<node x="160372" y="-216764" />
+				<node x="160008" y="-217508" />
+			</territory>
+		</territories>
+		<npc id="21125" count="2" respawnTime="20sec" /> <!-- Northern Trimden -->
+		<npc id="21126" count="2" respawnTime="20sec" /> <!-- Kerope Werewolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart09_2511_01" minZ="-3748" maxZ="-3348">
+				<node x="163900" y="-217172" />
+				<node x="165376" y="-215296" />
+				<node x="164324" y="-213716" />
+				<node x="163904" y="-214252" />
+			</territory>
+		</territories>
+		<npc id="21125" count="2" respawnTime="20sec" /> <!-- Northern Trimden -->
+		<npc id="21126" count="2" respawnTime="20sec" /> <!-- Kerope Werewolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart09_2511_02" minZ="-3792" maxZ="-3392">
+				<node x="165400" y="-215236" />
+				<node x="166308" y="-214348" />
+				<node x="166528" y="-213032" />
+				<node x="166128" y="-211504" />
+				<node x="164980" y="-211920" />
+				<node x="164656" y="-212420" />
+				<node x="164276" y="-213652" />
+			</territory>
+		</territories>
+		<npc id="21125" count="2" respawnTime="20sec" /> <!-- Northern Trimden -->
+		<npc id="21126" count="2" respawnTime="20sec" /> <!-- Kerope Werewolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart09_2511_03" minZ="-3768" maxZ="-3368">
+				<node x="163952" y="-212200" />
+				<node x="166004" y="-211012" />
+				<node x="165844" y="-209160" />
+				<node x="163996" y="-207908" />
+			</territory>
+		</territories>
+		<npc id="21125" count="1" respawnTime="20sec" /> <!-- Northern Trimden -->
+		<npc id="21126" count="2" respawnTime="20sec" /> <!-- Kerope Werewolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart09_2511_04" minZ="-3764" maxZ="-3364">
+				<node x="163968" y="-207848" />
+				<node x="165852" y="-209060" />
+				<node x="166676" y="-208108" />
+				<node x="166584" y="-206796" />
+				<node x="165896" y="-206320" />
+				<node x="163932" y="-206324" />
+			</territory>
+		</territories>
+		<npc id="21125" count="2" respawnTime="20sec" /> <!-- Northern Trimden -->
+		<npc id="21126" count="2" respawnTime="20sec" /> <!-- Kerope Werewolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart09_2511_05" minZ="-3792" maxZ="-3392">
+				<node x="163936" y="-205932" />
+				<node x="166184" y="-206048" />
+				<node x="168440" y="-202388" />
+				<node x="163968" y="-199828" />
+			</territory>
+		</territories>
+		<npc id="21125" count="3" respawnTime="20sec" /> <!-- Northern Trimden -->
+		<npc id="21126" count="3" respawnTime="20sec" /> <!-- Kerope Werewolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart09_2511_06" minZ="-3700" maxZ="-3300">
+				<node x="171932" y="-216184" />
+				<node x="174296" y="-213924" />
+				<node x="172932" y="-211876" />
+				<node x="170020" y="-212684" />
+				<node x="171180" y="-215596" />
+			</territory>
+		</territories>
+		<npc id="21125" count="3" respawnTime="20sec" /> <!-- Northern Trimden -->
+		<npc id="21126" count="3" respawnTime="20sec" /> <!-- Kerope Werewolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schttgart09_2511_07" minZ="-3740" maxZ="-3340">
+				<node x="169948" y="-212624" />
+				<node x="172904" y="-211812" />
+				<node x="173240" y="-208032" />
+				<node x="172356" y="-207788" />
+				<node x="171124" y="-208276" />
+				<node x="167736" y="-211632" />
+				<node x="168640" y="-212588" />
+			</territory>
+		</territories>
+		<npc id="21125" count="3" respawnTime="20sec" /> <!-- Northern Trimden -->
+		<npc id="21126" count="3" respawnTime="20sec" /> <!-- Kerope Werewolf -->
+	</spawn>
+	<spawn name="EasternMiningZoneMonsters">
+		<group>
+			<npc id="21125" x="160892" y="-212316" z="-3704" respawnTime="120sec" /> <!-- Northern Trimden -->
+		</group>
+	</spawn>
+</list>

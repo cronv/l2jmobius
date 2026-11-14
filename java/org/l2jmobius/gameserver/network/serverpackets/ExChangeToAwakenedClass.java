@@ -1,0 +1,48 @@
+/*
+ * This file is part of the L2J Mobius project.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package org.l2jmobius.gameserver.network.serverpackets;
+
+import org.l2jmobius.commons.network.buffer.WriteBuffer;
+import org.l2jmobius.gameserver.network.GameClient;
+import org.l2jmobius.gameserver.network.ServerPackets;
+
+/**
+ * This packet is sent to the client to handle the transition of a character into an awakened class.<br>
+ * It informs the game client that the player's class has been successfully changed.
+ * @author Sdw
+ */
+public class ExChangeToAwakenedClass extends ServerPacket
+{
+	private final int _classId;
+	
+	/**
+	 * Creates a new {@code ExChangeToAwakenedClass} packet.<br>
+	 * This packet is used to notify the client about a class change.
+	 * @param classId The unique identifier for the awakened class.
+	 */
+	public ExChangeToAwakenedClass(int classId)
+	{
+		_classId = classId;
+	}
+	
+	@Override
+	public void writeImpl(GameClient client, WriteBuffer buffer)
+	{
+		ServerPackets.EX_CHANGE_TO_AWAKENED_CLASS.writeId(this, buffer);
+		buffer.writeInt(_classId);
+	}
+}

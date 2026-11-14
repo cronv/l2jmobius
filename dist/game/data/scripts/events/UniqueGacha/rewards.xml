@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rewards.xsd">
+	<configuration>
+		<param name="guaranteeRoll" value="200" />
+		<param name="showProbability" value="true" />
+	</configuration>
+	<rewards>
+		<!-- MINIMAL CHANCE VALUE IS 0.000001 -->
+		<reward rank="RANK_UR"> <!-- SUMMED CHANCES MUST BE 5% -->
+			<item id="60645" count="1" chance="0.0005" /> <!-- Dragon Weapon Coupon (Lv. 3) -->
+			<item id="60646" count="1" chance="0.0005" /> <!-- Dragon Weapon Coupon (Lv. 2) -->
+			<item id="82933" count="1" chance="0.005" /> <!-- Guaranteed A-grade Relic Summon Coupon - 1-time -->
+			<item id="82986" count="1" chance="0.150" /> <!-- Silvery Shirt -->
+			<item id="82987" count="1" chance="0.150" /> <!-- Silvery Circlet -->
+			<item id="82989" count="1" chance="0.150" /> <!-- Silvery Brooch -->
+			<item id="82992" count="1" chance="0.150" /> <!-- Silvery Artifact Book -->
+			<item id="61197" count="1" chance="0.200" /> <!-- Orb Pack - Event -->
+			<item id="60649" count="1" chance="0.200" /> <!-- Soul Crystal Coupon Lv. 10 -->
+			<item id="83528" count="1" chance="0.200" /> <!-- Dark Dragon's Ring -->
+			<item id="83526" count="1" chance="0.200" /> <!-- Dark Dragon's Necklace -->
+			<item id="83527" count="1" chance="0.200" /> <!-- Dark Dragon's Earring -->
+			<item id="82338" count="1" chance="0.300" /> <!-- Light Dragon's Cloak -->
+			<item id="60602" count="1" chance="0.300" /> <!-- +18 Legendary Cloak Box -->
+			<item id="61281" count="1" chance="0.300" /> <!-- Eraton's Dye Coupon Lv. 10 -->
+			<item id="81444" count="1" chance="0.300" /> <!-- Greater Agathion Charm: Fire Dragon -->
+			<item id="60811" count="1" chance="0.300" /> <!-- +20 Supreme Leviathan Heavy Armor Set -->
+			<item id="60812" count="1" chance="0.300" /> <!-- +20 Supreme Leviathan Light Armor Set -->
+			<item id="60813" count="1" chance="0.300" /> <!-- +20 Supreme Leviathan Robe Set -->
+			<item id="83633" count="1" chance="0.300" /> <!-- Talisman of Glory -->
+			<item id="81769" count="1" chance="0.300" /> <!-- Enhanced Talisman of Protection Lv. 10 -->
+			<item id="82059" count="1" chance="0.300" /> <!-- Sayha's Enhanced Talisman Lv. 10 -->
+			<item id="83131" count="1" chance="0.300" /> <!-- +10 Epic Talisman Pack -->
+			<item id="83130" count="1" chance="0.300" /> <!-- +10 Heavenly Talisman Pack -->
+			<item id="60097" count="1" chance="0.300" /> <!-- Heir's Radiance Lv. 9 - PvP/PvE -->
+		</reward>
+		<reward rank="RANK_SR"> <!-- SUMMED CHANCES MUST BE 15% -->
+			<item id="60655" count="1" chance="0.400" /> <!-- Legendary Dye Coupon Lv. 10 -->
+			<item id="60902" count="1" chance="0.500" /> <!-- Package: +10 Kaliel's Superior Bracelet -->
+			<item id="60904" count="1" chance="0.600" /> <!-- Package: +10 Superior Seed Bracelet Lv. 4 -->
+			<item id="60901" count="1" chance="0.700" /> <!-- Package: +10 Unique Artifact Book -->
+			<item id="60948" count="1" chance="0.800" /> <!-- Package: +10 La Vie En Rose's Superior Brooch -->
+			<item id="81453" count="1" chance="1.000" /> <!-- Enhanced Rune Stone -->
+			<item id="82902" count="1" chance="1.000" /> <!-- Lunarium -->
+			<item id="80957" count="1" chance="1.000" /> <!-- Heavenly Talisman -->
+			<item id="47821" count="1" chance="1.000" /> <!-- Sayha's Talisman Pack Lv. 10 -->
+			<item id="80931" count="1" chance="1.200" /> <!-- Greater Zodiac Agathion Cube -->
+			<item id="81770" count="1" chance="1.200" /> <!-- Shining Energy of Protection -->
+			<item id="82032" count="1" chance="1.200" /> <!-- Shining Jewel Energy -->
+			<item id="82049" count="1" chance="1.200" /> <!-- Sayha's Shining Energy -->
+			<item id="81938" count="1" chance="1.200" /> <!-- Greater Zodiac Agathion's Sacred Book of Growth -->
+			<item id="83460" count="1" chance="1.200" /> <!-- Chaos Augmenting Stone: Weapon/ Armor -->
+			<item id="80334" count="1" chance="1.200" /> <!-- Dragon's Earring -->
+			<item id="80333" count="1" chance="1.200" /> <!-- Dragon's Necklace -->
+			<item id="80335" count="1" chance="1.200" /> <!-- Dragon's Ring -->
+		</reward>
+		<reward rank="RANK_R"> <!-- SUMMED CHANCES MUST BE 70% -->
+			<item id="39738" count="1" chance="2.500" /> <!-- Rune Stone -->
+			<item id="47866" count="1" chance="2.500" /> <!-- Star Sign -->
+			<item id="80932" count="1" chance="2.500" /> <!-- Greater Zodiac Agathion's Book of Growth -->
+			<item id="48910" count="2" chance="2.500" /> <!-- Shillien's Soul Crystal Box -->
+			<item id="81134" count="2" chance="2.500" /> <!-- Crystal of Dyes -->
+			<item id="81450" count="3" chance="3.000" /> <!-- Angel's Ring Pack -->
+			<item id="81449" count="3" chance="3.000" /> <!-- Angel's Earring Pack -->
+			<item id="81448" count="3" chance="3.000" /> <!-- Angel's Necklace Pack -->
+			<item id="48860" count="3" chance="3.000" /> <!-- Fallen Angel's Ring Pack -->
+			<item id="82215" count="3" chance="3.000" /> <!-- Fallen Angel's Earring Pack -->
+			<item id="48876" count="2" chance="3.000" /> <!-- Forgotten Spellbook - Chapter 1 -->
+			<item id="82796" count="2" chance="2.000" /> <!-- Eva's Soul Crystal - Lv. 1 - Accessories -->
+			<item id="82623" count="2" chance="2.000" /> <!-- Pa'agrio's Soul Crystal - Lv. 1 - Armor -->
+			<item id="82265" count="2" chance="2.000" /> <!-- Tersi's Soul Crystal Lv. 1 - Armor -->
+			<item id="82458" count="2" chance="2.000" /> <!-- Masia's Soul Crystal Lv. 1 - Accessories -->
+			<item id="48830" count="10" chance="4.000" /> <!-- Freya's Ice Rose -->
+			<item id="80817" count="10" chance="4.000" /> <!-- Wondrous Cocktail -->
+			<item id="48642" count="10" chance="4.000" /> <!-- Nevit's Shining Gold Hourglass -->
+			<item id="48497" count="10" chance="4.000" /> <!-- Glowing Dragon's Attribute Potion - XP -->
+			<item id="80842" count="10" chance="4.000" /> <!-- Honey Dark Beer -->
+			<item id="82378" count="20" chance="4.000" /> <!-- Shining Tales of Einhasad -->
+			<item id="60658" count="10" chance="4.000" /> <!-- Nana's Potion -->
+			<item id="60657" count="10" chance="4.000" /> <!-- Mimi's Potion -->
+		</reward>
+	</rewards>
+	<!-- Currency count sends from server side, it can be var or donate items. -->
+	<!-- You can change send count in UniqueGachaManager by method getCurrencyCount (Player player) -->
+	<roll currencyItemId="4357">
+		<game gameCount="1" costCount="100" />
+		<game gameCount="11" costCount="1000" />
+	</roll>
+</list>

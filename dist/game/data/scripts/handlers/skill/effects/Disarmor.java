@@ -1,0 +1,174 @@
+/*
+ * This file is part of the L2J Mobius project.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package handlers.skill.effects;
+
+import java.util.Collection;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
+import org.l2jmobius.gameserver.entity.actor.Creature;
+import org.l2jmobius.gameserver.entity.actor.Player;
+import org.l2jmobius.gameserver.entity.item.enums.BodyPart;
+import org.l2jmobius.gameserver.entity.item.instance.Item;
+import org.l2jmobius.gameserver.mechanics.effects.AbstractEffect;
+import org.l2jmobius.gameserver.mechanics.skill.Skill;
+import org.l2jmobius.gameserver.network.SystemMessageId;
+import org.l2jmobius.gameserver.network.serverpackets.InventoryUpdate;
+import org.l2jmobius.gameserver.network.serverpackets.SystemMessage;
+import org.l2jmobius.gameserver.util.StatSet;
+
+/**
+ * Handles the disarmor effect applied to a specific inventory slot.<br>
+ * It removes the equipped item from the player and automatically re-equips it once the effect expires.
+ * @author Nik
+ */
+public class Disarmor extends AbstractEffect
+{
+	private final Map<Integer, Integer> _unequippedItems; // PlayerObjId, ItemObjId
+	private final BodyPart _slot;
+	
+	/**
+	 * Creates a new {@code Disarmor} effect instance.<br>
+	 * It initializes the required body part from the provided parameters.
+	 * @param params The {@code StatSet} containing configuration data for the effect.
+	 */
+	public Disarmor(StatSet params)
+	{
+		_unequippedItems = new ConcurrentHashMap<>();
+		
+		final String slot = params.getString("slot", "chest");
+		_slot = BodyPart.fromName(slot);
+		if (_slot == BodyPart.NONE)
+		{
+			LOGGER.severe("Unknown bodypart slot for effect: " + slot);
+		}
+	}
+	
+	/**
+	 * Checks if the effect can be applied to a target.<br>
+	 * It returns {@code true} only if the target is a {@code Player} and the slot is not {@code BodyPart.NONE}.
+	 * @param effector The creature performing the action.
+	 * @param effected The creature receiving the effect.
+	 * @param skill The skill being used to trigger the effect.
+	 * @return {@code true} if the effect can start, otherwise {@code false}.
+	 */
+	@Override
+	public boolean canStart(Creature effector, Creature effected, Skill skill)
+	{
+		return (_slot != BodyPart.NONE) && effected.isPlayer();
+	}
+	
+	/**
+	 * Handles the continuous application of a disarmor effect.<br>
+	 * This method removes an item from the player's body slot and blocks that slot.<br>
+	 * It also sends inventory updates and system messages to the affected player.
+	 * @param effector The creature who performs the action.
+	 * @param effected The creature who receives the effect.
+	 * @param skill The skill being used to trigger the effect.
+	 * @param item The specific item involved in the effect.
+	 */
+	@Override
+	public void continuousInstant(Creature effector, Creature effected, Skill skill, Item item)
+	{
+		if (!effected.isPlayer())
+		{
+			return;
+		}
+		
+		final Player player = effected.asPlayer();
+		final Collection<Item> unequipped = player.getInventory().unEquipItemInBodySlotAndRecord(_slot);
+		if (!unequipped.isEmpty())
+		{
+			final InventoryUpdate iu = new InventoryUpdate();
+			for (Item itm : unequipped)
+			{
+				iu.addModifiedItem(itm);
+			}
+			
+			player.sendInventoryUpdate(iu);
+			player.broadcastUserInfo();
+			
+			SystemMessage sm = null;
+			final Item unequippedItem = unequipped.iterator().next();
+			if (unequippedItem.isEnchanted())
+			{
+				sm = new SystemMessage(SystemMessageId.S1_S2_UNEQUIPPED);
+				sm.addInt(unequippedItem.getEnchantLevel());
+				sm.addItemName(unequippedItem);
+			}
+			else
+			{
+				sm = new SystemMessage(SystemMessageId.S1_UNEQUIPPED);
+				sm.addItemName(unequippedItem);
+			}
+			
+			player.sendPacket(sm);
+			effected.getInventory().blockItemSlot(_slot);
+			_unequippedItems.put(effected.getObjectId(), unequippedItem.getObjectId());
+		}
+	}
+	
+	/**
+	 * This method is called when the effect ends.<br>
+	 * It re-equips the disarmed item for the player if it still exists in their inventory.<br>
+	 * The method ensures that only players are affected by this logic.
+	 * @param effector The creature who cast the skill.
+	 * @param effected The creature who received the effect.
+	 * @param skill The skill used to trigger the effect.
+	 */
+	@Override
+	public void onExit(Creature effector, Creature effected, Skill skill)
+	{
+		if (!effected.isPlayer())
+		{
+			return;
+		}
+		
+		final Integer disarmedObjId = _unequippedItems.remove(effected.getObjectId());
+		if ((disarmedObjId != null) && (disarmedObjId > 0))
+		{
+			final Player player = effected.asPlayer();
+			player.getInventory().unblockItemSlot(_slot);
+			
+			final Item item = player.getInventory().getItemByObjectId(disarmedObjId);
+			if (item != null)
+			{
+				player.getInventory().equipItem(item);
+				final InventoryUpdate iu = new InventoryUpdate();
+				iu.addModifiedItem(item);
+				player.sendInventoryUpdate(iu);
+				if (item.isEquipped())
+				{
+					SystemMessage sm = null;
+					if (item.isEnchanted())
+					{
+						sm = new SystemMessage(SystemMessageId.S1_S2_EQUIPPED);
+						sm.addInt(item.getEnchantLevel());
+						sm.addItemName(item);
+					}
+					else
+					{
+						sm = new SystemMessage(SystemMessageId.S1_EQUIPPED);
+						sm.addItemName(item);
+					}
+					
+					player.sendPacket(sm);
+				}
+			}
+		}
+	}
+}

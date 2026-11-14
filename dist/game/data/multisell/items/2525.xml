@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+	<npcs>
+		<npc>-1</npc> <!-- Item Multisell -->
+	</npcs>
+	<!-- Black Miles 2026 -->
+	<item>
+		<ingredient id="83739" count="1" /> <!-- Black Mile Coupon 2026 - Event -->
+		<production id="13302" count="1" /> <!-- My Teleport Scroll - Event -->
+	</item>
+	<item>
+		<ingredient id="83739" count="1" /> <!-- Black Mile Coupon 2026 - Event -->
+		<production id="82665" count="1" /> <!-- Aether Pack (10 pcs.) -->
+	</item>
+	<item>
+		<ingredient id="83739" count="1" /> <!-- Black Mile Coupon 2026 - Event -->
+		<production id="83617" count="1" /> <!-- Supply Pack (2-hour) -->
+	</item>
+</list>

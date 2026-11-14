@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/AirShipData.xsd">
+	<airship id="0" moveSpeed="300" rotationSpeed="4000" initialDelay="60000"> <!-- Gludio - Gracia -->
+		<start x="-157411" y="255675" z="221" heading="0" />
+		<point x="-153414" y="255385" z="221" />
+		<point x="-149548" y="258172" z="221" />
+		<point x="-146884" y="257097" z="221" />
+		<point x="-146672" y="254239" z="221" />
+		<point x="-147855" y="252712" z="206" />
+		<port x="-149378" y="252552" z="198" dockId="10" stopover="60000" announcerNpcId="32607" arriveNpcStringId="1800222" departNpcStringId="1800223"> <!-- Gludio -->
+			<oust x="-149379" y="255246" z="-80" />
+		</port>
+		<point x="-151202" y="252556" z="231" />
+		<point x="-160403" y="256144" z="222" />
+		<teleport x="-167672" y="256936" z="-594" heading="32768" /> <!-- Warpgate -->
+		<point x="-169763" y="254815" z="282" />
+		<point x="-171822" y="250061" z="425" />
+		<point x="-172595" y="247737" z="398" />
+		<point x="-174538" y="246185" z="39" />
+		<point x="-179440" y="243651" z="1337" />
+		<point x="-182365" y="245266" z="2739" />
+		<point x="-185128" y="245268" z="2694" />
+		<port x="-186914" y="244746" z="2694" dockId="11" stopover="60000" announcerNpcId="32609" arriveNpcStringId="1800220" departNpcStringId="1800221"> <!-- Gracia -->
+			<oust x="-186563" y="243590" z="2608" />
+		</port>
+		<point x="-187801" y="244997" z="2672" />
+		<point x="-188520" y="245932" z="2465" />
+		<point x="-189932" y="245243" z="1682" />
+		<point x="-191192" y="242969" z="1523" />
+		<point x="-190408" y="239088" z="1706" />
+		<point x="-187475" y="237113" z="2768" />
+		<point x="-184673" y="238433" z="2802" />
+		<point x="-184524" y="241119" z="2816" />
+		<point x="-182129" y="243385" z="2733" />
+		<point x="-179440" y="243651" z="1337" />
+		<point x="-174538" y="246185" z="39" />
+		<point x="-172595" y="247737" z="398" />
+		<point x="-171822" y="250061" z="425" />
+		<point x="-169763" y="254815" z="282" />
+		<point x="-168067" y="256626" z="343" />
+		<teleport x="-157411" y="255675" z="221" heading="0" /> <!-- Warpgate return to start -->
+	</airship>
+</list>

@@ -1,0 +1,161 @@
+/*
+ * This file is part of the L2J Mobius project.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package org.l2jmobius.gameserver.network.clientpackets;
+
+import org.l2jmobius.gameserver.entity.actor.Player;
+import org.l2jmobius.gameserver.entity.clan.Clan;
+import org.l2jmobius.gameserver.entity.clan.ClanAccess;
+import org.l2jmobius.gameserver.entity.clan.ClanMember;
+import org.l2jmobius.gameserver.network.SystemMessageId;
+import org.l2jmobius.gameserver.network.serverpackets.SystemMessage;
+
+/**
+ * Handles the client request to set an academy master for a pledge.<br>
+ * This packet processes the transition of leadership within the clan structure.
+ * @author -Wooden-
+ */
+public class RequestPledgeSetAcademyMaster extends ClientPacket
+{
+	private String _currPlayerName;
+	private int _set; // 1 set, 0 delete
+	private String _targetPlayerName;
+	
+	@Override
+	protected void readImpl()
+	{
+		_set = readInt();
+		_currPlayerName = readString();
+		_targetPlayerName = readString();
+	}
+	
+	@Override
+	protected void runImpl()
+	{
+		final Player player = getPlayer();
+		final Clan clan = player.getClan();
+		if (clan == null)
+		{
+			return;
+		}
+		
+		if (!player.hasAccess(ClanAccess.REMOVE_MEMBER))
+		{
+			player.sendPacket(SystemMessageId.YOU_DON_T_HAVE_THE_RIGHT_TO_DISMISS_MENTEES);
+			return;
+		}
+		
+		final ClanMember currentMember = clan.getClanMember(_currPlayerName);
+		final ClanMember targetMember = clan.getClanMember(_targetPlayerName);
+		if ((currentMember == null) || (targetMember == null))
+		{
+			return;
+		}
+		
+		ClanMember apprenticeMember;
+		ClanMember sponsorMember;
+		if (currentMember.getPledgeType() == -1) // Academy - Removed.
+		{
+			apprenticeMember = currentMember;
+			sponsorMember = targetMember;
+		}
+		else
+		{
+			apprenticeMember = targetMember;
+			sponsorMember = currentMember;
+		}
+		
+		final Player apprentice = apprenticeMember.getPlayer();
+		final Player sponsor = sponsorMember.getPlayer();
+		SystemMessage sm = null;
+		if (_set == 0)
+		{
+			// test: do we get the current sponsor & apprentice from this packet or no?
+			if (apprentice != null)
+			{
+				apprentice.setSponsor(0);
+			}
+			else
+			{
+				apprenticeMember.setApprenticeAndSponsor(0, 0);
+			}
+			
+			if (sponsor != null)
+			{
+				sponsor.setApprentice(0);
+			}
+			else
+			{
+				sponsorMember.setApprenticeAndSponsor(0, 0);
+			}
+			
+			apprenticeMember.saveApprenticeAndSponsor(0, 0);
+			sponsorMember.saveApprenticeAndSponsor(0, 0);
+			sm = new SystemMessage(SystemMessageId.S2_C1_S_MENTEE_IS_DISMISSED);
+		}
+		else
+		{
+			if ((apprenticeMember.getSponsor() != 0) || (sponsorMember.getApprentice() != 0) || (apprenticeMember.getApprentice() != 0) || (sponsorMember.getSponsor() != 0))
+			{
+				// TODO retail message
+				player.sendMessage("Remove previous connections first.");
+				return;
+			}
+			
+			final int objectId = sponsorMember.getObjectId();
+			if (apprentice != null)
+			{
+				apprentice.setSponsor(objectId);
+			}
+			else
+			{
+				apprenticeMember.setApprenticeAndSponsor(0, objectId);
+			}
+			
+			final int apprenticeMemberObjectId = apprenticeMember.getObjectId();
+			if (sponsor != null)
+			{
+				sponsor.setApprentice(apprenticeMemberObjectId);
+			}
+			else
+			{
+				sponsorMember.setApprenticeAndSponsor(apprenticeMemberObjectId, 0);
+			}
+			
+			// saving to database even if online, since both must match
+			apprenticeMember.saveApprenticeAndSponsor(0, objectId);
+			sponsorMember.saveApprenticeAndSponsor(apprenticeMemberObjectId, 0);
+			sm = new SystemMessage(SystemMessageId.S1_HAS_BECOME_S2_S_MENTOR);
+		}
+		
+		sm.addString(sponsorMember.getName());
+		sm.addString(apprenticeMember.getName());
+		if ((sponsor != player) && (sponsor != apprentice))
+		{
+			player.sendPacket(sm);
+		}
+		
+		if (sponsor != null)
+		{
+			sponsor.sendPacket(sm);
+		}
+		
+		if (apprentice != null)
+		{
+			apprentice.sendPacket(sm);
+		}
+	}
+}

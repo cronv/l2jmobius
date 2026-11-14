@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/zones.xsd">
+	<!-- Monster Race Track -->
+	<zone name="dion_monster_race1" type="DerbyTrackZone" shape="NPoly" minZ="-3652" maxZ="-3452"> <!-- [20_23] -->
+		<node X="11714" Y="181568" />
+		<node X="14406" Y="181571" />
+		<node X="14405" Y="182673" />
+		<node X="11714" Y="182673" />
+	</zone>
+	<zone name="dion_monster_race2" type="DerbyTrackZone" shape="NPoly" minZ="-3610" maxZ="-3410"> <!-- [20_23] -->
+		<node X="13309" Y="181324" />
+		<node X="14061" Y="181324" />
+		<node X="14061" Y="181610" />
+		<node X="13309" Y="181610" />
+	</zone>
+	<zone name="dion_monster_race3" type="DerbyTrackZone" shape="NPoly" minZ="-3608" maxZ="-3408"> <!-- [20_23] -->
+		<node X="13559" Y="182641" />
+		<node X="14073" Y="182640" />
+		<node X="14073" Y="182919" />
+		<node X="13560" Y="182918" />
+	</zone>
+	<zone name="dion_monster_race4" type="DerbyTrackZone" shape="NPoly" minZ="-3612" maxZ="-3412"> <!-- [20_23] -->
+		<node X="12196" Y="182662" />
+		<node X="12447" Y="182663" />
+		<node X="12447" Y="182774" />
+		<node X="12197" Y="182774" />
+	</zone>
+	<zone name="dion_monster_race5" type="DerbyTrackZone" shape="NPoly" minZ="-3624" maxZ="-3424"> <!-- [20_23] -->
+		<node X="11706" Y="182774" />
+		<node X="13194" Y="182774" />
+		<node X="13194" Y="183006" />
+		<node X="11701" Y="183017" />
+	</zone>
+	<zone name="dion_monster_race6" type="DerbyTrackZone" shape="NPoly" minZ="-3616" maxZ="-3416"> <!-- [20_23] -->
+		<node X="11701" Y="184017" />
+		<node X="13188" Y="184011" />
+		<node X="13194" Y="184265" />
+		<node X="11701" Y="184260" />
+	</zone>
+	<zone name="dion_monster_race7" type="DerbyTrackZone" shape="NPoly" minZ="-3660" maxZ="-3460"> <!-- [20_23] -->
+		<node X="11699" Y="182993" />
+		<node X="11949" Y="182990" />
+		<node X="11944" Y="184036" />
+		<node X="11697" Y="184032" />
+	</zone>
+	<zone name="dion_monster_race8" type="DerbyTrackZone" shape="NPoly" minZ="-3636" maxZ="-3436"> <!-- [20_23] -->
+		<node X="12945" Y="182992" />
+		<node X="13193" Y="182987" />
+		<node X="13193" Y="184019" />
+		<node X="12945" Y="184029" />
+	</zone>
+
+	<zone name="Seed of Annihilation 1" type="EffectZone" shape="NPoly" minZ="-10700" maxZ="-10100">
+		<stat name="maxDynamicSkillCount" val="1" />
+		<stat name="showDangerIcon" val="false" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="3000" />
+		<node X="-180000" Y="183000" />
+		<node X="-178300" Y="184666" />
+		<node X="-173000" Y="184666" />
+		<node X="-173000" Y="174500" />
+		<node X="-187350" Y="174500" />
+		<node X="-187350" Y="184666" />
+		<node X="-182000" Y="184666" />
+		<node X="-180500" Y="183000" />
+	</zone>
+	<zone name="Seed of Annihilation 2" type="EffectZone" shape="NPoly" minZ="-15900" maxZ="-14950">
+		<stat name="maxDynamicSkillCount" val="1" />
+		<stat name="showDangerIcon" val="false" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="3000" />
+		<node X="-180000" Y="182500" />
+		<node X="-178800" Y="183500" />
+		<node X="-176500" Y="183500" />
+		<node X="-176500" Y="187000" />
+		<node X="-173000" Y="187000" />
+		<node X="-173000" Y="175000" />
+		<node X="-187500" Y="175000" />
+		<node X="-187500" Y="187600" />
+		<node X="-183500" Y="187600" />
+		<node X="-183500" Y="183500" />
+		<node X="-181000" Y="183500" />
+		<node X="-180500" Y="182500" />
+	</zone>
+	<zone name="Seed of Annihilation 3" type="EffectZone" shape="NPoly" minZ="-12850" maxZ="-10800">
+		<stat name="maxDynamicSkillCount" val="1" />
+		<stat name="showDangerIcon" val="false" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="3000" />
+		<node X="-212800" Y="182800" />
+		<node X="-211000" Y="185000" />
+		<node X="-205000" Y="185000" />
+		<node X="-205000" Y="172000" />
+		<node X="-221000" Y="172000" />
+		<node X="-221000" Y="187000" />
+		<node X="-216000" Y="187000" />
+		<node X="-213500" Y="182800" />
+	</zone>
+	<zone name="Seed of Annihilation 1 Monsters" type="EffectZone" shape="NPoly" minZ="-10700" maxZ="-10100">
+		<stat name="maxDynamicSkillCount" val="1" />
+		<stat name="showDangerIcon" val="false" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="45000" />
+		<stat name="targetClass" val="Npc" />
+		<node X="-180000" Y="183000" />
+		<node X="-178300" Y="184666" />
+		<node X="-173000" Y="184666" />
+		<node X="-173000" Y="174500" />
+		<node X="-187350" Y="174500" />
+		<node X="-187350" Y="184666" />
+		<node X="-182000" Y="184666" />
+		<node X="-180500" Y="183000" />
+	</zone>
+	<zone name="Seed of Annihilation 2 Monsters" type="EffectZone" shape="NPoly" minZ="-15900" maxZ="-14950">
+		<stat name="maxDynamicSkillCount" val="1" />
+		<stat name="showDangerIcon" val="false" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="45000" />
+		<stat name="targetClass" val="Npc" />
+		<node X="-180000" Y="182500" />
+		<node X="-178800" Y="183500" />
+		<node X="-176500" Y="183500" />
+		<node X="-176500" Y="187000" />
+		<node X="-173000" Y="187000" />
+		<node X="-173000" Y="175000" />
+		<node X="-187500" Y="175000" />
+		<node X="-187500" Y="187600" />
+		<node X="-183500" Y="187600" />
+		<node X="-183500" Y="183500" />
+		<node X="-181000" Y="183500" />
+		<node X="-180500" Y="182500" />
+	</zone>
+	<zone name="Seed of Annihilation 3 Monsters" type="EffectZone" shape="NPoly" minZ="-12850" maxZ="-10800">
+		<stat name="maxDynamicSkillCount" val="1" />
+		<stat name="showDangerIcon" val="false" />
+		<stat name="initialDelay" val="1000" />
+		<stat name="reuse" val="45000" />
+		<stat name="targetClass" val="Npc" />
+		<node X="-212800" Y="182800" />
+		<node X="-211000" Y="185000" />
+		<node X="-205000" Y="185000" />
+		<node X="-205000" Y="172000" />
+		<node X="-221000" Y="172000" />
+		<node X="-221000" Y="187000" />
+		<node X="-216000" Y="187000" />
+		<node X="-213500" Y="182800" />
+	</zone>
+
+	<!-- (vertices, min Z and Max Z are estimated) -->
+	<zone name="22_14_camp_01" type="EffectZone" shape="NPoly" minZ="-3519" maxZ="-2919">
+		<stat name="reuse" val="15000" />
+		<stat name="maxDynamicSkillCount" val="3" />
+		<node X="72168" Y="-129117" />
+		<node X="72204" Y="-128685" />
+		<node X="71840" Y="-128240" />
+		<node X="71324" Y="-128244" />
+		<node X="70896" Y="-128712" />
+		<node X="70944" Y="-129100" />
+		<node X="71348" Y="-129452" />
+		<node X="71900" Y="-129400" />
+	</zone>
+	<zone name="22_14_camp_02" type="EffectZone" shape="NPoly" minZ="-3342" maxZ="-2742">
+		<stat name="reuse" val="15000" />
+		<stat name="maxDynamicSkillCount" val="3" />
+		<node X="77184" Y="-127180" />
+		<node X="76764" Y="-126524" />
+		<node X="75916" Y="-126308" />
+		<node X="75176" Y="-126700" />
+		<node X="75072" Y="-127552" />
+		<node X="75484" Y="-128376" />
+		<node X="76492" Y="-128520" />
+		<node X="77052" Y="-128036" />
+	</zone>
+	<zone name="22_14_camp_03" type="EffectZone" shape="NPoly" minZ="-3242" maxZ="-2642">
+		<stat name="reuse" val="15000" />
+		<stat name="maxDynamicSkillCount" val="3" />
+		<node X="71464" Y="-126372" />
+		<node X="71788" Y="-125476" />
+		<node X="71416" Y="-124724" />
+		<node X="70552" Y="-124492" />
+		<node X="69876" Y="-125136" />
+		<node X="69776" Y="-125980" />
+		<node X="70556" Y="-126688" />
+	</zone>
+	<zone name="22_14_camp_04" type="EffectZone" shape="NPoly" minZ="-3102" maxZ="-2502">
+		<stat name="reuse" val="15000" />
+		<stat name="maxDynamicSkillCount" val="3" />
+		<node X="68524" Y="-122780" />
+		<node X="68444" Y="-121724" />
+		<node X="67708" Y="-121192" />
+		<node X="66844" Y="-121364" />
+		<node X="66404" Y="-122176" />
+		<node X="66568" Y="-122952" />
+		<node X="67232" Y="-123400" />
+		<node X="68012" Y="-123296" />
+	</zone>
+	<zone name="22_14_camp_05" type="EffectZone" shape="NPoly" minZ="-3202" maxZ="-2602">
+		<stat name="reuse" val="15000" />
+		<stat name="maxDynamicSkillCount" val="3" />
+		<node X="75916" Y="-121416" />
+		<node X="75136" Y="-120628" />
+		<node X="74040" Y="-120200" />
+		<node X="72960" Y="-121040" />
+		<node X="72864" Y="-122056" />
+		<node X="74087" Y="-122960" />
+		<node X="75231" Y="-122500" />
+	</zone>
+	<zone name="22_14_camp_06" type="EffectZone" shape="NPoly" minZ="-2758" maxZ="-2158">
+		<stat name="reuse" val="15000" />
+		<stat name="maxDynamicSkillCount" val="3" />
+		<node X="69187" Y="-119774" />
+		<node X="70093" Y="-120120" />
+		<node X="71017" Y="-119331" />
+		<node X="71171" Y="-118853" />
+		<node X="70857" Y="-117824" />
+		<node X="69432" Y="-117941" />
+		<node X="68884" Y="-118969" />
+	</zone>
+	<zone name="22_14_camp_07" type="EffectZone" shape="NPoly" minZ="-2466" maxZ="-1866">
+		<stat name="reuse" val="15000" />
+		<stat name="maxDynamicSkillCount" val="3" />
+		<node X="75116" Y="-117044" />
+		<node X="74824" Y="-116300" />
+		<node X="74292" Y="-116200" />
+		<node X="73732" Y="-116476" />
+		<node X="73736" Y="-117096" />
+		<node X="73952" Y="-117580" />
+		<node X="74524" Y="-117616" />
+	</zone>
+	<zone name="22_14_camp_08" type="EffectZone" shape="NPoly" minZ="-2298" maxZ="-1698">
+		<stat name="reuse" val="15000" />
+		<stat name="maxDynamicSkillCount" val="3" />
+		<node X="69332" Y="-116324" />
+		<node X="68952" Y="-115328" />
+		<node X="68240" Y="-114852" />
+		<node X="67500" Y="-114968" />
+		<node X="66908" Y="-115888" />
+		<node X="67004" Y="-116766" />
+		<node X="67740" Y="-117315" />
+		<node X="68774" Y="-117127" />
+	</zone>
+	<zone name="22_14_camp_09" type="EffectZone" shape="NPoly" minZ="-1302" maxZ="-702">
+		<stat name="reuse" val="15000" />
+		<stat name="maxDynamicSkillCount" val="3" />
+		<node X="68656" Y="-108107" />
+		<node X="69063" Y="-107170" />
+		<node X="68628" Y="-106337" />
+		<node X="67744" Y="-106032" />
+		<node X="67090" Y="-106616" />
+		<node X="66910" Y="-107145" />
+		<node X="67038" Y="-107810" />
+		<node X="67700" Y="-108282" />
+	</zone>
+	<zone name="22_14_camp_10" type="EffectZone" shape="NPoly" minZ="-3290" maxZ="-2690">
+		<stat name="reuse" val="15000" />
+		<stat name="maxDynamicSkillCount" val="3" />
+		<node X="61654" Y="-117461" />
+		<node X="62204" Y="-118131" />
+		<node X="63330" Y="-117768" />
+		<node X="63171" Y="-116750" />
+		<node X="62481" Y="-116277" />
+		<node X="62481" Y="-116277" />
+		<node X="61598" Y="-116550" />
+	</zone>
+	<zone name="22_14_camp_11" type="EffectZone" shape="NPoly" minZ="-2466" maxZ="-1866">
+		<stat name="reuse" val="15000" />
+		<stat name="maxDynamicSkillCount" val="3" />
+		<node X="62815" Y="-107085" />
+		<node X="63776" Y="-107069" />
+		<node X="63702" Y="-106262" />
+		<node X="62981" Y="-105977" />
+		<node X="62303" Y="-106514" />
+		<node X="62303" Y="-106514" />
+	</zone>
+	<zone name="22_14_camp10_announce" type="ScriptZone" shape="NPoly" minZ="-3290" maxZ="-2690">
+		<node X="61543" Y="-117575" />
+		<node X="62221" Y="-118430" />
+		<node X="63818" Y="-117532" />
+		<node X="63457" Y="-116818" />
+		<node X="62481" Y="-116277" />
+		<node X="62481" Y="-116277" />
+		<node X="61598" Y="-116550" />
+	</zone>
+	<zone name="22_14_camp11_announce" type="ScriptZone" shape="NPoly" minZ="-2466" maxZ="-1866">
+		<node X="63728" Y="-107336" />
+		<node X="63984" Y="-106794" />
+		<node X="63678" Y="-106265" />
+		<node X="62978" Y="-105989" />
+		<node X="62324" Y="-106507" />
+		<node X="62737" Y="-107335" />
+	</zone>
+</list>

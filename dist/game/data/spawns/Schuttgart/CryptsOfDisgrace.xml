@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2114_01_n" minZ="-3290" maxZ="-2690">
+				<node x="62181" y="-118107" />
+				<node x="63318" y="-117758" />
+				<node x="63164" y="-116788" />
+				<node x="61728" y="-117483" />
+			</territory>
+		</territories>
+		<npc id="22691" count="1" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc - Spirit Infested -->
+		<npc id="22692" count="3" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Warrior - Spirit Infested -->
+		<npc id="22693" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Hero - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2114_01_s" minZ="-3290" maxZ="-2690">
+				<node x="61599" y="-117532" />
+				<node x="63170" y="-116766" />
+				<node x="62478" y="-116299" />
+				<node x="61618" y="-116564" />
+			</territory>
+		</territories>
+		<npc id="22691" count="2" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc - Spirit Infested -->
+		<npc id="22692" count="2" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Warrior - Spirit Infested -->
+		<npc id="22696" count="2" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Shaman - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2114_02_s" minZ="-2466" maxZ="-1866">
+				<node x="62815" y="-107067" />
+				<node x="63764" y="-107058" />
+				<node x="63684" y="-106291" />
+				<node x="62978" y="-105989" />
+				<node x="62324" y="-106507" />
+			</territory>
+		</territories>
+		<npc id="22692" count="4" respawnTime="35sec" respawnRandom="10sec" chaseRange="2000" /> <!-- Ragna Orc Warrior - Spirit Infested -->
+		<npc id="22693" count="1" respawnTime="60sec" respawnRandom="20sec" chaseRange="2000" /> <!-- Ragna Orc Hero - Spirit Infested -->
+		<npc id="22695" count="2" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Healer - Spirit Infested -->
+		<npc id="22698" count="1" respawnTime="40sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Ragna Orc Archer - Spirit Infested -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart16_2114_21" minZ="-3206" maxZ="-2606">
+				<node x="63700" y="-117704" />
+				<node x="63316" y="-116292" />
+				<node x="62128" y="-115856" />
+				<node x="61024" y="-116652" />
+				<node x="61336" y="-119060" />
+				<node x="62280" y="-119860" />
+				<node x="63212" y="-120000" />
+				<node x="62992" y="-118612" />
+			</territory>
+		</territories>
+		<npc id="22701" count="3" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+		<npc id="22702" count="2" respawnTime="75sec" respawnRandom="15sec" chaseRange="2000" /> <!-- Varangka's Destroyer -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_01" minZ="-1880" maxZ="-1080">
+				<node x="39743" y="-112275" />
+				<node x="41414" y="-111194" />
+				<node x="40000" y="-109863" />
+				<node x="38965" y="-110737" />
+			</territory>
+		</territories>
+		<npc id="22004" count="3" respawnTime="25sec" chaseRange="2500" /> <!-- Grave Robber Lookout -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_02" minZ="-2437" maxZ="-1637">
+				<node x="40708" y="-113549" />
+				<node x="42498" y="-113318" />
+				<node x="41247" y="-111415" />
+				<node x="40157" y="-112144" />
+			</territory>
+		</territories>
+		<npc id="22003" count="3" respawnTime="25sec" chaseRange="2500" /> <!-- Grave Robber Scout -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_03" minZ="-2469" maxZ="-1469">
+				<node x="48804" y="-110882" />
+				<node x="49059" y="-109698" />
+				<node x="48187" y="-109196" />
+				<node x="46636" y="-111339" />
+				<node x="47284" y="-111801" />
+			</territory>
+		</territories>
+		<npc id="22003" count="2" respawnTime="25sec" chaseRange="2500" /> <!-- Grave Robber Scout -->
+		<npc id="22004" count="3" respawnTime="25sec" chaseRange="2500" /> <!-- Grave Robber Lookout -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_04" minZ="-2203" maxZ="-1203">
+				<node x="48535" y="-109183" />
+				<node x="48967" y="-108284" />
+				<node x="46776" y="-107002" />
+				<node x="46198" y="-108720" />
+				<node x="46840" y="-110063" />
+			</territory>
+		</territories>
+		<npc id="22004" count="3" respawnTime="25sec" chaseRange="2500" /> <!-- Grave Robber Lookout -->
+		<npc id="22005" count="3" respawnTime="25sec" chaseRange="2500" /> <!-- Grave Robber Ranger -->
+		<npc id="22006" count="5" respawnTime="25sec" chaseRange="2500" /> <!-- Grave Robber Guard -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_06" minZ="-3915" maxZ="-3215">
+				<node x="47026" y="-116310" />
+				<node x="46766" y="-115287" />
+				<node x="45643" y="-115490" />
+				<node x="46015" y="-116147" />
+			</territory>
+		</territories>
+		<npc id="22703" count="3" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_07" minZ="-3915" maxZ="-3215">
+				<node x="51177" y="-114850" />
+				<node x="50217" y="-114678" />
+				<node x="48892" y="-115296" />
+				<node x="49450" y="-116206" />
+				<node x="51519" y="-115389" />
+			</territory>
+		</territories>
+		<npc id="22703" count="6" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_08" minZ="-4029" maxZ="-3229">
+				<node x="46834" y="-119758" />
+				<node x="46445" y="-118930" />
+				<node x="44925" y="-119926" />
+				<node x="44510" y="-120874" />
+				<node x="45425" y="-122120" />
+			</territory>
+		</territories>
+		<npc id="22703" count="3" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+		<npc id="22704" count="5" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_09" minZ="-3570" maxZ="-2970">
+				<node x="44994" y="-119750" />
+				<node x="43872" y="-119050" />
+				<node x="42713" y="-119534" />
+				<node x="42934" y="-121196" />
+				<node x="43956" y="-121581" />
+			</territory>
+		</territories>
+		<npc id="22703" count="8" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+		<npc id="22704" count="5" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_10" minZ="-4447" maxZ="-3047">
+				<node x="55595" y="-125163" />
+				<node x="53837" y="-121438" />
+				<node x="50129" y="-117214" />
+				<node x="46637" y="-121233" />
+				<node x="45611" y="-124214" />
+				<node x="46068" y="-125648" />
+				<node x="47012" y="-126059" />
+				<node x="50404" y="-126823" />
+				<node x="54418" y="-126412" />
+			</territory>
+		</territories>
+		<npc id="22703" count="12" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_11" minZ="-3620" maxZ="-3120">
+				<node x="52807" y="-114853" />
+				<node x="51630" y="-114708" />
+				<node x="51271" y="-115328" />
+				<node x="51466" y="-115652" />
+				<node x="53288" y="-115503" />
+			</territory>
+		</territories>
+		<npc id="22703" count="4" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_12" minZ="-3604" maxZ="-3004">
+				<node x="55808" y="-115700" />
+				<node x="54394" y="-114852" />
+				<node x="53076" y="-115267" />
+				<node x="53991" y="-117035" />
+				<node x="55359" y="-116863" />
+			</territory>
+		</territories>
+		<npc id="22703" count="4" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_13" minZ="-4419" maxZ="-3019">
+				<node x="55578" y="-118909" />
+				<node x="53186" y="-118692" />
+				<node x="52286" y="-119278" />
+				<node x="52797" y="-119796" />
+				<node x="55755" y="-119266" />
+			</territory>
+		</territories>
+		<npc id="22703" count="7" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_21" minZ="-4253" maxZ="-3553">
+				<node x="51326" y="-119150" />
+				<node x="50984" y="-118300" />
+				<node x="50158" y="-117953" />
+				<node x="49317" y="-118297" />
+				<node x="48976" y="-119131" />
+				<node x="49337" y="-119954" />
+				<node x="50178" y="-120314" />
+				<node x="51017" y="-119972" />
+			</territory>
+		</territories>
+		<npc id="22704" count="8" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Warrior -->
+		<npc id="22705" count="2" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_22" minZ="-4030" maxZ="-3330">
+				<node x="49293" y="-122053" />
+				<node x="48950" y="-121202" />
+				<node x="48124" y="-120856" />
+				<node x="47284" y="-121199" />
+				<node x="46943" y="-122034" />
+				<node x="47303" y="-122856" />
+				<node x="48144" y="-123216" />
+				<node x="48983" y="-122875" />
+			</territory>
+		</territories>
+		<npc id="22704" count="11" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Warrior -->
+		<npc id="22705" count="5" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_23" minZ="-4030" maxZ="-3330">
+				<node x="53378" y="-122038" />
+				<node x="53035" y="-121188" />
+				<node x="52209" y="-120841" />
+				<node x="51369" y="-121185" />
+				<node x="51027" y="-122019" />
+				<node x="51388" y="-122842" />
+				<node x="52229" y="-123202" />
+				<node x="53068" y="-122860" />
+			</territory>
+		</territories>
+		<npc id="22704" count="9" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Warrior -->
+		<npc id="22705" count="4" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_24" minZ="-3825" maxZ="-3125">
+				<node x="55046" y="-124946" />
+				<node x="54704" y="-124096" />
+				<node x="53878" y="-123749" />
+				<node x="53037" y="-124093" />
+				<node x="52696" y="-124927" />
+				<node x="53057" y="-125749" />
+				<node x="53898" y="-126110" />
+				<node x="54737" y="-125768" />
+			</territory>
+		</territories>
+		<npc id="22704" count="5" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Warrior -->
+		<npc id="22705" count="6" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_25" minZ="-3835" maxZ="-3135">
+				<node x="51316" y="-124939" />
+				<node x="50973" y="-124088" />
+				<node x="50147" y="-123742" />
+				<node x="49307" y="-124085" />
+				<node x="48966" y="-124920" />
+				<node x="49326" y="-125742" />
+				<node x="50167" y="-126102" />
+				<node x="51006" y="-125761" />
+			</territory>
+		</territories>
+		<npc id="22704" count="7" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Warrior -->
+		<npc id="22705" count="5" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_26" minZ="-3732" maxZ="-3032">
+				<node x="47612" y="-124917" />
+				<node x="47300" y="-124152" />
+				<node x="46523" y="-123820" />
+				<node x="45759" y="-124156" />
+				<node x="45617" y="-124699" />
+				<node x="45940" y="-125618" />
+				<node x="46577" y="-126012" />
+				<node x="47305" y="-125678" />
+			</territory>
+		</territories>
+		<npc id="22704" count="6" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Warrior -->
+		<npc id="22705" count="3" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Commander -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_31" minZ="-4432" maxZ="-3732">
+				<node x="51986" y="-119089" />
+				<node x="51501" y="-118083" />
+				<node x="50265" y="-117274" />
+				<node x="48711" y="-118001" />
+				<node x="48312" y="-119249" />
+				<node x="48834" y="-120317" />
+				<node x="50218" y="-120932" />
+				<node x="51636" y="-120169" />
+			</territory>
+		</territories>
+		<npc id="22703" count="3" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_33" minZ="-4312" maxZ="-3612">
+				<node x="50014" y="-121953" />
+				<node x="49236" y="-120715" />
+				<node x="47742" y="-120344" />
+				<node x="46868" y="-121143" />
+				<node x="46513" y="-122472" />
+				<node x="47257" y="-123456" />
+				<node x="48409" y="-123686" />
+				<node x="49530" y="-123043" />
+			</territory>
+		</territories>
+		<npc id="22703" count="9" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_35" minZ="-4317" maxZ="-3617">
+				<node x="53902" y="-122006" />
+				<node x="53498" y="-120991" />
+				<node x="52169" y="-120345" />
+				<node x="50964" y="-120893" />
+				<node x="50424" y="-122116" />
+				<node x="51211" y="-123470" />
+				<node x="52407" y="-123656" />
+				<node x="53495" y="-123089" />
+			</territory>
+		</territories>
+		<npc id="22703" count="5" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_37" minZ="-4141" maxZ="-3441">
+				<node x="55604" y="-124959" />
+				<node x="55064" y="-123802" />
+				<node x="53768" y="-123249" />
+				<node x="52456" y="-123886" />
+				<node x="52023" y="-125116" />
+				<node x="52586" y="-126124" />
+				<node x="53735" y="-126674" />
+				<node x="55037" y="-126125" />
+			</territory>
+		</territories>
+		<npc id="22703" count="6" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+		<npc id="22704" count="2" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_39" minZ="-4158" maxZ="-3458">
+				<node x="51878" y="-124938" />
+				<node x="51339" y="-123780" />
+				<node x="50042" y="-123227" />
+				<node x="48730" y="-123864" />
+				<node x="48297" y="-125095" />
+				<node x="48860" y="-126103" />
+				<node x="50010" y="-126652" />
+				<node x="51311" y="-126103" />
+			</territory>
+		</territories>
+		<npc id="22703" count="7" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+		<npc id="22704" count="4" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Warrior -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="schuttgart17_2114_41" minZ="-3971" maxZ="-3271">
+				<node x="48076" y="-125172" />
+				<node x="47885" y="-124099" />
+				<node x="46767" y="-123336" />
+				<node x="45984" y="-123595" />
+				<node x="45502" y="-124218" />
+				<node x="46470" y="-126007" />
+				<node x="47551" y="-126057" />
+			</territory>
+		</territories>
+		<npc id="22703" count="3" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+		<npc id="22704" count="1" respawnTime="20sec" chaseRange="2500" /> <!-- Contaminated Batur Warrior -->
+	</spawn>
+	<spawn name="CryptsOfDisgrace">
+		<group>
+			<npc id="22003" x="47168" y="-110575" z="-2344" heading="8386" respawnTime="60sec" chaseRange="2500" /> <!-- Grave Robber Scout -->
+			<npc id="22003" x="39758" y="-111270" z="-1568" heading="8040" respawnTime="60sec" chaseRange="2500" /> <!-- Grave Robber Scout -->
+			<npc id="22003" x="40640" y="-111195" z="-1720" heading="51771" respawnTime="60sec" chaseRange="2500" /> <!-- Grave Robber Scout -->
+			<npc id="22004" x="39364" y="-111618" z="-1464" heading="25880" respawnTime="60sec" chaseRange="2500" /> <!-- Grave Robber Lookout -->
+			<npc id="22006" x="46585" y="-106764" z="-1512" heading="28214" respawnTime="60sec" chaseRange="2500" /> <!-- Grave Robber Guard -->
+			<npc id="22701" x="60936" y="-117764" z="-3088" heading="1664" respawnTime="60sec" chaseRange="2000" /> <!-- Varangka's Dre Vanul -->
+			<npc id="22703" x="52405" y="-126652" z="-4016" heading="1657" respawnTime="60sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+			<npc id="22703" x="53256" y="-126559" z="-4056" heading="56266" respawnTime="60sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+			<npc id="22703" x="47008" y="-116006" z="-3816" heading="19142" respawnTime="60sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+			<npc id="22703" x="45865" y="-115417" z="-3544" heading="25325" respawnTime="60sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+			<npc id="22703" x="45723" y="-115731" z="-3544" heading="41441" respawnTime="60sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+			<npc id="22703" x="46459" y="-115302" z="-3776" heading="44190" respawnTime="60sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+			<npc id="22703" x="44873" y="-119999" z="-3488" heading="32989" respawnTime="60sec" chaseRange="2500" /> <!-- Contaminated Morek Warrior -->
+			<npc id="22704" x="54359" y="-126434" z="-4024" heading="11910" respawnTime="60sec" chaseRange="2500" /> <!-- Contaminated Batur Warrior -->
+			<npc id="22704" x="43601" y="-119070" z="-3360" heading="11698" respawnTime="60sec" chaseRange="2500" /> <!-- Contaminated Batur Warrior -->
+			<npc id="32017" x="47674" y="-115928" z="-3744" heading="12603" respawnTime="60sec" /> <!-- Karuda -->
+			<npc id="32026" x="59824" y="-115038" z="-3408" heading="25408" respawnTime="60sec" /> <!-- Hestui Guard -->
+			<npc id="32026" x="59718" y="-115112" z="-3416" heading="14369" respawnTime="60sec" /> <!-- Hestui Guard -->
+			<npc id="32090" x="35652" y="-117571" z="-1272" heading="57344" respawnTime="60sec" /> <!-- Dead Leopard's Carcass -->
+		</group>
+	</spawn>
+</list>

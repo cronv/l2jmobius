@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:element name="boat" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="1">
+							<xs:element name="broadcastPoint" minOccurs="1" maxOccurs="2">
+								<xs:complexType>
+									<xs:attribute name="x" type="xs:integer" use="required" />
+									<xs:attribute name="y" type="xs:integer" use="required" />
+									<xs:attribute name="z" type="xs:integer" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="station" minOccurs="2" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="0" maxOccurs="1">
+										<xs:element name="kick" minOccurs="0" maxOccurs="1">
+											<xs:complexType>
+												<xs:attribute name="x" type="xs:integer" use="required" />
+												<xs:attribute name="y" type="xs:integer" use="required" />
+												<xs:attribute name="z" type="xs:integer" use="required" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="action" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="sound" type="xs:token" />
+												<xs:attribute name="messageId" type="xs:positiveInteger" use="required" />
+												<xs:attribute name="messageId2" type="xs:positiveInteger" />
+												<xs:attribute name="wait" type="xs:positiveInteger" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="ticket" minOccurs="0" maxOccurs="1">
+											<xs:complexType>
+												<xs:attribute name="itemId" type="xs:positiveInteger" use="required" />
+												<xs:attribute name="x" type="xs:integer" use="required" />
+												<xs:attribute name="y" type="xs:integer" use="required" />
+												<xs:attribute name="z" type="xs:integer" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="x" type="xs:integer" use="required" />
+									<xs:attribute name="y" type="xs:integer" use="required" />
+									<xs:attribute name="z" type="xs:integer" use="required" />
+									<xs:attribute name="dockId" type="xs:positiveInteger" />
+									<xs:attribute name="moveSpeed" type="xs:positiveInteger" use="required" />
+									<xs:attribute name="rotationSpeed" type="xs:positiveInteger" use="required" />
+									<xs:attribute name="departDelay" type="xs:positiveInteger" />
+									<xs:attribute name="busyMessageId" type="xs:positiveInteger" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:positiveInteger" use="required" />
+						<xs:attribute name="name" type="xs:token" use="required" />
+						<xs:attribute name="heading" type="xs:integer" use="required" />
+						<xs:attribute name="initialDelay" type="xs:positiveInteger" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

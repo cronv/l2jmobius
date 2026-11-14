@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/optionsData.xsd">
+	<option id="31000" name="helios_opt">
+		<!-- Attribute Attack +13 -->
+		<passive_skill id="13753" level="25" /> <!-- Item Skill: Attribute Attack Bonus -->
+	</option>
+	<option id="31001" name="helios_opt">
+		<!-- Attribute Attack +15 -->
+		<passive_skill id="13753" level="26" /> <!-- Item Skill: Attribute Attack Bonus -->
+	</option>
+	<option id="31002" name="helios_opt">
+		<!-- Attribute Attack +20 -->
+		<passive_skill id="13753" level="27" /> <!-- Item Skill: Attribute Attack Bonus -->
+	</option>
+	<option id="31003" name="helios_opt">
+		<!-- Attribute Attack +25 -->
+		<passive_skill id="13753" level="28" /> <!-- Item Skill: Attribute Attack Bonus -->
+	</option>
+	<option id="31004" name="helios_opt">
+		<!-- Attribute Attack +30 -->
+		<passive_skill id="13753" level="29" /> <!-- Item Skill: Attribute Attack Bonus -->
+	</option>
+	<option id="31005" name="helios_opt">
+		<!-- Attribute Attack +60 -->
+		<passive_skill id="13753" level="30" /> <!-- Item Skill: Attribute Attack Bonus -->
+	</option>
+	<option id="31006" name="helios_opt">
+		<!-- Confusion Atk. Rate +2 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>2</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31007" name="helios_opt">
+		<!-- Confusion Atk. Rate +3 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>3</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31008" name="helios_opt">
+		<!-- Confusion Atk. Rate +4 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>4</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31009" name="helios_opt">
+		<!-- Confusion Atk. Rate +5 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>5</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31010" name="helios_opt">
+		<!-- Confusion Atk. Rate +6 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>6</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31011" name="helios_opt">
+		<!-- Confusion Atk. Rate +7 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>7</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31012" name="helios_opt">
+		<!-- Confusion Atk. Rate +8 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>8</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31013" name="helios_opt">
+		<!-- Confusion Atk. Rate +10 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>10</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31014" name="helios_opt">
+		<!-- Confusion Atk. Rate +12 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>12</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31015" name="helios_opt">
+		<!-- Confusion Atk. Rate +25 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>25</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31016" name="helios_opt">
+		<!-- Obstruction Atk. Rate +2 -->
+		<effects>
+			<effect name="AttackTrait">
+				<OBSTRUCTION>2</OBSTRUCTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31017" name="helios_opt">
+		<!-- Obstruction Atk. Rate +3 -->
+		<effects>
+			<effect name="AttackTrait">
+				<OBSTRUCTION>3</OBSTRUCTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31018" name="helios_opt">
+		<!-- Obstruction Atk. Rate +4 -->
+		<effects>
+			<effect name="AttackTrait">
+				<OBSTRUCTION>4</OBSTRUCTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31019" name="helios_opt">
+		<!-- Obstruction Atk. Rate +5 -->
+		<effects>
+			<effect name="AttackTrait">
+				<OBSTRUCTION>5</OBSTRUCTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31020" name="helios_opt">
+		<!-- Obstruction Atk. Rate +6 -->
+		<effects>
+			<effect name="AttackTrait">
+				<OBSTRUCTION>6</OBSTRUCTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31021" name="helios_opt">
+		<!-- Obstruction Atk. Rate +7 -->
+		<effects>
+			<effect name="AttackTrait">
+				<OBSTRUCTION>7</OBSTRUCTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31022" name="helios_opt">
+		<!-- Obstruction Atk. Rate +8 -->
+		<effects>
+			<effect name="AttackTrait">
+				<OBSTRUCTION>8</OBSTRUCTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31023" name="helios_opt">
+		<!-- Obstruction Atk. Rate +10 -->
+		<effects>
+			<effect name="AttackTrait">
+				<OBSTRUCTION>10</OBSTRUCTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31024" name="helios_opt">
+		<!-- Obstruction Atk. Rate +12 -->
+		<effects>
+			<effect name="AttackTrait">
+				<OBSTRUCTION>12</OBSTRUCTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31025" name="helios_opt">
+		<!-- Obstruction Atk. Rate +25 -->
+		<effects>
+			<effect name="AttackTrait">
+				<OBSTRUCTION>25</OBSTRUCTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31026" name="helios_opt">
+		<!-- Infection Atk. Rate +2 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>2</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31027" name="helios_opt">
+		<!-- Infection Atk. Rate +3 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>3</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31028" name="helios_opt">
+		<!-- Infection Atk. Rate +4 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>4</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31029" name="helios_opt">
+		<!-- Infection Atk. Rate +5 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>5</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31030" name="helios_opt">
+		<!-- Infection Atk. Rate +6 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>6</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31031" name="helios_opt">
+		<!-- Infection Atk. Rate +7 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>7</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31032" name="helios_opt">
+		<!-- Infection Atk. Rate +8 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>8</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31033" name="helios_opt">
+		<!-- Infection Atk. Rate +10 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>10</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31034" name="helios_opt">
+		<!-- Infection Atk. Rate +12 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>12</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31035" name="helios_opt">
+		<!-- Infection Atk. Rate +25 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>25</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31036" name="helios_opt">
+		<!-- Confusion Atk. Rate +2 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>2</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31037" name="helios_opt">
+		<!-- Confusion Atk. Rate +3 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>3</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31038" name="helios_opt">
+		<!-- Confusion Atk. Rate +4 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>4</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31039" name="helios_opt">
+		<!-- Confusion Atk. Rate +5 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>5</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31040" name="helios_opt">
+		<!-- Confusion Atk. Rate +6 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>6</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31041" name="helios_opt">
+		<!-- Confusion Atk. Rate +7 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>7</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31042" name="helios_opt">
+		<!-- Confusion Atk. Rate +8 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>8</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31043" name="helios_opt">
+		<!-- Confusion Atk. Rate +10 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>10</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31044" name="helios_opt">
+		<!-- Confusion Atk. Rate +12 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>12</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31045" name="helios_opt">
+		<!-- Confusion Atk. Rate +25 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>25</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31046" name="helios_opt">
+		<!-- Confusion Atk. Rate +2 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>2</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31047" name="helios_opt">
+		<!-- Confusion Atk. Rate +3 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>3</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31048" name="helios_opt">
+		<!-- Confusion Atk. Rate +4 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>4</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31049" name="helios_opt">
+		<!-- Confusion Atk. Rate +5 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>5</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31050" name="helios_opt">
+		<!-- Confusion Atk. Rate +6 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>6</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31051" name="helios_opt">
+		<!-- Confusion Atk. Rate +7 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>7</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31052" name="helios_opt">
+		<!-- Confusion Atk. Rate +8 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>8</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31053" name="helios_opt">
+		<!-- Confusion Atk. Rate +10 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>10</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31054" name="helios_opt">
+		<!-- Confusion Atk. Rate +12 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>12</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31055" name="helios_opt">
+		<!-- Confusion Atk. Rate +25 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>25</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31056" name="helios_opt">
+		<!-- Stupor Atk. Rate +2 -->
+		<effects>
+			<effect name="AttackTrait">
+				<STUPOR>2</STUPOR>
+			</effect>
+		</effects>
+	</option>
+	<option id="31057" name="helios_opt">
+		<!-- Stupor Atk. Rate +3 -->
+		<effects>
+			<effect name="AttackTrait">
+				<STUPOR>3</STUPOR>
+			</effect>
+		</effects>
+	</option>
+	<option id="31058" name="helios_opt">
+		<!-- Stupor Atk. Rate +4 -->
+		<effects>
+			<effect name="AttackTrait">
+				<STUPOR>4</STUPOR>
+			</effect>
+		</effects>
+	</option>
+	<option id="31059" name="helios_opt">
+		<!-- Stupor Atk. Rate +5 -->
+		<effects>
+			<effect name="AttackTrait">
+				<STUPOR>5</STUPOR>
+			</effect>
+		</effects>
+	</option>
+	<option id="31060" name="helios_opt">
+		<!-- Stupor Atk. Rate +6 -->
+		<effects>
+			<effect name="AttackTrait">
+				<STUPOR>6</STUPOR>
+			</effect>
+		</effects>
+	</option>
+	<option id="31061" name="helios_opt">
+		<!-- Stupor Atk. Rate +7 -->
+		<effects>
+			<effect name="AttackTrait">
+				<STUPOR>7</STUPOR>
+			</effect>
+		</effects>
+	</option>
+	<option id="31062" name="helios_opt">
+		<!-- Stupor Atk. Rate +8 -->
+		<effects>
+			<effect name="AttackTrait">
+				<STUPOR>8</STUPOR>
+			</effect>
+		</effects>
+	</option>
+	<option id="31063" name="helios_opt">
+		<!-- Stupor Atk. Rate +10 -->
+		<effects>
+			<effect name="AttackTrait">
+				<STUPOR>10</STUPOR>
+			</effect>
+		</effects>
+	</option>
+	<option id="31064" name="helios_opt">
+		<!-- Stupor Atk. Rate +12 -->
+		<effects>
+			<effect name="AttackTrait">
+				<STUPOR>12</STUPOR>
+			</effect>
+		</effects>
+	</option>
+	<option id="31065" name="helios_opt">
+		<!-- Stupor Atk. Rate +25 -->
+		<effects>
+			<effect name="AttackTrait">
+				<STUPOR>25</STUPOR>
+			</effect>
+		</effects>
+	</option>
+	<option id="31066" name="helios_opt">
+		<!-- Infection Atk. Rate +2 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>2</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31067" name="helios_opt">
+		<!-- Infection Atk. Rate +3 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>3</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31068" name="helios_opt">
+		<!-- Infection Atk. Rate +4 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>4</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31069" name="helios_opt">
+		<!-- Infection Atk. Rate +5 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>5</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31070" name="helios_opt">
+		<!-- Infection Atk. Rate +6 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>6</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31071" name="helios_opt">
+		<!-- Infection Atk. Rate +7 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>7</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31072" name="helios_opt">
+		<!-- Infection Atk. Rate +8 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>8</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31073" name="helios_opt">
+		<!-- Infection Atk. Rate +10 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>10</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31074" name="helios_opt">
+		<!-- Infection Atk. Rate +12 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>12</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31075" name="helios_opt">
+		<!-- Infection Atk. Rate +25 -->
+		<effects>
+			<effect name="AttackTrait">
+				<INFECTION>25</INFECTION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31076" name="helios_opt">
+		<!-- Confusion Atk. Rate +2 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>2</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31077" name="helios_opt">
+		<!-- Confusion Atk. Rate +3 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>3</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31078" name="helios_opt">
+		<!-- Confusion Atk. Rate +4 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>4</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31079" name="helios_opt">
+		<!-- Confusion Atk. Rate +5 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>5</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31080" name="helios_opt">
+		<!-- Confusion Atk. Rate +6 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>6</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31081" name="helios_opt">
+		<!-- Confusion Atk. Rate +7 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>7</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31082" name="helios_opt">
+		<!-- Confusion Atk. Rate +8 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>8</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31083" name="helios_opt">
+		<!-- Confusion Atk. Rate +10 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>10</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31084" name="helios_opt">
+		<!-- Confusion Atk. Rate +12 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>12</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31085" name="helios_opt">
+		<!-- Confusion Atk. Rate +25 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>25</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31086" name="helios_opt">
+		<!-- Confusion Atk. Rate +2 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>2</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31087" name="helios_opt">
+		<!-- Confusion Atk. Rate +3 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>3</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31088" name="helios_opt">
+		<!-- Confusion Atk. Rate +4 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>4</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31089" name="helios_opt">
+		<!-- Confusion Atk. Rate +5 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>5</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31090" name="helios_opt">
+		<!-- Confusion Atk. Rate +6 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>6</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31091" name="helios_opt">
+		<!-- Confusion Atk. Rate +7 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>7</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31092" name="helios_opt">
+		<!-- Confusion Atk. Rate +8 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>8</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31093" name="helios_opt">
+		<!-- Confusion Atk. Rate +10 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>10</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31094" name="helios_opt">
+		<!-- Confusion Atk. Rate +12 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>12</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31095" name="helios_opt">
+		<!-- Confusion Atk. Rate +25 -->
+		<effects>
+			<effect name="AttackTrait">
+				<CONFUSION>25</CONFUSION>
+			</effect>
+		</effects>
+	</option>
+	<option id="31096" name="helios_opt">
+		<!-- Pull Atk. Rate +2 -->
+		<effects>
+			<effect name="AttackTrait">
+				<PULL>2</PULL>
+			</effect>
+		</effects>
+	</option>
+	<option id="31097" name="helios_opt">
+		<!-- Pull Atk. Rate +3 -->
+		<effects>
+			<effect name="AttackTrait">
+				<PULL>3</PULL>
+			</effect>
+		</effects>
+	</option>
+	<option id="31098" name="helios_opt">
+		<!-- Pull Atk. Rate +4 -->
+		<effects>
+			<effect name="AttackTrait">
+				<PULL>4</PULL>
+			</effect>
+		</effects>
+	</option>
+	<option id="31099" name="helios_opt">
+		<!-- Pull Atk. Rate +5 -->
+		<effects>
+			<effect name="AttackTrait">
+				<PULL>5</PULL>
+			</effect>
+		</effects>
+	</option>
+</list>

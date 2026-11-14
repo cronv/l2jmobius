@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Throne of Heroes - Tauti -->
+<instance id="309" maxWorlds="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/instance.xsd">
+	<time duration="60" empty="0" />
+	<locations>
+		<enter type="FIXED">
+			<location x="11722" y="-85014" z="-10972" heading="52300" /> <!-- battle location -->
+		</enter>
+		<exit type="ORIGIN" />
+	</locations>
+	<conditions>
+		<!-- Change CommandChannel to Party if you want to allow small party groups -->
+		<condition type="CommandChannel" showMessageAndHtml="true">
+			<param name="html" value="condNoGroup.html" />
+		</condition>
+		<!-- Change CommandChannelLeaderSameClan to PartyLeaderSameClan if you want to allow small party groups -->
+		<condition type="CommandChannelLeaderSameClan">
+			<param name="html" value="condNotSameClan.html" />
+		</condition>
+		<condition type="GroupMin">
+			<param name="limit" value="2" />
+		</condition>
+		<condition type="GroupMax">
+			<param name="html" value="condBigGroup.html" />
+			<param name="limit" value="100" />
+		</condition>
+		<condition type="Level" showMessageAndHtml="true">
+			<param name="html" value="condNoLevel.html" />
+			<param name="min" value="110" />
+		</condition>
+		<condition type="Distance" />
+		<condition type="Reenter" />
+	</conditions>
+	<reenter apply="ON_FINISH">
+		<reset day="SATURDAY" hour="6" minute="30" />
+	</reenter>
+	<spawnlist>
+		<group name="TAUTI" spawnByDefault="false">
+			<npc id="26453" x="11756" y="-86499" z="-10944" heading="0" /> <!-- Tauti -->
+		</group>
+		<group name="TAUTI_MINIONS_STAGE1" spawnByDefault="false"> <!-- 3 minions -->
+			<npc id="26454" x="12328" y="-85866" z="-10944" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="12336" y="-87111" z="-10944" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="10910" y="-86497" z="-10960" heading="0" /> <!-- Zahak -->
+		</group>
+		<group name="TAUTI_MINIONS_STAGE2" spawnByDefault="false"> <!-- 6 minions -->
+			<npc id="26454" x="12294" y="-85810" z="-10960" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="12389" y="-85893" z="-10960" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="12401" y="-87087" z="-10960" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="12295" y="-87184" z="-10960" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="10968" y="-86487" z="-10960" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="10848" y="-86491" z="-10976" heading="0" /> <!-- Zahak -->
+		</group>
+		<group name="TAUTI_MINIONS_STAGE3" spawnByDefault="false"> <!-- 9 minions -->
+			<npc id="26454" x="12328" y="-85866" z="-10944" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="12336" y="-87111" z="-10944" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="10910" y="-86497" z="-10960" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="12294" y="-85810" z="-10960" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="12389" y="-85893" z="-10960" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="12401" y="-87087" z="-10960" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="12295" y="-87184" z="-10960" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="10968" y="-86487" z="-10960" heading="0" /> <!-- Zahak -->
+			<npc id="26454" x="10848" y="-86491" z="-10976" heading="0" /> <!-- Zahak -->
+		</group>
+		<group name="PETRA_INJECTION_DEVICE" spawnByDefault="false">
+			<npc id="19790" x="11705" y="-87033" z="-10960" heading="0" /> <!-- Petra's Injection Device -->
+		</group>
+	</spawnlist>
+</instance>

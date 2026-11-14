@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="61200" name="Mid-autumn Festival Gift" additionalName="Event" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_oriental_park_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48755" min="100" max="100" chance="100" /> <!-- Glowing Dragon's Attribute Potion (XP) - Event -->
+			<item id="80612" min="100" max="100" chance="100" /> <!-- Freya's Ice Rose - Event -->
+			<item id="80797" min="100" max="100" chance="100" /> <!-- Nevit's Shining Gold Hourglass - Event -->
+			<item id="80832" min="100" max="100" chance="100" /> <!-- Wondrous Cocktail - Event -->
+			<item id="81140" min="100" max="100" chance="100" /> <!-- Freya's Scroll of Storm - Event -->
+			<item id="81460" min="100" max="100" chance="100" /> <!-- Honey Dark Beer - Event -->
+			<item id="82172" min="8" max="8" chance="100" /> <!-- Swift Attack Cookie -->
+			<item id="83146" min="58" max="58" chance="100" /> <!-- Heart Scroll of Heavenly Light - Event -->
+		</capsuled_items>
+	</item>
+	<item id="61201" name="PA Points (2200)" type="EtcItem">
+		<!-- Double-click to obtain 2200 PA points. Cannot be used to gain more than 200,000 points. -->
+		<set name="icon" val="icon.etc_exchange_ticket_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="29805" level="1" /> <!-- PA Points -->
+		</skills>
+	</item>
+	<item id="61202" name="PA Point Reward Pack" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_exchange_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="61201" min="1" max="1" chance="100" /> <!-- PA Points (2200) -->
+			<item id="57" min="300000" max="300000" chance="100" /> <!-- Adena -->
+		</capsuled_items>
+	</item>
+	<item id="61203" name="Eraton's Dye Coupon Lv. 1" type="EtcItem">
+		<!-- Can be exchanged for Eraton's Dye Lv. 1 (of your choice). -->
+		<set name="icon" val="icon.ench_challnege_point_tallisman_ticket" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="61204" name="Golden Compass Treasure Chest" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_treasure_box_i02" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="83655" min="2" max="2" chance="11.111111" /> <!-- Sunset Maple Cake - Event -->
+			<item id="83685" min="1" max="1" chance="11.111111" /> <!-- Selection Coupon: Forgotten Hero's Stone - Event -->
+			<item id="81215" min="5" max="5" chance="11.111111" /> <!-- Aether -->
+			<item id="83530" min="50" max="50" chance="11.111111" /> <!-- Distorted Dream Fragment -->
+			<item id="83530" min="30" max="30" chance="11.111111" /> <!-- Distorted Dream Fragment -->
+			<item id="83530" min="10" max="10" chance="11.111111" /> <!-- Distorted Dream Fragment -->
+			<item id="83686" min="1" max="1" chance="11.111111" /> <!-- Forgotten Hero's Stone Pack - Event -->
+			<item id="83687" min="1" max="1" chance="11.111111" /> <!-- Chaos Golem's Core Pack - Event -->
+			<item id="83544" min="1" max="1" chance="11.111111" /> <!-- Sky Wagonway Worker's Belt -->
+		</capsuled_items>
+	</item>
+	<item id="61205" name="+15 Artifact Pack" additionalName="Attack" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_artifact_b_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="48957" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - P. Atk. - Attack -->
+			<item id="48958" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - M. Atk. - Attack -->
+			<item id="48959" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Atk. Spd. - Attack -->
+			<item id="48960" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Casting Spd. - Attack -->
+			<item id="80647" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Critical Damage for Basic Attacks - Attack -->
+			<item id="80648" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - P. Skill Critical Damage - Attack -->
+			<item id="80649" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - M. Skill Critical Damage - Attack -->
+			<item id="81430" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Attribute Attack - Attack -->
+			<item id="81431" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - P. Skill Power - Attack -->
+			<item id="81432" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - M. Skill Power - Attack -->
+			<item id="83616" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Basic Attack Power - Attack -->
+		</capsuled_items>
+	</item>
+	<item id="61206" name="+15 Artifact Pack" additionalName="Defense" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="48961" min="1" max="1" minEnchant="15" maxEnchant="15" chance="10" /> <!-- Artifact - P. Def. - Defense -->
+			<item id="48962" min="1" max="1" minEnchant="15" maxEnchant="15" chance="10" /> <!-- Artifact - M. Def. - Defense -->
+			<item id="48963" min="1" max="1" minEnchant="15" maxEnchant="15" chance="10" /> <!-- Artifact - Max HP - Defense -->
+			<item id="48964" min="1" max="1" minEnchant="15" maxEnchant="15" chance="10" /> <!-- Artifact - Max MP - Defense -->
+			<item id="80650" min="1" max="1" minEnchant="15" maxEnchant="15" chance="10" /> <!-- Artifact - Bow Resistance - Defense -->
+			<item id="80651" min="1" max="1" minEnchant="15" maxEnchant="15" chance="10" /> <!-- Artifact - Dagger Resistance - Defense -->
+			<item id="80652" min="1" max="1" minEnchant="15" maxEnchant="15" chance="10" /> <!-- Artifact - Sword Resistance - Defense -->
+			<item id="81433" min="1" max="1" minEnchant="15" maxEnchant="15" chance="10" /> <!-- Artifact - Attribute Resistance - Defense -->
+			<item id="81434" min="1" max="1" minEnchant="15" maxEnchant="15" chance="10" /> <!-- Artifact - Received Damage When Immobilized - Defense -->
+			<item id="81435" min="1" max="1" minEnchant="15" maxEnchant="15" chance="10" /> <!-- Artifact - Received Critical Damage - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61207" name="+15 Artifact Pack" additionalName="Support" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_artifact_d_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="48965" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Acquired XP - Support Unit -->
+			<item id="48966" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Vampiric Rage - Support Unit -->
+			<item id="48967" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Speed - Support Unit -->
+			<item id="48968" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Received Healing - Support Unit -->
+			<item id="80653" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Vitality Bonus - Support -->
+			<item id="80654" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Vitality Consumption - Support -->
+			<item id="80655" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Skill MP Consumption - Support -->
+			<item id="81436" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Recovery Potions' Effect - Support -->
+			<item id="81437" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Fixed Damage Resistance - Support -->
+			<item id="81438" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Damage Reflection Resistance - Support -->
+			<item id="82475" min="1" max="1" minEnchant="15" maxEnchant="15" chance="9.090909" /> <!-- Artifact - Adena Drop Rate - Support Unit -->
+		</capsuled_items>
+	</item>
+	<item id="61208" name="+15 Artifact Pack" additionalName="Balance" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="48969" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - P. Atk. - Balance -->
+			<item id="48970" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - M. Atk. - Balance -->
+			<item id="48971" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - P. Accuracy - Balance -->
+			<item id="48972" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - M. Accuracy - Balance -->
+			<item id="48973" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - Critical Rate for Basic Attacks - Balance -->
+			<item id="48974" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - P. Skill Critical Rate - Balance -->
+			<item id="48975" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - M. Skill Critical Rate - Balance -->
+			<item id="48976" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - Recovery Potions' Effect - Balance -->
+			<item id="48977" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - Received Damage When Immobilized - Balance -->
+			<item id="48985" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - Fixed Damage Resistance - Balance -->
+			<item id="80656" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - P. Def. - Balance -->
+			<item id="80657" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - M. Def. - Balance -->
+			<item id="80658" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - Critical Damage for Basic Attacks - Balance -->
+			<item id="80659" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - P. Skill Critical Damage - Balance -->
+			<item id="80660" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - M. Skill Critical Damage - Balance -->
+			<item id="80661" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - Atk. Spd. - Balance -->
+			<item id="80662" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - Casting Spd. - Balance -->
+			<item id="81439" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - Vitality Bonus - Balance -->
+			<item id="81440" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - Received Healing - Balance -->
+			<item id="81441" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - Skill MP Consumption - Balance -->
+			<item id="81442" min="1" max="1" minEnchant="15" maxEnchant="15" chance="4.761905" /> <!-- Artifact - Received P. Critical Rate - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61209" name="Shining Magic Pack" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_nebit_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="28595" min="1" max="1" chance="1.923077" /> <!-- Scroll: Enchant Ancient Cloak -->
+			<item id="28766" min="1" max="1" chance="1.923077" /> <!-- Stable Scroll: Enchant Legendary Cloak -->
+			<item id="29379" min="1" max="1" chance="1.923077" /> <!-- Peeves' Purple Potion -->
+			<item id="29823" min="1" max="1" chance="1.923077" /> <!-- High-grade Stable Scroll: Enchant Cloak - Legendary -->
+			<item id="29877" min="1" max="1" chance="1.923077" /> <!-- Greater Jewelry Box Lv. 5 -->
+			<item id="47494" min="1" max="1" chance="1.923077" /> <!-- Selenite -->
+			<item id="47866" min="1" max="1" chance="1.923077" /> <!-- Star Sign -->
+			<item id="48497" min="2" max="2" chance="1.923077" /> <!-- Glowing Dragon's Attribute Potion - XP -->
+			<item id="48677" min="1" max="1" chance="1.923077" /> <!-- High-grade Skill Power Talisman Pack - Skill Critical Damage -->
+			<item id="48678" min="1" max="1" chance="1.923077" /> <!-- High-grade Attribute Attack Talisman Pack - Critical Damage for basic attacks -->
+			<item id="48679" min="1" max="1" chance="1.923077" /> <!-- High-grade Skill Cooldown Talisman Pack - P./M. Def. -->
+			<item id="48830" min="2" max="2" chance="1.923077" /> <!-- Freya's Ice Rose -->
+			<item id="48831" min="1" max="1" chance="1.923077" /> <!-- Jewel Energy -->
+			<item id="48860" min="3" max="3" chance="1.923077" /> <!-- Fallen Angel's Ring Pack -->
+			<item id="48876" min="1" max="1" chance="1.923077" /> <!-- Forgotten Spellbook - Chapter 1 -->
+			<item id="48910" min="1" max="1" chance="1.923077" /> <!-- Shillien's Soul Crystal Box -->
+			<item id="60540" min="1" max="1" chance="1.923077" /> <!-- +18 Legendary Ferios Cloak Box -->
+			<item id="60541" min="1" max="1" chance="1.923077" /> <!-- +18 Legendary Elmore Cloak Box -->
+			<item id="60542" min="1" max="1" chance="1.923077" /> <!-- +18 Legendary Aden Cloak Box -->
+			<item id="60543" min="1" max="1" chance="1.923077" /> <!-- +18 Legendary Elmoreden Cloak Box -->
+			<item id="80000" min="1" max="1" chance="1.923077" /> <!-- Artifact Fragment -->
+			<item id="80636" min="1" max="1" chance="1.923077" /> <!-- Artifact Crystal -->
+			<item id="80663" min="1" max="1" chance="1.923077" /> <!-- Dragon Weapon Pack (Lv. 2) -->
+			<item id="80842" min="2" max="2" chance="1.923077" /> <!-- Honey Dark Beer -->
+			<item id="80931" min="1" max="1" chance="1.923077" /> <!-- Greater Zodiac Agathion Cube -->
+			<item id="81134" min="1" max="1" chance="1.923077" /> <!-- Crystal of Dyes -->
+			<item id="81448" min="2" max="2" chance="1.923077" /> <!-- Angel's Necklace Pack -->
+			<item id="81449" min="2" max="2" chance="1.923077" /> <!-- Angel's Earring Pack -->
+			<item id="81450" min="3" max="3" chance="1.923077" /> <!-- Angel's Ring Pack -->
+			<item id="81770" min="1" max="1" chance="1.923077" /> <!-- Shining Energy of Protection -->
+			<item id="81938" min="1" max="1" chance="1.923077" /> <!-- Greater Zodiac Agathion's Sacred Book of Growth -->
+			<item id="82032" min="1" max="1" chance="1.923077" /> <!-- Shining Jewel Energy -->
+			<item id="82049" min="1" max="1" chance="1.923077" /> <!-- Sayha's Shining Energy -->
+			<item id="82215" min="2" max="2" chance="1.923077" /> <!-- Fallen Angel's Earring Pack -->
+			<item id="82274" min="1" max="1" chance="1.923077" /> <!-- Tersi's Soul Crystal Lv. 10 - Armor -->
+			<item id="82346" min="10" max="10" chance="1.923077" /> <!-- Tales of Einhasad -->
+			<item id="82467" min="1" max="1" chance="1.923077" /> <!-- Masia's Soul Crystal Lv. 10 - Accessories -->
+			<item id="82814" min="1" max="1" chance="1.923077" /> <!-- Dragon Weapon Pack (Lv. 3) -->
+			<item id="30297" min="1" max="1" chance="1.923077" /> <!-- Superior Giant's Codex Manuscript -->
+			<item id="30298" min="1" max="1" chance="1.923077" /> <!-- Superior Giant's Codex Manuscript - Mastery -->
+			<item id="39738" min="1" max="1" chance="1.923077" /> <!-- Rune Stone -->
+			<item id="46150" min="1" max="1" chance="1.923077" /> <!-- Superior Giant's Codex - Chapter 1 -->
+			<item id="46151" min="1" max="1" chance="1.923077" /> <!-- Superior Giant's Codex - Mastery Chapter 1 -->
+			<item id="81135" min="1" max="1" chance="1.923077" /> <!-- Dark Augmenting Stone -->
+			<item id="81453" min="1" max="1" chance="1.923077" /> <!-- Enhanced Rune Stone -->
+			<item id="82059" min="1" max="1" chance="1.923077" /> <!-- Sayha's Enhanced Talisman Lv. 10 -->
+			<item id="83460" min="1" max="1" chance="1.923077" /> <!-- Chaos Augmenting Stone: Weapon/ Armor -->
+			<item id="80333" min="1" max="1" chance="1.923077" /> <!-- Dragon's Necklace -->
+			<item id="80334" min="1" max="1" chance="1.923077" /> <!-- Dragon's Earring -->
+			<item id="80335" min="1" max="1" chance="1.923077" /> <!-- Dragon's Ring -->
+			<item id="81751" min="1" max="1" chance="1.923077" /> <!-- Ruler's Authority - Chaos - Lv. 3 -->
+			<item id="81444" min="1" max="1" chance="1.923077" /> <!-- Greater Agathion Charm: Fire Dragon -->
+		</capsuled_items>
+	</item>
+	<item id="61210" name="+15 Artifact Pack - P. Def. (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - P. Def. (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48961" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - P. Def. - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61211" name="+15 Artifact Pack - M. Def. (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - M. Def. (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48962" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - M. Def. - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61212" name="+15 Artifact Pack - Max HP (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Max HP (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48963" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Max HP - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61213" name="+15 Artifact Pack - Max MP (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Max MP (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48964" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Max MP - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61214" name="+15 Artifact Pack - Bow Resistance (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Bow Resistance (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80650" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Bow Resistance - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61215" name="+15 Artifact Pack - Dagger Resistance (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Dagger Resistance (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80651" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Dagger Resistance - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61216" name="+15 Artifact Pack - Sword Resistance (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Sword Resistance (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80652" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Sword Resistance - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61217" name="+15 Artifact Pack - Attribute Resistance (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Attribute Resistance (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81433" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Attribute Resistance - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61218" name="+15 Artifact Pack - Received Damage When Immobilized (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Received Damage When Immobilized (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81434" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Received Damage When Immobilized - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61219" name="+15 Artifact Pack - All Received Critical Damage (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - All Received Critical Damage (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81435" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Received Critical Damage - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61220" name="+15 Artifact Pack - Acquired XP (Support)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Acquired XP (support). -->
+		<set name="icon" val="icon.bm_artifact_d_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48965" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Acquired XP - Support Unit -->
+		</capsuled_items>
+	</item>
+	<item id="61221" name="+15 Artifact Pack - Vampiric Rage (Support)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Vampiric Rage (support). -->
+		<set name="icon" val="icon.bm_artifact_d_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48966" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Vampiric Rage - Support Unit -->
+		</capsuled_items>
+	</item>
+	<item id="61222" name="+15 Artifact Pack - Speed (Support)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Speed (support). -->
+		<set name="icon" val="icon.bm_artifact_d_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48967" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Speed - Support Unit -->
+		</capsuled_items>
+	</item>
+	<item id="61223" name="+15 Artifact Pack - Received Healing (Support)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Received Healing (support). -->
+		<set name="icon" val="icon.bm_artifact_d_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48968" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Received Healing - Support Unit -->
+		</capsuled_items>
+	</item>
+	<item id="61224" name="+15 Artifact Pack - Vitality Bonus (Support)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Vitality Bonus (support). -->
+		<set name="icon" val="icon.bm_artifact_d_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80653" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Vitality Bonus - Support -->
+		</capsuled_items>
+	</item>
+	<item id="61225" name="+15 Artifact Pack - Vitality Consumption (Support)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Vitality Consumption (support). -->
+		<set name="icon" val="icon.bm_artifact_d_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80654" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Vitality Consumption - Support -->
+		</capsuled_items>
+	</item>
+	<item id="61226" name="+15 Artifact Pack - Skill MP Consumption (Support)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Skill MP Consumption (support). -->
+		<set name="icon" val="icon.bm_artifact_d_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80655" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Skill MP Consumption - Support -->
+		</capsuled_items>
+	</item>
+	<item id="61227" name="+15 Artifact Pack - Recovery Potions' Effect (Support)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Recovery Potions' Effect (support). -->
+		<set name="icon" val="icon.bm_artifact_d_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81436" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Recovery Potions' Effect - Support -->
+		</capsuled_items>
+	</item>
+	<item id="61228" name="+15 Artifact Pack - Fixed Damage Resistance (Support)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Fixed Damage Resistance (support). -->
+		<set name="icon" val="icon.bm_artifact_d_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81437" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Fixed Damage Resistance - Support -->
+		</capsuled_items>
+	</item>
+	<item id="61229" name="+15 Artifact Pack - Damage Reflection Resistance (Support)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Damage Reflection Resistance (support). -->
+		<set name="icon" val="icon.bm_artifact_d_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81438" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Damage Reflection Resistance - Support -->
+		</capsuled_items>
+	</item>
+	<item id="61230" name="+15 Artifact Pack - Adena Drop Rate (Support)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Adena Drop Rate (support). -->
+		<set name="icon" val="icon.bm_artifact_d_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="82475" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Adena Drop Rate - Support Unit -->
+		</capsuled_items>
+	</item>
+	<item id="61231" name="+15 Artifact Pack - P. Atk. (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - P. Atk. (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48969" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - P. Atk. - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61232" name="+15 Artifact Pack - M. Atk. (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - M. Atk. (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48970" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - M. Atk. - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61233" name="+15 Artifact Pack - P. Accuracy (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - P. Accuracy (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48971" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - P. Accuracy - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61234" name="+15 Artifact Pack - M. Accuracy (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - M. Accuracy (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48972" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - M. Accuracy - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61235" name="+15 Artifact Pack - Critical Rate for Basic Attacks (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Critical Rate for Basic Attacks (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48973" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Critical Rate for Basic Attacks - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61236" name="+15 Artifact Pack - P. Skill Critical Rate (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - P. Skill Critical Rate (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48974" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - P. Skill Critical Rate - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61237" name="+15 Artifact Pack - M. Skill Critical Rate (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - M. Skill Critical Rate (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48975" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - M. Skill Critical Rate - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61238" name="+15 Artifact Pack - Recovery Potions' Effect (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Recovery Potions' Effect (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48976" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Recovery Potions' Effect - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61239" name="+15 Artifact Pack - Received Damage When Immobilized (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Received Damage When Immobilized (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48977" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Received Damage When Immobilized - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61240" name="+15 Artifact Pack - Fixed Damage Resistance (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Fixed Damage Resistance (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48985" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Fixed Damage Resistance - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61241" name="+15 Artifact Pack - P. Def. (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - P. Def. (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80656" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - P. Def. - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61242" name="+15 Artifact Pack - M. Def. (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - M. Def. (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80657" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - M. Def. - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61243" name="+15 Artifact Pack - Critical Damage for Basic Attacks (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Critical Damage for Basic Attacks (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80658" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Critical Damage for Basic Attacks - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61244" name="+15 Artifact Pack - P. Skill Critical Damage (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - P. Skill Critical Damage (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80659" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - P. Skill Critical Damage - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61245" name="+15 Artifact Pack - M. Skill Critical Damage (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - M. Skill Critical Damage (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80660" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - M. Skill Critical Damage - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61246" name="+15 Artifact Pack - Atk. Spd. (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Atk. Spd. (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80661" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Atk. Spd. - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61247" name="+15 Artifact Pack - Casting Spd. (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Casting Spd. (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80662" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Casting Spd. - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61248" name="+15 Artifact Pack - Vitality Bonus (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Vitality Bonus (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81439" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Vitality Bonus - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61249" name="+15 Artifact Pack - Received Healing (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Received Healing (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81440" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Received Healing - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61250" name="+15 Artifact Pack - Skill MP Consumption (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Skill MP Consumption (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81441" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Skill MP Consumption - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61251" name="+15 Artifact Pack - Received P. Critical Rate (Balance)" type="EtcItem">
+		<!-- Double-click to obtain +15 Artifact - Received P. Critical Rate (balance). -->
+		<set name="icon" val="icon.bm_artifact_a_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81442" min="1" max="1" minEnchant="15" maxEnchant="15" chance="100" /> <!-- Artifact - Received P. Critical Rate - Balance -->
+		</capsuled_items>
+	</item>
+	<item id="61252" name="+15 Artifact Coupon (Attack)" type="EtcItem">
+		<!-- Can be exchanged for an attack artifact enchanted to +15 (of your choice). -->
+		<set name="icon" val="icon.etc_exchange_ticket_i02" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="61253" name="+15 Artifact Coupon (Defense)" type="EtcItem">
+		<!-- Can be exchanged for a defense artifact enchanted to +15 (of your choice). -->
+		<set name="icon" val="icon.etc_exchange_ticket_i01" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="61254" name="+15 Artifact Coupon (Support)" type="EtcItem">
+		<!-- Can be exchanged for a support artifact enchanted to +15 (of your choice). -->
+		<set name="icon" val="icon.etc_exchange_ticket_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="61255" name="+15 Artifact Coupon (Balance)" type="EtcItem">
+		<!-- Can be exchanged for a balance artifact enchanted to +15 (of your choice). -->
+		<set name="icon" val="icon.etc_exchange_ticket_i03" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="61256" name="Einhasad's Treasure Chest" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_nebit_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="39573" min="1" max="1" chance="1.587302" /> <!-- Sealed Talisman of Insanity -->
+			<item id="47428" min="8" max="8" chance="1.587302" /> <!-- Freya's Scroll of Storm -->
+			<item id="47494" min="2" max="2" chance="1.587302" /> <!-- Selenite -->
+			<item id="47821" min="1" max="1" chance="1.587302" /> <!-- Sayha's Talisman Pack Lv. 10 -->
+			<item id="48497" min="8" max="8" chance="1.587302" /> <!-- Glowing Dragon's Attribute Potion - XP -->
+			<item id="48642" min="8" max="8" chance="1.587302" /> <!-- Nevit's Shining Gold Hourglass -->
+			<item id="48666" min="1" max="1" chance="1.587302" /> <!-- Dragon Weapon Pack -->
+			<item id="48667" min="1" max="1" chance="1.587302" /> <!-- Dragon Weapon Pack (Lv. 1) -->
+			<item id="48830" min="8" max="8" chance="1.587302" /> <!-- Freya's Ice Rose -->
+			<item id="48860" min="3" max="3" chance="1.587302" /> <!-- Fallen Angel's Ring Pack -->
+			<item id="48876" min="2" max="2" chance="1.587302" /> <!-- Forgotten Spellbook - Chapter 1 -->
+			<item id="48908" min="1" max="1" chance="1.587302" /> <!-- Shillien's Soul Crystal Lv. 10 - Weapon -->
+			<item id="80663" min="1" max="1" chance="1.587302" /> <!-- Dragon Weapon Pack (Lv. 2) -->
+			<item id="80817" min="8" max="8" chance="1.587302" /> <!-- Wondrous Cocktail -->
+			<item id="80842" min="8" max="8" chance="1.587302" /> <!-- Honey Dark Beer -->
+			<item id="81770" min="1" max="1" chance="1.587302" /> <!-- Shining Energy of Protection -->
+			<item id="81903" min="1" max="1" chance="1.587302" /> <!-- Shining Crystal of Dyes -->
+			<item id="82032" min="1" max="1" chance="1.587302" /> <!-- Shining Jewel Energy -->
+			<item id="82049" min="1" max="1" chance="1.587302" /> <!-- Sayha's Shining Energy -->
+			<item id="82215" min="3" max="3" chance="1.587302" /> <!-- Fallen Angel's Earring Pack -->
+			<item id="82274" min="1" max="1" chance="1.587302" /> <!-- Tersi's Soul Crystal Lv. 10 - Armor -->
+			<item id="82378" min="10" max="10" chance="1.587302" /> <!-- Shining Tales of Einhasad -->
+			<item id="82458" min="1" max="1" chance="1.587302" /> <!-- Masia's Soul Crystal Lv. 1 - Accessories -->
+			<item id="82467" min="1" max="1" chance="1.587302" /> <!-- Masia's Soul Crystal Lv. 10 - Accessories -->
+			<item id="82623" min="1" max="1" chance="1.587302" /> <!-- Pa'agrio's Soul Crystal - Lv. 1 - Armor -->
+			<item id="82632" min="1" max="1" chance="1.587302" /> <!-- Pa'agrio's Soul Crystal - Lv. 10 - Armor -->
+			<item id="82796" min="1" max="1" chance="1.587302" /> <!-- Eva's Soul Crystal - Lv. 1 - Accessories -->
+			<item id="82805" min="1" max="1" chance="1.587302" /> <!-- Eva's Soul Crystal - Lv. 10 - Accessories -->
+			<item id="35566" min="1" max="1" chance="1.587302" /> <!-- Dark Weapon Upgrade Stone -->
+			<item id="35567" min="1" max="1" chance="1.587302" /> <!-- Dark Armor Upgrade Stone -->
+			<item id="35568" min="1" max="1" chance="1.587302" /> <!-- Bloody Weapon Upgrade Stone -->
+			<item id="35569" min="1" max="1" chance="1.587302" /> <!-- Bloody Armor Upgrade Stone -->
+			<item id="37717" min="1" max="1" chance="1.587302" /> <!-- Talisman of Seven Signs -->
+			<item id="39655" min="1" max="1" chance="1.587302" /> <!-- Venir's Talisman Lv. 22 -->
+			<item id="39656" min="1" max="1" chance="1.587302" /> <!-- Venir's Talisman Lv. 23 -->
+			<item id="39657" min="1" max="1" chance="1.587302" /> <!-- Venir's Talisman Lv. 24 -->
+			<item id="47951" min="5" max="5" chance="1.587302" /> <!-- Crystal of Determination -->
+			<item id="47952" min="5" max="5" chance="1.587302" /> <!-- Crystal of Protection -->
+			<item id="48418" min="1" max="1" chance="1.587302" /> <!-- Authority Ornament -->
+			<item id="80130" min="2" max="2" chance="1.587302" /> <!-- Superior Augmenting Stone: Weapon -->
+			<item id="80839" min="1" max="1" chance="1.587302" /> <!-- Crystal of Dawn -->
+			<item id="81729" min="2" max="2" chance="1.587302" /> <!-- Augmenting Stone: Accessory -->
+			<item id="81769" min="1" max="1" chance="1.587302" /> <!-- Enhanced Talisman of Protection Lv. 10 -->
+			<item id="81931" min="2" max="2" chance="1.587302" /> <!-- Augmenting Stone: Shirt -->
+			<item id="82059" min="1" max="1" chance="1.587302" /> <!-- Sayha's Enhanced Talisman Lv. 10 -->
+			<item id="82186" min="2" max="2" chance="1.587302" /> <!-- Augmenting Stone: Kaliel's Bracelet -->
+			<item id="82309" min="2" max="2" chance="1.587302" /> <!-- Augmenting Stone: Superior Seed Bracelet -->
+			<item id="82338" min="1" max="1" chance="1.587302" /> <!-- Light Dragon's Cloak -->
+			<item id="82694" min="1" max="1" chance="1.587302" /> <!-- Eraton's Dye Lv. 10 (P. Atk.) - STR +10, DEX +10, CHA +10 -->
+			<item id="82704" min="1" max="1" chance="1.587302" /> <!-- Eraton's Dye Lv. 10 (Critical Damage for Basic Attacks) - STR +10, DEX +10, CHA +10 -->
+			<item id="82714" min="1" max="1" chance="1.587302" /> <!-- Eraton's Dye Lv. 10 (P. Skill Critical Damage) - STR +10, DEX +10, CHA +10 -->
+			<item id="82724" min="1" max="1" chance="1.587302" /> <!-- Eraton's Dye Lv. 10 (P. Skill Power) - STR +10, DEX +10, CHA +10 -->
+			<item id="82734" min="1" max="1" chance="1.587302" /> <!-- Eraton's Dye Lv. 10 (M. Atk.) - INT +10, WIT +10, CHA +10 -->
+			<item id="82744" min="1" max="1" chance="1.587302" /> <!-- Eraton's Dye Lv. 10 (M. Critical Damage) - INT +10, WIT +10, CHA +10 -->
+			<item id="82754" min="1" max="1" chance="1.587302" /> <!-- Eraton's Dye Lv. 10 (M. Skill Power) - INT +10, WIT +10, CHA +10 -->
+			<item id="82985" min="1" max="1" chance="1.587302" /> <!-- Royal Craft Coupon -->
+			<item id="83363" min="1" max="1" chance="1.587302" /> <!-- Wisdom Crystal -->
+			<item id="35564" min="1" max="1" chance="1.587302" /> <!-- Ruler's Authority - Lv. 1 -->
+			<item id="80333" min="1" max="1" chance="1.587302" /> <!-- Dragon's Necklace -->
+			<item id="80334" min="1" max="1" chance="1.587302" /> <!-- Dragon's Earring -->
+			<item id="80335" min="1" max="1" chance="1.587302" /> <!-- Dragon's Ring -->
+			<item id="81751" min="1" max="1" chance="1.587302" /> <!-- Ruler's Authority - Chaos - Lv. 3 -->
+			<item id="81444" min="1" max="1" chance="1.587302" /> <!-- Greater Agathion Charm: Fire Dragon -->
+		</capsuled_items>
+	</item>
+	<item id="61257" name="Freya's Shining Treasure Chest" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_pirate_battle_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="28766" min="1" max="1" chance="1.694915" /> <!-- Stable Scroll: Enchant Legendary Cloak -->
+			<item id="29379" min="1" max="1" chance="1.694915" /> <!-- Peeves' Purple Potion -->
+			<item id="29823" min="1" max="1" chance="1.694915" /> <!-- High-grade Stable Scroll: Enchant Cloak - Legendary -->
+			<item id="29877" min="1" max="1" chance="1.694915" /> <!-- Greater Jewelry Box Lv. 5 -->
+			<item id="47429" min="1" max="1" chance="1.694915" /> <!-- Freya's Bloody Rune Box (2-hour) -->
+			<item id="47494" min="1" max="1" chance="1.694915" /> <!-- Selenite -->
+			<item id="47866" min="1" max="1" chance="1.694915" /> <!-- Star Sign -->
+			<item id="48497" min="1" max="1" chance="1.694915" /> <!-- Glowing Dragon's Attribute Potion - XP -->
+			<item id="48677" min="1" max="1" chance="1.694915" /> <!-- High-grade Skill Power Talisman Pack - Skill Critical Damage -->
+			<item id="48678" min="1" max="1" chance="1.694915" /> <!-- High-grade Attribute Attack Talisman Pack - Critical Damage for basic attacks -->
+			<item id="48679" min="1" max="1" chance="1.694915" /> <!-- High-grade Skill Cooldown Talisman Pack - P./M. Def. -->
+			<item id="48830" min="2" max="2" chance="1.694915" /> <!-- Freya's Ice Rose -->
+			<item id="48831" min="1" max="1" chance="1.694915" /> <!-- Jewel Energy -->
+			<item id="48860" min="3" max="3" chance="1.694915" /> <!-- Fallen Angel's Ring Pack -->
+			<item id="48876" min="1" max="1" chance="1.694915" /> <!-- Forgotten Spellbook - Chapter 1 -->
+			<item id="48910" min="1" max="1" chance="1.694915" /> <!-- Shillien's Soul Crystal Box -->
+			<item id="80000" min="1" max="1" chance="1.694915" /> <!-- Artifact Fragment -->
+			<item id="80636" min="1" max="1" chance="1.694915" /> <!-- Artifact Crystal -->
+			<item id="80663" min="1" max="1" chance="1.694915" /> <!-- Dragon Weapon Pack (Lv. 2) -->
+			<item id="80842" min="1" max="1" chance="1.694915" /> <!-- Honey Dark Beer -->
+			<item id="80931" min="1" max="1" chance="1.694915" /> <!-- Greater Zodiac Agathion Cube -->
+			<item id="81134" min="1" max="1" chance="1.694915" /> <!-- Crystal of Dyes -->
+			<item id="81448" min="2" max="2" chance="1.694915" /> <!-- Angel's Necklace Pack -->
+			<item id="81449" min="2" max="2" chance="1.694915" /> <!-- Angel's Earring Pack -->
+			<item id="81450" min="3" max="3" chance="1.694915" /> <!-- Angel's Ring Pack -->
+			<item id="81770" min="1" max="1" chance="1.694915" /> <!-- Shining Energy of Protection -->
+			<item id="81938" min="1" max="1" chance="1.694915" /> <!-- Greater Zodiac Agathion's Sacred Book of Growth -->
+			<item id="82032" min="1" max="1" chance="1.694915" /> <!-- Shining Jewel Energy -->
+			<item id="82049" min="1" max="1" chance="1.694915" /> <!-- Sayha's Shining Energy -->
+			<item id="82215" min="2" max="2" chance="1.694915" /> <!-- Fallen Angel's Earring Pack -->
+			<item id="82295" min="1" max="1" chance="1.694915" /> <!-- Freya's Scroll of Blessing -->
+			<item id="82346" min="10" max="10" chance="1.694915" /> <!-- Tales of Einhasad -->
+			<item id="82458" min="1" max="1" chance="1.694915" /> <!-- Masia's Soul Crystal Lv. 1 - Accessories -->
+			<item id="82623" min="1" max="1" chance="1.694915" /> <!-- Pa'agrio's Soul Crystal - Lv. 1 - Armor -->
+			<item id="82630" min="1" max="1" chance="1.694915" /> <!-- Pa'agrio's Soul Crystal - Lv. 8 - Armor -->
+			<item id="82796" min="1" max="1" chance="1.694915" /> <!-- Eva's Soul Crystal - Lv. 1 - Accessories -->
+			<item id="82803" min="1" max="1" chance="1.694915" /> <!-- Eva's Soul Crystal - Lv. 8 - Accessories -->
+			<item id="82814" min="1" max="1" chance="1.694915" /> <!-- Dragon Weapon Pack (Lv. 3) -->
+			<item id="29753" min="1" max="1" chance="1.694915" /> <!-- Heir's Radiance Lv. 4 - PvE -->
+			<item id="29757" min="1" max="1" chance="1.694915" /> <!-- Heir's Radiance Lv. 4 - PvP -->
+			<item id="29901" min="1" max="1" chance="1.694915" /> <!-- Heir's Radiance Lv. 7 - PvE -->
+			<item id="29904" min="1" max="1" chance="1.694915" /> <!-- Heir's Radiance Lv. 7 - PvP -->
+			<item id="39738" min="1" max="1" chance="1.694915" /> <!-- Rune Stone -->
+			<item id="81071" min="1" max="1" chance="1.694915" /> <!-- Legendary Dye Lv. 7 (Critical Damage for Basic Attacks) - STR +5, DEX +5, CHA +5 -->
+			<item id="81081" min="1" max="1" chance="1.694915" /> <!-- Legendary Dye Lv. 7 (P. Skill Critical Damage) - STR +5, DEX +5, CHA +5 -->
+			<item id="81091" min="1" max="1" chance="1.694915" /> <!-- Legendary Dye Lv. 7 (P. Skill Power) - STR +5, DEX +5, CHA +5 -->
+			<item id="81101" min="1" max="1" chance="1.694915" /> <!-- Legendary Dye Lv. 7 (M. Atk.) - INT +5, WIT +5, CHA +5 -->
+			<item id="81111" min="1" max="1" chance="1.694915" /> <!-- Legendary Dye Lv. 7 (M. Critical Damage) - INT +5, WIT +5, CHA +5 -->
+			<item id="81121" min="1" max="1" chance="1.694915" /> <!-- Legendary Dye Lv. 7 (M. Skill Power) - INT +5, WIT +5, CHA +5 -->
+			<item id="81135" min="1" max="1" chance="1.694915" /> <!-- Dark Augmenting Stone -->
+			<item id="81453" min="1" max="1" chance="1.694915" /> <!-- Enhanced Rune Stone -->
+			<item id="81769" min="1" max="1" chance="1.694915" /> <!-- Enhanced Talisman of Protection Lv. 10 -->
+			<item id="83460" min="1" max="1" chance="1.694915" /> <!-- Chaos Augmenting Stone: Weapon/ Armor -->
+			<item id="83586" min="1" max="1" chance="1.694915" /> <!-- Legendary Dye Lv. 7 (Basic Attack Power) - STR +5, DEX +5, CHA +5 -->
+			<item id="80333" min="1" max="1" chance="1.694915" /> <!-- Dragon's Necklace -->
+			<item id="80334" min="1" max="1" chance="1.694915" /> <!-- Dragon's Earring -->
+			<item id="80335" min="1" max="1" chance="1.694915" /> <!-- Dragon's Ring -->
+			<item id="81751" min="1" max="1" chance="1.694915" /> <!-- Ruler's Authority - Chaos - Lv. 3 -->
+			<item id="81444" min="1" max="1" chance="1.694915" /> <!-- Greater Agathion Charm: Fire Dragon -->
+		</capsuled_items>
+	</item>
+	<item id="61258" name="Festive Kit Lv. 1" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_silver_lure_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48848" min="20" max="20" chance="100" /> <!-- Freya's Ice Rose - Event -->
+			<item id="48857" min="20" max="20" chance="100" /> <!-- Glowing Dragon's Attribute Potion (XP) - Event -->
+			<item id="81011" min="20" max="20" chance="100" /> <!-- Honey Dark Beer - Event -->
+			<item id="81012" min="30" max="30" chance="100" /> <!-- Wondrous Cocktail - Event -->
+			<item id="83006" min="1" max="1" chance="100" /> <!-- Relic Summon Coupon - 11-time -->
+		</capsuled_items>
+	</item>
+	<item id="61259" name="Festive Kit Lv. 2" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_silver_lure_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="82149" min="50" max="50" chance="100" /> <!-- Archangel's Grace -->
+			<item id="82904" min="5" max="5" chance="100" /> <!-- Homunculus' Shiny Hourglass -->
+			<item id="82613" min="10" max="10" chance="100" /> <!-- Burnt Tree -->
+			<item id="83004" min="3" max="3" chance="100" /> <!-- Shining Relic Summon Coupon - 11-time -->
+			<item id="83006" min="1" max="1" chance="100" /> <!-- Relic Summon Coupon - 11-time -->
+			<item id="83008" min="1" max="1" chance="100" /> <!-- C-grade Relic Ticket - 1-time -->
+		</capsuled_items>
+	</item>
+	<item id="61260" name="Festive Kit Lv. 3" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_silver_lure_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="61263" min="1" max="1" chance="100" /> <!-- Festive Medal -->
+			<item id="82149" min="100" max="100" chance="100" /> <!-- Archangel's Grace -->
+			<item id="82904" min="5" max="5" chance="100" /> <!-- Homunculus' Shiny Hourglass -->
+			<item id="82344" min="500" max="500" chance="100" /> <!-- Tales of Dimensions -->
+			<item id="82613" min="10" max="10" chance="100" /> <!-- Burnt Tree -->
+			<item id="82931" min="1" max="1" chance="100" /> <!-- Guaranteed C-grade Relic Summon Coupon - 1-time -->
+			<item id="83004" min="5" max="5" chance="100" /> <!-- Shining Relic Summon Coupon - 11-time -->
+			<item id="83182" min="100" max="100" chance="100" /> <!-- Chaos Aether -->
+		</capsuled_items>
+	</item>
+	<item id="61261" name="Festive Kit Lv. 4" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_silver_lure_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="82149" min="150" max="150" chance="100" /> <!-- Archangel's Grace -->
+			<item id="82904" min="7" max="7" chance="100" /> <!-- Homunculus' Shiny Hourglass -->
+			<item id="82615" min="100" max="100" chance="100" /> <!-- Divine Fire -->
+			<item id="82658" min="100" max="100" chance="100" /> <!-- Sealed Fire Source -->
+			<item id="83004" min="5" max="5" chance="100" /> <!-- Shining Relic Summon Coupon - 11-time -->
+			<item id="83006" min="5" max="5" chance="100" /> <!-- Relic Summon Coupon - 11-time -->
+			<item id="83009" min="2" max="2" chance="100" /> <!-- B-grade Relic Ticket - 1-time -->
+		</capsuled_items>
+	</item>
+	<item id="61262" name="Festive Kit Lv. 5" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_silver_lure_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="61263" min="2" max="2" chance="100" /> <!-- Festive Medal -->
+			<item id="82149" min="200" max="200" chance="100" /> <!-- Archangel's Grace -->
+			<item id="82904" min="10" max="10" chance="100" /> <!-- Homunculus' Shiny Hourglass -->
+			<item id="82344" min="500" max="500" chance="100" /> <!-- Tales of Dimensions -->
+			<item id="82615" min="200" max="200" chance="100" /> <!-- Divine Fire -->
+			<item id="82658" min="300" max="300" chance="100" /> <!-- Sealed Fire Source -->
+			<item id="83004" min="5" max="5" chance="100" /> <!-- Shining Relic Summon Coupon - 11-time -->
+			<item id="83009" min="5" max="5" chance="100" /> <!-- B-grade Relic Ticket - 1-time -->
+			<item id="83575" min="500" max="500" chance="100" /> <!-- Novice Wanderer's Tales -->
+		</capsuled_items>
+	</item>
+	<item id="61263" name="Festive Medal" type="EtcItem">
+		<!-- A collection item. Happy holidays! -->
+		<set name="icon" val="icon.etc_irongate_medal_i00" />
+		<set name="default_action" val="NONE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="61264" name="Year's End Appreciation Kit" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48848" min="88" max="88" chance="100" /> <!-- Freya's Ice Rose - Event -->
+			<item id="48857" min="88" max="88" chance="100" /> <!-- Glowing Dragon's Attribute Potion (XP) - Event -->
+			<item id="81011" min="88" max="88" chance="100" /> <!-- Honey Dark Beer - Event -->
+			<item id="81012" min="88" max="88" chance="100" /> <!-- Wondrous Cocktail - Event -->
+			<item id="81013" min="88" max="88" chance="100" /> <!-- Nevit's Shining Gold Hourglass - Event -->
+			<item id="81054" min="88" max="88" chance="100" /> <!-- Freya's Scroll of Storm - Event -->
+			<item id="82187" min="188" max="188" chance="100" /> <!-- Swift Defense Cookie -->
+			<item id="82305" min="888" max="888" chance="100" /> <!-- Beora's Ancient Energy -->
+			<item id="82344" min="288" max="288" chance="100" /> <!-- Tales of Dimensions -->
+			<item id="82931" min="1" max="1" chance="100" /> <!-- Guaranteed C-grade Relic Summon Coupon - 1-time -->
+		</capsuled_items>
+	</item>
+	<item id="61265" name="Festive Christmas Kit" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_special_pendant_abradant_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48848" min="88" max="88" chance="100" /> <!-- Freya's Ice Rose - Event -->
+			<item id="48857" min="88" max="88" chance="100" /> <!-- Glowing Dragon's Attribute Potion (XP) - Event -->
+			<item id="81011" min="88" max="88" chance="100" /> <!-- Honey Dark Beer - Event -->
+			<item id="81012" min="88" max="88" chance="100" /> <!-- Wondrous Cocktail - Event -->
+			<item id="81013" min="88" max="88" chance="100" /> <!-- Nevit's Shining Gold Hourglass - Event -->
+			<item id="81054" min="88" max="88" chance="100" /> <!-- Freya's Scroll of Storm - Event -->
+			<item id="82187" min="188" max="188" chance="100" /> <!-- Swift Defense Cookie -->
+			<item id="82634" min="1" max="1" chance="100" /> <!-- Top-grade Homunculus' Hourglass - Event -->
+			<item id="81215" min="888" max="888" chance="100" /> <!-- Aether -->
+			<item id="83576" min="288" max="288" chance="100" /> <!-- Experienced Wanderer's Tales -->
+		</capsuled_items>
+	</item>
+	<item id="61266" name="Christmas Appreciation Gift" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.card_event_luck_pocket" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="13300" min="8" max="8" chance="100" /> <!-- Feather of Blessing - Event -->
+			<item id="81747" min="88" max="88" chance="100" /> <!-- Royal Honey Dark Beer -->
+			<item id="81759" min="88" max="88" chance="100" /> <!-- Glowing Royal Dragon's Attribute Potion - XP -->
+			<item id="81892" min="88" max="88" chance="100" /> <!-- Nevit's Shining Royal Gold Hourglass -->
+			<item id="82305" min="588" max="588" chance="100" /> <!-- Beora's Ancient Energy -->
+			<item id="83144" min="88" max="88" chance="100" /> <!-- Freya's Royal Ice Rose -->
+			<item id="81887" min="8" max="8" chance="100" /> <!-- Rune Stone -->
+			<item id="82345" min="288" max="288" chance="100" /> <!-- Tales of Aden - Event -->
+			<item id="83006" min="8" max="8" chance="100" /> <!-- Relic Summon Coupon - 11-time -->
+			<item id="83575" min="288" max="288" chance="100" /> <!-- Novice Wanderer's Tales -->
+		</capsuled_items>
+	</item>
+	<item id="61267" name="Alexandria's Treasure Chest" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_pirate_battle_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="39573" min="1" max="1" chance="2.631579" /> <!-- Sealed Talisman of Insanity -->
+			<item id="48497" min="5" max="5" chance="2.631579" /> <!-- Glowing Dragon's Attribute Potion - XP -->
+			<item id="48642" min="5" max="5" chance="2.631579" /> <!-- Nevit's Shining Gold Hourglass -->
+			<item id="48667" min="1" max="1" chance="2.631579" /> <!-- Dragon Weapon Pack (Lv. 1) -->
+			<item id="48830" min="5" max="5" chance="2.631579" /> <!-- Freya's Ice Rose -->
+			<item id="48831" min="1" max="1" chance="2.631579" /> <!-- Jewel Energy -->
+			<item id="48876" min="1" max="1" chance="2.631579" /> <!-- Forgotten Spellbook - Chapter 1 -->
+			<item id="48910" min="1" max="1" chance="2.631579" /> <!-- Shillien's Soul Crystal Box -->
+			<item id="80000" min="1" max="1" chance="2.631579" /> <!-- Artifact Fragment -->
+			<item id="80636" min="2" max="2" chance="2.631579" /> <!-- Artifact Crystal -->
+			<item id="80636" min="1" max="1" chance="2.631579" /> <!-- Artifact Crystal -->
+			<item id="80663" min="1" max="1" chance="2.631579" /> <!-- Dragon Weapon Pack (Lv. 2) -->
+			<item id="80817" min="3" max="3" chance="2.631579" /> <!-- Wondrous Cocktail -->
+			<item id="80842" min="5" max="5" chance="2.631579" /> <!-- Honey Dark Beer -->
+			<item id="81134" min="2" max="2" chance="2.631579" /> <!-- Crystal of Dyes -->
+			<item id="81770" min="1" max="1" chance="2.631579" /> <!-- Shining Energy of Protection -->
+			<item id="81903" min="1" max="1" chance="2.631579" /> <!-- Shining Crystal of Dyes -->
+			<item id="82032" min="1" max="1" chance="2.631579" /> <!-- Shining Jewel Energy -->
+			<item id="82049" min="1" max="1" chance="2.631579" /> <!-- Sayha's Shining Energy -->
+			<item id="82265" min="1" max="1" chance="2.631579" /> <!-- Tersi's Soul Crystal Lv. 1 - Armor -->
+			<item id="82378" min="10" max="10" chance="2.631579" /> <!-- Shining Tales of Einhasad -->
+			<item id="82458" min="1" max="1" chance="2.631579" /> <!-- Masia's Soul Crystal Lv. 1 - Accessories -->
+			<item id="82467" min="1" max="1" chance="2.631579" /> <!-- Masia's Soul Crystal Lv. 10 - Accessories -->
+			<item id="82623" min="1" max="1" chance="2.631579" /> <!-- Pa'agrio's Soul Crystal - Lv. 1 - Armor -->
+			<item id="82632" min="1" max="1" chance="2.631579" /> <!-- Pa'agrio's Soul Crystal - Lv. 10 - Armor -->
+			<item id="82796" min="1" max="1" chance="2.631579" /> <!-- Eva's Soul Crystal - Lv. 1 - Accessories -->
+			<item id="82805" min="1" max="1" chance="2.631579" /> <!-- Eva's Soul Crystal - Lv. 10 - Accessories -->
+			<item id="36414" min="1" max="1" chance="2.631579" /> <!-- Dragon Claw -->
+			<item id="37717" min="1" max="1" chance="2.631579" /> <!-- Talisman of Seven Signs -->
+			<item id="39738" min="1" max="1" chance="2.631579" /> <!-- Rune Stone -->
+			<item id="60098" min="1" max="1" chance="2.631579" /> <!-- Heir's Radiance Lv. 10 - PvP/PvE -->
+			<item id="81769" min="1" max="1" chance="2.631579" /> <!-- Enhanced Talisman of Protection Lv. 10 -->
+			<item id="82059" min="1" max="1" chance="2.631579" /> <!-- Sayha's Enhanced Talisman Lv. 10 -->
+			<item id="83363" min="1" max="1" chance="2.631579" /> <!-- Wisdom Crystal -->
+			<item id="19463" min="1" max="1" chance="2.631579" /> <!-- Antharas' Blessed Earring -->
+			<item id="19464" min="1" max="1" chance="2.631579" /> <!-- Valakas' Blessed Necklace -->
+			<item id="36946" min="1" max="1" chance="2.631579" /> <!-- Lindvior's Earring -->
+			<item id="81444" min="1" max="1" chance="2.631579" /> <!-- Greater Agathion Charm: Fire Dragon -->
+		</capsuled_items>
+	</item>
+	<item id="61268" name="Oren Treasure" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.sayha2017_box_i04" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="29379" min="1" max="1" chance="1.851852" /> <!-- Peeves' Purple Potion -->
+			<item id="29877" min="1" max="1" chance="1.851852" /> <!-- Greater Jewelry Box Lv. 5 -->
+			<item id="47494" min="1" max="1" chance="1.851852" /> <!-- Selenite -->
+			<item id="47866" min="1" max="1" chance="1.851852" /> <!-- Star Sign -->
+			<item id="48497" min="1" max="1" chance="1.851852" /> <!-- Glowing Dragon's Attribute Potion - XP -->
+			<item id="48642" min="1" max="1" chance="1.851852" /> <!-- Nevit's Shining Gold Hourglass -->
+			<item id="48830" min="2" max="2" chance="1.851852" /> <!-- Freya's Ice Rose -->
+			<item id="48831" min="1" max="1" chance="1.851852" /> <!-- Jewel Energy -->
+			<item id="48876" min="1" max="1" chance="1.851852" /> <!-- Forgotten Spellbook - Chapter 1 -->
+			<item id="48907" min="1" max="1" chance="1.851852" /> <!-- Shillien's Soul Crystal Lv. 9 - Weapon -->
+			<item id="48910" min="1" max="1" chance="1.851852" /> <!-- Shillien's Soul Crystal Box -->
+			<item id="60544" min="1" max="1" chance="1.851852" /> <!-- Superior Jewelry Box Lv. 5 -->
+			<item id="80000" min="1" max="1" chance="1.851852" /> <!-- Artifact Fragment -->
+			<item id="80636" min="1" max="1" chance="1.851852" /> <!-- Artifact Crystal -->
+			<item id="80663" min="1" max="1" chance="1.851852" /> <!-- Dragon Weapon Pack (Lv. 2) -->
+			<item id="80817" min="1" max="1" chance="1.851852" /> <!-- Wondrous Cocktail -->
+			<item id="80842" min="1" max="1" chance="1.851852" /> <!-- Honey Dark Beer -->
+			<item id="80931" min="1" max="1" chance="1.851852" /> <!-- Greater Zodiac Agathion Cube -->
+			<item id="81134" min="1" max="1" chance="1.851852" /> <!-- Crystal of Dyes -->
+			<item id="81770" min="1" max="1" chance="1.851852" /> <!-- Shining Energy of Protection -->
+			<item id="81938" min="1" max="1" chance="1.851852" /> <!-- Greater Zodiac Agathion's Sacred Book of Growth -->
+			<item id="82032" min="1" max="1" chance="1.851852" /> <!-- Shining Jewel Energy -->
+			<item id="82049" min="1" max="1" chance="1.851852" /> <!-- Sayha's Shining Energy -->
+			<item id="82272" min="1" max="1" chance="1.851852" /> <!-- Tersi's Soul Crystal Lv. 8 - Armor -->
+			<item id="82378" min="7" max="7" chance="1.851852" /> <!-- Shining Tales of Einhasad -->
+			<item id="82458" min="1" max="1" chance="1.851852" /> <!-- Masia's Soul Crystal Lv. 1 - Accessories -->
+			<item id="82465" min="1" max="1" chance="1.851852" /> <!-- Masia's Soul Crystal Lv. 8 - Accessories -->
+			<item id="82623" min="1" max="1" chance="1.851852" /> <!-- Pa'agrio's Soul Crystal - Lv. 1 - Armor -->
+			<item id="82796" min="1" max="1" chance="1.851852" /> <!-- Eva's Soul Crystal - Lv. 1 - Accessories -->
+			<item id="82814" min="1" max="1" chance="1.851852" /> <!-- Dragon Weapon Pack (Lv. 3) -->
+			<item id="29753" min="1" max="1" chance="1.851852" /> <!-- Heir's Radiance Lv. 4 - PvE -->
+			<item id="29757" min="1" max="1" chance="1.851852" /> <!-- Heir's Radiance Lv. 4 - PvP -->
+			<item id="29901" min="1" max="1" chance="1.851852" /> <!-- Heir's Radiance Lv. 7 - PvE -->
+			<item id="29904" min="1" max="1" chance="1.851852" /> <!-- Heir's Radiance Lv. 7 - PvP -->
+			<item id="35567" min="1" max="1" chance="1.851852" /> <!-- Dark Armor Upgrade Stone -->
+			<item id="35569" min="1" max="1" chance="1.851852" /> <!-- Bloody Armor Upgrade Stone -->
+			<item id="39738" min="1" max="1" chance="1.851852" /> <!-- Rune Stone -->
+			<item id="81135" min="1" max="1" chance="1.851852" /> <!-- Dark Augmenting Stone -->
+			<item id="81453" min="1" max="1" chance="1.851852" /> <!-- Enhanced Rune Stone -->
+			<item id="82694" min="1" max="1" chance="1.851852" /> <!-- Eraton's Dye Lv. 10 (P. Atk.) - STR +10, DEX +10, CHA +10 -->
+			<item id="82704" min="1" max="1" chance="1.851852" /> <!-- Eraton's Dye Lv. 10 (Critical Damage for Basic Attacks) - STR +10, DEX +10, CHA +10 -->
+			<item id="82714" min="1" max="1" chance="1.851852" /> <!-- Eraton's Dye Lv. 10 (P. Skill Critical Damage) - STR +10, DEX +10, CHA +10 -->
+			<item id="82724" min="1" max="1" chance="1.851852" /> <!-- Eraton's Dye Lv. 10 (P. Skill Power) - STR +10, DEX +10, CHA +10 -->
+			<item id="82734" min="1" max="1" chance="1.851852" /> <!-- Eraton's Dye Lv. 10 (M. Atk.) - INT +10, WIT +10, CHA +10 -->
+			<item id="82744" min="1" max="1" chance="1.851852" /> <!-- Eraton's Dye Lv. 10 (M. Critical Damage) - INT +10, WIT +10, CHA +10 -->
+			<item id="82754" min="1" max="1" chance="1.851852" /> <!-- Eraton's Dye Lv. 10 (M. Skill Power) - INT +10, WIT +10, CHA +10 -->
+			<item id="83130" min="1" max="1" chance="1.851852" /> <!-- +10 Heavenly Talisman Pack -->
+			<item id="83131" min="1" max="1" chance="1.851852" /> <!-- +10 Epic Talisman Pack -->
+			<item id="83460" min="1" max="1" chance="1.851852" /> <!-- Chaos Augmenting Stone: Weapon/ Armor -->
+			<item id="80333" min="1" max="1" chance="1.851852" /> <!-- Dragon's Necklace -->
+			<item id="80334" min="1" max="1" chance="1.851852" /> <!-- Dragon's Earring -->
+			<item id="80335" min="1" max="1" chance="1.851852" /> <!-- Dragon's Ring -->
+			<item id="81751" min="1" max="1" chance="1.851852" /> <!-- Ruler's Authority - Chaos - Lv. 3 -->
+			<item id="81444" min="1" max="1" chance="1.851852" /> <!-- Greater Agathion Charm: Fire Dragon -->
+		</capsuled_items>
+	</item>
+	<item id="61269" name="+30 Supreme Weapon Coupon" type="EtcItem">
+		<!-- Can be exchanged for a Supreme Krishna weapon enchanted to +30 (of your choice). -->
+		<set name="icon" val="icon.bm_weapon_ticket_a" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="61270" name="Special Lunar New Year Gift" type="EtcItem">
+		<!-- Double-click to obtain various items. Can be used as a craft material. -->
+		<set name="icon" val="BranchIcon.Icon.etc_taiwan_bag_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="47428" min="10" max="10" chance="20" /> <!-- Freya's Scroll of Storm -->
+			<item id="48497" min="10" max="10" chance="20" /> <!-- Glowing Dragon's Attribute Potion - XP -->
+			<item id="48642" min="10" max="10" chance="20" /> <!-- Nevit's Shining Gold Hourglass -->
+			<item id="48830" min="10" max="10" chance="20" /> <!-- Freya's Ice Rose -->
+			<item id="80842" min="10" max="10" chance="20" /> <!-- Honey Dark Beer -->
+		</capsuled_items>
+	</item>
+	<item id="61271" name="Kit: Lunar New Year" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.ev_2021_newyear_rune3" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48848" min="88" max="88" chance="100" /> <!-- Freya's Ice Rose - Event -->
+			<item id="48857" min="88" max="88" chance="100" /> <!-- Glowing Dragon's Attribute Potion (XP) - Event -->
+			<item id="60641" min="1" max="1" chance="100" /> <!-- Vitality Sustaining Rune Pack - 7-day -->
+			<item id="81011" min="88" max="88" chance="100" /> <!-- Honey Dark Beer - Event -->
+			<item id="81012" min="88" max="88" chance="100" /> <!-- Wondrous Cocktail - Event -->
+			<item id="81013" min="88" max="88" chance="100" /> <!-- Nevit's Shining Gold Hourglass - Event -->
+			<item id="81054" min="88" max="88" chance="100" /> <!-- Freya's Scroll of Storm - Event -->
+			<item id="81215" min="888" max="888" chance="100" /> <!-- Aether -->
+			<item id="82766" min="1" max="1" chance="100" /> <!-- Golden Orb - Event -->
+			<item id="82903" min="18" max="18" chance="100" /> <!-- Solaris -->
+		</capsuled_items>
+	</item>
+	<item id="61272" name="Lunar New Year Gift" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.ev_2021_newyear_rune2" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="13300" min="8" max="8" chance="100" /> <!-- Feather of Blessing - Event -->
+			<item id="82400" min="8" max="8" chance="100" /> <!-- Augmenting Stone Pack -->
+			<item id="82657" min="8" max="8" chance="100" /> <!-- Soulshot/ Spiritshot Ticket - Event -->
+			<item id="82904" min="3" max="3" chance="100" /> <!-- Homunculus' Shiny Hourglass -->
+			<item id="82344" min="88" max="88" chance="100" /> <!-- Tales of Dimensions -->
+			<item id="82931" min="1" max="1" chance="100" /> <!-- Guaranteed C-grade Relic Summon Coupon - 1-time -->
+			<item id="83004" min="1" max="1" chance="100" /> <!-- Shining Relic Summon Coupon - 11-time -->
+			<item id="83006" min="8" max="8" chance="100" /> <!-- Relic Summon Coupon - 11-time -->
+			<item id="83575" min="88" max="88" chance="100" /> <!-- Novice Wanderer's Tales -->
+		</capsuled_items>
+	</item>
+	<item id="61273" name="Shining Treasure Chest" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_pirate_battle_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="28766" min="1" max="1" chance="1.666667" /> <!-- Stable Scroll: Enchant Legendary Cloak -->
+			<item id="29379" min="1" max="1" chance="1.666667" /> <!-- Peeves' Purple Potion -->
+			<item id="29823" min="1" max="1" chance="1.666667" /> <!-- High-grade Stable Scroll: Enchant Cloak - Legendary -->
+			<item id="47494" min="1" max="1" chance="1.666667" /> <!-- Selenite -->
+			<item id="47866" min="1" max="1" chance="1.666667" /> <!-- Star Sign -->
+			<item id="48497" min="1" max="1" chance="1.666667" /> <!-- Glowing Dragon's Attribute Potion - XP -->
+			<item id="48830" min="2" max="2" chance="1.666667" /> <!-- Freya's Ice Rose -->
+			<item id="48831" min="1" max="1" chance="1.666667" /> <!-- Jewel Energy -->
+			<item id="48860" min="3" max="3" chance="1.666667" /> <!-- Fallen Angel's Ring Pack -->
+			<item id="48876" min="1" max="1" chance="1.666667" /> <!-- Forgotten Spellbook - Chapter 1 -->
+			<item id="48908" min="1" max="1" chance="1.666667" /> <!-- Shillien's Soul Crystal Lv. 10 - Weapon -->
+			<item id="48910" min="1" max="1" chance="1.666667" /> <!-- Shillien's Soul Crystal Box -->
+			<item id="60544" min="1" max="1" chance="1.666667" /> <!-- Superior Jewelry Box Lv. 5 -->
+			<item id="61203" min="1" max="1" chance="1.666667" /> <!-- Eraton's Dye Coupon Lv. 1 -->
+			<item id="80000" min="1" max="1" chance="1.666667" /> <!-- Artifact Fragment -->
+			<item id="80636" min="1" max="1" chance="1.666667" /> <!-- Artifact Crystal -->
+			<item id="80663" min="1" max="1" chance="1.666667" /> <!-- Dragon Weapon Pack (Lv. 2) -->
+			<item id="80842" min="1" max="1" chance="1.666667" /> <!-- Honey Dark Beer -->
+			<item id="80931" min="1" max="1" chance="1.666667" /> <!-- Greater Zodiac Agathion Cube -->
+			<item id="81134" min="1" max="1" chance="1.666667" /> <!-- Crystal of Dyes -->
+			<item id="81448" min="2" max="2" chance="1.666667" /> <!-- Angel's Necklace Pack -->
+			<item id="81449" min="2" max="2" chance="1.666667" /> <!-- Angel's Earring Pack -->
+			<item id="81450" min="3" max="3" chance="1.666667" /> <!-- Angel's Ring Pack -->
+			<item id="81770" min="1" max="1" chance="1.666667" /> <!-- Shining Energy of Protection -->
+			<item id="81938" min="1" max="1" chance="1.666667" /> <!-- Greater Zodiac Agathion's Sacred Book of Growth -->
+			<item id="82032" min="1" max="1" chance="1.666667" /> <!-- Shining Jewel Energy -->
+			<item id="82049" min="1" max="1" chance="1.666667" /> <!-- Sayha's Shining Energy -->
+			<item id="82215" min="2" max="2" chance="1.666667" /> <!-- Fallen Angel's Earring Pack -->
+			<item id="82378" min="7" max="7" chance="1.666667" /> <!-- Shining Tales of Einhasad -->
+			<item id="82630" min="1" max="1" chance="1.666667" /> <!-- Pa'agrio's Soul Crystal - Lv. 8 - Armor -->
+			<item id="82803" min="1" max="1" chance="1.666667" /> <!-- Eva's Soul Crystal - Lv. 8 - Accessories -->
+			<item id="82814" min="1" max="1" chance="1.666667" /> <!-- Dragon Weapon Pack (Lv. 3) -->
+			<item id="29901" min="1" max="1" chance="1.666667" /> <!-- Heir's Radiance Lv. 7 - PvE -->
+			<item id="29904" min="1" max="1" chance="1.666667" /> <!-- Heir's Radiance Lv. 7 - PvP -->
+			<item id="35567" min="1" max="1" chance="1.666667" /> <!-- Dark Armor Upgrade Stone -->
+			<item id="35569" min="1" max="1" chance="1.666667" /> <!-- Bloody Armor Upgrade Stone -->
+			<item id="39738" min="1" max="1" chance="1.666667" /> <!-- Rune Stone -->
+			<item id="80901" min="1" max="1" chance="1.666667" /> <!-- Zariche's Blood -->
+			<item id="80902" min="1" max="1" chance="1.666667" /> <!-- Akamanah's Blood -->
+			<item id="81135" min="1" max="1" chance="1.666667" /> <!-- Dark Augmenting Stone -->
+			<item id="81453" min="1" max="1" chance="1.666667" /> <!-- Enhanced Rune Stone -->
+			<item id="81769" min="1" max="1" chance="1.666667" /> <!-- Enhanced Talisman of Protection Lv. 10 -->
+			<item id="82059" min="1" max="1" chance="1.666667" /> <!-- Sayha's Enhanced Talisman Lv. 10 -->
+			<item id="82085" min="1" max="1" chance="1.666667" /> <!-- Soul Talisman - Lv. 1 -->
+			<item id="82694" min="1" max="1" chance="1.666667" /> <!-- Eraton's Dye Lv. 10 (P. Atk.) - STR +10, DEX +10, CHA +10 -->
+			<item id="82704" min="1" max="1" chance="1.666667" /> <!-- Eraton's Dye Lv. 10 (Critical Damage for Basic Attacks) - STR +10, DEX +10, CHA +10 -->
+			<item id="82714" min="1" max="1" chance="1.666667" /> <!-- Eraton's Dye Lv. 10 (P. Skill Critical Damage) - STR +10, DEX +10, CHA +10 -->
+			<item id="82724" min="1" max="1" chance="1.666667" /> <!-- Eraton's Dye Lv. 10 (P. Skill Power) - STR +10, DEX +10, CHA +10 -->
+			<item id="82734" min="1" max="1" chance="1.666667" /> <!-- Eraton's Dye Lv. 10 (M. Atk.) - INT +10, WIT +10, CHA +10 -->
+			<item id="82744" min="1" max="1" chance="1.666667" /> <!-- Eraton's Dye Lv. 10 (M. Critical Damage) - INT +10, WIT +10, CHA +10 -->
+			<item id="82754" min="1" max="1" chance="1.666667" /> <!-- Eraton's Dye Lv. 10 (M. Skill Power) - INT +10, WIT +10, CHA +10 -->
+			<item id="83130" min="1" max="1" chance="1.666667" /> <!-- +10 Heavenly Talisman Pack -->
+			<item id="83131" min="1" max="1" chance="1.666667" /> <!-- +10 Epic Talisman Pack -->
+			<item id="83460" min="1" max="1" chance="1.666667" /> <!-- Chaos Augmenting Stone: Weapon/ Armor -->
+			<item id="83599" min="1" max="1" chance="1.666667" /> <!-- Eraton's Dye Lv. 10 (Basic Attack Power) - STR +10, DEX +10, CHA +10 -->
+			<item id="80333" min="1" max="1" chance="1.666667" /> <!-- Dragon's Necklace -->
+			<item id="80334" min="1" max="1" chance="1.666667" /> <!-- Dragon's Earring -->
+			<item id="80335" min="1" max="1" chance="1.666667" /> <!-- Dragon's Ring -->
+			<item id="81751" min="1" max="1" chance="1.666667" /> <!-- Ruler's Authority - Chaos - Lv. 3 -->
+			<item id="81444" min="1" max="1" chance="1.666667" /> <!-- Greater Agathion Charm: Fire Dragon -->
+		</capsuled_items>
+	</item>
+	<item id="61274" name="Faded Abundance Coin" type="EtcItem">
+		<!-- A coin obtained in exchange for Faded Talismans of Abundance that are not used anymore. Can be exchanged for valuable items. -->
+		<set name="icon" val="icon.etc_gold_knight_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="61275" name="Resolute Warrior's Growth Cookie" additionalName="Event" type="EtcItem">
+		<!-- When used, acquired XP +50% for 30 min. Also, applies the following effects based on your level:. <Lv. 110-119>. Acquired XP/ SP +100%. <Lv. 1-109>. Acquired XP/ SP +300%. Cooldown: 5 min. The effect remains after death. Cannot be used in the Olympiad. The effect does not stack with Swift Growth Cookie. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_cookie_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="29818" level="1" /> <!-- Resolute Warrior's Swift Growth Cookie -->
+		</skills>
+	</item>
+	<item id="61276" name="Resolute Warrior's Bloody Rune" additionalName="30-day" type="EtcItem">
+		<!-- When in inventory, received PvE damage -15%. Also, applies the following effects based on your level:. <Lv. 110-119>. Received PvE damage -10%. <Lv. 1-109>. Received PvE damage -25% -->
+		<set name="icon" val="icon.bm_freya_bloody_rune" />
+		<set name="default_action" val="NONE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<skills>
+			<skill id="29819" level="1" /> <!-- Resolute Warrior's Bloody Rune -->
+			<skill id="29820" level="1" /> <!-- Resolute Warrior's Bloody Rune - Lv. 110-119 Bonus Effect -->
+			<skill id="29821" level="1" /> <!-- Resolute Warrior's Bloody Rune - Lv. 1-109 Bonus Effect -->
+		</skills>
+	</item>
+	<item id="61277" name="Resolute Warrior's XP Rune" additionalName="30-day" type="EtcItem">
+		<!-- When in inventory, acquired XP +50%. Also, applies the following effects based on your level:. <Lv. 110-119>. Acquired XP +75%. <Lv. 1-109>. Acquired XP +150% -->
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
+		<set name="default_action" val="NONE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<skills>
+			<skill id="29822" level="1" /> <!-- Resolute Warrior's XP Rune -->
+		</skills>
+	</item>
+	<item id="61278" name="Resolute Warrior's Vitality Rune" additionalName="30-day" type="EtcItem">
+		<!-- When in inventory, Vitality bonus +50% (excluding bosses). Also, applies the following effects based on your level:. <Lv. 110-119>. Vitality Consumption -15%. <Lv. 1-109>. Sustains Vitality. -->
+		<set name="icon" val="icon.bm_freya_vital_rune" />
+		<set name="default_action" val="NONE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<skills>
+			<skill id="29823" level="1" /> <!-- Resolute Warrior's Vitality Rune -->
+			<skill id="29824" level="1" /> <!-- Resolute Warrior's Vitality Rune - Lv. 110-119 Bonus Effect -->
+			<skill id="29825" level="1" /> <!-- Resolute Warrior's Vitality Rune - Lv. 1-109 Bonus Effect -->
+		</skills>
+	</item>
+	<item id="61279" name="Resolute Warrior's Scroll: Enchant R-grade Weapon" type="EtcItem">
+		<!-- For R-grade weapons. P. Atk. +6 for one-handed swords/ blunts/ staffs, daggers, spears. P. Atk. +7 for two-handed swords/ blunts/ staffs, dual daggers, dual swords, fists, crossbows. P. Atk. +12 for bows. M. Atk. +5 for all weapons. Starting from +4, P./ M. Atk. bonus is greatly increased (more so in case of blessed weapons). Through Gran Kain's power, in case of failure the item is not crystallized, and its enchant value remains the same. Cannot be used with weapons enchanted to +10 or higher. -->
+		<set name="icon" val="icon.ev_shilen_scroll_of_enchant_wp" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<skills>
+			<skill id="29826" level="1" /> <!-- Resolute Warrior's Scroll: Enchant Weapon - 10 -->
+		</skills>
+	</item>
+	<item id="61280" name="Resolute Warrior's Scroll: Enchant R-grade Armor" type="EtcItem">
+		<!-- For R-grade armor and accessories. P. Def. +2. Starting from +4, P. Def. bonus is greatly increased, HP is increased with each enchant value. Enchanting is safe up to +3. Starting from +4, HP is increased with each enchant value. Through Gran Kain's power, in case of failure the item is not crystallized, and its enchant value remains the same. Cannot be used with equipment enchanted to +8 and higher. -->
+		<set name="icon" val="icon.ev_shilen_scroll_of_enchant_am" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<skills>
+			<skill id="29827" level="1" /> <!-- Resolute Warrior's Scroll: Enchant Armor - 8 -->
+		</skills>
+	</item>
+	<item id="61281" name="Eraton's Dye Coupon Lv. 10" type="EtcItem">
+		<!-- Can be exchanged for Eraton's Dye Lv. 10 (of your choice). -->
+		<set name="icon" val="icon.ench_challnege_point_tallisman_ticket" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="61282" name="+10 Artifact Pack - P. Atk. (Attack)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - P. Atk. (attack). -->
+		<set name="icon" val="icon.bm_artifact_b_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48957" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - P. Atk. - Attack -->
+		</capsuled_items>
+	</item>
+	<item id="61283" name="+10 Artifact Pack - M. Atk. (Attack)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - M. Atk. (attack). -->
+		<set name="icon" val="icon.bm_artifact_b_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48958" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - M. Atk. - Attack -->
+		</capsuled_items>
+	</item>
+	<item id="61284" name="+10 Artifact Pack - P. Skill Power (Attack)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - P. Skill Power (attack). -->
+		<set name="icon" val="icon.bm_artifact_b_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81431" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - P. Skill Power - Attack -->
+		</capsuled_items>
+	</item>
+	<item id="61285" name="+10 Artifact Pack - M. Skill Power (Attack)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - M. Skill Power (attack). -->
+		<set name="icon" val="icon.bm_artifact_b_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81432" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - M. Skill Power - Attack -->
+		</capsuled_items>
+	</item>
+	<item id="61286" name="+10 Artifact Pack - Basic Attack Power (Attack)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - Basic Attack Power (attack). -->
+		<set name="icon" val="icon.bm_artifact_b_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="83616" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - Basic Attack Power - Attack -->
+		</capsuled_items>
+	</item>
+	<item id="61287" name="+10 Artifact Pack - P. Skill Critical Damage (Attack)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - P. Skill Critical Damage (attack). -->
+		<set name="icon" val="icon.bm_artifact_b_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80648" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - P. Skill Critical Damage - Attack -->
+		</capsuled_items>
+	</item>
+	<item id="61288" name="+10 Artifact Pack - M. Skill Critical Damage (Attack)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - M. Skill Critical Damage (attack). -->
+		<set name="icon" val="icon.bm_artifact_b_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80649" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - M. Skill Critical Damage - Attack -->
+		</capsuled_items>
+	</item>
+	<item id="61289" name="+10 Artifact Pack - Critical Damage for Basic Attacks (Attack)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - Critical Damage for Basic Attacks (attack). -->
+		<set name="icon" val="icon.bm_artifact_b_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80647" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - Critical Damage for Basic Attacks - Attack -->
+		</capsuled_items>
+	</item>
+	<item id="61290" name="+10 Artifact Pack - Atk. Spd. (Attack)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - Atk. Spd. (attack). -->
+		<set name="icon" val="icon.bm_artifact_b_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48959" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - Atk. Spd. - Attack -->
+		</capsuled_items>
+	</item>
+	<item id="61291" name="+10 Artifact Pack - Casting Spd. (Attack)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - Casting Spd. (attack). -->
+		<set name="icon" val="icon.bm_artifact_b_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48960" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - Casting Spd. - Attack -->
+		</capsuled_items>
+	</item>
+	<item id="61292" name="+10 Artifact Pack - Attribute Attack (Attack)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - Attribute Attack (attack). -->
+		<set name="icon" val="icon.bm_artifact_b_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81430" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - Attribute Attack - Attack -->
+		</capsuled_items>
+	</item>
+	<item id="61293" name="+10 Artifact Pack - P. Def. (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - P. Def. (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48961" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - P. Def. - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61294" name="+10 Artifact Pack - M. Def. (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - M. Def. (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48962" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - M. Def. - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61295" name="+10 Artifact Pack - Max HP (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - Max HP (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48963" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - Max HP - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61296" name="+10 Artifact Pack - Max MP (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - Max MP (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48964" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - Max MP - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61297" name="+10 Artifact Pack - Bow Resistance (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - Bow Resistance (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80650" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - Bow Resistance - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61298" name="+10 Artifact Pack - Dagger Resistance (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - Dagger Resistance (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80651" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - Dagger Resistance - Defense -->
+		</capsuled_items>
+	</item>
+	<item id="61299" name="+10 Artifact Pack - Sword Resistance (Defense)" type="EtcItem">
+		<!-- Double-click to obtain +10 Artifact - Sword Resistance (defense). -->
+		<set name="icon" val="icon.bm_artifact_c_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="80652" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" /> <!-- Artifact - Sword Resistance - Defense -->
+		</capsuled_items>
+	</item>
+</list>

@@ -1,0 +1,52 @@
+/*
+ * This file is part of the L2J Mobius project.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package org.l2jmobius.gameserver.network.serverpackets.commission;
+
+import org.l2jmobius.commons.network.buffer.WriteBuffer;
+import org.l2jmobius.gameserver.network.GameClient;
+import org.l2jmobius.gameserver.network.ServerPackets;
+import org.l2jmobius.gameserver.network.serverpackets.ServerPacket;
+
+/**
+ * This packet is sent to the client to confirm the deletion of a commission.<br>
+ * It informs the player that their request to remove a commission was successful.
+ * @author NosBit
+ */
+public class ExResponseCommissionDelete extends ServerPacket
+{
+	public static final ExResponseCommissionDelete SUCCEED = new ExResponseCommissionDelete(1);
+	public static final ExResponseCommissionDelete FAILED = new ExResponseCommissionDelete(0);
+	
+	private final int _result;
+	
+	/**
+	 * Creates a new {@code ExResponseCommissionDelete} packet.<br>
+	 * This constructor sets the internal result code.
+	 * @param result The integer status of the operation.
+	 */
+	private ExResponseCommissionDelete(int result)
+	{
+		_result = result;
+	}
+	
+	@Override
+	public void writeImpl(GameClient client, WriteBuffer buffer)
+	{
+		ServerPackets.EX_RESPONSE_COMMISSION_DELETE.writeId(this, buffer);
+		buffer.writeInt(_result);
+	}
+}

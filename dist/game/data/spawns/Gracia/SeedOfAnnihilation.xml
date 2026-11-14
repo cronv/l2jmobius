@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_01" minZ="-12640" maxZ="-12420">
+				<node x="-220263" y="179629" />
+				<node x="-218588" y="179648" />
+				<node x="-218544" y="181215" />
+				<node x="-220322" y="181178" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_02" minZ="-12655" maxZ="-12455">
+				<node x="-220287" y="175583" />
+				<node x="-219698" y="175587" />
+				<node x="-219679" y="178289" />
+				<node x="-220330" y="178317" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_03" minZ="-11386" maxZ="-11186">
+				<node x="-220236" y="174141" />
+				<node x="-218438" y="174141" />
+				<node x="-218438" y="175910" />
+				<node x="-220236" y="175910" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_04" minZ="-11388" maxZ="-11188">
+				<node x="-219449" y="177087" />
+				<node x="-218569" y="176796" />
+				<node x="-218545" y="180133" />
+				<node x="-219176" y="180037" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_05" minZ="-11391" maxZ="-11191">
+				<node x="-219428" y="180568" />
+				<node x="-218438" y="180403" />
+				<node x="-218541" y="181052" />
+				<node x="-220262" y="181002" />
+				<node x="-220250" y="178145" />
+				<node x="-219711" y="178123" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_06" minZ="-11386" maxZ="-11186">
+				<node x="-220195" y="182250" />
+				<node x="-218482" y="182250" />
+				<node x="-218482" y="183979" />
+				<node x="-220195" y="183979" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_07" minZ="-11388" maxZ="-11188">
+				<node x="-219044" y="185807" />
+				<node x="-217143" y="185755" />
+				<node x="-217074" y="186374" />
+				<node x="-218990" y="186589" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_08" minZ="-11757" maxZ="-11557">
+				<node x="-211990" y="181199" />
+				<node x="-210835" y="180067" />
+				<node x="-210216" y="180872" />
+				<node x="-211863" y="181387" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_09" minZ="-11064" maxZ="-10864">
+				<node x="-215475" y="182310" />
+				<node x="-214460" y="182073" />
+				<node x="-214327" y="182676" />
+				<node x="-215388" y="182686" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_10" minZ="-11408" maxZ="-11208">
+				<node x="-208840" y="182880" />
+				<node x="-207193" y="182880" />
+				<node x="-207196" y="184487" />
+				<node x="-208843" y="184487" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_11" minZ="-11387" maxZ="-11187">
+				<node x="-206617" y="177644" />
+				<node x="-205975" y="177644" />
+				<node x="-205975" y="180111" />
+				<node x="-206617" y="180053" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_12" minZ="-12645" maxZ="-12425">
+				<node x="-220202" y="182247" />
+				<node x="-218505" y="182237" />
+				<node x="-218484" y="183833" />
+				<node x="-220261" y="183795" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_13" minZ="-11419" maxZ="-11219">
+				<node x="-207614" y="179028" />
+				<node x="-206972" y="179028" />
+				<node x="-206972" y="181495" />
+				<node x="-207614" y="181437" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_14" minZ="-11385" maxZ="-11185">
+				<node x="-207534" y="174402" />
+				<node x="-205881" y="174402" />
+				<node x="-205881" y="176234" />
+				<node x="-207534" y="176234" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_15" minZ="-12705" maxZ="-12505">
+				<node x="-207387" y="180196" />
+				<node x="-205625" y="180196" />
+				<node x="-205625" y="181913" />
+				<node x="-207387" y="181913" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_16" minZ="-12745" maxZ="-12545">
+				<node x="-207414" y="174952" />
+				<node x="-205652" y="174952" />
+				<node x="-205652" y="176669" />
+				<node x="-207414" y="176669" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_17" minZ="-12718" maxZ="-12518">
+				<node x="-207410" y="177780" />
+				<node x="-205648" y="177780" />
+				<node x="-205648" y="179497" />
+				<node x="-207410" y="179497" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_18" minZ="-12780" maxZ="-12580">
+				<node x="-214218" y="178477" />
+				<node x="-212673" y="179060" />
+				<node x="-212983" y="179508" />
+				<node x="-214357" y="179479" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_20" minZ="-12634" maxZ="-12434">
+				<node x="-219201" y="174239" />
+				<node x="-218582" y="174243" />
+				<node x="-218563" y="177514" />
+				<node x="-219244" y="177542" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1323_21" minZ="-12643" maxZ="-12443">
+				<node x="-219237" y="177774" />
+				<node x="-218445" y="177752" />
+				<node x="-218420" y="178540" />
+				<node x="-219242" y="178525" />
+			</territory>
+		</territories>
+		<npc id="22763" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kanibi - Kokracon -->
+		<npc id="22764" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kiriona - Kokracon -->
+		<npc id="22765" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Kaiona - Kokracon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_07" minZ="-10506" maxZ="-10106">
+				<node x="-175973" y="175888" />
+				<node x="-173914" y="178503" />
+				<node x="-174611" y="180178" />
+				<node x="-177411" y="178025" />
+			</territory>
+		</territories>
+		<npc id="22750" count="5" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Bgurent - Bistakon -->
+		<npc id="22751" count="5" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Brakian - Bistakon -->
+		<npc id="22752" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Groikan - Bistakon -->
+		<npc id="22753" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Treykan - Bistakon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_09" minZ="-10603" maxZ="-10203">
+				<node x="-175700" y="181593" />
+				<node x="-174631" y="182140" />
+				<node x="-175709" y="183869" />
+				<node x="-177151" y="183834" />
+			</territory>
+		</territories>
+		<npc id="22750" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Bgurent - Bistakon -->
+		<npc id="22751" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Brakian - Bistakon -->
+		<npc id="22752" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Groikan - Bistakon -->
+		<npc id="22753" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Treykan - Bistakon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_11" minZ="-10684" maxZ="-10284">
+				<node x="-177730" y="181924" />
+				<node x="-177013" y="181814" />
+				<node x="-177984" y="183704" />
+				<node x="-178685" y="183490" />
+			</territory>
+		</territories>
+		<npc id="22750" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Bgurent - Bistakon -->
+		<npc id="22751" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Brakian - Bistakon -->
+		<npc id="22752" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Groikan - Bistakon -->
+		<npc id="22753" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Treykan - Bistakon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_13" minZ="-10577" maxZ="-10177">
+				<node x="-179701" y="179488" />
+				<node x="-178826" y="179254" />
+				<node x="-177566" y="180107" />
+				<node x="-178755" y="180665" />
+			</territory>
+		</territories>
+		<npc id="22750" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Bgurent - Bistakon -->
+		<npc id="22751" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Brakian - Bistakon -->
+		<npc id="22752" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Groikan - Bistakon -->
+		<npc id="22753" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Treykan - Bistakon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_15" minZ="-10624" maxZ="-10224">
+				<node x="-181691" y="178956" />
+				<node x="-180038" y="179797" />
+				<node x="-180437" y="180732" />
+				<node x="-182747" y="180311" />
+			</territory>
+		</territories>
+		<npc id="22750" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Bgurent - Bistakon -->
+		<npc id="22751" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Brakian - Bistakon -->
+		<npc id="22752" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Groikan - Bistakon -->
+		<npc id="22753" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Treykan - Bistakon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_17" minZ="-10333" maxZ="-9933">
+				<node x="-184058" y="175634" />
+				<node x="-183283" y="176075" />
+				<node x="-183586" y="177200" />
+				<node x="-184713" y="176600" />
+			</territory>
+		</territories>
+		<npc id="22750" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Bgurent - Bistakon -->
+		<npc id="22751" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Brakian - Bistakon -->
+		<npc id="22752" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Groikan - Bistakon -->
+		<npc id="22753" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Treykan - Bistakon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_19" minZ="-10481" maxZ="-10081">
+				<node x="-185748" y="177557" />
+				<node x="-183769" y="177854" />
+				<node x="-184627" y="179609" />
+				<node x="-185514" y="179832" />
+			</territory>
+		</territories>
+		<npc id="22750" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Bgurent - Bistakon -->
+		<npc id="22751" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Brakian - Bistakon -->
+		<npc id="22752" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Groikan - Bistakon -->
+		<npc id="22753" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Treykan - Bistakon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_21" minZ="-10564" maxZ="-10164">
+				<node x="-184399" y="180447" />
+				<node x="-183585" y="180316" />
+				<node x="-183587" y="181077" />
+				<node x="-184776" y="181082" />
+			</territory>
+		</territories>
+		<npc id="22750" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Bgurent - Bistakon -->
+		<npc id="22751" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Brakian - Bistakon -->
+		<npc id="22752" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Groikan - Bistakon -->
+		<npc id="22753" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Treykan - Bistakon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_23" minZ="-10570" maxZ="-10170">
+				<node x="-185601" y="181552" />
+				<node x="-184563" y="181249" />
+				<node x="-184480" y="182239" />
+				<node x="-185572" y="182199" />
+			</territory>
+		</territories>
+		<npc id="22750" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Bgurent - Bistakon -->
+		<npc id="22751" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Brakian - Bistakon -->
+		<npc id="22752" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Groikan - Bistakon -->
+		<npc id="22753" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Treykan - Bistakon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_25" minZ="-10630" maxZ="-10230">
+				<node x="-184640" y="182699" />
+				<node x="-182220" y="182659" />
+				<node x="-182557" y="183832" />
+				<node x="-184640" y="183792" />
+			</territory>
+		</territories>
+		<npc id="22750" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Bgurent - Bistakon -->
+		<npc id="22751" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Brakian - Bistakon -->
+		<npc id="22752" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Groikan - Bistakon -->
+		<npc id="22753" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Treykan - Bistakon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_51" minZ="-15906" maxZ="-15556">
+				<node x="-177113" y="177217" />
+				<node x="-175895" y="177181" />
+				<node x="-174867" y="178636" />
+				<node x="-177610" y="178574" />
+			</territory>
+		</territories>
+		<npc id="22757" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Turtlelian - Reptilikon -->
+		<npc id="22758" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Krajian - Reptilikon -->
+		<npc id="22759" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Tardyon - Reptilikon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_53" minZ="-15781" maxZ="-15431">
+				<node x="-176920" y="179012" />
+				<node x="-174726" y="179041" />
+				<node x="-174387" y="180717" />
+				<node x="-175828" y="180830" />
+			</territory>
+		</territories>
+		<npc id="22757" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Turtlelian - Reptilikon -->
+		<npc id="22758" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Krajian - Reptilikon -->
+		<npc id="22759" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Tardyon - Reptilikon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_55" minZ="-15746" maxZ="-15396">
+				<node x="-176505" y="181256" />
+				<node x="-174350" y="181229" />
+				<node x="-173952" y="182908" />
+				<node x="-176670" y="182761" />
+			</territory>
+		</territories>
+		<npc id="22757" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Turtlelian - Reptilikon -->
+		<npc id="22758" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Krajian - Reptilikon -->
+		<npc id="22759" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Tardyon - Reptilikon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_59" minZ="-15229" maxZ="-14879">
+				<node x="-181027" y="176943" />
+				<node x="-179948" y="176929" />
+				<node x="-179885" y="178941" />
+				<node x="-181711" y="179087" />
+			</territory>
+		</territories>
+		<npc id="22757" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Turtlelian - Reptilikon -->
+		<npc id="22758" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Krajian - Reptilikon -->
+		<npc id="22759" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Tardyon - Reptilikon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_61" minZ="-15261" maxZ="-14911">
+				<node x="-182518" y="180112" />
+				<node x="-179880" y="180143" />
+				<node x="-180026" y="180917" />
+				<node x="-182346" y="181268" />
+			</territory>
+		</territories>
+		<npc id="22757" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Turtlelian - Reptilikon -->
+		<npc id="22758" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Krajian - Reptilikon -->
+		<npc id="22759" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Tardyon - Reptilikon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_63" minZ="-15479" maxZ="-15129">
+				<node x="-185765" y="175812" />
+				<node x="-184264" y="175350" />
+				<node x="-183475" y="177392" />
+				<node x="-186212" y="177297" />
+			</territory>
+		</territories>
+		<npc id="22757" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Turtlelian - Reptilikon -->
+		<npc id="22758" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Krajian - Reptilikon -->
+		<npc id="22759" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Tardyon - Reptilikon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_65" minZ="-15603" maxZ="-15253">
+				<node x="-186631" y="177796" />
+				<node x="-184134" y="178765" />
+				<node x="-184319" y="179935" />
+				<node x="-186832" y="179761" />
+			</territory>
+		</territories>
+		<npc id="22757" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Turtlelian - Reptilikon -->
+		<npc id="22758" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Krajian - Reptilikon -->
+		<npc id="22759" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Tardyon - Reptilikon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_67" minZ="-15661" maxZ="-15311">
+				<node x="-187038" y="180215" />
+				<node x="-184047" y="180498" />
+				<node x="-184514" y="181888" />
+				<node x="-186720" y="182214" />
+			</territory>
+		</territories>
+		<npc id="22757" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Turtlelian - Reptilikon -->
+		<npc id="22758" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Krajian - Reptilikon -->
+		<npc id="22759" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Tardyon - Reptilikon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_69" minZ="-15840" maxZ="-15490">
+				<node x="-186832" y="182488" />
+				<node x="-183943" y="182514" />
+				<node x="-183865" y="183199" />
+				<node x="-186664" y="183768" />
+			</territory>
+		</territories>
+		<npc id="22757" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Turtlelian - Reptilikon -->
+		<npc id="22758" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Krajian - Reptilikon -->
+		<npc id="22759" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Tardyon - Reptilikon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_71" minZ="-15846" maxZ="-15496">
+				<node x="-186714" y="184055" />
+				<node x="-184960" y="183748" />
+				<node x="-184527" y="185180" />
+				<node x="-186182" y="185580" />
+			</territory>
+		</territories>
+		<npc id="22757" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Turtlelian - Reptilikon -->
+		<npc id="22758" count="2" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Krajian - Reptilikon -->
+		<npc id="22759" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Tardyon - Reptilikon -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="kadif02_1423_73" minZ="-15878" maxZ="-15528">
+				<node x="-186264" y="185820" />
+				<node x="-184242" y="185370" />
+				<node x="-183717" y="186786" />
+				<node x="-185213" y="187396" />
+			</territory>
+		</territories>
+		<npc id="22757" count="1" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Turtlelian - Reptilikon -->
+		<npc id="22758" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Krajian - Reptilikon -->
+		<npc id="22759" count="3" respawnTime="2min" respawnRandom="30sec" chaseRange="2500" /> <!-- Elite Tardyon - Reptilikon -->
+	</spawn>
+	<spawn name="14_22">
+		<group>
+			<npc id="32734" x="-178467" y="153371" z="2472" heading="11632" respawnTime="60sec" /> <!-- Klemis - Officer -->
+			<npc id="32735" x="-178247" y="153377" z="2472" heading="11632" respawnTime="60sec" /> <!-- Nemo -->
+			<npc id="32779" x="-175533" y="154851" z="2720" heading="16016" respawnTime="60sec" /> <!-- Flight Device -->
+			<npc id="33151" x="-178471" y="147060" z="2128" heading="11632" respawnTime="60sec" /> <!-- Rumiese - Officer -->
+			<npc id="22750" x="-176607" y="179162" z="-10432" heading="59555" respawnTime="60sec" chaseRange="2500" /> <!-- Elite Bgurent - Bistakon -->
+			<npc id="22753" x="-177505" y="179565" z="-10408" heading="33523" respawnTime="60sec" chaseRange="2500" /> <!-- Elite Treykan - Bistakon -->
+			<npc id="22759" x="-184732" y="182386" z="-15568" heading="60296" respawnTime="60sec" chaseRange="2500" /> <!-- Elite Tardyon - Reptilikon -->
+			<npc id="32736" x="-180232" y="186256" z="-10608" heading="11632" respawnTime="60sec" /> <!-- Ermian - General -->
+			<npc id="32739" x="-174654" y="184277" z="-15408" respawnTime="60sec" /> <!-- Bomona -->
+			<npc id="32769" x="-186060" y="185113" z="-15720" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32769" x="-186387" y="184931" z="-15672" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32769" x="-178104" y="183412" z="-10552" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32769" x="-180684" y="180340" z="-15152" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32769" x="-182125" y="180739" z="-15120" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32769" x="-181994" y="180454" z="-15152" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32769" x="-185356" y="178800" z="-10360" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32769" x="-184572" y="178800" z="-10384" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32769" x="-177062" y="177469" z="-15800" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32769" x="-175361" y="186569" z="-15128" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-186442" y="180512" z="-15528" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-183773" y="180772" z="-10464" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-185697" y="180908" z="-15480" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-184304" y="181000" z="-10480" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-178217" y="180304" z="-10496" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-178323" y="179954" z="-10432" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-180710" y="177036" z="-15152" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-176193" y="177386" z="-10312" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-174453" y="178028" z="-10224" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-175323" y="177600" z="-10248" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32771" x="-186684" y="182872" z="-15568" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32771" x="-186388" y="182808" z="-15592" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32771" x="-184817" y="181347" z="-10488" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32771" x="-181937" y="180452" z="-10520" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32771" x="-182072" y="180012" z="-10456" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32771" x="-185224" y="179492" z="-15408" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32771" x="-181532" y="180012" z="-10464" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32771" x="-174778" y="179102" z="-15768" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32772" x="-183067" y="183297" z="-10560" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32772" x="-176143" y="183062" z="-10496" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32772" x="-184988" y="176880" z="-15328" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32772" x="-184003" y="176960" z="-10232" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32772" x="-183506" y="176492" z="-10272" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32772" x="-174510" y="181976" z="-15696" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32772" x="-175455" y="181727" z="-15600" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32772" x="-176017" y="182610" z="-10512" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32773" x="-180354" y="186274" z="-10584" heading="64009" respawnTime="60sec" /> <!-- Jakan - Officer -->
+			<npc id="32774" x="-180090" y="186277" z="-10584" heading="34300" respawnTime="60sec" /> <!-- Elmina - Soldier -->
+			<npc id="32769" x="-214021" y="178783" z="-12720" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32769" x="-207123" y="181046" z="-12648" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32769" x="-206201" y="177767" z="-11344" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32769" x="-218812" y="175373" z="-11344" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-207358" y="180258" z="-11352" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-206182" y="175547" z="-12664" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-219090" y="182766" z="-11336" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-219269" y="178788" z="-11328" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-220074" y="176943" z="-12600" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32770" x="-219108" y="177044" z="-12584" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32771" x="-210934" y="180397" z="-11640" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32771" x="-206960" y="175312" z="-11336" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32771" x="-218946" y="186288" z="-11344" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32771" x="-218996" y="178493" z="-12592" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32772" x="-206090" y="179480" z="-12656" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32772" x="-207613" y="184400" z="-11336" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32772" x="-218624" y="180897" z="-11320" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32772" x="-219733" y="182869" z="-12600" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32772" x="-218650" y="180024" z="-12584" respawnTime="1800sec" /> <!-- Gracian Soldier's Corpse -->
+			<npc id="32775" x="-180397" y="186353" z="-10576" heading="59993" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32775" x="-180234" y="186114" z="-10584" heading="16236" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32775" x="-180395" y="186180" z="-10576" heading="4550" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32775" x="-180249" y="186380" z="-10592" heading="50574" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32775" x="-180105" y="186193" z="-10584" heading="27964" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32775" x="-180162" y="186440" z="-10576" heading="45361" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32775" x="-180057" y="186411" z="-10568" heading="40330" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32776" x="-180326" y="186350" z="-10584" heading="57345" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32776" x="-180298" y="186173" z="-10592" heading="9376" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32776" x="-180243" y="186487" z="-10568" heading="49649" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32776" x="-180383" y="186436" z="-10568" heading="56433" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32776" x="-180158" y="186177" z="-10592" heading="24234" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32776" x="-180214" y="186159" z="-10592" heading="18297" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32776" x="-180156" y="186280" z="-10600" heading="35959" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32776" x="-180195" y="186307" z="-10608" heading="42606" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32776" x="-180201" y="186216" z="-10608" heading="23260" respawnTime="60sec" /> <!-- Gracian Soldier -->
+			<npc id="32738" x="-184867" y="186582" z="-15816" heading="12564" respawnTime="60sec" /> <!-- Injured Soldier -->
+			<npc id="32738" x="-184822" y="179810" z="-15424" heading="39565" respawnTime="60sec" /> <!-- Injured Soldier -->
+			<npc id="32738" x="-184735" y="179369" z="-10424" heading="50804" respawnTime="60sec" /> <!-- Injured Soldier -->
+			<npc id="32738" x="-175193" y="179068" z="-10304" heading="27153" respawnTime="60sec" /> <!-- Injured Soldier -->
+			<npc id="32738" x="-175144" y="178477" z="-15800" heading="52696" respawnTime="60sec" /> <!-- Injured Soldier -->
+		</group>
+	</spawn>
+</list>

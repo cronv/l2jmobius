@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_14" minZ="-3914" maxZ="-3114">
+				<node x="-105566" y="245464" />
+				<node x="-104493" y="247466" />
+				<node x="-106893" y="251434" />
+				<node x="-107854" y="250935" />
+			</territory>
+		</territories>
+		<npc id="20091" count="3" respawnTime="15sec" chaseRange="100" /> <!-- Young Fox -->
+		<npc id="20119" count="2" respawnTime="15sec" chaseRange="100" /> <!-- Elder Fox -->
+		<npc id="20120" count="2" respawnTime="15sec" chaseRange="100" /> <!-- Wolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_15" minZ="-3659" maxZ="-2859">
+				<node x="-109462" y="246561" />
+				<node x="-107399" y="246482" />
+				<node x="-107852" y="248130" />
+				<node x="-109788" y="247447" />
+			</territory>
+		</territories>
+		<npc id="20091" count="2" respawnTime="15sec" chaseRange="100" /> <!-- Young Fox -->
+		<npc id="20119" count="3" respawnTime="15sec" chaseRange="100" /> <!-- Elder Fox -->
+		<npc id="20120" count="2" respawnTime="15sec" chaseRange="100" /> <!-- Wolf -->
+		<npc id="20151" count="3" respawnTime="15sec" chaseRange="300" /> <!-- Kobold -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_16" minZ="-3374" maxZ="-2574">
+				<node x="-109826" y="249820" />
+				<node x="-107763" y="249742" />
+				<node x="-108290" y="252011" />
+				<node x="-110151" y="250707" />
+			</territory>
+		</territories>
+		<npc id="20091" count="3" respawnTime="15sec" chaseRange="100" /> <!-- Young Fox -->
+		<npc id="20119" count="2" respawnTime="15sec" chaseRange="100" /> <!-- Elder Fox -->
+		<npc id="20120" count="3" respawnTime="15sec" chaseRange="100" /> <!-- Wolf -->
+		<npc id="20151" count="2" respawnTime="15sec" chaseRange="300" /> <!-- Kobold -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_17" minZ="-3920" maxZ="-3120">
+				<node x="-107059" y="247025" />
+				<node x="-105708" y="246167" />
+				<node x="-106263" y="248745" />
+				<node x="-107384" y="247912" />
+			</territory>
+		</territories>
+		<npc id="20091" count="3" respawnTime="15sec" chaseRange="100" /> <!-- Young Fox -->
+		<npc id="20119" count="3" respawnTime="15sec" chaseRange="100" /> <!-- Elder Fox -->
+		<npc id="20120" count="2" respawnTime="15sec" chaseRange="100" /> <!-- Wolf -->
+		<npc id="20151" count="2" respawnTime="15sec" chaseRange="300" /> <!-- Kobold -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_18" minZ="-3300" maxZ="-2500">
+				<node x="-109831" y="247464" />
+				<node x="-108041" y="248505" />
+				<node x="-108737" y="249616" />
+				<node x="-110429" y="249470" />
+			</territory>
+		</territories>
+		<npc id="20091" count="2" respawnTime="15sec" chaseRange="100" /> <!-- Young Fox -->
+		<npc id="20119" count="2" respawnTime="15sec" chaseRange="100" /> <!-- Elder Fox -->
+		<npc id="20120" count="3" respawnTime="15sec" chaseRange="100" /> <!-- Wolf -->
+		<npc id="20151" count="3" respawnTime="15sec" chaseRange="300" /> <!-- Kobold -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_29" minZ="-3765" maxZ="-3165">
+				<node x="-113376" y="245843" />
+				<node x="-112303" y="246268" />
+				<node x="-113243" y="247726" />
+				<node x="-114175" y="247308" />
+			</territory>
+		</territories>
+		<npc id="20091" count="4" respawnTime="1min" chaseRange="100" /> <!-- Young Fox -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_30" minZ="-3761" maxZ="-3161">
+				<node x="-114172" y="245331" />
+				<node x="-113430" y="245648" />
+				<node x="-114662" y="246673" />
+				<node x="-115097" y="246274" />
+			</territory>
+		</territories>
+		<npc id="20093" count="4" respawnTime="1min" /> <!-- Orc Warrior -->
+		<npc id="20119" count="4" respawnTime="1min" chaseRange="100" /> <!-- Elder Fox -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_31" minZ="-3620" maxZ="-2820">
+				<node x="-115511" y="245893" />
+				<node x="-115086" y="246133" />
+				<node x="-115694" y="246904" />
+				<node x="-116204" y="246258" />
+			</territory>
+		</territories>
+		<npc id="20093" count="4" respawnTime="1min" /> <!-- Orc Warrior -->
+		<npc id="20120" count="4" respawnTime="1min" chaseRange="100" /> <!-- Wolf -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_43" minZ="-7918" maxZ="-7718">
+				<node x="-115087" y="247575" />
+				<node x="-114533" y="247656" />
+				<node x="-114538" y="248514" />
+				<node x="-115006" y="248574" />
+			</territory>
+		</territories>
+		<npc id="23113" count="4" respawnTime="20sec" /> <!-- Crawler - Husk -->
+		<npc id="23114" count="4" respawnTime="20sec" /> <!-- Stalker - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_45" minZ="-2097" maxZ="-1897">
+				<node x="-118011" y="244796" />
+				<node x="-117274" y="245240" />
+				<node x="-117574" y="245699" />
+				<node x="-118299" y="245248" />
+			</territory>
+		</territories>
+		<npc id="20093" count="2" respawnTime="1min" /> <!-- Orc Warrior -->
+		<npc id="20094" count="2" respawnTime="1min" chaseRange="500" /> <!-- Orc Sniper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_46" minZ="-2120" maxZ="-1920">
+				<node x="-119096" y="244302" />
+				<node x="-118359" y="244746" />
+				<node x="-118659" y="245205" />
+				<node x="-119384" y="244754" />
+			</territory>
+		</territories>
+		<npc id="20093" count="2" respawnTime="1min" /> <!-- Orc Warrior -->
+		<npc id="20094" count="2" respawnTime="1min" chaseRange="500" /> <!-- Orc Sniper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_47" minZ="-2227" maxZ="-2027">
+				<node x="-119959" y="243733" />
+				<node x="-119222" y="244177" />
+				<node x="-119522" y="244636" />
+				<node x="-120247" y="244185" />
+			</territory>
+		</territories>
+		<npc id="20094" count="1" respawnTime="1min" chaseRange="500" /> <!-- Orc Sniper -->
+		<npc id="20096" count="2" respawnTime="1min" chaseRange="400" /> <!-- Orc Lieutenant -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_48" minZ="-2268" maxZ="-2068">
+				<node x="-120803" y="243215" />
+				<node x="-120067" y="243659" />
+				<node x="-120366" y="244118" />
+				<node x="-121091" y="243667" />
+			</territory>
+		</territories>
+		<npc id="20093" count="2" respawnTime="1min" /> <!-- Orc Warrior -->
+		<npc id="20094" count="2" respawnTime="1min" chaseRange="500" /> <!-- Orc Sniper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_49" minZ="-2239" maxZ="-2039">
+				<node x="-121660" y="242692" />
+				<node x="-120923" y="243136" />
+				<node x="-121223" y="243595" />
+				<node x="-121948" y="243144" />
+			</territory>
+		</territories>
+		<npc id="20093" count="2" respawnTime="1min" /> <!-- Orc Warrior -->
+		<npc id="20094" count="2" respawnTime="1min" chaseRange="500" /> <!-- Orc Sniper -->
+		<npc id="20096" count="2" respawnTime="1min" chaseRange="400" /> <!-- Orc Lieutenant -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_50" minZ="-2267" maxZ="-1767">
+				<node x="-118213" y="247449" />
+				<node x="-117759" y="247714" />
+				<node x="-118244" y="248421" />
+				<node x="-118717" y="248142" />
+			</territory>
+		</territories>
+		<npc id="20093" count="2" respawnTime="1min" /> <!-- Orc Warrior -->
+		<npc id="20094" count="2" respawnTime="1min" chaseRange="500" /> <!-- Orc Sniper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_51" minZ="-2376" maxZ="-2176">
+				<node x="-117688" y="246692" />
+				<node x="-117458" y="247012" />
+				<node x="-117720" y="247663" />
+				<node x="-118192" y="247385" />
+			</territory>
+		</territories>
+		<npc id="20093" count="2" respawnTime="1min" /> <!-- Orc Warrior -->
+		<npc id="20094" count="2" respawnTime="1min" chaseRange="500" /> <!-- Orc Sniper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_52" minZ="-2426" maxZ="-1926">
+				<node x="-117797" y="245785" />
+				<node x="-117393" y="245774" />
+				<node x="-117360" y="246789" />
+				<node x="-117775" y="246640" />
+			</territory>
+		</territories>
+		<npc id="20094" count="2" respawnTime="1min" chaseRange="500" /> <!-- Orc Sniper -->
+		<npc id="20096" count="2" respawnTime="1min" chaseRange="400" /> <!-- Orc Lieutenant -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_53" minZ="-2117" maxZ="-1917">
+				<node x="-117582" y="247937" />
+				<node x="-117129" y="248202" />
+				<node x="-117614" y="248908" />
+				<node x="-118086" y="248630" />
+			</territory>
+		</territories>
+		<npc id="20093" count="3" respawnTime="1min" /> <!-- Orc Warrior -->
+		<npc id="20094" count="1" respawnTime="1min" chaseRange="500" /> <!-- Orc Sniper -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es04_a" minZ="-2984" maxZ="-2484">
+				<node x="-112680" y="238063" />
+				<node x="-111190" y="238086" />
+				<node x="-111793" y="238864" />
+				<node x="-112612" y="239011" />
+			</territory>
+		</territories>
+		<npc id="22994" count="3" respawnTime="1min" /> <!-- Avian - Husk -->
+		<npc id="23122" count="3" respawnTime="1min" /> <!-- Eyesaroch - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es1_a" minZ="-3145" maxZ="-2645">
+				<node x="-114607" y="235204" />
+				<node x="-114578" y="235690" />
+				<node x="-114975" y="235931" />
+				<node x="-115307" y="236241" />
+				<node x="-116200" y="236142" />
+				<node x="-116200" y="236142" />
+				<node x="-116200" y="236142" />
+				<node x="-116200" y="236142" />
+				<node x="-116200" y="236142" />
+				<node x="-115715" y="235173" />
+				<node x="-114652" y="234655" />
+			</territory>
+		</territories>
+		<npc id="22991" count="6" respawnTime="10sec" /> <!-- Crawler - Husk -->
+		<npc id="22992" count="6" respawnTime="10sec" /> <!-- Stalker - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es1_bc" minZ="-3153" maxZ="-2653">
+				<node x="-112739" y="236224" />
+				<node x="-112720" y="236855" />
+				<node x="-112941" y="237307" />
+				<node x="-113419" y="237489" />
+				<node x="-113944" y="237313" />
+				<node x="-113944" y="237313" />
+				<node x="-113944" y="237313" />
+				<node x="-113944" y="237313" />
+				<node x="-113944" y="237313" />
+				<node x="-113876" y="236517" />
+				<node x="-113018" y="235457" />
+			</territory>
+		</territories>
+		<npc id="22991" count="6" respawnTime="10sec" /> <!-- Crawler - Husk -->
+		<npc id="22992" count="6" respawnTime="10sec" /> <!-- Stalker - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es1_c" minZ="-3155" maxZ="-2655">
+				<node x="-113601" y="235262" />
+				<node x="-113807" y="235611" />
+				<node x="-113844" y="235878" />
+				<node x="-114128" y="235782" />
+				<node x="-114677" y="235777" />
+				<node x="-114677" y="235777" />
+				<node x="-114677" y="235777" />
+				<node x="-114677" y="235777" />
+				<node x="-114677" y="235777" />
+				<node x="-114800" y="235177" />
+				<node x="-114592" y="234553" />
+				<node x="-113854" y="234890" />
+				<node x="-113363" y="235155" />
+				<node x="-113568" y="235162" />
+				<node x="-113860" y="235215" />
+			</territory>
+		</territories>
+		<npc id="22991" count="4" respawnTime="1min" /> <!-- Crawler - Husk -->
+		<npc id="22992" count="4" respawnTime="1min" /> <!-- Stalker - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es1_d" minZ="-3281" maxZ="-2781">
+				<node x="-115629" y="236284" />
+				<node x="-114666" y="237035" />
+				<node x="-114639" y="237402" />
+				<node x="-115155" y="237961" />
+				<node x="-115855" y="237420" />
+				<node x="-115855" y="237420" />
+				<node x="-115855" y="237420" />
+				<node x="-115855" y="237420" />
+				<node x="-115855" y="237420" />
+				<node x="-116083" y="237055" />
+				<node x="-116299" y="236315" />
+			</territory>
+		</territories>
+		<npc id="22991" count="4" respawnTime="10sec" /> <!-- Crawler - Husk -->
+		<npc id="22992" count="5" respawnTime="10sec" /> <!-- Stalker - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es2_a" minZ="-2994" maxZ="-2494">
+				<node x="-116340" y="232120" />
+				<node x="-116121" y="233934" />
+				<node x="-116869" y="234516" />
+				<node x="-117595" y="233688" />
+				<node x="-117829" y="233091" />
+				<node x="-117829" y="233091" />
+				<node x="-117829" y="233091" />
+				<node x="-117829" y="233091" />
+				<node x="-117829" y="233091" />
+				<node x="-118738" y="232559" />
+				<node x="-118192" y="231979" />
+			</territory>
+		</territories>
+		<npc id="22991" count="10" respawnTime="10sec" /> <!-- Crawler - Husk -->
+		<npc id="22996" count="7" respawnTime="10sec" /> <!-- Krapher - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es2_bc" minZ="-3004" maxZ="-2504">
+				<node x="-118091" y="233695" />
+				<node x="-118023" y="234085" />
+				<node x="-118300" y="234351" />
+				<node x="-118697" y="234462" />
+				<node x="-118969" y="234071" />
+				<node x="-118969" y="234071" />
+				<node x="-118969" y="234071" />
+				<node x="-118969" y="234071" />
+				<node x="-118969" y="234071" />
+				<node x="-118927" y="233414" />
+				<node x="-118188" y="233379" />
+			</territory>
+		</territories>
+		<npc id="22991" count="5" respawnTime="10sec" /> <!-- Crawler - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es3_a" minZ="-3359" maxZ="-2859">
+				<node x="-110407" y="232672" />
+				<node x="-110739" y="232727" />
+				<node x="-111161" y="233142" />
+				<node x="-111646" y="233319" />
+				<node x="-111572" y="231738" />
+				<node x="-111572" y="231738" />
+				<node x="-111572" y="231738" />
+				<node x="-111572" y="231738" />
+				<node x="-111572" y="231738" />
+				<node x="-110935" y="231731" />
+				<node x="-110470" y="232109" />
+			</territory>
+		</territories>
+		<npc id="22993" count="3" respawnTime="10sec" /> <!-- Critter - Husk -->
+		<npc id="22995" count="2" respawnTime="10sec" /> <!-- Rider - Husk -->
+		<npc id="23122" count="2" respawnTime="10sec" /> <!-- Eyesaroch - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es3_bc" minZ="-3246" maxZ="-2746">
+				<node x="-111427" y="233187" />
+				<node x="-112312" y="233708" />
+				<node x="-112344" y="234328" />
+				<node x="-113050" y="233865" />
+				<node x="-113083" y="232128" />
+				<node x="-113083" y="232128" />
+				<node x="-113083" y="232128" />
+				<node x="-113083" y="232128" />
+				<node x="-113083" y="232128" />
+				<node x="-112645" y="231716" />
+				<node x="-111313" y="231683" />
+			</territory>
+		</territories>
+		<npc id="22993" count="6" respawnTime="10sec" /> <!-- Critter - Husk -->
+		<npc id="22995" count="3" respawnTime="10sec" /> <!-- Rider - Husk -->
+		<npc id="23122" count="3" respawnTime="10sec" /> <!-- Eyesaroch - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es3_c" minZ="-3325" maxZ="-2825">
+				<node x="-110570" y="234088" />
+				<node x="-110820" y="234395" />
+				<node x="-111275" y="234426" />
+				<node x="-111971" y="234404" />
+				<node x="-111645" y="233637" />
+				<node x="-111645" y="233637" />
+				<node x="-111645" y="233637" />
+				<node x="-111645" y="233637" />
+				<node x="-111645" y="233637" />
+				<node x="-110902" y="233360" />
+				<node x="-110770" y="233499" />
+			</territory>
+		</territories>
+		<npc id="22994" count="3" respawnTime="10sec" /> <!-- Avian - Husk -->
+		<npc id="23122" count="3" respawnTime="10sec" /> <!-- Eyesaroch - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es4_bc" minZ="-2994" maxZ="-2494">
+				<node x="-110232" y="239579" />
+				<node x="-110277" y="240329" />
+				<node x="-110646" y="240809" />
+				<node x="-112422" y="240806" />
+				<node x="-112778" y="240417" />
+				<node x="-112778" y="240417" />
+				<node x="-112778" y="240417" />
+				<node x="-112778" y="240417" />
+				<node x="-112778" y="240417" />
+				<node x="-112774" y="239826" />
+			</territory>
+		</territories>
+		<npc id="22993" count="7" respawnTime="10sec" /> <!-- Critter - Husk -->
+		<npc id="22995" count="4" respawnTime="10sec" /> <!-- Rider - Husk -->
+		<npc id="23122" count="5" respawnTime="10sec" /> <!-- Eyesaroch - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es4_c" minZ="-2995" maxZ="-2495">
+				<node x="-110688" y="238167" />
+				<node x="-110250" y="238626" />
+				<node x="-110239" y="239251" />
+				<node x="-110658" y="239396" />
+				<node x="-111323" y="239300" />
+				<node x="-110863" y="238240" />
+			</territory>
+		</territories>
+		<npc id="22993" count="3" respawnTime="10sec" /> <!-- Critter - Husk -->
+		<npc id="22995" count="2" respawnTime="10sec" /> <!-- Rider - Husk -->
+		<npc id="23122" count="1" respawnTime="10sec" /> <!-- Eyesaroch - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es5_a" minZ="-2833" maxZ="-2333">
+				<node x="-117282" y="239686" />
+				<node x="-116813" y="240466" />
+				<node x="-116128" y="240945" />
+				<node x="-116829" y="241371" />
+				<node x="-118337" y="241290" />
+				<node x="-118337" y="241290" />
+				<node x="-118337" y="241290" />
+				<node x="-118337" y="241290" />
+				<node x="-118337" y="241290" />
+				<node x="-118739" y="240806" />
+				<node x="-118697" y="239179" />
+				<node x="-117947" y="238776" />
+			</territory>
+		</territories>
+		<npc id="22994" count="15" respawnTime="10sec" /> <!-- Avian - Husk -->
+		<npc id="22996" count="12" respawnTime="10sec" /> <!-- Krapher - Husk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="gludio_1625_es5_bc" minZ="-3015" maxZ="-2015">
+				<node x="-115957" y="239047" />
+				<node x="-115945" y="239625" />
+				<node x="-116002" y="240084" />
+				<node x="-116508" y="239918" />
+				<node x="-116827" y="239369" />
+				<node x="-116827" y="239369" />
+				<node x="-116827" y="239369" />
+				<node x="-116827" y="239369" />
+				<node x="-116827" y="239369" />
+				<node x="-116901" y="239016" />
+				<node x="-116259" y="238833" />
+			</territory>
+		</territories>
+		<npc id="22994" count="5" respawnTime="10sec" /> <!-- Avian - Husk -->
+	</spawn>
+	<spawn name="TalkingIslandTerritory">
+		<group>
+			<npc id="19152" x="-117671" y="246160" z="-2200" heading="51319" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-119066" y="244605" z="-2072" heading="4394" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-118138" y="245094" z="-2000" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-112532" y="233387" z="-3088" heading="21817" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-112584" y="233388" z="-3088" heading="10900" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-111126" y="232814" z="-3232" heading="6217" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-111587" y="232751" z="-3184" heading="43686" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-117247" y="233192" z="-2888" heading="32590" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-116559" y="232332" z="-2896" heading="57210" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-115808" y="237395" z="-3088" heading="5997" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-110523" y="239154" z="-2920" heading="12895" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-113800" y="235096" z="-3088" heading="58096" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-114739" y="234877" z="-3088" heading="34679" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-113145" y="236229" z="-3040" heading="62654" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-112912" y="236150" z="-3040" heading="39756" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-117202" y="240938" z="-2736" heading="27275" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-118582" y="240774" z="-2736" heading="14259" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-112196" y="240615" z="-2920" heading="19400" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19152" x="-112241" y="240535" z="-2920" heading="6468" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-119042" y="244611" z="-2072" heading="7340" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-117735" y="245496" z="-2032" heading="19625" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-111145" y="234144" z="-3216" heading="674" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-111098" y="234170" z="-3216" heading="42196" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-111471" y="233842" z="-3248" heading="60044" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-116905" y="232976" z="-2896" heading="21817" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-113040" y="232780" z="-3040" heading="43669" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-117076" y="233710" z="-2896" heading="63300" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-118837" y="233919" z="-2864" heading="32767" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-118692" y="233618" z="-2880" heading="45680" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-118854" y="233933" z="-2864" heading="9997" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-116549" y="239050" z="-2752" heading="35432" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-113740" y="235091" z="-3088" heading="38560" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-114730" y="234852" z="-3088" heading="22246" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-113654" y="236309" z="-3040" heading="32767" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-112922" y="236120" z="-3040" heading="23685" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-118555" y="240762" z="-2736" heading="21817" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-117173" y="240956" z="-2736" heading="32703" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-111485" y="240219" z="-2920" heading="25381" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-111538" y="240175" z="-2920" heading="12294" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19153" x="-112371" y="240592" z="-2920" heading="21817" respawnTime="60sec" /> <!-- Combat Soldier -->
+			<npc id="19154" x="-112402" y="234423" z="-3104" heading="62448" respawnTime="60sec" /> <!-- Combat Officer - Combat Assistant -->
+			<npc id="19154" x="-111474" y="234476" z="-3248" heading="53527" respawnTime="60sec" /> <!-- Combat Officer - Combat Assistant -->
+			<npc id="19154" x="-110907" y="234469" z="-3192" heading="53615" respawnTime="60sec" /> <!-- Combat Officer - Combat Assistant -->
+			<npc id="19154" x="-111641" y="239247" z="-2920" heading="52050" respawnTime="60sec" /> <!-- Combat Officer - Combat Assistant -->
+			<npc id="19154" x="-112717" y="240064" z="-2920" heading="57511" respawnTime="60sec" /> <!-- Combat Officer - Combat Assistant -->
+			<npc id="19154" x="-112480" y="240764" z="-2920" heading="54021" respawnTime="60sec" /> <!-- Combat Officer - Combat Assistant -->
+			<npc id="19154" x="-110487" y="232521" z="-3296" heading="55886" respawnTime="60sec" /> <!-- Combat Officer - Combat Assistant -->
+			<npc id="22991" x="-113901" y="236306" z="-3040" heading="10448" respawnTime="60sec" /> <!-- Crawler - Husk -->
+			<npc id="30004" x="-109725" y="237632" z="-2960" heading="63091" respawnTime="60sec" /> <!-- Katerina - Grocer -->
+			<npc id="32327" x="-107705" y="248904" z="-3208" heading="37104" respawnTime="60sec" /> <!-- Adventurers' Guide - Buff Manager -->
+			<npc id="32327" x="-115193" y="230265" z="-1656" heading="14052" respawnTime="60sec" /> <!-- Adventurers' Guide - Buff Manager -->
+			<npc id="32327" x="-111700" y="231758" z="-3176" heading="16024" respawnTime="60sec" /> <!-- Adventurers' Guide - Buff Manager -->
+			<npc id="32469" x="-113487" y="249706" z="-1816" heading="18044" respawnTime="60sec" /> <!-- Eindburgh - Vice Hierarch -->
+			<npc id="32970" x="-115159" y="249850" z="-1704" heading="6395" respawnTime="60sec" /> <!-- Whiteship -->
+			<npc id="32976" x="-115090" y="230813" z="-1712" heading="19231" respawnTime="60sec" /> <!-- Bart -->
+			<npc id="32977" x="-109408" y="237584" z="-2960" heading="32768" respawnTime="60sec" /> <!-- Rakcis -->
+			<npc id="32978" x="-111814" y="231790" z="-3160" heading="10875" respawnTime="60sec" /> <!-- Sebion -->
+			<npc id="33002" x="-117542" y="248815" z="-1936" heading="7037" respawnTime="60sec" />
+			<npc id="33002" x="-117584" y="248896" z="-1944" heading="453" respawnTime="60sec" />
+			<npc id="33002" x="-109186" y="246768" z="-3000" heading="19574" respawnTime="60sec" />
+			<npc id="33002" x="-109706" y="237424" z="-2960" heading="64353" respawnTime="60sec" />
+			<npc id="33004" x="-114710" y="245444" z="-7968" heading="49152" respawnTime="60sec" /> <!-- Toyron - Museum Keeper -->
+			<npc id="33106" x="-118471" y="249016" z="-1904" respawnTime="60sec" /> <!-- Guard -->
+			<npc id="33106" x="-120005" y="246922" z="-1304" respawnTime="60sec" /> <!-- Guard -->
+			<npc id="33107" x="-122185" y="240690" z="-2328" respawnTime="60sec" />
+			<npc id="33113" x="-117483" y="248887" z="-1944" heading="6542" respawnTime="60sec" />
+			<npc id="33116" x="-119757" y="246373" z="-1232" heading="8191" respawnTime="60sec" /> <!-- Oris -->
+			<npc id="33119" x="-115105" y="237378" z="-3089" respawnTime="60sec" /> <!-- Warrior -->
+			<npc id="33119" x="-115169" y="237486" z="-3089" respawnTime="60sec" /> <!-- Warrior -->
+			<npc id="33119" x="-115175" y="237373" z="-3089" respawnTime="60sec" /> <!-- Warrior -->
+			<npc id="33119" x="-115202" y="237414" z="-3089" respawnTime="60sec" /> <!-- Warrior -->
+			<npc id="33124" x="-117694" y="245310" z="-2024" heading="20000" respawnTime="60sec" /> <!-- Apprentice - Dwarven Workshop -->
+			<npc id="33124" x="-122290" y="240803" z="-2328" heading="16384" respawnTime="60sec" /> <!-- Apprentice - Dwarven Workshop -->
+			<npc id="33124" x="-107779" y="248968" z="-3208" heading="35908" respawnTime="60sec" /> <!-- Apprentice - Dwarven Workshop -->
+			<npc id="33124" x="-109465" y="237337" z="-2960" heading="5000" respawnTime="60sec" /> <!-- Apprentice - Dwarven Workshop -->
+			<npc id="33180" x="-109494" y="237529" z="-2960" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33181" x="-115127" y="237435" z="-3088" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33182" x="-113604" y="237291" z="-3040" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33183" x="-122230" y="240870" z="-2328" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33185" x="-110965" y="232228" z="-3248" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33186" x="-110929" y="233910" z="-3200" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33187" x="-112443" y="238616" z="-2904" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33188" x="-112344" y="240296" z="-2920" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33189" x="-116637" y="234043" z="-2896" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33190" x="-118412" y="234069" z="-2904" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33191" x="-118236" y="239223" z="-2736" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33192" x="-116475" y="239115" z="-2768" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33193" x="-114014" y="247680" z="-7872" heading="13665" respawnTime="60sec" /> <!-- Aymen -->
+			<npc id="33197" x="-115099" y="230192" z="-1648" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33202" x="-117733" y="245272" z="-2016" heading="20000" respawnTime="60sec" />
+			<npc id="33202" x="-122344" y="240803" z="-2328" heading="11264" respawnTime="60sec" />
+			<npc id="33202" x="-107780" y="249018" z="-3200" heading="36125" respawnTime="60sec" />
+			<npc id="33202" x="-109498" y="237374" z="-2960" heading="5000" respawnTime="60sec" />
+			<npc id="33203" x="-104334" y="245288" z="-4000" heading="37544" respawnTime="60sec" />
+			<npc id="33203" x="-102790" y="245412" z="-4152" heading="10889" respawnTime="60sec" />
+			<npc id="33203" x="-103512" y="247690" z="-3952" heading="41158" respawnTime="60sec" />
+			<npc id="33203" x="-101936" y="245090" z="-4376" heading="27860" respawnTime="60sec" />
+			<npc id="33203" x="-101376" y="248209" z="-4152" heading="22364" respawnTime="60sec" />
+			<npc id="33203" x="-107503" y="242615" z="-2608" heading="42847" respawnTime="60sec" />
+			<npc id="33203" x="-108269" y="242756" z="-2664" heading="28584" respawnTime="60sec" />
+			<npc id="33203" x="-108184" y="241494" z="-2072" heading="63879" respawnTime="60sec" />
+			<npc id="33203" x="-105512" y="241047" z="-1912" heading="16383" respawnTime="60sec" />
+			<npc id="33203" x="-104373" y="237534" z="-1832" heading="45762" respawnTime="60sec" />
+			<npc id="33203" x="-104435" y="238801" z="-1704" heading="42818" respawnTime="60sec" />
+			<npc id="33206" x="-117502" y="248539" z="-1968" heading="40800" respawnTime="60sec" /> <!-- Guard Captain -->
+			<npc id="33218" x="-113404" y="249823" z="-1816" heading="0" respawnTime="60sec" /> <!-- Soros -->
+			<npc id="33219" x="-105210" y="247610" z="-3640" heading="59900" respawnTime="60sec" /> <!-- Holly -->
+			<npc id="33223" x="-119816" y="246292" z="-968" heading="843" respawnTime="60sec" /> <!-- Bink -->
+			<npc id="33223" x="-114723" y="230366" z="-1664" heading="16383" respawnTime="60sec" /> <!-- Bink -->
+			<npc id="33230" x="-116789" y="249225" z="-1896" heading="33827" respawnTime="60sec" />
+			<npc id="33230" x="-115159" y="249100" z="-1696" heading="24037" respawnTime="60sec" />
+			<npc id="33230" x="-116137" y="248725" z="-1824" heading="17135" respawnTime="60sec" />
+			<npc id="33230" x="-116137" y="249350" z="-1744" heading="44757" respawnTime="60sec" />
+			<npc id="33230" x="-115485" y="249600" z="-1680" heading="50608" respawnTime="60sec" />
+			<npc id="33230" x="-115974" y="248850" z="-1776" heading="61356" respawnTime="60sec" />
+			<npc id="33230" x="-116300" y="248600" z="-1872" heading="29479" respawnTime="60sec" />
+			<npc id="33230" x="-115485" y="248975" z="-1736" heading="19481" respawnTime="60sec" />
+			<npc id="33230" x="-114996" y="249225" z="-1688" heading="27668" respawnTime="60sec" />
+			<npc id="33230" x="-116463" y="249600" z="-1784" heading="22395" respawnTime="60sec" />
+			<npc id="33230" x="-115648" y="249350" z="-1664" heading="58232" respawnTime="60sec" />
+			<npc id="33230" x="-115209" y="249940" z="-1704" heading="6204" respawnTime="60sec" />
+			<npc id="33230" x="-115159" y="249975" z="-1712" heading="5333" respawnTime="60sec" />
+			<npc id="33230" x="-116789" y="248975" z="-1912" heading="51499" respawnTime="60sec" />
+			<npc id="33230" x="-116952" y="248350" z="-1976" heading="206" respawnTime="60sec" />
+			<npc id="33231" x="-116463" y="249350" z="-1808" heading="3821" respawnTime="60sec" />
+			<npc id="33231" x="-115811" y="248850" z="-1760" heading="50148" respawnTime="60sec" />
+			<npc id="33231" x="-116137" y="249725" z="-1728" heading="43628" respawnTime="60sec" />
+			<npc id="33231" x="-116137" y="248850" z="-1800" heading="53177" respawnTime="60sec" />
+			<npc id="33231" x="-116626" y="249350" z="-1856" heading="24544" respawnTime="60sec" />
+			<npc id="33231" x="-117115" y="248975" z="-1944" heading="15924" respawnTime="60sec" />
+			<npc id="33231" x="-116952" y="248475" z="-1952" heading="16494" respawnTime="60sec" />
+			<npc id="33237" x="-114717" y="249834" z="-1712" heading="65472" respawnTime="60sec" />
+			<npc id="33238" x="-119839" y="246364" z="-968" heading="843" respawnTime="60sec" /> <!-- Mai -->
+			<npc id="33270" x="-119666" y="246116" z="-1232" heading="18107" respawnTime="60sec" /> <!-- Voltaire -->
+			<npc id="33286" x="-105274" y="247584" z="-3632" heading="64530" respawnTime="60sec" /> <!-- Guard Soldier -->
+			<npc id="33344" x="-116205" y="236409" z="-3088" respawnTime="60sec" /> <!-- Hadel - Giant's Minion -->
+			<npc id="33448" x="-107688" y="248731" z="-3216" heading="29720" respawnTime="60sec" /> <!-- Atran -->
+			<npc id="33449" x="-115283" y="237380" z="-3088" heading="44710" respawnTime="60sec" /> <!-- Chesha -->
+			<npc id="33450" x="-113506" y="237261" z="-3040" heading="49300" respawnTime="60sec" /> <!-- Nagel -->
+			<npc id="33451" x="-116539" y="234026" z="-2896" heading="6234" respawnTime="60sec" /> <!-- Celin -->
+			<npc id="33452" x="-116530" y="239219" z="-2768" heading="1063" respawnTime="60sec" /> <!-- Walter -->
+			<npc id="33477" x="-114711" y="243564" z="-7944" heading="16000" respawnTime="60sec" /> <!-- Cellphine - Giant's Minion -->
+			<npc id="33480" x="-114809" y="243578" z="-7952" heading="16000" respawnTime="60sec" /> <!-- Giant's Soldier -->
+			<npc id="33481" x="-114845" y="243591" z="-7960" heading="16000" respawnTime="60sec" /> <!-- Giant's Soldier -->
+			<npc id="33482" x="-114869" y="243608" z="-7968" heading="16000" respawnTime="60sec" /> <!-- Giant's Soldier -->
+			<npc id="33483" x="-114612" y="243580" z="-7952" heading="16000" respawnTime="60sec" /> <!-- Giant's Soldier -->
+			<npc id="33484" x="-114577" y="243593" z="-7960" heading="16000" respawnTime="60sec" /> <!-- Giant's Soldier -->
+			<npc id="33485" x="-114541" y="243597" z="-7968" heading="16000" respawnTime="60sec" /> <!-- Giant's Soldier -->
+			<npc id="33486" x="-114602" y="243798" z="-7968" heading="21592" respawnTime="60sec" /> <!-- Giant's Soldier -->
+			<npc id="33487" x="-114632" y="243825" z="-7968" heading="54537" respawnTime="60sec" /> <!-- Giant's Soldier -->
+			<npc id="33563" x="-116021" y="236167" z="-3088" heading="5672" respawnTime="60sec" /> <!-- Hermuncus' Minion - Dimension Keeper -->
+			<npc id="33571" x="-104474" y="247112" z="-3760" heading="63193" respawnTime="60sec" /> <!-- Toma Junior -->
+			<npc id="33572" x="-104451" y="248112" z="-3768" heading="63927" respawnTime="60sec" /> <!-- Galad -->
+			<npc id="33573" x="-104670" y="246355" z="-3768" heading="7037" respawnTime="60sec" /> <!-- Rouke -->
+			<npc id="33574" x="-115069" y="249621" z="-1696" respawnTime="60sec" /> <!-- Lucicon -->
+			<npc id="33575" x="-104795" y="247730" z="-3680" heading="64056" respawnTime="60sec" /> <!-- Luderic -->
+			<npc id="33205" x="-115142" y="226652" z="-2856" heading="16282" respawnTime="60sec" /> <!-- Ye Sagira Teleport Device -->
+			<npc id="33397" x="-113778" y="226579" z="-2856" heading="16651" respawnTime="60sec" /> <!-- Powerful Defensive Tanks - Sigel Knight Awakening -->
+			<npc id="33398" x="-114883" y="227669" z="-2856" heading="38465" respawnTime="60sec" /> <!-- Powerful Melee Damage Dealer - Tyrr Warrior Awakening -->
+			<npc id="33399" x="-114385" y="227675" z="-2856" heading="33801" respawnTime="60sec" /> <!-- Powerful Dagger Melee Damage Dealer - Othell Rogue Awakening -->
+			<npc id="33400" x="-113730" y="227135" z="-2856" heading="23665" respawnTime="60sec" /> <!-- Powerful Bow/Crossbow Sharpshooters - Yul Archer Awakening -->
+			<npc id="33401" x="-115276" y="227493" z="-2856" heading="44318" respawnTime="60sec" /> <!-- Powerful Magic Damage Dealer - Feoh Wizard Awakening -->
+			<npc id="33402" x="-113961" y="227492" z="-2856" heading="29434" respawnTime="60sec" /> <!-- Powerful Magic Buffer - Iss Enchanter Awakening -->
+			<npc id="33403" x="-115519" y="227172" z="-2856" heading="2723" respawnTime="60sec" /> <!-- Powerful Magic Summoner - Wynn Summoner Awakening -->
+			<npc id="33404" x="-114036" y="226182" z="-2856" heading="11430" respawnTime="60sec" /> <!-- Powerful Magic Healer - Aeore Healer Awakening -->
+			<npc id="33488" x="-114647" y="227058" z="-2840" heading="16282" respawnTime="60sec" /> <!-- Akram - Giant's Minion -->
+			<npc id="33492" x="-114445" y="226867" z="-2840" heading="64600" respawnTime="60sec" /> <!-- Ravidoff - Giant's Minion -->
+			<npc id="33549" x="-114962" y="226564" z="-2856" heading="16282" respawnTime="60sec" />
+			<npc id="33586" x="-114885" y="226971" z="-2856" heading="32768" respawnTime="60sec" />
+			<npc id="33586" x="-114434" y="226582" z="-2856" heading="16384" respawnTime="60sec" />
+			<npc id="33586" x="-114356" y="226867" z="-2856" heading="16384" respawnTime="60sec" />
+			<npc id="33586" x="-114651" y="227151" z="-2856" heading="16384" respawnTime="60sec" />
+			<npc id="33586" x="-114402" y="227100" z="-2856" heading="16384" respawnTime="60sec" />
+			<npc id="33870" x="-114075" y="227874" z="-2856" heading="48239" respawnTime="60sec" /> <!-- Hardin - Agent of Chaos -->
+			<npc id="33880" x="-114009" y="227900" z="-2856" heading="45119" respawnTime="60sec" /> <!-- Monk of Chaos -->
+			<npc id="33453" x="-112440" y="238712" z="-2923" heading="56098" respawnTime="60sec" /> <!-- Dep -->
+		</group>
+	</spawn>
+</list>

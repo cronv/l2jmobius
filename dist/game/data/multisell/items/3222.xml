@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+	<npcs>
+		<npc>-1</npc> <!-- Item Multisell -->
+	</npcs>
+	<!-- Equipment store of the illusory equipment window, opened by its own button. -->
+	<item>
+		<ingredient id="57" count="500000" /> <!-- Adena -->
+		<ingredient id="-1100" count="20" /> <!-- Illusory Equipment Points -->
+		<production id="60790" count="1" /> <!-- Emperor's Special Cocktail -->
+	</item>
+	<item>
+		<ingredient id="57" count="2000000" /> <!-- Adena -->
+		<ingredient id="-1100" count="20" /> <!-- Illusory Equipment Points -->
+		<production id="82305" count="1" /> <!-- Beora's Ancient Energy -->
+	</item>
+	<item>
+		<ingredient id="57" count="20000000" /> <!-- Adena -->
+		<ingredient id="-1100" count="50" /> <!-- Illusory Equipment Points -->
+		<production id="60792" count="1" /> <!-- Feather of Blessing - Event -->
+	</item>
+</list>

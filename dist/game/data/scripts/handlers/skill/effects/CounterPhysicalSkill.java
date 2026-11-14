@@ -1,0 +1,39 @@
+/*
+ * This file is part of the L2J Mobius project.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package handlers.skill.effects;
+
+import org.l2jmobius.gameserver.mechanics.stats.Stat;
+import org.l2jmobius.gameserver.util.StatSet;
+
+/**
+ * Handles the application of physical counter effects to a character.<br>
+ * This class manages how {@code Stat} values are modified during a counter action.
+ * @author Sdw
+ */
+public class CounterPhysicalSkill extends AbstractStatAddEffect
+{
+	/**
+	 * Creates a new {@code CounterPhysicalSkill} instance.<br>
+	 * This constructor initializes the effect using the provided statistics.<br>
+	 * It applies the changes to the {@code VENGEANCE_SKILL_PHYSICAL_DAMAGE} stat.
+	 * @param params The {@code StatSet} containing the values to apply.
+	 */
+	public CounterPhysicalSkill(StatSet params)
+	{
+		super(params, Stat.VENGEANCE_SKILL_PHYSICAL_DAMAGE);
+	}
+}

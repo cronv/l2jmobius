@@ -1,0 +1,48 @@
+/*
+ * Copyright (c) 2013 L2jMobius
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+ * IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+package org.l2jmobius.gameserver.config.custom;
+
+import org.l2jmobius.commons.util.ConfigReader;
+
+/**
+ * This class handles the loading of custom {@code sayune} data for all related configurations.<br>
+ * It ensures that global configuration settings are correctly initialized from the source files.
+ * @author Mobius
+ */
+public class SayuneForAllConfig
+{
+	// File
+	private static final String SAYUNE_FOR_ALL_CONFIG_FILE = "./config/Custom/SayuneForAll.ini";
+	
+	// Constants
+	public static boolean FREE_JUMPS_FOR_ALL;
+	
+	/**
+	 * Loads the configuration settings from the file.<br>
+	 * It populates the {@code FREE_JUMPS_FOR_ALL} constant.<br>
+	 * This method should be called during the server startup.
+	 */
+	public static void load()
+	{
+		final ConfigReader config = new ConfigReader(SAYUNE_FOR_ALL_CONFIG_FILE);
+		FREE_JUMPS_FOR_ALL = config.getBoolean("FreeJumpsForAll", false);
+	}
+}

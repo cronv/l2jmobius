@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories>
+			<territory name="rumwarsha_e1225_01" minZ="1168" maxZ="7168">
+				<node x="-249823" y="232011" />
+				<node x="-247075" y="234426" />
+				<node x="-247621" y="238821" />
+				<node x="-251461" y="241281" />
+				<node x="-256609" y="239998" />
+				<node x="-257707" y="236381" />
+				<node x="-257251" y="233400" />
+				<node x="-255033" y="232088" />
+				<node x="-252727" y="231656" />
+			</territory>
+		</territories>
+		<npc id="22610" count="10" respawnTime="1min" /> <!-- Mutated Drake Wing -->
+		<npc id="22611" count="10" respawnTime="1min" /> <!-- Mutated Drake Wing -->
+		<npc id="22612" count="9" respawnTime="1min" /> <!-- Drak -->
+		<npc id="22613" count="9" respawnTime="1min" /> <!-- Drak -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rumwarsha_e1424_01" minZ="1756" maxZ="7756">
+				<node x="-168244" y="221135" />
+				<node x="-170167" y="225809" />
+				<node x="-176335" y="227101" />
+				<node x="-181642" y="223276" />
+				<node x="-182495" y="218884" />
+				<node x="-179831" y="214760" />
+				<node x="-174890" y="213444" />
+				<node x="-174890" y="213444" />
+				<node x="-170762" y="213704" />
+				<node x="-168043" y="216890" />
+			</territory>
+		</territories>
+		<npc id="22602" count="8" respawnTime="1min" /> <!-- Mutant Bird -->
+		<npc id="22603" count="9" respawnTime="1min" /> <!-- Mutant Bird -->
+		<npc id="22604" count="8" respawnTime="1min" /> <!-- Dra Hawk -->
+		<npc id="22605" count="7" respawnTime="1min" /> <!-- Dra Hawk -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="rumwarsha_e1424_03" minZ="1756" maxZ="7756">
+				<node x="-175622" y="209759" />
+				<node x="-177546" y="214433" />
+				<node x="-183713" y="215725" />
+				<node x="-189020" y="211900" />
+				<node x="-189874" y="207508" />
+				<node x="-187209" y="203384" />
+				<node x="-182268" y="202068" />
+				<node x="-182268" y="202068" />
+				<node x="-178140" y="202328" />
+				<node x="-175421" y="205514" />
+			</territory>
+		</territories>
+		<npc id="22606" count="8" respawnTime="1min" /> <!-- Floating Skeleton -->
+		<npc id="22607" count="9" respawnTime="1min" /> <!-- Floating Skeleton -->
+		<npc id="22608" count="8" respawnTime="1min" /> <!-- Floating Zombie -->
+		<npc id="22609" count="5" respawnTime="1min" /> <!-- Floating Zombie -->
+	</spawn>
+	<spawn name="SeedOfInfinity">
+		<group>
+			<npc id="32603" x="-213142" y="209768" z="4272" heading="4928" respawnTime="60sec" /> <!-- Tepios - Officer -->
+			<npc id="32604" x="-213770" y="210760" z="4400" heading="57343" respawnTime="60sec" /> <!-- Flight Device -->
+			<npc id="33915" x="-212831" y="209536" z="4272" heading="16384" respawnTime="60sec" /> <!-- Jaedin - Guide of Infinity -->
+			<npc id="18684" x="-226264" y="213859" z="2798" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-207300" y="207514" z="4294" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-208644" y="204910" z="3260" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-212676" y="204042" z="5250" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-205284" y="207080" z="2798" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-212004" y="203174" z="4540" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-212676" y="205778" z="5384" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-205284" y="207080" z="2798" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-205284" y="205778" z="5489" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-205956" y="205344" z="5371" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-210660" y="206646" z="4175" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-212676" y="206212" z="2721" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18687" x="-206356" y="215773" z="2435" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18687" x="-204481" y="214701" z="1198" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18687" x="-201981" y="213093" z="2728" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18687" x="-203231" y="209877" z="3577" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-206356" y="217917" z="3692" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-205731" y="214165" z="3425" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-202606" y="213629" z="1820" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-201981" y="212557" z="1900" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-199481" y="209877" z="1971" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-208231" y="219525" z="3072" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-203856" y="217917" z="2214" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-198856" y="216309" z="2550" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-200106" y="215773" z="1233" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-201981" y="209877" z="1054" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18690" x="-225749" y="225634" z="4894" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18690" x="-226355" y="222616" z="4356" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18690" x="-216659" y="217586" z="5188" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18690" x="-216659" y="222113" z="3732" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18690" x="-219083" y="225634" z="5363" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18691" x="-218477" y="219095" z="3013" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18691" x="-216053" y="217586" z="5331" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18691" x="-215447" y="218089" z="4822" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18691" x="-218477" y="219598" z="4032" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18691" x="-216053" y="226137" z="2598" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18692" x="-219083" y="220604" z="4327" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18692" x="-217871" y="220604" z="3863" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18692" x="-215447" y="223119" z="5034" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18692" x="-216659" y="223622" z="4427" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18692" x="-215447" y="224628" z="3320" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18684" x="-230881" y="238048" z="2951" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-248155" y="234778" z="3102" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18687" x="-249275" y="235195" z="2520" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18687" x="-250377" y="232360" z="2797" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18687" x="-253234" y="244508" z="4273" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18687" x="-255434" y="243993" z="4937" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18687" x="-254114" y="247083" z="4517" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18687" x="-256314" y="247083" z="5493" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18687" x="-250928" y="236410" z="3884" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-252794" y="242448" z="5226" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-253234" y="244508" z="4273" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-253674" y="245538" z="5036" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-255434" y="242448" z="5203" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-252581" y="231955" z="4181" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-253132" y="237220" z="2912" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-252581" y="236005" z="2550" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-249826" y="236815" z="2698" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-254785" y="233575" z="3836" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-254234" y="233575" z="3847" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-248724" y="238435" z="2647" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-254994" y="247598" z="4876" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-252354" y="242963" z="5399" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-253674" y="242963" z="3945" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-252030" y="233170" z="2513" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-251479" y="235195" z="2791" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18690" x="-232708" y="247705" z="3400" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18690" x="-232121" y="248613" z="1343" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18690" x="-233295" y="248159" z="2152" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18690" x="-255616" y="253680" z="5078" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18691" x="-239752" y="248613" z="3231" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18692" x="-233295" y="246797" z="2610" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18692" x="-232121" y="249067" z="1101" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18692" x="-232708" y="242711" z="1854" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18684" x="-173067" y="224195" z="971" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-175303" y="227425" z="-341" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-191025" y="207174" z="4062" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-190466" y="208274" z="4859" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-187112" y="215974" z="3719" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-193820" y="214874" z="5198" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-189348" y="211574" z="4474" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-188230" y="209374" z="4444" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-172604" y="211293" z="3682" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-175862" y="217735" z="265" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-172508" y="226133" z="681" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-171999" y="210081" z="4661" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-171999" y="210485" z="5371" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-171394" y="207657" z="4337" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-170789" y="208869" z="4642" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18684" x="-178049" y="208465" z="4068" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-174185" y="228071" z="801" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-194938" y="215424" z="4858" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-192702" y="213224" z="5328" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-190466" y="208274" z="4859" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-192143" y="211024" z="5082" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-188230" y="214324" z="4613" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-187671" y="213774" z="5452" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-187671" y="214874" z="3774" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-171394" y="211697" z="3464" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-173209" y="210081" z="3689" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-171999" y="210081" z="4661" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-174419" y="208061" z="3465" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-173209" y="207253" z="5029" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-173626" y="216443" z="115" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-172604" y="214525" z="3037" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-173626" y="217735" z="397" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-171949" y="219673" z="839" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18685" x="-173626" y="226133" z="-163" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-177444" y="210485" z="3314" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-173209" y="214121" z="4920" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-170831" y="222257" z="436" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-171390" y="221611" z="-157" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-170831" y="224195" z="191" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-173626" y="225487" z="327" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-173209" y="213717" z="3779" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-175629" y="213717" z="3467" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-170789" y="207657" z="3581" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-171394" y="208869" z="3130" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-178049" y="210081" z="5349" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-188789" y="211024" z="4945" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-174744" y="227425" z="-91" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-191025" y="208274" z="5093" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-192143" y="213224" z="5103" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-192143" y="213774" z="5186" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-192702" y="213224" z="5328" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18686" x="-194379" y="215424" z="4176" respawnTime="60sec" /> <!-- Red Star Stone -->
+			<npc id="18687" x="-190387" y="218925" z="1625" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18687" x="-192515" y="224343" z="3970" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18687" x="-193047" y="224343" z="2928" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-194111" y="219699" z="3720" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-191451" y="223569" z="2739" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18688" x="-191451" y="223956" z="2545" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-193047" y="218925" z="1505" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-188791" y="218925" z="1998" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-191451" y="219312" z="3018" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18689" x="-191451" y="223956" z="2545" respawnTime="60sec" /> <!-- Blue Star Stone -->
+			<npc id="18690" x="-180800" y="202823" z="3918" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18691" x="-180800" y="202823" z="3918" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="18692" x="-176546" y="202823" z="3291" respawnTime="60sec" /> <!-- Green Star Stone -->
+			<npc id="32537" x="-182996" y="206510" z="-12896" heading="40959" respawnTime="60sec" /> <!-- Mouth of Ekimus -->
+			<npc id="32537" x="-183002" y="205944" z="-12896" heading="24576" respawnTime="60sec" /> <!-- Mouth of Ekimus -->
+			<npc id="32537" x="-183589" y="206510" z="-12896" heading="57343" respawnTime="60sec" /> <!-- Mouth of Ekimus -->
+			<npc id="32537" x="-183586" y="205947" z="-12896" heading="8192" respawnTime="60sec" /> <!-- Mouth of Ekimus -->
+			<npc id="32539" x="-183295" y="205861" z="-12896" heading="16384" respawnTime="60sec" /> <!-- Gatekeeper of Abyss -->
+			<npc id="32546" x="-183443" y="206013" z="-12896" heading="24186" respawnTime="60sec" /> <!-- Asyatei - Soul Trader -->
+			<npc id="32603" x="-183282" y="205703" z="-12896" heading="16384" respawnTime="60sec" /> <!-- Tepios - Officer -->
+		</group>
+	</spawn>
+</list>

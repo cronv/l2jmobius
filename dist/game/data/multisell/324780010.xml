@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>-1</npc> <!-- Game Assistant Button -->
+	</npcs>
+	<!-- Exchange Heir's Radiance Shards -->
+	<item>
+		<ingredient id="48876" count="1" /> <!-- Forgotten Spellbook - Chapter 1 -->
+		<production id="29759" count="1" /> <!-- Heir's Radiance Shard -->
+	</item>
+	<item>
+		<ingredient id="80636" count="1" /> <!-- Artifact Crystal -->
+		<production id="29759" count="1" /> <!-- Heir's Radiance Shard -->
+	</item>
+	<item>
+		<ingredient id="80000" count="1" /> <!-- Artifact Fragment -->
+		<production id="29759" count="1" /> <!-- Heir's Radiance Shard -->
+	</item>
+	<item>
+		<ingredient id="81134" count="1" /> <!-- Crystal of Dyes -->
+		<production id="29759" count="1" /> <!-- Heir's Radiance Shard -->
+	</item>
+	<item>
+		<ingredient id="48831" count="1" /> <!-- Jewel Energy -->
+		<production id="29759" count="1" /> <!-- Heir's Radiance Shard -->
+	</item>
+	<item>
+		<ingredient id="80964" count="1" /> <!-- Energy of Protection -->
+		<production id="29759" count="1" /> <!-- Heir's Radiance Shard -->
+	</item>
+</list>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/zones.xsd">
+	<!-- Retail only_pve areas (areadata type=only_pve, default_status=on): no PvP, no XP loss and no item drop on death. -->
+	<zone name="20_15_toh_only_pve" type="OnlyPveZone" shape="NPoly" minZ="-11013" maxZ="-10813">
+		<node X="9793" Y="-88332" />
+		<node X="13506" Y="-88338" />
+		<node X="13545" Y="-84551" />
+		<node X="9825" Y="-84611" />
+	</zone>
+	<zone name="20_15_toh_only_pve_307" type="OnlyPveZone" shape="NPoly" minZ="-11013" maxZ="-10813">
+		<node X="9793" Y="-88332" />
+		<node X="13506" Y="-88338" />
+		<node X="13545" Y="-84551" />
+		<node X="9825" Y="-84611" />
+	</zone>
+	<zone name="20_15_toh_only_pve_308" type="OnlyPveZone" shape="NPoly" minZ="-11013" maxZ="-10813">
+		<node X="9793" Y="-88332" />
+		<node X="13506" Y="-88338" />
+		<node X="13545" Y="-84551" />
+		<node X="9825" Y="-84611" />
+	</zone>
+	<zone name="20_15_toh_only_pve_309" type="OnlyPveZone" shape="NPoly" minZ="-11013" maxZ="-10813">
+		<node X="9793" Y="-88332" />
+		<node X="13506" Y="-88338" />
+		<node X="13545" Y="-84551" />
+		<node X="9825" Y="-84611" />
+	</zone>
+	<zone name="25_23_balthus_camp_only_pve" type="OnlyPveZone" shape="NPoly" minZ="-13254" maxZ="-8254">
+		<node X="165653" Y="165591" />
+		<node X="195020" Y="165702" />
+		<node X="194897" Y="195182" />
+		<node X="165486" Y="194965" />
+	</zone>
+	<zone name="12_23_at_sender_only_pve" type="OnlyPveZone" shape="NPoly" minZ="-9313" maxZ="-7813">
+		<node X="-252448" Y="177170" />
+		<node X="-250997" Y="177170" />
+		<node X="-250984" Y="179287" />
+		<node X="-252435" Y="179287" />
+	</zone>
+	<zone name="1819_at_boss_only_pve" type="OnlyPveZone" shape="NPoly" minZ="-9005" maxZ="-8705">
+		<node X="-56625" Y="37490" />
+		<node X="-55713" Y="37489" />
+		<node X="-55730" Y="39074" />
+		<node X="-56624" Y="39074" />
+	</zone>
+	<zone name="25_23_ios_only_pve" type="OnlyPveZone" shape="NPoly" minZ="-5303" maxZ="697">
+		<node X="195851" Y="164546" />
+		<node X="195874" Y="195958" />
+		<node X="165201" Y="195994" />
+		<node X="164260" Y="180868" />
+		<node X="172660" Y="164649" />
+	</zone>
+	<zone name="24_12_ios_only_pve" type="OnlyPveZone" shape="NPoly" minZ="-2000" maxZ="4000">
+		<node X="135323" Y="-178822" />
+		<node X="155275" Y="-178822" />
+		<node X="155275" Y="-165690" />
+		<node X="135323" Y="-165690" />
+	</zone>
+</list>

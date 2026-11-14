@@ -1,0 +1,3108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="29400" level="85" type="Folk" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29401" level="120" type="RaidBoss" name="Baylor" title="Warden">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="592368480" sp="533131" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="52495560" hpRegen="13.4" mp="22800" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="34" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="1950" />
+				<defence fire="2050" water="2050" wind="2050" earth="2050" holy="2000" dark="2050" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="43.2" />
+			<height normal="93.48" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="33180" level="1" /> <!-- Party Instance Zone Bonus -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Resistance -->
+			<skill id="14623" level="1" /> <!-- Mutation Resistance -->
+			<skill id="33104" level="1" /> <!-- Party Bonus -->
+			<skill id="62206" level="10" /> <!-- Evasion Reduction -->
+		</skillList>
+	</npc>
+	<npc id="29402" level="127" type="RaidBoss" name="Guillotine" title="Execution Grounds' Watcher">
+		<parameters>
+			<skill name="Skill01_ID" id="34458" level="1" />
+			<skill name="Skill02_ID" id="34460" level="1" />
+			<skill name="Skill03_ID" id="34461" level="1" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="5337882367" sp="4804094" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="359319614" hpRegen="13.4" mp="68076" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="100" distance="2000" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="90" />
+				<run ground="300" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2550" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2600" dark="2650" />
+			</attribute>
+		</stats>
+		<status attackable="true" canMove="false" />
+		<ai type="MAGE" aggroRange="1500" isAggressive="false" clanHelpRange="1000">
+			<clanList>
+				<clan>GUILLOTINE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="60" />
+			<height normal="124.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="32909" level="1" /> <!-- Rule of Looting -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34458" level="1" /> <!-- Vicious Killing Strike -->
+			<skill id="34460" level="1" /> <!-- Fatal Slash -->
+			<skill id="34461" level="1" /> <!-- Soul Decay -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="7" /> <!-- Received Damage Resistance -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="80103" min="1" max="1" chance="7.1" /> <!-- Krishna Dual Blunt Weapons -->
+					<item id="80098" min="1" max="1" chance="7.15" /> <!-- Krishna Buster -->
+					<item id="80094" min="1" max="1" chance="7.15" /> <!-- Krishna Fighter -->
+					<item id="80092" min="1" max="1" chance="7.15" /> <!-- Krishna Slasher -->
+					<item id="80090" min="1" max="1" chance="7.15" /> <!-- Krishna Shaper -->
+					<item id="80099" min="1" max="1" chance="7.15" /> <!-- Krishna Caster -->
+					<item id="80101" min="1" max="1" chance="7.15" /> <!-- Krishna Dual Swords -->
+					<item id="80100" min="1" max="1" chance="7.15" /> <!-- Krishna Retributer -->
+					<item id="80097" min="1" max="1" chance="7.15" /> <!-- Krishna Guardian -->
+					<item id="80093" min="1" max="1" chance="7.15" /> <!-- Krishna Avenger -->
+					<item id="80102" min="1" max="1" chance="7.1" /> <!-- Krishna Dual Daggers -->
+					<item id="80091" min="1" max="1" chance="7.15" /> <!-- Krishna Cutter -->
+					<item id="80095" min="1" max="1" chance="7.15" /> <!-- Krishna Stormer -->
+					<item id="80096" min="1" max="1" chance="7.15" /> <!-- Krishna Thrower -->
+				</group>
+				<group chance="100">
+					<item id="80104" min="2" max="2" chance="20" /> <!-- Leviathan Helmet - Heavy armor -->
+					<item id="80107" min="2" max="2" chance="20" /> <!-- Leviathan Gauntlets - Heavy armor -->
+					<item id="80105" min="2" max="2" chance="20" /> <!-- Leviathan Breastplate - Heavy armor -->
+					<item id="80106" min="2" max="2" chance="20" /> <!-- Leviathan Gaiters - Heavy armor -->
+					<item id="80108" min="2" max="2" chance="20" /> <!-- Leviathan Boots - Heavy armor -->
+				</group>
+				<group chance="100">
+					<item id="80112" min="2" max="2" chance="20" /> <!-- Leviathan Leather Leggings - Light armor -->
+					<item id="80114" min="2" max="2" chance="20" /> <!-- Leviathan Leather Boots - Light armor -->
+					<item id="80110" min="2" max="2" chance="20" /> <!-- Leviathan Leather Helmet - Light armor -->
+					<item id="80113" min="2" max="2" chance="20" /> <!-- Leviathan Leather Gloves - Light armor -->
+					<item id="80111" min="2" max="2" chance="20" /> <!-- Leviathan Leather Armor - Light armor -->
+				</group>
+				<group chance="100">
+					<item id="80118" min="2" max="2" chance="20" /> <!-- Leviathan Gloves - Robe -->
+					<item id="80116" min="2" max="2" chance="20" /> <!-- Leviathan Tunic - Robe -->
+					<item id="80117" min="2" max="2" chance="20" /> <!-- Leviathan Stockings - Robe -->
+					<item id="80119" min="2" max="2" chance="20" /> <!-- Leviathan Shoes - Robe -->
+					<item id="80115" min="2" max="2" chance="20" /> <!-- Leviathan Circlet - Robe -->
+				</group>
+				<group chance="100">
+					<item id="81858" min="1" max="1" chance="65" /> <!-- Orb of Darkness -->
+					<item id="80333" min="1" max="1" chance="1.3" /> <!-- Dragon's Necklace -->
+					<item id="80335" min="1" max="1" chance="1.3" /> <!-- Dragon's Ring -->
+					<item id="80334" min="1" max="1" chance="1.3" /> <!-- Dragon's Earring -->
+					<item id="81153" min="1" max="1" chance="31.1" /> <!-- Navari's Mask -->
+				</group>
+				<group chance="30">
+					<item id="82860" min="1" max="1" chance="14" /> <!-- Gran Kain's Scroll: Enchant L-grade Weapon -->
+					<item id="82868" min="1" max="1" chance="86" /> <!-- Gran Kain's Scroll: Enchant L-grade Armor -->
+				</group>
+				<group chance="100">
+					<item id="82032" min="4" max="4" chance="12.5" /> <!-- Shining Jewel Energy -->
+					<item id="35567" min="1" max="1" chance="12.5" /> <!-- Dark Armor Upgrade Stone -->
+					<item id="82049" min="1" max="1" chance="12.5" /> <!-- Sayha's Shining Energy -->
+					<item id="81770" min="1" max="1" chance="12.5" /> <!-- Shining Energy of Protection -->
+					<item id="35569" min="1" max="1" chance="12.5" /> <!-- Bloody Armor Upgrade Stone -->
+				</group>
+				<group chance="100">
+					<item id="46494" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46449" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46479" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46509" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46464" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 6 - Weapon -->
+				</group>
+				<group chance="100">
+					<item id="46480" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46510" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46465" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46495" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46450" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 7 - Weapon -->
+				</group>
+				<group chance="50">
+					<item id="46511" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 8 - Weapon -->
+					<item id="46466" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 8 - Weapon -->
+					<item id="46496" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 8 - Weapon -->
+					<item id="46451" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 8 - Weapon -->
+					<item id="46481" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 8 - Weapon -->
+				</group>
+				<group chance="30">
+					<item id="46497" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 9 - Weapon -->
+					<item id="46452" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 9 - Weapon -->
+					<item id="46482" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 9 - Weapon -->
+					<item id="46512" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 9 - Weapon -->
+					<item id="46467" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 9 - Weapon -->
+				</group>
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29403" level="127" type="Monster" name="Guillotine's Clone">
+		<parameters>
+			<skill name="Skill02_ID" id="34462" level="1" />
+			<skill name="Skill01_ID" id="34463" level="1" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="30904734" hpRegen="13.4" mp="68076" mpRegen="30" />
+			<attack physical="319843" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="1500" width="120" />
+			<defence physical="150648" magical="729046" />
+			<speed>
+				<walk ground="80" />
+				<run ground="205" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2350" />
+				<defence fire="2500" water="2500" wind="2500" earth="2500" holy="2450" dark="2500" />
+			</attribute>
+		</stats>
+		<status attackable="true" canMove="false" />
+		<ai type="MAGE" aggroRange="1500" isAggressive="false" clanHelpRange="1000">
+			<clanList>
+				<clan>GUILLOTINE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="23" />
+			<height normal="64" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34462" level="1" /> <!-- Fatal Slash -->
+			<skill id="34463" level="1" /> <!-- Soul Decay -->
+		</skillList>
+	</npc>
+	<npc id="29404" level="127" type="Monster" name="Guillotine's Slave">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2207481" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="319843" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5500" magical="3600" />
+			<speed>
+				<walk ground="17" />
+				<run ground="110" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2350" />
+				<defence fire="2500" water="2500" wind="2500" earth="2500" holy="2450" dark="2500" />
+			</attribute>
+		</stats>
+		<status attackable="false" undying="true" targetable="true" />
+		<collision>
+			<radius normal="11" />
+			<height normal="25" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skillList>
+		<ai type="BALANCED" aggroRange="40" isAggressive="false" clanHelpRange="50">
+			<clanList>
+				<clan>GUILLOTINE</clan>
+			</clanList>
+		</ai>
+	</npc>
+	<npc id="29405" level="127" type="Monster" name="Guillotine's Slave">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2207481" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="319843" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5500" magical="3600" />
+			<speed>
+				<walk ground="23" />
+				<run ground="80" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2350" />
+				<defence fire="2500" water="2500" wind="2500" earth="2500" holy="2450" dark="2500" />
+			</attribute>
+		</stats>
+		<status attackable="false" undying="true" targetable="true" />
+		<collision>
+			<radius normal="7" />
+			<height normal="20" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skillList>
+		<ai type="BALANCED" aggroRange="40" isAggressive="false" clanHelpRange="50">
+			<clanList>
+				<clan>GUILLOTINE</clan>
+			</clanList>
+		</ai>
+	</npc>
+	<npc id="29406" level="127" type="Monster" name="Guillotine's Slave">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2207481" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="319843" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5500" magical="3600" />
+			<speed>
+				<walk ground="17" />
+				<run ground="60" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2350" />
+				<defence fire="2500" water="2500" wind="2500" earth="2500" holy="2450" dark="2500" />
+			</attribute>
+		</stats>
+		<status attackable="false" undying="true" targetable="true" />
+		<collision>
+			<radius normal="8" />
+			<height normal="16" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skillList>
+		<ai type="BALANCED" aggroRange="40" isAggressive="false" clanHelpRange="50">
+			<clanList>
+				<clan>GUILLOTINE</clan>
+			</clanList>
+		</ai>
+	</npc>
+	<npc id="29407" level="125" type="RaidBoss" name="Baylor" title="Warden">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="901506718" sp="811356" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="100150320" hpRegen="13.4" mp="22800" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="34" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2400" />
+				<defence fire="2500" water="2500" wind="2500" earth="2500" holy="2450" dark="2500" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="43.2" />
+			<height normal="93.48" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="33180" level="1" /> <!-- Party Instance Zone Bonus -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Resistance -->
+			<skill id="14623" level="1" /> <!-- Mutation Resistance -->
+			<skill id="33104" level="1" /> <!-- Party Bonus -->
+			<skill id="62206" level="10" /> <!-- Evasion Reduction -->
+		</skillList>
+	</npc>
+	<npc id="29408" level="128" type="RaidBoss" name="Coatl" title="Kasha's Apostle">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="6506729347" sp="5856056" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="359319614" hpRegen="380075.4" mp="68822" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="240" distance="120" width="120" />
+			<defence physical="281296" magical="1258092" />
+			<speed>
+				<walk ground="180" />
+				<run ground="500" />
+			</speed>
+			<hitTime>1100</hitTime>
+			<attribute>
+				<attack type="WATER" value="2550" />
+				<defence fire="2600" water="2650" wind="2650" earth="2650" holy="2650" dark="2650" />
+			</attribute>
+		</stats>
+		<status attackable="true" noSleepMode="true" />
+		<ai type="MAGE" isAggressive="false" />
+		<collision>
+			<radius normal="40" />
+			<height normal="139" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5463" level="1" /> <!-- Water Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="32909" level="1" /> <!-- Rule of Looting -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34784" level="1" /> <!-- Coatl's Debuff Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="7" /> <!-- Received Damage Resistance -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="80090" min="2" max="2" chance="7.15" /> <!-- Krishna Shaper -->
+					<item id="80099" min="2" max="2" chance="7.15" /> <!-- Krishna Caster -->
+					<item id="80101" min="2" max="2" chance="7.15" /> <!-- Krishna Dual Swords -->
+					<item id="80100" min="2" max="2" chance="7.15" /> <!-- Krishna Retributer -->
+					<item id="80097" min="2" max="2" chance="7.15" /> <!-- Krishna Guardian -->
+					<item id="80093" min="2" max="2" chance="7.15" /> <!-- Krishna Avenger -->
+					<item id="80102" min="2" max="2" chance="7.1" /> <!-- Krishna Dual Daggers -->
+					<item id="80091" min="2" max="2" chance="7.15" /> <!-- Krishna Cutter -->
+					<item id="80095" min="2" max="2" chance="7.15" /> <!-- Krishna Stormer -->
+					<item id="80096" min="2" max="2" chance="7.15" /> <!-- Krishna Thrower -->
+					<item id="80103" min="2" max="2" chance="7.1" /> <!-- Krishna Dual Blunt Weapons -->
+					<item id="80098" min="2" max="2" chance="7.15" /> <!-- Krishna Buster -->
+					<item id="80094" min="2" max="2" chance="7.15" /> <!-- Krishna Fighter -->
+					<item id="80092" min="2" max="2" chance="7.15" /> <!-- Krishna Slasher -->
+				</group>
+				<group chance="100">
+					<item id="80107" min="2" max="2" chance="20" /> <!-- Leviathan Gauntlets - Heavy armor -->
+					<item id="80105" min="2" max="2" chance="20" /> <!-- Leviathan Breastplate - Heavy armor -->
+					<item id="80106" min="2" max="2" chance="20" /> <!-- Leviathan Gaiters - Heavy armor -->
+					<item id="80108" min="2" max="2" chance="20" /> <!-- Leviathan Boots - Heavy armor -->
+					<item id="80104" min="2" max="2" chance="20" /> <!-- Leviathan Helmet - Heavy armor -->
+				</group>
+				<group chance="100">
+					<item id="80114" min="2" max="2" chance="20" /> <!-- Leviathan Leather Boots - Light armor -->
+					<item id="80110" min="2" max="2" chance="20" /> <!-- Leviathan Leather Helmet - Light armor -->
+					<item id="80113" min="2" max="2" chance="20" /> <!-- Leviathan Leather Gloves - Light armor -->
+					<item id="80111" min="2" max="2" chance="20" /> <!-- Leviathan Leather Armor - Light armor -->
+					<item id="80112" min="2" max="2" chance="20" /> <!-- Leviathan Leather Leggings - Light armor -->
+				</group>
+				<group chance="100">
+					<item id="80117" min="2" max="2" chance="20" /> <!-- Leviathan Stockings - Robe -->
+					<item id="80119" min="2" max="2" chance="20" /> <!-- Leviathan Shoes - Robe -->
+					<item id="80115" min="2" max="2" chance="20" /> <!-- Leviathan Circlet - Robe -->
+					<item id="80118" min="2" max="2" chance="20" /> <!-- Leviathan Gloves - Robe -->
+					<item id="80116" min="2" max="2" chance="20" /> <!-- Leviathan Tunic - Robe -->
+				</group>
+				<group chance="100">
+					<item id="80333" min="1" max="1" chance="1.3" /> <!-- Dragon's Necklace -->
+					<item id="80335" min="1" max="1" chance="1.3" /> <!-- Dragon's Ring -->
+					<item id="81858" min="5" max="5" chance="65" /> <!-- Orb of Darkness -->
+					<item id="80334" min="1" max="1" chance="1.3" /> <!-- Dragon's Earring -->
+					<item id="81153" min="1" max="1" chance="31.1" /> <!-- Navari's Mask -->
+				</group>
+				<group chance="100">
+					<item id="82860" min="1" max="1" chance="14" /> <!-- Gran Kain's Scroll: Enchant L-grade Weapon -->
+					<item id="82868" min="1" max="1" chance="86" /> <!-- Gran Kain's Scroll: Enchant L-grade Armor -->
+				</group>
+				<group chance="100">
+					<item id="83013" min="1" max="1" chance="100" /> <!-- Coatl's Essence -->
+				</group>
+				<group chance="100">
+					<item id="35567" min="3" max="3" chance="12.5" /> <!-- Dark Armor Upgrade Stone -->
+					<item id="82032" min="3" max="3" chance="12.5" /> <!-- Shining Jewel Energy -->
+					<item id="35569" min="3" max="3" chance="12.5" /> <!-- Bloody Armor Upgrade Stone -->
+					<item id="82049" min="3" max="3" chance="12.5" /> <!-- Sayha's Shining Energy -->
+					<item id="81770" min="3" max="3" chance="12.5" /> <!-- Shining Energy of Protection -->
+				</group>
+				<group chance="100">
+					<item id="46449" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46494" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46479" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46509" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46464" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 6 - Weapon -->
+				</group>
+				<group chance="100">
+					<item id="46480" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46510" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46465" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46450" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46495" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 7 - Weapon -->
+				</group>
+				<group chance="50">
+					<item id="46511" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 8 - Weapon -->
+					<item id="46466" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 8 - Weapon -->
+					<item id="46451" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 8 - Weapon -->
+					<item id="46496" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 8 - Weapon -->
+					<item id="46481" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 8 - Weapon -->
+				</group>
+				<group chance="30">
+					<item id="46467" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 9 - Weapon -->
+					<item id="46452" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 9 - Weapon -->
+					<item id="46497" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 9 - Weapon -->
+					<item id="46482" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 9 - Weapon -->
+					<item id="46512" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 9 - Weapon -->
+				</group>
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29409" level="128" type="Folk" name="Flame Totem">
+		<!-- Need to be Folk: Coatl AI -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2538603" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="319843" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="150648" magical="729046" />
+			<speed>
+				<walk ground="60" />
+				<run ground="60" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="WATER" value="2350" />
+				<defence fire="2450" water="2500" wind="2500" earth="2500" holy="2500" dark="2500" />
+			</attribute>
+		</stats>
+		<status attackable="false" undying="true" canMove="false" targetable="false" />
+		<collision>
+			<radius normal="32" />
+			<height normal="81" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skillList>
+	</npc>
+	<npc id="29410" type="Folk" level="128" name="Water Totem">
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2538603" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="319843" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="150648" magical="729046" />
+			<speed>
+				<walk ground="60" />
+				<run ground="60" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="WATER" value="2350" />
+				<defence fire="2450" water="2500" wind="2500" earth="2500" holy="2500" dark="2500" />
+			</attribute>
+		</stats>
+		<status attackable="false" undying="true" canMove="false" targetable="false" />
+		<ai aggroRange="400" />
+		<collision>
+			<radius normal="32" />
+			<height normal="81" />
+		</collision>
+		<skillList>
+			<skill id="34807" level="1" /> <!-- Totem Protection - Water -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skillList>
+	</npc>
+	<npc id="29411" level="128" type="Folk" name="Earth Totem">
+		<!-- Need to be Folk: Coatl AI -->
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2538603" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="319843" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="150648" magical="729046" />
+			<speed>
+				<walk ground="60" />
+				<run ground="60" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="WATER" value="2350" />
+				<defence fire="2450" water="2500" wind="2500" earth="2500" holy="2500" dark="2500" />
+			</attribute>
+		</stats>
+		<status attackable="false" undying="true" canMove="false" targetable="false" />
+		<ai aggroRange="400" />
+		<collision>
+			<radius normal="32" />
+			<height normal="81" />
+		</collision>
+		<skillList>
+			<skill id="34808" level="1" /> <!-- Totem Protection - Ice -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skillList>
+	</npc>
+	<npc id="29412" level="128" type="Folk" name="Kasha's Totem">
+		<!-- Need to be Folk: Coatl AI -->
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2538603" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="319843" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="150648" magical="729046" />
+			<speed>
+				<walk ground="60" />
+				<run ground="60" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="WATER" value="2350" />
+				<defence fire="2450" water="2500" wind="2500" earth="2500" holy="2500" dark="2500" />
+			</attribute>
+		</stats>
+		<status attackable="false" undying="true" canMove="false" targetable="false" />
+		<ai aggroRange="400" />
+		<collision>
+			<radius normal="32" />
+			<height normal="81" />
+		</collision>
+		<skillList>
+			<skill id="34807" level="1" /> <!-- Totem Protection - Water -->
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skillList>
+	</npc>
+	<npc id="29413" level="128" type="Monster" name="Coatl">
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2538603" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="1" distance="1" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="false" undying="true" canMove="false" targetable="false" showName="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+		</skillList>
+	</npc>
+	<npc id="29414" level="130" type="RaidBoss" name="Valakas" title="Balance Test">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="27965221655" sp="25168699" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="35932000000" hpRegen="13.4" mp="68822" mpRegen="30" />
+			<attack physical="1599215" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="1458092" />
+			<speed>
+				<walk ground="120" />
+				<run ground="300" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="FIRE" value="2700" />
+				<defence fire="2800" water="2750" wind="2800" earth="2800" holy="2800" dark="2800" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="190" />
+			<height normal="335" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="32909" level="1" /> <!-- Rule of Looting -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="5462" level="1" /> <!-- Fire Attribute -->
+			<skill id="34862" level="1" /> <!-- Valakas -->
+			<skill id="34820" level="9" /> <!-- Received Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29415" level="130" type="GrandBoss" name="Valakas" title="Fire Dragon">
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<acquire exp="27965221655" sp="25168699" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="1077960000" hpRegen="13.4" mp="68822" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="120" />
+				<run ground="300" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="FIRE" value="2700" />
+				<defence fire="2800" water="2750" wind="2800" earth="2800" holy="2800" dark="2800" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<ai type="MAGE" aggroRange="2500" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>VALAKAS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="190" />
+			<height normal="335" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="5462" level="1" /> <!-- Fire Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="34862" level="1" /> <!-- Valakas -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="9" /> <!-- Received Damage Resistance -->
+		</skillList>
+		<corpseTime>21</corpseTime>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="80175" min="1" max="1" chance="7.15" /> <!-- Supreme Krishna Shaper -->
+					<item id="80184" min="1" max="1" chance="7.15" /> <!-- Supreme Krishna Caster -->
+					<item id="80186" min="1" max="1" chance="7.15" /> <!-- Supreme Krishna Dual Swords -->
+					<item id="80185" min="1" max="1" chance="7.15" /> <!-- Supreme Krishna Retributer -->
+					<item id="80182" min="1" max="1" chance="7.15" /> <!-- Supreme Krishna Guardian -->
+					<item id="80178" min="1" max="1" chance="7.15" /> <!-- Supreme Krishna Avenger -->
+					<item id="80187" min="1" max="1" chance="7.1" /> <!-- Supreme Krishna Dual Daggers -->
+					<item id="80176" min="1" max="1" chance="7.15" /> <!-- Supreme Krishna Cutter -->
+					<item id="80180" min="1" max="1" chance="7.15" /> <!-- Supreme Krishna Stormer -->
+					<item id="80181" min="1" max="1" chance="7.15" /> <!-- Supreme Krishna Thrower -->
+					<item id="80188" min="1" max="1" chance="7.1" /> <!-- Supreme Krishna Dual Blunt Weapons -->
+					<item id="80183" min="1" max="1" chance="7.15" /> <!-- Supreme Krishna Buster -->
+					<item id="80179" min="1" max="1" chance="7.15" /> <!-- Supreme Krishna Fighter -->
+					<item id="80177" min="1" max="1" chance="7.15" /> <!-- Supreme Krishna Slasher -->
+				</group>
+				<group chance="100">
+					<item id="80238" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Gauntlets - Heavy armor -->
+					<item id="80236" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Breastplate - Heavy armor -->
+					<item id="80237" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Gaiters - Heavy armor -->
+					<item id="80239" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Boots - Heavy armor -->
+					<item id="80235" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Helmet - Heavy armor -->
+				</group>
+				<group chance="100">
+					<item id="80244" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Leather Boots - Light armor -->
+					<item id="80240" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Leather Helmet - Light armor -->
+					<item id="80243" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Leather Gloves - Light armor -->
+					<item id="80241" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Leather Armor - Light armor -->
+					<item id="80242" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Leather Leggings - Light armor -->
+				</group>
+				<group chance="100">
+					<item id="80247" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Stockings - Robe -->
+					<item id="80249" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Shoes - Robe -->
+					<item id="80245" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Circlet - Robe -->
+					<item id="80248" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Gloves - Robe -->
+					<item id="80246" min="1" max="1" chance="20" /> <!-- Supreme Leviathan Tunic - Robe -->
+				</group>
+				<group chance="8">
+					<item id="36430" min="1" max="1" chance="14" /> <!-- Valakas Thrower -->
+					<item id="36431" min="1" max="1" chance="14.5" /> <!-- Valakas Buster -->
+					<item id="36429" min="1" max="1" chance="14" /> <!-- Valakas Slasher -->
+					<item id="36432" min="1" max="1" chance="14.5" /> <!-- Valakas Caster -->
+					<item id="36433" min="1" max="1" chance="14.5" /> <!-- Valakas Retributer -->
+					<item id="36427" min="1" max="1" chance="14.5" /> <!-- Valakas Shaper -->
+					<item id="36428" min="1" max="1" chance="14" /> <!-- Valakas Cutter -->
+				</group>
+				<group chance="100">
+					<item id="82860" min="2" max="2" chance="14" /> <!-- Gran Kain's Scroll: Enchant L-grade Weapon -->
+					<item id="82868" min="2" max="2" chance="86" /> <!-- Gran Kain's Scroll: Enchant L-grade Armor -->
+				</group>
+				<group chance="100">
+					<item id="80333" min="1" max="1" chance="31" /> <!-- Dragon's Necklace -->
+					<item id="81443" min="1" max="1" chance="5" /> <!-- Agathion Charm: Fire Dragon -->
+					<item id="80334" min="1" max="1" chance="31" /> <!-- Dragon's Earring -->
+					<item id="80335" min="1" max="1" chance="31" /> <!-- Dragon's Ring -->
+					<item id="81444" min="1" max="1" chance="1" /> <!-- Greater Agathion Charm: Fire Dragon -->
+					<item id="82338" min="1" max="1" chance="1" /> <!-- Light Dragon's Cloak -->
+				</group>
+				<group chance="100">
+					<item id="36414" min="2" max="2" chance="100" /> <!-- Dragon Claw -->
+				</group>
+				<group chance="1.25">
+					<item id="29878" min="1" max="1" chance="100" /> <!-- Greater Jewelry Box Lv. 1 -->
+				</group>
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29416" level="130" type="Monster" name="Valakas" title="Fire Dragon">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2538603" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+		</skillList>
+	</npc>
+	<npc id="29417" level="130" type="Monster" name="Lava">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2538603" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+		</skillList>
+	</npc>
+	<npc id="29418" level="130" type="Monster" name="Meteor">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2538603" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+		</skillList>
+	</npc>
+	<npc id="29419" level="120" type="RaidBoss" name="Rufes" title="Earth Spirit King">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<acquire exp="1987729479" sp="1788956" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="41996448" hpRegen="13.4" mp="66584" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="1950" />
+				<defence fire="2050" water="2050" wind="2000" earth="2050" holy="2050" dark="2050" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="80" />
+			<height normal="125" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62002" level="1" /> <!-- Earth Spirit King Rufes -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="32968" level="1" /> <!-- Shield of Limit -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="10">
+					<item id="80094" min="1" max="1" chance="7.1" /> <!-- Krishna Fighter -->
+					<item id="80095" min="1" max="1" chance="7.1" /> <!-- Krishna Stormer -->
+					<item id="80090" min="1" max="1" chance="7.1" /> <!-- Krishna Shaper -->
+					<item id="80093" min="1" max="1" chance="7.1" /> <!-- Krishna Avenger -->
+					<item id="80101" min="1" max="1" chance="7.2" /> <!-- Krishna Dual Swords -->
+					<item id="80091" min="1" max="1" chance="7.1" /> <!-- Krishna Cutter -->
+					<item id="80092" min="1" max="1" chance="7.1" /> <!-- Krishna Slasher -->
+					<item id="80097" min="1" max="1" chance="7.1" /> <!-- Krishna Guardian -->
+					<item id="80102" min="1" max="1" chance="7.2" /> <!-- Krishna Dual Daggers -->
+					<item id="80098" min="1" max="1" chance="7.2" /> <!-- Krishna Buster -->
+					<item id="80100" min="1" max="1" chance="7.2" /> <!-- Krishna Retributer -->
+					<item id="80096" min="1" max="1" chance="7.1" /> <!-- Krishna Thrower -->
+					<item id="80103" min="1" max="1" chance="7.2" /> <!-- Krishna Dual Blunt Weapons -->
+					<item id="80099" min="1" max="1" chance="7.2" /> <!-- Krishna Caster -->
+				</group>
+				<group chance="20">
+					<item id="80117" min="1" max="1" chance="5.9" /> <!-- Leviathan Stockings - Robe -->
+					<item id="80104" min="1" max="1" chance="5.9" /> <!-- Leviathan Helmet - Heavy armor -->
+					<item id="80119" min="1" max="1" chance="5.8" /> <!-- Leviathan Shoes - Robe -->
+					<item id="80105" min="1" max="1" chance="5.9" /> <!-- Leviathan Breastplate - Heavy armor -->
+					<item id="80110" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Helmet - Light armor -->
+					<item id="80107" min="1" max="1" chance="5.9" /> <!-- Leviathan Gauntlets - Heavy armor -->
+					<item id="80115" min="1" max="1" chance="5.9" /> <!-- Leviathan Circlet - Robe -->
+					<item id="80108" min="1" max="1" chance="5.9" /> <!-- Leviathan Boots - Heavy armor -->
+					<item id="80116" min="1" max="1" chance="5.9" /> <!-- Leviathan Tunic - Robe -->
+					<item id="80113" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Gloves - Light armor -->
+					<item id="80111" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Armor - Light armor -->
+					<item id="80106" min="1" max="1" chance="5.9" /> <!-- Leviathan Gaiters - Heavy armor -->
+					<item id="80118" min="1" max="1" chance="5.8" /> <!-- Leviathan Gloves - Robe -->
+					<item id="80109" min="1" max="1" chance="5.9" /> <!-- Leviathan Shield -->
+					<item id="80120" min="1" max="1" chance="5.8" /> <!-- Leviathan Sigil -->
+					<item id="80112" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Leggings - Light armor -->
+					<item id="80114" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Boots - Light armor -->
+				</group>
+				<group chance="100">
+					<item id="17426" min="1" max="1" chance="7.1" /> <!-- Helios Retributer -->
+					<item id="17422" min="1" max="1" chance="7.1" /> <!-- Helios Thrower -->
+					<item id="17425" min="1" max="1" chance="7.1" /> <!-- Helios Caster -->
+					<item id="17429" min="1" max="1" chance="7.1" /> <!-- Helios Dual Blunt Weapons -->
+					<item id="17420" min="1" max="1" chance="7.2" /> <!-- Helios Fighter -->
+					<item id="17421" min="1" max="1" chance="7.2" /> <!-- Helios Stormer -->
+					<item id="17419" min="1" max="1" chance="7.2" /> <!-- Helios Avenger -->
+					<item id="17416" min="1" max="1" chance="7.2" /> <!-- Helios Shaper -->
+					<item id="17417" min="1" max="1" chance="7.2" /> <!-- Helios Cutter -->
+					<item id="17427" min="1" max="1" chance="7.1" /> <!-- Helios Dual Swords -->
+					<item id="17418" min="1" max="1" chance="7.2" /> <!-- Helios Slasher -->
+					<item id="17423" min="1" max="1" chance="7.1" /> <!-- Helios Guardian -->
+					<item id="17424" min="1" max="1" chance="7.1" /> <!-- Helios Buster -->
+					<item id="17428" min="1" max="1" chance="7.1" /> <!-- Helios Dual Daggers -->
+				</group>
+				<group chance="100">
+					<item id="17432" min="1" max="1" chance="5.9" /> <!-- Eternal Gaiters - Heavy armor -->
+					<item id="17444" min="1" max="1" chance="5.8" /> <!-- Eternal Gloves - Robe -->
+					<item id="17435" min="1" max="1" chance="5.9" /> <!-- Eternal Shield -->
+					<item id="17446" min="1" max="1" chance="5.8" /> <!-- Eternal Sigil -->
+					<item id="17438" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Leggings - Light armor -->
+					<item id="17440" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Boots - Light armor -->
+					<item id="17443" min="1" max="1" chance="5.9" /> <!-- Eternal Stockings - Robe -->
+					<item id="17430" min="1" max="1" chance="5.9" /> <!-- Eternal Helmet - Heavy armor -->
+					<item id="17445" min="1" max="1" chance="5.8" /> <!-- Eternal Shoes - Robe -->
+					<item id="17431" min="1" max="1" chance="5.9" /> <!-- Eternal Breastplate - Heavy armor -->
+					<item id="17436" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Helmet - Light armor -->
+					<item id="17433" min="1" max="1" chance="5.9" /> <!-- Eternal Gauntlets - Heavy armor -->
+					<item id="17441" min="1" max="1" chance="5.9" /> <!-- Eternal Circlet - Robe -->
+					<item id="17434" min="1" max="1" chance="5.9" /> <!-- Eternal Boots - Heavy armor -->
+					<item id="17442" min="1" max="1" chance="5.9" /> <!-- Eternal Tunic - Robe -->
+					<item id="17439" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Gloves - Light armor -->
+					<item id="17437" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Armor - Light armor -->
+				</group>
+				<group chance="7">
+					<item id="47689" min="1" max="1" chance="0.01" /> <!-- Greater Sapphire Lv. 1 -->
+					<item id="81847" min="1" max="1" chance="73" /> <!-- Orb of Abyss -->
+					<item id="35567" min="1" max="1" chance="0.008" /> <!-- Dark Armor Upgrade Stone -->
+					<item id="39573" min="1" max="1" chance="0.008" /> <!-- Sealed Talisman of Insanity -->
+					<item id="48493" min="1" max="1" chance="0.1" /> <!-- Dragon Rind Leather Shirt -->
+					<item id="47866" min="1" max="1" chance="0.4" /> <!-- Star Sign -->
+					<item id="47699" min="1" max="1" chance="0.007" /> <!-- Greater Red Cat's Eye Lv. 1 -->
+					<item id="83106" min="1" max="1" chance="19.43" /> <!-- Sacred Earth Element -->
+					<item id="35569" min="1" max="1" chance="0.008" /> <!-- Bloody Armor Upgrade Stone -->
+					<item id="35566" min="1" max="1" chance="0.001" /> <!-- Dark Weapon Upgrade Stone -->
+					<item id="80931" min="1" max="1" chance="0.01" /> <!-- Greater Zodiac Agathion Cube -->
+					<item id="47700" min="1" max="1" chance="0.007" /> <!-- Greater Blue Cat's Eye Lv. 1 -->
+					<item id="47688" min="1" max="1" chance="0.01" /> <!-- Greater Ruby Lv. 1 -->
+					<item id="35568" min="1" max="1" chance="0.001" /> <!-- Bloody Weapon Upgrade Stone -->
+					<item id="81153" min="1" max="1" chance="5" /> <!-- Navari's Mask -->
+					<item id="81134" min="5" max="5" chance="2" /> <!-- Crystal of Dyes -->
+				</group>
+				<group chance="2">
+					<item id="82860" min="1" max="1" chance="14" /> <!-- Gran Kain's Scroll: Enchant L-grade Weapon -->
+					<item id="82868" min="1" max="1" chance="86" /> <!-- Gran Kain's Scroll: Enchant L-grade Armor -->
+				</group>
+				<group chance="18">
+					<item id="46477" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46507" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46462" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46492" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46447" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 4 - Weapon -->
+				</group>
+				<group chance="17">
+					<item id="46463" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46493" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46448" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46478" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46508" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 5 - Weapon -->
+				</group>
+				<group chance="14">
+					<item id="46494" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46449" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46479" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46509" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46464" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 6 - Weapon -->
+				</group>
+				<group chance="5">
+					<item id="46480" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46510" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46465" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46495" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46450" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 7 - Weapon -->
+				</group>
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29420" level="120" type="RaidBoss" name="Callor" title="Fire Spirit Queen">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<acquire exp="1987729479" sp="1788956" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="41996448" hpRegen="13.4" mp="66584" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="60" />
+				<run ground="160" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="FIRE" value="1950" />
+				<defence fire="2050" water="2000" wind="2050" earth="2050" holy="2050" dark="2050" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="40" />
+			<height normal="102" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5462" level="1" /> <!-- Fire Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62003" level="1" /> <!-- Fire Spirit Queen Callor -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="32968" level="1" /> <!-- Shield of Limit -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="10">
+					<item id="80097" min="1" max="1" chance="7.1" /> <!-- Krishna Guardian -->
+					<item id="80102" min="1" max="1" chance="7.2" /> <!-- Krishna Dual Daggers -->
+					<item id="80098" min="1" max="1" chance="7.2" /> <!-- Krishna Buster -->
+					<item id="80100" min="1" max="1" chance="7.2" /> <!-- Krishna Retributer -->
+					<item id="80096" min="1" max="1" chance="7.1" /> <!-- Krishna Thrower -->
+					<item id="80103" min="1" max="1" chance="7.2" /> <!-- Krishna Dual Blunt Weapons -->
+					<item id="80099" min="1" max="1" chance="7.2" /> <!-- Krishna Caster -->
+					<item id="80094" min="1" max="1" chance="7.1" /> <!-- Krishna Fighter -->
+					<item id="80095" min="1" max="1" chance="7.1" /> <!-- Krishna Stormer -->
+					<item id="80090" min="1" max="1" chance="7.1" /> <!-- Krishna Shaper -->
+					<item id="80093" min="1" max="1" chance="7.1" /> <!-- Krishna Avenger -->
+					<item id="80101" min="1" max="1" chance="7.2" /> <!-- Krishna Dual Swords -->
+					<item id="80091" min="1" max="1" chance="7.1" /> <!-- Krishna Cutter -->
+					<item id="80092" min="1" max="1" chance="7.1" /> <!-- Krishna Slasher -->
+				</group>
+				<group chance="20">
+					<item id="80111" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Armor - Light armor -->
+					<item id="80106" min="1" max="1" chance="5.9" /> <!-- Leviathan Gaiters - Heavy armor -->
+					<item id="80118" min="1" max="1" chance="5.8" /> <!-- Leviathan Gloves - Robe -->
+					<item id="80109" min="1" max="1" chance="5.9" /> <!-- Leviathan Shield -->
+					<item id="80120" min="1" max="1" chance="5.8" /> <!-- Leviathan Sigil -->
+					<item id="80112" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Leggings - Light armor -->
+					<item id="80114" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Boots - Light armor -->
+					<item id="80117" min="1" max="1" chance="5.9" /> <!-- Leviathan Stockings - Robe -->
+					<item id="80104" min="1" max="1" chance="5.9" /> <!-- Leviathan Helmet - Heavy armor -->
+					<item id="80119" min="1" max="1" chance="5.8" /> <!-- Leviathan Shoes - Robe -->
+					<item id="80105" min="1" max="1" chance="5.9" /> <!-- Leviathan Breastplate - Heavy armor -->
+					<item id="80110" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Helmet - Light armor -->
+					<item id="80107" min="1" max="1" chance="5.9" /> <!-- Leviathan Gauntlets - Heavy armor -->
+					<item id="80115" min="1" max="1" chance="5.9" /> <!-- Leviathan Circlet - Robe -->
+					<item id="80108" min="1" max="1" chance="5.9" /> <!-- Leviathan Boots - Heavy armor -->
+					<item id="80116" min="1" max="1" chance="5.9" /> <!-- Leviathan Tunic - Robe -->
+					<item id="80113" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Gloves - Light armor -->
+				</group>
+				<group chance="100">
+					<item id="17416" min="1" max="1" chance="7.2" /> <!-- Helios Shaper -->
+					<item id="17419" min="1" max="1" chance="7.2" /> <!-- Helios Avenger -->
+					<item id="17427" min="1" max="1" chance="7.1" /> <!-- Helios Dual Swords -->
+					<item id="17417" min="1" max="1" chance="7.2" /> <!-- Helios Cutter -->
+					<item id="17418" min="1" max="1" chance="7.2" /> <!-- Helios Slasher -->
+					<item id="17423" min="1" max="1" chance="7.1" /> <!-- Helios Guardian -->
+					<item id="17428" min="1" max="1" chance="7.1" /> <!-- Helios Dual Daggers -->
+					<item id="17424" min="1" max="1" chance="7.1" /> <!-- Helios Buster -->
+					<item id="17426" min="1" max="1" chance="7.1" /> <!-- Helios Retributer -->
+					<item id="17422" min="1" max="1" chance="7.1" /> <!-- Helios Thrower -->
+					<item id="17429" min="1" max="1" chance="7.1" /> <!-- Helios Dual Blunt Weapons -->
+					<item id="17425" min="1" max="1" chance="7.1" /> <!-- Helios Caster -->
+					<item id="17420" min="1" max="1" chance="7.2" /> <!-- Helios Fighter -->
+					<item id="17421" min="1" max="1" chance="7.2" /> <!-- Helios Stormer -->
+				</group>
+				<group chance="100">
+					<item id="17433" min="1" max="1" chance="5.9" /> <!-- Eternal Gauntlets - Heavy armor -->
+					<item id="17441" min="1" max="1" chance="5.9" /> <!-- Eternal Circlet - Robe -->
+					<item id="17434" min="1" max="1" chance="5.9" /> <!-- Eternal Boots - Heavy armor -->
+					<item id="17442" min="1" max="1" chance="5.9" /> <!-- Eternal Tunic - Robe -->
+					<item id="17439" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Gloves - Light armor -->
+					<item id="17437" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Armor - Light armor -->
+					<item id="17432" min="1" max="1" chance="5.9" /> <!-- Eternal Gaiters - Heavy armor -->
+					<item id="17444" min="1" max="1" chance="5.8" /> <!-- Eternal Gloves - Robe -->
+					<item id="17435" min="1" max="1" chance="5.9" /> <!-- Eternal Shield -->
+					<item id="17446" min="1" max="1" chance="5.8" /> <!-- Eternal Sigil -->
+					<item id="17438" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Leggings - Light armor -->
+					<item id="17440" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Boots - Light armor -->
+					<item id="17443" min="1" max="1" chance="5.9" /> <!-- Eternal Stockings - Robe -->
+					<item id="17430" min="1" max="1" chance="5.9" /> <!-- Eternal Helmet - Heavy armor -->
+					<item id="17445" min="1" max="1" chance="5.8" /> <!-- Eternal Shoes - Robe -->
+					<item id="17431" min="1" max="1" chance="5.9" /> <!-- Eternal Breastplate - Heavy armor -->
+					<item id="17436" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Helmet - Light armor -->
+				</group>
+				<group chance="7">
+					<item id="35566" min="1" max="1" chance="0.001" /> <!-- Dark Weapon Upgrade Stone -->
+					<item id="47700" min="1" max="1" chance="0.007" /> <!-- Greater Blue Cat's Eye Lv. 1 -->
+					<item id="80931" min="1" max="1" chance="0.01" /> <!-- Greater Zodiac Agathion Cube -->
+					<item id="47688" min="1" max="1" chance="0.01" /> <!-- Greater Ruby Lv. 1 -->
+					<item id="35568" min="1" max="1" chance="0.001" /> <!-- Bloody Weapon Upgrade Stone -->
+					<item id="81134" min="5" max="5" chance="2" /> <!-- Crystal of Dyes -->
+					<item id="81153" min="1" max="1" chance="5" /> <!-- Navari's Mask -->
+					<item id="47689" min="1" max="1" chance="0.01" /> <!-- Greater Sapphire Lv. 1 -->
+					<item id="81847" min="1" max="1" chance="73" /> <!-- Orb of Abyss -->
+					<item id="35567" min="1" max="1" chance="0.008" /> <!-- Dark Armor Upgrade Stone -->
+					<item id="48493" min="1" max="1" chance="0.1" /> <!-- Dragon Rind Leather Shirt -->
+					<item id="39573" min="1" max="1" chance="0.008" /> <!-- Sealed Talisman of Insanity -->
+					<item id="47699" min="1" max="1" chance="0.007" /> <!-- Greater Red Cat's Eye Lv. 1 -->
+					<item id="47866" min="1" max="1" chance="0.4" /> <!-- Star Sign -->
+					<item id="83103" min="1" max="1" chance="19.43" /> <!-- Sacred Fire Element -->
+					<item id="35569" min="1" max="1" chance="0.008" /> <!-- Bloody Armor Upgrade Stone -->
+				</group>
+				<group chance="2">
+					<item id="82860" min="1" max="1" chance="14" /> <!-- Gran Kain's Scroll: Enchant L-grade Weapon -->
+					<item id="82868" min="1" max="1" chance="86" /> <!-- Gran Kain's Scroll: Enchant L-grade Armor -->
+				</group>
+				<group chance="18">
+					<item id="46492" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46447" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46477" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46507" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46462" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 4 - Weapon -->
+				</group>
+				<group chance="17">
+					<item id="46478" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46508" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46463" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46493" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46448" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 5 - Weapon -->
+				</group>
+				<group chance="14">
+					<item id="46509" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46464" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46494" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46449" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46479" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 6 - Weapon -->
+				</group>
+				<group chance="5">
+					<item id="46465" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46495" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46450" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46480" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46510" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 7 - Weapon -->
+				</group>
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29421" level="120" type="RaidBoss" name="Marea" title="Water Spirit Queen">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<acquire exp="1987729479" sp="1788956" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="41996448" hpRegen="13.4" mp="66584" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="80" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="WATER" value="1950" />
+				<defence fire="2000" water="2050" wind="2050" earth="2050" holy="2050" dark="2050" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="42" />
+			<height normal="88.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5463" level="1" /> <!-- Water Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62004" level="1" /> <!-- Water Spirit Queen Marea -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="32968" level="1" /> <!-- Shield of Limit -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="10">
+					<item id="80090" min="1" max="1" chance="7.1" /> <!-- Krishna Shaper -->
+					<item id="80093" min="1" max="1" chance="7.1" /> <!-- Krishna Avenger -->
+					<item id="80101" min="1" max="1" chance="7.2" /> <!-- Krishna Dual Swords -->
+					<item id="80091" min="1" max="1" chance="7.1" /> <!-- Krishna Cutter -->
+					<item id="80092" min="1" max="1" chance="7.1" /> <!-- Krishna Slasher -->
+					<item id="80097" min="1" max="1" chance="7.1" /> <!-- Krishna Guardian -->
+					<item id="80102" min="1" max="1" chance="7.2" /> <!-- Krishna Dual Daggers -->
+					<item id="80098" min="1" max="1" chance="7.2" /> <!-- Krishna Buster -->
+					<item id="80100" min="1" max="1" chance="7.2" /> <!-- Krishna Retributer -->
+					<item id="80096" min="1" max="1" chance="7.1" /> <!-- Krishna Thrower -->
+					<item id="80103" min="1" max="1" chance="7.2" /> <!-- Krishna Dual Blunt Weapons -->
+					<item id="80099" min="1" max="1" chance="7.2" /> <!-- Krishna Caster -->
+					<item id="80094" min="1" max="1" chance="7.1" /> <!-- Krishna Fighter -->
+					<item id="80095" min="1" max="1" chance="7.1" /> <!-- Krishna Stormer -->
+				</group>
+				<group chance="20">
+					<item id="80110" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Helmet - Light armor -->
+					<item id="80107" min="1" max="1" chance="5.9" /> <!-- Leviathan Gauntlets - Heavy armor -->
+					<item id="80115" min="1" max="1" chance="5.9" /> <!-- Leviathan Circlet - Robe -->
+					<item id="80108" min="1" max="1" chance="5.9" /> <!-- Leviathan Boots - Heavy armor -->
+					<item id="80116" min="1" max="1" chance="5.9" /> <!-- Leviathan Tunic - Robe -->
+					<item id="80113" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Gloves - Light armor -->
+					<item id="80111" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Armor - Light armor -->
+					<item id="80106" min="1" max="1" chance="5.9" /> <!-- Leviathan Gaiters - Heavy armor -->
+					<item id="80118" min="1" max="1" chance="5.8" /> <!-- Leviathan Gloves - Robe -->
+					<item id="80109" min="1" max="1" chance="5.9" /> <!-- Leviathan Shield -->
+					<item id="80120" min="1" max="1" chance="5.8" /> <!-- Leviathan Sigil -->
+					<item id="80112" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Leggings - Light armor -->
+					<item id="80114" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Boots - Light armor -->
+					<item id="80117" min="1" max="1" chance="5.9" /> <!-- Leviathan Stockings - Robe -->
+					<item id="80104" min="1" max="1" chance="5.9" /> <!-- Leviathan Helmet - Heavy armor -->
+					<item id="80119" min="1" max="1" chance="5.8" /> <!-- Leviathan Shoes - Robe -->
+					<item id="80105" min="1" max="1" chance="5.9" /> <!-- Leviathan Breastplate - Heavy armor -->
+				</group>
+				<group chance="100">
+					<item id="17422" min="1" max="1" chance="7.1" /> <!-- Helios Thrower -->
+					<item id="17429" min="1" max="1" chance="7.1" /> <!-- Helios Dual Blunt Weapons -->
+					<item id="17425" min="1" max="1" chance="7.1" /> <!-- Helios Caster -->
+					<item id="17420" min="1" max="1" chance="7.2" /> <!-- Helios Fighter -->
+					<item id="17421" min="1" max="1" chance="7.2" /> <!-- Helios Stormer -->
+					<item id="17416" min="1" max="1" chance="7.2" /> <!-- Helios Shaper -->
+					<item id="17419" min="1" max="1" chance="7.2" /> <!-- Helios Avenger -->
+					<item id="17427" min="1" max="1" chance="7.1" /> <!-- Helios Dual Swords -->
+					<item id="17417" min="1" max="1" chance="7.2" /> <!-- Helios Cutter -->
+					<item id="17418" min="1" max="1" chance="7.2" /> <!-- Helios Slasher -->
+					<item id="17423" min="1" max="1" chance="7.1" /> <!-- Helios Guardian -->
+					<item id="17428" min="1" max="1" chance="7.1" /> <!-- Helios Dual Daggers -->
+					<item id="17424" min="1" max="1" chance="7.1" /> <!-- Helios Buster -->
+					<item id="17426" min="1" max="1" chance="7.1" /> <!-- Helios Retributer -->
+				</group>
+				<group chance="100">
+					<item id="17440" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Boots - Light armor -->
+					<item id="17443" min="1" max="1" chance="5.9" /> <!-- Eternal Stockings - Robe -->
+					<item id="17430" min="1" max="1" chance="5.9" /> <!-- Eternal Helmet - Heavy armor -->
+					<item id="17445" min="1" max="1" chance="5.8" /> <!-- Eternal Shoes - Robe -->
+					<item id="17431" min="1" max="1" chance="5.9" /> <!-- Eternal Breastplate - Heavy armor -->
+					<item id="17436" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Helmet - Light armor -->
+					<item id="17433" min="1" max="1" chance="5.9" /> <!-- Eternal Gauntlets - Heavy armor -->
+					<item id="17441" min="1" max="1" chance="5.9" /> <!-- Eternal Circlet - Robe -->
+					<item id="17434" min="1" max="1" chance="5.9" /> <!-- Eternal Boots - Heavy armor -->
+					<item id="17442" min="1" max="1" chance="5.9" /> <!-- Eternal Tunic - Robe -->
+					<item id="17439" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Gloves - Light armor -->
+					<item id="17437" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Armor - Light armor -->
+					<item id="17432" min="1" max="1" chance="5.9" /> <!-- Eternal Gaiters - Heavy armor -->
+					<item id="17444" min="1" max="1" chance="5.8" /> <!-- Eternal Gloves - Robe -->
+					<item id="17435" min="1" max="1" chance="5.9" /> <!-- Eternal Shield -->
+					<item id="17446" min="1" max="1" chance="5.8" /> <!-- Eternal Sigil -->
+					<item id="17438" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Leggings - Light armor -->
+				</group>
+				<group chance="7">
+					<item id="35567" min="1" max="1" chance="0.008" /> <!-- Dark Armor Upgrade Stone -->
+					<item id="39573" min="1" max="1" chance="0.008" /> <!-- Sealed Talisman of Insanity -->
+					<item id="48493" min="1" max="1" chance="0.1" /> <!-- Dragon Rind Leather Shirt -->
+					<item id="47866" min="1" max="1" chance="0.4" /> <!-- Star Sign -->
+					<item id="47699" min="1" max="1" chance="0.007" /> <!-- Greater Red Cat's Eye Lv. 1 -->
+					<item id="81847" min="1" max="1" chance="73" /> <!-- Orb of Abyss -->
+					<item id="35569" min="1" max="1" chance="0.008" /> <!-- Bloody Armor Upgrade Stone -->
+					<item id="35566" min="1" max="1" chance="0.001" /> <!-- Dark Weapon Upgrade Stone -->
+					<item id="80931" min="1" max="1" chance="0.01" /> <!-- Greater Zodiac Agathion Cube -->
+					<item id="47700" min="1" max="1" chance="0.007" /> <!-- Greater Blue Cat's Eye Lv. 1 -->
+					<item id="47688" min="1" max="1" chance="0.01" /> <!-- Greater Ruby Lv. 1 -->
+					<item id="35568" min="1" max="1" chance="0.001" /> <!-- Bloody Weapon Upgrade Stone -->
+					<item id="81153" min="1" max="1" chance="5" /> <!-- Navari's Mask -->
+					<item id="81134" min="5" max="5" chance="2" /> <!-- Crystal of Dyes -->
+					<item id="47689" min="1" max="1" chance="0.01" /> <!-- Greater Sapphire Lv. 1 -->
+					<item id="83104" min="1" max="1" chance="19.43" /> <!-- Sacred Water Element -->
+				</group>
+				<group chance="2">
+					<item id="82860" min="1" max="1" chance="14" /> <!-- Gran Kain's Scroll: Enchant L-grade Weapon -->
+					<item id="82868" min="1" max="1" chance="86" /> <!-- Gran Kain's Scroll: Enchant L-grade Armor -->
+				</group>
+				<group chance="18">
+					<item id="46507" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46462" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46447" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46492" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46477" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 4 - Weapon -->
+				</group>
+				<group chance="17">
+					<item id="46463" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46448" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46493" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46478" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46508" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 5 - Weapon -->
+				</group>
+				<group chance="14">
+					<item id="46479" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46509" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46464" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46449" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46494" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 6 - Weapon -->
+				</group>
+				<group chance="5">
+					<item id="46510" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46465" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46450" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46495" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46480" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 7 - Weapon -->
+				</group>
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29422" level="120" type="RaidBoss" name="Vertex" title="Wind Spirit King">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<acquire exp="1987729479" sp="1788956" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="41996448" hpRegen="13.4" mp="66584" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="60" />
+				<run ground="160" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="WIND" value="1950" />
+				<defence fire="2050" water="2050" wind="2050" earth="2000" holy="2050" dark="2050" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="40" />
+			<height normal="133" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5464" level="1" /> <!-- Wind Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62005" level="1" /> <!-- Wind Spirit King Vertex -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="32968" level="1" /> <!-- Shield of Limit -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="10">
+					<item id="80095" min="1" max="1" chance="7.1" /> <!-- Krishna Stormer -->
+					<item id="80090" min="1" max="1" chance="7.1" /> <!-- Krishna Shaper -->
+					<item id="80093" min="1" max="1" chance="7.1" /> <!-- Krishna Avenger -->
+					<item id="80101" min="1" max="1" chance="7.2" /> <!-- Krishna Dual Swords -->
+					<item id="80091" min="1" max="1" chance="7.1" /> <!-- Krishna Cutter -->
+					<item id="80092" min="1" max="1" chance="7.1" /> <!-- Krishna Slasher -->
+					<item id="80097" min="1" max="1" chance="7.1" /> <!-- Krishna Guardian -->
+					<item id="80102" min="1" max="1" chance="7.2" /> <!-- Krishna Dual Daggers -->
+					<item id="80098" min="1" max="1" chance="7.2" /> <!-- Krishna Buster -->
+					<item id="80100" min="1" max="1" chance="7.2" /> <!-- Krishna Retributer -->
+					<item id="80096" min="1" max="1" chance="7.1" /> <!-- Krishna Thrower -->
+					<item id="80103" min="1" max="1" chance="7.2" /> <!-- Krishna Dual Blunt Weapons -->
+					<item id="80099" min="1" max="1" chance="7.2" /> <!-- Krishna Caster -->
+					<item id="80094" min="1" max="1" chance="7.1" /> <!-- Krishna Fighter -->
+				</group>
+				<group chance="20">
+					<item id="80104" min="1" max="1" chance="5.9" /> <!-- Leviathan Helmet - Heavy armor -->
+					<item id="80119" min="1" max="1" chance="5.8" /> <!-- Leviathan Shoes - Robe -->
+					<item id="80105" min="1" max="1" chance="5.9" /> <!-- Leviathan Breastplate - Heavy armor -->
+					<item id="80110" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Helmet - Light armor -->
+					<item id="80107" min="1" max="1" chance="5.9" /> <!-- Leviathan Gauntlets - Heavy armor -->
+					<item id="80115" min="1" max="1" chance="5.9" /> <!-- Leviathan Circlet - Robe -->
+					<item id="80108" min="1" max="1" chance="5.9" /> <!-- Leviathan Boots - Heavy armor -->
+					<item id="80116" min="1" max="1" chance="5.9" /> <!-- Leviathan Tunic - Robe -->
+					<item id="80113" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Gloves - Light armor -->
+					<item id="80111" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Armor - Light armor -->
+					<item id="80106" min="1" max="1" chance="5.9" /> <!-- Leviathan Gaiters - Heavy armor -->
+					<item id="80118" min="1" max="1" chance="5.8" /> <!-- Leviathan Gloves - Robe -->
+					<item id="80109" min="1" max="1" chance="5.9" /> <!-- Leviathan Shield -->
+					<item id="80120" min="1" max="1" chance="5.8" /> <!-- Leviathan Sigil -->
+					<item id="80112" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Leggings - Light armor -->
+					<item id="80114" min="1" max="1" chance="5.9" /> <!-- Leviathan Leather Boots - Light armor -->
+					<item id="80117" min="1" max="1" chance="5.9" /> <!-- Leviathan Stockings - Robe -->
+				</group>
+				<group chance="100">
+					<item id="17426" min="1" max="1" chance="7.1" /> <!-- Helios Retributer -->
+					<item id="17422" min="1" max="1" chance="7.1" /> <!-- Helios Thrower -->
+					<item id="17429" min="1" max="1" chance="7.1" /> <!-- Helios Dual Blunt Weapons -->
+					<item id="17425" min="1" max="1" chance="7.1" /> <!-- Helios Caster -->
+					<item id="17420" min="1" max="1" chance="7.2" /> <!-- Helios Fighter -->
+					<item id="17421" min="1" max="1" chance="7.2" /> <!-- Helios Stormer -->
+					<item id="17416" min="1" max="1" chance="7.2" /> <!-- Helios Shaper -->
+					<item id="17419" min="1" max="1" chance="7.2" /> <!-- Helios Avenger -->
+					<item id="17427" min="1" max="1" chance="7.1" /> <!-- Helios Dual Swords -->
+					<item id="17417" min="1" max="1" chance="7.2" /> <!-- Helios Cutter -->
+					<item id="17418" min="1" max="1" chance="7.2" /> <!-- Helios Slasher -->
+					<item id="17423" min="1" max="1" chance="7.1" /> <!-- Helios Guardian -->
+					<item id="17428" min="1" max="1" chance="7.1" /> <!-- Helios Dual Daggers -->
+					<item id="17424" min="1" max="1" chance="7.1" /> <!-- Helios Buster -->
+				</group>
+				<group chance="100">
+					<item id="17435" min="1" max="1" chance="5.9" /> <!-- Eternal Shield -->
+					<item id="17446" min="1" max="1" chance="5.8" /> <!-- Eternal Sigil -->
+					<item id="17438" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Leggings - Light armor -->
+					<item id="17440" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Boots - Light armor -->
+					<item id="17443" min="1" max="1" chance="5.9" /> <!-- Eternal Stockings - Robe -->
+					<item id="17430" min="1" max="1" chance="5.9" /> <!-- Eternal Helmet - Heavy armor -->
+					<item id="17445" min="1" max="1" chance="5.8" /> <!-- Eternal Shoes - Robe -->
+					<item id="17431" min="1" max="1" chance="5.9" /> <!-- Eternal Breastplate - Heavy armor -->
+					<item id="17436" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Helmet - Light armor -->
+					<item id="17433" min="1" max="1" chance="5.9" /> <!-- Eternal Gauntlets - Heavy armor -->
+					<item id="17441" min="1" max="1" chance="5.9" /> <!-- Eternal Circlet - Robe -->
+					<item id="17434" min="1" max="1" chance="5.9" /> <!-- Eternal Boots - Heavy armor -->
+					<item id="17442" min="1" max="1" chance="5.9" /> <!-- Eternal Tunic - Robe -->
+					<item id="17439" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Gloves - Light armor -->
+					<item id="17437" min="1" max="1" chance="5.9" /> <!-- Eternal Leather Armor - Light armor -->
+					<item id="17432" min="1" max="1" chance="5.9" /> <!-- Eternal Gaiters - Heavy armor -->
+					<item id="17444" min="1" max="1" chance="5.8" /> <!-- Eternal Gloves - Robe -->
+				</group>
+				<group chance="7">
+					<item id="83105" min="1" max="1" chance="19.43" /> <!-- Sacred Wind Element -->
+					<item id="35567" min="1" max="1" chance="0.008" /> <!-- Dark Armor Upgrade Stone -->
+					<item id="39573" min="1" max="1" chance="0.008" /> <!-- Sealed Talisman of Insanity -->
+					<item id="48493" min="1" max="1" chance="0.1" /> <!-- Dragon Rind Leather Shirt -->
+					<item id="47866" min="1" max="1" chance="0.4" /> <!-- Star Sign -->
+					<item id="47699" min="1" max="1" chance="0.007" /> <!-- Greater Red Cat's Eye Lv. 1 -->
+					<item id="81847" min="1" max="1" chance="73" /> <!-- Orb of Abyss -->
+					<item id="35569" min="1" max="1" chance="0.008" /> <!-- Bloody Armor Upgrade Stone -->
+					<item id="35566" min="1" max="1" chance="0.001" /> <!-- Dark Weapon Upgrade Stone -->
+					<item id="80931" min="1" max="1" chance="0.01" /> <!-- Greater Zodiac Agathion Cube -->
+					<item id="47700" min="1" max="1" chance="0.007" /> <!-- Greater Blue Cat's Eye Lv. 1 -->
+					<item id="47688" min="1" max="1" chance="0.01" /> <!-- Greater Ruby Lv. 1 -->
+					<item id="35568" min="1" max="1" chance="0.001" /> <!-- Bloody Weapon Upgrade Stone -->
+					<item id="81153" min="1" max="1" chance="5" /> <!-- Navari's Mask -->
+					<item id="81134" min="5" max="5" chance="2" /> <!-- Crystal of Dyes -->
+					<item id="47689" min="1" max="1" chance="0.01" /> <!-- Greater Sapphire Lv. 1 -->
+				</group>
+				<group chance="2">
+					<item id="82860" min="1" max="1" chance="14" /> <!-- Gran Kain's Scroll: Enchant L-grade Weapon -->
+					<item id="82868" min="1" max="1" chance="86" /> <!-- Gran Kain's Scroll: Enchant L-grade Armor -->
+				</group>
+				<group chance="18">
+					<item id="46507" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46462" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46492" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46447" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 4 - Weapon -->
+					<item id="46477" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 4 - Weapon -->
+				</group>
+				<group chance="17">
+					<item id="46463" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46493" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46448" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46478" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 5 - Weapon -->
+					<item id="46508" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 5 - Weapon -->
+				</group>
+				<group chance="14">
+					<item id="46494" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46449" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46479" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46509" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 6 - Weapon -->
+					<item id="46464" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 6 - Weapon -->
+				</group>
+				<group chance="5">
+					<item id="46480" min="1" max="1" chance="23" /> <!-- Leona's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46510" min="1" max="1" chance="23" /> <!-- Lionel's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46465" min="1" max="1" chance="15.5" /> <!-- Mermoden's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46495" min="1" max="1" chance="23" /> <!-- Pantheon's Soul Crystal Lv. 7 - Weapon -->
+					<item id="46450" min="1" max="1" chance="15.5" /> <!-- Kain's Soul Crystal Lv. 7 - Weapon -->
+				</group>
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29423" level="120" type="Monster" name="Vertex's Keeper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3010409.82659" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="319843" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="150648" magical="729046" />
+			<speed>
+				<walk ground="60" />
+				<run ground="250" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="WIND" value="1950" />
+				<defence fire="2050" water="2050" wind="2050" earth="2000" holy="2050" dark="2050" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="40" />
+			<height normal="133" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5464" level="1" /> <!-- Wind Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62006" level="1" /> <!-- Vertex's Keeper -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="32968" level="1" /> <!-- Shield of Limit -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29424" level="120" type="Monster" name="Vertex's Storm">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="874926" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="319843" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="150648" magical="729046" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="WIND" value="1750" />
+				<defence fire="1900" water="1900" wind="1900" earth="1850" holy="1900" dark="1900" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="50" />
+			<height normal="100" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+	</npc>
+	<npc id="29425" level="120" type="Monster" name="Aqua Slime">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="83236" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="319843" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="150648" magical="729046" />
+			<speed>
+				<walk ground="36" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="WATER" value="1750" />
+				<defence fire="1850" water="1900" wind="1900" earth="1900" holy="1900" dark="1900" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="36" />
+			<height normal="39" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5463" level="1" /> <!-- Water Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62007" level="1" /> <!-- Aqua Slime -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="32968" level="1" /> <!-- Shield of Limit -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29426" level="126" type="RaidBoss" name="Mutant Stakato Crog" title="Raid Boss">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="2627076087" sp="2364368" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="1266274675" hpRegen="13.4" mp="67330" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="130" />
+				<run ground="130" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="2400" />
+				<defence fire="2500" water="2500" wind="2450" earth="2500" holy="2500" dark="2500" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="45" />
+			<height normal="117" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62040" level="1" /> <!-- Mutant Stakato Crog -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34814" level="5" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29427" level="122" type="RaidBoss" name="Demonic Venom" title="Raid Boss">
+		<parameters>
+			<skill name="SkillID1" id="62056" level="1" />
+			<skill name="SkillID2" id="62063" level="1" />
+			<param name="SkillID1_Probablity" value="400" />
+			<param name="SkillID2_Probablity" value="400" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="8203" lhand="8203" /> <!-- Monster Only (Venom Sword) / Monster Only (Venom Sword) -->
+		<acquire exp="2462925201" sp="2216632" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="886392272" hpRegen="13.4" mp="67330" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="79" />
+				<run ground="220" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2100" />
+				<defence fire="2200" water="2200" wind="2200" earth="2200" holy="2150" dark="2200" />
+			</attribute>
+		</stats>
+		<status attackable="true" noSleepMode="true" canMove="false" />
+		<ai type="MAGE" aggroRange="1000" isAggressive="false" />
+		<collision>
+			<radius normal="27" />
+			<height normal="70.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62055" level="1" /> <!-- Field Raid -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34814" level="7" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="5" /> <!-- Received Damage Resistance -->
+			<skill id="62064" level="1" /> <!-- Chaos Power -->
+			<skill id="62063" level="1" /> <!-- Dark Power Flash -->
+			<skill id="62056" level="1" /> <!-- Dark Power Unleashing -->
+		</skillList>
+	</npc>
+	<npc id="29428" level="124" type="RaidBoss" name="Avenger Graff" title="Raid Boss">
+		<parameters>
+			<skill name="SkillID1" id="62058" level="1" />
+			<skill name="SkillID2" id="62060" level="1" />
+			<param name="SkillID1_Probablity" value="400" />
+			<param name="SkillID3_Probablity" value="400" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="2544338745" sp="2289904" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="886392272" hpRegen="13.4" mp="67330" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2250" />
+				<defence fire="2350" water="2350" wind="2350" earth="2350" holy="2300" dark="2350" />
+			</attribute>
+		</stats>
+		<status attackable="true" noSleepMode="true" canMove="false" />
+		<ai type="MAGE" aggroRange="1000" isAggressive="false" />
+		<collision>
+			<radius normal="34" />
+			<height normal="85.4" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62055" level="1" /> <!-- Field Raid -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34814" level="7" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="5" /> <!-- Received Damage Resistance -->
+			<skill id="62064" level="1" /> <!-- Chaos Power -->
+			<skill id="62060" level="1" /> <!-- Dark Thorn -->
+			<skill id="62058" level="1" /> <!-- Dark Power Unleashing -->
+		</skillList>
+	</npc>
+	<npc id="29429" level="126" type="RaidBoss" name="Mad Cullan" title="Raid Boss">
+		<parameters>
+			<skill name="SkillID1" id="62059" level="1" />
+			<skill name="SkillID2" id="62062" level="1" />
+			<param name="SkillID1_Probablity" value="400" />
+			<param name="SkillID2_Probablity" value="400" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<acquire exp="2627076087" sp="2364368" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="886392272" hpRegen="13.4" mp="67330" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="2400" />
+				<defence fire="2500" water="2500" wind="2450" earth="2500" holy="2500" dark="2500" />
+			</attribute>
+		</stats>
+		<status attackable="true" noSleepMode="true" canMove="false" />
+		<ai type="MAGE" aggroRange="1000" isAggressive="false" />
+		<collision>
+			<radius normal="35" />
+			<height normal="64.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="18" /> <!-- Dwarves -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62055" level="1" /> <!-- Field Raid -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34814" level="7" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="5" /> <!-- Received Damage Resistance -->
+			<skill id="62064" level="1" /> <!-- Chaos Power -->
+			<skill id="62062" level="1" /> <!-- Dark Power Flash -->
+			<skill id="62059" level="1" /> <!-- Dark Power Unleashing -->
+		</skillList>
+	</npc>
+	<npc id="29430" level="128" type="RaidBoss" name="Arrogant Lebruum" title="Raid Boss">
+		<parameters>
+			<skill name="SkillID1" id="62058" level="1" />
+			<skill name="SkillID2" id="62060" level="1" />
+			<param name="SkillID1_Probablity" value="400" />
+			<param name="SkillID3_Probablity" value="400" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="2711137227" sp="2440023" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="886392272" hpRegen="13.4" mp="67330" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2550" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2600" dark="2650" />
+			</attribute>
+		</stats>
+		<status attackable="true" noSleepMode="true" canMove="false" />
+		<ai type="MAGE" aggroRange="1000" isAggressive="false" />
+		<collision>
+			<radius normal="40" />
+			<height normal="84.197" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62055" level="1" /> <!-- Field Raid -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34814" level="7" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="5" /> <!-- Received Damage Resistance -->
+			<skill id="62064" level="1" /> <!-- Chaos Power -->
+			<skill id="62061" level="1" /> <!-- Dark Thorn -->
+			<skill id="62059" level="1" /> <!-- Dark Power Unleashing -->
+		</skillList>
+	</npc>
+	<npc id="29431" level="126" type="RaidBoss" name="Chaos Golem #17" title="Raid Boss">
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<acquire exp="2627076087" sp="2364368" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="4431961360" hpRegen="13.4" mp="67330" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="120" />
+				<run ground="360" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="2400" />
+				<defence fire="2500" water="2500" wind="2450" earth="2500" holy="2500" dark="2500" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="76" />
+			<height normal="123" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62133" level="1" /> <!-- Dr. Chaos's Golem -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34814" level="7" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="3" /> <!-- Received Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29432" level="126" type="RaidBoss" name="Chaos Golem #18" title="Raid Boss">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<acquire exp="2627076087" sp="2364368" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="4431961360" hpRegen="13.4" mp="67330" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="160" />
+				<run ground="320" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="2400" />
+				<defence fire="2500" water="2500" wind="2450" earth="2500" holy="2500" dark="2500" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="60" />
+			<height normal="117" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62133" level="1" /> <!-- Dr. Chaos's Golem -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34814" level="7" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="5" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="3" /> <!-- Received Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29433" level="130" type="RaidBoss" name="Atrus" title="Kasha's Avatar">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="83343" /> <!-- Kasha Orc Boss' Elite Avenger -->
+		<acquire exp="4194783247" sp="3775304" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="1266270000" hpRegen="13.4" mp="67330" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="250" />
+				<run ground="320" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="2700" />
+				<defence fire="2800" water="2800" wind="2750" earth="2800" holy="2800" dark="2800" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<ai type="MAGE" isAggressive="false" />
+		<collision>
+			<radius normal="54" />
+			<height normal="147" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62224" level="1" /> <!-- Kasha's Avatar Atrus -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="5" /> <!-- Received Damage Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="62627" level="1" /> <!-- Abyss Spawn -->
+		</skillList>
+	</npc>
+	<npc id="29434" level="130" type="Monster" name="Chaotic Seal">
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="88639227" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="319843" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="600" distance="600" width="120" />
+			<defence physical="150648" magical="729046" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="HOLY" value="2500" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2650" dark="2600" />
+			</attribute>
+		</stats>
+		<status attackable="true" canMove="false" />
+		<ai isAggressive="false" />
+		<collision>
+			<radius normal="36" />
+			<height normal="126" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5466" level="1" /> <!-- Holy Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62241" level="1" /> <!-- Chaotic Seal -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="5" /> <!-- Received Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29435" level="130" type="Monster" name="Chaotic Seal">
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3357302" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="319843" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="150648" magical="729046" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2500" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2600" dark="2650" />
+			</attribute>
+		</stats>
+		<status attackable="true" canMove="false" />
+		<ai isAggressive="false" />
+		<collision>
+			<radius normal="36" />
+			<height normal="126" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+		</skillList>
+	</npc>
+	<npc id="29436" level="127" type="RaidBoss" name="Mighty Chaos Golem" title="Raid Boss">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<acquire exp="5337882366" sp="4804094" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="1266274675" hpRegen="13.4" mp="67330" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="120" />
+				<run ground="240" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="EARTH" value="2550" />
+				<defence fire="2650" water="2650" wind="2600" earth="2650" holy="2650" dark="2650" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="52.5" />
+			<height normal="126" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62287" level="1" /> <!-- Mighty Chaos Golem -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="7" /> <!-- Received Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29437" level="130" type="RaidBoss" name="Baluan" title="Arbiter">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="83622" /> <!-- Snowy Volcano's Boss Weapon -->
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="1298970789.5842085" hpRegen="13.4" mp="67330" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="60" />
+				<run ground="60" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="FIRE" value="2700" />
+				<defence fire="2800" water="2750" wind="2800" earth="2800" holy="2800" dark="2800" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="56" />
+			<height normal="151" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5462" level="1" /> <!-- Fire Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62356" level="1" /> <!-- Arbiter Baluan -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29438" level="130" type="Monster" name="Ice Answer">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2538603" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="1" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="20" />
+			<height normal="55.4" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skillList>
+	</npc>
+	<npc id="29439" level="130" type="Monster" name="Fire Answer">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2538603" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="1" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="20" />
+			<height normal="55.4" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skillList>
+	</npc>
+	<npc id="29440" level="120" type="RaidBoss" name="Baluan" title="Demon of Dissent">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="83622" /> <!-- Snowy Volcano's Boss Weapon -->
+		<acquire exp="13251529864" sp="11926376" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="62994672" hpRegen="13.4" mp="66584" mpRegen="30" />
+			<attack physical="639686" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="301296" magical="1458092" />
+			<speed>
+				<walk ground="60" />
+				<run ground="60" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="FIRE" value="1950" />
+				<defence fire="2050" water="2000" wind="2050" earth="2050" holy="2050" dark="2050" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="56" />
+			<height normal="151" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5462" level="1" /> <!-- Fire Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62414" level="1" /> <!-- Demon of Dissent Baluan -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29441" level="120" type="Monster" name="Baluan's Guardian">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2624778" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="FIRE" value="1750" />
+				<defence fire="1900" water="1850" wind="1900" earth="1900" holy="1900" dark="1900" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="25" />
+			<height normal="75" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5462" level="1" /> <!-- Fire Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62332" level="1" /> <!-- Baluan's Creature -->
+			<skill id="62346" level="1" /> <!-- Baluan's Debuff Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29442" level="120" type="Monster" name="Baluan's Warlock">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2624778" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="FIRE" value="1750" />
+				<defence fire="1900" water="1850" wind="1900" earth="1900" holy="1900" dark="1900" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="25" />
+			<height normal="70" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5462" level="1" /> <!-- Fire Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62332" level="1" /> <!-- Baluan's Creature -->
+			<skill id="62346" level="1" /> <!-- Baluan's Debuff Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29443" level="120" type="Monster" name="Baluan's Berserker">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="83623" /> <!-- Snowy Volcano's Monster Weapon -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2624778" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="FIRE" value="1750" />
+				<defence fire="1900" water="1850" wind="1900" earth="1900" holy="1900" dark="1900" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="30" />
+			<height normal="84.6" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5462" level="1" /> <!-- Fire Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62332" level="1" /> <!-- Baluan's Creature -->
+			<skill id="62346" level="1" /> <!-- Baluan's Debuff Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29444" level="120" type="Monster" name="Baluan's Volo">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2624778" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="FIRE" value="1750" />
+				<defence fire="1900" water="1850" wind="1900" earth="1900" holy="1900" dark="1900" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="30" />
+			<height normal="60.6" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5462" level="1" /> <!-- Fire Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62332" level="1" /> <!-- Baluan's Creature -->
+			<skill id="62346" level="1" /> <!-- Baluan's Debuff Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29445" level="120" type="Monster" name="Baluan's Large Golem">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2624778" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="30" />
+				<run ground="110" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="FIRE" value="1750" />
+				<defence fire="1900" water="1850" wind="1900" earth="1900" holy="1900" dark="1900" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="51" />
+			<height normal="87.1" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5462" level="1" /> <!-- Fire Attribute -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62332" level="1" /> <!-- Baluan's Creature -->
+			<skill id="62346" level="1" /> <!-- Baluan's Debuff Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29446" level="120" type="Folk" name="Altar of Dissent" title="Fire">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2012329" hpRegen="10.5" mp="3190" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1599215" magical="145753" critical="4" attackSpeed="253" range="40" />
+			<defence physical="753240" magical="364523" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="42" />
+			<height normal="106.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skillList>
+	</npc>
+	<npc id="29447" level="120" type="Folk" name="Altar of Dissent" title="Icy Air">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2012329" hpRegen="10.5" mp="3190" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1599215" magical="145753" critical="4" attackSpeed="253" range="40" />
+			<defence physical="753240" magical="364523" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="42" />
+			<height normal="106.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skillList>
+	</npc>
+	<npc id="29448" level="128" type="RaidBoss" name="Ferion" title="Archangel of Radiance">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="31582666752" sp="10323804" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="4318925283" hpRegen="1777" mp="66584" mpRegen="30" />
+			<attack physical="1230165" magical="229670" random="10" critical="4" accuracy="30" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1804650" magical="708030" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="HOLY" value="2550" />
+				<defence fire="2650" water="2650" wind="2650" earth="2650" holy="2650" dark="2600" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="60" />
+			<height normal="186" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5466" level="1" /> <!-- Holy Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="62553" level="1" /> <!-- Ferion the Archangel of Radiance -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="8" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="8" /> <!-- Critical Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29449" level="128" type="Monster" name="Ferion's Praetorian">
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="7216763" hpRegen="12.9" mp="3190" mpRegen="30" />
+			<attack physical="246033" magical="224236" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="100432" magical="495592" />
+			<speed>
+				<walk ground="60" />
+				<run ground="160" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="HOLY" value="2350" />
+				<defence fire="2500" water="2500" wind="2500" earth="2500" holy="2500" dark="2450" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="20" />
+			<height normal="53" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="5466" level="1" /> <!-- Holy Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="62553" level="1" /> <!-- Ferion the Archangel of Radiance -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="8" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="8" /> <!-- Critical Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29450" level="128" type="Monster" name="Judge of Light">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2538603" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="3198430" magical="291506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1506480" magical="729046" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="HOLY" value="2350" />
+				<defence fire="2500" water="2500" wind="2500" earth="2500" holy="2500" dark="2450" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="19" /> <!-- Others -->
+		</skillList>
+		<collision>
+			<radius normal="34" />
+			<height normal="57" />
+		</collision>
+	</npc>
+	<npc id="29451" level="130" type="RaidBoss" name="Toros" title="Bloody Overlord">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="37297759200" sp="10323804" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="5711442162" hpRegen="1777" mp="66584" mpRegen="30" />
+			<attack physical="1230165" magical="229670" random="10" critical="4" accuracy="30" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1804650" magical="708030" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2700" />
+				<defence fire="2800" water="2800" wind="2800" earth="2800" holy="2750" dark="2800" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="60" />
+			<height normal="186" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="62554" level="1" /> <!-- Ritual of Light -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="62564" level="1" /> <!-- Bloody Overlord Toros -->
+		</skillList>
+	</npc>
+	<npc id="29452" level="130" type="Monster" name="Toros' Clone">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="786065817.3410405" hpRegen="12.9" mp="66584" mpRegen="30" />
+			<attack physical="246033" magical="224236" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="100432" magical="495592" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2700" />
+				<defence fire="2800" water="2800" wind="2800" earth="2800" holy="2750" dark="2800" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="60" />
+			<height normal="186" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29453" level="130" type="Monster" name="Toros' Clone">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="393032908.67052025" hpRegen="12.9" mp="66584" mpRegen="30" />
+			<attack physical="246033" magical="224236" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="100432" magical="495592" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2700" />
+				<defence fire="2800" water="2800" wind="2800" earth="2800" holy="2750" dark="2800" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="60" />
+			<height normal="186" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29454" level="130" type="Monster" name="Toros' Clone">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18079497.10982659" hpRegen="12.9" mp="66584" mpRegen="30" />
+			<attack physical="246033" magical="224236" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="100432" magical="495592" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="DARK" value="2700" />
+				<defence fire="2800" water="2800" wind="2800" earth="2800" holy="2750" dark="2800" />
+			</attribute>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="60" />
+			<height normal="186" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+		</skillList>
+	</npc>
+	<npc id="29455" level="130" type="Monster" name="Throne's Treasure Chest">
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="37" men="149">
+			<vitals hp="250" hpRegen="1" mp="300.8" mpRegen="2.1" />
+			<attack physical="105" magical="8" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1252" magical="229" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="true" canMove="false" />
+		<collision>
+			<radius normal="30" />
+			<height normal="24.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Boss Neutralization Resistance -->
+			<skill id="16318" level="1" /> <!-- Single Damage -->
+			<skill id="17896" level="1" /> <!-- Orc Recovery Ban -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="80097" min="1" max="1" chance="3.5" /> <!-- Krishna Guardian -->
+					<item id="80102" min="1" max="1" chance="3.5" /> <!-- Krishna Dual Daggers -->
+					<item id="80098" min="1" max="1" chance="3.5" /> <!-- Krishna Buster -->
+					<item id="80100" min="1" max="1" chance="3.5" /> <!-- Krishna Retributer -->
+					<item id="80096" min="1" max="1" chance="3.5" /> <!-- Krishna Thrower -->
+					<item id="80996" min="5" max="5" chance="51" /> <!-- Fioren's Crystal Prison's Time Stone -->
+					<item id="80103" min="1" max="1" chance="3.5" /> <!-- Krishna Dual Blunt Weapons -->
+					<item id="80099" min="1" max="1" chance="3.5" /> <!-- Krishna Caster -->
+					<item id="80094" min="1" max="1" chance="3.5" /> <!-- Krishna Fighter -->
+					<item id="80095" min="1" max="1" chance="3.5" /> <!-- Krishna Stormer -->
+					<item id="80090" min="1" max="1" chance="3.5" /> <!-- Krishna Shaper -->
+					<item id="80093" min="1" max="1" chance="3.5" /> <!-- Krishna Avenger -->
+					<item id="80101" min="1" max="1" chance="3.5" /> <!-- Krishna Dual Swords -->
+					<item id="80091" min="1" max="1" chance="3.5" /> <!-- Krishna Cutter -->
+					<item id="80092" min="1" max="1" chance="3.5" /> <!-- Krishna Slasher -->
+				</group>
+				<group chance="100">
+					<item id="80111" min="1" max="1" chance="3.5" /> <!-- Leviathan Leather Armor - Light armor -->
+					<item id="80106" min="1" max="1" chance="3.5" /> <!-- Leviathan Gaiters - Heavy armor -->
+					<item id="80118" min="1" max="1" chance="3.5" /> <!-- Leviathan Gloves - Robe -->
+					<item id="80109" min="1" max="1" chance="3.5" /> <!-- Leviathan Shield -->
+					<item id="80120" min="1" max="1" chance="3.5" /> <!-- Leviathan Sigil -->
+					<item id="80112" min="1" max="1" chance="3.5" /> <!-- Leviathan Leather Leggings - Light armor -->
+					<item id="80114" min="1" max="1" chance="3.5" /> <!-- Leviathan Leather Boots - Light armor -->
+					<item id="80117" min="1" max="1" chance="3.5" /> <!-- Leviathan Stockings - Robe -->
+					<item id="80104" min="1" max="1" chance="3.5" /> <!-- Leviathan Helmet - Heavy armor -->
+					<item id="80119" min="1" max="1" chance="3.5" /> <!-- Leviathan Shoes - Robe -->
+					<item id="80105" min="1" max="1" chance="3.5" /> <!-- Leviathan Breastplate - Heavy armor -->
+					<item id="80110" min="1" max="1" chance="3.5" /> <!-- Leviathan Leather Helmet - Light armor -->
+					<item id="80997" min="5" max="5" chance="40.5" /> <!-- Jamoa's Camp's Time Stone -->
+					<item id="80107" min="1" max="1" chance="3.5" /> <!-- Leviathan Gauntlets - Heavy armor -->
+					<item id="80115" min="1" max="1" chance="3.5" /> <!-- Leviathan Circlet - Robe -->
+					<item id="80108" min="1" max="1" chance="3.5" /> <!-- Leviathan Boots - Heavy armor -->
+					<item id="80116" min="1" max="1" chance="3.5" /> <!-- Leviathan Tunic - Robe -->
+					<item id="80113" min="1" max="1" chance="3.5" /> <!-- Leviathan Leather Gloves - Light armor -->
+				</group>
+				<group chance="100">
+					<item id="80998" min="4" max="4" chance="62" /> <!-- Pantheon's Museum's Time Stone -->
+					<item id="83765" min="1" max="1" chance="4" /> <!-- +1 Balance Artifact Pack -->
+					<item id="83762" min="1" max="1" chance="4" /> <!-- +1 Attack Artifact Pack -->
+					<item id="83763" min="1" max="1" chance="4" /> <!-- +1 Defense Artifact Pack -->
+					<item id="83764" min="1" max="1" chance="4" /> <!-- +1 Support Artifact Pack -->
+					<item id="83773" min="1" max="1" chance="2" /> <!-- +5 Balance Artifact Pack -->
+					<item id="83770" min="1" max="1" chance="2" /> <!-- '+5 Attack Artifact Pack -->
+					<item id="83771" min="1" max="1" chance="2" /> <!-- +5 Defense Artifact Pack -->
+					<item id="83772" min="1" max="1" chance="2" /> <!-- '+5 Support Artifact Pack -->
+					<item id="83769" min="1" max="1" chance="3.5" /> <!-- +3 Balance Artifact Pack -->
+					<item id="83766" min="1" max="1" chance="3.5" /> <!-- +3 Attack Artifact Pack -->
+					<item id="83767" min="1" max="1" chance="3.5" /> <!-- +3 Defense Artifact Pack -->
+					<item id="83768" min="1" max="1" chance="3.5" /> <!-- +3 Support Artifact Pack -->
+				</group>
+				<group chance="100">
+					<item id="81453" min="1" max="1" chance="0.1" /> <!-- Enhanced Rune Stone -->
+					<item id="82269" min="1" max="1" chance="1.25" /> <!-- Tersi's Soul Crystal Lv. 5 - Armor -->
+					<item id="82799" min="1" max="1" chance="1.25" /> <!-- Eva's Soul Crystal - Lv. 4 - Accessories -->
+					<item id="82460" min="1" max="1" chance="1.25" /> <!-- Masia's Soul Crystal Lv. 3 - Accessories -->
+					<item id="19463" min="1" max="1" chance="0.1" /> <!-- Antharas' Blessed Earring -->
+					<item id="82463" min="1" max="1" chance="1.25" /> <!-- Masia's Soul Crystal Lv. 6 - Accessories -->
+					<item id="80636" min="7" max="7" chance="9.8" /> <!-- Artifact Crystal -->
+					<item id="82627" min="1" max="1" chance="1.25" /> <!-- Pa'agrio's Soul Crystal - Lv. 5 - Armor -->
+					<item id="39738" min="4" max="4" chance="9.8" /> <!-- Rune Stone -->
+					<item id="82268" min="1" max="1" chance="1.25" /> <!-- Tersi's Soul Crystal Lv. 4 - Armor -->
+					<item id="82798" min="1" max="1" chance="1.25" /> <!-- Eva's Soul Crystal - Lv. 3 - Accessories -->
+					<item id="83363" min="1" max="1" chance="5.5" /> <!-- Wisdom Crystal -->
+					<item id="82801" min="1" max="1" chance="1.25" /> <!-- Eva's Soul Crystal - Lv. 6 - Accessories -->
+					<item id="80839" min="1" max="1" chance="5.5" /> <!-- Crystal of Dawn -->
+					<item id="82462" min="1" max="1" chance="1.25" /> <!-- Masia's Soul Crystal Lv. 5 - Accessories -->
+					<item id="80000" min="7" max="7" chance="9.8" /> <!-- Artifact Fragment -->
+					<item id="82626" min="1" max="1" chance="1.25" /> <!-- Pa'agrio's Soul Crystal - Lv. 4 - Armor -->
+					<item id="47494" min="4" max="4" chance="9.8" /> <!-- Selenite -->
+					<item id="82267" min="1" max="1" chance="1.25" /> <!-- Tersi's Soul Crystal Lv. 3 - Armor -->
+					<item id="36946" min="1" max="1" chance="0.1" /> <!-- Lindvior's Earring -->
+					<item id="82270" min="1" max="1" chance="1.25" /> <!-- Tersi's Soul Crystal Lv. 6 - Armor -->
+					<item id="82800" min="1" max="1" chance="1.25" /> <!-- Eva's Soul Crystal - Lv. 5 - Accessories -->
+					<item id="82461" min="1" max="1" chance="1.25" /> <!-- Masia's Soul Crystal Lv. 4 - Accessories -->
+					<item id="19464" min="1" max="1" chance="0.1" /> <!-- Valakas' Blessed Necklace -->
+					<item id="82625" min="1" max="1" chance="1.25" /> <!-- Pa'agrio's Soul Crystal - Lv. 3 - Armor -->
+					<item id="81134" min="4" max="4" chance="9.8" /> <!-- Crystal of Dyes -->
+					<item id="82628" min="1" max="1" chance="1.25" /> <!-- Pa'agrio's Soul Crystal - Lv. 6 - Armor -->
+				</group>
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29456" level="130" type="Monster" name="Throne's Treasure Chest">
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="37" men="149">
+			<vitals hp="250" hpRegen="1" mp="300.8" mpRegen="2.1" />
+			<attack physical="105" magical="8" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1252" magical="229" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="true" canMove="false" />
+		<collision>
+			<radius normal="30" />
+			<height normal="24.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Boss Neutralization Resistance -->
+			<skill id="16318" level="1" /> <!-- Single Damage -->
+			<skill id="17896" level="1" /> <!-- Orc Recovery Ban -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="80100" min="1" max="1" chance="4" /> <!-- Krishna Retributer -->
+					<item id="80096" min="1" max="1" chance="4" /> <!-- Krishna Thrower -->
+					<item id="80103" min="1" max="1" chance="4" /> <!-- Krishna Dual Blunt Weapons -->
+					<item id="80099" min="1" max="1" chance="4" /> <!-- Krishna Caster -->
+					<item id="80094" min="1" max="1" chance="4" /> <!-- Krishna Fighter -->
+					<item id="80095" min="1" max="1" chance="4" /> <!-- Krishna Stormer -->
+					<item id="80996" min="6" max="6" chance="44" /> <!-- Fioren's Crystal Prison's Time Stone -->
+					<item id="80090" min="1" max="1" chance="4" /> <!-- Krishna Shaper -->
+					<item id="80093" min="1" max="1" chance="4" /> <!-- Krishna Avenger -->
+					<item id="80101" min="1" max="1" chance="4" /> <!-- Krishna Dual Swords -->
+					<item id="80091" min="1" max="1" chance="4" /> <!-- Krishna Cutter -->
+					<item id="80092" min="1" max="1" chance="4" /> <!-- Krishna Slasher -->
+					<item id="80097" min="1" max="1" chance="4" /> <!-- Krishna Guardian -->
+					<item id="80102" min="1" max="1" chance="4" /> <!-- Krishna Dual Daggers -->
+					<item id="80098" min="1" max="1" chance="4" /> <!-- Krishna Buster -->
+				</group>
+				<group chance="100">
+					<item id="80112" min="1" max="1" chance="4" /> <!-- Leviathan Leather Leggings - Light armor -->
+					<item id="80114" min="1" max="1" chance="4" /> <!-- Leviathan Leather Boots - Light armor -->
+					<item id="80117" min="1" max="1" chance="4" /> <!-- Leviathan Stockings - Robe -->
+					<item id="80104" min="1" max="1" chance="4" /> <!-- Leviathan Helmet - Heavy armor -->
+					<item id="80119" min="1" max="1" chance="4" /> <!-- Leviathan Shoes - Robe -->
+					<item id="80105" min="1" max="1" chance="4" /> <!-- Leviathan Breastplate - Heavy armor -->
+					<item id="80110" min="1" max="1" chance="4" /> <!-- Leviathan Leather Helmet - Light armor -->
+					<item id="80107" min="1" max="1" chance="4" /> <!-- Leviathan Gauntlets - Heavy armor -->
+					<item id="80115" min="1" max="1" chance="4" /> <!-- Leviathan Circlet - Robe -->
+					<item id="80108" min="1" max="1" chance="4" /> <!-- Leviathan Boots - Heavy armor -->
+					<item id="80116" min="1" max="1" chance="4" /> <!-- Leviathan Tunic - Robe -->
+					<item id="80997" min="6" max="6" chance="32" /> <!-- Jamoa's Camp's Time Stone -->
+					<item id="80113" min="1" max="1" chance="4" /> <!-- Leviathan Leather Gloves - Light armor -->
+					<item id="80111" min="1" max="1" chance="4" /> <!-- Leviathan Leather Armor - Light armor -->
+					<item id="80106" min="1" max="1" chance="4" /> <!-- Leviathan Gaiters - Heavy armor -->
+					<item id="80118" min="1" max="1" chance="4" /> <!-- Leviathan Gloves - Robe -->
+					<item id="80109" min="1" max="1" chance="4" /> <!-- Leviathan Shield -->
+					<item id="80120" min="1" max="1" chance="4" /> <!-- Leviathan Sigil -->
+				</group>
+				<group chance="100">
+					<item id="83768" min="1" max="1" chance="3.5" /> <!-- +3 Support Artifact Pack -->
+					<item id="80998" min="4" max="4" chance="56" /> <!-- Pantheon's Museum's Time Stone -->
+					<item id="83765" min="1" max="1" chance="4" /> <!-- +1 Balance Artifact Pack -->
+					<item id="83777" min="1" max="1" chance="1" /> <!-- '+7 Balance Artifact Pack -->
+					<item id="83770" min="1" max="1" chance="2.5" /> <!-- '+5 Attack Artifact Pack -->
+					<item id="83767" min="1" max="1" chance="3.5" /> <!-- +3 Defense Artifact Pack -->
+					<item id="83764" min="1" max="1" chance="4" /> <!-- +1 Support Artifact Pack -->
+					<item id="83776" min="1" max="1" chance="1" /> <!-- '+7 Support Artifact Pack -->
+					<item id="83773" min="1" max="1" chance="2.5" /> <!-- +5 Balance Artifact Pack -->
+					<item id="83766" min="1" max="1" chance="3.5" /> <!-- +3 Attack Artifact Pack -->
+					<item id="83763" min="1" max="1" chance="4" /> <!-- +1 Defense Artifact Pack -->
+					<item id="83775" min="1" max="1" chance="1" /> <!-- '+7 Defense Artifact Pack -->
+					<item id="83772" min="1" max="1" chance="2.5" /> <!-- '+5 Support Artifact Pack -->
+					<item id="83769" min="1" max="1" chance="3.5" /> <!-- +3 Balance Artifact Pack -->
+					<item id="83762" min="1" max="1" chance="4" /> <!-- +1 Attack Artifact Pack -->
+					<item id="83774" min="1" max="1" chance="1" /> <!-- '+7 Attack Artifact Pack -->
+					<item id="83771" min="1" max="1" chance="2.5" /> <!-- +5 Defense Artifact Pack -->
+				</group>
+				<group chance="100">
+					<item id="82270" min="1" max="1" chance="1.25" /> <!-- Tersi's Soul Crystal Lv. 6 - Armor -->
+					<item id="39738" min="4" max="4" chance="9.45" /> <!-- Rune Stone -->
+					<item id="82800" min="1" max="1" chance="1.25" /> <!-- Eva's Soul Crystal - Lv. 5 - Accessories -->
+					<item id="82461" min="1" max="1" chance="1.25" /> <!-- Masia's Soul Crystal Lv. 4 - Accessories -->
+					<item id="19463" min="1" max="1" chance="0.15" /> <!-- Antharas' Blessed Earring -->
+					<item id="82464" min="1" max="1" chance="1.25" /> <!-- Masia's Soul Crystal Lv. 7 - Accessories -->
+					<item id="80636" min="7" max="7" chance="9.7" /> <!-- Artifact Crystal -->
+					<item id="82628" min="1" max="1" chance="1.25" /> <!-- Pa'agrio's Soul Crystal - Lv. 6 - Armor -->
+					<item id="82269" min="1" max="1" chance="1.25" /> <!-- Tersi's Soul Crystal Lv. 5 - Armor -->
+					<item id="47494" min="4" max="4" chance="9.45" /> <!-- Selenite -->
+					<item id="82799" min="1" max="1" chance="1.25" /> <!-- Eva's Soul Crystal - Lv. 4 - Accessories -->
+					<item id="83363" min="2" max="2" chance="6" /> <!-- Wisdom Crystal -->
+					<item id="82802" min="1" max="1" chance="1.25" /> <!-- Eva's Soul Crystal - Lv. 7 - Accessories -->
+					<item id="80839" min="2" max="2" chance="6" /> <!-- Crystal of Dawn -->
+					<item id="82463" min="1" max="1" chance="1.25" /> <!-- Masia's Soul Crystal Lv. 6 - Accessories -->
+					<item id="80000" min="7" max="7" chance="9.7" /> <!-- Artifact Fragment -->
+					<item id="82627" min="1" max="1" chance="1.25" /> <!-- Pa'agrio's Soul Crystal - Lv. 5 - Armor -->
+					<item id="82268" min="1" max="1" chance="1.25" /> <!-- Tersi's Soul Crystal Lv. 4 - Armor -->
+					<item id="36946" min="1" max="1" chance="0.15" /> <!-- Lindvior's Earring -->
+					<item id="82271" min="1" max="1" chance="1.25" /> <!-- Tersi's Soul Crystal Lv. 7 - Armor -->
+					<item id="81453" min="1" max="1" chance="0.15" /> <!-- Enhanced Rune Stone -->
+					<item id="82801" min="1" max="1" chance="1.25" /> <!-- Eva's Soul Crystal - Lv. 6 - Accessories -->
+					<item id="82462" min="1" max="1" chance="1.25" /> <!-- Masia's Soul Crystal Lv. 5 - Accessories -->
+					<item id="19464" min="1" max="1" chance="0.15" /> <!-- Valakas' Blessed Necklace -->
+					<item id="82626" min="1" max="1" chance="1.25" /> <!-- Pa'agrio's Soul Crystal - Lv. 4 - Armor -->
+					<item id="81134" min="4" max="4" chance="9.7" /> <!-- Crystal of Dyes -->
+					<item id="82629" min="1" max="1" chance="1.25" /> <!-- Pa'agrio's Soul Crystal - Lv. 7 - Armor -->
+				</group>
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29457" level="80" type="Folk" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<sex>FEMALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="2538603" hpRegen="10.2" mp="3190" mpRegen="3.6" />
+			<attack physical="3105.728" magical="1590.608" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="819.3" magical="517.0998" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="34" />
+			<height normal="57" />
+		</collision>
+	</npc>
+	<npc id="29458" level="130" type="RaidBoss" name="Baluan" title="Demon of Dissent">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="83622" /> <!-- Snowy Volcano's Boss Weapon -->
+		<acquire exp="11108673348" sp="9997806" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="45546465549.13295" hpRegen="13.4" mp="67330" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="60" />
+				<run ground="60" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="FIRE" value="2700" />
+				<defence fire="2800" water="2750" wind="2800" earth="2800" holy="2800" dark="2800" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5462" level="1" /> <!-- Fire Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62611" level="1" /> <!-- Demon of Dissent Baluan -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+			<skill id="62627" level="1" /> <!-- Abyss Spawn -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="9" /> <!-- Received Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="56" />
+			<height normal="151" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="82860" min="1" max="2" chance="14" /> <!-- Gran Kain's Scroll: Enchant L-grade Weapon -->
+					<item id="82868" min="1" max="2" chance="86" /> <!-- Gran Kain's Scroll: Enchant L-grade Armor -->
+				</group>
+				<group chance="1">
+					<item id="83359" min="1" max="1" chance="25" /> <!-- Orb of Water - Elysia -->
+					<item id="83360" min="1" max="1" chance="25" /> <!-- Orb of Air - Elysia -->
+					<item id="83358" min="1" max="1" chance="25" /> <!-- Orb of Fire - Elysia -->
+					<item id="83361" min="1" max="1" chance="25" /> <!-- Orb of Earth - Elysia -->
+				</group>
+				<group chance="2.5">
+					<item id="80959" min="1" max="1" chance="10" /> <!-- Epic Talisman -->
+					<item id="82059" min="1" max="1" chance="10" /> <!-- Sayha's Enhanced Talisman Lv. 10 -->
+					<item id="81769" min="1" max="1" chance="10" /> <!-- Enhanced Talisman of Protection Lv. 10 -->
+					<item id="80957" min="1" max="1" chance="10" /> <!-- Heavenly Talisman -->
+					<item id="39657" min="1" max="1" chance="60" /> <!-- Venir's Talisman Lv. 24 -->
+				</group>
+				<group chance="7">
+					<item id="83594" min="1" max="1" chance="12.5" /> <!-- Eraton's Dye Lv. 5 (Basic Attack Power) - STR +6, DEX +7, CHA +6 -->
+					<item id="82739" min="1" max="1" chance="12.5" /> <!-- Eraton's Dye Lv. 5 (M. Critical Damage) - INT +6, WIT +7, CHA +6 -->
+					<item id="82719" min="1" max="1" chance="12.5" /> <!-- Eraton's Dye Lv. 5 (P. Skill Power) - STR +6, DEX +7, CHA +6 -->
+					<item id="82689" min="1" max="1" chance="12.5" /> <!-- Eraton's Dye Lv. 5 (P. Atk.) - STR +6, DEX +7, CHA +6 -->
+					<item id="82729" min="1" max="1" chance="12.5" /> <!-- Eraton's Dye Lv. 5 (M. Atk.) - INT +6, WIT +7, CHA +6 -->
+					<item id="82709" min="1" max="1" chance="12.5" /> <!-- Eraton's Dye Lv. 5 (P. Skill Critical Damage) - STR +6, DEX +7, CHA +6 -->
+					<item id="82699" min="1" max="1" chance="12.5" /> <!-- Eraton's Dye Lv. 5 (Critical Damage for Basic Attacks) - STR +6, DEX +7, CHA +6 -->
+					<item id="82749" min="1" max="1" chance="12.5" /> <!-- Eraton's Dye Lv. 5 (M. Skill Power) - INT +6, WIT +7, CHA +6 -->
+				</group>
+				<group chance="2.5">
+					<item id="82805" min="1" max="1" chance="20" /> <!-- Eva's Soul Crystal - Lv. 10 - Accessories -->
+					<item id="82274" min="1" max="1" chance="20" /> <!-- Tersi's Soul Crystal Lv. 10 - Armor -->
+					<item id="48908" min="1" max="1" chance="20" /> <!-- Shillien's Soul Crystal Lv. 10 - Weapon -->
+					<item id="82632" min="1" max="1" chance="20" /> <!-- Pa'agrio's Soul Crystal - Lv. 10 - Armor -->
+					<item id="82467" min="1" max="1" chance="20" /> <!-- Masia's Soul Crystal Lv. 10 - Accessories -->
+				</group>
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29459" level="130" type="Monster" name="Altar of Dissent" title="Fire">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="135970731" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62628" level="1" /> <!-- Altar of Dissent -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="42" />
+			<height normal="106.5" />
+		</collision>
+	</npc>
+	<npc id="29460" level="130" type="Monster" name="Altar of Dissent" title="Icy Air">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="135970731" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="14765" level="3" /> <!-- Vampiric Rage Resistance -->
+			<skill id="62629" level="1" /> <!-- Altar of Dissent -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="33195" level="10" /> <!-- Direct Hit Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="42" />
+			<height normal="106.5" />
+		</collision>
+	</npc>
+	<npc id="29461" level="130" type="RaidBoss" name="Valakas" title="Reload Balance Test">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="27965221655" sp="25168699" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="11875092988.439306" hpRegen="13.4" mp="68822" mpRegen="30" />
+			<attack physical="6396860" magical="583012" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3012960" magical="1458092" />
+			<speed>
+				<walk ground="120" />
+				<run ground="300" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="FIRE" value="2700" />
+				<defence fire="2800" water="2750" wind="2800" earth="2800" holy="2800" dark="2800" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="5462" level="1" /> <!-- Fire Attribute -->
+			<skill id="14765" level="4" /> <!-- Vampiric Rage Resistance -->
+			<skill id="34862" level="1" /> <!-- Valakas -->
+			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+			<skill id="14804" level="10" /> <!-- Damage Reflection Resistance -->
+			<skill id="34814" level="9" /> <!-- Critical Rate Resistance -->
+			<skill id="34815" level="9" /> <!-- Critical Damage Resistance -->
+			<skill id="34820" level="9" /> <!-- Received Damage Resistance -->
+		</skillList>
+		<collision>
+			<radius normal="190" />
+			<height normal="335" />
+		</collision>
+	</npc>
+	<npc id="29462" level="130" type="Monster" name="Altar of Dissent">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="135970731" hpRegen="13.4" mp="3190" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>600</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+		</skillList>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29463" level="130" type="Monster" name="Baluan">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="187136965.89595374" hpRegen="13.4" mp="67330" mpRegen="30" />
+			<attack physical="1599215" magical="145753" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="753240" magical="364523" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<attack type="FIRE" value="2700" />
+				<defence fire="2800" water="2750" wind="2800" earth="2800" holy="2800" dark="2800" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+		</skillList>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+</list>
