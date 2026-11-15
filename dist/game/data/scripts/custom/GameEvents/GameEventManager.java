@@ -9,13 +9,14 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicLong;
 
 import org.l2jmobius.gameserver.mechanics.events.Containers;
-import org.l2jmobius.gameserver.mechanics.events.listeners.ConsumerEventListener;
 import org.l2jmobius.gameserver.mechanics.events.EventType;
 import org.l2jmobius.gameserver.mechanics.events.holders.actor.player.OnPlayerLogout;
+import org.l2jmobius.gameserver.mechanics.events.listeners.ConsumerEventListener;
 
 /**
- * Singleton-реестр. EnumMap = массив под капотом: O(1), ноль накладных расходов HashMap.
- * main() — точка входа: ScriptEngine сам скомпилирует и выполнит этот скрипт при старте.
+ * Singleton-реестр. EnumMap = массив под капотом: O(1).
+ * ВАЖНО: циклы ивентов стартуют в start() ПОСЛЕ публикации INSTANCE,
+ * иначе openRegistration() внутри конструктора получит getInstance() == null.
  */
 public final class GameEventManager
 {
@@ -23,6 +24,7 @@ public final class GameEventManager
 	private final IGameEvent[] _sortedByName; // сортировка A...Z один раз при старте
 	private final List<GameEventListener> _listeners = new CopyOnWriteArrayList<>();
 	private final AtomicLong _revision = new AtomicLong(); // версия для кэша доски
+	private volatile boolean _started;
 
 	private GameEventManager()
 	{
@@ -34,8 +36,25 @@ public final class GameEventManager
 		_sortedByName = _events.values().toArray(new IGameEvent[0]);
 		Arrays.sort(_sortedByName, Comparator.comparing(IGameEvent::getDisplayName, String.CASE_INSENSITIVE_ORDER));
 
-		// API 14.3 Throne: регистрация через Containers + ConsumerEventListener (как в custom/listeners/ListenerTest).
 		Containers.Global().addListener(new ConsumerEventListener(Containers.Global(), EventType.ON_PLAYER_LOGOUT, (OnPlayerLogout event) -> onPlayerLogout(event), this));
+
+		// Циклы здесь НЕ стартуем — INSTANCE ещё не присвоен (reentrancy в <clinit>).
+	}
+
+	/** ScriptEngine вызывает main у скриптов датапака. */
+	public static void main(String[] args)
+	{
+		getInstance().start(); // INSTANCE уже опубликован — обратные вызовы безопасны
+	}
+
+	/** Запуск циклов после полной инициализации. Идемпотентен. */
+	private void start()
+	{
+		if (_started)
+		{
+			return;
+		}
+		_started = true;
 
 		for (AbstractGameEvent event : _events.values())
 		{
@@ -43,13 +62,7 @@ public final class GameEventManager
 		}
 	}
 
-	/** ScriptEngine вызывает main у скриптов датапака — так менеджер поднимается сам. */
-	public static void main(String[] args)
-	{
-		getInstance();
-	}
-
-	/** Все ивенты, отсортированные A...Z. Read-only по соглашению (не клонируем ради экономии). */
+	/** Все ивенты, отсортированные A...Z. Read-only по соглашению. */
 	public IGameEvent[] getEventsSorted()
 	{
 		return _sortedByName;
@@ -60,7 +73,7 @@ public final class GameEventManager
 		return _events.get(type);
 	}
 
-	/** Все "действующие" ивенты через bool active — для анонсов, NPC, других систем. */
+	/** Все "действующие" ивенты через bool active. */
 	public List<IGameEvent> getActiveEvents()
 	{
 		final List<IGameEvent> active = new ArrayList<>(4);
@@ -119,7 +132,7 @@ public final class GameEventManager
 	}
 
 	/** Listener ядра: чистим регистрации вышедших игроков (только на этапе регистрации). */
-	private void onPlayerLogout(OnPlayerLogout event)
+	public void onPlayerLogout(OnPlayerLogout event)
 	{
 		final int objectId = event.getPlayer().getObjectId();
 		for (AbstractGameEvent gameEvent : _events.values())
