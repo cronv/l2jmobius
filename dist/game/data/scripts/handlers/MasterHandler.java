@@ -96,6 +96,7 @@ import handlers.actions.user.UnsummonServitor;
 import handlers.actions.user.WaitingAction;
 import handlers.bypass.communityboard.ClanBoard;
 import handlers.bypass.communityboard.DropSearchBoard;
+import handlers.bypass.communityboard.EventsBoard;
 import handlers.bypass.communityboard.FavoriteBoard;
 import handlers.bypass.communityboard.FriendsBoard;
 import handlers.bypass.communityboard.HomeBoard;
@@ -550,6 +551,7 @@ public class MasterHandler
 			MemoBoard.class,
 			RegionBoard.class,
 			DropSearchBoard.class,
+			EventsBoard.class,
 		},
 		{
 			// Item Handlers
