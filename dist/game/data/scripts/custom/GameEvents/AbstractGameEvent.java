@@ -48,6 +48,7 @@ public abstract class AbstractGameEvent implements IGameEvent
 	protected int _maxLevel = 130;
 	protected int _minPlayers = 2;
 	protected int _maxPlayers = 100;
+	protected static final String TIMER_TEXT = "До конца ивента";
 
 	protected AbstractGameEvent(GameEventType type)
 	{
