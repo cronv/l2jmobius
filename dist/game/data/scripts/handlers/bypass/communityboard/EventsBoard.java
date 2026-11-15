@@ -33,6 +33,11 @@ public class EventsBoard implements IParseBoardHandler
 	private volatile long _cachedRevision = -1;
 	private volatile long _cachedDay = -1;
 
+    public EventsBoard()
+    {
+        LOG.info("EventsBoard: Community Board section 'Events' registered (commands: _bbsevents, _bbsevent).");
+    }
+
 	@Override
 	public boolean onCommand(String command, Player player)
 	{

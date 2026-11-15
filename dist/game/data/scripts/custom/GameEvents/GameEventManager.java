@@ -1,5 +1,8 @@
 package custom.GameEvents;
 
+import java.time.Instant;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -7,6 +10,7 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicLong;
+import java.util.logging.Logger;
 
 import org.l2jmobius.gameserver.mechanics.events.Containers;
 import org.l2jmobius.gameserver.mechanics.events.EventType;
@@ -25,6 +29,9 @@ public final class GameEventManager
 	private final List<GameEventListener> _listeners = new CopyOnWriteArrayList<>();
 	private final AtomicLong _revision = new AtomicLong(); // версия для кэша доски
 	private volatile boolean _started;
+
+    private static final Logger LOGGER = Logger.getLogger(GameEventManager.class.getName());
+    private static final DateTimeFormatter LOG_TIME = DateTimeFormatter.ofPattern("dd.MM HH:mm");
 
 	private GameEventManager()
 	{
@@ -48,19 +55,27 @@ public final class GameEventManager
 	}
 
 	/** Запуск циклов после полной инициализации. Идемпотентен. */
-	private void start()
-	{
-		if (_started)
-		{
-			return;
-		}
-		_started = true;
+    private void start()
+    {
+        if (_started)
+        {
+            return;
+        }
+        _started = true;
 
-		for (AbstractGameEvent event : _events.values())
-		{
-			event.scheduleFirstCycle();
-		}
-	}
+        for (AbstractGameEvent event : _events.values())
+        {
+            event.scheduleFirstCycle();
+        }
+
+        LOGGER.info("GameEvents: Initialized " + _events.size() + " event(s).");
+        for (AbstractGameEvent event : _events.values())
+        {
+            LOGGER.info("GameEvents: " + event.getDisplayName() + " [" + event.getType() + "] state=" + event.getState() //
+                + ", next start " + LOG_TIME.format(Instant.ofEpochMilli(event.getNextStartMillis()).atZone(ZoneId.systemDefault())) //
+                + ", participants " + event.getParticipantCount() + "/" + event.getMaxParticipants());
+        }
+    }
 
 	/** Все ивенты, отсортированные A...Z. Read-only по соглашению. */
 	public IGameEvent[] getEventsSorted()
