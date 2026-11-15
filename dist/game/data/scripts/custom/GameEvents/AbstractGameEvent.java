@@ -10,34 +10,44 @@ import org.l2jmobius.commons.threads.ThreadPool;
 import org.l2jmobius.gameserver.entity.World;
 import org.l2jmobius.gameserver.entity.actor.Player;
 
+import custom.GameEvents.announce.EventMessages;
+import custom.GameEvents.announce.IEventAnnouncer;
+import custom.GameEvents.schedule.EveryHours;
+import custom.GameEvents.schedule.IEventSchedule;
+
 /**
- * Template Method: register/unregister/start/end — final, наследники пишут только on* хуки.
- * Память: храним ТОЛЬКО objectId (int) в примитивном IntSet — никаких ссылок на Player (нет утечек).
- * CPU: никаких тикающих задач — только разовые ThreadPool.schedule на переходах состояний.
+ * Template Method. Расписание (IEventSchedule) задаёт старты: каждые N минут / H часов / D дней.
+ * Память: только objectId (Set<Integer>, CHM newKeySet: O(1), lock-free чтения).
+ * CPU: только разовые задачи ThreadPool, без тиков.
  */
 public abstract class AbstractGameEvent implements IGameEvent
 {
+	private static final ScheduledFuture<?>[] EMPTY_TASKS = new ScheduledFuture<?>[0];
+
 	private final GameEventType _type;
 	private final Set<Integer> _participants = ConcurrentHashMap.newKeySet();
 
 	private volatile EventState _state = EventState.INACTIVE;
-	private volatile boolean _active; // тот самый bool active: читается без блокировок
+	private volatile boolean _active;
+	private volatile long _nextStartMillis;
 	private volatile IParticipationPolicy _participationPolicy = IParticipationPolicy.DEFAULT;
 	private volatile IRewardPolicy _rewardPolicy = IRewardPolicy.NONE;
+	private volatile IEventAnnouncer _announcer = IEventAnnouncer.DEFAULT;
 
+	private ScheduledFuture<?> _openTask;
 	private ScheduledFuture<?> _startTask;
 	private ScheduledFuture<?> _endTask;
-	private ScheduledFuture<?> _nextCycleTask;
+	private ScheduledFuture<?>[] _countdownTasks = EMPTY_TASKS;
 
-	// Тюнинг переопределяется в конструкторе наследника (или вынеси в properties).
+	// Тюнинг в конструкторе наследника.
+	protected IEventSchedule _schedule = new EveryHours(2, 0);
+	protected long _registrationTimeMs = 10 * 60 * 1000L; // за сколько до старта открыть регистрацию
+	protected long _eventTimeMs = 10 * 60 * 1000L;
+	protected int[] _countdownMinutes = { 10, 5, 1 };
 	protected int _minLevel = 40;
 	protected int _maxLevel = 130;
 	protected int _minPlayers = 2;
 	protected int _maxPlayers = 100;
-	protected long _registrationTimeMs = 10 * 60 * 1000L;
-	protected long _eventTimeMs = 10 * 60 * 1000L;
-	protected long _cyclePeriodMs = 2 * 60 * 60 * 1000L; // 0 = одноразовый ивент
-	protected long _initialDelayMs = 60 * 1000L;
 
 	protected AbstractGameEvent(GameEventType type)
 	{
@@ -66,6 +76,18 @@ public abstract class AbstractGameEvent implements IGameEvent
 	public final boolean isActive()
 	{
 		return _active;
+	}
+
+	@Override
+	public final IEventSchedule getSchedule()
+	{
+		return _schedule;
+	}
+
+	@Override
+	public final long getNextStartMillis()
+	{
+		return _nextStartMillis;
 	}
 
 	@Override
@@ -114,12 +136,40 @@ public abstract class AbstractGameEvent implements IGameEvent
 		_rewardPolicy = policy;
 	}
 
+	public final void setAnnouncer(IEventAnnouncer announcer)
+	{
+		_announcer = announcer;
+	}
+
 	protected final IRewardPolicy getRewardPolicy()
 	{
 		return _rewardPolicy;
 	}
 
-	// ---------------- Жизненный цикл (все переходы под одним монитором) ----------------
+	// ---------------- Жизненный цикл ----------------
+
+	private void planNextCycle()
+	{
+		final long now = System.currentTimeMillis();
+		_nextStartMillis = _schedule.nextStartAfter(now);
+		final long delay = (_nextStartMillis - _registrationTimeMs) - now;
+		if (delay <= 0)
+		{
+			openRegistration();
+		}
+		else
+		{
+			_openTask = ThreadPool.schedule(this::openRegistration, delay);
+		}
+	}
+
+	final void scheduleFirstCycle()
+	{
+		synchronized (this)
+		{
+			planNextCycle();
+		}
+	}
 
 	public final void openRegistration()
 	{
@@ -129,11 +179,46 @@ public abstract class AbstractGameEvent implements IGameEvent
 			{
 				return;
 			}
+			final long now = System.currentTimeMillis();
+			if (_nextStartMillis <= now)
+			{
+				_nextStartMillis = _schedule.nextStartAfter(now); // ручной вызов админом
+			}
 			_participants.clear();
 			setState(EventState.REGISTERING);
-			_startTask = ThreadPool.schedule(this::start, _registrationTimeMs);
+			_startTask = ThreadPool.schedule(this::start, _nextStartMillis - now);
+			scheduleCountdowns(now);
 			onRegistrationOpened();
 		}
+	}
+
+	private void scheduleCountdowns(long now)
+	{
+		cancelCountdowns();
+		final int[] points = _countdownMinutes;
+		final ScheduledFuture<?>[] tasks = new ScheduledFuture<?>[points.length];
+		for (int i = 0; i < points.length; i++)
+		{
+			final int minutes = points[i];
+			final long delay = (_nextStartMillis - (minutes * 60_000L)) - now;
+			if (delay > 0)
+			{
+				tasks[i] = ThreadPool.schedule(() -> _announcer.announce(EventMessages.countdown(getDisplayName(), minutes)), delay);
+			}
+		}
+		_countdownTasks = tasks;
+	}
+
+	private void cancelCountdowns()
+	{
+		for (ScheduledFuture<?> task : _countdownTasks)
+		{
+			if (task != null)
+			{
+				task.cancel(false);
+			}
+		}
+		_countdownTasks = EMPTY_TASKS;
 	}
 
 	@Override
@@ -157,7 +242,7 @@ public abstract class AbstractGameEvent implements IGameEvent
 				player.sendMessage(deny);
 				return false;
 			}
-			if (!_participants.add(player.getObjectId())) // проверка+вставка атомарны под锁
+			if (!_participants.add(player.getObjectId()))
 			{
 				player.sendMessage("You are already registered.");
 				return false;
@@ -183,7 +268,6 @@ public abstract class AbstractGameEvent implements IGameEvent
 		return true;
 	}
 
-	/** Вызывается менеджером на logout: снимаем регистрацию, не держа ссылок на Player. */
 	final boolean removeParticipant(int objectId)
 	{
 		synchronized (this)
@@ -205,10 +289,12 @@ public abstract class AbstractGameEvent implements IGameEvent
 			{
 				return;
 			}
-			// Резолвим Player только сейчас, из World (онлайн). Оффлайн — выкидываем.
-			final int[] ids = _participants.stream().mapToInt(Integer::intValue).toArray();
-			final List<Player> players = new ArrayList<>(ids.length);
-			for (int objectId : ids)
+			cancelCountdowns();
+			_announcer.announce(EventMessages.registrationClosed(getDisplayName()));
+
+			// Итератор CHM weakly-consistent: remove во время обхода безопасен.
+			final List<Player> players = new ArrayList<>(_participants.size());
+			for (int objectId : _participants)
 			{
 				final Player player = World.getInstance().getPlayer(objectId);
 				if (player != null)
@@ -222,15 +308,16 @@ public abstract class AbstractGameEvent implements IGameEvent
 			}
 			if (players.size() < _minPlayers)
 			{
-				World.broadcastToAllOnlinePlayers("[Events] " + getDisplayName() + " cancelled: not enough participants.");
+				_announcer.announce(EventMessages.cancelled(getDisplayName()));
 				_participants.clear();
 				setState(EventState.INACTIVE);
-				scheduleNextCycle();
+				planNextCycle();
 				onCancelled();
 				return;
 			}
 			setState(EventState.RUNNING);
 			_endTask = ThreadPool.schedule(this::end, _eventTimeMs);
+			_announcer.announce(EventMessages.started(getDisplayName()));
 			onBegin(players);
 		}
 	}
@@ -244,40 +331,28 @@ public abstract class AbstractGameEvent implements IGameEvent
 				return;
 			}
 			setState(EventState.FINISHED);
-			onEnd(); // наследник сам телепортит/награждает, пока знает участников
-			_participants.clear(); // освобождаем память сразу
+			onEnd();
+			_participants.clear();
 			setState(EventState.INACTIVE);
-			scheduleNextCycle();
+			_announcer.announce(EventMessages.finished(getDisplayName()));
+			planNextCycle();
 		}
 	}
 
-	/** Ручная остановка (админ-команда, shutdown). */
 	public final void shutdown()
 	{
 		synchronized (this)
 		{
+			cancel(_openTask);
 			cancel(_startTask);
 			cancel(_endTask);
-			cancel(_nextCycleTask);
+			cancelCountdowns();
 			if (_state == EventState.RUNNING)
 			{
 				onEnd();
 			}
 			_participants.clear();
 			setState(EventState.INACTIVE);
-		}
-	}
-
-	final void scheduleFirstCycle()
-	{
-		_nextCycleTask = ThreadPool.schedule(this::openRegistration, _initialDelayMs);
-	}
-
-	private void scheduleNextCycle()
-	{
-		if (_cyclePeriodMs > 0)
-		{
-			_nextCycleTask = ThreadPool.schedule(this::openRegistration, _cyclePeriodMs);
 		}
 	}
 
@@ -297,11 +372,11 @@ public abstract class AbstractGameEvent implements IGameEvent
 		}
 	}
 
-	// ---------------- Хуки для наследников ----------------
+	// ---------------- Хуки ----------------
 
 	protected void onRegistrationOpened()
 	{
-		World.broadcastToAllOnlinePlayers("[Events] " + getDisplayName() + ": registration is open!");
+		_announcer.announce(EventMessages.registrationOpen(getDisplayName(), IEventSchedule.time(_nextStartMillis)));
 	}
 
 	protected void onRegistered(Player player)

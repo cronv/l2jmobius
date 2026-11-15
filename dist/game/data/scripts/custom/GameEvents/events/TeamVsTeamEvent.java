@@ -9,6 +9,7 @@ import org.l2jmobius.gameserver.entity.actor.Player;
 
 import custom.GameEvents.AbstractGameEvent;
 import custom.GameEvents.GameEventType;
+import custom.GameEvents.schedule.EveryHours;
 
 public class TeamVsTeamEvent extends AbstractGameEvent
 {
@@ -23,10 +24,15 @@ public class TeamVsTeamEvent extends AbstractGameEvent
 	public TeamVsTeamEvent()
 	{
 		super(GameEventType.TEAM_VS_TEAM);
+		_schedule = new EveryHours(2, 0);        // каждые 2 часа: 00:00, 02:00, ... 22:00
+		// _schedule = new EveryMinutes(30);     // каждые 30 минут
+		// _schedule = new EveryDays(1, 20, 0);  // каждый день в 20:00 → "Сегодня 20:00" / "Завтра 20:00"
+		// _schedule = new EveryDays(2, 21, 30); // каждые 2 дня в 21:30 → "Пятница 21:30" / "23.11 21:30"
+		_registrationTimeMs = 10 * 60 * 1000L;   // регистрация за 10 минут до старта
+		_eventTimeMs = 10 * 60 * 1000L;
+		_countdownMinutes = new int[] { 10, 5, 1 };
 		_minPlayers = 4;
 		_maxPlayers = 40;
-		_registrationTimeMs = 5 * 60 * 1000L;
-		_eventTimeMs = 10 * 60 * 1000L;
 	}
 
 	@Override

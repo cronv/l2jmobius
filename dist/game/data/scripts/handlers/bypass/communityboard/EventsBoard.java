@@ -1,5 +1,7 @@
 package handlers.bypass.communityboard;
 
+import java.time.LocalDate;
+
 import org.l2jmobius.gameserver.cache.HtmCache;
 import org.l2jmobius.gameserver.entity.actor.Player;
 import org.l2jmobius.gameserver.handler.CommunityBoardHandler;
@@ -9,13 +11,11 @@ import custom.GameEvents.EventState;
 import custom.GameEvents.GameEventManager;
 import custom.GameEvents.GameEventType;
 import custom.GameEvents.IGameEvent;
+import custom.GameEvents.schedule.IEventSchedule;
 
 /**
  * Adapter движка к Community Board.
- * Роутинг ядра — по самому длинному префиксу, поэтому "_bbsevents" и "_bbsevent ..."
- * не конфликтуют между собой и с "_bbstop".
- * Кэш: список пересобирается ТОЛЬКО при смене revision (регистрация/состояние),
- * а не на каждый клик. Карточка ивента — на лету (там персональная кнопка).
+ * Список кэшируется и пересобирается только при смене revision или дня (Сегодня/Завтра).
  */
 public class EventsBoard implements IParseBoardHandler
 {
@@ -31,6 +31,7 @@ public class EventsBoard implements IParseBoardHandler
 
 	private volatile String _cachedList;
 	private volatile long _cachedRevision = -1;
+	private volatile long _cachedDay = -1;
 
 	@Override
 	public boolean onCommand(String command, Player player)
@@ -41,7 +42,7 @@ public class EventsBoard implements IParseBoardHandler
 			return true;
 		}
 
-		// "_bbsevent <view|reg|unreg> <TYPE>" — парсим indexOf, без regex/split.
+		// "_bbsevent <view|reg|unreg> <TYPE>"
 		final int space1 = command.indexOf(' ');
 		if (space1 < 0)
 		{
@@ -84,29 +85,33 @@ public class EventsBoard implements IParseBoardHandler
 			}
 		}
 
-		sendView(player, event); // после действия сразу показываем свежий счётчик
+		sendView(player, event);
 		return true;
 	}
 
 	private void sendList(Player player)
 	{
 		final GameEventManager manager = GameEventManager.getInstance();
+		final long now = System.currentTimeMillis();
 		final long revision = manager.getRevision();
+		final long day = LocalDate.now().toEpochDay();
 		String html = _cachedList;
-		if ((html == null) || (revision != _cachedRevision))
+		if ((html == null) || (revision != _cachedRevision) || (day != _cachedDay))
 		{
 			final StringBuilder rows = new StringBuilder(512);
-			for (IGameEvent event : manager.getEventsSorted()) // уже A...Z
+			for (IGameEvent event : manager.getEventsSorted())
 			{
 				rows.append("<tr>");
-				rows.append("<td width=230><a action=\"bypass _bbsevent view ").append(event.getType().name()).append("\">").append(event.getDisplayName()).append("</a></td>");
-				rows.append("<td width=160>").append(event.getState().getTitle()).append("</td>");
-				rows.append("<td width=100 align=center>").append(event.getParticipantCount()).append('/').append(event.getMaxParticipants()).append("</td>");
+				rows.append("<td width=190><a action=\"bypass _bbsevent view ").append(event.getType().name()).append("\">").append(event.getDisplayName()).append("</a></td>");
+				rows.append("<td width=110>").append(event.getState().getTitle()).append("</td>");
+				rows.append("<td width=70 align=center>").append(event.getParticipantCount()).append('/').append(event.getMaxParticipants()).append("</td>");
+				rows.append("<td width=170>").append(nextCell(event, now)).append("</td>");
 				rows.append("</tr>");
 			}
 			html = HtmCache.getInstance().getHtm(player, LIST_PATH).replace("%events%", rows.toString()).replace("%navigation%", HtmCache.getInstance().getHtm(player, NAV_PATH));
 			_cachedList = html;
 			_cachedRevision = revision;
+			_cachedDay = day;
 		}
 		CommunityBoardHandler.separateAndSend(html, player);
 	}
@@ -132,8 +137,20 @@ public class EventsBoard implements IParseBoardHandler
 		html = html.replace("%status%", event.getState().getTitle());
 		html = html.replace("%count%", event.getParticipantCount() + " / " + event.getMaxParticipants());
 		html = html.replace("%levels%", event.getMinLevel() + " - " + event.getMaxLevel());
+		html = html.replace("%next%", nextCell(event, System.currentTimeMillis()));
 		html = html.replace("%button%", button);
 		CommunityBoardHandler.separateAndSend(html, player);
+	}
+
+	/** Ячейка "следующий ивент": числа жёлтым через color=LEVEL. */
+	private static String nextCell(IGameEvent event, long now)
+	{
+		if (event.getState() == EventState.RUNNING)
+		{
+			return "<font color=\"LEVEL\">Идёт сейчас</font>";
+		}
+		final IEventSchedule.NextEventTime next = event.getSchedule().describe(event.getNextStartMillis(), now);
+		return next.label() + " <font color=\"LEVEL\">" + next.time() + "</font>";
 	}
 
 	@Override

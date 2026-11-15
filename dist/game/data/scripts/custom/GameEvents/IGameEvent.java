@@ -2,6 +2,8 @@ package custom.GameEvents;
 
 import org.l2jmobius.gameserver.entity.actor.Player;
 
+import custom.GameEvents.schedule.IEventSchedule;
+
 /** Публичный контракт. Доска и сторонние системы зависят только от него. */
 public interface IGameEvent
 {
@@ -29,4 +31,8 @@ public interface IGameEvent
 	boolean register(Player player);
 
 	boolean unregister(Player player);
+
+	IEventSchedule getSchedule();
+
+	long getNextStartMillis();
 }
