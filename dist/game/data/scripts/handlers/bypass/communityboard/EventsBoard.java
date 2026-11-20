@@ -32,6 +32,7 @@ public class EventsBoard implements IParseBoardHandler
 	private volatile String _cachedList;
 	private volatile long _cachedRevision = -1;
 	private volatile long _cachedDay = -1;
+    private volatile long _cachedTime = 0;
 
     public EventsBoard()
     {
@@ -94,6 +95,12 @@ public class EventsBoard implements IParseBoardHandler
 		return true;
 	}
 
+	@Override
+    public String[] getCommandList()
+    {
+        return COMMANDS;
+    }
+
 	private void sendList(Player player)
 	{
 		final GameEventManager manager = GameEventManager.getInstance();
@@ -101,22 +108,24 @@ public class EventsBoard implements IParseBoardHandler
 		final long revision = manager.getRevision();
 		final long day = LocalDate.now().toEpochDay();
 		String html = _cachedList;
-		if ((html == null) || (revision != _cachedRevision) || (day != _cachedDay))
+		final boolean forceRefresh = (now - _cachedTime) > 1000;
+        if ((html == null) || (day != _cachedDay) || forceRefresh)
 		{
 			final StringBuilder rows = new StringBuilder(512);
-			for (IGameEvent event : manager.getEventsSorted())
-			{
-				rows.append("<tr>");
-				rows.append("<td width=190><a action=\"bypass _bbsevent view ").append(event.getType().name()).append("\">").append(event.getDisplayName()).append("</a></td>");
-				rows.append("<td width=110>").append(event.getState().getTitle()).append("</td>");
-				rows.append("<td width=70 align=center>").append(event.getParticipantCount()).append('/').append(event.getMaxParticipants()).append("</td>");
-				rows.append("<td width=170>").append(nextCell(event, now)).append("</td>");
-				rows.append("</tr>");
-			}
+            for (IGameEvent event : manager.getEventsSorted())
+            {
+                rows.append("<tr>");
+                rows.append("<td width=190><a action=\"bypass _bbsevent view ").append(event.getType().name()).append("\">").append(event.getDisplayName()).append("</a></td>");
+                rows.append("<td width=110>").append(event.getState().getTitle()).append("</td>");
+                rows.append("<td width=80 align=center>").append(countCell(event)).append("</td>");
+                rows.append("<td width=160>").append(nextCell(event, now)).append("</td>");
+                rows.append("</tr>");
+            }
 			html = HtmCache.getInstance().getHtm(player, LIST_PATH).replace("%events%", rows.toString()).replace("%navigation%", HtmCache.getInstance().getHtm(player, NAV_PATH));
 			_cachedList = html;
 			_cachedRevision = revision;
 			_cachedDay = day;
+            _cachedTime = now;
 		}
 		CommunityBoardHandler.separateAndSend(html, player);
 	}
@@ -140,27 +149,95 @@ public class EventsBoard implements IParseBoardHandler
 		html = html.replace("%navigation%", HtmCache.getInstance().getHtm(player, NAV_PATH));
 		html = html.replace("%name%", event.getDisplayName());
 		html = html.replace("%status%", event.getState().getTitle());
-		html = html.replace("%count%", event.getParticipantCount() + " / " + event.getMaxParticipants());
-		html = html.replace("%levels%", event.getMinLevel() + " - " + event.getMaxLevel());
+		html = html.replace("%count%", countCell(event));  // ← используем тот же countCell
+        html = html.replace("%min%", String.valueOf(event.getMinParticipants()));
+        html = html.replace("%levels%", event.getMinLevel() + " - " + event.getMaxLevel());
 		html = html.replace("%next%", nextCell(event, System.currentTimeMillis()));
 		html = html.replace("%button%", button);
 		CommunityBoardHandler.separateAndSend(html, player);
 	}
 
-	/** Ячейка "следующий ивент": числа жёлтым через color=LEVEL. */
-	private static String nextCell(IGameEvent event, long now)
-	{
-		if (event.getState() == EventState.RUNNING)
-		{
-			return "<font color=\"LEVEL\">Идёт сейчас</font>";
-		}
-		final IEventSchedule.NextEventTime next = event.getSchedule().describe(event.getNextStartMillis(), now);
-		return next.label() + " <font color=\"LEVEL\">" + next.time() + "</font>";
-	}
+    /** Ячейка "следующий ивент". */
+    private static String nextCell(IGameEvent event, long now)
+    {
+        final EventState state = event.getState();
+        if (state == EventState.RUNNING)
+        {
+            return "<font color=\"LEVEL\">Идёт сейчас</font>";
+        }
+        if (state == EventState.REGISTERING)
+        {
+            return "<font color=\"LEVEL\">Сейчас</font>";
+        }
+        final long nextStart = event.getNextStartMillis();
+        if (nextStart <= 0)
+        {
+            return "Не запланирован";
+        }
+        final IEventSchedule schedule = event.getSchedule();
+        if (schedule != null)
+        {
+            final IEventSchedule.NextEventTime next = schedule.describe(nextStart, now);
+            return next.label() + " <font color=\"LEVEL\">" + next.time() + "</font>";
+        }
+        // Cron-расписание (adapter): форматируем напрямую.
+        return formatCronTime(nextStart, now);
+    }
 
-	@Override
-	public String[] getCommandList()
-	{
-		return COMMANDS;
-	}
+    /** Форматирование времени для cron-ивентов: Сегодня/Завтра/день недели + HH:mm. */
+    private static String formatCronTime(long nextMillis, long now)
+    {
+        final java.time.ZoneId zone = java.time.ZoneId.systemDefault();
+        final java.time.LocalDate nextDate = java.time.Instant.ofEpochMilli(nextMillis).atZone(zone).toLocalDate();
+        final java.time.LocalDate today = java.time.Instant.ofEpochMilli(now).atZone(zone).toLocalDate();
+        final long diff = nextDate.toEpochDay() - today.toEpochDay();
+        final String time = java.time.Instant.ofEpochMilli(nextMillis).atZone(zone).format(java.time.format.DateTimeFormatter.ofPattern("HH:mm"));
+
+        final String label;
+        if (diff <= 0)
+        {
+            label = "Сегодня";
+        }
+        else if (diff == 1)
+        {
+            label = "Завтра";
+        }
+        else if (diff < 7)
+        {
+            label = switch (nextDate.getDayOfWeek())
+            {
+                case MONDAY -> "Понедельник";
+                case TUESDAY -> "Вторник";
+                case WEDNESDAY -> "Среда";
+                case THURSDAY -> "Четверг";
+                case FRIDAY -> "Пятница";
+                case SATURDAY -> "Суббота";
+                case SUNDAY -> "Воскресенье";
+            };
+        }
+        else
+        {
+            label = nextDate.format(java.time.format.DateTimeFormatter.ofPattern("dd.MM"));
+        }
+        return label + " <font color=\"LEVEL\">" + time + "</font>";
+    }
+
+    /**
+     * Счётчик игроков с цветовой индикацией достаточности.
+     * Красный + подсказка если < min, золотой если >= min.
+     */
+    private static String countCell(IGameEvent event)
+    {
+        final int count = event.getParticipantCount();
+        final int min = event.getMinParticipants();
+        final int max = event.getMaxParticipants();
+
+        if (count < min)
+        {
+            // Мало игроков — красный + подсказка минимума
+            return "<font color=\"FF4444\">" + count + "</font>/" + max + " <font color=\"999999\">(мин. " + min + ")</font>";
+        }
+        // Достаточно — золото
+        return "<font color=\"LEVEL\">" + count + "</font>/" + max;
+    }
 }

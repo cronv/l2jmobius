@@ -17,21 +17,16 @@ import org.l2jmobius.gameserver.mechanics.events.EventType;
 import org.l2jmobius.gameserver.mechanics.events.holders.actor.player.OnPlayerLogout;
 import org.l2jmobius.gameserver.mechanics.events.listeners.ConsumerEventListener;
 
-/**
- * Singleton-реестр. EnumMap = массив под капотом: O(1).
- * ВАЖНО: циклы ивентов стартуют в start() ПОСЛЕ публикации INSTANCE,
- * иначе openRegistration() внутри конструктора получит getInstance() == null.
- */
 public final class GameEventManager
 {
-	private final EnumMap<GameEventType, AbstractGameEvent> _events = new EnumMap<>(GameEventType.class);
-	private final IGameEvent[] _sortedByName; // сортировка A...Z один раз при старте
-	private final List<GameEventListener> _listeners = new CopyOnWriteArrayList<>();
-	private final AtomicLong _revision = new AtomicLong(); // версия для кэша доски
-	private volatile boolean _started;
+	private static final Logger LOGGER = Logger.getLogger(GameEventManager.class.getName());
+	private static final DateTimeFormatter LOG_TIME = DateTimeFormatter.ofPattern("dd.MM HH:mm");
 
-    private static final Logger LOGGER = Logger.getLogger(GameEventManager.class.getName());
-    private static final DateTimeFormatter LOG_TIME = DateTimeFormatter.ofPattern("dd.MM HH:mm");
+	private final EnumMap<GameEventType, IGameEvent> _events = new EnumMap<>(GameEventType.class);
+	private final IGameEvent[] _sortedByName;
+	private final List<GameEventListener> _listeners = new CopyOnWriteArrayList<>();
+	private final AtomicLong _revision = new AtomicLong();
+	private volatile boolean _started;
 
 	private GameEventManager()
 	{
@@ -44,40 +39,49 @@ public final class GameEventManager
 		Arrays.sort(_sortedByName, Comparator.comparing(IGameEvent::getDisplayName, String.CASE_INSENSITIVE_ORDER));
 
 		Containers.Global().addListener(new ConsumerEventListener(Containers.Global(), EventType.ON_PLAYER_LOGOUT, (OnPlayerLogout event) -> onPlayerLogout(event), this));
-
-		// Циклы здесь НЕ стартуем — INSTANCE ещё не присвоен (reentrancy в <clinit>).
 	}
 
-	/** ScriptEngine вызывает main у скриптов датапака. */
 	public static void main(String[] args)
 	{
-		getInstance().start(); // INSTANCE уже опубликован — обратные вызовы безопасны
+		getInstance().start();
 	}
 
-	/** Запуск циклов после полной инициализации. Идемпотентен. */
-    private void start()
-    {
-        if (_started)
-        {
-            return;
-        }
-        _started = true;
+	private void start()
+	{
+		if (_started)
+		{
+			return;
+		}
+		_started = true;
 
-        for (AbstractGameEvent event : _events.values())
-        {
-            event.scheduleFirstCycle();
-        }
+		addListener(new GameEventListener()
+		{
+			@Override
+			public void onStateChanged(IGameEvent event, EventState oldState, EventState newState)
+			{
+				LOGGER.info("GameEvents: " + event.getDisplayName() + " " + oldState + " -> " + newState + " (participants: " + event.getParticipantCount() + ")");
+			}
+		});
 
-        LOGGER.info("GameEvents: Initialized " + _events.size() + " event(s).");
-        for (AbstractGameEvent event : _events.values())
-        {
-            LOGGER.info("GameEvents: " + event.getDisplayName() + " [" + event.getType() + "] state=" + event.getState() //
-                + ", next start " + LOG_TIME.format(Instant.ofEpochMilli(event.getNextStartMillis()).atZone(ZoneId.systemDefault())) //
-                + ", participants " + event.getParticipantCount() + "/" + event.getMaxParticipants());
-        }
-    }
+		for (IGameEvent event : _events.values())
+		{
+			// Только AbstractGameEvent имеет собственный lifecycle.
+			// Adapter-ивенты (TvTAdapter) управляются оригиналом через config.xml.
+			if (event instanceof AbstractGameEvent abstractEvent)
+			{
+				abstractEvent.scheduleFirstCycle();
+			}
+		}
 
-	/** Все ивенты, отсортированные A...Z. Read-only по соглашению. */
+		LOGGER.info("GameEvents: Initialized " + _events.size() + " event(s).");
+		for (IGameEvent event : _events.values())
+		{
+			final long nextStart = event.getNextStartMillis();
+			final String nextStr = (nextStart > 0) ? LOG_TIME.format(Instant.ofEpochMilli(nextStart).atZone(ZoneId.systemDefault())) : "config.xml";
+			LOGGER.info("GameEvents: " + event.getDisplayName() + " [" + event.getType() + "] state=" + event.getState() + ", next start " + nextStr + ", participants " + event.getParticipantCount() + "/" + event.getMaxParticipants());
+		}
+	}
+
 	public IGameEvent[] getEventsSorted()
 	{
 		return _sortedByName;
@@ -88,11 +92,10 @@ public final class GameEventManager
 		return _events.get(type);
 	}
 
-	/** Все "действующие" ивенты через bool active. */
 	public List<IGameEvent> getActiveEvents()
 	{
 		final List<IGameEvent> active = new ArrayList<>(4);
-		for (AbstractGameEvent event : _events.values())
+		for (IGameEvent event : _events.values())
 		{
 			if (event.isActive())
 			{
@@ -102,15 +105,17 @@ public final class GameEventManager
 		return active;
 	}
 
-	/** Замена дефолтной реализации типа своей (DI для сторонних dev). */
-	public void replaceEvent(GameEventType type, AbstractGameEvent implementation)
+	public void replaceEvent(GameEventType type, IGameEvent implementation)
 	{
-		final AbstractGameEvent old = _events.put(type, implementation);
-		if (old != null)
+		final IGameEvent old = _events.put(type, implementation);
+		if (old instanceof AbstractGameEvent abstractOld)
 		{
-			old.shutdown();
+			abstractOld.shutdown();
 		}
-		implementation.scheduleFirstCycle();
+		if (implementation instanceof AbstractGameEvent abstractNew)
+		{
+			abstractNew.scheduleFirstCycle();
+		}
 	}
 
 	public long getRevision()
@@ -146,15 +151,14 @@ public final class GameEventManager
 		}
 	}
 
-	/** Listener ядра: чистим регистрации вышедших игроков (только на этапе регистрации). */
 	public void onPlayerLogout(OnPlayerLogout event)
 	{
 		final int objectId = event.getPlayer().getObjectId();
-		for (AbstractGameEvent gameEvent : _events.values())
+		for (IGameEvent gameEvent : _events.values())
 		{
-			if (gameEvent.getState() == EventState.REGISTERING)
+			if ((gameEvent.getState() == EventState.REGISTERING) && (gameEvent instanceof AbstractGameEvent abstractEvent))
 			{
-				gameEvent.removeParticipant(objectId);
+				abstractEvent.removeParticipant(objectId);
 			}
 		}
 	}

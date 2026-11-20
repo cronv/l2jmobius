@@ -87,7 +87,7 @@ import org.l2jmobius.gameserver.util.StatSet;
  */
 public class TvT extends Event
 {
-	enum EventState
+	public enum EventState
 	{
 		INACTIVE,
 		PARTICIPATING,
@@ -131,7 +131,7 @@ public class TvT extends Event
 	private static final int INACTIVITY_TIME = 2; // Minutes
 	private static final int MINIMUM_PARTICIPANT_LEVEL = 85;
 	private static final int MAXIMUM_PARTICIPANT_LEVEL = 200;
-	private static final int MINIMUM_PARTICIPANT_COUNT = 4;
+	private static final int MINIMUM_PARTICIPANT_COUNT = 2;
 	private static final int MAXIMUM_PARTICIPANT_COUNT = 24; // Scoreboard has 25 slots
 	private static final int PARTY_MEMBER_COUNT = 7;
 	private static final ItemHolder REWARD = new ItemHolder(57, 1000000); // Adena
@@ -1281,7 +1281,13 @@ public class TvT extends Event
 			PVP_WORLD.destroy();
 			PVP_WORLD = null;
 		}
-		
+
+		// Clear all lists.
+        PLAYER_LIST.clear();
+        PLAYER_SCORES.clear();
+        BLUE_TEAM.clear();
+        RED_TEAM.clear();
+
 		// Send message to players.
 		World.broadcastToAllOnlinePlayers("TvT Event: Event was canceled.");
 		
@@ -1379,7 +1385,8 @@ public class TvT extends Event
 	@Override
 	public boolean eventBypass(Player player, String bypass)
 	{
-		return false;
+		onEvent(bypass, null, player);
+        return true;
 	}
 	
 	/**
@@ -1391,4 +1398,49 @@ public class TvT extends Event
 	{
 		new TvT();
 	}
+
+    public EventState getEventState()
+    {
+        return _state;
+    }
+
+    public int getRegisteredCount()
+    {
+        return PLAYER_LIST.size();
+    }
+
+    public boolean isPlayerRegistered(Player player)
+    {
+        return PLAYER_LIST.contains(player);
+    }
+
+    public int getMinimumParticipants()
+    {
+        return MINIMUM_PARTICIPANT_COUNT;
+    }
+
+    public int getMaximumParticipants()
+    {
+        return MAXIMUM_PARTICIPANT_COUNT;
+    }
+
+    public int getMinimumLevel()
+    {
+        return MINIMUM_PARTICIPANT_LEVEL;
+    }
+
+    public int getMaximumLevel()
+    {
+        return MAXIMUM_PARTICIPANT_LEVEL;
+    }
+
+    public int getBlueScore()
+    {
+        return BLUE_SCORE;
+    }
+
+    public int getRedScore()
+    {
+        return RED_SCORE;
+    }
 }
